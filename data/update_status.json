@@ -1,5 +1,10 @@
 {
-  "last_success": null,
-  "total_papers": 27,
-  "notes": "尚未运行自动检索；原站27篇题录等待逐项核验。"
+  "last_success": "2026-10-24T15:10:07+00:00",
+  "queries_ok": 19,
+  "queries_total": 19,
+  "queries_failed": 0,
+  "papers_added": 69,
+  "pubmed_records_checked": 69,
+  "total_papers": 96,
+  "notes": "PubMed 题录自动收录；比赛和会议尚未自动抓取。"
 }
