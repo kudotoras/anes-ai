@@ -1,0 +1,342 @@
+[
+  {
+    "date": "2026-08-03",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_bd593a9a1ee9",
+      "paper_b53fb0db4c56"
+    ],
+    "competition_ids": [
+      "competition_d7a00c1cba"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_33d1d9c640",
+      "conference_7f04effad7"
+    ],
+    "paper_count": 2,
+    "competition_count": 1,
+    "conference_count": 3
+  },
+  {
+    "date": "2026-08-05",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [],
+    "competition_ids": [],
+    "conference_ids": [],
+    "paper_count": 0,
+    "competition_count": 0,
+    "conference_count": 0
+  },
+  {
+    "date": "2026-08-06",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_10403f268a7b",
+      "paper_864d559c4057",
+      "paper_ebb761838c0c"
+    ],
+    "competition_ids": [],
+    "conference_ids": [],
+    "paper_count": 3,
+    "competition_count": 0,
+    "conference_count": 0
+  },
+  {
+    "date": "2026-08-07",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_d20bc100ab8a"
+    ],
+    "competition_ids": [],
+    "conference_ids": [
+      "conference_a95ca37235"
+    ],
+    "paper_count": 1,
+    "competition_count": 0,
+    "conference_count": 1
+  },
+  {
+    "date": "2026-08-09",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_aa76e9f27a69"
+    ],
+    "competition_ids": [],
+    "conference_ids": [
+      "conference_51505f5f78"
+    ],
+    "paper_count": 1,
+    "competition_count": 0,
+    "conference_count": 1
+  },
+  {
+    "date": "2026-08-10",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_2779cf99a69b"
+    ],
+    "competition_ids": [
+      "competition_d7a00c1cba"
+    ],
+    "conference_ids": [],
+    "paper_count": 1,
+    "competition_count": 1,
+    "conference_count": 0
+  },
+  {
+    "date": "2026-08-11",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_a534537578db"
+    ],
+    "competition_ids": [],
+    "conference_ids": [
+      "conference_a95ca37235"
+    ],
+    "paper_count": 1,
+    "competition_count": 0,
+    "conference_count": 1
+  },
+  {
+    "date": "2026-09-23",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_7f7fb68a993f"
+    ],
+    "competition_ids": [],
+    "conference_ids": [],
+    "paper_count": 1,
+    "competition_count": 0,
+    "conference_count": 0
+  },
+  {
+    "date": "2026-09-24",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_a174cee42f5c",
+      "paper_5ff1616ce13f"
+    ],
+    "competition_ids": [],
+    "conference_ids": [],
+    "paper_count": 2,
+    "competition_count": 0,
+    "conference_count": 0
+  },
+  {
+    "date": "2026-10-05",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_5e8b6bdb7fe9"
+    ],
+    "competition_ids": [
+      "competition_d3316a9c26"
+    ],
+    "conference_ids": [
+      "conference_3a0a65f201"
+    ],
+    "paper_count": 1,
+    "competition_count": 1,
+    "conference_count": 1
+  },
+  {
+    "date": "2026-10-07",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_805813ca4265"
+    ],
+    "competition_ids": [],
+    "conference_ids": [
+      "conference_3a0a65f201"
+    ],
+    "paper_count": 1,
+    "competition_count": 0,
+    "conference_count": 1
+  },
+  {
+    "date": "2026-10-08",
+    "record_status": "partially_recovered_historical_conversation",
+    "paper_ids": [
+      "paper_08bdb66b8ac1"
+    ],
+    "competition_ids": [
+      "competition_d3316a9c26"
+    ],
+    "conference_ids": [
+      "conference_3a0a65f201"
+    ],
+    "paper_count": 1,
+    "competition_count": 1,
+    "conference_count": 1
+  },
+  {
+    "date": "2026-10-18",
+    "record_status": "daily_brief_visible_in_conversation",
+    "paper_ids": [
+      "paper_ba7204aa33f2",
+      "paper_f1817075c019",
+      "paper_f0df187577f1",
+      "paper_dada8858d23c"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "competition_c4b8c9eb04"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2"
+    ],
+    "paper_count": 4,
+    "competition_count": 2,
+    "conference_count": 1
+  },
+  {
+    "date": "2026-10-19",
+    "record_status": "daily_brief_visible_in_conversation",
+    "paper_ids": [
+      "paper_b5d511778d74",
+      "paper_754dd73199ab",
+      "paper_1565f8b6c858",
+      "paper_96e09a25904d"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "competition_c4b8c9eb04",
+      "competition_df92d1669e"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95688579fb",
+      "conference_95a23edf4a",
+      "conference_b40b8bd06f"
+    ],
+    "paper_count": 4,
+    "competition_count": 3,
+    "conference_count": 4
+  },
+  {
+    "date": "2026-10-20",
+    "record_status": "daily_brief_visible_in_conversation",
+    "paper_ids": [
+      "paper_cbe7c8890644",
+      "paper_c105105bd364",
+      "paper_aeb22676ce25"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "competition_c4b8c9eb04",
+      "competition_945b9a72d0",
+      "competition_e52bc9726b",
+      "competition_df92d1669e"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95688579fb",
+      "conference_95a23edf4a"
+    ],
+    "paper_count": 3,
+    "competition_count": 5,
+    "conference_count": 3
+  },
+  {
+    "date": "2026-10-21",
+    "record_status": "daily_brief_visible_in_conversation",
+    "paper_ids": [
+      "paper_ff451ace377a",
+      "paper_97d28adea407",
+      "paper_626294886bd7"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "competition_c4b8c9eb04",
+      "competition_945b9a72d0",
+      "competition_e52bc9726b",
+      "competition_df92d1669e"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95688579fb",
+      "conference_95a23edf4a",
+      "conference_8d528a0f54",
+      "conference_bfdb156026"
+    ],
+    "paper_count": 3,
+    "competition_count": 5,
+    "conference_count": 5
+  },
+  {
+    "date": "2026-10-22",
+    "record_status": "daily_brief_visible_in_conversation",
+    "paper_ids": [
+      "paper_607fe65b2c1e",
+      "paper_371b56bd1baf",
+      "paper_c00e40761fed",
+      "paper_816ebb86a4a3"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "competition_c4b8c9eb04",
+      "competition_945b9a72d0",
+      "competition_e52bc9726b"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95688579fb",
+      "conference_95a23edf4a",
+      "conference_318172fa93"
+    ],
+    "paper_count": 4,
+    "competition_count": 4,
+    "conference_count": 4
+  },
+  {
+    "date": "2026-10-23",
+    "record_status": "daily_brief_visible_in_conversation",
+    "paper_ids": [
+      "paper_776b4bca2182",
+      "paper_06f28fd49993",
+      "paper_25a46fef31a3",
+      "paper_ba2f8e9bfb80"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "competition_c4b8c9eb04",
+      "competition_945b9a72d0",
+      "competition_e52bc9726b",
+      "competition_97722a8358"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95688579fb",
+      "conference_95a23edf4a",
+      "conference_3a0a65f201"
+    ],
+    "paper_count": 4,
+    "competition_count": 5,
+    "conference_count": 4
+  },
+  {
+    "date": "2026-10-24",
+    "record_status": "daily_brief_visible_in_conversation",
+    "paper_ids": [
+      "paper_e305974489c6",
+      "paper_3ce593cf5d94",
+      "paper_bebd96a07805",
+      "paper_a8341d0bdfa7"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "competition_c4b8c9eb04",
+      "competition_945b9a72d0",
+      "competition_e52bc9726b"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95688579fb",
+      "conference_95a23edf4a",
+      "conference_8d528a0f54"
+    ],
+    "paper_count": 4,
+    "competition_count": 4,
+    "conference_count": 4
+  }
+]
