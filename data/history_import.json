@@ -1,0 +1,2291 @@
+{
+  "archive_note": "基于可恢复的历史简报重建，部分条目未核验；赛事和会议以历史记录展示，截止日期不代表目前仍开放",
+  "papers": [
+    {
+      "id": "paper_e305974489c6",
+      "title_en": "Human oversight of erroneous clinical AI and decision support a systematic review and meta analysis",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-23",
+      "doi": "10.1038/s41746-026-03408-5",
+      "source_url": "https://www.nature.com/articles/s41746-026-03408-5",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03408-5",
+      "study_type": "系统综述与Meta分析",
+      "summary_zh": "系统综述：46份报告、41个独立队列集群；错误AI建议可造成自动化偏倚。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": false,
+      "link_status": "verified_2026-10-24",
+      "verification_status": "2026-10-24出版商网页核实",
+      "brief_dates": [
+        "2026-10-24"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_3ce593cf5d94",
+      "title_en": "Sequential diagnosis with language models",
+      "title_zh": null,
+      "journal": "Science",
+      "first_online": "2026-10-22",
+      "doi": "10.1126/science.aeh7930",
+      "source_url": "https://www.science.org/doi/10.1126/science.aeh7930",
+      "lookup_url": "https://www.science.org/doi/10.1126/science.aeh7930",
+      "study_type": null,
+      "summary_zh": "304例NEJM复杂病例+325例MIMIC-IV-ED病例；交互式序贯诊断基准与成本约束。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-10-24"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_bebd96a07805",
+      "title_en": "Large language models for multimodal clinical predictive modeling: a systematic review",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-22",
+      "doi": "10.1038/s41746-026-03349-z",
+      "source_url": "https://www.nature.com/articles/s41746-026-03349-z",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03349-z",
+      "study_type": "系统综述",
+      "summary_zh": "系统综述：641筛57篇，多模态融合分Embedding、Extraction与Text fusion。",
+      "categories": [
+        "医学基础模型与多模态"
+      ],
+      "needs_review": false,
+      "link_status": "verified_2026-10-24",
+      "verification_status": "2026-10-24出版商网页已核实",
+      "brief_dates": [
+        "2026-10-24"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_607fe65b2c1e",
+      "title_en": "Silent evaluation reveals context-dependent validity of automated metrics for AI-generated clinical messages",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-21",
+      "doi": "10.1038/s41746-026-03211-2",
+      "source_url": "https://www.nature.com/articles/s41746-026-03211-2",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03211-2",
+      "study_type": null,
+      "summary_zh": "21073可见AI草稿与45127静默草稿；自动文本相似度不等同临床正确性。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-22"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_371b56bd1baf",
+      "title_en": "Paradoxical inflation of prediction model performance measures in minority patient subgroups: the role of upstream bias",
+      "title_zh": null,
+      "journal": "npj Health Systems",
+      "first_online": "2026-10-21",
+      "doi": "10.1038/s44401-026-00158-0",
+      "source_url": "https://www.nature.com/articles/s44401-026-00158-0",
+      "lookup_url": "https://www.nature.com/articles/s44401-026-00158-0",
+      "study_type": null,
+      "summary_zh": "24040围术期患者模型公平性分析；病例组合可影响分组AUROC。",
+      "categories": [
+        "联邦学习与跨中心验证"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-22"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_c00e40761fed",
+      "title_en": "Multi-site real-world performance of commercial AI for pulmonary and incidental pulmonary embolism detection",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-21",
+      "doi": "10.1038/s41746-026-03418-3",
+      "source_url": "https://www.nature.com/articles/s41746-026-03418-3",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03418-3",
+      "study_type": null,
+      "summary_zh": "17家医疗机构评估已许可肺栓塞AI在临床的敏感度；外部性能漂移与标签质量。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-22"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_816ebb86a4a3",
+      "title_en": "A Generative AI-powered navigation system for precision CBCT-guided lung biopsies: a randomized controlled trial",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-21",
+      "doi": "10.1038/s41746-026-03355-1",
+      "source_url": "https://www.nature.com/articles/s41746-026-03355-1",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03355-1",
+      "study_type": null,
+      "summary_zh": "多中心肺穿刺导航随机试验；医生工作流与患者结局共同评价。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-22"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_776b4bca2182",
+      "title_en": "Variability in automated sepsis case detection: a systematic analysis of implementation methods in clinical data repositories",
+      "title_zh": null,
+      "journal": "JAMIA",
+      "first_online": "2026-10-20",
+      "doi": "10.1093/jamia/ocag144",
+      "source_url": "https://doi.org/10.1093/jamia/ocag144",
+      "lookup_url": "https://doi.org/10.1093/jamia/ocag144",
+      "study_type": null,
+      "summary_zh": "64项MIMIC/eICU脓毒症识别研究，定义实现导致检出率差异；适合目标试验模拟。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-23"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_ff451ace377a",
+      "title_en": "Expertise modulates automation bias and sentinel behavior in human–AI collaborative diagnosis of neonatal pneumoperitoneum",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-20",
+      "doi": "10.1038/s41746-026-03399-3",
+      "source_url": "https://www.nature.com/articles/s41746-026-03399-3",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03399-3",
+      "study_type": null,
+      "summary_zh": "1750次影像判读，受训者52%接受错误AI建议；医生在环应通过错误注入模拟验证。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-21"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_06f28fd49993",
+      "title_en": "Agentic artificial intelligence for code status extraction from clinical notes: a cross-model comparison of single agent, reflective agent, and multiagent extractor-reviewer system",
+      "title_zh": null,
+      "journal": "JAMIA",
+      "first_online": "2026-10-20",
+      "doi": "10.1093/jamia/ocag179",
+      "source_url": "https://doi.org/10.1093/jamia/ocag179",
+      "lookup_url": "https://doi.org/10.1093/jamia/ocag179",
+      "study_type": null,
+      "summary_zh": "MIMIC-IV-Note 1000份出院记录比较单Agent、自反思、多Agent抽取；复杂系统不一定更好。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-23"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_cbe7c8890644",
+      "title_en": "Towards understanding and monitorability of reasoning LLMs",
+      "title_zh": null,
+      "journal": "Nature Machine Intelligence",
+      "first_online": "2026-10-19",
+      "doi": "10.1038/s42256-026-01333-6",
+      "source_url": "https://www.nature.com/articles/s42256-026-01333-6",
+      "lookup_url": "https://www.nature.com/articles/s42256-026-01333-6",
+      "study_type": null,
+      "summary_zh": "编辑部观点：逐步推理文本不等同模型内部推理的可观测性。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-10-20"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_c105105bd364",
+      "title_en": "Reinforcement learning for repetitive transcranial magnetic stimulation protocol selection in treatment-resistant depression",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-19",
+      "doi": "10.1038/s41746-026-03417-4",
+      "source_url": "https://www.nature.com/articles/s41746-026-03417-4",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03417-4",
+      "study_type": null,
+      "summary_zh": "19临床机构1609患者，多中心强化学习治疗动作选择及留出机构评价；观察性策略一致关联非RCT因果效应。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-20"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_97d28adea407",
+      "title_en": "Foundation artificial intelligence models for health recognition by use of face photographs (FAHR-Face): a model development and validation study",
+      "title_zh": null,
+      "journal": "The Lancet Digital Health",
+      "first_online": "2026-10-19",
+      "doi": "10.1016/j.landig.2026.101056",
+      "source_url": "https://doi.org/10.1016/j.landig.2026.101056",
+      "lookup_url": "https://doi.org/10.1016/j.landig.2026.101056",
+      "study_type": null,
+      "summary_zh": "FAHR-Face：4000万以上人脸预训练，多中心预后风险相关；不证明术前临床收益。",
+      "categories": [
+        "医学基础模型与多模态"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-21"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_25a46fef31a3",
+      "title_en": "Designing evaluation rubrics for the development of virtual human twins in healthcare",
+      "title_zh": null,
+      "journal": "JAMIA",
+      "first_online": "2026-10-19",
+      "doi": "10.1093/jamia/ocag174",
+      "source_url": "https://doi.org/10.1093/jamia/ocag174",
+      "lookup_url": "https://doi.org/10.1093/jamia/ocag174",
+      "study_type": null,
+      "summary_zh": "26项虚拟人体数字孪生研究，五级成熟度评价；区分预测、干预模拟、动态更新。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": false,
+      "link_status": "verified_2026-10-24",
+      "verification_status": "期刊网页2026-10-24核实",
+      "brief_dates": [
+        "2026-10-23"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_aeb22676ce25",
+      "title_en": "A generalizable deep learning model for predicting opioid use disorder using language modeling for cross-EHR data harmonization",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-19",
+      "doi": "10.1038/s41746-026-03392-w",
+      "source_url": "https://www.nature.com/articles/s41746-026-03392-w",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03392-w",
+      "study_type": null,
+      "summary_zh": "跨EHR字段编码与约600万VA患者外部验证；联邦学习研究可以参考特征协调。",
+      "categories": [
+        "联邦学习与跨中心验证"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-20"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_b5d511778d74",
+      "title_en": "AI-supported first consultation preparation in oncology: a real-world clinical usability study",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-17",
+      "doi": "10.1038/s41746-026-03396-6",
+      "source_url": "https://www.nature.com/articles/s41746-026-03396-6",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03396-6",
+      "study_type": null,
+      "summary_zh": "9名医生33次肿瘤门诊，工作负荷降低但摘要完整率63.6%；CCI完整率需单独评价。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-19"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_ba2f8e9bfb80",
+      "title_en": "Indirect Influences of Artificial Intelligence Advice on Complex Sepsis Treatment Decisions",
+      "title_zh": null,
+      "journal": "arXiv",
+      "first_online": "2026-10-16",
+      "doi": null,
+      "source_url": "https://arxiv.org/abs/2610.24313",
+      "lookup_url": "https://arxiv.org/abs/2610.24313",
+      "study_type": null,
+      "summary_zh": "预印本；6928脓毒症患者数据及228名ICU医生模拟决策实验。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-23"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_754dd73199ab",
+      "title_en": "Clinical Decision Support for Fall Prevention in Primary Care: The eSTEPS Cluster Randomized Clinical Trial",
+      "title_zh": null,
+      "journal": "JAMA Network Open",
+      "first_online": "2026-10-16",
+      "doi": null,
+      "source_url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855390",
+      "lookup_url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855390",
+      "study_type": null,
+      "summary_zh": "11945人22机构集群随机试验；从采纳率到患者结局的分层评价。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-19"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_ba7204aa33f2",
+      "title_en": "A multi-stage validation framework for trustworthy large-scale clinical information extraction using large language models",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-16",
+      "doi": "10.1038/s41746-026-03341-7",
+      "source_url": "https://www.nature.com/articles/s41746-026-03341-7",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03341-7",
+      "study_type": null,
+      "summary_zh": "病历抽取多阶段验证，919783份临床记录；规则过滤、独立模型复核与选择性专家审查。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-18"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_f1817075c019",
+      "title_en": "Human-in-the-loop large language model framework for identification of cutaneous immune-related adverse events",
+      "title_zh": null,
+      "journal": "npj Precision Oncology",
+      "first_online": "2026-10-15",
+      "doi": "10.1038/s41698-026-01737-y",
+      "source_url": "https://www.nature.com/articles/s41698-026-01737-y",
+      "lookup_url": "https://www.nature.com/articles/s41698-026-01737-y",
+      "study_type": null,
+      "summary_zh": "多Agent检索增强和医生复核，报告F1及工作量变化；适用于CCI Agent临床可用性比较。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-18"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_1565f8b6c858",
+      "title_en": "Clinician Use of an Artificial Intelligence–Enabled Clinical Information Platform",
+      "title_zh": null,
+      "journal": "JAMA",
+      "first_online": "2026-10-15",
+      "doi": null,
+      "source_url": "https://jamanetwork.com/journals/jama/fullarticle/2855491",
+      "lookup_url": "https://jamanetwork.com/journals/jama/fullarticle/2855491",
+      "study_type": null,
+      "summary_zh": "JAMA约95万临床用户2.71亿查询的真实使用模式；研究Agent人机协作与任务采纳。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-19"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_96e09a25904d",
+      "title_en": "An artificial intelligence framework for end-to-end rare disease phenotyping from clinical notes using large language models",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-15",
+      "doi": "10.1038/s41746-026-03275-0",
+      "source_url": "https://www.nature.com/articles/s41746-026-03275-0",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03275-0",
+      "study_type": null,
+      "summary_zh": "RARE-PHENIX：11中心2671人开发；独立143患者16357份病历外部验证；抽取、HPO映射与表型排序。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-19"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_f0df187577f1",
+      "title_en": "Real-world evaluation of a multilingual agentic retrieval-augmented clinical AI framework for evidence-grounded medical decision support",
+      "title_zh": null,
+      "journal": "Scientific Reports",
+      "first_online": "2026-10-14",
+      "doi": "10.1038/s41598-026-75369-4",
+      "source_url": "https://www.nature.com/articles/s41598-026-75369-4",
+      "lookup_url": "https://www.nature.com/articles/s41598-026-75369-4",
+      "study_type": null,
+      "summary_zh": "真实世界医疗Agent 70天835用户；标准RAG与完整Agent需消融比较。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-18"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_54832d55ba13",
+      "title_en": "Repurposing adult AI radiograph models for neonatal care through continual learning: an international multicentre study",
+      "title_zh": null,
+      "journal": "Nature Biomedical Engineering",
+      "first_online": "2026-10-13",
+      "doi": "10.1038/s41551-026-01812-6",
+      "source_url": "https://www.nature.com/articles/s41551-026-01812-6",
+      "lookup_url": "https://www.nature.com/articles/s41551-026-01812-6",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "联邦学习与跨中心验证"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_ddc7572148de",
+      "title_en": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
+      "title_zh": null,
+      "journal": "Nature Medicine",
+      "first_online": "2026-10-13",
+      "doi": "10.1038/s41591-026-04680-4",
+      "source_url": "https://www.nature.com/articles/s41591-026-04680-4",
+      "lookup_url": "https://www.nature.com/articles/s41591-026-04680-4",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_2e5aa016473c",
+      "title_en": "AEGIS: an operational infrastructure for post-market governance of adaptive medical AI under US and EU regulatory frameworks",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-13",
+      "doi": "10.1038/s41746-026-03290-1",
+      "source_url": "https://www.nature.com/articles/s41746-026-03290-1",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03290-1",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_566e32f2c18e",
+      "title_en": "MIMIC-IV-Echo: An Echocardiography Dataset Integrated with the MIMIC-IV Ecosystem",
+      "title_zh": null,
+      "journal": "Scientific Data",
+      "first_online": "2026-10-12",
+      "doi": "10.1038/s41597-026-08386-7",
+      "source_url": "https://www.nature.com/articles/s41597-026-08386-7",
+      "lookup_url": "https://www.nature.com/articles/s41597-026-08386-7",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_4406b9ead068",
+      "title_en": "The next frontier in healthcare simulation is human-AI teaming",
+      "title_zh": null,
+      "journal": "Advances in Simulation",
+      "first_online": "2026-10-09",
+      "doi": null,
+      "source_url": "https://link.springer.com/article/10.1186/s41077-026-00479-y",
+      "lookup_url": "https://link.springer.com/article/10.1186/s41077-026-00479-y",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_fcb937b0488e",
+      "title_en": "Early prediction of prolonged ICU stay in sepsis patients using an explainable hybrid deep learning model",
+      "title_zh": "脓毒症 ICU 住院延长预测：混合深度学习与外部验证",
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-09",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Early%20prediction%20of%20prolonged%20ICU%20stay%20in%20sepsis%20patients%20using%20an%20explainable%20hybrid%20deep%20learning%20model",
+      "study_type": "回顾性模型研究",
+      "summary_zh": "利用入 ICU 首24小时的17个SOFA相关特征预测脓毒症患者ICU住院超过4天；MIMIC-IV AUROC 0.848，韩国两队列外部AUROC 0.823、0.781。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online（已接受稿）"
+    },
+    {
+      "id": "paper_e03c66ffbc85",
+      "title_en": "Artificial Intelligence-Driven Clinical Decision Support for Postoperative Delirium Prevention: A Pragmatic Randomized Controlled Trial",
+      "title_zh": null,
+      "journal": "Anesthesia & Analgesia",
+      "first_online": "2026-10-09",
+      "doi": "10.1213/ANE.0000000000008318",
+      "source_url": "https://doi.org/10.1213/ANE.0000000000008318",
+      "lookup_url": "https://doi.org/10.1213/ANE.0000000000008318",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "POD/PND与围术期结局"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_d13f82b07d13",
+      "title_en": "A source-grounded benchmark for extracting causality-relevant pharmacovigilance evidence from liver injury case narratives",
+      "title_zh": null,
+      "journal": "Unknown (Springer/BMC)",
+      "first_online": "2026-10-09",
+      "doi": null,
+      "source_url": "https://link.springer.com/article/10.1186/s40360-026-01247-4",
+      "lookup_url": "https://link.springer.com/article/10.1186/s40360-026-01247-4",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_08bdb66b8ac1",
+      "title_en": "SPIRIT-CONSORT-ELM: element-level annotated dataset and large language model approach for assessing randomized controlled trial reporting",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-10-06",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=SPIRIT-CONSORT-ELM%3A%20element-level%20annotated%20dataset%20and%20large%20language%20model%20approach%20for%20assessing%20randomized%20controlled%20trial%20reporting",
+      "study_type": null,
+      "summary_zh": "2026年10月8日简报提及RCT报告规范条目级标注与LLM评估。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "unavailable",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-10-08"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_9fcb132dd3f9",
+      "title_en": "Closed-loop vasopressor systems: surrogate benefit, heterogeneous targets, and uncertain generalisability",
+      "title_zh": "闭环升压药证据再审视：替代终点、目标带异质性与外推边界",
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "first_online": "2026-10-05",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Closed-loop%20vasopressor%20systems%3A%20surrogate%20benefit%2C%20heterogeneous%20targets%2C%20and%20uncertain%20generalisability",
+      "study_type": "方法学评论",
+      "summary_zh": "方法学来信指出闭环升压药试验混合手术和重症人群，MAP目标带不同，安全性推断存在较大的外推限制。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_5e8b6bdb7fe9",
+      "title_en": "An adaptive federated few-shot learning method with intelligent device selection",
+      "title_zh": null,
+      "journal": "待核实",
+      "first_online": "2026-10-05",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=An%20adaptive%20federated%20few-shot%20learning%20method%20with%20intelligent%20device%20selection",
+      "study_type": null,
+      "summary_zh": "2026年10月5日简报提及联邦小样本学习与设备选择；原文链接未恢复。",
+      "categories": [
+        "联邦学习与跨中心验证"
+      ],
+      "needs_review": true,
+      "link_status": "unavailable",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-10-05"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_805813ca4265",
+      "title_en": "Development and validation of VentPilot: an AI-based recommendation system for mechanical ventilation",
+      "title_zh": null,
+      "journal": "Journal of Intensive Care",
+      "first_online": "2026-10-01",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Development%20and%20validation%20of%20VentPilot%3A%20an%20AI-based%20recommendation%20system%20for%20mechanical%20ventilation",
+      "study_type": null,
+      "summary_zh": "2026年10月7日简报提到智能机械通气推荐系统；链接待核验。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "unavailable",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-10-07"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_89bf4d5214dd",
+      "title_en": "Artificial intelligence for early detection and prevention of ventilator-induced lung injury: a scoping review",
+      "title_zh": "AI识别与预防呼吸机相关肺损伤：证据到哪一步？",
+      "journal": "Critical Care",
+      "first_online": "2026-09-30",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Artificial%20intelligence%20for%20early%20detection%20and%20prevention%20of%20ventilator-induced%20lung%20injury%3A%20a%20scoping%20review",
+      "study_type": "范围综述",
+      "summary_zh": "范围综述纳入52项研究，涉及人机不同步识别、ARDS预测和保护性通气优化；外部验证与患者结局证据不足。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online（已接受稿）"
+    },
+    {
+      "id": "paper_d7dd0e0af198",
+      "title_en": "Hypotension Prediction Index versus High Mean Arterial Pressure Target for Preventing Intraoperative Hypotension: A Randomized Controlled Trial",
+      "title_zh": "HPI预警与较高MAP目标：直接比较两种低血压预防策略",
+      "journal": "Anesthesiology",
+      "first_online": "2026-09-29",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Hypotension%20Prediction%20Index%20versus%20High%20Mean%20Arterial%20Pressure%20Target%20for%20Preventing%20Intraoperative%20Hypotension%3A%20A%20Randomized%20Controlled%20Trial",
+      "study_type": "随机对照试验",
+      "summary_zh": "随机试验直接比较术中低血压HPI预警和较高MAP目标；关键在于比较复杂算法与简单临床策略的增量价值。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "PubMed题录日期"
+    },
+    {
+      "id": "paper_3842eb2749c5",
+      "title_en": "A scalable method for validated data extraction from electronic health records with large language models",
+      "title_zh": null,
+      "journal": "Unknown (DOI 10.1177)",
+      "first_online": "2026-09-29",
+      "doi": "10.1177/2993091X261492372",
+      "source_url": "https://doi.org/10.1177/2993091X261492372",
+      "lookup_url": "https://doi.org/10.1177/2993091X261492372",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_67fcc90dda49",
+      "title_en": "Beyond risk scores: artificial intelligence representations of physiological resilience in surgical patients",
+      "title_zh": "超越静态风险评分：用AI表征手术患者的生理韧性",
+      "journal": "British Journal of Anaesthesia",
+      "first_online": "2026-09-28",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Beyond%20risk%20scores%3A%20artificial%20intelligence%20representations%20of%20physiological%20resilience%20in%20surgical%20patients",
+      "study_type": "社论/观点",
+      "summary_zh": "提出把围术期生理韧性理解为随刺激与麻醉管理变化的动态系统属性。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_b4cb6e454f15",
+      "title_en": "Deep-learning-based postoperative desaturation prediction using spirometry image data",
+      "title_zh": "用肺功能环图像预测术后低氧：外部验证表现下降",
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "first_online": "2026-09-27",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Deep-learning-based%20postoperative%20desaturation%20prediction%20using%20spirometry%20image%20data",
+      "study_type": "回顾性外部验证研究",
+      "summary_zh": "两院回顾性研究开发207例、外部45例；CNN内部与外部AUROC 0.825和0.688。",
+      "categories": [
+        "POD/PND与围术期结局"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "正式发表日期"
+    },
+    {
+      "id": "paper_ed6b4491d6c8",
+      "title_en": "AnesTRACE: Benchmarking Intraoperative Anesthesia from Multimodal Perception to Multi-step Decision-Making",
+      "title_zh": null,
+      "journal": "arXiv",
+      "first_online": "2026-09-26",
+      "doi": null,
+      "source_url": "https://arxiv.org/abs/2609.32740",
+      "lookup_url": "https://arxiv.org/abs/2609.32740",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_e6391b343a99",
+      "title_en": "AI-assisted preoperative anesthesia evaluation workflow versus conventional bedside evaluation: a randomized controlled non-inferiority trial",
+      "title_zh": "规则辅助术前评估：600例非劣效随机试验",
+      "journal": "BMC Anesthesiology",
+      "first_online": "2026-09-23",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=AI-assisted%20preoperative%20anesthesia%20evaluation%20workflow%20versus%20conventional%20bedside%20evaluation%3A%20a%20randomized%20controlled%20non-inferiority%20trial",
+      "study_type": "随机对照试验",
+      "summary_zh": "600例随机分组比较常规术前评估和小程序辅助、住院医师审核流程；评价ASA分级一致性和文书质量。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Epub"
+    },
+    {
+      "id": "paper_d57a389e6fb9",
+      "title_en": "A web-based interpretable machine learning model for immediate postoperative delirium risk stratification in elderly patients undergoing colorectal cancer surgery",
+      "title_zh": "老年结直肠癌术后即刻谵妄风险：可解释网页模型",
+      "journal": "BMC Anesthesiology",
+      "first_online": "2026-09-23",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=A%20web-based%20interpretable%20machine%20learning%20model%20for%20immediate%20postoperative%20delirium%20risk%20stratification%20in%20elderly%20patients%20undergoing%20colorectal%20cancer%20surgery",
+      "study_type": "前瞻性观察研究",
+      "summary_zh": "同一中心开发922例、时间验证394例；神经网络验证AUROC 0.888，不能当成独立外部验证。",
+      "categories": [
+        "POD/PND与围术期结局"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online（已接受稿）"
+    },
+    {
+      "id": "paper_37ea18db2231",
+      "title_en": "Multicenter External Validation of the PIPRA Model for Postoperative Delirium in Older Adults",
+      "title_zh": null,
+      "journal": "Anaesthesia Critical Care & Pain Medicine",
+      "first_online": "2026-09-21",
+      "doi": "10.1016/j.accpm.2026.101915",
+      "source_url": "https://doi.org/10.1016/j.accpm.2026.101915",
+      "lookup_url": "https://doi.org/10.1016/j.accpm.2026.101915",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "POD/PND与围术期结局"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_c8d2a13cfd97",
+      "title_en": "AI-Based Sepsis Prediction in Hospitalized Adults: Systematic Review, Subgroup Meta-Analysis, and Contextual Analysis of Clinical Burden",
+      "title_zh": "成人住院患者脓毒症AI预测：高AUROC背后的异质性与数据重用",
+      "journal": "Journal of Medical Internet Research",
+      "first_online": "2026-09-17",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=AI-Based%20Sepsis%20Prediction%20in%20Hospitalized%20Adults%3A%20Systematic%20Review%2C%20Subgroup%20Meta-Analysis%2C%20and%20Contextual%20Analysis%20of%20Clinical%20Burden",
+      "study_type": "系统综述/Meta分析",
+      "summary_zh": "综述34项研究，汇总AUROC 0.913，但预测区间0.660–0.983，存在数据重复使用和研究异质性。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "正式发表日期"
+    },
+    {
+      "id": "paper_a8341d0bdfa7",
+      "title_en": "On-premise medical AI agents for reliable clinical decision-making",
+      "title_zh": "本地部署医疗AI智能体：行为一致性和可靠性门控",
+      "journal": "Nature Medicine",
+      "first_online": "2026-09-15",
+      "doi": "10.1038/s41591-026-04609-x",
+      "source_url": "https://www.nature.com/articles/s41591-026-04609-x",
+      "lookup_url": "https://www.nature.com/articles/s41591-026-04609-x",
+      "study_type": "回顾性基准验证/医疗智能体开发",
+      "summary_zh": "本地临床Agent在MIMIC-IV衍生任务中达90.04%、83.8%诊断准确率；行为一致性可以选出需要人工复核的病例。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": false,
+      "link_status": "verified_2026-10-24",
+      "verification_status": "出版商网页于2026-10-24核实",
+      "brief_dates": [
+        "2026-10-24"
+      ],
+      "date_type": "Online；2026-10卷期"
+    },
+    {
+      "id": "paper_42cfdaa7f7ef",
+      "title_en": "Digitalization and artificial intelligence in intensive care and emergency medicine",
+      "title_zh": null,
+      "journal": "Not independently verified",
+      "first_online": "2026-09-15",
+      "doi": null,
+      "source_url": "https://link.springer.com/article/10.1007/s00063-026-01494-7",
+      "lookup_url": "https://link.springer.com/article/10.1007/s00063-026-01494-7",
+      "study_type": null,
+      "summary_zh": "既往简报索引条目；待回看原文提取详细研究结论和样本量。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_2fd07b9aaf63",
+      "title_en": "Artificial intelligence in predicting anesthetic complications: current techniques, clinical applications, and limitations",
+      "title_zh": "麻醉并发症预测的AI全景：技术、应用与局限",
+      "journal": "International Journal of Medical Informatics",
+      "first_online": null,
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Artificial%20intelligence%20in%20predicting%20anesthetic%20complications%3A%20current%20techniques%2C%20clinical%20applications%2C%20and%20limitations",
+      "study_type": "范围综述",
+      "summary_zh": "范围综述覆盖低血压、呼吸并发症、PONV和疼痛等麻醉AI预测应用及局限。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "正式卷期日期，非Epub"
+    },
+    {
+      "id": "paper_7f7fb68a993f",
+      "title_en": "Artificial intelligence and the future of the clinical workforce",
+      "title_zh": null,
+      "journal": "New England Journal of Medicine",
+      "first_online": "2026-09-12",
+      "doi": "10.1056/NEJMp2607831",
+      "source_url": "https://doi.org/10.1056/NEJMp2607831",
+      "lookup_url": "https://doi.org/10.1056/NEJMp2607831",
+      "study_type": null,
+      "summary_zh": "2026年9月简报历史线索：临床AI与医护工作岗位变化。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-09-23"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_dada8858d23c",
+      "title_en": "A hierarchical reinforcement learning and predictive control framework for automated multi-variable anesthesia",
+      "title_zh": null,
+      "journal": "Computers in Biology and Medicine",
+      "first_online": "2026-09-12",
+      "doi": "10.1016/j.compbiomed.2026.111922",
+      "source_url": "https://doi.org/10.1016/j.compbiomed.2026.111922",
+      "lookup_url": "https://doi.org/10.1016/j.compbiomed.2026.111922",
+      "study_type": null,
+      "summary_zh": "AReS虚拟患者44名；RL高层调GPC权重，与双药策略和OOD压力测试相关。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-18"
+      ],
+      "date_type": "2026-09-12 Epub；2026-10 正式卷期"
+    },
+    {
+      "id": "paper_a174cee42f5c",
+      "title_en": "A five-phase evaluation framework for diagnostic and predictive medical artificial intelligence",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-09-03",
+      "doi": "10.1038/s41746-026-03155-7",
+      "source_url": "https://www.nature.com/articles/s41746-026-03155-7",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03155-7",
+      "study_type": null,
+      "summary_zh": "早期9月简报提及预测/诊断AI五阶段评价框架。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-09-24"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_5ff1616ce13f",
+      "title_en": "Toward continuous quality observability in medicine",
+      "title_zh": null,
+      "journal": "npj Health Systems",
+      "first_online": "2026-09-02",
+      "doi": "10.1038/s44401-026-00146-4",
+      "source_url": "https://www.nature.com/articles/s44401-026-00146-4",
+      "lookup_url": "https://www.nature.com/articles/s44401-026-00146-4",
+      "study_type": null,
+      "summary_zh": "早期9月简报提及医疗质量的持续可观测性。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-09-24"
+      ],
+      "date_type": "历史简报所列"
+    },
+    {
+      "id": "paper_626294886bd7",
+      "title_en": "Toward unified and comprehensive automated electroencephalogram interpretation: a multicentre development and validation of an electroencephalogram foundation model",
+      "title_zh": null,
+      "journal": "The Lancet Digital Health",
+      "first_online": "2026-08-25",
+      "doi": "10.1016/j.landig.2026.101039",
+      "source_url": "https://doi.org/10.1016/j.landig.2026.101039",
+      "lookup_url": "https://doi.org/10.1016/j.landig.2026.101039",
+      "study_type": null,
+      "summary_zh": "MORGOTH脑电基础模型，52医院34602人；原始EEG表征可作为未来麻醉研究拓展。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史简报提供；本次未逐篇独立核验",
+      "brief_dates": [
+        "2026-10-21"
+      ],
+      "date_type": "历史简报所列（首次/正式发表语义待复核）"
+    },
+    {
+      "id": "paper_8e911942eac4",
+      "title_en": "An Electronic Health Record–Integrated, Large Language Model–Powered Tool to Triage Surgical Patients",
+      "title_zh": "LLM接入真实病历：6193例手术患者筛选共管需求",
+      "journal": "JAMA Network Open",
+      "first_online": "2026-08-20",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=An%20Electronic%20Health%20Record%E2%80%93Integrated%2C%20Large%20Language%20Model%E2%80%93Powered%20Tool%20to%20Triage%20Surgical%20Patients",
+      "study_type": "前瞻性实施/质量改进",
+      "summary_zh": "SCM Navigator在前瞻性部署阶段筛查6193例手术患者，研究AI术前共管建议与医生审查。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_a89e246283fe",
+      "title_en": "Prompt injection compromises large language model-based peer review: evidence from randomised controlled trial abstracts from anaesthesia journals",
+      "title_zh": "提示注入可干扰LLM同行评议",
+      "journal": "British Journal of Anaesthesia",
+      "first_online": "2026-08-11",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prompt%20injection%20compromises%20large%20language%20model-based%20peer%20review%3A%20evidence%20from%20randomised%20controlled%20trial%20abstracts%20from%20anaesthesia%20journals",
+      "study_type": "方法学来信",
+      "summary_zh": "方法学实验讨论隐蔽提示注入如何影响麻醉期刊随机试验摘要的LLM同行评议。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Epub；2026-10卷期"
+    },
+    {
+      "id": "paper_d20bc100ab8a",
+      "title_en": "Review of open foundation models and datasets for ECG and PPG waveforms",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": null,
+      "doi": "10.1038/s41746-026-03101-7",
+      "source_url": "https://www.nature.com/articles/s41746-026-03101-7",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03101-7",
+      "study_type": null,
+      "summary_zh": "2026年8月7日简报提及ECG/PPG基础模型与开放数据资源。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-07"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_aa76e9f27a69",
+      "title_en": "Predicting Alzheimer progression using EEG-based digital twins",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": null,
+      "doi": "10.1038/s41746-026-02997-5",
+      "source_url": "https://www.nature.com/articles/s41746-026-02997-5",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-02997-5",
+      "study_type": null,
+      "summary_zh": "2026年8月9日简报提及EEG数字孪生与阿尔茨海默病进展。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-09"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_10403f268a7b",
+      "title_en": "Policy optimized MedGemma for multimodal prostate cancer care",
+      "title_zh": null,
+      "journal": "待核实",
+      "first_online": null,
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Policy%20optimized%20MedGemma%20for%20multimodal%20prostate%20cancer%20care",
+      "study_type": null,
+      "summary_zh": "2026年8月6日简报标题可恢复，作者、DOI和样本量待核验。",
+      "categories": [
+        "医学基础模型与多模态"
+      ],
+      "needs_review": true,
+      "link_status": "unavailable",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-06"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_2779cf99a69b",
+      "title_en": "Multimodal artificial intelligence agents in healthcare: a scoping review",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": null,
+      "doi": "10.1038/s41746-026-03060-z",
+      "source_url": "https://www.nature.com/articles/s41746-026-03060-z",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03060-z",
+      "study_type": null,
+      "summary_zh": "2026年8月10日简报提及临床多模态Agent范围综述。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-10"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_a534537578db",
+      "title_en": "MedGuard: an LLM-based gatekeeper for detecting clinical risks in Chinese telemedicine consultations",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": null,
+      "doi": "10.1038/s41746-026-03116-0",
+      "source_url": "https://www.nature.com/articles/s41746-026-03116-0",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-03116-0",
+      "study_type": null,
+      "summary_zh": "2026年8月11日简报提及中文互联网诊疗大模型风险门控。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-11"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_864d559c4057",
+      "title_en": "An explainable generative AI system for video-to-report generation in capsule endoscopy",
+      "title_zh": null,
+      "journal": "待核实",
+      "first_online": null,
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=An%20explainable%20generative%20AI%20system%20for%20video-to-report%20generation%20in%20capsule%20endoscopy",
+      "study_type": null,
+      "summary_zh": "2026年8月6日简报标题可恢复，DOI及具体样本待核验。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "unavailable",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-06"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_ebb761838c0c",
+      "title_en": "A landscape analysis of access, equity, and reporting trends in digital health randomized controlled trials",
+      "title_zh": null,
+      "journal": "待核实",
+      "first_online": null,
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=A%20landscape%20analysis%20of%20access%2C%20equity%2C%20and%20reporting%20trends%20in%20digital%20health%20randomized%20controlled%20trials",
+      "study_type": null,
+      "summary_zh": "2026年8月6日简报标题可恢复；强调数字健康RCT公平性与报告。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "unavailable",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-06"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_bd5f25267628",
+      "title_en": "Clinical Evaluation of an AI-Assisted Decision Support System for General Anesthesia Management Based on Data From 6 Centers: Comparative Study",
+      "title_zh": "六中心麻醉决策支持：不同药物建议一致性不同",
+      "journal": "Journal of Medical Internet Research",
+      "first_online": "2026-07-20",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Clinical%20Evaluation%20of%20an%20AI-Assisted%20Decision%20Support%20System%20for%20General%20Anesthesia%20Management%20Based%20on%20Data%20From%206%20Centers%3A%20Comparative%20Study",
+      "study_type": "多中心回顾性评价",
+      "summary_zh": "6中心1008例全静脉麻醉回顾性决策比较，系统与麻醉医师总体建议一致率73.3%，血流动力学药物一致率较低。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_d763f14bedd2",
+      "title_en": "Machine learning models predicting extubation success in mechanically ventilated patients: a systematic review and meta-analysis",
+      "title_zh": "机器学习预测拔管成功：外部验证仍不足",
+      "journal": "Intensive Care Medicine Experimental",
+      "first_online": "2026-07-09",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Machine%20learning%20models%20predicting%20extubation%20success%20in%20mechanically%20ventilated%20patients%3A%20a%20systematic%20review%20and%20meta-analysis",
+      "study_type": "系统综述/Meta分析",
+      "summary_zh": "系统综述26项研究，揭示内部验证占主导与模型、变量定义异质性。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_5eeeb21fc619",
+      "title_en": "Machine learning vs. traditional methods for predicting postoperative cardiac complications after non-cardiac surgery: a systematic review and Bayesian network meta-analysis",
+      "title_zh": "术后心脏并发症预测：机器学习与传统评分比较",
+      "journal": "Anaesthesia",
+      "first_online": "2026-06-22",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Machine%20learning%20vs.%20traditional%20methods%20for%20predicting%20postoperative%20cardiac%20complications%20after%20non-cardiac%20surgery%3A%20a%20systematic%20review%20and%20Bayesian%20network%20meta-analysis",
+      "study_type": "系统综述/Meta分析",
+      "summary_zh": "纳入13项研究、54个模型和927113名患者，汇总显示机器学习判别力较高，但外部验证证据不足。",
+      "categories": [
+        "POD/PND与围术期结局"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Epub；2026-10卷期"
+    },
+    {
+      "id": "paper_d315d452e3f6",
+      "title_en": "Towards autonomous medical artificial intelligence agents",
+      "title_zh": "MIRA医疗智能体：病历沙箱里执行完整临床任务",
+      "journal": "Nature",
+      "first_online": "2026-06-17",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Towards%20autonomous%20medical%20artificial%20intelligence%20agents",
+      "study_type": "仿真/技术评估",
+      "summary_zh": "MIRA在模拟EHR环境中获取病史、申请检查、形成诊疗方案，从文本问答转为结构化流程操作。",
+      "categories": [
+        "CCI自动提取与临床Agent"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_262791a1d9d9",
+      "title_en": "Prospective validation and real-time implementation of an automated machine learning postoperative mortality prediction model",
+      "title_zh": "术后死亡风险模型：实时实施",
+      "journal": "British Journal of Anaesthesia",
+      "first_online": null,
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prospective%20validation%20and%20real-time%20implementation%20of%20an%20automated%20machine%20learning%20postoperative%20mortality%20prediction%20model",
+      "study_type": "前瞻性实施/验证",
+      "summary_zh": "术前风险模型前瞻性验证及实时实施可行性研究。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "2026-06正式卷期（月精度）"
+    },
+    {
+      "id": "paper_f6d693c34b99",
+      "title_en": "Critical appraisal of fairness metrics for artificial intelligence-based clinical prediction models: a scoping review",
+      "title_zh": "临床AI公平性：63种指标该如何选？",
+      "journal": "The Lancet Digital Health",
+      "first_online": "2026-05-28",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Critical%20appraisal%20of%20fairness%20metrics%20for%20artificial%20intelligence-based%20clinical%20prediction%20models%3A%20a%20scoping%20review",
+      "study_type": "范围综述",
+      "summary_zh": "综述42项研究、63种临床预测AI公平性指标，讨论如何与临床任务对应。",
+      "categories": [
+        "联邦学习与跨中心验证"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_eedbecb881ed",
+      "title_en": "Early prediction of intraoperative hypotension: development and validation of the HypoBridCast hybrid deep learning model",
+      "title_zh": "HypoBridCast：多波形预测低血压",
+      "journal": "BMC Anesthesiology",
+      "first_online": "2026-05-13",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Early%20prediction%20of%20intraoperative%20hypotension%3A%20development%20and%20validation%20of%20the%20HypoBridCast%20hybrid%20deep%20learning%20model",
+      "study_type": "回顾性开发/外部验证",
+      "summary_zh": "结合动脉压、ECG、PPG、二氧化碳等信号及术前数据，使用VitalDB建模并在独立医院验证。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_763b17c70e3d",
+      "title_en": "A temporal deep learning algorithm for prediction of extubation failures in critical care patients",
+      "title_zh": "TrAcE：时间序列预测ICU拔管失败",
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "first_online": "2026-05-07",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=A%20temporal%20deep%20learning%20algorithm%20for%20prediction%20of%20extubation%20failures%20in%20critical%20care%20patients",
+      "study_type": "回顾性外部验证研究",
+      "summary_zh": "MIMIC-III与LOCAL-Ext队列；静态、动态信息融合及特征遮蔽分析。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_e894bc25d5c9",
+      "title_en": "Reinforcement learning based automated anesthesia system for gastrointestinal endoscopy with a multicenter randomized trial",
+      "title_zh": "强化学习自动麻醉：多中心内镜RCT",
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-04-29",
+      "doi": "10.1038/s41746-026-02657-8",
+      "source_url": "https://www.nature.com/articles/s41746-026-02657-8",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-02657-8",
+      "study_type": "随机对照试验",
+      "summary_zh": "四中心环泊酚自动输注随机试验418例最终分析；自动组诱导快但体动较多，低氧相近。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_65962ff276f9",
+      "title_en": "From prediction to practice: closing the translation gap in artificial intelligence for anesthesia",
+      "title_zh": "麻醉AI从预测到临床转化的缺口",
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "first_online": "2026-04-22",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=From%20prediction%20to%20practice%3A%20closing%20the%20translation%20gap%20in%20artificial%20intelligence%20for%20anesthesia",
+      "study_type": "叙述性综述",
+      "summary_zh": "综述监测、风险预测、决策支持、自动给药从离线模型到真实应用的障碍。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_df3434ef3be6",
+      "title_en": "Machine learning predicts sepsis deterioration trajectories",
+      "title_zh": "脓毒症恢复与恶化轨迹预测",
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-03-26",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Machine%20learning%20predicts%20sepsis%20deterioration%20trajectories",
+      "study_type": "回顾性模型研究",
+      "summary_zh": "利用纵向临床信息建模脓毒症恢复/恶化轨迹并做跨医疗场景验证。",
+      "categories": [
+        "重症因果推断与数据库"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_8e4189260037",
+      "title_en": "Transformer-based deep learning model for real-time prediction of intraoperative hypotension using dynamic time-series vital signs: A retrospective study",
+      "title_zh": "30万余例手术：用常规生命体征预测低血压",
+      "journal": "PLOS Medicine",
+      "first_online": "2026-03-25",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Transformer-based%20deep%20learning%20model%20for%20real-time%20prediction%20of%20intraoperative%20hypotension%20using%20dynamic%20time-series%20vital%20signs%3A%20A%20retrospective%20study",
+      "study_type": "回顾性外部验证研究",
+      "summary_zh": "319699例开发时间序列Transformer并在韩国数据集外部验证，关注风险概率校准。",
+      "categories": [
+        "EEG/BIS与多模态生理模型"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "正式发表日期"
+    },
+    {
+      "id": "paper_f780582410da",
+      "title_en": "The next frontier in sepsis: connected ICU data for real-world clinical decision making",
+      "title_zh": "联邦与合成ICU数据：脓毒症研究的下一步",
+      "journal": "Intensive Care Medicine",
+      "first_online": "2026-01-26",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=The%20next%20frontier%20in%20sepsis%3A%20connected%20ICU%20data%20for%20real-world%20clinical%20decision%20making",
+      "study_type": "叙述性综述",
+      "summary_zh": "讨论联邦和合成ICU数据、欧洲健康数据空间和跨中心脓毒症研究的现实限制。",
+      "categories": [
+        "联邦学习与跨中心验证"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Online"
+    },
+    {
+      "id": "paper_bd593a9a1ee9",
+      "title_en": "The regulation of artificial intelligence in intensive care units: from narrow tools to generalist systems",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": null,
+      "doi": "10.1038/s41746-026-02535-3",
+      "source_url": "https://www.nature.com/articles/s41746-026-02535-3",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-02535-3",
+      "study_type": null,
+      "summary_zh": "2026年8月3日初版简报提到的ICU窄AI向通用模型演进监管讨论。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [
+        "2026-08-03"
+      ],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_b53fb0db4c56",
+      "title_en": "The landscape of artificial intelligence-enabled medical devices in the EU and the US intended for intensive care units",
+      "title_zh": null,
+      "journal": "npj Digital Medicine",
+      "first_online": "2026-04-10",
+      "doi": "10.1038/s41746-026-02609-2",
+      "source_url": "https://www.nature.com/articles/s41746-026-02609-2",
+      "lookup_url": "https://www.nature.com/articles/s41746-026-02609-2",
+      "study_type": "Brief Communication",
+      "summary_zh": "系统检索识别美国和欧盟市场上36款面向ICU的AI医疗器械；主要聚焦预测功能，市场准入与临床获益证据不同。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": false,
+      "link_status": "verified_2026-10-24",
+      "verification_status": "2026-10-24出版商网页已核实",
+      "brief_dates": [
+        "2026-08-03"
+      ],
+      "date_type": "2026-04-10期刊Online；2026年8月3日简报提及"
+    },
+    {
+      "id": "paper_36d17b0ee38f",
+      "title_en": "Contextualizing AI Evaluation in Anesthesiology: Interpreting Predictive Modeling and Reinforcement Learning Metrics Across Clinical Use Cases—An Expert Statement From the Society of Technology in Anesthesia",
+      "title_zh": null,
+      "journal": "Anesthesia & Analgesia",
+      "first_online": null,
+      "doi": "10.1213/ANE.0000000000007992",
+      "source_url": "https://doi.org/10.1213/ANE.0000000000007992",
+      "lookup_url": "https://doi.org/10.1213/ANE.0000000000007992",
+      "study_type": null,
+      "summary_zh": "专家声明：分临床场景解释预测与RL评价指标，关联数字孪生论文指标设计。",
+      "categories": [
+        "强化学习与数字孪生"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_875870c0bf29",
+      "title_en": "Artificial intelligence in anaesthesiology: why don't we have it in our hands after a decade of innovation? A systematic review and perspective",
+      "title_zh": null,
+      "journal": "BMC Anesthesiology",
+      "first_online": null,
+      "doi": "10.1186/s12871-026-03995-6",
+      "source_url": "https://doi.org/10.1186/s12871-026-03995-6",
+      "lookup_url": "https://doi.org/10.1186/s12871-026-03995-6",
+      "study_type": null,
+      "summary_zh": "2026年9月前后简报恢复的麻醉AI临床转化系统综述。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_d7758ac20ad8",
+      "title_en": "Ethical and inclusive challenges of machine learning in anaesthesia",
+      "title_zh": "麻醉机器学习伦理与包容性挑战",
+      "journal": "Anaesthesia",
+      "first_online": "2025-12-03",
+      "doi": null,
+      "source_url": null,
+      "lookup_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Ethical%20and%20inclusive%20challenges%20of%20machine%20learning%20in%20anaesthesia",
+      "study_type": "社论/观点",
+      "summary_zh": "社论讨论临床AI中人群代表性、偏倚、伦理与包容性。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "not_in_site_text",
+      "verification_status": "历史网站记录；本次未独立逐条核验",
+      "brief_dates": [],
+      "date_type": "Epub；2026-02卷期"
+    },
+    {
+      "id": "paper_21c491f0938b",
+      "title_en": "FUTURE-AI: international consensus guideline for trustworthy and deployable artificial intelligence in healthcare",
+      "title_zh": null,
+      "journal": "BMJ",
+      "first_online": null,
+      "doi": "10.1136/bmj-2024-081554",
+      "source_url": "https://doi.org/10.1136/bmj-2024-081554",
+      "lookup_url": "https://doi.org/10.1136/bmj-2024-081554",
+      "study_type": null,
+      "summary_zh": "临床AI可信部署国际共识指南；历史简报方法学参考，不是2026新文。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    },
+    {
+      "id": "paper_17a84b3285ab",
+      "title_en": "Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI",
+      "title_zh": null,
+      "journal": "Nature Medicine",
+      "first_online": null,
+      "doi": "10.1038/s41591-022-01772-9",
+      "source_url": "https://doi.org/10.1038/s41591-022-01772-9",
+      "lookup_url": "https://doi.org/10.1038/s41591-022-01772-9",
+      "study_type": null,
+      "summary_zh": "AI决策支持早期临床评价报告指南；历史方法学参考，不是新文。",
+      "categories": [
+        "临床部署、监管与人机协作"
+      ],
+      "needs_review": true,
+      "link_status": "historical_link_not_revalidated",
+      "verification_status": "从历史会话恢复，未独立核验",
+      "brief_dates": [],
+      "date_type": "历史简报所列，精确发表日期待核验"
+    }
+  ],
+  "events": [
+    {
+      "id": "competition_80c6f85a8d",
+      "name": "首届“AI+医疗”技术创新大赛",
+      "deadline": "2026-10-30",
+      "url": "https://www.aimtcbj.com/",
+      "theme": "AI辅助诊断、治疗、监测与医疗成果转化",
+      "organizer": "中国生产力促进中心协会",
+      "historical_status_as_of_2026_10_24": "has_future_deadline_reported",
+      "verification": "来自历史每日简报；2026-10-24未重新确认报名系统状态",
+      "category": "competition"
+    },
+    {
+      "id": "competition_c4b8c9eb04",
+      "name": "AIC AI+医学主题赛",
+      "deadline": "2026-10-30T20:00:00+08:00",
+      "url": "https://www.aicomp.cn/notice/notice-3/4709.html",
+      "theme": "开放医学AI赛题、技术报告",
+      "organizer": "全球校园人工智能算法精英大赛全国组委会",
+      "historical_status_as_of_2026_10_24": "has_future_deadline_reported",
+      "verification": "历史简报中有调整通知，应以当前官方规则为准",
+      "category": "competition"
+    },
+    {
+      "id": "competition_945b9a72d0",
+      "name": "第二届全国人工智能应用创新大赛",
+      "deadline": null,
+      "url": "https://www.ai-race.com.cn/",
+      "theme": "AI Agent开放应用、医疗场景",
+      "organizer": "中国技术经济学会",
+      "historical_status_as_of_2026_10_24": "deadline_unknown_or_disputed",
+      "verification": "重要：截止日期冲突，不能标记为确认仍开放报名",
+      "category": "competition"
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "name": "2026全国通用人工智能创新应用大赛",
+      "deadline": "2026-11-10",
+      "url": "https://ccf.org.cn/tecagi2026",
+      "theme": "AI+生物医药、AI+脑机接口、AI+科学智能",
+      "organizer": "中国计算机学会（CCF）",
+      "historical_status_as_of_2026_10_24": "has_future_deadline_reported",
+      "verification": "历史简报归档日期，参赛资格和截止需现场核实",
+      "category": "competition"
+    },
+    {
+      "id": "competition_df92d1669e",
+      "name": "第九届智慧医疗创新大赛",
+      "deadline": null,
+      "url": "https://www.shic.org.cn/overview/",
+      "theme": "应用创新、技术创新、数据要素创新",
+      "organizer": "各分赛区行业单位（以当届官方文件为准）",
+      "historical_status_as_of_2026_10_24": "deadline_unknown_or_disputed",
+      "verification": "北京赛区尚未检索到正式启动通知，不得使用其他赛区截止代替",
+      "category": "competition"
+    },
+    {
+      "id": "competition_d7a00c1cba",
+      "name": "中国研究生人工智能创新大赛（历史机会）",
+      "deadline": "2026-08-25",
+      "url": null,
+      "theme": "人工智能创新与竞赛",
+      "organizer": "主办信息待回溯原公告",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "历史已过期，仅归档，不作为当前推荐",
+      "category": "competition"
+    },
+    {
+      "id": "competition_d3316a9c26",
+      "name": "科算智药（历史征集线索）",
+      "deadline": "2026-10-16",
+      "url": null,
+      "theme": "AI+生物医药",
+      "organizer": "待回溯原公告",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "历史已过期，仅归档",
+      "category": "competition"
+    },
+    {
+      "id": "competition_97722a8358",
+      "name": "第十五届中国创新创业大赛人工智能创新应用专业赛",
+      "deadline": "2026-11-15",
+      "url": null,
+      "theme": "人工智能创新应用",
+      "organizer": "当届官方文件待核实",
+      "historical_status_as_of_2026_10_24": "has_future_deadline_reported",
+      "verification": "仅历史简报线索，信息不足不标记为已核实可报名",
+      "category": "competition"
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "name": "IARS–SOCCA 2027联合年会",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "url": "https://meetings.iars.org/abstracts/submissions/",
+      "theme": null,
+      "organizer": "International Anesthesia Research Society 与 SOCCA",
+      "historical_status_as_of_2026_10_24": "has_future_deadline_reported",
+      "verification": "历史简报条款，提交前复核2027官方规则",
+      "category": "conference"
+    },
+    {
+      "id": "conference_95688579fb",
+      "name": "SCA 2027心血管麻醉年会",
+      "deadline": "2026-12-01T23:59:00-05:00",
+      "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "theme": null,
+      "organizer": "Society of Cardiovascular Anesthesiologists",
+      "historical_status_as_of_2026_10_24": "has_future_deadline_reported",
+      "verification": "历史简报，截稿时区需以主办方实时网页为准",
+      "category": "conference"
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "name": "Euroanaesthesia 2027",
+      "deadline": null,
+      "url": "https://euroanaesthesia.org/2026/abstracts/",
+      "theme": null,
+      "organizer": "European Society of Anaesthesiology and Intensive Care",
+      "historical_status_as_of_2026_10_24": "deadline_unknown_or_disputed",
+      "verification": "尚未检索到正式启动通知",
+      "category": "conference"
+    },
+    {
+      "id": "conference_8d528a0f54",
+      "name": "BMES CMBE 2027 Late-Breaking Abstract",
+      "deadline": "2026-11-06",
+      "url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+      "theme": null,
+      "organizer": "Biomedical Engineering Society",
+      "historical_status_as_of_2026_10_24": "has_future_deadline_reported",
+      "verification": "主要适合脑缺血再灌注基础实验，不优先用于TCI",
+      "category": "conference"
+    },
+    {
+      "id": "conference_b40b8bd06f",
+      "name": "第四届CCF数字医学大会 DMS 2026",
+      "deadline": "2026-10-18",
+      "url": "https://ccf.org.cn/DMS2026",
+      "theme": null,
+      "organizer": "中国计算机学会（CCF）",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "已过截稿；历史有11月27–29与27–30日期不一致",
+      "category": "conference"
+    },
+    {
+      "id": "conference_3a0a65f201",
+      "name": "第二届北京清华医学人工智能论坛",
+      "deadline": "2026-10-08",
+      "url": null,
+      "theme": null,
+      "organizer": "论坛组委会（细节待核实）",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "征集已截止，仅历史归档",
+      "category": "conference"
+    },
+    {
+      "id": "conference_33d1d9c640",
+      "name": "中华医学会麻醉学术年会 2026",
+      "deadline": "2026-07-15",
+      "url": "https://www.cma.org.cn/",
+      "theme": null,
+      "organizer": "中华医学会及麻醉学分会",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "历史会议已经结束，不是现在的投稿机会",
+      "category": "conference"
+    },
+    {
+      "id": "conference_7f04effad7",
+      "name": "CONNECT.Albania会议（历史摘要机会）",
+      "deadline": "2026-08-15",
+      "url": null,
+      "theme": null,
+      "organizer": "待核实",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "历史线索；名称与官方链接待回溯",
+      "category": "conference"
+    },
+    {
+      "id": "conference_a95ca37235",
+      "name": "ISAP会议/征集（历史线索）",
+      "deadline": "2026-08-14",
+      "url": null,
+      "theme": null,
+      "organizer": "待核实",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "历史记录显示截止从8月11延至8月14，已经过期",
+      "category": "conference"
+    },
+    {
+      "id": "conference_bfdb156026",
+      "name": "中国神经科学学会中枢与外周互作联合年会 2026",
+      "deadline": null,
+      "url": "https://meetings.cns.org.cn/zsywzhz2026/",
+      "theme": null,
+      "organizer": "中国神经科学学会相关分支",
+      "historical_status_as_of_2026_10_24": "deadline_unknown_or_disputed",
+      "verification": "非已确认投稿机会",
+      "category": "conference"
+    },
+    {
+      "id": "conference_318172fa93",
+      "name": "CNCC 2026",
+      "deadline": null,
+      "url": "https://www.ccf.org.cn/",
+      "theme": null,
+      "organizer": "中国计算机学会（CCF）",
+      "historical_status_as_of_2026_10_24": "deadline_unknown_or_disputed",
+      "verification": "当时正在举行，未作为投稿机会",
+      "category": "conference"
+    },
+    {
+      "id": "conference_51505f5f78",
+      "name": "科学智能大会Poster（历史线索）",
+      "deadline": "2026-08-10",
+      "url": null,
+      "theme": null,
+      "organizer": "待核实",
+      "historical_status_as_of_2026_10_24": "expired",
+      "verification": "历史已截止",
+      "category": "conference"
+    }
+  ],
+  "briefs": [
+    {
+      "date": "2026-08-03",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_bd593a9a1ee9",
+        "paper_b53fb0db4c56"
+      ],
+      "competition_ids": [
+        "competition_d7a00c1cba"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_33d1d9c640",
+        "conference_7f04effad7"
+      ],
+      "paper_count": 2,
+      "competition_count": 1,
+      "conference_count": 3
+    },
+    {
+      "date": "2026-08-05",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [],
+      "competition_ids": [],
+      "conference_ids": [],
+      "paper_count": 0,
+      "competition_count": 0,
+      "conference_count": 0
+    },
+    {
+      "date": "2026-08-06",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_10403f268a7b",
+        "paper_864d559c4057",
+        "paper_ebb761838c0c"
+      ],
+      "competition_ids": [],
+      "conference_ids": [],
+      "paper_count": 3,
+      "competition_count": 0,
+      "conference_count": 0
+    },
+    {
+      "date": "2026-08-07",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_d20bc100ab8a"
+      ],
+      "competition_ids": [],
+      "conference_ids": [
+        "conference_a95ca37235"
+      ],
+      "paper_count": 1,
+      "competition_count": 0,
+      "conference_count": 1
+    },
+    {
+      "date": "2026-08-09",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_aa76e9f27a69"
+      ],
+      "competition_ids": [],
+      "conference_ids": [
+        "conference_51505f5f78"
+      ],
+      "paper_count": 1,
+      "competition_count": 0,
+      "conference_count": 1
+    },
+    {
+      "date": "2026-08-10",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_2779cf99a69b"
+      ],
+      "competition_ids": [
+        "competition_d7a00c1cba"
+      ],
+      "conference_ids": [],
+      "paper_count": 1,
+      "competition_count": 1,
+      "conference_count": 0
+    },
+    {
+      "date": "2026-08-11",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_a534537578db"
+      ],
+      "competition_ids": [],
+      "conference_ids": [
+        "conference_a95ca37235"
+      ],
+      "paper_count": 1,
+      "competition_count": 0,
+      "conference_count": 1
+    },
+    {
+      "date": "2026-09-23",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_7f7fb68a993f"
+      ],
+      "competition_ids": [],
+      "conference_ids": [],
+      "paper_count": 1,
+      "competition_count": 0,
+      "conference_count": 0
+    },
+    {
+      "date": "2026-09-24",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_a174cee42f5c",
+        "paper_5ff1616ce13f"
+      ],
+      "competition_ids": [],
+      "conference_ids": [],
+      "paper_count": 2,
+      "competition_count": 0,
+      "conference_count": 0
+    },
+    {
+      "date": "2026-10-05",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_5e8b6bdb7fe9"
+      ],
+      "competition_ids": [
+        "competition_d3316a9c26"
+      ],
+      "conference_ids": [
+        "conference_3a0a65f201"
+      ],
+      "paper_count": 1,
+      "competition_count": 1,
+      "conference_count": 1
+    },
+    {
+      "date": "2026-10-07",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_805813ca4265"
+      ],
+      "competition_ids": [],
+      "conference_ids": [
+        "conference_3a0a65f201"
+      ],
+      "paper_count": 1,
+      "competition_count": 0,
+      "conference_count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "record_status": "partially_recovered_historical_conversation",
+      "paper_ids": [
+        "paper_08bdb66b8ac1"
+      ],
+      "competition_ids": [
+        "competition_d3316a9c26"
+      ],
+      "conference_ids": [
+        "conference_3a0a65f201"
+      ],
+      "paper_count": 1,
+      "competition_count": 1,
+      "conference_count": 1
+    },
+    {
+      "date": "2026-10-18",
+      "record_status": "daily_brief_visible_in_conversation",
+      "paper_ids": [
+        "paper_ba7204aa33f2",
+        "paper_f1817075c019",
+        "paper_f0df187577f1",
+        "paper_dada8858d23c"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition_c4b8c9eb04"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2"
+      ],
+      "paper_count": 4,
+      "competition_count": 2,
+      "conference_count": 1
+    },
+    {
+      "date": "2026-10-19",
+      "record_status": "daily_brief_visible_in_conversation",
+      "paper_ids": [
+        "paper_b5d511778d74",
+        "paper_754dd73199ab",
+        "paper_1565f8b6c858",
+        "paper_96e09a25904d"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition_c4b8c9eb04",
+        "competition_df92d1669e"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference_95a23edf4a",
+        "conference_b40b8bd06f"
+      ],
+      "paper_count": 4,
+      "competition_count": 3,
+      "conference_count": 4
+    },
+    {
+      "date": "2026-10-20",
+      "record_status": "daily_brief_visible_in_conversation",
+      "paper_ids": [
+        "paper_cbe7c8890644",
+        "paper_c105105bd364",
+        "paper_aeb22676ce25"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition_c4b8c9eb04",
+        "competition_945b9a72d0",
+        "competition_e52bc9726b",
+        "competition_df92d1669e"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference_95a23edf4a"
+      ],
+      "paper_count": 3,
+      "competition_count": 5,
+      "conference_count": 3
+    },
+    {
+      "date": "2026-10-21",
+      "record_status": "daily_brief_visible_in_conversation",
+      "paper_ids": [
+        "paper_ff451ace377a",
+        "paper_97d28adea407",
+        "paper_626294886bd7"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition_c4b8c9eb04",
+        "competition_945b9a72d0",
+        "competition_e52bc9726b",
+        "competition_df92d1669e"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference_95a23edf4a",
+        "conference_8d528a0f54",
+        "conference_bfdb156026"
+      ],
+      "paper_count": 3,
+      "competition_count": 5,
+      "conference_count": 5
+    },
+    {
+      "date": "2026-10-22",
+      "record_status": "daily_brief_visible_in_conversation",
+      "paper_ids": [
+        "paper_607fe65b2c1e",
+        "paper_371b56bd1baf",
+        "paper_c00e40761fed",
+        "paper_816ebb86a4a3"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition_c4b8c9eb04",
+        "competition_945b9a72d0",
+        "competition_e52bc9726b"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference_95a23edf4a",
+        "conference_318172fa93"
+      ],
+      "paper_count": 4,
+      "competition_count": 4,
+      "conference_count": 4
+    },
+    {
+      "date": "2026-10-23",
+      "record_status": "daily_brief_visible_in_conversation",
+      "paper_ids": [
+        "paper_776b4bca2182",
+        "paper_06f28fd49993",
+        "paper_25a46fef31a3",
+        "paper_ba2f8e9bfb80"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition_c4b8c9eb04",
+        "competition_945b9a72d0",
+        "competition_e52bc9726b",
+        "competition_97722a8358"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference_95a23edf4a",
+        "conference_3a0a65f201"
+      ],
+      "paper_count": 4,
+      "competition_count": 5,
+      "conference_count": 4
+    },
+    {
+      "date": "2026-10-24",
+      "record_status": "daily_brief_visible_in_conversation",
+      "paper_ids": [
+        "paper_e305974489c6",
+        "paper_3ce593cf5d94",
+        "paper_bebd96a07805",
+        "paper_a8341d0bdfa7"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition_c4b8c9eb04",
+        "competition_945b9a72d0",
+        "competition_e52bc9726b"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference_95a23edf4a",
+        "conference_8d528a0f54"
+      ],
+      "paper_count": 4,
+      "competition_count": 4,
+      "conference_count": 4
+    }
+  ]
+}
