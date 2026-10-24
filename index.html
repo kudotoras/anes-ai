@@ -1,6 +1,171 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ANES AI｜麻醉AI文献探索站</title><style>:root{font-family:"Microsoft YaHei",system-ui,sans-serif;color:#233349;background:#f5f7fa}*{box-sizing:border-box}body{margin:0}.wrap{max-width:1180px;margin:auto;padding:24px}header{background:#fff;border-bottom:1px solid #e1e5ed}header .wrap{display:flex;align-items:center;justify-content:space-between}h1{font-size:25px;color:#3c5880;margin:0}.subtitle{font-size:13px;color:#64748b}.hero{margin:26px 0;padding:38px;background:#fff;border:1px solid #e0e6ee;border-radius:12px}h2{font-size:24px;margin-top:0}p{line-height:1.8}.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.tabs button,.filters button{background:white;border:1px solid #ccd6e2;color:#3c5880;border-radius:7px;padding:11px 16px;cursor:pointer}.tabs button.active{background:#3c5880;color:white}.filters{display:flex;flex-wrap:wrap;gap:9px;background:#fff;border:1px solid #e1e5ed;padding:18px;border-radius:10px;margin-bottom:18px}input,select{font:inherit;border:1px solid #ccd6e2;padding:11px;border-radius:6px;min-width:140px;max-width:100%}input{flex:1;min-width:210px}.entry{background:#fff;border:1px solid #e2e7ef;border-radius:10px;padding:22px;margin:13px 0}.entry h3{font-size:19px;margin:10px 0}.en{color:#506071}.tag{font-size:12px;border:1px solid #d9e1e9;border-radius:5px;padding:4px 8px;display:inline-block;margin:3px;color:#55677a}.date{font-size:12px;color:#728097}a{color:#3c5880}.empty{padding:30px;background:white;border-radius:8px}.note{font-size:13px;color:#7b4b32}footer{padding:25px;color:#68778b}#summary{color:#4b6077}@media(max-width:600px){.wrap{padding:14px}.hero{padding:23px}h1{font-size:20px}}</style></head><body><header><div class="wrap"><h1>ANES AI <span class="subtitle">麻醉AI文献探索站</span></h1><span class="subtitle">为研究而探索</span></div></header><main class="wrap"><section class="hero"><div class="subtitle">ANESTHESIA · PERIOPERATIVE · CRITICAL CARE</div><h2>从一篇研究，到下一个问题。</h2><p>连接麻醉、围术期与重症的 AI 研究。按期刊发现，沿主题深入，让证据回到临床问题。</p><div id="summary">正在读取文献数据…</div><div class="note" id="status"></div></section><div class="tabs"><button class="active" data-tab="research">科研前沿</button><button data-tab="competition">比赛机会</button><button data-tab="conference">会议与征集</button><button data-tab="saved">我的收藏</button></div><section class="filters"><input id="q" placeholder="搜索标题、关键词、期刊"><select id="journal"><option value="">全部期刊</option></select><select id="topic"><option value="">全部主题</option></select><select id="sort"><option value="new">发表日期最新</option><option value="old">日期最早</option><option value="journal">期刊 A–Z</option></select><button id="export">导出当前结果 CSV</button></section><div id="count" class="subtitle"></div><div id="list"></div></main><footer class="wrap">ANES AI · 每日北京时间 08:00 计划检索（可能延迟）· 题录不等于医学建议。只收录公开学术来源。</footer><script>
-let items=[],opportunities=[],tab='research',state={},saved=new Set(JSON.parse(localStorage.getItem('anesSaved')||'[]'));const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));let visible=[];
-function render(){let q=$('q').value.toLowerCase(),j=$('journal').value,t=$('topic').value;visible=(tab==='research'||tab==='saved'?items:opportunities.filter(x=>(tab==='competition'?x.category==='competition':x.category==='conference'))).filter(x=>(tab!=='saved'||saved.has(x.id))&&(!j||x.journal===j)&&(!t||x.topic===t)&&(!q||[x.title,x.title_zh,x.journal,x.topic,x.description].join(' ').toLowerCase().includes(q)));let by=$('sort').value;visible.sort((a,b)=>by==='journal'?(a.journal||'').localeCompare(b.journal||''):by==='old'?(a.date||'').localeCompare(b.date||''):(b.date||'').localeCompare(a.date||''));$('count').textContent='找到 '+visible.length+' 条'+(tab==='research'||tab==='saved'?'研究记录':'机会记录');$('list').innerHTML=visible.length?visible.map(x=>'<article class="entry"><div class="date">'+esc(x.journal||x.organizer||'')+' · '+esc(x.date||'日期待核实')+'</div><h3>'+esc(x.title_zh||x.title)+'</h3><p class="en">'+esc(x.title_zh?x.title:'')+'</p><span class="tag">'+esc(x.topic||'待分类')+'</span><span class="tag">'+esc(x.study_type||x.category||'研究')+'</span><span class="tag">'+esc(x.status||'待核验')+'</span><p>'+esc(x.description||'题录索引。点击来源以了解研究方法、结局和正式出版信息。')+'</p>'+(x.source_url?'<a rel="noopener noreferrer" target="_blank" href="'+esc(x.source_url)+'">查看原始来源 ↗</a>':'来源待核验')+' <button class="save" data-id="'+esc(x.id)+'">'+(saved.has(x.id)?'★ 已收藏':'☆ 收藏')+'</button></article>').join(''):'<div class="empty">此栏目暂时没有已核验的记录。不会自动发布未经核实的机会信息。</div>';}
-function filters(){let arr=tab==='research'||tab==='saved'?items:opportunities;for(let [key,id,label] of [['journal','journal','全部期刊'],['topic','topic','全部主题']]){let val=$(id).value;$(id).innerHTML='<option value="">'+label+'</option>'+[...new Set(arr.map(x=>x[key]).filter(Boolean))].sort().map(s=>'<option value="'+esc(s)+'">'+esc(s)+'</option>').join('');$(id).value=val;}render();}
-Promise.all([fetch('data/research.json').then(x=>x.json()),fetch('data/opportunities.json').then(x=>x.json()),fetch('data/update_status.json').then(x=>x.json())]).then(([a,b,c])=>{items=a;opportunities=b;state=c;$('summary').textContent=items.length+' 篇研究与观点 · '+new Set(items.map(x=>x.journal)).size+' 个期刊 · '+opportunities.length+' 条比赛与会议信息';$('status').textContent=c.last_success?'最近自动检索：'+new Date(c.last_success).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})+'（北京时间）':'自动检索尚未运行；既往目录需进一步核验。';filters()}).catch(e=>$('summary').textContent='数据读取失败，请查看发布任务状态。');document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{tab=b.dataset.tab;document.querySelectorAll('[data-tab]').forEach(z=>z.classList.toggle('active',z===b));filters()});['q','journal','topic','sort'].forEach(id=>$(id).addEventListener(id==='q'?'input':'change',render));$('list').onclick=e=>{let b=e.target.closest('[data-id]');if(!b)return;let id=b.dataset.id;saved.has(id)?saved.delete(id):saved.add(id);localStorage.setItem('anesSaved',JSON.stringify([...saved]));render()};$('export').onclick=()=>{let csv=['title,title_zh,journal,date,topic,source_url',...visible.map(x=>[x.title,x.title_zh,x.journal,x.date,x.topic,x.source_url].map(y=>'"'+String(y||'').replace(/"/g,'""')+'"').join(','))].join('\n');let a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));a.download='anes-ai-literature.csv';a.click();URL.revokeObjectURL(a.href);};
-</script></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173d35">
+  <meta name="description" content="ANES AI 麻醉AI文献探索站：麻醉、围术期与重症的人工智能研究，分期刊与主题探索，并保留比赛、会议和文献溯源。">
+  <title>ANES AI · 麻醉AI文献探索站</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" aria-label="网站导航">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 17h7l3-8 6 16 3-8h9"/>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-name">ANES AI</div>
+          <div class="brand-subtitle">麻醉AI文献探索站</div>
+        </div>
+      </div>
+      <p class="nav-label">研究探索空间</p>
+      <nav class="nav-list" aria-label="主要栏目">
+        <button type="button" class="nav-item active" data-section="research">
+          <span class="nav-symbol" aria-hidden="true">◈</span><span>科研前沿</span><span class="nav-count" id="navResearch">—</span>
+        </button>
+        <button type="button" class="nav-item" data-section="competition">
+          <span class="nav-symbol" aria-hidden="true">◇</span><span>比赛机会</span><span class="nav-count" id="navCompetition">—</span>
+        </button>
+        <button type="button" class="nav-item" data-section="conference">
+          <span class="nav-symbol" aria-hidden="true">▤</span><span>会议与征集</span><span class="nav-count" id="navConference">—</span>
+        </button>
+        <button type="button" class="nav-item" data-section="saved">
+          <span class="nav-symbol" aria-hidden="true">☆</span><span>我的收藏</span><span class="nav-count" id="navSaved">0</span>
+        </button>
+        <button type="button" class="nav-item" data-section="briefs">
+          <span class="nav-symbol" aria-hidden="true">▥</span><span>简报原文与溯源</span>
+        </button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="side-note">
+          <small>PUBLIC LIBRARY</small>
+          <strong>可追溯的研究书架</strong>
+          <p>按期刊与主题探索证据。收藏仅保存在当前浏览器；重要结论请返回原始研究核对。</p>
+        </div>
+        <div class="side-foot">◉ 公开浏览 · 管理员维护<br>每日北京时间 08:00 计划检索</div>
+      </div>
+    </aside>
+    <main class="main" id="mainContent">
+      <div class="inner">
+        <header class="page-head">
+          <div>
+            <h1 id="pageTitle">科研前沿</h1>
+            <p class="eyebrow" id="pageSubtitle">跨期刊精选 · 可追溯的研究线索</p>
+            <p class="subtle" id="summaryText" aria-live="polite">正在读取研究目录…</p>
+          </div>
+          <button type="button" class="export" id="export"><span aria-hidden="true">↓</span><span>导出当前结果</span></button>
+        </header>
+
+        <div id="tabsArea" class="top-line">
+          <div class="mode-tabs" role="tablist" aria-label="文献浏览路径">
+            <button type="button" class="mode-tab active" data-mode="all">全部文献</button>
+            <button type="button" class="mode-tab" data-mode="journal">期刊优先</button>
+            <button type="button" class="mode-tab" data-mode="topic">主题优先</button>
+          </div>
+          <div class="top-note" id="lastUpdate">每日08:00 计划自动检索</div>
+        </div>
+
+        <section id="filterable">
+          <div class="search-sort">
+            <label class="search-shell" for="query">
+              <span class="magnifier" aria-hidden="true">⌕</span>
+              <input type="search" id="query" autocomplete="off" placeholder="搜索标题、关键词、方法或数据库…">
+              <kbd aria-hidden="true">/</kbd>
+            </label>
+            <label class="sort-wrap" for="sort">
+              <span>排序</span>
+              <select id="sort">
+                <option value="new">发表日期最新</option>
+                <option value="old">发表日期最早</option>
+                <option value="journal">期刊 A–Z</option>
+              </select>
+            </label>
+          </div>
+          <div class="callout" id="curationNotice">历史资料、自动题录与人工核验内容将分别标注。</div>
+
+          <div class="library-layout">
+            <aside class="filters" aria-label="精确筛选">
+              <div class="filters-title"><span>精确筛选</span><button type="button" class="clear" id="clearFilters">重置</button></div>
+              <div class="filters-inner">
+                <div class="filter-group">
+                  <label for="journal" id="journalLabel">期刊</label>
+                  <select id="journal"><option value="">全部期刊</option></select>
+                </div>
+                <div class="filter-group">
+                  <label for="topic">主题</label>
+                  <select id="topic"><option value="">全部主题</option></select>
+                </div>
+                <div class="filter-group" id="studyGroup">
+                  <label for="studyType">研究类型</label>
+                  <select id="studyType"><option value="">全部研究类型</option></select>
+                </div>
+                <div class="filter-group" id="clinicalGroup">
+                  <label for="clinical">临床领域（辅助分类）</label>
+                  <select id="clinical"><option value="">全部领域</option></select>
+                </div>
+                <div class="filter-group">
+                  <label for="dateRange">发布日期</label>
+                  <select id="dateRange">
+                    <option value="all">全部日期</option>
+                    <option value="30">近30天</option>
+                    <option value="90">近90天</option>
+                    <option value="180">近6个月</option>
+                    <option value="365">近12个月</option>
+                    <option value="custom">自定义范围</option>
+                  </select>
+                </div>
+                <div class="filter-group">
+                  <label for="startDate">起始 / 截止</label>
+                  <div class="filter-dates"><input type="date" id="startDate" aria-label="起始日期"><input type="date" id="endDate" aria-label="截止日期"></div>
+                  <div class="filter-hint">自定义日期时，请先选择「自定义范围」</div>
+                </div>
+                <div class="filter-group">
+                  <label for="stateFilter">收录状态</label>
+                  <select id="stateFilter"><option value="">全部收录状态</option></select>
+                </div>
+                <div class="filter-group" id="batchGroup">
+                  <label for="batch">简报批次</label>
+                  <select id="batch"><option value="">全部简报批次</option></select>
+                </div>
+                <div class="filter-group" id="savedGroup">
+                  <label class="filter-check"><input type="checkbox" id="savedOnly">只看已收藏</label>
+                </div>
+              </div>
+              <p class="filter-hint">↗ 期刊与主题是独立探索路径。自动题录不等于完成精读，日期或来源存疑的记录会保留相应标记。</p>
+            </aside>
+
+            <div class="feed">
+              <div class="filter-count" id="count">正在加载…</div>
+              <div class="card-grid" id="cardGrid" aria-live="polite"></div>
+              <button type="button" class="load-more hidden" id="loadMore">加载更多文献 ↓</button>
+              <p class="pagination-note" id="paginationNote"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="hidden" id="briefsArea">
+          <div class="info-panel">
+            <h3>历史简报目录</h3>
+            <p id="briefDescription">读取历史简报索引…</p>
+            <div class="split">
+              <div class="stat">08:00<small>北京时间 · 每日计划检索</small></div>
+              <div class="stat">期刊 + 主题<small>双轨研究扫描</small></div>
+              <div class="stat">原始来源<small>支持跳转与复核</small></div>
+            </div>
+          </div>
+          <div class="brief-list" id="briefGrid"></div>
+        </section>
+
+        <footer class="footer">
+          ANES AI · 为研究而探索　|　每日北京时间 08:00 计划检索（GitHub 定时任务可能延迟）　|　本站提供文献线索，不构成临床建议。
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
