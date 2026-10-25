@@ -169,7 +169,6 @@
     const research = section === 'research' || section === 'saved';
     const journal = p.journal || p.organizer || '来源待补';
     const heading = p.title_zh || p.title || '未命名记录';
-    const hasSummary=Boolean(detailedSummaries[p.id]&&detailedSummaries[p.id].sections&&['研究目的','研究方法','研究结果','研究讨论与结论'].every(k=>(detailedSummaries[p.id].sections[k]||'').length>30));
     const secondary = p.title_zh && p.title && p.title_zh !== p.title ? p.title : '';
     const url = safeUrl(p.source_url);
     const hasFutureDate = isFuture(p.date);
@@ -191,7 +190,7 @@
       '<button type="button" class="save ' + (checked?'on':'') + '" data-save="' + escapeHtml(p.id) +
       '" title="' + (checked?'取消收藏':'收藏到我的书架') + '" aria-label="' + (checked?'取消收藏':'收藏') +
       '">' + (checked?'★':'☆') + '</button></div>' +
-      '<h2>' + (research && hasSummary ? '<button type="button" class="paper-title-link" data-read="' + escapeHtml(p.id) + '" title="查看结构化研究解读">' + escapeHtml(heading) + '</button>' : escapeHtml(heading)) + '</h2>' +
+      '<h2>' + (research ? '<button type="button" class="paper-title-link" data-read="' + escapeHtml(p.id) + '" aria-haspopup="dialog" title="查看文献详情">' + escapeHtml(heading) + '</button>' : escapeHtml(heading)) + '</h2>' +
       (secondary ? '<p class="entry-en">' + escapeHtml(secondary) + '</p>' : '') +
       '<p class="description">' + escapeHtml(desc) + '</p>' +
       '<div class="tags">' + itemTags + notice + '</div>' +
@@ -204,16 +203,24 @@
     const paper=papers.find(p=>String(p.id)===String(id));
     const summary=paper&&detailedSummaries[paper.id];
     const keys=['研究目的','研究方法','研究结果','研究讨论与结论'];
-    if(!paper||!summary||!summary.sections||!keys.every(k=>typeof summary.sections[k]==='string'&&summary.sections[k].trim().length>30))return;
+    if(!paper)return;
+    const structured=Boolean(summary&&summary.sections&&keys.every(k=>typeof summary.sections[k]==='string'&&summary.sections[k].trim().length>30));
     const modal=byId('articleReader');
     byId('readerJournal').textContent=[paper.journal||'期刊待核验',paper.date||'日期待核验'].join(' · ');
     byId('readerTitle').textContent=paper.title_zh||paper.title;
     byId('readerEnglish').textContent=paper.title_zh?(paper.title||''):'';
-    const source=safeUrl(summary.source_url||paper.source_url);
+    const source=safeUrl((structured&&summary.source_url)||paper.source_url||(paper.sources||[])[0]?.url);
     byId('readerSource').classList.toggle('hidden',!source);
     if(source)byId('readerSource').href=source;
-    byId('readerQuality').textContent='根据已核实的公开来源整理；细节请以原始论文为准';
-    byId('readerSections').innerHTML=keys.map(k=>'<section class="reader-section"><h3>'+escapeHtml(k)+'</h3><p>'+escapeHtml(summary.sections[k])+'</p></section>').join('');
+    const pending=paper.archive_review_required||/待人工|待核验|待复核/.test(paper.status||'');
+    byId('readerQuality').textContent=structured
+      ? (summary.quality||'根据已核实的公开来源整理')+'；细节请以原始论文为准'
+      : (paper.verification||paper.status||'尚未完成内容核验')+(paper.verifiedOn?' · 实际核验日期 '+paper.verifiedOn:'');
+    const sections=structured?keys.map(k=>[k,summary.sections[k]]):[
+      [pending?'现有线索（待核验）':'现有摘要',paper.description||'当前仅收录公开题录，尚无可展示的中文摘要。请通过下方入口阅读原始论文或摘要。'],
+      ['收录信息',[paper.study_type?'研究类型：'+paper.study_type:'',paper.topic?'主题：'+paper.topic:'',paper.status?'收录状态：'+paper.status:''].filter(Boolean).join('\n')]
+    ];
+    byId('readerSections').innerHTML=sections.filter(([,text])=>text).map(([heading,text])=>'<section class="reader-section"><h3>'+escapeHtml(heading)+'</h3><p>'+escapeHtml(text)+'</p></section>').join('');
     document.body.classList.add('reader-open');modal.classList.remove('hidden');
     modal.setAttribute('aria-hidden','false');byId('readerClose').focus();
   }
@@ -363,3 +370,4 @@
     byId('lastUpdate').textContent=String(err.message||err);
   });
 })();
+
