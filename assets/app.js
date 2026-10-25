@@ -242,7 +242,7 @@
       const url = safeUrl(p.source_url || (p.sources || [])[0]?.url);
       const body = '<span>' + escapeHtml(p.title_zh || p.title || '') + '</span><small>' + escapeHtml(p.journal || '来源待核验') +
         ' · 发表 ' + escapeHtml(p.date || '待核验') + (p.verifiedOn ? ' · 核验 ' + escapeHtml(p.verifiedOn) : ' · 待核验') + '</small>';
-      return url ? '<a target="_blank" rel="noopener noreferrer" href="' + escapeHtml(url) + '">' + body + '</a>' : '<div class="daily-item">' + body + '</div>';
+      return '<article class="daily-item">' + (url ? '<a class="daily-source" target="_blank" rel="noopener noreferrer" href="' + escapeHtml(url) + '">' + body + '</a>' : body) + '</article>';
     }).join('') : '<p>本期暂无新收录或简报关联文献。</p>') +
       '<div class="daily-actions"><button type="button" data-daily="papers">查看本期文献</button>' +
       '<button type="button" data-daily="competition">比赛机会</button><button type="button" data-daily="conference">会议与征集</button></div>';
