@@ -39,20 +39,21 @@
     if (/麻醉|anesth|anaesth|闭环与智能给药/.test(s)) return '麻醉';
     return '通用医学 / 待分类';
   };
+  const primaryTopic = p => (p.categories || []).find(t=>!['既往简报','历史简报','自动题录'].includes(t)) || (p.topic || '待分类').split(' / ')[0];
 
   let papers = [], events = [], briefs = [], updateStatus = {}, detailedSummaries = {}, dailyBrief = null, syncStatus = {};
-  let dailyDate = '';
+  let dailyDate = '', dailyExpanded = false;
   let section = 'research', mode = 'all', filtered = [], shown = 20;
   let favorites;
   try { favorites = new Set(JSON.parse(localStorage.getItem('anesSaved') || '[]')); }
   catch (_) { favorites = new Set(); }
   const saveFavorites = () => { try { localStorage.setItem('anesSaved', JSON.stringify(Array.from(favorites))); } catch (_) {} };
   const sectionText = {
-    research: ['科研前沿','跨期刊精选 · 可追溯的研究线索'],
+    research: ['科研前沿','麻醉 · 围术期 · 重症与可迁移的 AI 方法'],
     competition: ['比赛机会','医学人工智能 · 科研转化与创新竞赛'],
     conference: ['会议与征集','摘要投稿 · 墙报与学术交流'],
     saved: ['我的收藏','仅保存在当前浏览器中的私人研究书架'],
-    briefs: ['简报原文与溯源','历史简报日期索引 · 数据可追溯']
+    briefs: ['简报档案','按日期回看简报与关联文献']
   };
   const getOptions = (values, name) => '<option value="">' + escapeHtml(name) + '</option>' +
     Array.from(new Set(values.filter(Boolean).map(String))).sort((a,b) => a.localeCompare(b,'zh-CN')).map(s => '<option value="' + escapeHtml(s) + '">' + escapeHtml(s) + '</option>').join('');
@@ -62,6 +63,8 @@
     byId('dateRange').value = 'all';
     byId('savedOnly').checked = false;
     byId('sort').value = 'new';
+    byId('stateFilter').value = section === 'research' ? 'curated' : '';
+    byId('advancedFilters').open = false;
     shown = 20;
   }
 
@@ -70,13 +73,20 @@
     const data = research ? papers : events.filter(e => e.category === section);
     byId('journalLabel').textContent = research ? '期刊' : '主办机构';
     byId('journal').innerHTML = getOptions(data.map(e => research ? e.journal : e.organizer || e.journal), research ? '全部期刊' : '全部主办机构');
-    byId('topic').innerHTML = getOptions(data.map(e => e.topic), '全部主题');
+    byId('topic').innerHTML = getOptions(data.flatMap(e => e.categories?.length ? e.categories : [e.topic]), '全部主题');
     byId('studyType').innerHTML = getOptions(data.map(e => e.study_type), '全部研究类型');
     byId('clinical').innerHTML = getOptions(research ? data.map(clinicalType) : [], '全部领域');
-    byId('stateFilter').innerHTML = research ? '<option value="curated">精选研究（默认）</option><option value="">全部资料</option><option value="automated">自动检索题录</option>' + Array.from(new Set(data.map(sourceType))).filter(Boolean).map(v=>'<option value="'+escapeHtml(v)+'">'+escapeHtml(v)+'</option>').join('') : getOptions(data.map(e => e.status), '全部收录状态');
+    byId('stateFilter').innerHTML = research ? '<option value="curated">精选文献</option><option value="">全部资料</option><option value="automated">自动检索题录</option>' : getOptions(data.map(e => e.status), '全部状态');
     byId('stateFilter').value = research && section === 'research' ? 'curated' : '';
     byId('batch').innerHTML = getOptions(briefs.map(x => x.date).filter(Boolean).reverse(), '全部简报批次');
     ['studyGroup','clinicalGroup','batchGroup','savedGroup'].forEach(id => byId(id).classList.toggle('hidden', !research));
+    byId('stateGroup').classList.toggle('hidden', research);
+    byId('advancedFilters').classList.toggle('hidden', !research);
+    byId('filterTitle').textContent = research ? '筛选文献' : '筛选机会';
+    byId('dateRangeLabel').textContent = research ? '发布日期' : '截止日期';
+    const sortOptions = byId('sort').options;
+    ['发表日期最新','发表日期最早','期刊 A–Z'].forEach((text,i) => { sortOptions[i].textContent = research ? text : ['最近截止优先','截止日期最晚','主办机构 A–Z'][i]; });
+    Array.from(byId('dateRange').options).forEach(option=>{if(/^\d+$/.test(option.value))option.textContent=(research?'近':'未来')+({'180':'6个月','365':'12个月'}[option.value]||option.value+'天');});
   }
 
   function setSection(next) {
@@ -121,7 +131,7 @@
       if (requireSaved && !favorites.has(x.id)) return false;
       if (query && !compareSearch(x).includes(query)) return false;
       if (journal && (research ? x.journal : x.organizer || x.journal) !== journal) return false;
-      if (topic && x.topic !== topic) return false;
+      if (topic && x.topic !== topic && !(x.categories || []).includes(topic)) return false;
       if (research && study && x.study_type !== study) return false;
       if (research && clinical && clinicalType(x) !== clinical) return false;
       if (research && state === 'curated' && !isCurated(x)) return false;
@@ -133,19 +143,25 @@
         if (range === 'custom') {
           if (start && (x.date || '') < start) return false;
           if (end && (x.date || '') > end) return false;
-        } else if (diff === null || diff < 0 || diff > Number(range)) return false;
+        } else if (diff === null || (research ? diff < 0 || diff > Number(range) : diff > 0 || diff < -Number(range))) return false;
       }
       return true;
     });
     const s = byId('sort').value;
     data.sort((a,b) => {
-      if(s === 'journal' || (mode === 'journal' && s === 'new')) {
+      if(s === 'journal' || (research && mode === 'journal' && s === 'new')) {
         const name = x => (x.journal || x.organizer || '').toLowerCase();
+        const uncertain = x => !name(x) || /待核实|unknown|not independently verified/.test(name(x));
+        if(uncertain(a)!==uncertain(b))return uncertain(a)?1:-1;
         const cmp = name(a).localeCompare(name(b),'zh-CN');
         return cmp || (b.date || '').localeCompare(a.date || '');
       }
+      if (!research) {
+        const rank = x => /closed|ended|已截止|已关闭|已结束/.test(x.status || '') || (x.date && x.date < today) ? 2 : !x.date ? 3 : x.archive_review_required || /待核验|待复核|未核验/.test(x.status || '') ? 1 : 0;
+        return rank(a) - rank(b) || (s === 'old' ? (b.date || '').localeCompare(a.date || '') : (a.date || '').localeCompare(b.date || ''));
+      }
       if(mode === 'topic' && s === 'new') {
-        const cmp = (a.topic||'').localeCompare(b.topic||'','zh-CN');
+        const cmp = primaryTopic(a).localeCompare(primaryTopic(b),'zh-CN');
         return cmp || (b.date||'').localeCompare(a.date||'');
       }
       if(s === 'old') return (a.date||'').localeCompare(b.date||'');
@@ -176,12 +192,13 @@
     const desc = p.description || (research
       ? '自动获取的公开题录；尚未完成中文解读与人工精读，点击来源核实论文详情。'
       : '历史征集记录，请以主办方最新通知和截止日期为准。');
+    const eventStatus = p.status === 'open' ? '征集中' : p.status === 'upcoming' ? '即将开放' : p.status === 'ended' ? '已结束' : p.status === 'closed' || (p.date && p.date < today) ? '已截止' : '待核验';
     const itemTags = research
-      ? tag(p.study_type || '研究类型待分类','type') + tag((p.categories || []).slice(0,2).join(' · ') || p.topic || '待分类','') +
+      ? tag(p.study_type || '研究类型待分类','type') + tag((p.categories || []).filter(t=>!['既往简报','历史简报'].includes(t)).slice(0,2).join(' · ') || primaryTopic(p),'') +
         tag(p.archive_review_required || /待人工|待核验/.test(status) ? '待人工核验' : '来源可追溯','review')
       : tag(p.category === 'competition' ? '竞赛' : '会议与征稿','type') + tag(p.topic || '学术活动','') +
-        tag(p.date && p.date < today ? '历史已截止' : '开放状态未核验','review');
-    const notice = hasFutureDate ? tag('发表日期待核实','future') : '';
+        tag(eventStatus,'review');
+    const notice = research && hasFutureDate ? tag('发表日期待核实','future') : '';
     const checked = favorites.has(p.id);
     const link = url ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + (p.archive ? '历史来源 ↗' : '查看来源 ↗') + '</a>'
       : '<span>原始来源待补充</span>';
@@ -236,31 +253,36 @@
       const key = String(p.doi || p.pmid || p.id || p.title).toLowerCase();
       if (!selected.has(key)) selected.set(key, p);
     });
-    const list = Array.from(selected.values());
-    const competitions = dailyBrief ? dailyBrief.competitions || [] : [];
-    const conferences = dailyBrief ? dailyBrief.conferences || [] : [];
-    const pending = competitions.filter(p => p.archive_review_required || /待核验/.test(p.status || '')).length;
+    const list = Array.from(selected.values()).sort((a,b)=>(b.date || '').localeCompare(a.date || ''));
     byId('dailyDate').textContent = dailyDate || '尚未成功更新';
-    byId('dailyCount').textContent = '本期文献 ' + list.length + ' 篇' + (dailyBrief ? ' · 比赛 ' + competitions.length + ' 项 · 会议 ' + conferences.length + ' 项' : '');
-    byId('dailyEmpty').textContent = (dailyBrief ? '科研简报与网站独立检索已合并；下列为本期收录与重点回看，发表日期单独标注。' : '按本期目录关联展示；简报文件尚不可用。') +
-      (updateStatus.ingested_date === dailyDate && updateStatus.papers_added != null ? ' PubMed 本轮新增 ' + updateStatus.papers_added + ' 条。' : '') +
-      (pending ? ' ' + pending + ' 项赛事仍待核验。' : '');
-    byId('dailyContent').innerHTML = (list.length ? list.map(p => {
+    byId('dailyCount').textContent = '本期 ' + list.length + ' 篇';
+    byId('dailyEmpty').textContent = dailyBrief ? '科研简报与独立检索合并 · 收录与回看保留原发表日期' : '简报文件尚不可用，按本期目录关联展示';
+    const shortJournal = name => ({'Journal of the American Medical Informatics Association':'JAMIA','Journal of Clinical Monitoring and Computing':'JCMC','Anesthesia & Analgesia':'A&A'}[name] || name || '来源待核验');
+    byId('dailyContent').innerHTML = (list.length ? list.map((p,index) => {
       const url = safeUrl(p.source_url || (p.sources || [])[0]?.url);
-      const body = '<span>' + escapeHtml(p.title_zh || p.title || '') + '</span><small>' + escapeHtml(p.journal || '来源待核验') +
-        ' · 发表 ' + escapeHtml(p.date || '待核验') + (p.verifiedOn ? ' · 核验 ' + escapeHtml(p.verifiedOn) : ' · 待核验') + '</small>';
-      return '<article class="daily-item">' + (url ? '<a class="daily-source" target="_blank" rel="noopener noreferrer" href="' + escapeHtml(url) + '">' + body + '</a>' : body) + '</article>';
+      const title = escapeHtml(p.title_zh || p.title || '');
+      const heading = papers.some(x=>x.id===p.id) ? '<button type="button" class="daily-paper" data-read="'+escapeHtml(p.id)+'">'+title+'</button>' : url ? '<a class="daily-source" target="_blank" rel="noopener noreferrer" href="'+escapeHtml(url)+'">'+title+'</a>' : title;
+      return '<article class="daily-item' + (index >= 3 ? ' daily-overflow' + (dailyExpanded ? '' : ' hidden') : '') + '">'+heading+'<small>'+escapeHtml(shortJournal(p.journal))+' · 发表 '+escapeHtml(p.date || '待核验')+'</small></article>';
     }).join('') : '<p>本期暂无新收录或简报关联文献。</p>') +
-      '<div class="daily-actions"><button type="button" data-daily="papers">查看本期文献</button>' +
-      '<button type="button" data-daily="competition">比赛机会</button><button type="button" data-daily="conference">会议与征集</button></div>';
+      '<div class="daily-actions">'+(list.length>3?'<button type="button" data-daily="toggle" aria-expanded="'+dailyExpanded+'">'+(dailyExpanded?'收起':'展开其余 '+(list.length-3)+' 篇')+'</button>':'')+
+      '<button type="button" data-daily="papers">查看本期全部文献 ↗</button></div>';
   }
   function render() {
     if (!papers.length && !events.length) return;
     filtered = listData();
     const research = section === 'research' || section === 'saved';
+    byId('customDates').classList.toggle('hidden', byId('dateRange').value !== 'custom');
+    const advanced = [byId('clinical').value,byId('batch').value ? '简报 '+byId('batch').value : '',byId('savedOnly').checked?'只看收藏':''].filter(Boolean);
+    byId('advancedHint').textContent = advanced.length ? advanced.join(' · ') : '临床领域 · 简报批次 · 收藏';
+    document.querySelectorAll('[data-scope]').forEach(button => {
+      const active = (button.dataset.scope === 'all' ? '' : button.dataset.scope) === byId('stateFilter').value;
+      button.classList.toggle('active',active); button.setAttribute('aria-pressed',String(active));
+    });
     byId('count').textContent = '找到 ' + filtered.length + ' 条' + (research ? '研究记录 · 全库 ' + papers.length + ' 条' : '机会记录');
     const windowed = filtered.slice(0,shown);
-    byId('cardGrid').innerHTML = windowed.length ? windowed.map(card).join('') :
+    const groups = new Map();
+    if (research && mode !== 'all') windowed.forEach(p=>{const label=(mode==='journal'?p.journal:primaryTopic(p))||'待分类';if(!groups.has(label))groups.set(label,[]);groups.get(label).push(p);});
+    byId('cardGrid').innerHTML = windowed.length ? (groups.size ? Array.from(groups,([label,rows])=>'<div class="group-heading"><h3>'+escapeHtml(label)+'</h3><span>'+filtered.filter(p=>(mode==='journal'?p.journal:primaryTopic(p))===label).length+' 篇</span></div>'+rows.map(card).join('')).join('') : windowed.map(card).join('')) :
       '<div class="empty" style="grid-column:1/-1">没有符合条件的记录。可以清除筛选条件，查看全部资料。</div>';
     byId('loadMore').classList.toggle('hidden',filtered.length <= shown);
     byId('paginationNote').textContent = filtered.length ? '已显示 ' + Math.min(shown,filtered.length) + ' / ' + filtered.length + ' 条记录' : '';
@@ -283,6 +305,9 @@
     byId('navCompetition').textContent = events.filter(x=>x.category==='competition').length;
     byId('navConference').textContent = events.filter(x=>x.category==='conference').length;
     byId('navSaved').textContent = favorites.size;
+    byId('scopeCurated').textContent = papers.filter(isCurated).length;
+    byId('scopeAll').textContent = papers.length;
+    byId('scopeAutomated').textContent = papers.filter(p=>!isCurated(p)).length;
     const enriched = papers.filter(x => x.title_zh || x.description).length;
     byId('summaryText').textContent = papers.length + ' 条研究记录 · ' +
       new Set(papers.map(x=>x.journal).filter(Boolean)).size + ' 个期刊 · ' +
@@ -306,6 +331,7 @@
 
   document.querySelectorAll('[data-section]').forEach(el => el.addEventListener('click',() => setSection(el.dataset.section)));
   document.querySelectorAll('[data-mode]').forEach(el => el.addEventListener('click',() => setMode(el.dataset.mode)));
+  document.querySelectorAll('[data-scope]').forEach(el => el.addEventListener('click',()=>{byId('stateFilter').value=el.dataset.scope==='all'?'':el.dataset.scope;shown=20;render();}));
   ['journal','topic','studyType','clinical','stateFilter','batch','dateRange','startDate','endDate','sort','savedOnly'].forEach(id=>{
     byId(id).addEventListener('change',()=>{shown=20;render();});
   });
@@ -328,7 +354,9 @@
     setSection('research');byId('stateFilter').value='';byId('batch').value=el.dataset.brief;render();
   });
   byId('dailyContent').addEventListener('click', e => {
+    const read=e.target.closest('[data-read]'); if(read){openReader(read.dataset.read);return;}
     const el = e.target.closest('[data-daily]'); if (!el) return;
+    if(el.dataset.daily==='toggle'){dailyExpanded=!dailyExpanded;renderDaily();return;}
     if (el.dataset.daily === 'papers') {
       setSection('research'); byId('stateFilter').value = ''; byId('batch').value = dailyDate; render();
       byId('filterable').scrollIntoView({behavior:'smooth', block:'start'});
@@ -370,4 +398,5 @@
     byId('lastUpdate').textContent=String(err.message||err);
   });
 })();
+
 

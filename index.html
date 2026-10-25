@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#173d35">
   <meta name="description" content="ANES AI 麻醉AI文献探索站：麻醉、围术期与重症的人工智能研究，分期刊与主题探索，并保留比赛、会议和文献溯源。">
   <title>ANES AI · 麻醉AI文献探索站</title>
-  <link rel="stylesheet" href="assets/style.css?v=20261025-brief-sync2">
-  <script src="assets/app.js?v=20261025-reader-details" defer></script>
+  <link rel="stylesheet" href="assets/style.css?v=20261025-organized">
+  <script src="assets/app.js?v=20261025-organized" defer></script>
 </head>
 <body>
   <div class="app">
@@ -38,14 +38,13 @@
           <span class="nav-symbol" aria-hidden="true">☆</span><span>我的收藏</span><span class="nav-count" id="navSaved">0</span>
         </button>
         <button type="button" class="nav-item" data-section="briefs">
-          <span class="nav-symbol" aria-hidden="true">▥</span><span>简报原文与溯源</span>
+          <span class="nav-symbol" aria-hidden="true">▥</span><span>简报档案</span>
         </button>
       </nav>
       <div class="sidebar-bottom">
         <div class="side-note">
-          <small>PUBLIC LIBRARY</small>
           <strong>可追溯的研究书架</strong>
-          <p>按期刊与主题探索证据。收藏仅保存在当前浏览器；重要结论请返回原始研究核对。</p>
+          <p>点击标题阅读摘要与核验信息。收藏保存在当前浏览器。</p>
         </div>
         <div class="side-foot">◉ 公开浏览 · 管理员维护<br>每日北京时间 08:00 计划检索</div>
       </div>
@@ -62,18 +61,23 @@
         </header>
 
         <section class="daily-box" aria-label="每日科研简报与网站更新">
-          <div class="daily-heading"><div><span class="daily-eyebrow">DAILY RESEARCH UPDATE</span><h2>每日科研更新 <small id="dailyDate"></small></h2></div><span id="dailyCount" class="daily-stat"></span></div>
+          <div class="daily-heading"><h2>每日更新 <small id="dailyDate"></small></h2><span id="dailyCount" class="daily-stat"></span></div>
           <p id="dailyEmpty" class="daily-context">正在读取本期简报与网站更新…</p>
           <div id="dailyContent" class="daily-items"></div>
         </section>
 
         <div id="tabsArea" class="top-line">
           <div class="mode-tabs" role="tablist" aria-label="文献浏览路径">
-            <button type="button" class="mode-tab active" data-mode="all">全部文献</button>
-            <button type="button" class="mode-tab" data-mode="journal">期刊优先</button>
-            <button type="button" class="mode-tab" data-mode="topic">主题优先</button>
+            <button type="button" class="mode-tab active" data-mode="all">文献列表</button>
+            <button type="button" class="mode-tab" data-mode="journal">按期刊</button>
+            <button type="button" class="mode-tab" data-mode="topic">按主题</button>
           </div>
-          <div class="top-note" id="lastUpdate">每日08:00 计划自动检索</div>
+          <div class="scope-controls" aria-label="文献收录范围">
+            <button type="button" data-scope="curated">精选文献 <span id="scopeCurated">—</span></button>
+            <button type="button" data-scope="all">全部 <span id="scopeAll">—</span></button>
+            <button type="button" data-scope="automated">自动题录 <span id="scopeAutomated">—</span></button>
+          </div>
+          <span class="sr-only" id="lastUpdate"></span>
         </div>
 
         <section id="filterable">
@@ -96,7 +100,7 @@
 
           <div class="library-layout">
             <aside class="filters" aria-label="精确筛选">
-              <div class="filters-title"><span>精确筛选</span><button type="button" class="clear" id="clearFilters">重置</button></div>
+              <div class="filters-title"><span id="filterTitle">筛选文献</span><button type="button" class="clear" id="clearFilters">重置筛选</button></div>
               <div class="filters-inner">
                 <div class="filter-group">
                   <label for="journal" id="journalLabel">期刊</label>
@@ -110,12 +114,12 @@
                   <label for="studyType">研究类型</label>
                   <select id="studyType"><option value="">全部研究类型</option></select>
                 </div>
-                <div class="filter-group" id="clinicalGroup">
-                  <label for="clinical">临床领域（辅助分类）</label>
-                  <select id="clinical"><option value="">全部领域</option></select>
+                <div class="filter-group hidden" id="stateGroup">
+                  <label for="stateFilter">征集状态</label>
+                  <select id="stateFilter"><option value="">全部状态</option></select>
                 </div>
                 <div class="filter-group">
-                  <label for="dateRange">发布日期</label>
+                  <label for="dateRange" id="dateRangeLabel">发布日期</label>
                   <select id="dateRange">
                     <option value="all">全部日期</option>
                     <option value="30">近30天</option>
@@ -125,24 +129,19 @@
                     <option value="custom">自定义范围</option>
                   </select>
                 </div>
-                <div class="filter-group">
+                <div class="filter-group custom-dates hidden" id="customDates">
                   <label for="startDate">起始 / 截止</label>
                   <div class="filter-dates"><input type="date" id="startDate" aria-label="起始日期"><input type="date" id="endDate" aria-label="截止日期"></div>
-                  <div class="filter-hint">自定义日期时，请先选择「自定义范围」</div>
-                </div>
-                <div class="filter-group">
-                  <label for="stateFilter">收录状态</label>
-                  <select id="stateFilter"><option value="">全部收录状态</option></select>
-                </div>
-                <div class="filter-group" id="batchGroup">
-                  <label for="batch">简报批次</label>
-                  <select id="batch"><option value="">全部简报批次</option></select>
-                </div>
-                <div class="filter-group" id="savedGroup">
-                  <label class="filter-check"><input type="checkbox" id="savedOnly">只看已收藏</label>
                 </div>
               </div>
-              <p class="filter-hint">↗ 期刊与主题是独立探索路径。自动题录不等于完成精读，日期或来源存疑的记录会保留相应标记。</p>
+              <details class="advanced-filters" id="advancedFilters">
+                <summary>更多筛选 <span id="advancedHint">临床领域 · 简报批次 · 收藏</span></summary>
+                <div class="advanced-grid">
+                  <div class="filter-group" id="clinicalGroup"><label for="clinical">临床领域</label><select id="clinical"><option value="">全部领域</option></select></div>
+                  <div class="filter-group" id="batchGroup"><label for="batch">简报批次</label><select id="batch"><option value="">全部简报批次</option></select></div>
+                  <div class="filter-group" id="savedGroup"><label class="filter-check"><input type="checkbox" id="savedOnly">只看已收藏</label></div>
+                </div>
+              </details>
             </aside>
 
             <div class="feed">
@@ -189,4 +188,5 @@
   </div>
 </body>
 </html>
+
 
