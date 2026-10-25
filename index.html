@@ -61,6 +61,12 @@
           <button type="button" class="export" id="export"><span aria-hidden="true">↓</span><span>导出当前结果</span></button>
         </header>
 
+        <section class="daily-box" aria-label="每日新增文献">
+          <div class="daily-heading"><div><span class="daily-eyebrow">DAILY LITERATURE UPDATE</span><h2>每日最新收录 <small id="dailyDate"></small></h2></div><span id="dailyCount" class="daily-stat"></span></div>
+          <p id="dailyEmpty" class="daily-context">自动检索文献题录，等待数据加载。</p>
+          <div id="dailyContent" class="daily-items"></div>
+        </section>
+
         <div id="tabsArea" class="top-line">
           <div class="mode-tabs" role="tablist" aria-label="文献浏览路径">
             <button type="button" class="mode-tab active" data-mode="all">全部文献</button>
