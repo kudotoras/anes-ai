@@ -185,4 +185,10 @@ kbd{border:1px solid #e8ece8;border-radius:4px;color:#adb5ae;font-size:10px;line
 .daily-items a:hover{border-color:#aecbbc;background:#f2f8f1}
 .daily-items a span{display:block;font-size:12px;font-weight:650;line-height:1.55;overflow-wrap:anywhere}
 .daily-items a small{display:block;color:#829788;font-size:10px;margin-top:5px}
+.daily-actions{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:9px;margin-top:5px}
+.daily-actions button{border:1px solid #d9e5db;border-radius:6px;background:#f5f9f3;color:#315f49;padding:7px 12px;font-size:11px}
+.daily-actions button:hover{background:#eaf3e7;border-color:#a9c7b5}
+.daily-item{border:1px solid #e8eee9;border-radius:7px;padding:10px 12px}
+.daily-item span,.daily-item small{display:block}
 @media(max-width:900px){.daily-items{grid-template-columns:1fr}.daily-box{padding:16px}}
+

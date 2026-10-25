@@ -24,7 +24,9 @@
   };
   const isFuture = (s) => { const days = daysSince(s); return days != null && days < 0; };
   const displayDate = (s) => s ? escapeHtml(s) : '日期待核验';
+  const isCurated = (p) => Boolean(p.site_catalog_id || p.archive || (p.id || '').startsWith('legacy-'));
   const sourceType = (p) => {
+    if (p.site_catalog_id) return '已核验目录';
     if (p.id && String(p.id).startsWith('legacy-')) return '原站目录';
     if (p.archive) return '历史简报';
     return 'PubMed 自动题录';
@@ -38,7 +40,8 @@
     return '通用医学 / 待分类';
   };
 
-  let papers = [], events = [], briefs = [], updateStatus = {}, detailedSummaries = {};
+  let papers = [], events = [], briefs = [], updateStatus = {}, detailedSummaries = {}, dailyBrief = null, syncStatus = {};
+  let dailyDate = '';
   let section = 'research', mode = 'all', filtered = [], shown = 20;
   let favorites;
   try { favorites = new Set(JSON.parse(localStorage.getItem('anesSaved') || '[]')); }
@@ -90,6 +93,7 @@
     byId('filterable').classList.toggle('hidden', section === 'briefs');
     byId('briefsArea').classList.toggle('hidden', section !== 'briefs');
     byId('export').classList.toggle('hidden', section === 'briefs');
+    document.querySelector('.daily-box').classList.toggle('hidden', section !== 'research');
     if(section === 'briefs') renderBriefs();
     else { resetFilters(); rebuildFilters(); render(); }
     window.scrollTo({top:0,behavior:'smooth'});
@@ -107,6 +111,8 @@
     const journal = byId('journal').value, topic = byId('topic').value;
     const study = byId('studyType').value, clinical = byId('clinical').value;
     const state = byId('stateFilter').value, batch = byId('batch').value;
+    const batchIds = new Set([ ...((briefs.find(b => b.date === batch) || {}).paper_ids || []),
+      ...(batch === dailyDate && dailyBrief ? dailyBrief.papers.map(p => p.id) : []) ]);
     const range = byId('dateRange').value, start = byId('startDate').value, end = byId('endDate').value;
     const requireSaved = section === 'saved' || byId('savedOnly').checked;
     const compareSearch = x => [x.title,x.title_zh,x.description,x.journal,x.organizer,x.topic,
@@ -118,10 +124,10 @@
       if (topic && x.topic !== topic) return false;
       if (research && study && x.study_type !== study) return false;
       if (research && clinical && clinicalType(x) !== clinical) return false;
-      if (research && state === 'curated' && !x.archive && !(x.id||'').startsWith('legacy-')) return false;
-      if (research && state === 'automated' && (x.archive || (x.id||'').startsWith('legacy-'))) return false;
+      if (research && state === 'curated' && !isCurated(x)) return false;
+      if (research && state === 'automated' && isCurated(x)) return false;
       if (state && !['curated','automated'].includes(state) && (research ? sourceType(x) : x.status) !== state) return false;
-      if (research && batch && !(x.brief_dates || []).includes(batch)) return false;
+      if (research && batch && !(x.brief_dates || []).includes(batch) && x.ingested_date !== batch && !batchIds.has(x.id)) return false;
       if (range !== 'all') {
         const diff = daysSince(x.date);
         if (range === 'custom') {
@@ -217,22 +223,35 @@
     document.body.classList.remove('reader-open');
   }
   function renderDaily(){
-    const data=papers.filter(p=>p.origin==='PubMed'&&!p.archive);
-    const last=updateStatus.last_success;
-    const date=updateStatus.ingested_date||(last?new Date(last).toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'}):'');
-    const batch=data.filter(p=>p.ingested_date===date);
-    const recent=data.slice().sort((a,b)=>(b.ingested_date||'').localeCompare(a.ingested_date||'')).slice(0,6);
-    const list=batch.length?batch:recent;
-    byId('dailyDate').textContent=date||'尚未成功更新';
-    byId('dailyCount').textContent=updateStatus.papers_added==null?'':('本次新增 '+updateStatus.papers_added+' 条 · 检索完成 '+(updateStatus.queries_ok||0)+'/'+(updateStatus.queries_total||0)+' 项');
-    byId('dailyContent').innerHTML=list.length?list.slice(0,4).map(p=>'<a target="_blank" rel="noopener noreferrer" href="'+escapeHtml(safeUrl(p.source_url)||'#')+'"><span>'+escapeHtml(p.title||'')+'</span><small>'+escapeHtml(p.journal||'PubMed')+' · 发表日期 '+escapeHtml(p.date||'待核验')+'</small></a>').join(''):'<p>目前没有自动收录的文献题录。</p>';
-    byId('dailyEmpty').textContent=batch.length?'本次新收录题录（未经人工精读）':(updateStatus.papers_added===0?'本次检索没有新收录记录；下方展示以往自动题录。':'显示最近自动题录（部分旧记录未保存首次收录日期）。');
+    const selected = new Map();
+    const linked = papers.filter(p => (p.brief_dates || []).includes(dailyDate) || p.ingested_date === dailyDate);
+    [...((dailyBrief || {}).papers || []), ...linked].forEach(p => {
+      const key = String(p.doi || p.pmid || p.id || p.title).toLowerCase();
+      if (!selected.has(key)) selected.set(key, p);
+    });
+    const list = Array.from(selected.values());
+    const competitions = dailyBrief ? dailyBrief.competitions || [] : [];
+    const conferences = dailyBrief ? dailyBrief.conferences || [] : [];
+    const pending = competitions.filter(p => p.archive_review_required || /待核验/.test(p.status || '')).length;
+    byId('dailyDate').textContent = dailyDate || '尚未成功更新';
+    byId('dailyCount').textContent = '本期文献 ' + list.length + ' 篇' + (dailyBrief ? ' · 比赛 ' + competitions.length + ' 项 · 会议 ' + conferences.length + ' 项' : '');
+    byId('dailyEmpty').textContent = (dailyBrief ? '科研简报与网站独立检索已合并；下列为本期收录与重点回看，发表日期单独标注。' : '按本期目录关联展示；简报文件尚不可用。') +
+      (updateStatus.ingested_date === dailyDate && updateStatus.papers_added != null ? ' PubMed 本轮新增 ' + updateStatus.papers_added + ' 条。' : '') +
+      (pending ? ' ' + pending + ' 项赛事仍待核验。' : '');
+    byId('dailyContent').innerHTML = (list.length ? list.map(p => {
+      const url = safeUrl(p.source_url || (p.sources || [])[0]?.url);
+      const body = '<span>' + escapeHtml(p.title_zh || p.title || '') + '</span><small>' + escapeHtml(p.journal || '来源待核验') +
+        ' · 发表 ' + escapeHtml(p.date || '待核验') + (p.verifiedOn ? ' · 核验 ' + escapeHtml(p.verifiedOn) : ' · 待核验') + '</small>';
+      return url ? '<a target="_blank" rel="noopener noreferrer" href="' + escapeHtml(url) + '">' + body + '</a>' : '<div class="daily-item">' + body + '</div>';
+    }).join('') : '<p>本期暂无新收录或简报关联文献。</p>') +
+      '<div class="daily-actions"><button type="button" data-daily="papers">查看本期文献</button>' +
+      '<button type="button" data-daily="competition">比赛机会</button><button type="button" data-daily="conference">会议与征集</button></div>';
   }
   function render() {
     if (!papers.length && !events.length) return;
     filtered = listData();
     const research = section === 'research' || section === 'saved';
-    byId('count').textContent = '找到 ' + filtered.length + ' 条' + (research ? '研究记录' : '机会记录');
+    byId('count').textContent = '找到 ' + filtered.length + ' 条' + (research ? '研究记录 · 全库 ' + papers.length + ' 条' : '机会记录');
     const windowed = filtered.slice(0,shown);
     byId('cardGrid').innerHTML = windowed.length ? windowed.map(card).join('') :
       '<div class="empty" style="grid-column:1/-1">没有符合条件的记录。可以清除筛选条件，查看全部资料。</div>';
@@ -247,13 +266,13 @@
     byId('briefGrid').innerHTML = briefs.slice().sort((a,b) => (b.date||'').localeCompare(a.date||'')).map(b =>
       '<article class="brief-row"><strong>' + displayDate(b.date) + '</strong>' +
       '<div class="stat-line">文献 '+(b.paper_count||0)+' · 比赛 '+(b.competition_count||0)+' · 会议 '+(b.conference_count||0)+'</div>' +
-      '<p class="remark">历史记录部分恢复 · 原始简报来源信息待核验</p>' +
+      '<p class="remark">' + (b.record_status === 'aligned_with_verified_catalog_and_brief' ? '已对齐本期简报与核验目录；待核验条目单独标注' : '历史记录部分恢复 · 原始简报来源信息待核验') + '</p>' +
       '<button type="button" data-brief="' + escapeHtml(b.date) + '">查看关联文献 ↗</button></article>'
     ).join('') || '<div class="empty">暂无可读取的历史简报索引</div>';
   }
 
   function updateCounters() {
-    byId('navResearch').textContent = papers.filter(x=>x.archive || (x.id||'').startsWith('legacy-')).length;
+    byId('navResearch').textContent = papers.length;
     byId('navCompetition').textContent = events.filter(x=>x.category==='competition').length;
     byId('navConference').textContent = events.filter(x=>x.category==='conference').length;
     byId('navSaved').textContent = favorites.size;
@@ -299,7 +318,14 @@
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!byId('articleReader').classList.contains('hidden'))closeReader();});
   byId('briefGrid').addEventListener('click',e=>{
     const el=e.target.closest('[data-brief]');if(!el)return;
-    setSection('research');byId('batch').value=el.dataset.brief;render();
+    setSection('research');byId('stateFilter').value='';byId('batch').value=el.dataset.brief;render();
+  });
+  byId('dailyContent').addEventListener('click', e => {
+    const el = e.target.closest('[data-daily]'); if (!el) return;
+    if (el.dataset.daily === 'papers') {
+      setSection('research'); byId('stateFilter').value = ''; byId('batch').value = dailyDate; render();
+      byId('filterable').scrollIntoView({behavior:'smooth', block:'start'});
+    } else setSection(el.dataset.daily);
   });
   document.addEventListener('keydown',e=>{
     if(e.key==='/' && !['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName) && section !== 'briefs'){
@@ -307,16 +333,29 @@
     }
   });
   Promise.all([
-    fetch('data/research.json').then(r=>{if(!r.ok)throw Error('research load');return r.json();}),
-    fetch('data/opportunities.json').then(r=>{if(!r.ok)throw Error('events load');return r.json();}),
-    fetch('data/update_status.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
-    fetch('data/history_briefs.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
-    fetch('data/article_summaries.json').then(r=>r.ok?r.json():{}).catch(()=>({}))
-  ]).then(result=>{
+    fetch('data/research.json', {cache:'no-store'}).then(r=>{if(!r.ok)throw Error('research load');return r.json();}),
+    fetch('data/opportunities.json', {cache:'no-store'}).then(r=>{if(!r.ok)throw Error('events load');return r.json();}),
+    fetch('data/update_status.json', {cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({})),
+    fetch('data/history_briefs.json', {cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]),
+    fetch('data/article_summaries.json', {cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({})),
+    fetch('data/brief_sync_status.json', {cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({}))
+  ]).then(async result=>{
     papers=Array.isArray(result[0])?result[0]:[];
     events=Array.isArray(result[1])?result[1]:[];
     updateStatus=result[2]||{};briefs=Array.isArray(result[3])?result[3]:[];
     detailedSummaries=result[4]&&typeof result[4]==='object'?result[4]:{};
+    syncStatus = result[5] || {};
+    dailyDate = [...briefs.map(b => b.date), syncStatus.brief_date, updateStatus.ingested_date]
+      .filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d || '')).sort().pop() || '';
+    if (dailyDate) {
+      try {
+        const response = await fetch('data/daily_briefs/' + dailyDate + '.json', {cache:'no-store'});
+        if (!response.ok) throw Error('daily brief load');
+        const data = await response.json();
+        if (data.brief_date !== dailyDate || !Array.isArray(data.papers)) throw Error('daily brief format');
+        dailyBrief = data;
+      } catch (_) { dailyBrief = null; }
+    }
     updateCounters();renderDaily();setMode('all');setSection('research');
   }).catch(err=>{
     byId('summaryText').textContent='数据读取失败';
