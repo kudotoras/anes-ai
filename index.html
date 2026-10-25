@@ -167,5 +167,19 @@
       </div>
     </main>
   </div>
+
+  <div id="articleReader" class="reader-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="readerTitle" aria-hidden="true">
+    <div class="reader-dialog">
+      <div class="reader-header"><span>ANES AI · 研究精读</span><button type="button" id="readerClose" class="reader-close" aria-label="关闭文章精读">×</button></div>
+      <div class="reader-body">
+        <div class="reader-journal" id="readerJournal"></div>
+        <h2 id="readerTitle"></h2>
+        <p class="reader-english" id="readerEnglish"></p>
+        <div class="reader-quality" id="readerQuality"></div>
+        <div id="readerSections"></div>
+        <div class="reader-bottom"><a id="readerSource" target="_blank" rel="noopener noreferrer">阅读原始论文 / 摘要 ↗</a><span>仅供科研参考，请核对原文</span></div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
