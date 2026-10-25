@@ -338,33 +338,5 @@
     "paper_count": 4,
     "competition_count": 4,
     "conference_count": 4
-  },
-  {
-    "date": "2026-10-25",
-    "record_status": "aligned_with_verified_catalog_and_brief",
-    "paper_ids": [
-      "paper_e03c66ffbc85",
-      "jamia-trust-calibration-ocag176-2026",
-      "jamia-five-safes-tes-ocag160-2026",
-      "jamia-ambient-scribe-ocag151-2026",
-      "frontal-eeg-vulnerability-delirium-review-2026",
-      "icm-rl-randomization-perspective-2026"
-    ],
-    "competition_ids": [
-      "competition_c4b8c9eb04",
-      "competition_80c6f85a8d",
-      "competition_945b9a72d0",
-      "competition_e52bc9726b"
-    ],
-    "conference_ids": [
-      "conference_ce9a2f54c2",
-      "conference_95a23edf4a",
-      "conference_95688579fb",
-      "conference_8d528a0f54"
-    ],
-    "paper_count": 6,
-    "competition_count": 4,
-    "conference_count": 4,
-    "source_url": "data/daily_briefs/2026-10-25.json"
   }
 ]
