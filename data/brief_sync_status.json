@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-10-25",
+  "sites": {
+    "status": "verified",
+    "run_id": "brief-alignment-20261025-v1",
+    "revision": "2c0fb9a2-5daa-4d32-8a9d-48a708c3bf69",
+    "verified_at": "2026-10-25T05:16:12.871Z",
+    "papers": 76,
+    "opportunities": 14
+  },
+  "github": {
+    "status": "verified",
+    "papers": 162,
+    "opportunities": 28,
+    "verified_at": "2026-10-25T05:20:33.546Z",
+    "research_commit": "b6b921f03ad1b835a3e5251c6cff750f92a43733",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/daily_briefs/2026-10-25.json",
+      "data/article_summaries.json"
+    ]
+  },
+  "failures": [
+    {
+      "id": "competition_80c6f85a8d",
+      "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+    },
+    {
+      "id": "competition_945b9a72d0",
+      "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+    }
+  ],
+  "counts": {
+    "github_new_papers": 14,
+    "github_enriched_papers": 62,
+    "github_new_opportunities": 8,
+    "github_enriched_opportunities": 6,
+    "sites_new_papers": 3,
+    "sites_modified_papers": 1,
+    "sites_new_opportunities": 2,
+    "sites_modified_opportunities": 3
+  }
+}
