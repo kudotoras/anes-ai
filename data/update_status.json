@@ -1,8 +1,8 @@
 {
-  "last_success": "2026-10-25T05:12:15+00:00",
-  "queries_ok": 19,
+  "last_success": "2026-10-25T05:12:57+00:00",
+  "queries_ok": 15,
   "queries_total": 19,
-  "queries_failed": 0,
+  "queries_failed": 4,
   "papers_added": 0,
   "pubmed_records_checked": 55,
   "total_papers": 148,
