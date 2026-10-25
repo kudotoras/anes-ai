@@ -163,6 +163,7 @@
     const research = section === 'research' || section === 'saved';
     const journal = p.journal || p.organizer || '来源待补';
     const heading = p.title_zh || p.title || '未命名记录';
+    const hasSummary=Boolean(detailedSummaries[p.id]&&detailedSummaries[p.id].sections&&['研究目的','研究方法','研究结果','研究讨论与结论'].every(k=>(detailedSummaries[p.id].sections[k]||'').length>30));
     const secondary = p.title_zh && p.title && p.title_zh !== p.title ? p.title : '';
     const url = safeUrl(p.source_url);
     const hasFutureDate = isFuture(p.date);
@@ -184,7 +185,7 @@
       '<button type="button" class="save ' + (checked?'on':'') + '" data-save="' + escapeHtml(p.id) +
       '" title="' + (checked?'取消收藏':'收藏到我的书架') + '" aria-label="' + (checked?'取消收藏':'收藏') +
       '">' + (checked?'★':'☆') + '</button></div>' +
-      '<h2>' + (research ? '<button type="button" class="paper-title-link" data-read="' + escapeHtml(p.id) + '" title="查看结构化研究解读">' + escapeHtml(heading) + '</button>' : escapeHtml(heading)) + '</h2>' +
+      '<h2>' + (research && hasSummary ? '<button type="button" class="paper-title-link" data-read="' + escapeHtml(p.id) + '" title="查看结构化研究解读">' + escapeHtml(heading) + '</button>' : escapeHtml(heading)) + '</h2>' +
       (secondary ? '<p class="entry-en">' + escapeHtml(secondary) + '</p>' : '') +
       '<p class="description">' + escapeHtml(desc) + '</p>' +
       '<div class="tags">' + itemTags + notice + '</div>' +
@@ -194,40 +195,38 @@
   }
 
   function openReader(id) {
-    const paper = papers.find(p => String(p.id) === String(id));
-    if(!paper)return;
-    const modal=byId('articleReader'), summary=detailedSummaries[paper.id];
-    byId('readerJournal').textContent=[paper.journal||'待核验期刊',paper.date||'日期待核验'].join(' · ');
-    byId('readerTitle').textContent=paper.title_zh||paper.title||'未命名研究';
-    byId('readerEnglish').textContent=paper.title_zh ? (paper.title||'') : '';
-    const source=safeUrl((summary&&summary.source_url)||paper.source_url);
+    const paper=papers.find(p=>String(p.id)===String(id));
+    const summary=paper&&detailedSummaries[paper.id];
+    const keys=['研究目的','研究方法','研究结果','研究讨论与结论'];
+    if(!paper||!summary||!summary.sections||!keys.every(k=>typeof summary.sections[k]==='string'&&summary.sections[k].trim().length>30))return;
+    const modal=byId('articleReader');
+    byId('readerJournal').textContent=[paper.journal||'期刊待核验',paper.date||'日期待核验'].join(' · ');
+    byId('readerTitle').textContent=paper.title_zh||paper.title;
+    byId('readerEnglish').textContent=paper.title_zh?(paper.title||''):'';
+    const source=safeUrl(summary.source_url||paper.source_url);
     byId('readerSource').classList.toggle('hidden',!source);
     if(source)byId('readerSource').href=source;
-    const keys=['研究目的','研究方法','研究结果','研究讨论与结论'];
-    let texts={};
-    if(summary && summary.sections)texts=summary.sections;
-    const available=Boolean(summary&&summary.sections);
-    byId('readerQuality').textContent=available
-      ? '依据出版社摘要整理 · 具体数值与结论以原文为准'
-      : '暂未形成可靠的500–800字完整精读 · 不推测缺失的研究信息';
-    const known=paper.description||'';
-    byId('readerSections').innerHTML=keys.map((k,i)=>{
-      let body=texts[k];
-      if(!body){
-        if(i===0 && known && !/题录索引|自动获取的公开题录/.test(known))body='目前已有的文献线索：'+known+'（尚待对照正式摘要与全文确认研究目的）。';
-        else body='现有资料不足以可靠提取'+k+'。请打开原始论文或 PubMed 摘要核对；不会根据标题虚构数据和结论。';
-      }
-      return '<section class="reader-section"><h3>'+escapeHtml(k)+'</h3><p>'+escapeHtml(body)+'</p></section>';
-    }).join('');
-    document.body.classList.add('reader-open');
-    modal.classList.remove('hidden');
-    modal.setAttribute('aria-hidden','false');
-    byId('readerClose').focus();
+    byId('readerQuality').textContent='根据已核实的公开来源整理；细节请以原始论文为准';
+    byId('readerSections').innerHTML=keys.map(k=>'<section class="reader-section"><h3>'+escapeHtml(k)+'</h3><p>'+escapeHtml(summary.sections[k])+'</p></section>').join('');
+    document.body.classList.add('reader-open');modal.classList.remove('hidden');
+    modal.setAttribute('aria-hidden','false');byId('readerClose').focus();
   }
   function closeReader(){
     const modal=byId('articleReader');
     modal.classList.add('hidden');modal.setAttribute('aria-hidden','true');
     document.body.classList.remove('reader-open');
+  }
+  function renderDaily(){
+    const data=papers.filter(p=>p.origin==='PubMed'&&!p.archive);
+    const last=updateStatus.last_success;
+    const date=updateStatus.ingested_date||(last?new Date(last).toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'}):'');
+    const batch=data.filter(p=>p.ingested_date===date);
+    const recent=data.slice().sort((a,b)=>(b.ingested_date||'').localeCompare(a.ingested_date||'')).slice(0,6);
+    const list=batch.length?batch:recent;
+    byId('dailyDate').textContent=date||'尚未成功更新';
+    byId('dailyCount').textContent=updateStatus.papers_added==null?'':('本次新增 '+updateStatus.papers_added+' 条 · 检索完成 '+(updateStatus.queries_ok||0)+'/'+(updateStatus.queries_total||0)+' 项');
+    byId('dailyContent').innerHTML=list.length?list.slice(0,4).map(p=>'<a target="_blank" rel="noopener noreferrer" href="'+escapeHtml(safeUrl(p.source_url)||'#')+'"><span>'+escapeHtml(p.title||'')+'</span><small>'+escapeHtml(p.journal||'PubMed')+' · 发表日期 '+escapeHtml(p.date||'待核验')+'</small></a>').join(''):'<p>目前没有自动收录的文献题录。</p>';
+    byId('dailyEmpty').textContent=batch.length?'本次新收录题录（未经人工精读）':(updateStatus.papers_added===0?'本次检索没有新收录记录；下方展示以往自动题录。':'显示最近自动题录（部分旧记录未保存首次收录日期）。');
   }
   function render() {
     if (!papers.length && !events.length) return;
@@ -318,7 +317,7 @@
     events=Array.isArray(result[1])?result[1]:[];
     updateStatus=result[2]||{};briefs=Array.isArray(result[3])?result[3]:[];
     detailedSummaries=result[4]&&typeof result[4]==='object'?result[4]:{};
-    updateCounters();setMode('all');setSection('research');
+    updateCounters();renderDaily();setMode('all');setSection('research');
   }).catch(err=>{
     byId('summaryText').textContent='数据读取失败';
     byId('cardGrid').innerHTML='<div class="empty" style="grid-column:1/-1">加载文献数据失败，请稍后刷新或检查 GitHub Pages 的最新部署结果。</div>';
