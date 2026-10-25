@@ -38,7 +38,7 @@
     return '通用医学 / 待分类';
   };
 
-  let papers = [], events = [], briefs = [], updateStatus = {};
+  let papers = [], events = [], briefs = [], updateStatus = {}, detailedSummaries = {};
   let section = 'research', mode = 'all', filtered = [], shown = 20;
   let favorites;
   try { favorites = new Set(JSON.parse(localStorage.getItem('anesSaved') || '[]')); }
@@ -178,7 +178,7 @@
       '<button type="button" class="save ' + (checked?'on':'') + '" data-save="' + escapeHtml(p.id) +
       '" title="' + (checked?'取消收藏':'收藏到我的书架') + '" aria-label="' + (checked?'取消收藏':'收藏') +
       '">' + (checked?'★':'☆') + '</button></div>' +
-      '<h2>' + escapeHtml(heading) + '</h2>' +
+      '<h2>' + (research ? '<button type="button" class="paper-title-link" data-read="' + escapeHtml(p.id) + '" title="查看结构化研究解读">' + escapeHtml(heading) + '</button>' : escapeHtml(heading)) + '</h2>' +
       (secondary ? '<p class="entry-en">' + escapeHtml(secondary) + '</p>' : '') +
       '<p class="description">' + escapeHtml(desc) + '</p>' +
       '<div class="tags">' + itemTags + notice + '</div>' +
@@ -187,6 +187,42 @@
       '</article>';
   }
 
+  function openReader(id) {
+    const paper = papers.find(p => String(p.id) === String(id));
+    if(!paper)return;
+    const modal=byId('articleReader'), summary=detailedSummaries[paper.id];
+    byId('readerJournal').textContent=[paper.journal||'待核验期刊',paper.date||'日期待核验'].join(' · ');
+    byId('readerTitle').textContent=paper.title_zh||paper.title||'未命名研究';
+    byId('readerEnglish').textContent=paper.title_zh ? (paper.title||'') : '';
+    const source=safeUrl((summary&&summary.source_url)||paper.source_url);
+    byId('readerSource').classList.toggle('hidden',!source);
+    if(source)byId('readerSource').href=source;
+    const keys=['研究目的','研究方法','研究结果','研究讨论与结论'];
+    let texts={};
+    if(summary && summary.sections)texts=summary.sections;
+    const available=Boolean(summary&&summary.sections);
+    byId('readerQuality').textContent=available
+      ? '依据出版社摘要整理 · 具体数值与结论以原文为准'
+      : '暂未形成可靠的500–800字完整精读 · 不推测缺失的研究信息';
+    const known=paper.description||'';
+    byId('readerSections').innerHTML=keys.map((k,i)=>{
+      let body=texts[k];
+      if(!body){
+        if(i===0 && known && !/题录索引|自动获取的公开题录/.test(known))body='目前已有的文献线索：'+known+'（尚待对照正式摘要与全文确认研究目的）。';
+        else body='现有资料不足以可靠提取'+k+'。请打开原始论文或 PubMed 摘要核对；不会根据标题虚构数据和结论。';
+      }
+      return '<section class="reader-section"><h3>'+escapeHtml(k)+'</h3><p>'+escapeHtml(body)+'</p></section>';
+    }).join('');
+    document.body.classList.add('reader-open');
+    modal.classList.remove('hidden');
+    modal.setAttribute('aria-hidden','false');
+    byId('readerClose').focus();
+  }
+  function closeReader(){
+    const modal=byId('articleReader');
+    modal.classList.add('hidden');modal.setAttribute('aria-hidden','true');
+    document.body.classList.remove('reader-open');
+  }
   function render() {
     if (!papers.length && !events.length) return;
     filtered = listData();
@@ -247,11 +283,15 @@
   byId('export').addEventListener('click',exportCsv);
   byId('loadMore').addEventListener('click',()=>{shown+=20;render();});
   byId('cardGrid').addEventListener('click',e=>{
+    const read=e.target.closest('[data-read]');if(read){openReader(read.dataset.read);return;}
     const el=e.target.closest('[data-save]');if(!el)return;
     const id=el.dataset.save;
     if(favorites.has(id)) favorites.delete(id); else favorites.add(id);
     saveFavorites();byId('navSaved').textContent = favorites.size;render();
   });
+  byId('readerClose').addEventListener('click',closeReader);
+  byId('articleReader').addEventListener('click',e=>{if(e.target.id==='articleReader')closeReader();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!byId('articleReader').classList.contains('hidden'))closeReader();});
   byId('briefGrid').addEventListener('click',e=>{
     const el=e.target.closest('[data-brief]');if(!el)return;
     setSection('research');byId('batch').value=el.dataset.brief;render();
@@ -265,11 +305,13 @@
     fetch('data/research.json').then(r=>{if(!r.ok)throw Error('research load');return r.json();}),
     fetch('data/opportunities.json').then(r=>{if(!r.ok)throw Error('events load');return r.json();}),
     fetch('data/update_status.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
-    fetch('data/history_briefs.json').then(r=>r.ok?r.json():[]).catch(()=>[])
+    fetch('data/history_briefs.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
+    fetch('data/article_summaries.json').then(r=>r.ok?r.json():{}).catch(()=>({}))
   ]).then(result=>{
     papers=Array.isArray(result[0])?result[0]:[];
     events=Array.isArray(result[1])?result[1]:[];
     updateStatus=result[2]||{};briefs=Array.isArray(result[3])?result[3]:[];
+    detailedSummaries=result[4]&&typeof result[4]==='object'?result[4]:{};
     updateCounters();setMode('all');setSection('research');
   }).catch(err=>{
     byId('summaryText').textContent='数据读取失败';
