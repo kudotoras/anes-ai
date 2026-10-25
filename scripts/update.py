@@ -3,6 +3,7 @@
 import json,re,time,urllib.parse,urllib.request,xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime,timezone
+from zoneinfo import ZoneInfo
 ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'data/research.json';STATUS=ROOT/'data/update_status.json'
 BASE='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
 JOURNALS=['The Lancet Digital Health','Nature Medicine','Nature Biomedical Engineering','Nature Machine Intelligence','NEJM AI','JAMA','JAMA Network Open','Critical Care','Intensive Care Medicine','Anesthesiology','British Journal of Anaesthesia','Anaesthesia','Anesthesia & Analgesia','IEEE Transactions on Medical Imaging','Medical Image Analysis','Artificial Intelligence in Medicine','npj Digital Medicine']
@@ -30,7 +31,7 @@ def pubdate(a):
     return y+('-'+m.zfill(2) if m else '')+('-'+d.zfill(2) if m and d.isdigit() else '')
   return ''
 def main():
-  now=datetime.now(timezone.utc).isoformat(timespec='seconds');ex=json.loads(DATA.read_text('utf-8'))
+  now=datetime.now(timezone.utc).isoformat(timespec='seconds');ingested_date=datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat();ex=json.loads(DATA.read_text('utf-8'))
   seen={norm(r.get('title','')) for r in ex};dois={r['doi'].lower() for r in ex if r.get('doi')}
   queries=['"'+j+'"[jour] AND '+AI for j in JOURNALS]+[CLIN+' AND '+AI,'(anesthesia[tiab] OR perioperative[tiab]) AND '+AI]
   ids=set();failed=[];completed=0
@@ -53,12 +54,12 @@ def main():
       date=pubdate(a)
       if not date:continue
       journal=txt(a.find('./MedlineCitation/Article/Journal/Title'))
-      new.append({'id':'pubmed-'+pmid,'pmid':pmid,'doi':doi,'title':title,'title_zh':'','journal':journal,'date':date,'topic':'自动题录','study_type':'未人工精读','source_url':'https://pubmed.ncbi.nlm.nih.gov/'+pmid+'/','status':'PubMed 自动收录·待人工精读','origin':'PubMed'})
+      new.append({'id':'pubmed-'+pmid,'pmid':pmid,'doi':doi,'title':title,'title_zh':'','journal':journal,'date':date,'topic':'自动题录','study_type':'未人工精读','source_url':'https://pubmed.ncbi.nlm.nih.gov/'+pmid+'/','status':'PubMed 自动收录·待人工精读','origin':'PubMed','ingested_date':ingested_date})
       seen.add(norm(title))
       if doi:dois.add(doi.lower())
   if new:
     ex.extend(new);ex.sort(key=lambda x:x.get('date',''),reverse=True)
     DATA.write_text(json.dumps(ex,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-  STATUS.write_text(json.dumps({'last_success':now,'queries_ok':completed,'queries_total':len(queries),'queries_failed':len(failed),'papers_added':len(new),'pubmed_records_checked':records,'total_papers':len(ex),'notes':'PubMed 题录自动收录；比赛和会议尚未自动抓取。'},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+  STATUS.write_text(json.dumps({'last_success':now,'queries_ok':completed,'queries_total':len(queries),'queries_failed':len(failed),'papers_added':len(new),'ingested_date':ingested_date,'pubmed_records_checked':records,'total_papers':len(ex),'notes':'PubMed 题录自动收录；比赛和会议尚未自动抓取。'},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
   print(f'Added {len(new)} records; total {len(ex)}; completed {completed}/{len(queries)} searches')
 if __name__=='__main__':main()
