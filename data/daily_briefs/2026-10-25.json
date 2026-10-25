@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-10-25",
+  "source": "麻醉AI科研简报及网站独立检索",
+  "assembled_on": "2026-10-25",
+  "publication_date_note": "简报日期和实际核验日期不代表文献发表日期；每条保留原始发表日期。",
+  "papers": [
+    {
+      "id": "paper_e03c66ffbc85",
+      "title": "Artificial Intelligence-Driven Clinical Decision Support for Postoperative Delirium Prevention: A Pragmatic Randomized Controlled Trial.",
+      "title_zh": "AI 辅助谵妄预防随机试验：未改变照护依从性，结局评估缺失明显",
+      "journal": "Anesthesia & Analgesia",
+      "date": "2026-10-09",
+      "doi": "10.1213/ane.0000000000008318",
+      "topic": "风险预测与术后结局",
+      "categories": [
+        "风险预测与术后结局",
+        "临床落地与验证",
+        "POD/PND与围术期结局",
+        "既往简报"
+      ],
+      "study_type": "随机对照试验",
+      "description": "单中心试验将 7,294 名术前认知障碍患者随机分配至电子病历中的 AI 驱动非打断式决策支持或常规照护。研究用自然语言处理、认知量表或诊断编码识别人群，并比较 12 项围术期最佳实践的依从性与术后 7 天内谵妄。\n\n仅 1,255 人（17.2%）有谵妄评估记录；在已评估者中，干预与对照组谵妄分别为 35.1% 和 32.7%（P=0.37），最佳实践依从性也未显著改变。大量结局缺失限制了对干预有效性的判断，不能据此断言 AI 预防谵妄无效。值得借鉴其工作流干预设计，并把可靠的结局测量和行为改变纳入实施评价。",
+      "source_url": "https://doi.org/10.1213/ANE.0000000000008318",
+      "lookup_url": "https://doi.org/10.1213/ANE.0000000000008318",
+      "link_kind": "original",
+      "status": "已核验",
+      "origin": "历史简报归档；站点核验目录",
+      "archive": false,
+      "archive_id": "paper_e03c66ffbc85",
+      "archive_review_required": false,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "pmid": "42854247",
+      "verifiedOn": "2026-10-14",
+      "verification": "PubMed 与出版商原始页面的检索缓存：题录、发布日期、方法及结果摘要；直接打开失败，未读取订阅全文",
+      "sources": [
+        {
+          "label": "Anesthesia & Analgesia 原始出版商 DOI",
+          "url": "https://doi.org/10.1213/ANE.0000000000008318"
+        },
+        {
+          "label": "PubMed 原始题录与摘要（PMID 42854247）",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42854247/"
+        }
+      ],
+      "dateKind": "出版商与 PubMed 提前在线发表日期",
+      "stage": "真实临床工作流实用性随机试验",
+      "domains": [
+        "麻醉",
+        "围术期"
+      ],
+      "methods": [
+        "自然语言处理",
+        "电子病历",
+        "非打断式决策支持",
+        "4AT"
+      ],
+      "site_catalog_id": "ai-delirium-prevention-pragmatic-rct-2026",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "jamia-trust-calibration-ocag176-2026",
+      "pmid": "",
+      "doi": "10.1093/jamia/ocag176/8916310",
+      "title": "Transparency features alone are insufficient for trust calibration in artificial intelligence diagnostic support",
+      "title_zh": "AI解释与信任校准：220名医生的随机模拟实验",
+      "journal": "Journal of the American Medical Informatics Association",
+      "date": "2026-10-14",
+      "topic": "临床落地与验证",
+      "categories": [
+        "临床落地与验证",
+        "大语言模型与智能体"
+      ],
+      "study_type": "随机对照模拟实验",
+      "source_url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag176/8916310",
+      "status": "已核验",
+      "origin": "站点核验目录",
+      "description": "220名医生随机比较无额外透明度、数字置信度和附引用文字解释。透明度设置未显著改变工具信任；AI辅助后医生信心增加，信任、信心及行为影响并不同步。\n\n为医生确认式智能体设计错误建议识别和最终决策评价。该实验不是麻醉给药试验，不能把信任或信心提高当成临床安全性改善。",
+      "link_kind": "original",
+      "archive": false,
+      "archive_review_required": false,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "verifiedOn": "2026-10-25",
+      "verification": "出版商原始题录及完整摘要；未取得订阅全文",
+      "sources": [
+        {
+          "label": "JAMIA出版商题录与摘要",
+          "url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag176/8916310"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1093/jamia/ocag176"
+        }
+      ],
+      "dateKind": "出版商首次在线发表；2026-10-25科研简报补入",
+      "stage": "临床情景模拟实验",
+      "domains": [
+        "方法学",
+        "通用医学"
+      ],
+      "methods": [
+        "界面透明度",
+        "信任校准",
+        "情景模拟"
+      ],
+      "site_catalog_id": "jamia-trust-calibration-ocag176-2026",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "jamia-five-safes-tes-ocag160-2026",
+      "pmid": "",
+      "doi": "10.1093/jamia/ocag160/8885674",
+      "title": "Five safes task execution service: a standards-based architecture and reference implementation for secure federated analytics across trusted research environments",
+      "title_zh": "跨可信研究环境的联邦分析：Five Safes任务执行架构",
+      "journal": "Journal of the American Medical Informatics Association",
+      "date": "2026-10-08",
+      "topic": "联邦学习与跨中心验证",
+      "categories": [
+        "联邦学习与跨中心验证",
+        "临床部署、监管与人机协作"
+      ],
+      "study_type": "系统架构开发 / 案例验证",
+      "source_url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag160/8885674",
+      "status": "已核验",
+      "origin": "站点核验目录",
+      "description": "提出标准化分析请求、协调、治理控制及执行层架构，并在英国和跨洲可信研究环境案例中验证联邦分析任务执行。\n\n可借鉴多中心数据治理、任务审批与结果审查流程。联邦分析不等于联邦模型训练，本文不能证明某种POD/AKI预测模型优于集中式模型。",
+      "link_kind": "original",
+      "archive": false,
+      "archive_review_required": false,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "verifiedOn": "2026-10-25",
+      "verification": "出版商题录、完整摘要与公开正文架构部分",
+      "sources": [
+        {
+          "label": "JAMIA出版商题录与摘要",
+          "url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag160/8885674"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1093/jamia/ocag160"
+        }
+      ],
+      "dateKind": "出版商首次在线发表；2026-10-25科研简报补入",
+      "stage": "跨环境架构案例验证",
+      "domains": [
+        "方法学",
+        "通用医学"
+      ],
+      "methods": [
+        "Five Safes",
+        "GA4GH TES",
+        "可信研究环境"
+      ],
+      "site_catalog_id": "jamia-five-safes-tes-ocag160-2026",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "jamia-ambient-scribe-ocag151-2026",
+      "pmid": "",
+      "doi": "10.1093/jamia/ocag151/8935411",
+      "title": "Longitudinal effects of ambient artificial intelligence scribe use on documentation burden and financial productivity in primary care: a quasi-experimental study",
+      "title_zh": "AI病历助手的长期效果：31万余次就诊的准实验研究",
+      "journal": "Journal of the American Medical Informatics Association",
+      "date": "2026-10-18",
+      "topic": "临床落地与验证",
+      "categories": [
+        "临床落地与验证",
+        "大语言模型与智能体"
+      ],
+      "study_type": "准实验 / 中断时间序列",
+      "source_url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag151/8935411",
+      "status": "已核验",
+      "origin": "站点核验目录",
+      "description": "36家诊所220名临床人员、314845次就诊的中断时间序列研究，比较工具启用前后各150天；文书负担变化随持续使用逐渐形成。\n\n可借鉴长期工作效率、复核时间与过程指标。研究位于初级保健，准实验设计不能将全部变化归因于AI，也不等同于CCI抽取系统已获临床验证。",
+      "link_kind": "original",
+      "archive": false,
+      "archive_review_required": false,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "verifiedOn": "2026-10-25",
+      "verification": "出版商原始题录及完整摘要；未取得订阅全文",
+      "sources": [
+        {
+          "label": "JAMIA出版商题录与摘要",
+          "url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag151/8935411"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1093/jamia/ocag151"
+        }
+      ],
+      "dateKind": "出版商首次在线发表；2026-10-25科研简报补入",
+      "stage": "真实工作流观察性评价",
+      "domains": [
+        "方法学",
+        "通用医学"
+      ],
+      "methods": [
+        "AI scribe",
+        "中断时间序列",
+        "工作负担"
+      ],
+      "site_catalog_id": "jamia-ambient-scribe-ocag151-2026",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "frontal-eeg-vulnerability-delirium-review-2026",
+      "pmid": "",
+      "doi": "10.1007/s10877-026-01507-y",
+      "title": "Beyond processed depth targets: frontal EEG patterns, brain vulnerability, and postoperative delirium in older adults",
+      "title_zh": "超越BIS数字：额部脑电、脑易损性与老年术后谵妄",
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "date": "2026-10-05",
+      "topic": "精准麻醉",
+      "categories": [
+        "精准麻醉",
+        "EEG/BIS与多模态生理模型",
+        "风险预测与术后结局"
+      ],
+      "study_type": "叙述性综述",
+      "source_url": "https://link.springer.com/article/10.1007/s10877-026-01507-y",
+      "status": "已核验",
+      "origin": "站点核验目录",
+      "description": "综述老年患者额部原始波形、频谱、抑制和苏醒模式，强调需结合药物暴露、循环、信号质量及认知背景解释。单独追求处理后深度指数或减少抑制，尚不能可靠预防谵妄。\n\n可为多模态麻醉智能体的状态表征提供背景。候选脑电模式不是已验证的诊断或治疗目标；本篇不证明增加EEG特征或使用AI即可改善患者结局。",
+      "link_kind": "original",
+      "archive": false,
+      "archive_review_required": false,
+      "brief_dates": [],
+      "verifiedOn": "2026-10-25",
+      "verification": "出版商题录、摘要与全文方法/局限；检索截至2026-04-30，属于叙述性综述",
+      "sources": [
+        {
+          "label": "出版商原文",
+          "url": "https://link.springer.com/article/10.1007/s10877-026-01507-y"
+        }
+      ],
+      "dateKind": "首次在线发表；本次高匹配补漏，非今日新发表",
+      "stage": "证据整合与假设生成；非AI模型开发或干预试验",
+      "domains": [
+        "麻醉",
+        "围术期"
+      ],
+      "methods": [
+        "额部EEG",
+        "α功率",
+        "爆发抑制",
+        "多模态监测"
+      ],
+      "site_catalog_id": "frontal-eeg-vulnerability-delirium-review-2026",
+      "provenance": []
+    },
+    {
+      "id": "icm-rl-randomization-perspective-2026",
+      "pmid": "",
+      "doi": "10.1007/s00134-026-08576-2",
+      "title": "Fully flexing the potential of AI in intensive care: reinforcement learning with randomization when needed",
+      "title_zh": "ICU强化学习与随机化：从模型走向临床评价的观点线索",
+      "journal": "Intensive Care Medicine",
+      "date": "2026-08-17",
+      "topic": "强化学习与数字孪生",
+      "categories": [
+        "强化学习与数字孪生",
+        "临床落地与验证"
+      ],
+      "study_type": "观点 / What’s New in Intensive Care",
+      "source_url": "https://link.springer.com/article/10.1007/s00134-026-08576-2",
+      "status": "已核验",
+      "origin": "站点核验目录",
+      "description": "Elbers、Ercole和Angus发表于Intensive Care Medicine的观点文章，题名聚焦重症强化学习与必要时的随机化。首次在线日期为8月17日，不能将10月刊期或本次补收日期视为首次发表。\n\n作为离线策略向临床评价过渡的阅读线索保留。本站仅核验题名、作者、文章类型、日期及参考文献，未取得正文，不复述未读论证，不据此声称临床获益。",
+      "link_kind": "original",
+      "archive": false,
+      "archive_review_required": false,
+      "brief_dates": [],
+      "verifiedOn": "2026-10-25",
+      "verification": "出版商题录及参考文献；订阅正文未取得，无可读摘要",
+      "sources": [
+        {
+          "label": "出版商题录（正文需订阅）",
+          "url": "https://link.springer.com/article/10.1007/s00134-026-08576-2"
+        }
+      ],
+      "dateKind": "首次在线发表；2026年10月卷期，本次高价值补看",
+      "stage": "观点文章题录；未取得订阅正文",
+      "domains": [
+        "重症",
+        "方法学"
+      ],
+      "methods": [
+        "强化学习",
+        "随机化",
+        "临床评价"
+      ],
+      "site_catalog_id": "icm-rl-randomization-perspective-2026",
+      "provenance": []
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_c4b8c9eb04",
+      "title": "第八届 AIC 算法主题赛 · AI＋医学",
+      "organizer": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "journal": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "date": "2026-10-30",
+      "deadline": "2026-10-30",
+      "category": "competition",
+      "topic": "AI＋医学",
+      "description": "面向全球高校和科研院所具有正式学籍的在读学生（含研究生、本科生、专科生）。开放式赛题允许以 AI 解决医学研究、诊疗与健康服务问题，作品以技术报告呈现。\n\n10 月 10 日赛程调整通知确认 AI＋医学报名缴费与作品提交均于 10 月 30 日 20:00 截止；原始通知发表于 7 月 9 日。可单人或组队，每队至多 3 名学生、2 名指导教师，参赛费 500 元/队。适合有学生成员的麻醉或重症 AI 团队，需满足原创与医学科技伦理要求；详细竞赛规则附件本次无法读取，提交格式与评分细则仍须按官方附件核对。",
+      "source_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": "2026-10-10",
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-25",
+      "sources": [
+        {
+          "label": "2026-10-10 官方赛程调整",
+          "url": "https://www.aicomp.cn/notice/notice-3/5435.html"
+        },
+        {
+          "label": "2026-07-09 AI＋医学官方通知与参赛资格",
+          "url": "https://www.aicomp.cn/notice/notice-3/4709.html"
+        }
+      ],
+      "deadlineLabel": "2026-10-30 20:00（报名、缴费及初赛作品；官网未注明时区）",
+      "format": "开放式 AI 医学项目竞赛",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+      "site_catalog_id": "aic-ai-medicine2026",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "journal": "中国生产力促进中心协会",
+      "date": "2026-10-30",
+      "deadline": "2026-10-30",
+      "category": "competition",
+      "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
+      "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+      "source_url": "https://www.aimtcbj.com/",
+      "status": "待核验",
+      "historical_status": "has_future_deadline_reported",
+      "archive": true,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "archive_review_required": true,
+      "verification_attempted_on": "2026-10-25",
+      "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
+    },
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会",
+      "journal": "中国技术经济学会",
+      "date": "",
+      "deadline": "",
+      "category": "competition",
+      "topic": "AI Agent开放应用、医疗场景",
+      "description": "截止日期：未明确。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+      "source_url": "https://www.ai-race.com.cn/",
+      "status": "待核验",
+      "historical_status": "deadline_unknown_or_disputed",
+      "archive": true,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "archive_review_required": true,
+      "verification_attempted_on": "2026-10-25",
+      "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛",
+      "organizer": "中国计算机学会（CCF）",
+      "journal": "中国计算机学会（CCF）",
+      "date": "2026-11-10",
+      "deadline": "2026-11-10",
+      "category": "competition",
+      "topic": "AI+生物医药、AI+脑机接口、AI+科学智能",
+      "description": "截止日期：2026-11-10。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+      "source_url": "https://ccf.org.cn/tecagi2026",
+      "status": "待核验",
+      "historical_status": "has_future_deadline_reported",
+      "archive": true,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "archive_review_required": true,
+      "verification_attempted_on": "2026-10-25",
+      "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "journal": "IARS / SOCCA",
+      "date": "2026-12-06",
+      "deadline": "2026-12-07T07:59:00Z",
+      "category": "conference",
+      "topic": "麻醉",
+      "description": "2027 年会摘要征集已开放，新增监测与技术、围术期高风险人群、重症及脑健康等分类。入选摘要可作现场墙报展示。\n\n官方摘要页仍显示征集开放，截止为 12 月 6 日 23:59 PST。英文正文需按四部分填写，总计不超过 4500 字符（含空格），每部分不超过 2500 字符；截止后无法修改。研究摘要可参加 Kosaka Best Abstract Award，详细资格与展示要求以官方规则为准。",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-25",
+      "sources": [
+        {
+          "label": "官方摘要征集与规则",
+          "url": "https://meetings.iars.org/abstracts/submissions/"
+        },
+        {
+          "label": "官方年会页面",
+          "url": "https://meetings.iars.org/"
+        }
+      ],
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间 12-07 15:59）",
+      "deadlineInstant": "2026-12-07T07:59:00Z",
+      "event": "2027-04-30 — 05-02 · 美国芝加哥",
+      "format": "摘要 / 墙报",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+      "site_catalog_id": "iars2027",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+      "organizer": "ESAIC",
+      "journal": "ESAIC",
+      "date": "2026-12-05",
+      "deadline": "2026-12-05T22:59:00Z",
+      "category": "conference",
+      "topic": "麻醉",
+      "description": "2027 年会于 5 月 29—31 日在哥本哈根举行。官方新页面明确摘要征集 2026 年 11 月 1 日开放，12 月 5 日 23:59 CET 截止，录取后现场 ePoster 展示。\n\n目前仍待开放。需 MyESAIC 账户，每篇最多 6 位作者，每位演讲者最多 3 篇摘要；演讲者须 2027 年 3 月 25 日前注册完整实体大会。AI 辅助摘要制作须披露。展示摘要可收入 EJA 电子增刊，属于会议摘要，具体发表及投稿限制以官网为准。",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "status": "upcoming",
+      "historical_status": "deadline_unknown_or_disputed",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-10",
+      "sources": [
+        {
+          "label": "ESAIC 2027 官方摘要日期、时区与规则",
+          "url": "https://euroanaesthesia.org/2027/abstracts/"
+        },
+        {
+          "label": "官方 2027 年会首页",
+          "url": "https://euroanaesthesia.org/2027/"
+        }
+      ],
+      "deadlineLabel": "2026-12-05 23:59 CET（北京时间 12-06 06:59）",
+      "deadlineInstant": "2026-12-05T22:59:00Z",
+      "event": "2027-05-29 — 05-31 · 丹麦哥本哈根",
+      "format": "摘要 / 墙报",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "site_catalog_id": "ea2027",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "conference_95688579fb",
+      "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
+      "organizer": "Society of Cardiovascular Anesthesiologists",
+      "journal": "Society of Cardiovascular Anesthesiologists",
+      "date": "2026-12-01",
+      "deadline": "2026-12-02T04:59:00Z",
+      "category": "conference",
+      "topic": "会议与征集",
+      "description": "官网明确2027年科学摘要已开放，截止12月1日美国东部标准时间23:59，录用通知计划于2027年1月底发出。\n\n属于会议摘要展示，不等于完整SCI原创论文。ePoster PDF上传与摘要投稿分别有截止；字数、费用及出版安排需按投稿系统细则，本站本次未登录提交系统。",
+      "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-25",
+      "sources": [
+        {
+          "label": "SCA官方会议及摘要截止",
+          "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+        }
+      ],
+      "deadlineLabel": "2026-12-01 23:59 EST（北京时间12-02 12:59）",
+      "deadlineInstant": "2026-12-02T04:59:00Z",
+      "event": "2027-04-08—04-11 · 美国拉斯维加斯",
+      "format": "科学摘要 / ePoster",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "site_catalog_id": "conference_95688579fb",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    },
+    {
+      "id": "conference_8d528a0f54",
+      "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
+      "organizer": "Biomedical Engineering Society",
+      "journal": "Biomedical Engineering Society",
+      "date": "2026-11-06",
+      "deadline": "2026-11-06",
+      "category": "conference",
+      "topic": "会议与征集",
+      "description": "官方摘要页明确Late-Breaking截止11月6日，常规摘要截止8月4日，需区分两个通道。会议在2027年1月3—7日举行。\n\n偏细胞与分子生物工程，作为基础研究拓展机会。常规摘要少于250词，不能未经核验直接套用于Late-Breaking；部分奖项申请已截止，费用和出版检索须另核实。",
+      "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-25",
+      "sources": [
+        {
+          "label": "BMES官方摘要征集页",
+          "url": "https://www.bmes.org/2027/cmbeconference/abstracts"
+        }
+      ],
+      "deadlineLabel": "2026-11-06（官网未注明具体时间/时区）",
+      "event": "2027-01-03—01-07 · 美国圣迭戈",
+      "format": "Late-Breaking Abstract / Poster",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "site_catalog_id": "conference_8d528a0f54",
+      "provenance": [
+        "麻醉AI科研简报"
+      ]
+    }
+  ],
+  "notes": [
+    "POD随机试验原站已有，本期关联而非重复新增；原核验日期保留。",
+    "Euroanaesthesia沿用已核验2027指南日期，不用2026规则替代。",
+    "AI+医疗、AI-race、CCF通用AI赛事本次未充分核验，仅保留待核实线索。"
+  ]
+}
