@@ -127,3 +127,48 @@ kbd{border:1px solid #e8ece8;border-radius:4px;color:#adb5ae;font-size:10px;line
 .reader-bottom{border-top:1px solid #dde8de;padding-top:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;color:#9eada1;font-size:11px}
 .reader-bottom a{font-size:13px;font-weight:650}
 @media(max-width:600px){.reader-overlay{padding:8px}.reader-dialog{max-height:96vh}.reader-header{padding:10px 14px}.reader-body{padding:20px 19px 25px}.reader-body h2{font-size:19px}.reader-section p{font-size:13px;line-height:1.95}}
+
+/* Faithful layout adjustments based on the reference ANES AI Sites page. */
+:root{--deep:#153d35;--deep2:#254f44;--forest:#356e58;--canvas:#f8f9f6;--wash:#edf2e9;--line:#e1e7e0}
+.sidebar{width:220px;flex:0 0 220px;padding:26px 18px 23px}
+.brand{padding:12px 3px 31px;gap:13px}
+.brand-name{font-size:25px;letter-spacing:1.25px}
+.brand-mark{width:42px;height:42px}
+.nav-label{margin:32px 11px 14px}
+.nav-list{gap:5px}
+.nav-item{padding:16px 13px;min-height:60px;font-size:14px;border-radius:8px}
+.nav-item .nav-count{font-size:12px}
+.nav-item .nav-symbol{font-size:20px}
+.inner{padding:18px 30px 66px;max-width:1480px}
+.page-head{margin-bottom:20px}
+.page-head h1{font-size:23px;margin:1px 0 7px;font-weight:750}
+.eyebrow{font-size:12px;color:#8a9b8e}
+#summaryText{display:none}
+.top-line{margin-bottom:25px}
+.mode-tabs{gap:22px}
+.mode-tab{padding:14px 17px 14px;font-size:13px}
+.search-sort{margin-bottom:23px}
+.search-shell{height:51px}
+#curationNotice{display:none}
+.library-layout{grid-template-columns:206px minmax(0,1fr);gap:18px}
+.filters{background:#eff3ea;border-color:#e3e9de;padding:20px 18px;border-radius:11px}
+.filters-title{margin-bottom:17px}
+.filter-group{margin-bottom:17px}
+.filter-group label{color:#6e8675;font-size:12px}
+.filter-count{display:flex;justify-content:space-between;align-items:center;font-size:12px;margin:2px 0 15px}
+.card-grid{gap:17px}
+.entry{padding:23px 20px 19px;border:1px solid #e3e8e1;min-height:445px}
+.entry-top{margin-bottom:19px}
+.journal{font-size:11px;color:#5a816a}
+.entry h2{font-size:16px;line-height:1.65;margin-bottom:11px}
+.entry .entry-en{font-size:12px;color:#92a197;line-height:1.65;margin-bottom:12px}
+.entry .description{font-size:13px;color:#60796a;line-height:1.85;margin-top:6px}
+.tags{margin-bottom:22px}
+.tag{background:#edf3eb;color:#6f876c}
+.entry-foot{padding-top:13px}
+.entry-foot a{color:#628f76}
+.side-note{padding:21px 16px}
+.side-note strong{font-weight:700}
+@media(max-width:1200px){.sidebar{width:220px;flex-basis:220px}.inner{padding:20px 26px}.library-layout{grid-template-columns:205px minmax(0,1fr)}.entry{min-height:420px}.entry h2{font-size:15px}}
+@media(max-width:1000px){.card-grid{grid-template-columns:1fr}.entry{min-height:300px}}
+@media(max-width:760px){.sidebar{width:auto;min-height:0;height:auto;padding:13px 17px}.inner{padding:20px 15px}.nav-item{min-height:0;padding:10px 4px}.entry{min-height:0}.library-layout{display:block}.filters{margin-bottom:20px}}
