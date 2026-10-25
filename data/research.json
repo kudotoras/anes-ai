@@ -264,14 +264,21 @@
     "pmid": "42918809",
     "doi": "10.1038/s44401-026-00156-2",
     "title": "Discordance between actual care and recommendations by a reinforcement learning model for sepsis.",
-    "title_zh": "",
-    "journal": "npj health systems",
+    "title_zh": "实际治疗与AI建议分歧有多大：脓毒症强化学习策略的多院评估",
+    "journal": "npj Health Systems",
     "date": "2026-10-22",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "强化学习与数字孪生",
+    "study_type": "回顾性模型开发 / 验证",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42918809/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed"
+    "status": "原站展示恢复 · 研究解读与数据待独立核验",
+    "origin": "原站截图中可见的精选研究（待独立核验）",
+    "categories": [
+      "强化学习与数字孪生",
+      "重症数据库与治疗决策"
+    ],
+    "description": "在14家医院的30,678名脓毒症ICU患者中，研究量化实际液体和升压药治疗与AI Clinician建议的距离，分析分歧对疾病严重程度与治疗决策的影响。较高分歧与高SOFA组90天死亡的关联主要见于补液维度。",
+    "archive": true,
+    "archive_review_required": true
   },
   {
     "id": "paper_3ce593cf5d94",
