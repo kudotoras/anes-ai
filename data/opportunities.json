@@ -1,33 +1,78 @@
 [
   {
     "id": "conference_ce9a2f54c2",
-    "title": "IARS–SOCCA 2027联合年会",
-    "organizer": "International Anesthesia Research Society 与 SOCCA",
-    "journal": "International Anesthesia Research Society 与 SOCCA",
+    "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+    "organizer": "IARS / SOCCA",
+    "journal": "IARS / SOCCA",
     "date": "2026-12-06",
-    "deadline": "2026-12-06T23:59:00-08:00",
+    "deadline": "2026-12-07T07:59:00Z",
     "category": "conference",
-    "topic": "学术会议征集",
-    "description": "截止日期：2026-12-06。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+    "topic": "麻醉",
+    "description": "2027 年会摘要征集已开放，新增监测与技术、围术期高风险人群、重症及脑健康等分类。入选摘要可作现场墙报展示。\n\n官方摘要页仍显示征集开放，截止为 12 月 6 日 23:59 PST。英文正文需按四部分填写，总计不超过 4500 字符（含空格），每部分不超过 2500 字符；截止后无法修改。研究摘要可参加 Kosaka Best Abstract Award，详细资格与展示要求以官方规则为准。",
     "source_url": "https://meetings.iars.org/abstracts/submissions/",
-    "status": "历史记录·开放状态未核验",
+    "status": "open",
     "historical_status": "has_future_deadline_reported",
-    "archive": true
+    "archive": false,
+    "announcement_date": null,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "官方摘要征集与规则",
+        "url": "https://meetings.iars.org/abstracts/submissions/"
+      },
+      {
+        "label": "官方年会页面",
+        "url": "https://meetings.iars.org/"
+      }
+    ],
+    "deadlineLabel": "2026-12-06 23:59 PST（北京时间 12-07 15:59）",
+    "deadlineInstant": "2026-12-07T07:59:00Z",
+    "event": "2027-04-30 — 05-02 · 美国芝加哥",
+    "format": "摘要 / 墙报",
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "site_catalog_id": "iars2027",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "conference_95688579fb",
-    "title": "SCA 2027心血管麻醉年会",
+    "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
     "organizer": "Society of Cardiovascular Anesthesiologists",
     "journal": "Society of Cardiovascular Anesthesiologists",
     "date": "2026-12-01",
-    "deadline": "2026-12-01T23:59:00-05:00",
+    "deadline": "2026-12-02T04:59:00Z",
     "category": "conference",
-    "topic": "学术会议征集",
-    "description": "截止日期：2026-12-01。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+    "topic": "会议与征集",
+    "description": "官网明确2027年科学摘要已开放，截止12月1日美国东部标准时间23:59，录用通知计划于2027年1月底发出。\n\n属于会议摘要展示，不等于完整SCI原创论文。ePoster PDF上传与摘要投稿分别有截止；字数、费用及出版安排需按投稿系统细则，本站本次未登录提交系统。",
     "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
-    "status": "历史记录·开放状态未核验",
+    "status": "open",
     "historical_status": "has_future_deadline_reported",
-    "archive": true
+    "archive": false,
+    "announcement_date": null,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "SCA官方会议及摘要截止",
+        "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+      }
+    ],
+    "deadlineLabel": "2026-12-01 23:59 EST（北京时间12-02 12:59）",
+    "deadlineInstant": "2026-12-02T04:59:00Z",
+    "event": "2027-04-08—04-11 · 美国拉斯维加斯",
+    "format": "科学摘要 / ePoster",
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "site_catalog_id": "conference_95688579fb",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "competition_97722a8358",
@@ -55,24 +100,49 @@
     "topic": "AI+生物医药、AI+脑机接口、AI+科学智能",
     "description": "截止日期：2026-11-10。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
     "source_url": "https://ccf.org.cn/tecagi2026",
-    "status": "历史记录·开放状态未核验",
+    "status": "待核验",
     "historical_status": "has_future_deadline_reported",
-    "archive": true
+    "archive": true,
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "archive_review_required": true,
+    "verification_attempted_on": "2026-10-25",
+    "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
   },
   {
     "id": "conference_8d528a0f54",
-    "title": "BMES CMBE 2027 Late-Breaking Abstract",
+    "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
     "organizer": "Biomedical Engineering Society",
     "journal": "Biomedical Engineering Society",
     "date": "2026-11-06",
     "deadline": "2026-11-06",
     "category": "conference",
-    "topic": "学术会议征集",
-    "description": "截止日期：2026-11-06。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+    "topic": "会议与征集",
+    "description": "官方摘要页明确Late-Breaking截止11月6日，常规摘要截止8月4日，需区分两个通道。会议在2027年1月3—7日举行。\n\n偏细胞与分子生物工程，作为基础研究拓展机会。常规摘要少于250词，不能未经核验直接套用于Late-Breaking；部分奖项申请已截止，费用和出版检索须另核实。",
     "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
-    "status": "历史记录·开放状态未核验",
+    "status": "open",
     "historical_status": "has_future_deadline_reported",
-    "archive": true
+    "archive": false,
+    "announcement_date": null,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "BMES官方摘要征集页",
+        "url": "https://www.bmes.org/2027/cmbeconference/abstracts"
+      }
+    ],
+    "deadlineLabel": "2026-11-06（官网未注明具体时间/时区）",
+    "event": "2027-01-03—01-07 · 美国圣迭戈",
+    "format": "Late-Breaking Abstract / Poster",
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "site_catalog_id": "conference_8d528a0f54",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "competition_80c6f85a8d",
@@ -85,24 +155,53 @@
     "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
     "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
     "source_url": "https://www.aimtcbj.com/",
-    "status": "历史记录·开放状态未核验",
+    "status": "待核验",
     "historical_status": "has_future_deadline_reported",
-    "archive": true
+    "archive": true,
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "archive_review_required": true,
+    "verification_attempted_on": "2026-10-25",
+    "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
   },
   {
     "id": "competition_c4b8c9eb04",
-    "title": "AIC AI+医学主题赛",
-    "organizer": "全球校园人工智能算法精英大赛全国组委会",
-    "journal": "全球校园人工智能算法精英大赛全国组委会",
+    "title": "第八届 AIC 算法主题赛 · AI＋医学",
+    "organizer": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+    "journal": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
     "date": "2026-10-30",
-    "deadline": "2026-10-30T20:00:00+08:00",
+    "deadline": "2026-10-30",
     "category": "competition",
-    "topic": "开放医学AI赛题、技术报告",
-    "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
-    "source_url": "https://www.aicomp.cn/notice/notice-3/4709.html",
-    "status": "历史记录·开放状态未核验",
+    "topic": "AI＋医学",
+    "description": "面向全球高校和科研院所具有正式学籍的在读学生（含研究生、本科生、专科生）。开放式赛题允许以 AI 解决医学研究、诊疗与健康服务问题，作品以技术报告呈现。\n\n10 月 10 日赛程调整通知确认 AI＋医学报名缴费与作品提交均于 10 月 30 日 20:00 截止；原始通知发表于 7 月 9 日。可单人或组队，每队至多 3 名学生、2 名指导教师，参赛费 500 元/队。适合有学生成员的麻醉或重症 AI 团队，需满足原创与医学科技伦理要求；详细竞赛规则附件本次无法读取，提交格式与评分细则仍须按官方附件核对。",
+    "source_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+    "status": "open",
     "historical_status": "has_future_deadline_reported",
-    "archive": true
+    "archive": false,
+    "announcement_date": "2026-10-10",
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "2026-10-10 官方赛程调整",
+        "url": "https://www.aicomp.cn/notice/notice-3/5435.html"
+      },
+      {
+        "label": "2026-07-09 AI＋医学官方通知与参赛资格",
+        "url": "https://www.aicomp.cn/notice/notice-3/4709.html"
+      }
+    ],
+    "deadlineLabel": "2026-10-30 20:00（报名、缴费及初赛作品；官网未注明时区）",
+    "format": "开放式 AI 医学项目竞赛",
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "site_catalog_id": "aic-ai-medicine2026",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "conference_b40b8bd06f",
@@ -235,39 +334,87 @@
     "topic": "AI Agent开放应用、医疗场景",
     "description": "截止日期：未明确。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
     "source_url": "https://www.ai-race.com.cn/",
-    "status": "截止日期待复核",
+    "status": "待核验",
     "historical_status": "deadline_unknown_or_disputed",
-    "archive": true
+    "archive": true,
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "archive_review_required": true,
+    "verification_attempted_on": "2026-10-25",
+    "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
   },
   {
     "id": "competition_df92d1669e",
-    "title": "第九届智慧医疗创新大赛",
-    "organizer": "各分赛区行业单位（以当届官方文件为准）",
-    "journal": "各分赛区行业单位（以当届官方文件为准）",
+    "title": "第九届智慧医疗创新大赛 · AI 与智慧医疗成果报名",
+    "organizer": "SHIC 全国智慧医疗创新大赛",
+    "journal": "SHIC 全国智慧医疗创新大赛",
     "date": "",
     "deadline": "",
     "category": "competition",
-    "topic": "应用创新、技术创新、数据要素创新",
-    "description": "截止日期：未明确。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+    "topic": "医疗大模型",
+    "description": "第九届于 2026 年 9 月启动，面向医疗机构、企事业单位、科研院所、社会组织及个人。应用、技术、数据要素等六赛道覆盖 AI、大模型与智能医疗器械成果。\n\n2026-10-19已恢复读取官方概况及赛区表。页面仍列海南赛区10月15日报名截止、拟定10月16日决赛，未见该表提供延期日期；不得把海南呈现为仍可报名。全国报名按各赛区通知执行，其他多数赛区尚未列具体日期。报名需承诺书及成果/知识产权证明，同项目仅一个赛道、一个赛区；同单位不能连续两届报相同主题。",
     "source_url": "https://www.shic.org.cn/overview/",
-    "status": "截止日期待复核",
+    "status": "open",
     "historical_status": "deadline_unknown_or_disputed",
-    "archive": true
+    "archive": false,
+    "announcement_date": null,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-23",
+    "sources": [
+      {
+        "label": "第九届官方概况、报名规则及通知下载（页面更新 2026-10-08）",
+        "url": "https://www.shic.org.cn/overview/"
+      },
+      {
+        "label": "赛事官方入口",
+        "url": "https://www.shic.org.cn/"
+      }
+    ],
+    "deadlineLabel": "海南赛区官网所列2026-10-15截止，现已过期；其他赛区以各自通知为准",
+    "format": "创新项目竞赛",
+    "brief_dates": [],
+    "site_catalog_id": "shic",
+    "provenance": []
   },
   {
     "id": "conference_95a23edf4a",
-    "title": "Euroanaesthesia 2027",
-    "organizer": "European Society of Anaesthesiology and Intensive Care",
-    "journal": "European Society of Anaesthesiology and Intensive Care",
-    "date": "",
-    "deadline": "",
+    "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+    "organizer": "ESAIC",
+    "journal": "ESAIC",
+    "date": "2026-12-05",
+    "deadline": "2026-12-05T22:59:00Z",
     "category": "conference",
-    "topic": "学术会议征集",
-    "description": "截止日期：未明确。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
-    "source_url": "https://euroanaesthesia.org/2026/abstracts/",
-    "status": "截止日期待复核",
+    "topic": "麻醉",
+    "description": "2027 年会于 5 月 29—31 日在哥本哈根举行。官方新页面明确摘要征集 2026 年 11 月 1 日开放，12 月 5 日 23:59 CET 截止，录取后现场 ePoster 展示。\n\n目前仍待开放。需 MyESAIC 账户，每篇最多 6 位作者，每位演讲者最多 3 篇摘要；演讲者须 2027 年 3 月 25 日前注册完整实体大会。AI 辅助摘要制作须披露。展示摘要可收入 EJA 电子增刊，属于会议摘要，具体发表及投稿限制以官网为准。",
+    "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+    "status": "upcoming",
     "historical_status": "deadline_unknown_or_disputed",
-    "archive": true
+    "archive": false,
+    "announcement_date": null,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESAIC 2027 官方摘要日期、时区与规则",
+        "url": "https://euroanaesthesia.org/2027/abstracts/"
+      },
+      {
+        "label": "官方 2027 年会首页",
+        "url": "https://euroanaesthesia.org/2027/"
+      }
+    ],
+    "deadlineLabel": "2026-12-05 23:59 CET（北京时间 12-06 06:59）",
+    "deadlineInstant": "2026-12-05T22:59:00Z",
+    "event": "2027-05-29 — 05-31 · 丹麦哥本哈根",
+    "format": "摘要 / 墙报",
+    "brief_dates": [
+      "2026-10-25"
+    ],
+    "site_catalog_id": "ea2027",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "conference_bfdb156026",
@@ -298,5 +445,266 @@
     "status": "截止日期待复核",
     "historical_status": "deadline_unknown_or_disputed",
     "archive": true
+  },
+  {
+    "id": "ncccu-ai",
+    "title": "2026 全国高校计算机能力挑战赛 · 医学影像 AI 赛项",
+    "organizer": "全国高等学校计算机教育研究会",
+    "journal": "全国高等学校计算机教育研究会",
+    "date": "2026-11-13",
+    "announcement_date": null,
+    "deadline": "2026-11-13",
+    "category": "competition",
+    "topic": "医学影像",
+    "description": "赛题为胸部 X 光片多标签病变检测与分类。官方公开页现列训练集18,513次检查、验证集859次检查、测试集1,414次检查；主要排名指标为宏平均AUC，宏平均F1用于同分辅助排序。\n\n官方赛程仍列数据集下载开放期为2026-10-15 15:00至11-13 23:59。公开赛项页已展示数据划分、字段、服务器环境与submission.csv要求，但本次未登录或实际下载，不能确认下载链路。报名截至11月13日，作品截至当日23:59，官网未注明时区。每队1—3名在校生，费用200元/队，仅允许使用主办方训练数据，不允许外部标注数据。",
+    "source_url": "https://www.ncccu.org.cn/index/Paper/case1.html?way=gansu",
+    "status": "open",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "官方赛项、时间与报名规则",
+        "url": "https://www.ncccu.org.cn/index/Paper/case1.html?way=gansu"
+      }
+    ],
+    "deadlineLabel": "2026-11-13（报名）；作品 23:59，官网未注明时区",
+    "format": "算法竞赛",
+    "brief_dates": [],
+    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "site_catalog_id": "ncccu-ai",
+    "provenance": []
+  },
+  {
+    "id": "nhsa-ai",
+    "title": "全国医保影像 AI 识图大赛 · 本届报名已截止",
+    "organizer": "国家医疗保障局",
+    "journal": "国家医疗保障局",
+    "date": "2026-07-15",
+    "announcement_date": "2026-07-01",
+    "deadline": "2026-07-15",
+    "category": "competition",
+    "topic": "医学影像",
+    "description": "赛事使用脱敏临床影像数据与沙箱环境，考察影像识别、病灶诊断和异常筛查能力。保留为后续届次及成果转化的参考。\n\n7 月 1 日官方更新将报名截止明确为 7 月 15 日；采用这条更新，不沿用最初公告中的 6 月 25 日。当前列为已截止。",
+    "source_url": "https://www.nhsa.gov.cn/art/2026/7/1/art_14_21263.html",
+    "status": "closed",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-08",
+    "sources": [
+      {
+        "label": "国家医保局 2026-07-01 更新",
+        "url": "https://www.nhsa.gov.cn/art/2026/7/1/art_14_21263.html"
+      }
+    ],
+    "deadlineLabel": "2026-07-15 24:00 · 中国时间",
+    "format": "算法竞赛",
+    "brief_dates": [],
+    "site_catalog_id": "nhsa-ai",
+    "provenance": []
+  },
+  {
+    "id": "lives2026",
+    "title": "ESICM LIVES 2026 · 会议已结束，保留摘要集与回看入口",
+    "organizer": "ESICM",
+    "journal": "ESICM",
+    "date": "2026-04-22",
+    "announcement_date": null,
+    "deadline": "2026-04-22",
+    "category": "conference",
+    "topic": "重症",
+    "description": "会议于 2026 年 10 月 10—14 日举行，现已结束。摘要系统早已关闭，官方页面提供 2026 摘要集与参会者会后回看信息。\n\n保留为重症 AI 研究交流与下一届选题的参考。已注册代表可按官网规则在 Congress App 回看会议内容三个月，后续转入会员媒体库；不呈现为新投稿机会。",
+    "source_url": "https://www.esicm.org/events/39th-annual-congress-lisbon/",
+    "status": "closed",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESICM 官方会议与摘要状态",
+        "url": "https://www.esicm.org/events/39th-annual-congress-lisbon/"
+      }
+    ],
+    "deadlineLabel": "摘要已于 2026-04-22 截止",
+    "event": "2026-10-10 — 10-14 · 葡萄牙里斯本（核心会议 12—14 日）",
+    "format": "摘要 / 墙报",
+    "brief_dates": [],
+    "site_catalog_id": "lives2026",
+    "provenance": []
+  },
+  {
+    "id": "esicm-innovation2027",
+    "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+    "organizer": "ESICM",
+    "journal": "ESICM",
+    "date": "2026-11-03",
+    "announcement_date": null,
+    "deadline": "2026-11-03T22:59:00Z",
+    "category": "conference",
+    "topic": "重症",
+    "description": "创新会议明确包含 AI、精准医学和新技术主题，当前征集原创研究。录取摘要均以 ePoster 展示，指南另允许少量选为口头报告。\n\n英文摘要不超过 3000 字符（不含标题、作者、参考文献），不得提交已发表数据；演讲者须注册。官网未列强制会员要求，具体资格按指南审核。明确不在 ICMx 发表且无 Abstract Book，成果形式为会议展示。",
+    "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+    "status": "open",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "ESICM 官方会议及征集截止",
+        "url": "https://www.esicm.org/events/intensive-care-innovation2027/"
+      },
+      {
+        "label": "官方摘要准备指南",
+        "url": "https://www.esicm.org/wp-content/uploads/2026/09/Instructions_Abstracts.pdf"
+      }
+    ],
+    "deadlineLabel": "2026-11-03 23:59 CET（北京时间 11-04 06:59）",
+    "deadlineInstant": "2026-11-03T22:59:00Z",
+    "event": "2027-02-04 — 02-05 · 意大利米兰",
+    "format": "摘要 / ePoster",
+    "brief_dates": [],
+    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "site_catalog_id": "esicm-innovation2027",
+    "provenance": []
+  },
+  {
+    "id": "asa2027-general-sessions",
+    "title": "ANESTHESIOLOGY 2027 · General Session 议程提案征集",
+    "organizer": "American Society of Anesthesiologists（ASA）",
+    "journal": "American Society of Anesthesiologists（ASA）",
+    "date": "2026-11-16",
+    "announcement_date": null,
+    "deadline": "2026-11-16",
+    "category": "conference",
+    "topic": "麻醉",
+    "description": "ASA 已开放 ANESTHESIOLOGY 2027 General Session 提案，征集期为 2026 年 8 月 25 日至 11 月 16 日，支持主题小组、Clinical Forum、Refresher Course、争鸣、工作坊和圆桌讨论等形式。\n\n这是会议议程与教育项目提案，不是科学摘要征集。官网列明科学摘要将于 2027 年 1 月 5 日至 3 月 30 日开放；当前投稿应按所选 session format 的门户指南准备，截止具体时间与时区未在公开页注明。",
+    "source_url": "https://www.asahq.org/annualmeeting/education/submissions",
+    "status": "open",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "ASA 官方 Submission Information（页面更新 2026-08-25）",
+        "url": "https://www.asahq.org/annualmeeting/education/submissions"
+      }
+    ],
+    "deadlineLabel": "2026-11-16（官网未注明具体时间与时区）",
+    "format": "会议议程 / 专题提案",
+    "brief_dates": [],
+    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "site_catalog_id": "asa2027-general-sessions",
+    "provenance": []
+  },
+  {
+    "id": "sccm-innovation-incubator2027",
+    "title": "SCCM 2027 重症创新孵化器 · 提案征集已关闭",
+    "organizer": "Society of Critical Care Medicine（SCCM）",
+    "journal": "Society of Critical Care Medicine（SCCM）",
+    "date": "2026-10-23",
+    "announcement_date": null,
+    "deadline": "2026-10-24T04:59:00Z",
+    "category": "conference",
+    "topic": "重症",
+    "description": "官方Proposals栏目已明确宣布2027年征集关闭，结果将于2026年11月通知。2027年3月13日的创新交流活动仍提供参会注册，参会注册不等于路演或墙报提案仍可提交。\n\n保留原征集截止用于历史追溯，不再作为当前投稿推荐。官网现列标准参会费550美元；先前资格、TRL和奖励条款仅属历史征集信息，当前公开页未展示完整细则。",
+    "source_url": "https://sccm.org/research/critical-care-innovation-incubator",
+    "status": "closed",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "SCCM 官方活动、征集截止与资格",
+        "url": "https://sccm.org/research/critical-care-innovation-incubator"
+      }
+    ],
+    "deadlineLabel": "2026-10-23 23:59 美国中部时间（北京时间 10-24 12:59）",
+    "deadlineInstant": "2026-10-24T04:59:00Z",
+    "event": "2027-03-13 · 美国圣迭戈",
+    "format": "成果路演 / 创新墙报",
+    "brief_dates": [],
+    "verificationNote": "2026-10-25官方Proposals栏直接确认关闭；参会注册与提案征集分别判断。",
+    "site_catalog_id": "sccm-innovation-incubator2027",
+    "provenance": []
+  },
+  {
+    "id": "koreanesthesia2026",
+    "title": "KoreAnesthesia 2026 · 新摘要及展示文件提交均已截止",
+    "organizer": "Korean Society of Anesthesiologists（KSA）",
+    "journal": "Korean Society of Anesthesiologists（KSA）",
+    "date": "2026-08-31",
+    "announcement_date": null,
+    "deadline": "2026-08-31T14:59:59Z",
+    "category": "conference",
+    "topic": "麻醉",
+    "description": "韩国麻醉学会第103届年会，摘要征集已结束。官方展示指南所列报告者注册及展示文件截止为2026年10月16日23:59:59 KST，现也已过期；不呈现为当前开放征集。\n\n不可把展示文件截止理解为仍可新投摘要。官方说明截止后不接受线上修改；口头展示文件仅可按规定在现场Preview Room复核修改，ePoster不允许现场修改。大会采用英文现场展示，具体参会及录用事项以官方通知为准。",
+    "source_url": "https://www.koreanesthesia.org/abstract/01.html",
+    "status": "closed",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-18",
+    "sources": [
+      {
+        "label": "官方摘要征集及出版形式",
+        "url": "https://www.koreanesthesia.org/abstract/01.html"
+      },
+      {
+        "label": "已录用者展示材料与 10-16 截止",
+        "url": "https://www.koreanesthesia.org/abstract/02.html?sMenu=02"
+      },
+      {
+        "label": "官方会议时间与概况",
+        "url": "https://www.koreanesthesia.org/about/02.html?sMenu=02"
+      }
+    ],
+    "deadlineLabel": "摘要2026-08-31已截止；已录用者注册/文件原定2026-10-16 23:59:59 KST，现也已过期",
+    "deadlineInstant": "2026-08-31T14:59:59Z",
+    "event": "2026-11-05 — 11-07 · 韩国仁川",
+    "format": "摘要 / 口头报告 / ePoster",
+    "brief_dates": [],
+    "site_catalog_id": "koreanesthesia2026",
+    "provenance": []
+  },
+  {
+    "id": "asnacc2027",
+    "title": "ASNACC 2027 · 摘要征集截至11月15日，官网指南已同步",
+    "organizer": "Asian Society for Neuroanaesthesia & Critical Care（ASNACC）",
+    "journal": "Asian Society for Neuroanaesthesia & Critical Care（ASNACC）",
+    "date": "2026-11-15",
+    "announcement_date": null,
+    "deadline": "2026-11-15T15:59:00Z",
+    "category": "conference",
+    "topic": "麻醉",
+    "description": "第9届ASNACC大会征集神经麻醉、神经重症及围术期神经科学基础与临床研究。2026-10-24核验时，官网首页、摘要主题页和投稿指南已全部列出11月15日23:59 GMT+8截止，移除此前指南尚未同步的冲突提示。\n\n最新公开投稿指南现已同步延期后的11月15日截止。英文正文不超过300词，曾向其他会议提交的摘要不予接受；录用后须注册缴费。JNA出版为会议摘要集，不等于完整期刊论文。未登录测试实际提交；具体录用与展示要求按官方指南执行。",
+    "source_url": "https://asnacc2027.org/abstract/",
+    "status": "open",
+    "archive": false,
+    "archive_review_required": false,
+    "verifiedOn": "2026-10-25",
+    "sources": [
+      {
+        "label": "官方摘要主题与新截止（页面更新2026-10-19）",
+        "url": "https://asnacc2027.org/abstract/"
+      },
+      {
+        "label": "官网首页重要日期已改11月15日",
+        "url": "https://asnacc2027.org/"
+      },
+      {
+        "label": "官方投稿指南（仍保留旧10月20日）",
+        "url": "https://asnacc2027.org/abstract-submission-guidelines/"
+      },
+      {
+        "label": "官方JNA会议摘要出版说明",
+        "url": "https://asnacc2027.org/abstract-publication/"
+      }
+    ],
+    "deadlineLabel": "2026-11-15 23:59 GMT+8（北京时间；首页、主题页与投稿指南现已一致）",
+    "deadlineInstant": "2026-11-15T15:59:00Z",
+    "format": "摘要 / 口头报告 / 墙报",
+    "brief_dates": [],
+    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "site_catalog_id": "asnacc2027",
+    "provenance": []
   }
 ]
