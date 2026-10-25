@@ -70,7 +70,8 @@
     byId('topic').innerHTML = getOptions(data.map(e => e.topic), '全部主题');
     byId('studyType').innerHTML = getOptions(data.map(e => e.study_type), '全部研究类型');
     byId('clinical').innerHTML = getOptions(research ? data.map(clinicalType) : [], '全部领域');
-    byId('stateFilter').innerHTML = getOptions(research ? data.map(sourceType) : data.map(e => e.status), '全部收录状态');
+    byId('stateFilter').innerHTML = research ? '<option value="curated">精选研究（默认）</option><option value="">全部资料</option><option value="automated">自动检索题录</option>' + Array.from(new Set(data.map(sourceType))).filter(Boolean).map(v=>'<option value="'+escapeHtml(v)+'">'+escapeHtml(v)+'</option>').join('') : getOptions(data.map(e => e.status), '全部收录状态');
+    byId('stateFilter').value = research && section === 'research' ? 'curated' : '';
     byId('batch').innerHTML = getOptions(briefs.map(x => x.date).filter(Boolean).reverse(), '全部简报批次');
     ['studyGroup','clinicalGroup','batchGroup','savedGroup'].forEach(id => byId(id).classList.toggle('hidden', !research));
   }
@@ -117,7 +118,9 @@
       if (topic && x.topic !== topic) return false;
       if (research && study && x.study_type !== study) return false;
       if (research && clinical && clinicalType(x) !== clinical) return false;
-      if (state && (research ? sourceType(x) : x.status) !== state) return false;
+      if (research && state === 'curated' && !x.archive && !(x.id||'').startsWith('legacy-')) return false;
+      if (research && state === 'automated' && (x.archive || (x.id||'').startsWith('legacy-'))) return false;
+      if (state && !['curated','automated'].includes(state) && (research ? sourceType(x) : x.status) !== state) return false;
       if (research && batch && !(x.brief_dates || []).includes(batch)) return false;
       if (range !== 'all') {
         const diff = daysSince(x.date);
@@ -144,7 +147,10 @@
       // but do not make a future date look like the latest published paper.
       const af = isFuture(a.date), bf = isFuture(b.date);
       if(af !== bf) return af ? 1 : -1;
-      return (b.date || '').localeCompare(a.date || '');
+      const byDate=(b.date || '').localeCompare(a.date || '');
+      if (byDate) return byDate;
+      const priority=x=>{let n=(x.title||'').toLowerCase();return n.includes('discordance between actual care')?0:n.includes('large language models for multimodal')?1:n.includes('sequential diagnosis with language')?2:3;};
+      return priority(a)-priority(b);
     });
     return data;
   }
@@ -171,7 +177,7 @@
         tag(p.date && p.date < today ? '历史已截止' : '开放状态未核验','review');
     const notice = hasFutureDate ? tag('发表日期待核实','future') : '';
     const checked = favorites.has(p.id);
-    const link = url ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">查看原始来源 ↗</a>'
+    const link = url ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + (p.archive ? '历史来源 ↗' : '查看来源 ↗') + '</a>'
       : '<span>原始来源待补充</span>';
     return '<article class="entry" data-card="' + escapeHtml(p.id) + '">' +
       '<div class="entry-top"><div class="journal">' + escapeHtml(journal) + '</div>' +
@@ -227,7 +233,7 @@
     if (!papers.length && !events.length) return;
     filtered = listData();
     const research = section === 'research' || section === 'saved';
-    byId('count').textContent = '找到 ' + filtered.length + ' 条' + (research ? '研究记录' : '机会记录') + ' · 精选与自动题录分开标注';
+    byId('count').textContent = '找到 ' + filtered.length + ' 条' + (research ? '研究记录' : '机会记录');
     const windowed = filtered.slice(0,shown);
     byId('cardGrid').innerHTML = windowed.length ? windowed.map(card).join('') :
       '<div class="empty" style="grid-column:1/-1">没有符合条件的记录。可以清除筛选条件，查看全部资料。</div>';
@@ -248,7 +254,7 @@
   }
 
   function updateCounters() {
-    byId('navResearch').textContent = papers.length;
+    byId('navResearch').textContent = papers.filter(x=>x.archive || (x.id||'').startsWith('legacy-')).length;
     byId('navCompetition').textContent = events.filter(x=>x.category==='competition').length;
     byId('navConference').textContent = events.filter(x=>x.category==='conference').length;
     byId('navSaved').textContent = favorites.size;
@@ -259,7 +265,7 @@
     const dateLabel = updateStatus.last_success ? new Date(updateStatus.last_success).toLocaleString('zh-CN',{
       timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'
     }) : '';
-    byId('lastUpdate').textContent = dateLabel ? '最近自动检索：' + dateLabel + '（北京时间）' : '自动检索尚未成功运行';
+    byId('lastUpdate').textContent = '两条路径 · 同一证据库';
     byId('curationNotice').textContent = '本馆含 ' + enriched + ' 条中文整理或摘要记录，其余主要为 PubMed 自动题录。历史简报与自动题录标注不同，原始来源请逐条核验。未来日期的卷期记录已排在默认列表末尾。';
   }
 
