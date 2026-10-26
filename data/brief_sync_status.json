@@ -1,50 +1,134 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-10-25",
+  "brief_date": "2026-10-26",
   "sites": {
-    "status": "verified",
-    "run_id": "brief-alignment-20261025-v1",
-    "revision": "2c0fb9a2-5daa-4d32-8a9d-48a708c3bf69",
-    "verified_at": "2026-10-25T05:16:12.871Z",
-    "papers": 76,
-    "opportunities": 14
+    "status": "success",
+    "run_id": "daily-independent-20261026-v1",
+    "revision": "af1eb29e-899e-4b64-9e26-3b725299ee9b",
+    "verified_at": "2026-10-26T00:08:35.541261+00:00",
+    "papers": 81,
+    "opportunities": 15,
+    "verification": "已POST并GET回读，核对全部改动及旧ID保留"
   },
   "github": {
-    "status": "verified",
-    "papers": 162,
-    "opportunities": 28,
-    "verified_at": "2026-10-25T05:20:33.546Z",
-    "research_commit": "b6b921f03ad1b835a3e5251c6cff750f92a43733",
-    "readback_files": [
-      "data/research.json",
-      "data/opportunities.json",
-      "data/history_briefs.json",
-      "data/daily_briefs/2026-10-25.json",
-      "data/article_summaries.json"
-    ]
+    "status": "partial",
+    "reason": "目录已整理，待提交及默认分支回读",
+    "papers": 166,
+    "opportunities": 29
   },
   "failures": [
     {
       "id": "competition_80c6f85a8d",
-      "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+      "reason": "官方动态页面未取得完整规则，保留待核实及既有内容"
     },
     {
       "id": "competition_945b9a72d0",
-      "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+      "reason": "官方动态页面未取得完整规则，保留待核实及既有内容"
     },
     {
       "id": "competition_e52bc9726b",
-      "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+      "reason": "官方动态页面未取得完整规则，保留待核实及既有内容"
+    },
+    {
+      "id": "competition_df92d1669e",
+      "reason": "智慧医疗创新大赛官网概况页超时，保留旧核验日"
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "reason": "仅确认开放日和会期，摘要细则页不可取；截止日期沿用前次核验"
+    },
+    {
+      "id": "journal-arxiv",
+      "reason": "未完成arXiv最新列表检查；PubMed不提供有效arXiv期刊覆盖"
     }
   ],
   "counts": {
-    "github_new_papers": 14,
-    "github_enriched_papers": 62,
-    "github_new_opportunities": 8,
-    "github_enriched_opportunities": 6,
-    "sites_new_papers": 3,
-    "sites_modified_papers": 1,
-    "sites_new_opportunities": 2,
-    "sites_modified_opportunities": 3
-  }
+    "new_github_papers": 4,
+    "enriched_github_papers": 1,
+    "new_sites_papers": 5,
+    "modified_sites_papers": 0,
+    "new_opportunities": 1,
+    "github_opportunity_updates": 13,
+    "sites_opportunity_updates": 10,
+    "repaired_brief_aliases": {
+      "paper_97d28adea407": "pubmed-42897078",
+      "paper_776b4bca2182": "pubmed-42900705",
+      "paper_06f28fd49993": "pubmed-42901486",
+      "paper_a8341d0bdfa7": "legacy-11"
+    },
+    "checked_journals": 40,
+    "unavailable_journals": [
+      "arXiv"
+    ]
+  },
+  "previous_syncs": {
+    "2026-10-25": {
+      "schema_version": 1,
+      "brief_date": "2026-10-25",
+      "sites": {
+        "status": "verified",
+        "run_id": "brief-alignment-20261025-v1",
+        "revision": "2c0fb9a2-5daa-4d32-8a9d-48a708c3bf69",
+        "verified_at": "2026-10-25T05:16:12.871Z",
+        "papers": 76,
+        "opportunities": 14
+      },
+      "github": {
+        "status": "verified",
+        "papers": 162,
+        "opportunities": 28,
+        "verified_at": "2026-10-25T05:20:33.546Z",
+        "research_commit": "b6b921f03ad1b835a3e5251c6cff750f92a43733",
+        "readback_files": [
+          "data/research.json",
+          "data/opportunities.json",
+          "data/history_briefs.json",
+          "data/daily_briefs/2026-10-25.json",
+          "data/article_summaries.json"
+        ]
+      },
+      "failures": [
+        {
+          "id": "competition_80c6f85a8d",
+          "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+        },
+        {
+          "id": "competition_945b9a72d0",
+          "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+        },
+        {
+          "id": "competition_e52bc9726b",
+          "reason": "官方来源本次未充分核验，保留待核实条目；未覆盖旧数据。"
+        }
+      ],
+      "counts": {
+        "github_new_papers": 14,
+        "github_enriched_papers": 62,
+        "github_new_opportunities": 8,
+        "github_enriched_opportunities": 6,
+        "sites_new_papers": 3,
+        "sites_modified_papers": 1,
+        "sites_new_opportunities": 2,
+        "sites_modified_opportunities": 3
+      }
+    }
+  },
+  "overall_status": "partial",
+  "brief_status": "当日科研简报待生成/待对齐",
+  "source": "网站独立检索；历史简报回溯",
+  "brief_catchup": {
+    "window_start": "2026-10-19",
+    "window_end": "2026-10-25",
+    "latest_completed_brief": "2026-10-25",
+    "latest_completed_brief_fulltext_available": true,
+    "latest_completed_brief_handoff_present": true,
+    "missing_catalog_records": 0,
+    "repaired_reference_aliases": 4,
+    "today": "pending",
+    "note": "10月25日完整简报与交接已保存，未新增简报条目；更早日期按已恢复的公开索引核查，不能据此宣称历史简报原文全部恢复。"
+  },
+  "limitations": [
+    "两篇新增文献出版商页读取失败，已通过PubMed EFetch核验完整摘要；未声称读取全文。",
+    "当日科研简报尚无实际完成输出，不以昨日简报替代。"
+  ]
 }

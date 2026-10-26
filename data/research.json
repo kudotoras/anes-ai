@@ -1068,14 +1068,35 @@
     "pmid": "42897821",
     "doi": "10.1177/0310057X261494610",
     "title": "Navigating the translational chasm: a scoping review of large language models and hybrid architectures in intensive care.",
-    "title_zh": "",
-    "journal": "Anaesthesia and intensive care",
+    "title_zh": "ICU基础模型与LLM的转化缺口：64项研究的范围综述",
+    "journal": "Anaesthesia and Intensive Care",
     "date": "2026-10-19",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42897821/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed"
+    "topic": "大语言模型与智能体",
+    "study_type": "范围综述",
+    "source_url": "https://doi.org/10.1177/0310057X261494610",
+    "status": "已核验摘要",
+    "origin": "PubMed",
+    "categories": [
+      "大语言模型与智能体",
+      "临床落地与验证"
+    ],
+    "description": "范围综述纳入64项成人重症基础模型或LLM研究，46.9%仅依赖回顾性MIMIC数据，6.3%报告外部验证，3.1%完成前瞻性评价。独立模型占79.7%，检索增强和混合管线占比较低。\n\n有助于按任务风险、架构及验证阶段梳理研究缺口。未做正式偏倚风险评价或架构间比较合成，不能据此认定某类架构临床更优。已核验出版商公开摘要和在线日期，未读取订阅全文。",
+    "verifiedOn": "2026-10-26",
+    "verification": "出版商公开题录与完整摘要；未读取订阅全文",
+    "needs_review": false,
+    "archive_review_required": false,
+    "source_type": "网站独立检索",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42897821/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1177/0310057X261494610"
+      }
+    ],
+    "dateKind": "首次在线发表"
   },
   {
     "id": "pubmed-42897016",
@@ -2711,7 +2732,9 @@
     "link_kind": "original",
     "archive": false,
     "archive_review_required": false,
-    "brief_dates": [],
+    "brief_dates": [
+      "2026-10-25"
+    ],
     "verifiedOn": "2026-10-25",
     "verification": "出版商题录、摘要与全文方法/局限；检索截至2026-04-30，属于叙述性综述",
     "sources": [
@@ -3812,7 +3835,9 @@
     "link_kind": "original",
     "archive": false,
     "archive_review_required": false,
-    "brief_dates": [],
+    "brief_dates": [
+      "2026-10-25"
+    ],
     "verifiedOn": "2026-10-25",
     "verification": "出版商题录及参考文献；订阅正文未取得，无可读摘要",
     "sources": [
@@ -5140,5 +5165,149 @@
     "archive_id": "paper_17a84b3285ab",
     "archive_review_required": true,
     "brief_dates": []
+  },
+  {
+    "id": "pubmed-42800644",
+    "ingested_date": "2026-10-26",
+    "title": "Personalized brain-based anesthetic-state detection with portable fNIRS and AI.",
+    "title_zh": "便携fNIRS个体化麻醉状态识别：按患者留出验证揭示数据泄漏风险",
+    "journal": "Brain Research Bulletin",
+    "date": "2026-09-26",
+    "doi": "10.1016/j.brainresbull.2026.112129",
+    "pmid": "42800644",
+    "topic": "精准麻醉",
+    "categories": [
+      "精准麻醉",
+      "脑功能监测与麻醉深度"
+    ],
+    "study_type": "回顾性信号分析 / 概念验证",
+    "description": "分析25名患者局部麻醉前后叩诊时的fNIRS信号，主要队列为13名疼痛完全消失者、156段患牙数据。以患者自身健康牙反应为参照，随机森林在留一患者验证中AUC为0.752，嵌套特征选择后为0.740。混合不同患者信号片段交叉验证较患者独立验证平均高估AUC 0.159。\n\n属于局部麻醉相关疼痛反应识别，不是全麻深度闭环给药试验。小样本和固定刺激顺序限制推广；个体基线与患者独立验证值得借鉴。Epub为2026-09-26，正式刊期为2026-10-15，本次为近30天补收。",
+    "source_url": "https://doi.org/10.1016/j.brainresbull.2026.112129",
+    "status": "已核验摘要",
+    "verifiedOn": "2026-10-26",
+    "verification": "PubMed EFetch原始题录和完整摘要；未读取订阅全文",
+    "needs_review": false,
+    "archive_review_required": false,
+    "source_type": "网站独立检索",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42800644/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.brainresbull.2026.112129"
+      }
+    ],
+    "epub_date": "2026-09-26",
+    "issue_date": "2026-10-15",
+    "dateKind": "Epub；正式刊期2026-10-15；近期补收"
+  },
+  {
+    "id": "pubmed-42014224",
+    "ingested_date": "2026-10-26",
+    "title": "Closed-loop systems for automated hypnotic drug delivery during general anaesthesia: a systematic review and meta-analysis.",
+    "title_zh": "闭环催眠药给药系统综述：BIS目标范围时间改善，患者结局仍需验证",
+    "journal": "British Journal of Anaesthesia",
+    "date": "2026-04-21",
+    "doi": "10.1016/j.bja.2026.03.020",
+    "pmid": "42014224",
+    "topic": "精准麻醉",
+    "categories": [
+      "精准麻醉",
+      "闭环给药与强化学习"
+    ],
+    "study_type": "系统综述与Meta分析",
+    "description": "纳入成人非心脏手术17项随机试验、1898名患者。BIS引导闭环给药较人工控制增加目标BIS范围内时间17.6个百分点（95%CI 11.8–23.5），减少BIS<40的时间；BIS>60的时间未显著改变。拔管时间约缩短1.68分钟，丙泊酚消耗和升压药使用无显著差异。\n\n作为高匹配历史补收，保留Epub2026-04-21及正式卷期2026年6月，不能当作今天新发表。闭环自动控制不必然使用AI；监测控制指标改善不能直接证明POD、死亡或长期安全获益。",
+    "source_url": "https://doi.org/10.1016/j.bja.2026.03.020",
+    "status": "已核验摘要",
+    "verifiedOn": "2026-10-26",
+    "verification": "PubMed EFetch原始题录和完整摘要；未读取订阅全文",
+    "needs_review": false,
+    "archive_review_required": false,
+    "source_type": "网站独立检索",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42014224/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.bja.2026.03.020"
+      }
+    ],
+    "epub_date": "2026-04-21",
+    "issue_date": "2026-06",
+    "dateKind": "Epub；正式刊期2026年6月；高匹配历史补收"
+  },
+  {
+    "id": "pubmed-42865282",
+    "ingested_date": "2026-10-26",
+    "title": "Screening for Left Ventricular Dysfunction in Sepsis Using a Smartphone ECG Analysis Application: A Multicenter Validation Study.",
+    "title_zh": "手机拍摄心电图筛查脓毒症左室功能障碍：三中心回顾验证",
+    "journal": "Journal of Korean Medical Science",
+    "date": "2026-10-12",
+    "doi": "10.3346/jkms.2026.41.e217",
+    "pmid": "42865282",
+    "topic": "血流动力学与低血压",
+    "categories": [
+      "血流动力学与低血压",
+      "模型外部验证"
+    ],
+    "study_type": "多中心回顾性诊断验证",
+    "description": "三所大学医院425名成人脓毒症患者在急诊入院72小时内接受12导联心电图和超声心动图。AI手机应用分析拍摄的心电图图像，以射血分数≤40%定义左室功能障碍；总体ROC-AUC为0.901，优化阈值下敏感度89.6%、特异度75.1%、阴性预测值97.5%。\n\n可作为床旁心功能筛查与血流动力学分层的研究线索。阈值经过优化，且属回顾验证；不能替代超声，不能据此认定手机AI改善复苏结局。PubMed题录和完整摘要已核验，出版商页面本次未成功读取。",
+    "source_url": "https://doi.org/10.3346/jkms.2026.41.e217",
+    "status": "已核验摘要",
+    "verifiedOn": "2026-10-26",
+    "verification": "PubMed EFetch原始题录和完整摘要；未读取订阅全文",
+    "needs_review": false,
+    "archive_review_required": false,
+    "source_type": "网站独立检索",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42865282/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.3346/jkms.2026.41.e217"
+      }
+    ],
+    "dateKind": "首次在线发表"
+  },
+  {
+    "id": "pubmed-42887845",
+    "ingested_date": "2026-10-26",
+    "title": "Early Nocturnal Care Disruption and the Hazard of Incident ICU Delirium in Critically Ill Adults: A Target-Trial Emulation in MIMIC-IV.",
+    "title_zh": "夜间照护接触与ICU谵妄：MIMIC-IV目标试验模拟",
+    "journal": "The American Journal of Medicine",
+    "date": "2026-10-16",
+    "doi": "10.1016/j.amjmed.2026.10.016",
+    "pmid": "42887845",
+    "topic": "因果推断与目标试验模拟",
+    "categories": [
+      "因果推断与目标试验模拟",
+      "POD/PND与围术期结局"
+    ],
+    "study_type": "目标试验模拟 / 观察性因果推断",
+    "description": "在MIMIC-IV 3.1中以首次ICU停留满48小时且谵妄筛查阴性为入组地标，分析12922次住院，后续2862次发生谵妄。将夜间生命体征记录、抽血和床旁给药组成接触率，稳定逆概率加权后高接触组后续谵妄风险较高（调整HR1.43，95%CI1.27–1.60）。\n\n这是可迁移的因果推断设计，不是AI干预试验。残余混杂与谵妄前驱表现引起额外照护的反向因果仍可能存在，不能据此直接减少必要监护。PubMed题录和完整摘要已核验，出版商页面本次未成功读取。",
+    "source_url": "https://doi.org/10.1016/j.amjmed.2026.10.016",
+    "status": "已核验摘要",
+    "verifiedOn": "2026-10-26",
+    "verification": "PubMed EFetch原始题录和完整摘要；未读取订阅全文",
+    "needs_review": false,
+    "archive_review_required": false,
+    "source_type": "网站独立检索",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42887845/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.amjmed.2026.10.016"
+      }
+    ],
+    "dateKind": "首次在线发表"
   }
 ]

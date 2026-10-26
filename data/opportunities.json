@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -33,11 +33,12 @@
     "brief_dates": [
       "2026-10-25"
     ],
-    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "verificationNote": "复核官方摘要页：12月6日23:59 PST截止、英文正文4500字符、会议摘要出版形式；未登录投稿系统。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "needs_review": false
   },
   {
     "id": "conference_95a23edf4a",
@@ -64,6 +65,10 @@
       {
         "label": "官方 2027 年会首页",
         "url": "https://euroanaesthesia.org/2027/"
+      },
+      {
+        "label": "ESAIC官网首页：本次仅确认开放日与会期",
+        "url": "https://esaic.org/"
       }
     ],
     "deadlineLabel": "2026-12-05 23:59 CET（北京时间 12-06 06:59）",
@@ -76,7 +81,9 @@
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "openingVerifiedOn": "2026-10-26",
+    "verificationNote": "2026-10-26 ESAIC官网首页确认11月1日开放、2027年5月29—31日哥本哈根；摘要细则页读取失败，截止及细则沿用2026-10-10核验，未重新确认。"
   },
   {
     "id": "conference_95688579fb",
@@ -94,7 +101,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "SCA官方会议及摘要截止",
@@ -111,7 +118,9 @@
     "site_catalog_id": "conference_95688579fb",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "verificationNote": "复核官方年会页：12月1日23:59 EST截止，会议2027年4月8—11日；未登录投稿系统。",
+    "needs_review": false
   },
   {
     "id": "asa2027-general-sessions",
@@ -128,7 +137,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "ASA 官方 Submission Information（页面更新 2026-08-25）",
@@ -138,9 +147,10 @@
     "deadlineLabel": "2026-11-16（官网未注明具体时间与时区）",
     "format": "会议议程 / 专题提案",
     "brief_dates": [],
-    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "verificationNote": "复核ASA官方提交页：General Session提案窗口8月25日至11月16日，不是原创研究摘要或完整论文投稿。",
     "site_catalog_id": "asa2027-general-sessions",
-    "provenance": []
+    "provenance": [],
+    "needs_review": false
   },
   {
     "id": "competition_97722a8358",
@@ -172,7 +182,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "官方摘要主题与新截止（页面更新2026-10-19）",
@@ -195,9 +205,10 @@
     "deadlineInstant": "2026-11-15T15:59:00Z",
     "format": "摘要 / 口头报告 / 墙报",
     "brief_dates": [],
-    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "verificationNote": "复核官方主题页：11月15日23:59 GMT+8截止；未登录投稿系统，其余细则保留前次核验范围。",
     "site_catalog_id": "asnacc2027",
-    "provenance": []
+    "provenance": [],
+    "needs_review": false
   },
   {
     "id": "ncccu-ai",
@@ -214,7 +225,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "官方赛项、时间与报名规则",
@@ -224,9 +235,10 @@
     "deadlineLabel": "2026-11-13（报名）；作品 23:59，官网未注明时区",
     "format": "算法竞赛",
     "brief_dates": [],
-    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "verificationNote": "复核官方AI挑战赛页面：在校生胸片多标签分类，报名11月13日，区域赛提交11月13日23:59；每队1—3名学生、1名指导教师，区域赛200元/队。未登录报名系统。",
     "site_catalog_id": "ncccu-ai",
-    "provenance": []
+    "provenance": [],
+    "needs_review": false
   },
   {
     "id": "competition_e52bc9726b",
@@ -246,8 +258,8 @@
       "2026-10-25"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-10-25",
-    "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
+    "verification_attempted_on": "2026-10-26",
+    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
   },
   {
     "id": "conference_8d528a0f54",
@@ -265,7 +277,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "BMES官方摘要征集页",
@@ -281,7 +293,9 @@
     "site_catalog_id": "conference_8d528a0f54",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "verificationNote": "复核官方摘要页：Late-Breaking截至11月6日，未注明时区；一般摘要250词规则不直接套用特殊类别。",
+    "needs_review": false
   },
   {
     "id": "esicm-innovation2027",
@@ -298,7 +312,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -314,9 +328,10 @@
     "event": "2027-02-04 — 02-05 · 意大利米兰",
     "format": "摘要 / ePoster",
     "brief_dates": [],
-    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "verificationNote": "复核官方会议页：11月3日23:59 CET截止，录取摘要ePoster展示，不在ICMx发表且无摘要集；附件未重新读取。",
     "site_catalog_id": "esicm-innovation2027",
-    "provenance": []
+    "provenance": [],
+    "needs_review": false
   },
   {
     "id": "competition_80c6f85a8d",
@@ -336,8 +351,8 @@
       "2026-10-25"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-10-25",
-    "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
+    "verification_attempted_on": "2026-10-26",
+    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
   },
   {
     "id": "competition_c4b8c9eb04",
@@ -355,7 +370,7 @@
     "archive": false,
     "announcement_date": "2026-10-10",
     "archive_review_required": false,
-    "verifiedOn": "2026-10-25",
+    "verifiedOn": "2026-10-26",
     "sources": [
       {
         "label": "2026-10-10 官方赛程调整",
@@ -371,11 +386,12 @@
     "brief_dates": [
       "2026-10-25"
     ],
-    "verificationNote": "2026-10-25复核官方公开页面；未登录报名/提交系统，附件未重新核验，保留原字段的前次核验范围。",
+    "verificationNote": "仅复核2026-10-10官方赛程调整：AI+医学报名缴费与作品均截至10月30日20:00；官网未注明时区。资格和附件保留前次核验范围。",
     "site_catalog_id": "aic-ai-medicine2026",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "needs_review": false
   },
   {
     "id": "sccm-innovation-incubator2027",
@@ -641,8 +657,8 @@
       "2026-10-25"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-10-25",
-    "verification_failure": "本次未取得足以核验截止日期、资格及奖励的完整官方页面；原有内容保留，勿作为已核验报名依据。"
+    "verification_attempted_on": "2026-10-26",
+    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
   },
   {
     "id": "competition_df92d1669e",
@@ -675,7 +691,9 @@
     "format": "创新项目竞赛",
     "brief_dates": [],
     "site_catalog_id": "shic",
-    "provenance": []
+    "provenance": [],
+    "verification_attempted_on": "2026-10-26",
+    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
   },
   {
     "id": "conference_bfdb156026",
@@ -706,5 +724,36 @@
     "status": "截止日期待复核",
     "historical_status": "deadline_unknown_or_disputed",
     "archive": true
+  },
+  {
+    "id": "cscva-ai-shanghai2026",
+    "title": "第三届国际医疗健康人工智能大会（上海）暨2026中国心胸血管麻醉学会学术会议 · 摘要征集",
+    "organizer": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+    "journal": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+    "date": "2026-10-09",
+    "announcement_date": "2026-10-09",
+    "deadline": "2026-10-31",
+    "deadlineLabel": "2026-10-31（官方页面未注明具体时间/时区）",
+    "category": "conference",
+    "topic": "精准麻醉 / 围术期人工智能 / 医疗大模型 / 医工交叉",
+    "description": "学会会议官网确认10月31日截稿，会议11月13—15日在上海举行。征集围术期数据、AI、麻醉与脑功能等临床及基础研究，要求中文800—1000字结构摘要，结果含主要数据，仅接受网站投稿。\n\n官网拟遴选50位优秀论文作者现场7分钟演讲。属于会议摘要及交流机会，不等于完整期刊论文；投稿收费、评奖资格及正式出版检索本次未核实，不能以参会注册截止替代截稿日。",
+    "source_url": "https://mm.sciconf.cn/41149",
+    "status": "open",
+    "verifiedOn": "2026-10-26",
+    "sources": [
+      {
+        "label": "学会会议官网：主办方、时间与截稿日",
+        "url": "https://mm.sciconf.cn/41149"
+      },
+      {
+        "label": "学会来源公开征文通知：摘要格式及交流形式",
+        "url": "https://xue.sciconf.cn/infomation-detail?id=82C2E240-D2DB-4591-0A9D-2BB543DDF482"
+      }
+    ],
+    "verificationNote": "直接核验会议官网与学会来源公开通知；未登录投稿、未读取转跳失败的PDF。",
+    "event": "2026-11-13—11-15 · 上海",
+    "format": "中文结构式摘要 / 优秀论文演讲交流",
+    "archive": false,
+    "needs_review": false
   }
 ]

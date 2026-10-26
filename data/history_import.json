@@ -2383,7 +2383,7 @@
       "record_status": "daily_brief_visible_in_conversation",
       "paper_ids": [
         "paper_ff451ace377a",
-        "paper_97d28adea407",
+        "pubmed-42897078",
         "paper_626294886bd7"
       ],
       "competition_ids": [
@@ -2402,7 +2402,15 @@
       ],
       "paper_count": 3,
       "competition_count": 5,
-      "conference_count": 5
+      "conference_count": 5,
+      "original_paper_ids": [
+        "paper_ff451ace377a",
+        "paper_97d28adea407",
+        "paper_626294886bd7"
+      ],
+      "paper_id_aliases": {
+        "paper_97d28adea407": "pubmed-42897078"
+      }
     },
     {
       "date": "2026-10-22",
@@ -2433,8 +2441,8 @@
       "date": "2026-10-23",
       "record_status": "daily_brief_visible_in_conversation",
       "paper_ids": [
-        "paper_776b4bca2182",
-        "paper_06f28fd49993",
+        "pubmed-42900705",
+        "pubmed-42901486",
         "paper_25a46fef31a3",
         "paper_ba2f8e9bfb80"
       ],
@@ -2453,7 +2461,17 @@
       ],
       "paper_count": 4,
       "competition_count": 5,
-      "conference_count": 4
+      "conference_count": 4,
+      "original_paper_ids": [
+        "paper_776b4bca2182",
+        "paper_06f28fd49993",
+        "paper_25a46fef31a3",
+        "paper_ba2f8e9bfb80"
+      ],
+      "paper_id_aliases": {
+        "paper_776b4bca2182": "pubmed-42900705",
+        "paper_06f28fd49993": "pubmed-42901486"
+      }
     },
     {
       "date": "2026-10-24",
@@ -2462,7 +2480,7 @@
         "paper_e305974489c6",
         "paper_3ce593cf5d94",
         "paper_bebd96a07805",
-        "paper_a8341d0bdfa7"
+        "legacy-11"
       ],
       "competition_ids": [
         "competition_80c6f85a8d",
@@ -2478,7 +2496,16 @@
       ],
       "paper_count": 4,
       "competition_count": 4,
-      "conference_count": 4
+      "conference_count": 4,
+      "original_paper_ids": [
+        "paper_e305974489c6",
+        "paper_3ce593cf5d94",
+        "paper_bebd96a07805",
+        "paper_a8341d0bdfa7"
+      ],
+      "paper_id_aliases": {
+        "paper_a8341d0bdfa7": "legacy-11"
+      }
     },
     {
       "date": "2026-10-25",
