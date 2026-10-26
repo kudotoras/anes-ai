@@ -25,7 +25,9 @@
       "data/article_summaries.json"
     ],
     "verification": "数据提交及既有自动PubMed任务完成后，重新回读默认分支；4篇新增/补收及1篇摘要核验内容保留、旧ID完整、人工精读摘要SHA不变。",
-    "readback_commit": "9eab3bbd780c667e69dbb9d550edbdc57efb80c8"
+    "readback_commit": "9eab3bbd780c667e69dbb9d550edbdc57efb80c8",
+    "curated_papers": 102,
+    "automatic_bibliography_papers": 86
   },
   "failures": [
     {

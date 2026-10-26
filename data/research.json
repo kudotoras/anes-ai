@@ -1150,7 +1150,7 @@
     "study_type": "范围综述",
     "source_url": "https://doi.org/10.1177/0310057X261494610",
     "status": "已核验摘要",
-    "origin": "PubMed",
+    "origin": "站点核验目录；网站独立检索",
     "categories": [
       "大语言模型与智能体",
       "临床落地与验证"
@@ -1171,7 +1171,8 @@
         "url": "https://doi.org/10.1177/0310057X261494610"
       }
     ],
-    "dateKind": "首次在线发表"
+    "dateKind": "首次在线发表",
+    "site_catalog_id": "pubmed-42897821"
   },
   {
     "id": "pubmed-42897016",
@@ -1695,7 +1696,9 @@
         "url": "https://doi.org/10.1016/j.amjmed.2026.10.016"
       }
     ],
-    "dateKind": "首次在线发表"
+    "dateKind": "首次在线发表",
+    "site_catalog_id": "pubmed-42887845",
+    "origin": "站点核验目录；网站独立检索"
   },
   {
     "id": "paper_f1817075c019",
@@ -2248,7 +2251,9 @@
         "url": "https://doi.org/10.3346/jkms.2026.41.e217"
       }
     ],
-    "dateKind": "首次在线发表"
+    "dateKind": "首次在线发表",
+    "site_catalog_id": "pubmed-42865282",
+    "origin": "站点核验目录；网站独立检索"
   },
   {
     "id": "pubmed-42896288",
@@ -3485,7 +3490,9 @@
     ],
     "epub_date": "2026-09-26",
     "issue_date": "2026-10-15",
-    "dateKind": "Epub；正式刊期2026-10-15；近期补收"
+    "dateKind": "Epub；正式刊期2026-10-15；近期补收",
+    "site_catalog_id": "pubmed-42800644",
+    "origin": "站点核验目录；网站独立检索"
   },
   {
     "id": "pubmed-42927406",
@@ -5080,7 +5087,9 @@
     ],
     "epub_date": "2026-04-21",
     "issue_date": "2026-06",
-    "dateKind": "Epub；正式刊期2026年6月；高匹配历史补收"
+    "dateKind": "Epub；正式刊期2026年6月；高匹配历史补收",
+    "site_catalog_id": "pubmed-42014224",
+    "origin": "站点核验目录；网站独立检索"
   },
   {
     "id": "paper_b53fb0db4c56",
