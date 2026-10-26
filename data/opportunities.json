@@ -455,6 +455,37 @@
     "archive": true
   },
   {
+    "id": "cscva-ai-shanghai2026",
+    "title": "第三届国际医疗健康人工智能大会（上海）暨2026中国心胸血管麻醉学会学术会议 · 摘要征集",
+    "organizer": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+    "journal": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+    "date": "2026-10-09",
+    "announcement_date": "2026-10-09",
+    "deadline": "2026-10-31",
+    "deadlineLabel": "2026-10-31（官方页面未注明具体时间/时区）",
+    "category": "conference",
+    "topic": "精准麻醉 / 围术期人工智能 / 医疗大模型 / 医工交叉",
+    "description": "学会会议官网确认10月31日截稿，会议11月13—15日在上海举行。征集围术期数据、AI、麻醉与脑功能等临床及基础研究，要求中文800—1000字结构摘要，结果含主要数据，仅接受网站投稿。\n\n官网拟遴选50位优秀论文作者现场7分钟演讲。属于会议摘要及交流机会，不等于完整期刊论文；投稿收费、评奖资格及正式出版检索本次未核实，不能以参会注册截止替代截稿日。",
+    "source_url": "https://mm.sciconf.cn/41149",
+    "status": "open",
+    "verifiedOn": "2026-10-26",
+    "sources": [
+      {
+        "label": "学会会议官网：主办方、时间与截稿日",
+        "url": "https://mm.sciconf.cn/41149"
+      },
+      {
+        "label": "学会来源公开征文通知：摘要格式及交流形式",
+        "url": "https://xue.sciconf.cn/infomation-detail?id=82C2E240-D2DB-4591-0A9D-2BB543DDF482"
+      }
+    ],
+    "verificationNote": "直接核验会议官网与学会来源公开通知；未登录投稿、未读取转跳失败的PDF。",
+    "event": "2026-11-13—11-15 · 上海",
+    "format": "中文结构式摘要 / 优秀论文演讲交流",
+    "archive": false,
+    "needs_review": false
+  },
+  {
     "id": "conference_3a0a65f201",
     "title": "第二届北京清华医学人工智能论坛",
     "organizer": "论坛组委会（细节待核实）",
@@ -724,36 +755,5 @@
     "status": "截止日期待复核",
     "historical_status": "deadline_unknown_or_disputed",
     "archive": true
-  },
-  {
-    "id": "cscva-ai-shanghai2026",
-    "title": "第三届国际医疗健康人工智能大会（上海）暨2026中国心胸血管麻醉学会学术会议 · 摘要征集",
-    "organizer": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
-    "journal": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
-    "date": "2026-10-09",
-    "announcement_date": "2026-10-09",
-    "deadline": "2026-10-31",
-    "deadlineLabel": "2026-10-31（官方页面未注明具体时间/时区）",
-    "category": "conference",
-    "topic": "精准麻醉 / 围术期人工智能 / 医疗大模型 / 医工交叉",
-    "description": "学会会议官网确认10月31日截稿，会议11月13—15日在上海举行。征集围术期数据、AI、麻醉与脑功能等临床及基础研究，要求中文800—1000字结构摘要，结果含主要数据，仅接受网站投稿。\n\n官网拟遴选50位优秀论文作者现场7分钟演讲。属于会议摘要及交流机会，不等于完整期刊论文；投稿收费、评奖资格及正式出版检索本次未核实，不能以参会注册截止替代截稿日。",
-    "source_url": "https://mm.sciconf.cn/41149",
-    "status": "open",
-    "verifiedOn": "2026-10-26",
-    "sources": [
-      {
-        "label": "学会会议官网：主办方、时间与截稿日",
-        "url": "https://mm.sciconf.cn/41149"
-      },
-      {
-        "label": "学会来源公开征文通知：摘要格式及交流形式",
-        "url": "https://xue.sciconf.cn/infomation-detail?id=82C2E240-D2DB-4591-0A9D-2BB543DDF482"
-      }
-    ],
-    "verificationNote": "直接核验会议官网与学会来源公开通知；未登录投稿、未读取转跳失败的PDF。",
-    "event": "2026-11-13—11-15 · 上海",
-    "format": "中文结构式摘要 / 优秀论文演讲交流",
-    "archive": false,
-    "needs_review": false
   }
 ]
