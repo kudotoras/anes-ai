@@ -11,10 +11,21 @@
     "verification": "已POST并GET回读，核对全部改动及旧ID保留"
   },
   "github": {
-    "status": "partial",
-    "reason": "目录已整理，待提交及默认分支回读",
-    "papers": 166,
-    "opportunities": 29
+    "status": "success",
+    "papers": 188,
+    "opportunities": 29,
+    "verified_at": "2026-10-26T00:10:57.978Z",
+    "research_commit": "c48228aa92a618f775211d1c640df701f3e4b7c9",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/history_import.json",
+      "data/daily_updates/2026-10-26.json",
+      "data/article_summaries.json"
+    ],
+    "verification": "数据提交及既有自动PubMed任务完成后，重新回读默认分支；4篇新增/补收及1篇摘要核验内容保留、旧ID完整、人工精读摘要SHA不变。",
+    "readback_commit": "9eab3bbd780c667e69dbb9d550edbdc57efb80c8"
   },
   "failures": [
     {
@@ -59,7 +70,8 @@
     "checked_journals": 40,
     "unavailable_journals": [
       "arXiv"
-    ]
+    ],
+    "github_automatic_bibliography_added": 22
   },
   "previous_syncs": {
     "2026-10-25": {
