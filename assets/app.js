@@ -248,15 +248,22 @@
   }
   function renderDaily(){
     const selected = new Map();
-    const linked = papers.filter(p => (p.brief_dates || []).includes(dailyDate) || p.ingested_date === dailyDate);
-    [...((dailyBrief || {}).papers || []), ...linked].forEach(p => {
+    const explicit = ((dailyBrief || {}).papers || []).map(p => papers.find(x => x.id === p.id) || p);
+    const linked = papers.filter(p => isCurated(p) &&
+      ((p.brief_dates || []).includes(dailyDate) || p.ingested_date === dailyDate || p.verifiedOn === dailyDate));
+    const eligible = p => isCurated(p) && !p.archive_review_required && !p.needs_review &&
+      !/待人工|待核验|待复核|未人工精读/.test(p.status || '') && !isFuture(p.date) &&
+      Boolean(p.description && safeUrl(p.source_url || (p.sources || [])[0]?.url));
+    const relevance = p => /精准麻醉|闭环|EEG|BIS/.test([p.topic,(p.categories || []).join(' ')].join(' ')) || clinicalType(p) === '麻醉' ? 0 : clinicalType(p) === '重症' || clinicalType(p) === '围术期' ? 1 : 2;
+    linked.sort((a,b) => relevance(a) - relevance(b) || (b.date || '').localeCompare(a.date || ''));
+    (explicit.length ? explicit : linked).filter(eligible).forEach(p => {
       const key = String(p.doi || p.pmid || p.id || p.title).toLowerCase();
       if (!selected.has(key)) selected.set(key, p);
     });
-    const list = Array.from(selected.values()).sort((a,b)=>(b.date || '').localeCompare(a.date || ''));
+    const list = Array.from(selected.values()).slice(0,5);
     byId('dailyDate').textContent = dailyDate || '尚未成功更新';
-    byId('dailyCount').textContent = '本期 ' + list.length + ' 篇';
-    byId('dailyEmpty').textContent = dailyBrief ? '科研简报与独立检索合并 · 收录与回看保留原发表日期' : '简报文件尚不可用，按本期目录关联展示';
+    byId('dailyCount').textContent = '精选 ' + list.length + ' 篇';
+    byId('dailyEmpty').textContent = dailyBrief ? '每日精选 3–5 篇 · 其余题录可在完整文献库浏览' : '独立检索精选 · 当日聊天简报待对齐 · 自动题录保留在文献库';
     const shortJournal = name => ({'Journal of the American Medical Informatics Association':'JAMIA','Journal of Clinical Monitoring and Computing':'JCMC','Anesthesia & Analgesia':'A&A'}[name] || name || '来源待核验');
     byId('dailyContent').innerHTML = (list.length ? list.map((p,index) => {
       const url = safeUrl(p.source_url || (p.sources || [])[0]?.url);
@@ -265,7 +272,7 @@
       return '<article class="daily-item' + (index >= 3 ? ' daily-overflow' + (dailyExpanded ? '' : ' hidden') : '') + '">'+heading+'<small>'+escapeHtml(shortJournal(p.journal))+' · 发表 '+escapeHtml(p.date || '待核验')+'</small></article>';
     }).join('') : '<p>本期暂无新收录或简报关联文献。</p>') +
       '<div class="daily-actions">'+(list.length>3?'<button type="button" data-daily="toggle" aria-expanded="'+dailyExpanded+'">'+(dailyExpanded?'收起':'展开其余 '+(list.length-3)+' 篇')+'</button>':'')+
-      '<button type="button" data-daily="papers">查看本期全部文献 ↗</button></div>';
+      '<button type="button" data-daily="papers">浏览完整文献库 ↗</button></div>';
   }
   function render() {
     if (!papers.length && !events.length) return;
@@ -358,7 +365,7 @@
     const el = e.target.closest('[data-daily]'); if (!el) return;
     if(el.dataset.daily==='toggle'){dailyExpanded=!dailyExpanded;renderDaily();return;}
     if (el.dataset.daily === 'papers') {
-      setSection('research'); byId('stateFilter').value = ''; byId('batch').value = dailyDate; render();
+      setSection('research'); byId('stateFilter').value = ''; render();
       byId('filterable').scrollIntoView({behavior:'smooth', block:'start'});
     } else setSection(el.dataset.daily);
   });
@@ -398,5 +405,3 @@
     byId('lastUpdate').textContent=String(err.message||err);
   });
 })();
-
-
