@@ -53,6 +53,10 @@
     {
       "id": "journal-arxiv",
       "reason": "未完成arXiv最新列表检查；PubMed不提供有效arXiv期刊覆盖"
+    },
+    {
+      "id": "brief-2026-10-26",
+      "reason": "当天实际简报正文为空且无公开交接文件；已尝试检索，待补同步。"
     }
   ],
   "counts": {
@@ -128,7 +132,7 @@
     }
   },
   "overall_status": "partial",
-  "brief_status": "当日科研简报待生成/待对齐",
+  "brief_status": "当日简报正文不可取，待补同步",
   "source": "网站独立检索；历史简报回溯",
   "brief_catchup": {
     "window_start": "2026-10-19",
@@ -138,11 +142,14 @@
     "latest_completed_brief_handoff_present": true,
     "missing_catalog_records": 0,
     "repaired_reference_aliases": 4,
-    "today": "pending",
-    "note": "10月25日完整简报与交接已保存，未新增简报条目；更早日期按已恢复的公开索引核查，不能据此宣称历史简报原文全部恢复。"
+    "today": "blocked_missing_content",
+    "note": "10月25日完整简报与交接已保存，未新增简报条目；更早日期按已恢复的公开索引核查，不能据此宣称历史简报原文全部恢复。",
+    "today_brief_completed": true,
+    "today_brief_body_available": false,
+    "today_handoff_available": false
   },
   "limitations": [
     "两篇新增文献出版商页读取失败，已通过PubMed EFetch核验完整摘要；未声称读取全文。",
-    "当日科研简报尚无实际完成输出，不以昨日简报替代。"
+    "2026-10-26简报记录已完成，但返回正文为空；当天daily_briefs交接不存在，个人上下文也未检索到原文，无法宣称简报全量对齐。"
   ]
 }

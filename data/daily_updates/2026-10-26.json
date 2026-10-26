@@ -2,7 +2,7 @@
   "schema_version": 1,
   "update_date": "2026-10-26",
   "source": "网站独立检索",
-  "brief_status": "当日麻醉AI科研简报待生成/待对齐",
+  "brief_status": "当日简报正文不可取，待补同步",
   "papers": [
     {
       "id": "pubmed-42800644",
