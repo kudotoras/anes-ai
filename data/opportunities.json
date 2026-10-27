@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -33,7 +33,7 @@
     "brief_dates": [
       "2026-10-25"
     ],
-    "verificationNote": "复核官方摘要页：12月6日23:59 PST截止、英文正文4500字符、会议摘要出版形式；未登录投稿系统。",
+    "verificationNote": "2026-10-27 官方摘要页确认12月6日23:59 PST截止；正文4500字符，未登录投稿。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -83,7 +83,9 @@
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-10-26",
-    "verificationNote": "2026-10-26 ESAIC官网首页确认11月1日开放、2027年5月29—31日哥本哈根；摘要细则页读取失败，截止及细则沿用2026-10-10核验，未重新确认。"
+    "verificationNote": "2026-10-26 ESAIC官网首页确认11月1日开放、2027年5月29—31日哥本哈根；摘要细则页读取失败，截止及细则沿用2026-10-10核验，未重新确认。",
+    "verification_attempted_on": "2026-10-27",
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
   },
   {
     "id": "conference_95688579fb",
@@ -101,7 +103,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "SCA官方会议及摘要截止",
@@ -119,7 +121,7 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "复核官方年会页：12月1日23:59 EST截止，会议2027年4月8—11日；未登录投稿系统。",
+    "verificationNote": "2026-10-27 官方会议页确认12月1日23:59 EST截止；未登录投稿。",
     "needs_review": false
   },
   {
@@ -137,7 +139,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "ASA 官方 Submission Information（页面更新 2026-08-25）",
@@ -147,7 +149,7 @@
     "deadlineLabel": "2026-11-16（官网未注明具体时间与时区）",
     "format": "会议议程 / 专题提案",
     "brief_dates": [],
-    "verificationNote": "复核ASA官方提交页：General Session提案窗口8月25日至11月16日，不是原创研究摘要或完整论文投稿。",
+    "verificationNote": "2026-10-27 官方页面确认General Session提案截至11月16日；不等于原创研究摘要投稿。",
     "site_catalog_id": "asa2027-general-sessions",
     "provenance": [],
     "needs_review": false
@@ -182,7 +184,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "官方摘要主题与新截止（页面更新2026-10-19）",
@@ -205,7 +207,7 @@
     "deadlineInstant": "2026-11-15T15:59:00Z",
     "format": "摘要 / 口头报告 / 墙报",
     "brief_dates": [],
-    "verificationNote": "复核官方主题页：11月15日23:59 GMT+8截止；未登录投稿系统，其余细则保留前次核验范围。",
+    "verificationNote": "2026-10-27 官方主题页确认11月15日23:59 GMT+8截止；未登录投稿。",
     "site_catalog_id": "asnacc2027",
     "provenance": [],
     "needs_review": false
@@ -225,7 +227,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "官方赛项、时间与报名规则",
@@ -235,7 +237,7 @@
     "deadlineLabel": "2026-11-13（报名）；作品 23:59，官网未注明时区",
     "format": "算法竞赛",
     "brief_dates": [],
-    "verificationNote": "复核官方AI挑战赛页面：在校生胸片多标签分类，报名11月13日，区域赛提交11月13日23:59；每队1—3名学生、1名指导教师，区域赛200元/队。未登录报名系统。",
+    "verificationNote": "2026-10-27 官方AI挑战赛确认11月13日报名及区域赛作品截止，胸片多标签分类；未登录报名。",
     "site_catalog_id": "ncccu-ai",
     "provenance": [],
     "needs_review": false
@@ -258,8 +260,8 @@
       "2026-10-25"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-10-26",
-    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
+    "verification_attempted_on": "2026-10-27",
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
   },
   {
     "id": "conference_8d528a0f54",
@@ -277,7 +279,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "BMES官方摘要征集页",
@@ -294,7 +296,7 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "复核官方摘要页：Late-Breaking截至11月6日，未注明时区；一般摘要250词规则不直接套用特殊类别。",
+    "verificationNote": "2026-10-27 官方摘要页确认Late-Breaking截至11月6日；时区及特殊类别格式未知。",
     "needs_review": false
   },
   {
@@ -312,7 +314,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -328,7 +330,7 @@
     "event": "2027-02-04 — 02-05 · 意大利米兰",
     "format": "摘要 / ePoster",
     "brief_dates": [],
-    "verificationNote": "复核官方会议页：11月3日23:59 CET截止，录取摘要ePoster展示，不在ICMx发表且无摘要集；附件未重新读取。",
+    "verificationNote": "2026-10-27 官方会议页确认11月3日23:59 CET截止，ePoster展示，不在ICMx发表且无摘要集。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [],
     "needs_review": false
@@ -351,8 +353,8 @@
       "2026-10-25"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-10-26",
-    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
+    "verification_attempted_on": "2026-10-27",
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
   },
   {
     "id": "competition_c4b8c9eb04",
@@ -370,7 +372,7 @@
     "archive": false,
     "announcement_date": "2026-10-10",
     "archive_review_required": false,
-    "verifiedOn": "2026-10-26",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "2026-10-10 官方赛程调整",
@@ -386,7 +388,7 @@
     "brief_dates": [
       "2026-10-25"
     ],
-    "verificationNote": "仅复核2026-10-10官方赛程调整：AI+医学报名缴费与作品均截至10月30日20:00；官网未注明时区。资格和附件保留前次核验范围。",
+    "verificationNote": "2026-10-27 官方2026-10-10赛程：AI+医学10月30日20:00截止；时区及规则附件未重新核验。",
     "site_catalog_id": "aic-ai-medicine2026",
     "provenance": [
       "麻醉AI科研简报"
@@ -483,7 +485,9 @@
     "event": "2026-11-13—11-15 · 上海",
     "format": "中文结构式摘要 / 优秀论文演讲交流",
     "archive": false,
-    "needs_review": false
+    "needs_review": false,
+    "verification_attempted_on": "2026-10-27",
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
   },
   {
     "id": "conference_3a0a65f201",
@@ -688,8 +692,8 @@
       "2026-10-25"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-10-26",
-    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
+    "verification_attempted_on": "2026-10-27",
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
   },
   {
     "id": "competition_df92d1669e",
@@ -723,8 +727,8 @@
     "brief_dates": [],
     "site_catalog_id": "shic",
     "provenance": [],
-    "verification_attempted_on": "2026-10-26",
-    "verification_failure": "2026-10-26官方页为空/动态内容不可取或超时；未确认完整截止、资格与奖励，保留已有记录及原核验日期。"
+    "verification_attempted_on": "2026-10-27",
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
   },
   {
     "id": "conference_bfdb156026",

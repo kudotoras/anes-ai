@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "update_date": "2026-10-27",
+  "source": "网站独立检索",
+  "brief_status": "当日聊天简报待对齐；前一期简报正文缺失",
+  "papers": [
+    {
+      "id": "pubmed-42913494",
+      "ingested_date": "2026-10-27",
+      "title": "Association of Altered Anteriorization of Electroencephalographic Alpha Oscillation During Transition to Unconsciousness With Postoperative Delirium: A Prospective Observational Study.",
+      "doi": "10.1213/ANE.0000000000008390",
+      "date": "2026-10-22",
+      "title_zh": "诱导期α振荡前移与术后谵妄：前瞻性脑电观察研究",
+      "journal": "Anesthesia & Analgesia",
+      "topic": "精准麻醉",
+      "categories": [
+        "精准麻醉",
+        "脑功能监测与麻醉深度",
+        "POD/PND与围术期结局"
+      ],
+      "study_type": "前瞻性观察研究",
+      "description": "单中心前瞻性研究纳入100名患者，其中19名发生谵妄；剔除17名脑电伪迹病例后分析83人的19导联EEG。谵妄组诱导期α功率增强较弱、维持期网络效率较低，提示麻醉状态转变特征与脑易损性相关。\n\n可作为围术期脑健康和状态表征的背景研究，不是AI预测模型、闭环给药或谵妄预防试验。样本量有限，探索性关联仍需外部及前瞻验证。",
+      "source_url": "https://doi.org/10.1213/ANE.0000000000008390",
+      "pmid": "42913494",
+      "verifiedOn": "2026-10-27",
+      "status": "已核验摘要",
+      "verification": "2026-10-27 PubMed EFetch原始XML题录、在线日期与完整摘要；出版商全文未能读取",
+      "site_catalog_id": "pubmed-42913494",
+      "origin": "站点核验目录；网站独立检索",
+      "needs_review": false,
+      "archive_review_required": false,
+      "dateKind": "首次在线发表；2026-10-27检索补收，非当日发表",
+      "sources": [
+        {
+          "label": "PubMed原始题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42913494/"
+        },
+        {
+          "label": "出版商DOI",
+          "url": "https://doi.org/10.1213/ANE.0000000000008390"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-42919460",
+      "ingested_date": "2026-10-27",
+      "title": "Association of Acute Respiratory Distress Syndrome Radiographic Findings Identified by Machine Learning and Outcomes of Patients Receiving Invasive Mechanical Ventilation.",
+      "doi": "10.1097/CCM.0000000000007384",
+      "date": "2026-10-23",
+      "title_zh": "深度学习胸片肺损伤评分与机械通气患者结局：6591例回顾研究",
+      "journal": "Critical Care Medicine",
+      "topic": "机械通气与拔管",
+      "categories": [
+        "机械通气与拔管",
+        "模型外部验证"
+      ],
+      "study_type": "回顾性队列 / 影像模型验证",
+      "description": "对6591名开始有创机械通气患者的胸片应用既有ARDS深度学习模型，量化双肺浸润特征。影像评分与28天死亡及拔管时间相关，死亡判别AUROC为0.68；在调整氧合或APACHE-IV后仍存在关联。\n\n模型将肺损伤影像连续量化，可用于研究分层与预测性富集探索。单中心回顾性关联不能证明按评分调整治疗改善结局，也不能凭独立相关性替代外部验证或因果证据。",
+      "source_url": "https://doi.org/10.1097/CCM.0000000000007384",
+      "pmid": "42919460",
+      "verifiedOn": "2026-10-27",
+      "status": "已核验摘要",
+      "verification": "2026-10-27 PubMed EFetch原始XML题录、在线日期与完整摘要；出版商全文未能读取",
+      "site_catalog_id": "pubmed-42919460",
+      "origin": "站点核验目录；网站独立检索",
+      "needs_review": false,
+      "archive_review_required": false,
+      "dateKind": "首次在线发表；2026-10-27检索补收，非当日发表",
+      "sources": [
+        {
+          "label": "PubMed原始题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42919460/"
+        },
+        {
+          "label": "出版商DOI",
+          "url": "https://doi.org/10.1097/CCM.0000000000007384"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-42887688",
+      "ingested_date": "2026-10-27",
+      "title": "VentiProtect ARDS, vibe coding lung protection: a five-minute clinician-built ventilator tool as proof-of-concept for physician prompt engineering.",
+      "doi": "10.1016/j.accpm.2026.101934",
+      "date": "2026-10-16",
+      "title_zh": "VentiProtect ARDS：医生用LLM构建呼吸机辅助工具的概念验证",
+      "journal": "Anaesthesia Critical Care & Pain Medicine",
+      "topic": "大语言模型与智能体",
+      "categories": [
+        "大语言模型与智能体",
+        "机械通气与拔管"
+      ],
+      "study_type": "软件工具 / 单人概念验证",
+      "description": "一名医生用结构化提示生成肺保护性通气辅助工具，报告生成环节用时4分25秒。独立测试覆盖100种情景、1400项计算检查，未发现计算错误；工具可本地运行。\n\n可借鉴将临床规范转为约束及独立测试的开发思路。单人自我实施不能证明医生群体具有同等能力；公式计算正确不等于建议临床安全，更不等于患者获益或自主通气控制已验证。",
+      "source_url": "https://doi.org/10.1016/j.accpm.2026.101934",
+      "pmid": "42887688",
+      "verifiedOn": "2026-10-27",
+      "status": "已核验摘要",
+      "verification": "2026-10-27 PubMed EFetch原始XML题录、在线日期与完整摘要；出版商全文未能读取",
+      "site_catalog_id": "pubmed-42887688",
+      "origin": "站点核验目录；网站独立检索",
+      "needs_review": false,
+      "archive_review_required": false,
+      "dateKind": "首次在线发表；2026-10-27检索补收，非当日发表",
+      "sources": [
+        {
+          "label": "PubMed原始题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42887688/"
+        },
+        {
+          "label": "出版商DOI",
+          "url": "https://doi.org/10.1016/j.accpm.2026.101934"
+        }
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "ncccu-ai",
+      "title": "2026 全国高校计算机能力挑战赛 · 医学影像 AI 赛项",
+      "organizer": "全国高等学校计算机教育研究会",
+      "journal": "全国高等学校计算机教育研究会",
+      "date": "2026-11-13",
+      "announcement_date": null,
+      "deadline": "2026-11-13",
+      "category": "competition",
+      "topic": "医学影像",
+      "description": "赛题为胸部 X 光片多标签病变检测与分类。官方公开页现列训练集18,513次检查、验证集859次检查、测试集1,414次检查；主要排名指标为宏平均AUC，宏平均F1用于同分辅助排序。\n\n官方赛程仍列数据集下载开放期为2026-10-15 15:00至11-13 23:59。公开赛项页已展示数据划分、字段、服务器环境与submission.csv要求，但本次未登录或实际下载，不能确认下载链路。报名截至11月13日，作品截至当日23:59，官网未注明时区。每队1—3名在校生，费用200元/队，仅允许使用主办方训练数据，不允许外部标注数据。",
+      "source_url": "https://www.ncccu.org.cn/index/Paper/case1.html?way=gansu",
+      "status": "open",
+      "archive": false,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "官方赛项、时间与报名规则",
+          "url": "https://www.ncccu.org.cn/index/Paper/case1.html?way=gansu"
+        }
+      ],
+      "deadlineLabel": "2026-11-13（报名）；作品 23:59，官网未注明时区",
+      "format": "算法竞赛",
+      "brief_dates": [],
+      "verificationNote": "2026-10-27 官方AI挑战赛确认11月13日报名及区域赛作品截止，胸片多标签分类；未登录报名。",
+      "site_catalog_id": "ncccu-ai",
+      "provenance": [],
+      "needs_review": false
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛",
+      "organizer": "中国计算机学会（CCF）",
+      "journal": "中国计算机学会（CCF）",
+      "date": "2026-11-10",
+      "deadline": "2026-11-10",
+      "category": "competition",
+      "topic": "AI+生物医药、AI+脑机接口、AI+科学智能",
+      "description": "截止日期：2026-11-10。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+      "source_url": "https://ccf.org.cn/tecagi2026",
+      "status": "待核验",
+      "historical_status": "has_future_deadline_reported",
+      "archive": true,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "archive_review_required": true,
+      "verification_attempted_on": "2026-10-27",
+      "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    },
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "journal": "中国生产力促进中心协会",
+      "date": "2026-10-30",
+      "deadline": "2026-10-30",
+      "category": "competition",
+      "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
+      "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+      "source_url": "https://www.aimtcbj.com/",
+      "status": "待核验",
+      "historical_status": "has_future_deadline_reported",
+      "archive": true,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "archive_review_required": true,
+      "verification_attempted_on": "2026-10-27",
+      "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    },
+    {
+      "id": "competition_c4b8c9eb04",
+      "title": "第八届 AIC 算法主题赛 · AI＋医学",
+      "organizer": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "journal": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "date": "2026-10-30",
+      "deadline": "2026-10-30",
+      "category": "competition",
+      "topic": "AI＋医学",
+      "description": "面向全球高校和科研院所具有正式学籍的在读学生（含研究生、本科生、专科生）。开放式赛题允许以 AI 解决医学研究、诊疗与健康服务问题，作品以技术报告呈现。\n\n10 月 10 日赛程调整通知确认 AI＋医学报名缴费与作品提交均于 10 月 30 日 20:00 截止；原始通知发表于 7 月 9 日。可单人或组队，每队至多 3 名学生、2 名指导教师，参赛费 500 元/队。适合有学生成员的麻醉或重症 AI 团队，需满足原创与医学科技伦理要求；详细竞赛规则附件本次无法读取，提交格式与评分细则仍须按官方附件核对。",
+      "source_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": "2026-10-10",
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "2026-10-10 官方赛程调整",
+          "url": "https://www.aicomp.cn/notice/notice-3/5435.html"
+        },
+        {
+          "label": "2026-07-09 AI＋医学官方通知与参赛资格",
+          "url": "https://www.aicomp.cn/notice/notice-3/4709.html"
+        }
+      ],
+      "deadlineLabel": "2026-10-30 20:00（报名、缴费及初赛作品；官网未注明时区）",
+      "format": "开放式 AI 医学项目竞赛",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "verificationNote": "2026-10-27 官方2026-10-10赛程：AI+医学10月30日20:00截止；时区及规则附件未重新核验。",
+      "site_catalog_id": "aic-ai-medicine2026",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "needs_review": false
+    },
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会",
+      "journal": "中国技术经济学会",
+      "date": "",
+      "deadline": "",
+      "category": "competition",
+      "topic": "AI Agent开放应用、医疗场景",
+      "description": "截止日期：未明确。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+      "source_url": "https://www.ai-race.com.cn/",
+      "status": "待核验",
+      "historical_status": "deadline_unknown_or_disputed",
+      "archive": true,
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "archive_review_required": true,
+      "verification_attempted_on": "2026-10-27",
+      "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    },
+    {
+      "id": "competition_df92d1669e",
+      "title": "第九届智慧医疗创新大赛 · AI 与智慧医疗成果报名",
+      "organizer": "SHIC 全国智慧医疗创新大赛",
+      "journal": "SHIC 全国智慧医疗创新大赛",
+      "date": "",
+      "deadline": "",
+      "category": "competition",
+      "topic": "医疗大模型",
+      "description": "第九届于 2026 年 9 月启动，面向医疗机构、企事业单位、科研院所、社会组织及个人。应用、技术、数据要素等六赛道覆盖 AI、大模型与智能医疗器械成果。\n\n2026-10-19已恢复读取官方概况及赛区表。页面仍列海南赛区10月15日报名截止、拟定10月16日决赛，未见该表提供延期日期；不得把海南呈现为仍可报名。全国报名按各赛区通知执行，其他多数赛区尚未列具体日期。报名需承诺书及成果/知识产权证明，同项目仅一个赛道、一个赛区；同单位不能连续两届报相同主题。",
+      "source_url": "https://www.shic.org.cn/overview/",
+      "status": "open",
+      "historical_status": "deadline_unknown_or_disputed",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-23",
+      "sources": [
+        {
+          "label": "第九届官方概况、报名规则及通知下载（页面更新 2026-10-08）",
+          "url": "https://www.shic.org.cn/overview/"
+        },
+        {
+          "label": "赛事官方入口",
+          "url": "https://www.shic.org.cn/"
+        }
+      ],
+      "deadlineLabel": "海南赛区官网所列2026-10-15截止，现已过期；其他赛区以各自通知为准",
+      "format": "创新项目竞赛",
+      "brief_dates": [],
+      "site_catalog_id": "shic",
+      "provenance": [],
+      "verification_attempted_on": "2026-10-27",
+      "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "journal": "IARS / SOCCA",
+      "date": "2026-12-06",
+      "deadline": "2026-12-07T07:59:00Z",
+      "category": "conference",
+      "topic": "麻醉",
+      "description": "2027 年会摘要征集已开放，新增监测与技术、围术期高风险人群、重症及脑健康等分类。入选摘要可作现场墙报展示。\n\n官方摘要页仍显示征集开放，截止为 12 月 6 日 23:59 PST。英文正文需按四部分填写，总计不超过 4500 字符（含空格），每部分不超过 2500 字符；截止后无法修改。研究摘要可参加 Kosaka Best Abstract Award，详细资格与展示要求以官方规则为准。",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "官方摘要征集与规则",
+          "url": "https://meetings.iars.org/abstracts/submissions/"
+        },
+        {
+          "label": "官方年会页面",
+          "url": "https://meetings.iars.org/"
+        }
+      ],
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间 12-07 15:59）",
+      "deadlineInstant": "2026-12-07T07:59:00Z",
+      "event": "2027-04-30 — 05-02 · 美国芝加哥",
+      "format": "摘要 / 墙报",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "verificationNote": "2026-10-27 官方摘要页确认12月6日23:59 PST截止；正文4500字符，未登录投稿。",
+      "site_catalog_id": "iars2027",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "needs_review": false
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+      "organizer": "ESAIC",
+      "journal": "ESAIC",
+      "date": "2026-12-05",
+      "deadline": "2026-12-05T22:59:00Z",
+      "category": "conference",
+      "topic": "麻醉",
+      "description": "2027 年会于 5 月 29—31 日在哥本哈根举行。官方新页面明确摘要征集 2026 年 11 月 1 日开放，12 月 5 日 23:59 CET 截止，录取后现场 ePoster 展示。\n\n目前仍待开放。需 MyESAIC 账户，每篇最多 6 位作者，每位演讲者最多 3 篇摘要；演讲者须 2027 年 3 月 25 日前注册完整实体大会。AI 辅助摘要制作须披露。展示摘要可收入 EJA 电子增刊，属于会议摘要，具体发表及投稿限制以官网为准。",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "status": "upcoming",
+      "historical_status": "deadline_unknown_or_disputed",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-10",
+      "sources": [
+        {
+          "label": "ESAIC 2027 官方摘要日期、时区与规则",
+          "url": "https://euroanaesthesia.org/2027/abstracts/"
+        },
+        {
+          "label": "官方 2027 年会首页",
+          "url": "https://euroanaesthesia.org/2027/"
+        },
+        {
+          "label": "ESAIC官网首页：本次仅确认开放日与会期",
+          "url": "https://esaic.org/"
+        }
+      ],
+      "deadlineLabel": "2026-12-05 23:59 CET（北京时间 12-06 06:59）",
+      "deadlineInstant": "2026-12-05T22:59:00Z",
+      "event": "2027-05-29 — 05-31 · 丹麦哥本哈根",
+      "format": "摘要 / 墙报",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "site_catalog_id": "ea2027",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "openingVerifiedOn": "2026-10-26",
+      "verificationNote": "2026-10-26 ESAIC官网首页确认11月1日开放、2027年5月29—31日哥本哈根；摘要细则页读取失败，截止及细则沿用2026-10-10核验，未重新确认。",
+      "verification_attempted_on": "2026-10-27",
+      "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    },
+    {
+      "id": "conference_95688579fb",
+      "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
+      "organizer": "Society of Cardiovascular Anesthesiologists",
+      "journal": "Society of Cardiovascular Anesthesiologists",
+      "date": "2026-12-01",
+      "deadline": "2026-12-02T04:59:00Z",
+      "category": "conference",
+      "topic": "会议与征集",
+      "description": "官网明确2027年科学摘要已开放，截止12月1日美国东部标准时间23:59，录用通知计划于2027年1月底发出。\n\n属于会议摘要展示，不等于完整SCI原创论文。ePoster PDF上传与摘要投稿分别有截止；字数、费用及出版安排需按投稿系统细则，本站本次未登录提交系统。",
+      "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "SCA官方会议及摘要截止",
+          "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+        }
+      ],
+      "deadlineLabel": "2026-12-01 23:59 EST（北京时间12-02 12:59）",
+      "deadlineInstant": "2026-12-02T04:59:00Z",
+      "event": "2027-04-08—04-11 · 美国拉斯维加斯",
+      "format": "科学摘要 / ePoster",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "site_catalog_id": "conference_95688579fb",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "verificationNote": "2026-10-27 官方会议页确认12月1日23:59 EST截止；未登录投稿。",
+      "needs_review": false
+    },
+    {
+      "id": "asa2027-general-sessions",
+      "title": "ANESTHESIOLOGY 2027 · General Session 议程提案征集",
+      "organizer": "American Society of Anesthesiologists（ASA）",
+      "journal": "American Society of Anesthesiologists（ASA）",
+      "date": "2026-11-16",
+      "announcement_date": null,
+      "deadline": "2026-11-16",
+      "category": "conference",
+      "topic": "麻醉",
+      "description": "ASA 已开放 ANESTHESIOLOGY 2027 General Session 提案，征集期为 2026 年 8 月 25 日至 11 月 16 日，支持主题小组、Clinical Forum、Refresher Course、争鸣、工作坊和圆桌讨论等形式。\n\n这是会议议程与教育项目提案，不是科学摘要征集。官网列明科学摘要将于 2027 年 1 月 5 日至 3 月 30 日开放；当前投稿应按所选 session format 的门户指南准备，截止具体时间与时区未在公开页注明。",
+      "source_url": "https://www.asahq.org/annualmeeting/education/submissions",
+      "status": "open",
+      "archive": false,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "ASA 官方 Submission Information（页面更新 2026-08-25）",
+          "url": "https://www.asahq.org/annualmeeting/education/submissions"
+        }
+      ],
+      "deadlineLabel": "2026-11-16（官网未注明具体时间与时区）",
+      "format": "会议议程 / 专题提案",
+      "brief_dates": [],
+      "verificationNote": "2026-10-27 官方页面确认General Session提案截至11月16日；不等于原创研究摘要投稿。",
+      "site_catalog_id": "asa2027-general-sessions",
+      "provenance": [],
+      "needs_review": false
+    },
+    {
+      "id": "asnacc2027",
+      "title": "ASNACC 2027 · 摘要征集截至11月15日，官网指南已同步",
+      "organizer": "Asian Society for Neuroanaesthesia & Critical Care（ASNACC）",
+      "journal": "Asian Society for Neuroanaesthesia & Critical Care（ASNACC）",
+      "date": "2026-11-15",
+      "announcement_date": null,
+      "deadline": "2026-11-15T15:59:00Z",
+      "category": "conference",
+      "topic": "麻醉",
+      "description": "第9届ASNACC大会征集神经麻醉、神经重症及围术期神经科学基础与临床研究。2026-10-24核验时，官网首页、摘要主题页和投稿指南已全部列出11月15日23:59 GMT+8截止，移除此前指南尚未同步的冲突提示。\n\n最新公开投稿指南现已同步延期后的11月15日截止。英文正文不超过300词，曾向其他会议提交的摘要不予接受；录用后须注册缴费。JNA出版为会议摘要集，不等于完整期刊论文。未登录测试实际提交；具体录用与展示要求按官方指南执行。",
+      "source_url": "https://asnacc2027.org/abstract/",
+      "status": "open",
+      "archive": false,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "官方摘要主题与新截止（页面更新2026-10-19）",
+          "url": "https://asnacc2027.org/abstract/"
+        },
+        {
+          "label": "官网首页重要日期已改11月15日",
+          "url": "https://asnacc2027.org/"
+        },
+        {
+          "label": "官方投稿指南（仍保留旧10月20日）",
+          "url": "https://asnacc2027.org/abstract-submission-guidelines/"
+        },
+        {
+          "label": "官方JNA会议摘要出版说明",
+          "url": "https://asnacc2027.org/abstract-publication/"
+        }
+      ],
+      "deadlineLabel": "2026-11-15 23:59 GMT+8（北京时间；首页、主题页与投稿指南现已一致）",
+      "deadlineInstant": "2026-11-15T15:59:00Z",
+      "format": "摘要 / 口头报告 / 墙报",
+      "brief_dates": [],
+      "verificationNote": "2026-10-27 官方主题页确认11月15日23:59 GMT+8截止；未登录投稿。",
+      "site_catalog_id": "asnacc2027",
+      "provenance": [],
+      "needs_review": false
+    },
+    {
+      "id": "conference_8d528a0f54",
+      "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
+      "organizer": "Biomedical Engineering Society",
+      "journal": "Biomedical Engineering Society",
+      "date": "2026-11-06",
+      "deadline": "2026-11-06",
+      "category": "conference",
+      "topic": "会议与征集",
+      "description": "官方摘要页明确Late-Breaking截止11月6日，常规摘要截止8月4日，需区分两个通道。会议在2027年1月3—7日举行。\n\n偏细胞与分子生物工程，作为基础研究拓展机会。常规摘要少于250词，不能未经核验直接套用于Late-Breaking；部分奖项申请已截止，费用和出版检索须另核实。",
+      "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "BMES官方摘要征集页",
+          "url": "https://www.bmes.org/2027/cmbeconference/abstracts"
+        }
+      ],
+      "deadlineLabel": "2026-11-06（官网未注明具体时间/时区）",
+      "event": "2027-01-03—01-07 · 美国圣迭戈",
+      "format": "Late-Breaking Abstract / Poster",
+      "brief_dates": [
+        "2026-10-25"
+      ],
+      "site_catalog_id": "conference_8d528a0f54",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "verificationNote": "2026-10-27 官方摘要页确认Late-Breaking截至11月6日；时区及特殊类别格式未知。",
+      "needs_review": false
+    },
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+      "organizer": "ESICM",
+      "journal": "ESICM",
+      "date": "2026-11-03",
+      "announcement_date": null,
+      "deadline": "2026-11-03T22:59:00Z",
+      "category": "conference",
+      "topic": "重症",
+      "description": "创新会议明确包含 AI、精准医学和新技术主题，当前征集原创研究。录取摘要均以 ePoster 展示，指南另允许少量选为口头报告。\n\n英文摘要不超过 3000 字符（不含标题、作者、参考文献），不得提交已发表数据；演讲者须注册。官网未列强制会员要求，具体资格按指南审核。明确不在 ICMx 发表且无 Abstract Book，成果形式为会议展示。",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "status": "open",
+      "archive": false,
+      "archive_review_required": false,
+      "verifiedOn": "2026-10-27",
+      "sources": [
+        {
+          "label": "ESICM 官方会议及征集截止",
+          "url": "https://www.esicm.org/events/intensive-care-innovation2027/"
+        },
+        {
+          "label": "官方摘要准备指南",
+          "url": "https://www.esicm.org/wp-content/uploads/2026/09/Instructions_Abstracts.pdf"
+        }
+      ],
+      "deadlineLabel": "2026-11-03 23:59 CET（北京时间 11-04 06:59）",
+      "deadlineInstant": "2026-11-03T22:59:00Z",
+      "event": "2027-02-04 — 02-05 · 意大利米兰",
+      "format": "摘要 / ePoster",
+      "brief_dates": [],
+      "verificationNote": "2026-10-27 官方会议页确认11月3日23:59 CET截止，ePoster展示，不在ICMx发表且无摘要集。",
+      "site_catalog_id": "esicm-innovation2027",
+      "provenance": [],
+      "needs_review": false
+    },
+    {
+      "id": "cscva-ai-shanghai2026",
+      "title": "第三届国际医疗健康人工智能大会（上海）暨2026中国心胸血管麻醉学会学术会议 · 摘要征集",
+      "organizer": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+      "journal": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+      "date": "2026-10-09",
+      "announcement_date": "2026-10-09",
+      "deadline": "2026-10-31",
+      "deadlineLabel": "2026-10-31（官方页面未注明具体时间/时区）",
+      "category": "conference",
+      "topic": "精准麻醉 / 围术期人工智能 / 医疗大模型 / 医工交叉",
+      "description": "学会会议官网确认10月31日截稿，会议11月13—15日在上海举行。征集围术期数据、AI、麻醉与脑功能等临床及基础研究，要求中文800—1000字结构摘要，结果含主要数据，仅接受网站投稿。\n\n官网拟遴选50位优秀论文作者现场7分钟演讲。属于会议摘要及交流机会，不等于完整期刊论文；投稿收费、评奖资格及正式出版检索本次未核实，不能以参会注册截止替代截稿日。",
+      "source_url": "https://mm.sciconf.cn/41149",
+      "status": "open",
+      "verifiedOn": "2026-10-26",
+      "sources": [
+        {
+          "label": "学会会议官网：主办方、时间与截稿日",
+          "url": "https://mm.sciconf.cn/41149"
+        },
+        {
+          "label": "学会来源公开征文通知：摘要格式及交流形式",
+          "url": "https://xue.sciconf.cn/infomation-detail?id=82C2E240-D2DB-4591-0A9D-2BB543DDF482"
+        }
+      ],
+      "verificationNote": "直接核验会议官网与学会来源公开通知；未登录投稿、未读取转跳失败的PDF。",
+      "event": "2026-11-13—11-15 · 上海",
+      "format": "中文结构式摘要 / 优秀论文演讲交流",
+      "archive": false,
+      "needs_review": false,
+      "verification_attempted_on": "2026-10-27",
+      "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    }
+  ],
+  "journal_checks": [
+    {
+      "journal": "The Lancet Digital Health",
+      "status": "checked",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-13至10-26；非穷尽全刊/未索引论文",
+      "count": 2,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22The+Lancet+Digital+Health%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F13%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F27%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+    },
+    {
+      "journal": "Nature Medicine",
+      "status": "checked",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-13至10-26；非穷尽全刊/未索引论文",
+      "count": 2,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F13%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F27%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+    },
+    {
+      "journal": "Nature Biomedical Engineering",
+      "status": "checked",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-13至10-26；非穷尽全刊/未索引论文",
+      "count": 1,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Biomedical+Engineering%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F13%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F27%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+    },
+    {
+      "journal": "Nature Machine Intelligence",
+      "status": "checked",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-13至10-26；非穷尽全刊/未索引论文",
+      "count": 0,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Machine+Intelligence%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F13%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F27%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+    },
+    {
+      "journal": "NEJM AI",
+      "status": "checked",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-13至10-26；非穷尽全刊/未索引论文",
+      "count": 5,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22NEJM+AI%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F13%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F27%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+    },
+    {
+      "journal": "JAMA",
+      "status": "checked",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-13至10-26；非穷尽全刊/未索引论文",
+      "count": 5,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMA%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F13%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F27%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+    },
+    {
+      "journal": "JAMA Network Open",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Critical Care",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Anesthesiology",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "British Journal of Anaesthesia",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Anaesthesia",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Anesthesia & Analgesia",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "IEEE Transactions on Medical Imaging",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Medical Image Analysis",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Artificial Intelligence in Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "PLOS Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Journal of Medical Internet Research",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "BMC Anesthesiology",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Intensive Care Medicine Experimental",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "International Journal of Medical Informatics",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Nature",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Computers in Biology and Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "European Journal of Control",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Scientific Reports",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Journal of Anesthesia, Analgesia and Critical Care",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "npj Precision Oncology",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Journal of the American Medical Informatics Association",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "AI in Precision Oncology",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "BMC Pharmacology and Toxicology",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "arXiv",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Scientific Data",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Anaesthesia Critical Care & Pain Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Advances in Simulation",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Medizinische Klinik - Intensivmedizin und Notfallmedizin",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "npj Health Systems",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Journal of Intensive Care",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "JMIR Perioperative Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Journal of Imaging Informatics in Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Brain Research Bulletin",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Anaesthesia and Intensive Care",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "Journal of Korean Medical Science",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    },
+    {
+      "journal": "The American Journal of Medicine",
+      "status": "unavailable",
+      "checkedOn": "2026-10-27",
+      "scope": "PubMed请求失败，不代表无新文",
+      "error": "URLError"
+    }
+  ],
+  "selected_paper_ids": [
+    "pubmed-42913494",
+    "pubmed-42919460",
+    "pubmed-42887688"
+  ],
+  "date_note": "2026-10-27为检索核验日，不代替真实首次在线发表日期。"
+}

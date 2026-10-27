@@ -5648,5 +5648,114 @@
     "archive_id": "paper_17a84b3285ab",
     "archive_review_required": true,
     "brief_dates": []
+  },
+  {
+    "id": "pubmed-42913494",
+    "ingested_date": "2026-10-27",
+    "title": "Association of Altered Anteriorization of Electroencephalographic Alpha Oscillation During Transition to Unconsciousness With Postoperative Delirium: A Prospective Observational Study.",
+    "doi": "10.1213/ANE.0000000000008390",
+    "date": "2026-10-22",
+    "title_zh": "诱导期α振荡前移与术后谵妄：前瞻性脑电观察研究",
+    "journal": "Anesthesia & Analgesia",
+    "topic": "精准麻醉",
+    "categories": [
+      "精准麻醉",
+      "脑功能监测与麻醉深度",
+      "POD/PND与围术期结局"
+    ],
+    "study_type": "前瞻性观察研究",
+    "description": "单中心前瞻性研究纳入100名患者，其中19名发生谵妄；剔除17名脑电伪迹病例后分析83人的19导联EEG。谵妄组诱导期α功率增强较弱、维持期网络效率较低，提示麻醉状态转变特征与脑易损性相关。\n\n可作为围术期脑健康和状态表征的背景研究，不是AI预测模型、闭环给药或谵妄预防试验。样本量有限，探索性关联仍需外部及前瞻验证。",
+    "source_url": "https://doi.org/10.1213/ANE.0000000000008390",
+    "pmid": "42913494",
+    "verifiedOn": "2026-10-27",
+    "status": "已核验摘要",
+    "verification": "2026-10-27 PubMed EFetch原始XML题录、在线日期与完整摘要；出版商全文未能读取",
+    "site_catalog_id": "pubmed-42913494",
+    "origin": "站点核验目录；网站独立检索",
+    "needs_review": false,
+    "archive_review_required": false,
+    "dateKind": "首次在线发表；2026-10-27检索补收，非当日发表",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42913494/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1213/ANE.0000000000008390"
+      }
+    ]
+  },
+  {
+    "id": "pubmed-42919460",
+    "ingested_date": "2026-10-27",
+    "title": "Association of Acute Respiratory Distress Syndrome Radiographic Findings Identified by Machine Learning and Outcomes of Patients Receiving Invasive Mechanical Ventilation.",
+    "doi": "10.1097/CCM.0000000000007384",
+    "date": "2026-10-23",
+    "title_zh": "深度学习胸片肺损伤评分与机械通气患者结局：6591例回顾研究",
+    "journal": "Critical Care Medicine",
+    "topic": "机械通气与拔管",
+    "categories": [
+      "机械通气与拔管",
+      "模型外部验证"
+    ],
+    "study_type": "回顾性队列 / 影像模型验证",
+    "description": "对6591名开始有创机械通气患者的胸片应用既有ARDS深度学习模型，量化双肺浸润特征。影像评分与28天死亡及拔管时间相关，死亡判别AUROC为0.68；在调整氧合或APACHE-IV后仍存在关联。\n\n模型将肺损伤影像连续量化，可用于研究分层与预测性富集探索。单中心回顾性关联不能证明按评分调整治疗改善结局，也不能凭独立相关性替代外部验证或因果证据。",
+    "source_url": "https://doi.org/10.1097/CCM.0000000000007384",
+    "pmid": "42919460",
+    "verifiedOn": "2026-10-27",
+    "status": "已核验摘要",
+    "verification": "2026-10-27 PubMed EFetch原始XML题录、在线日期与完整摘要；出版商全文未能读取",
+    "site_catalog_id": "pubmed-42919460",
+    "origin": "站点核验目录；网站独立检索",
+    "needs_review": false,
+    "archive_review_required": false,
+    "dateKind": "首次在线发表；2026-10-27检索补收，非当日发表",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42919460/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1097/CCM.0000000000007384"
+      }
+    ]
+  },
+  {
+    "id": "pubmed-42887688",
+    "ingested_date": "2026-10-27",
+    "title": "VentiProtect ARDS, vibe coding lung protection: a five-minute clinician-built ventilator tool as proof-of-concept for physician prompt engineering.",
+    "doi": "10.1016/j.accpm.2026.101934",
+    "date": "2026-10-16",
+    "title_zh": "VentiProtect ARDS：医生用LLM构建呼吸机辅助工具的概念验证",
+    "journal": "Anaesthesia Critical Care & Pain Medicine",
+    "topic": "大语言模型与智能体",
+    "categories": [
+      "大语言模型与智能体",
+      "机械通气与拔管"
+    ],
+    "study_type": "软件工具 / 单人概念验证",
+    "description": "一名医生用结构化提示生成肺保护性通气辅助工具，报告生成环节用时4分25秒。独立测试覆盖100种情景、1400项计算检查，未发现计算错误；工具可本地运行。\n\n可借鉴将临床规范转为约束及独立测试的开发思路。单人自我实施不能证明医生群体具有同等能力；公式计算正确不等于建议临床安全，更不等于患者获益或自主通气控制已验证。",
+    "source_url": "https://doi.org/10.1016/j.accpm.2026.101934",
+    "pmid": "42887688",
+    "verifiedOn": "2026-10-27",
+    "status": "已核验摘要",
+    "verification": "2026-10-27 PubMed EFetch原始XML题录、在线日期与完整摘要；出版商全文未能读取",
+    "site_catalog_id": "pubmed-42887688",
+    "origin": "站点核验目录；网站独立检索",
+    "needs_review": false,
+    "archive_review_required": false,
+    "dateKind": "首次在线发表；2026-10-27检索补收，非当日发表",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42887688/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.accpm.2026.101934"
+      }
+    ]
   }
 ]
