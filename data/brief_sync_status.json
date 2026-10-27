@@ -2,7 +2,7 @@
   "schema_version": 1,
   "brief_date": "2026-10-27",
   "overall_status": "partial",
-  "brief_status": "2026-10-27当日简报已生成，GitHub公开交接待回读；Sites独立更新成功但简报补同步未完成",
+  "brief_status": "2026-10-27公开简报已保存并GitHub回读核验；Sites仅独立更新成功，本期补同步未完成",
   "source": "独立检索 ∪ 麻醉AI科研简报",
   "sites": {
     "status": "partial",
@@ -16,15 +16,23 @@
     "verification": "独立站点既有更新成功；本次简报新增条目无法经Sites维护接口POST/GET验证，未声称补同步完成"
   },
   "github": {
-    "status": "partial",
+    "status": "success",
     "papers": 262,
     "opportunities": 29,
-    "verified_at": "2026-10-27T00:07:51.364Z",
+    "verified_at": "2026-10-27",
     "readback_commit": "21e1a44bb30b9911a4070666eebef7d46759290e",
-    "research_commit": "658cf5ad1da1b54bdb1cb59f5791f1c2afa3b619",
+    "research_commit": "444cc34a7c892f2ee81393dda3b255fe8ee6a906",
     "curated_papers": 105,
-    "verification": "待本次提交后读取研究、机会、历史和交接文件验证",
-    "brief_alignment_status": "pending_readback"
+    "verification": "2026-10-27公开条目提交后已从默认分支回读，4篇精选、10月26补档、历史索引、机会记录和人工摘要保留。",
+    "brief_alignment_status": "success",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/daily_briefs/2026-10-26.json",
+      "data/daily_briefs/2026-10-27.json",
+      "data/article_summaries.json"
+    ]
   },
   "counts": {
     "new_papers": 3,
@@ -48,7 +56,7 @@
     "window_start": "2026-10-20",
     "window_end": "2026-10-27",
     "brief_20261026": "recovered_public_items",
-    "brief_20261027": "handoff_pending_readback",
+    "brief_20261027": "github_readback_verified_sites_pending",
     "source": "visible_brief_and_20261027_research"
   },
   "failures": [
