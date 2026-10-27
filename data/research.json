@@ -315,6 +315,31 @@
     ]
   },
   {
+    "id": "jamiaopen-ooag208-2026",
+    "title": "Beyond documentation burden: clinician-reported workflow and cognitive changes associated with ambient documentation technology",
+    "title_zh": "",
+    "journal": "JAMIA Open",
+    "date": "2026-10-23",
+    "doi": "10.1093/jamiaopen/ooag208",
+    "topic": "临床部署、监管与人机协作",
+    "categories": [
+      "临床部署、监管与人机协作"
+    ],
+    "study_type": "单臂临床使用调查（84名临床人员）",
+    "description": "84名临床人员使用环境AI文书工具后调查：75人（89%）自报文书时间减少，49人（58%）自报认知负担降低，仅22人（26%）认为临床推理改善，26人（31%）担忧依赖；自报、无对照组，不能证明因果效果。",
+    "source_url": "https://doi.org/10.1093/jamiaopen/ooag208",
+    "status": "已核验摘要",
+    "origin": "麻醉AI科研简报",
+    "verifiedOn": "2026-10-27",
+    "verificationNote": "2026-10-27经期刊页面或PubMed摘要核验；非全文逐字精读",
+    "brief_dates": [
+      "2026-10-27"
+    ],
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报"
+    }
+  },
+  {
     "id": "pubmed-42907983",
     "pmid": "42907983",
     "doi": "10.1186/s12911-026-03580-4",
@@ -583,6 +608,31 @@
         "url": "https://doi.org/10.1213/ANE.0000000000008390"
       }
     ],
+    "brief_dates": [
+      "2026-10-27"
+    ],
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报"
+    }
+  },
+  {
+    "id": "jamiaopen-ooag206-2026",
+    "title": "Evaluating multimodal fusion strategies for early postoperative delirium prediction using structured electronic health record data and clinical narratives",
+    "title_zh": "",
+    "journal": "JAMIA Open",
+    "date": "2026-10-22",
+    "doi": "10.1093/jamiaopen/ooag206",
+    "topic": "POD/PND与多模态",
+    "categories": [
+      "POD/PND与多模态"
+    ],
+    "study_type": "回顾性方法学比较（14,100名患者，未外部验证）",
+    "description": "2013–2021年14,100名手术患者的术前结构化EHR和临床文本，比较五种融合方法。SAINT+Bioformer表征层融合AUC 0.791（95%CI 0.775–0.810），Brier 0.194；仅内部患者级测试，POD依据CAM或诊断编码，需外部与前瞻验证。",
+    "source_url": "https://doi.org/10.1093/jamiaopen/ooag206",
+    "status": "已核验摘要",
+    "origin": "麻醉AI科研简报",
+    "verifiedOn": "2026-10-27",
+    "verificationNote": "2026-10-27经期刊页面或PubMed摘要核验；非全文逐字精读",
     "brief_dates": [
       "2026-10-27"
     ],
@@ -3611,6 +3661,32 @@
     ],
     "site_catalog_id": "scalable-validated-ehr-extraction-2026",
     "provenance": []
+  },
+  {
+    "id": "pubmed-42806783",
+    "title": "Artificial intelligence-assisted perioperative risk prediction, decision support, and supervised automation in anesthesia: A narrative review.",
+    "title_zh": "",
+    "journal": "Journal of International Medical Research",
+    "date": "2026-09-29",
+    "doi": "10.1177/03000605261491422",
+    "pmid": "42806783",
+    "topic": "精准麻醉与临床决策支持",
+    "categories": [
+      "精准麻醉与临床决策支持"
+    ],
+    "study_type": "叙述性综述",
+    "description": "将麻醉AI临床功能划分为风险预测、决策支持、受监督自动化；强调传统闭环控制不等于AI、过程指标改善不等于患者结局改善。非原创临床试验。",
+    "source_url": "https://doi.org/10.1177/03000605261491422",
+    "status": "已核验摘要",
+    "origin": "麻醉AI科研简报",
+    "verifiedOn": "2026-10-27",
+    "verificationNote": "2026-10-27经期刊页面或PubMed摘要核验；非全文逐字精读",
+    "brief_dates": [
+      "2026-10-26"
+    ],
+    "brief_date_sources": {
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "legacy-5",
@@ -6839,81 +6915,5 @@
     "archive_id": "paper_17a84b3285ab",
     "archive_review_required": true,
     "brief_dates": []
-  },
-  {
-    "id": "jamiaopen-ooag206-2026",
-    "title": "Evaluating multimodal fusion strategies for early postoperative delirium prediction using structured electronic health record data and clinical narratives",
-    "title_zh": "",
-    "journal": "JAMIA Open",
-    "date": "2026-10-22",
-    "doi": "10.1093/jamiaopen/ooag206",
-    "topic": "POD/PND与多模态",
-    "categories": [
-      "POD/PND与多模态"
-    ],
-    "study_type": "回顾性方法学比较（14,100名患者，未外部验证）",
-    "description": "2013–2021年14,100名手术患者的术前结构化EHR和临床文本，比较五种融合方法。SAINT+Bioformer表征层融合AUC 0.791（95%CI 0.775–0.810），Brier 0.194；仅内部患者级测试，POD依据CAM或诊断编码，需外部与前瞻验证。",
-    "source_url": "https://doi.org/10.1093/jamiaopen/ooag206",
-    "status": "已核验摘要",
-    "origin": "麻醉AI科研简报",
-    "verifiedOn": "2026-10-27",
-    "verificationNote": "2026-10-27经期刊页面或PubMed摘要核验；非全文逐字精读",
-    "brief_dates": [
-      "2026-10-27"
-    ],
-    "brief_date_sources": {
-      "2026-10-27": "麻醉AI科研简报"
-    }
-  },
-  {
-    "id": "jamiaopen-ooag208-2026",
-    "title": "Beyond documentation burden: clinician-reported workflow and cognitive changes associated with ambient documentation technology",
-    "title_zh": "",
-    "journal": "JAMIA Open",
-    "date": "2026-10-23",
-    "doi": "10.1093/jamiaopen/ooag208",
-    "topic": "临床部署、监管与人机协作",
-    "categories": [
-      "临床部署、监管与人机协作"
-    ],
-    "study_type": "单臂临床使用调查（84名临床人员）",
-    "description": "84名临床人员使用环境AI文书工具后调查：75人（89%）自报文书时间减少，49人（58%）自报认知负担降低，仅22人（26%）认为临床推理改善，26人（31%）担忧依赖；自报、无对照组，不能证明因果效果。",
-    "source_url": "https://doi.org/10.1093/jamiaopen/ooag208",
-    "status": "已核验摘要",
-    "origin": "麻醉AI科研简报",
-    "verifiedOn": "2026-10-27",
-    "verificationNote": "2026-10-27经期刊页面或PubMed摘要核验；非全文逐字精读",
-    "brief_dates": [
-      "2026-10-27"
-    ],
-    "brief_date_sources": {
-      "2026-10-27": "麻醉AI科研简报"
-    }
-  },
-  {
-    "id": "pubmed-42806783",
-    "title": "Artificial intelligence-assisted perioperative risk prediction, decision support, and supervised automation in anesthesia: A narrative review.",
-    "title_zh": "",
-    "journal": "Journal of International Medical Research",
-    "date": "2026-09-29",
-    "doi": "10.1177/03000605261491422",
-    "pmid": "42806783",
-    "topic": "精准麻醉与临床决策支持",
-    "categories": [
-      "精准麻醉与临床决策支持"
-    ],
-    "study_type": "叙述性综述",
-    "description": "将麻醉AI临床功能划分为风险预测、决策支持、受监督自动化；强调传统闭环控制不等于AI、过程指标改善不等于患者结局改善。非原创临床试验。",
-    "source_url": "https://doi.org/10.1177/03000605261491422",
-    "status": "已核验摘要",
-    "origin": "麻醉AI科研简报",
-    "verifiedOn": "2026-10-27",
-    "verificationNote": "2026-10-27经期刊页面或PubMed摘要核验；非全文逐字精读",
-    "brief_dates": [
-      "2026-10-26"
-    ],
-    "brief_date_sources": {
-      "2026-10-26": "麻醉AI科研简报"
-    }
   }
 ]
