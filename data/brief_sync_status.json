@@ -2,25 +2,29 @@
   "schema_version": 1,
   "brief_date": "2026-10-27",
   "overall_status": "partial",
-  "brief_status": "当日聊天简报未生成；前一期正文不可取，待补同步",
-  "source": "网站独立检索",
+  "brief_status": "2026-10-27当日简报已生成，GitHub公开交接待回读；Sites独立更新成功但简报补同步未完成",
+  "source": "独立检索 ∪ 麻醉AI科研简报",
   "sites": {
-    "status": "success",
+    "status": "partial",
     "revision": "6ce761a7-edca-4819-b4b0-940b0e3a1326",
     "run_id": "daily-independent-20261027-v1",
     "verified_at": "2026-10-27T00:06:27.171270+00:00",
     "papers": 84,
-    "opportunities": 15
+    "opportunities": 15,
+    "independent_update_status": "success",
+    "brief_alignment_status": "pending",
+    "verification": "独立站点既有更新成功；本次简报新增条目无法经Sites维护接口POST/GET验证，未声称补同步完成"
   },
   "github": {
-    "status": "success",
+    "status": "partial",
     "papers": 262,
     "opportunities": 29,
     "verified_at": "2026-10-27T00:07:51.364Z",
     "readback_commit": "21e1a44bb30b9911a4070666eebef7d46759290e",
     "research_commit": "658cf5ad1da1b54bdb1cb59f5791f1c2afa3b619",
     "curated_papers": 105,
-    "verification": "数据提交和自动题录更新后，回读默认分支；本次3篇已核验条目及旧ID完整保留，人工精读摘要SHA不变。"
+    "verification": "待本次提交后读取研究、机会、历史和交接文件验证",
+    "brief_alignment_status": "pending_readback"
   },
   "counts": {
     "new_papers": 3,
@@ -32,17 +36,20 @@
     "sites_opportunity_changes": 11,
     "journal_checks_success": 6,
     "journal_checks_unavailable": 39,
-    "automatic_bibliography_added": 71
+    "automatic_bibliography_added": 71,
+    "brief_20261027_papers": 4,
+    "brief_20261027_competitions": 2,
+    "brief_20261027_conferences": 5,
+    "brief_20261026_recovered_papers": 2,
+    "github_new_research_from_briefs": 3,
+    "github_enriched_research_from_briefs": 1
   },
   "brief_catchup": {
     "window_start": "2026-10-20",
-    "window_end": "2026-10-26",
-    "missing_catalog_records": 0,
-    "today": "pending",
-    "previous_day": "blocked_missing_content",
-    "latest_readable_brief": "2026-10-25",
-    "brief_added": 0,
-    "note": "最近实际简报结果为10月26日、正文为空、未截断；任务暂停。10月25日交接已存，10月26及27日交接不存在；不将独立精选伪装为聊天简报。"
+    "window_end": "2026-10-27",
+    "brief_20261026": "recovered_public_items",
+    "brief_20261027": "handoff_pending_readback",
+    "source": "visible_brief_and_20261027_research"
   },
   "failures": [
     {
@@ -68,6 +75,10 @@
     {
       "id": "cscva-ai-shanghai2026",
       "reason": "官方页面动态/超时/不可取得，保留已有内容及实际核验日"
+    },
+    {
+      "id": "sites-brief-2026-10-27",
+      "reason": "本次执行环境没有Sites get_site/临时管理员凭据连接器，且站点API不可读；仅保留早晨独立更新成功的既有证据，简报补同步待追回。"
     }
   ],
   "journal_checks": [
@@ -396,7 +407,9 @@
   "limitations": [
     "45份逐刊检索仅6份成功，39份请求受网络403限制，跨主题PubMed批量检索失败；未宣称全刊覆盖。",
     "3篇新增文献成功取得本次PubMed原始XML完整摘要；出版商全文不可读取。",
-    "当日聊天简报缺失，未创建虚假的daily_briefs交接文件。"
+    "当日聊天简报缺失，未创建虚假的daily_briefs交接文件。",
+    "本次仅通过公开来源核验4篇精选；JAMIA Open POD研究没有外部验证。",
+    "Sites简报补同步未执行，独立站点早晨更新不等于本期简报已对齐。"
   ],
   "previous_syncs": {
     "2026-10-25": {
@@ -551,6 +564,39 @@
         "两篇新增文献出版商页读取失败，已通过PubMed EFetch核验完整摘要；未声称读取全文。",
         "2026-10-26简报记录已完成，但返回正文为空；当天daily_briefs交接不存在，个人上下文也未检索到原文，无法宣称简报全量对齐。"
       ]
+    },
+    "2026-10-27": {
+      "schema_version": 1,
+      "brief_date": "2026-10-27",
+      "sites": {
+        "status": "success",
+        "revision": "6ce761a7-edca-4819-b4b0-940b0e3a1326",
+        "run_id": "daily-independent-20261027-v1",
+        "verified_at": "2026-10-27T00:06:27.171270+00:00",
+        "papers": 84,
+        "opportunities": 15
+      },
+      "github": {
+        "status": "success",
+        "papers": 262,
+        "opportunities": 29,
+        "verified_at": "2026-10-27T00:07:51.364Z",
+        "readback_commit": "21e1a44bb30b9911a4070666eebef7d46759290e",
+        "research_commit": "658cf5ad1da1b54bdb1cb59f5791f1c2afa3b619",
+        "curated_papers": 105,
+        "verification": "数据提交和自动题录更新后，回读默认分支；本次3篇已核验条目及旧ID完整保留，人工精读摘要SHA不变。"
+      },
+      "brief_catchup": {
+        "window_start": "2026-10-20",
+        "window_end": "2026-10-26",
+        "missing_catalog_records": 0,
+        "today": "pending",
+        "previous_day": "blocked_missing_content",
+        "latest_readable_brief": "2026-10-25",
+        "brief_added": 0,
+        "note": "最近实际简报结果为10月26日、正文为空、未截断；任务暂停。10月25日交接已存，10月26及27日交接不存在；不将独立精选伪装为聊天简报。"
+      },
+      "overall_status": "partial"
     }
   }
 }

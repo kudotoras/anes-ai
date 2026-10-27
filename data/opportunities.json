@@ -31,14 +31,20 @@
     "event": "2027-04-30 — 05-02 · 美国芝加哥",
     "format": "摘要 / 墙报",
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-27",
+      "2026-10-26"
     ],
     "verificationNote": "2026-10-27 官方摘要页确认12月6日23:59 PST截止；正文4500字符，未登录投稿。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "needs_review": false
+    "needs_review": false,
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报",
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "conference_95a23edf4a",
@@ -76,7 +82,9 @@
     "event": "2027-05-29 — 05-31 · 丹麦哥本哈根",
     "format": "摘要 / 墙报",
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-27",
+      "2026-10-26"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
@@ -85,7 +93,11 @@
     "openingVerifiedOn": "2026-10-26",
     "verificationNote": "2026-10-26 ESAIC官网首页确认11月1日开放、2027年5月29—31日哥本哈根；摘要细则页读取失败，截止及细则沿用2026-10-10核验，未重新确认。",
     "verification_attempted_on": "2026-10-27",
-    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。",
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报",
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "conference_95688579fb",
@@ -257,11 +269,15 @@
     "historical_status": "has_future_deadline_reported",
     "archive": true,
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-26"
     ],
     "archive_review_required": true,
     "verification_attempted_on": "2026-10-27",
-    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。",
+    "brief_date_sources": {
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "conference_8d528a0f54",
@@ -290,14 +306,20 @@
     "event": "2027-01-03—01-07 · 美国圣迭戈",
     "format": "Late-Breaking Abstract / Poster",
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-27",
+      "2026-10-26"
     ],
     "site_catalog_id": "conference_8d528a0f54",
     "provenance": [
       "麻醉AI科研简报"
     ],
     "verificationNote": "2026-10-27 官方摘要页确认Late-Breaking截至11月6日；时区及特殊类别格式未知。",
-    "needs_review": false
+    "needs_review": false,
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报",
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "esicm-innovation2027",
@@ -329,11 +351,18 @@
     "deadlineInstant": "2026-11-03T22:59:00Z",
     "event": "2027-02-04 — 02-05 · 意大利米兰",
     "format": "摘要 / ePoster",
-    "brief_dates": [],
+    "brief_dates": [
+      "2026-10-27",
+      "2026-10-26"
+    ],
     "verificationNote": "2026-10-27 官方会议页确认11月3日23:59 CET截止，ePoster展示，不在ICMx发表且无摘要集。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [],
-    "needs_review": false
+    "needs_review": false,
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报",
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "competition_80c6f85a8d",
@@ -350,11 +379,15 @@
     "historical_status": "has_future_deadline_reported",
     "archive": true,
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-26"
     ],
     "archive_review_required": true,
     "verification_attempted_on": "2026-10-27",
-    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。",
+    "brief_date_sources": {
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "competition_c4b8c9eb04",
@@ -386,14 +419,20 @@
     "deadlineLabel": "2026-10-30 20:00（报名、缴费及初赛作品；官网未注明时区）",
     "format": "开放式 AI 医学项目竞赛",
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-27",
+      "2026-10-26"
     ],
     "verificationNote": "2026-10-27 官方2026-10-10赛程：AI+医学10月30日20:00截止；时区及规则附件未重新核验。",
     "site_catalog_id": "aic-ai-medicine2026",
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "needs_review": false
+    "needs_review": false,
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报",
+      "2026-10-26": "麻醉AI科研简报"
+    }
   },
   {
     "id": "sccm-innovation-incubator2027",
@@ -487,7 +526,13 @@
     "archive": false,
     "needs_review": false,
     "verification_attempted_on": "2026-10-27",
-    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。",
+    "brief_dates": [
+      "2026-10-27"
+    ],
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报"
+    }
   },
   {
     "id": "conference_3a0a65f201",
@@ -711,7 +756,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-23",
+    "verifiedOn": "2026-10-27",
     "sources": [
       {
         "label": "第九届官方概况、报名规则及通知下载（页面更新 2026-10-08）",
@@ -720,15 +765,25 @@
       {
         "label": "赛事官方入口",
         "url": "https://www.shic.org.cn/"
+      },
+      {
+        "label": "2026-10-27官方概况复核",
+        "url": "https://www.shic.org.cn/overview/"
       }
     ],
     "deadlineLabel": "海南赛区官网所列2026-10-15截止，现已过期；其他赛区以各自通知为准",
     "format": "创新项目竞赛",
-    "brief_dates": [],
+    "brief_dates": [
+      "2026-10-27"
+    ],
     "site_catalog_id": "shic",
     "provenance": [],
     "verification_attempted_on": "2026-10-27",
-    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。"
+    "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。",
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报"
+    },
+    "verificationNote": "2026-10-27官方概况核验：2026年9月–2027年4月分赛区报名，各赛区具体截止依各赛区通知；不得用全国窗口代替赛区截止。"
   },
   {
     "id": "conference_bfdb156026",

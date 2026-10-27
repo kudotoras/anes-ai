@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-10-27",
+  "source": "麻醉AI科研简报",
+  "source_type": "published_daily_brief",
+  "papers": [
+    {
+      "id": "pubmed-42919730",
+      "doi": "10.1016/j.landig.2026.101050",
+      "pmid": "42919730",
+      "title": "Examining reliance patterns on AI advice in medical imaging: a mixed-methods, randomised, crossover experiment.",
+      "journal": "The Lancet. Digital health",
+      "epub_date": "2026-10-23",
+      "issue_date": null,
+      "study_type": "预注册随机交叉实验（125名临床人员）",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42919730/",
+      "verification_scope": "publisher_or_pubmed_abstract_and_selected_methods",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "description": "50名放射科医生和75名其他临床人员/培训人员，比较无AI、普通AI、可解释AI的颅脑CT判读；正确可解释建议改善判断表现（OR 1.84，95%CI 1.49–2.28），但错误依赖与拒绝正确建议均存在。模拟实验，不证明患者获益。"
+    },
+    {
+      "id": "pubmed-42913494",
+      "doi": "10.1213/ANE.0000000000008390",
+      "pmid": "42913494",
+      "title": "Association of Altered Anteriorization of Electroencephalographic Alpha Oscillation During Transition to Unconsciousness With Postoperative Delirium: A Prospective Observational Study.",
+      "journal": "Anesthesia & Analgesia",
+      "epub_date": "2026-10-22",
+      "issue_date": null,
+      "study_type": "前瞻性观察研究",
+      "source_url": "https://doi.org/10.1213/ANE.0000000000008390",
+      "verification_scope": "publisher_or_pubmed_abstract_and_selected_methods",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "description": "单中心前瞻性研究纳入100名患者，其中19名发生谵妄；剔除17名脑电伪迹病例后分析83人的19导联EEG。谵妄组诱导期α功率增强较弱、维持期网络效率较低，提示麻醉状态转变特征与脑易损性相关。\n\n可作为围术期脑健康和状态表征的背景研究，不是AI预测模型、闭环给药或谵妄预防试验。样本量有限，探索性关联仍需外部及前瞻验证。"
+    },
+    {
+      "id": "jamiaopen-ooag206-2026",
+      "doi": "10.1093/jamiaopen/ooag206",
+      "pmid": null,
+      "title": "Evaluating multimodal fusion strategies for early postoperative delirium prediction using structured electronic health record data and clinical narratives",
+      "journal": "JAMIA Open",
+      "epub_date": "2026-10-22",
+      "issue_date": "2026-10",
+      "study_type": "回顾性方法学比较（14,100名患者，未外部验证）",
+      "source_url": "https://doi.org/10.1093/jamiaopen/ooag206",
+      "verification_scope": "publisher_or_pubmed_abstract_and_selected_methods",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "description": "2013–2021年14,100名手术患者的术前结构化EHR和临床文本，比较五种融合方法。SAINT+Bioformer表征层融合AUC 0.791（95%CI 0.775–0.810），Brier 0.194；仅内部患者级测试，POD依据CAM或诊断编码，需外部与前瞻验证。"
+    },
+    {
+      "id": "jamiaopen-ooag208-2026",
+      "doi": "10.1093/jamiaopen/ooag208",
+      "pmid": null,
+      "title": "Beyond documentation burden: clinician-reported workflow and cognitive changes associated with ambient documentation technology",
+      "journal": "JAMIA Open",
+      "epub_date": "2026-10-23",
+      "issue_date": "2026-10",
+      "study_type": "单臂临床使用调查（84名临床人员）",
+      "source_url": "https://doi.org/10.1093/jamiaopen/ooag208",
+      "verification_scope": "publisher_or_pubmed_abstract_and_selected_methods",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "description": "84名临床人员使用环境AI文书工具后调查：75人（89%）自报文书时间减少，49人（58%）自报认知负担降低，仅22人（26%）认为临床推理改善，26人（31%）担忧依赖；自报、无对照组，不能证明因果效果。"
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_c4b8c9eb04",
+      "title": "第八届 AIC 算法主题赛 · AI＋医学",
+      "organizer": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "category": "competition",
+      "deadline": "2026-10-30",
+      "deadlineLabel": "2026-10-30 20:00（报名、缴费及初赛作品；官网未注明时区）",
+      "source_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "verificationNote": "2026-10-27 官方2026-10-10赛程：AI+医学10月30日20:00截止；时区及规则附件未重新核验。"
+    },
+    {
+      "id": "competition_df92d1669e",
+      "title": "第九届智慧医疗创新大赛 · AI 与智慧医疗成果报名",
+      "organizer": "SHIC 全国智慧医疗创新大赛",
+      "category": "competition",
+      "deadline": null,
+      "deadlineLabel": "海南赛区官网所列2026-10-15截止，现已过期；其他赛区以各自通知为准",
+      "source_url": "https://www.shic.org.cn/overview/",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "verificationNote": "2026-10-27官方概况核验：2026年9月–2027年4月分赛区报名，各赛区具体截止依各赛区通知；不得用全国窗口代替赛区截止。"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+      "organizer": "ESICM",
+      "category": "conference",
+      "deadline": "2026-11-03T22:59:00Z",
+      "deadlineLabel": "2026-11-03 23:59 CET（北京时间 11-04 06:59）",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "verificationNote": "2026-10-27 官方会议页确认11月3日23:59 CET截止，ePoster展示，不在ICMx发表且无摘要集。"
+    },
+    {
+      "id": "conference_8d528a0f54",
+      "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
+      "organizer": "Biomedical Engineering Society",
+      "category": "conference",
+      "deadline": "2026-11-06",
+      "deadlineLabel": "2026-11-06（官网未注明具体时间/时区）",
+      "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "verificationNote": "2026-10-27 官方摘要页确认Late-Breaking截至11月6日；时区及特殊类别格式未知。"
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "category": "conference",
+      "deadline": "2026-12-07T07:59:00Z",
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间 12-07 15:59）",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-10-27",
+      "needs_review": false,
+      "verificationNote": "2026-10-27 官方摘要页确认12月6日23:59 PST截止；正文4500字符，未登录投稿。"
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+      "organizer": "ESAIC",
+      "category": "conference",
+      "deadline": "2026-12-05T22:59:00Z",
+      "deadlineLabel": "2026-12-05 23:59 CET（北京时间 12-06 06:59）",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-10-10",
+      "needs_review": false,
+      "verificationNote": "2026-10-26 ESAIC官网首页确认11月1日开放、2027年5月29—31日哥本哈根；摘要细则页读取失败，截止及细则沿用2026-10-10核验，未重新确认。"
+    },
+    {
+      "id": "cscva-ai-shanghai2026",
+      "title": "第三届国际医疗健康人工智能大会（上海）暨2026中国心胸血管麻醉学会学术会议 · 摘要征集",
+      "organizer": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+      "category": "conference",
+      "deadline": "2026-10-31",
+      "deadlineLabel": "2026-10-31（官方页面未注明具体时间/时区）",
+      "source_url": "https://mm.sciconf.cn/41149",
+      "verifiedOn": "2026-10-26",
+      "needs_review": false,
+      "verificationNote": "直接核验会议官网与学会来源公开通知；未登录投稿、未读取转跳失败的PDF。"
+    }
+  ],
+  "note": "仅公开研究与机会数据；不包含私人对话或内部建议。"
+}
