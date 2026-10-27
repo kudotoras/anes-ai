@@ -13,8 +13,14 @@
     "opportunities": 15
   },
   "github": {
-    "status": "partial",
-    "reason": "待提交后默认分支回读"
+    "status": "success",
+    "papers": 262,
+    "opportunities": 29,
+    "verified_at": "2026-10-27T00:07:51.364Z",
+    "readback_commit": "21e1a44bb30b9911a4070666eebef7d46759290e",
+    "research_commit": "658cf5ad1da1b54bdb1cb59f5791f1c2afa3b619",
+    "curated_papers": 105,
+    "verification": "数据提交和自动题录更新后，回读默认分支；本次3篇已核验条目及旧ID完整保留，人工精读摘要SHA不变。"
   },
   "counts": {
     "new_papers": 3,
@@ -25,7 +31,8 @@
     "github_opportunity_changes": 14,
     "sites_opportunity_changes": 11,
     "journal_checks_success": 6,
-    "journal_checks_unavailable": 39
+    "journal_checks_unavailable": 39,
+    "automatic_bibliography_added": 71
   },
   "brief_catchup": {
     "window_start": "2026-10-20",
