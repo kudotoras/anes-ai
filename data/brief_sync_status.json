@@ -2,7 +2,7 @@
   "schema_version": 1,
   "brief_date": "2026-10-28",
   "overall_status": "partial",
-  "brief_status": "2026-10-28 GitHub数据提交待回读；Sites本期无法维护接口写入",
+  "brief_status": "2026-10-28 GitHub简报交接、目录、机会及历史索引回读核验成功；Sites补同步仍待执行",
   "source": "独立检索 ∪ 麻醉AI科研简报",
   "sites": {
     "status": "partial",
@@ -10,11 +10,20 @@
     "verification": "本次Sites get_site与短期管理员凭据连接器不可用，/api/update-guide及/api/site-data通过web不可访问；未写入或回读，旧站点不变。"
   },
   "github": {
-    "status": "partial",
-    "brief_alignment_status": "pending_readback",
+    "status": "success",
+    "brief_alignment_status": "success",
     "papers": 265,
     "opportunities": 29,
-    "verification": "原子数据提交准备中，尚未回读"
+    "verification": "2026-10-28提交后从默认分支回读：3篇论文、3项比赛、5项会议、旧ID保留，Euroanaesthesia截止改为12月10日；article_summaries.json未修改。",
+    "verified_at": "2026-10-28",
+    "readback_commit": "7ec330a68aca4b771c2184a8df3847cd6478840f",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/daily_briefs/2026-10-28.json",
+      "data/article_summaries.json"
+    ]
   },
   "counts": {
     "brief_papers": 3,
