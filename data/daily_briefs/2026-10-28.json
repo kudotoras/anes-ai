@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-10-28",
+  "source": "麻醉AI科研简报",
+  "source_type": "published_daily_brief",
+  "papers": [
+    {
+      "id": "pubmed-42918809",
+      "pmid": "42918809",
+      "doi": "10.1038/s44401-026-00156-2",
+      "title": "Discordance between actual care and recommendations by a reinforcement learning model for sepsis",
+      "journal": "npj Health Systems",
+      "epub_date": "2026-10-22",
+      "issue_date": "2026-10",
+      "study_type": "14院回顾性队列；30,678名患者，309,415个决策时段",
+      "source_url": "https://www.nature.com/articles/s44401-026-00156-2",
+      "description": "在14家医院的30,678名脓毒症ICU患者中，量化实际液体和升压药治疗与AI Clinician建议的距离。分歧在病情较重患者及补液决策中更常见；较高分歧与高SOFA组90天死亡的关联主要见于补液维度。\n\n可借鉴医师确认式智能体的人机分歧分析。分歧评分衡量不一致，并不判定哪个动作正确；回顾性风险调整仍不能证明按AI建议治疗可降低死亡。不能把推荐一致性当成因果获益或临床安全的替代结局。",
+      "verification_scope": "publisher_or_pubmed_original_article_and_abstract",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "pubmed-42921350",
+      "pmid": "42921350",
+      "doi": "10.1093/jamiaopen/ooag199",
+      "title": "Numeric versus embedding pipelines for optimized clinical risk prediction.",
+      "journal": "JAMIA Open",
+      "epub_date": "2026-10-23",
+      "issue_date": "2026-10",
+      "study_type": "MIMIC-III 22,591人；6项ICU预测任务",
+      "source_url": "https://academic.oup.com/jamiaopen/article/9/5/ooag199/8994315",
+      "description": "22,591名MIMIC-III患者6项ICU任务，对比458项工程化数值特征和同源数据LLM文本嵌入。数值模型院内死亡AUROC 0.9010 vs 0.8351；嵌入模型30天再入院0.6618 vs 0.5900。死亡预测误报中80.7%只见于其中一种模型；嵌入更强调监测频率，数值特征更保留精确生理量。研究强调失败患者互补、测量强度偏差和混合表征，不证明临床部署效果。",
+      "verification_scope": "publisher_or_pubmed_original_article_and_abstract",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "pubmed-42919460",
+      "pmid": "42919460",
+      "doi": "10.1097/CCM.0000000000007384",
+      "title": "Association of Acute Respiratory Distress Syndrome Radiographic Findings Identified by Machine Learning and Outcomes of Patients Receiving Invasive Mechanical Ventilation.",
+      "journal": "Critical Care Medicine",
+      "epub_date": "2026-10-23",
+      "issue_date": null,
+      "study_type": "单中心回顾性队列；6,591名患者",
+      "source_url": "https://doi.org/10.1097/CCM.0000000000007384",
+      "description": "对6591名开始有创机械通气患者的胸片应用既有ARDS深度学习模型，量化双肺浸润特征。影像评分与28天死亡及拔管时间相关，死亡判别AUROC为0.68；在调整氧合或APACHE-IV后仍存在关联。\n\n模型将肺损伤影像连续量化，可用于研究分层与预测性富集探索。单中心回顾性关联不能证明按评分调整治疗改善结局，也不能凭独立相关性替代外部验证或因果证据。",
+      "verification_scope": "publisher_or_pubmed_original_article_and_abstract",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_c4b8c9eb04",
+      "title": "第八届 AIC 算法主题赛 · AI＋医学",
+      "organizer": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "category": "competition",
+      "deadline": "2026-10-30",
+      "deadlineLabel": "2026-10-30 20:00（报名、缴费及初赛作品；官网未注明时区）",
+      "source_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "verificationNote": "2026-10-28复核AIC官方10月10日赛程及7月9日赛题：AI+医学报名、缴费、初赛作品均10月30日20:00截止；每队最多3名学生和2名指导教师，500元/队。"
+    },
+    {
+      "id": "competition_97722a8358",
+      "title": "第十五届中国创新创业大赛人工智能创新应用专业赛",
+      "organizer": "工业和信息化部火炬高技术产业开发中心、安徽省科学技术厅",
+      "category": "competition",
+      "deadline": "2026-11-15",
+      "deadlineLabel": null,
+      "source_url": "http://rgzn.cxcyds.com",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "verificationNote": "2026-10-28核验中科院机构公告与中国科大转载发布会；报名平台内费用/奖金未取得。"
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛",
+      "organizer": "中国计算机学会（CCF）",
+      "category": "competition",
+      "deadline": "2026-11-10",
+      "deadlineLabel": null,
+      "source_url": "https://ccf.org.cn/tecagi2026",
+      "verifiedOn": "2026-10-28",
+      "needs_review": true,
+      "verificationNote": "2026-10-28核验中科院官方机构转发的报名截止；CCF赛事详情页面未能读取，不声称全部核验。"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "cscva-ai-shanghai2026",
+      "title": "第三届国际医疗健康人工智能大会（上海）暨2026中国心胸血管麻醉学会学术会议 · 摘要征集",
+      "organizer": "中国心胸血管麻醉学会；同济大学附属上海市第四人民医院承办",
+      "category": "conference",
+      "deadline": "2026-10-31",
+      "deadlineLabel": "2026-10-31（官方页面未注明具体时间/时区）",
+      "source_url": "https://mm.sciconf.cn/41149",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "verificationNote": "2026-10-28核验中国心胸血管麻醉学会2026-10-09征文通知：10月31日截止，11月13-15日上海，800-1000字中文结构摘要，拟遴选50名7分钟报告；费用/检索未核验。"
+    },
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+      "organizer": "ESICM",
+      "category": "conference",
+      "deadline": "2026-11-03T22:59:00Z",
+      "deadlineLabel": "2026-11-03 23:59 CET（北京时间 11-04 06:59）",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "verificationNote": "2026-10-28官方会议页：11月3日23:59 CET截止，2027年2月4-5日米兰；ePoster，不在ICMx发表且无摘要集，3篇优秀摘要可获未来活动免费注册。"
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+      "organizer": "ESAIC",
+      "category": "conference",
+      "deadline": "2026-12-10T22:59:00Z",
+      "deadlineLabel": "2026-12-10 23:59 CET（北京时间12月11日06:59）；11月1日开放",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "verificationNote": "2026-10-28核验官方页面及12页指南v2.0，纠正截稿为12月10日23:59 CET；正文2500字符、题目300字符、6作者、AI披露及Innovation Showcase。"
+    },
+    {
+      "id": "conference_8d528a0f54",
+      "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
+      "organizer": "Biomedical Engineering Society",
+      "category": "conference",
+      "deadline": "2026-11-06",
+      "deadlineLabel": "2026-11-06（官网未注明具体时间/时区）",
+      "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "verificationNote": "2026-10-28 BMES CMBE官网确认Late-Breaking摘要11月6日截止；常规摘要<250词，Late-Breaking具体字数待专用系统核验。"
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "category": "conference",
+      "deadline": "2026-12-07T07:59:00Z",
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间 12-07 15:59）",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-10-28",
+      "needs_review": false,
+      "verificationNote": "2026-10-28 IARS-SOCCA官网确认12月6日23:59 PST截止，英文IMRaD合计4500字符、单节2500字符，展示科学摘要发表于A&A在线版，不是完整论文。"
+    }
+  ],
+  "note": "仅公开研究与机会条目，无私人对话、项目计划、患者资料或凭据。"
+}

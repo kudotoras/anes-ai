@@ -268,15 +268,25 @@
     "pmid": "42921350",
     "doi": "10.1093/jamiaopen/ooag199",
     "title": "Numeric versus embedding pipelines for optimized clinical risk prediction.",
-    "title_zh": "",
-    "journal": "JAMIA open",
+    "title_zh": "ICU风险预测：数值特征与LLM嵌入在不同患者上犯错",
+    "journal": "JAMIA Open",
     "date": "2026-10-23",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42921350/",
-    "status": "PubMed 自动收录·待人工精读",
+    "topic": "医学基础模型与多模态",
+    "study_type": "MIMIC-III 22,591人；6项ICU预测任务",
+    "source_url": "https://academic.oup.com/jamiaopen/article/9/5/ooag199/8994315",
+    "status": "已核验原文摘要",
     "origin": "PubMed",
-    "ingested_date": "2026-10-26"
+    "ingested_date": "2026-10-26",
+    "verifiedOn": "2026-10-28",
+    "verificationNote": "2026-10-28 Oxford Academic核验；数值表征在6项中5项更优；单库研究，未证实临床收益。",
+    "needs_review": false,
+    "description": "22,591名MIMIC-III患者6项ICU任务，对比458项工程化数值特征和同源数据LLM文本嵌入。数值模型院内死亡AUROC 0.9010 vs 0.8351；嵌入模型30天再入院0.6618 vs 0.5900。死亡预测误报中80.7%只见于其中一种模型；嵌入更强调监测频率，数值特征更保留精确生理量。研究强调失败患者互补、测量强度偏差和混合表征，不证明临床部署效果。",
+    "brief_dates": [
+      "2026-10-28"
+    ],
+    "brief_date_sources": {
+      "2026-10-28": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42919460",
@@ -284,19 +294,19 @@
     "title": "Association of Acute Respiratory Distress Syndrome Radiographic Findings Identified by Machine Learning and Outcomes of Patients Receiving Invasive Mechanical Ventilation.",
     "doi": "10.1097/CCM.0000000000007384",
     "date": "2026-10-23",
-    "title_zh": "深度学习胸片肺损伤评分与机械通气患者结局：6591例回顾研究",
+    "title_zh": "胸片ARDS深度学习评分与机械通气患者结局：6591例回顾性研究",
     "journal": "Critical Care Medicine",
     "topic": "机械通气与拔管",
     "categories": [
       "机械通气与拔管",
       "模型外部验证"
     ],
-    "study_type": "回顾性队列 / 影像模型验证",
+    "study_type": "单中心回顾性队列；6,591名患者",
     "description": "对6591名开始有创机械通气患者的胸片应用既有ARDS深度学习模型，量化双肺浸润特征。影像评分与28天死亡及拔管时间相关，死亡判别AUROC为0.68；在调整氧合或APACHE-IV后仍存在关联。\n\n模型将肺损伤影像连续量化，可用于研究分层与预测性富集探索。单中心回顾性关联不能证明按评分调整治疗改善结局，也不能凭独立相关性替代外部验证或因果证据。",
     "source_url": "https://doi.org/10.1097/CCM.0000000000007384",
     "pmid": "42919460",
-    "verifiedOn": "2026-10-27",
-    "status": "已核验摘要",
+    "verifiedOn": "2026-10-28",
+    "status": "已核验原文摘要",
     "verification": "2026-10-27 PubMed EFetch原始XML题录、在线日期与完整摘要；出版商全文未能读取",
     "site_catalog_id": "pubmed-42919460",
     "origin": "站点核验目录；网站独立检索",
@@ -312,7 +322,14 @@
         "label": "出版商DOI",
         "url": "https://doi.org/10.1097/CCM.0000000000007384"
       }
-    ]
+    ],
+    "verificationNote": "2026-10-28出版商与PubMed核验；ARDS胸片评分死亡AUROC 0.68，观察性关联非治疗获益。",
+    "brief_dates": [
+      "2026-10-28"
+    ],
+    "brief_date_sources": {
+      "2026-10-28": "麻醉AI科研简报"
+    }
   },
   {
     "id": "jamiaopen-ooag208-2026",
@@ -456,13 +473,13 @@
     "pmid": "42918809",
     "doi": "10.1038/s44401-026-00156-2",
     "title": "Discordance between actual care and recommendations by a reinforcement learning model for sepsis",
-    "title_zh": "实际治疗与AI建议分歧有多大：脓毒症强化学习策略的多院评估",
+    "title_zh": "脓毒症治疗与强化学习建议的分歧：14家医院30,678例研究",
     "journal": "npj Health Systems",
     "date": "2026-10-22",
     "topic": "强化学习与数字孪生",
-    "study_type": "回顾性模型开发 / 验证",
+    "study_type": "14院回顾性队列；30,678名患者，309,415个决策时段",
     "source_url": "https://www.nature.com/articles/s44401-026-00156-2",
-    "status": "已核验",
+    "status": "已核验原文摘要",
     "origin": "原站截图中可见的精选研究（待独立核验）；站点核验目录",
     "categories": [
       "强化学习与数字孪生",
@@ -474,8 +491,10 @@
     "archive": false,
     "archive_review_required": false,
     "link_kind": "original",
-    "brief_dates": [],
-    "verifiedOn": "2026-10-24",
+    "brief_dates": [
+      "2026-10-28"
+    ],
+    "verifiedOn": "2026-10-28",
     "verification": "出版商题录、摘要、结果与讨论中的分歧含义；部分后续段落重读失败",
     "sources": [
       {
@@ -496,7 +515,12 @@
       "风险调整"
     ],
     "site_catalog_id": "rl-sepsis-care-discordance-2026",
-    "provenance": []
+    "provenance": [],
+    "verificationNote": "2026-10-28出版商原文与PubMed核验；69%时段存在医生/AI治疗分歧，SOFA高层分歧与90天死亡相关，非因果获益证据。",
+    "needs_review": false,
+    "brief_date_sources": {
+      "2026-10-28": "麻醉AI科研简报"
+    }
   },
   {
     "id": "paper_3ce593cf5d94",
