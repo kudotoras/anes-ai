@@ -393,5 +393,78 @@
     "competition_count": 4,
     "conference_count": 4,
     "source_url": "data/daily_briefs/2026-10-25.json"
+  },
+  {
+    "date": "2026-10-26",
+    "record_status": "aligned_with_verified_catalog_and_brief",
+    "paper_ids": [
+      "pubmed-42919730",
+      "pubmed-42806783"
+    ],
+    "competition_ids": [
+      "competition_c4b8c9eb04",
+      "competition_80c6f85a8d",
+      "competition_e52bc9726b"
+    ],
+    "conference_ids": [
+      "esicm-innovation2027",
+      "conference_8d528a0f54",
+      "conference_ce9a2f54c2",
+      "conference_95a23edf4a"
+    ],
+    "paper_count": 2,
+    "competition_count": 3,
+    "conference_count": 4,
+    "source_url": "data/daily_briefs/2026-10-26.json"
+  },
+  {
+    "date": "2026-10-27",
+    "record_status": "aligned_with_verified_catalog_and_brief",
+    "paper_ids": [
+      "pubmed-42919730",
+      "pubmed-42913494",
+      "jamiaopen-ooag206-2026",
+      "jamiaopen-ooag208-2026"
+    ],
+    "competition_ids": [
+      "competition_c4b8c9eb04",
+      "competition_df92d1669e"
+    ],
+    "conference_ids": [
+      "esicm-innovation2027",
+      "conference_8d528a0f54",
+      "conference_ce9a2f54c2",
+      "conference_95a23edf4a",
+      "cscva-ai-shanghai2026"
+    ],
+    "paper_count": 4,
+    "competition_count": 2,
+    "conference_count": 5,
+    "source_url": "data/daily_briefs/2026-10-27.json"
+  },
+  {
+    "date": "2026-10-28",
+    "record_status": "aligned_with_verified_catalog_and_brief",
+    "paper_ids": [
+      "pubmed-42918809",
+      "pubmed-42921350",
+      "pubmed-42919460"
+    ],
+    "competition_ids": [
+      "competition_c4b8c9eb04",
+      "competition_97722a8358",
+      "competition_e52bc9726b"
+    ],
+    "conference_ids": [
+      "cscva-ai-shanghai2026",
+      "esicm-innovation2027",
+      "conference_95a23edf4a",
+      "conference_8d528a0f54",
+      "conference_ce9a2f54c2"
+    ],
+    "paper_count": 3,
+    "competition_count": 3,
+    "conference_count": 5,
+    "source_url": "data/daily_briefs/2026-10-28.json"
   }
 ]

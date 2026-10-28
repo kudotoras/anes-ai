@@ -47,12 +47,19 @@
     "title_zh": "",
     "journal": "Journal of clinical microbiology",
     "date": "2026-10-27",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42937359/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed在线发表日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "pubmed-42935182",
@@ -62,12 +69,19 @@
     "title_zh": "",
     "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
     "date": "2026-10-27",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42935182/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed在线发表日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "pubmed-42932211",
@@ -122,12 +136,19 @@
     "title_zh": "",
     "journal": "Journal of imaging informatics in medicine",
     "date": "2026-10-26",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42934383/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed在线发表日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "pubmed-42934014",
@@ -280,7 +301,7 @@
     "pmid": "42919730",
     "doi": "10.1016/j.landig.2026.101050",
     "title": "Examining reliance patterns on AI advice in medical imaging: a mixed-methods, randomised, crossover experiment.",
-    "title_zh": "",
+    "title_zh": "医学影像AI建议的依赖模式：125名临床人员随机交叉实验",
     "journal": "The Lancet. Digital health",
     "date": "2026-10-23",
     "topic": "临床部署、监管与人机协作",
@@ -292,13 +313,14 @@
     "verifiedOn": "2026-10-27",
     "verificationNote": "2026-10-27经期刊页面或PubMed摘要核验；非全文逐字精读",
     "brief_dates": [
-      "2026-10-27",
-      "2026-10-26"
+      "2026-10-26",
+      "2026-10-27"
     ],
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
       "2026-10-26": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "pubmed-42919730"
   },
   {
     "id": "pubmed-42912756",
@@ -391,7 +413,12 @@
     ],
     "brief_date_sources": {
       "2026-10-28": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "pubmed-42921350",
+    "selection_dates": [
+      "2026-10-28"
+    ],
+    "selection_source": "麻醉AI科研简报"
   },
   {
     "id": "pubmed-42919460",
@@ -434,12 +461,16 @@
     ],
     "brief_date_sources": {
       "2026-10-28": "麻醉AI科研简报"
-    }
+    },
+    "selection_dates": [
+      "2026-10-28"
+    ],
+    "selection_source": "麻醉AI科研简报"
   },
   {
     "id": "jamiaopen-ooag208-2026",
     "title": "Beyond documentation burden: clinician-reported workflow and cognitive changes associated with ambient documentation technology",
-    "title_zh": "",
+    "title_zh": "环境AI文书工具：文书负担、认知与依赖的临床人员调查",
     "journal": "JAMIA Open",
     "date": "2026-10-23",
     "doi": "10.1093/jamiaopen/ooag208",
@@ -459,7 +490,8 @@
     ],
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "jamiaopen-ooag208-2026"
   },
   {
     "id": "pubmed-42937750",
@@ -469,12 +501,19 @@
     "title_zh": "",
     "journal": "Medicine",
     "date": "2026-10-23",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42937750/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed卷期日期，未取得独立Epub日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "pubmed-42907983",
@@ -640,7 +679,11 @@
     "needs_review": false,
     "brief_date_sources": {
       "2026-10-28": "麻醉AI科研简报"
-    }
+    },
+    "selection_dates": [
+      "2026-10-28"
+    ],
+    "selection_source": "麻醉AI科研简报"
   },
   {
     "id": "paper_3ce593cf5d94",
@@ -762,7 +805,7 @@
   {
     "id": "jamiaopen-ooag206-2026",
     "title": "Evaluating multimodal fusion strategies for early postoperative delirium prediction using structured electronic health record data and clinical narratives",
-    "title_zh": "",
+    "title_zh": "术后谵妄预测的五种多模态融合策略比较",
     "journal": "JAMIA Open",
     "date": "2026-10-22",
     "doi": "10.1093/jamiaopen/ooag206",
@@ -782,7 +825,8 @@
     ],
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "jamiaopen-ooag206-2026"
   },
   {
     "id": "pubmed-42936785",
@@ -792,12 +836,19 @@
     "title_zh": "",
     "journal": "Journal of multidisciplinary healthcare",
     "date": "2026-10-22",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42936785/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed在线发表日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "pubmed-42902577",
@@ -846,14 +897,41 @@
     "pmid": "42906075",
     "doi": "10.2196/104907",
     "title": "AI-Based Delirium Risk Prediction Compared With the Validated 4AT-Score Screening Tool in Patients With Trauma: Prospective Cohort Study.",
-    "title_zh": "",
-    "journal": "JMIR formative research",
+    "title_zh": "创伤病房AI谵妄风险预测与4AT比较：2002例前瞻性队列",
+    "journal": "JMIR Formative Research",
     "date": "2026-10-21",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42906075/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed"
+    "topic": "POD/PND与围术期结局",
+    "study_type": "前瞻性队列 / 既有随机森林临床验证",
+    "source_url": "https://doi.org/10.2196/104907",
+    "status": "已核验摘要",
+    "origin": "PubMed",
+    "categories": [
+      "POD/PND与围术期结局",
+      "临床部署、监管与人机协作"
+    ],
+    "description": "单中心2002名创伤病房患者，既有随机森林工具在真实EHR工作流中前瞻评估，AUROC 0.884；AI识别165/189例高风险，非谵妄者正确低风险分类1340/1813。\n\n4AT用于当下筛查，AI用于未来风险预测，任务并非完全等价；原文表3为4AT识别53/189，摘要误写5/189。结局标签含21例既往谵妄记录，有循环判定风险，虽开展排除敏感性分析仍需谨慎；未证明降低谵妄或改善患者结局。",
+    "verifiedOn": "2026-10-28",
+    "verification": "2026-10-28 PubMed EFetch原始XML完整摘要、DOI及在线发表日期；非人工全文精读。同时核对出版商全文相关方法与表3，记录摘要分子笔误。",
+    "needs_review": false,
+    "archive_review_required": false,
+    "site_catalog_id": "pubmed-42906075",
+    "dateKind": "首次在线发表；2026-10-28为本次核验和推荐日期",
+    "selection_dates": [],
+    "selection_source": "网站独立检索补查；完整文献库",
+    "sources": [
+      {
+        "label": "PubMed题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42906075/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.2196/104907"
+      },
+      {
+        "label": "出版商全文（重点核对方法、标签与表3）",
+        "url": "https://formative.jmir.org/2026/1/e104907"
+      }
+    ]
   },
   {
     "id": "pubmed-42906940",
@@ -902,14 +980,38 @@
     "pmid": "42905972",
     "doi": "10.1097/FTD.0000000000001540",
     "title": "Toward Reinforcement Learning-Enabled Model-Informed Precision Dosing: Concepts, Applications, and Implementation.",
-    "title_zh": "",
-    "journal": "Therapeutic drug monitoring",
+    "title_zh": "强化学习与模型引导精准给药：状态、动作和奖励如何定义",
+    "journal": "Therapeutic Drug Monitoring",
     "date": "2026-10-21",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42905972/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed"
+    "topic": "精准麻醉",
+    "study_type": "叙述性综述 / 简化DQN实现示例",
+    "source_url": "https://doi.org/10.1097/FTD.0000000000001540",
+    "status": "已核验摘要",
+    "origin": "PubMed",
+    "categories": [
+      "精准麻醉",
+      "强化学习与数字孪生",
+      "闭环给药"
+    ],
+    "description": "综述强化学习用于麻醉、肿瘤和重症给药优化的研究，按药物、算法、训练环境及状态—动作—奖励定义梳理；多数研究仍在PK/PD或数学仿真环境中，给出DQN与药代模型结合的简化示例。\n\n对个体化序贯给药具有方法参考价值。算法和奖励定义异质，尚缺成熟设计、评估与临床转化规范；不能视为闭环双药临床疗效或安全性的验证。",
+    "verifiedOn": "2026-10-28",
+    "verification": "2026-10-28 PubMed EFetch原始XML完整摘要、DOI及在线发表日期；非人工全文精读。",
+    "needs_review": false,
+    "archive_review_required": false,
+    "site_catalog_id": "pubmed-42905972",
+    "dateKind": "首次在线发表；2026-10-28为本次核验和推荐日期",
+    "selection_dates": [],
+    "selection_source": "网站独立检索补查；完整文献库",
+    "sources": [
+      {
+        "label": "PubMed题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42905972/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1097/FTD.0000000000001540"
+      }
+    ]
   },
   {
     "id": "pubmed-42910770",
@@ -1188,14 +1290,38 @@
     "pmid": "42900999",
     "doi": "10.1016/j.jclinane.2026.112353",
     "title": "Deep learning algorithms for predicting intraoperative hypotension: A systematic review and meta-analysis.",
-    "title_zh": "",
-    "journal": "Journal of clinical anesthesia",
+    "title_zh": "术中低血压深度学习预测：12项研究的系统综述与Meta分析",
+    "journal": "Journal of Clinical Anesthesia",
     "date": "2026-10-20",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42900999/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed"
+    "topic": "精准麻醉",
+    "study_type": "系统综述与诊断准确性Meta分析",
+    "source_url": "https://doi.org/10.1016/j.jclinane.2026.112353",
+    "status": "已核验摘要",
+    "origin": "PubMed",
+    "categories": [
+      "精准麻醉",
+      "血流动力学与低血压",
+      "模型外部验证"
+    ],
+    "description": "纳入12项研究，其中9项提供22组验证数据。合并敏感度0.78、特异度0.88、SROC-AUC 0.87；5分钟预测窗表现较好。证据确定性为低，研究普遍缺少正式校准评估，外部验证稀少。\n\n有助于识别低血压预警模型评价缺口；预测准确率不能替代治疗获益、报警负担或安全性证据。地域集中与方法异质限制外推。",
+    "verifiedOn": "2026-10-28",
+    "verification": "2026-10-28 PubMed EFetch原始XML完整摘要、DOI及在线发表日期；非人工全文精读。",
+    "needs_review": false,
+    "archive_review_required": false,
+    "site_catalog_id": "pubmed-42900999",
+    "dateKind": "首次在线发表；2026-10-28为本次核验和推荐日期",
+    "selection_dates": [],
+    "selection_source": "网站独立检索补查；完整文献库",
+    "sources": [
+      {
+        "label": "PubMed题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42900999/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.jclinane.2026.112353"
+      }
+    ]
   },
   {
     "id": "pubmed-42907206",
@@ -1960,12 +2086,19 @@
     "title_zh": "",
     "journal": "Journal of clinical medicine",
     "date": "2026-10-17",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42941586/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed在线发表日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "paper_ba2f8e9bfb80",
@@ -2223,12 +2356,19 @@
     "title_zh": "",
     "journal": "Annals of thoracic medicine",
     "date": "2026-10-16",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42936810/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed在线发表日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "pubmed-42941566",
@@ -2428,12 +2568,19 @@
     "title_zh": "",
     "journal": "Journal of clinical medicine",
     "date": "2026-10-15",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42941500/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-10-28"
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "dateKind": "PubMed在线发表日期",
+    "description": "",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
     "id": "pubmed-42941479",
@@ -4094,7 +4241,7 @@
   {
     "id": "pubmed-42806783",
     "title": "Artificial intelligence-assisted perioperative risk prediction, decision support, and supervised automation in anesthesia: A narrative review.",
-    "title_zh": "",
+    "title_zh": "麻醉AI的风险预测、决策支持与受监督自动化：叙述性综述",
     "journal": "Journal of International Medical Research",
     "date": "2026-09-29",
     "doi": "10.1177/03000605261491422",
@@ -4115,7 +4262,8 @@
     ],
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "pubmed-42806783"
   },
   {
     "id": "legacy-5",
@@ -7404,5 +7552,421 @@
     "archive_id": "paper_17a84b3285ab",
     "archive_review_required": true,
     "brief_dates": []
+  },
+  {
+    "id": "pubmed-42939054",
+    "ingested_date": "2026-10-28",
+    "title": "Enhanced SynPID by Tracking Varying Targets Applied to General Anaesthesia.",
+    "doi": "10.3390/bioengineering13101199",
+    "date": "2026-10-15",
+    "title_zh": "ESynPID多药麻醉控制：动态目标与安全范围的虚拟患者比较",
+    "journal": "Bioengineering",
+    "pmid": "42939054",
+    "study_type": "控制器方法 / PK–PD虚拟患者仿真",
+    "topic": "精准麻醉",
+    "categories": [
+      "精准麻醉",
+      "闭环给药",
+      "个体化PK/PD"
+    ],
+    "description": "研究在丙泊酚、瑞芬太尼和罗库溴铵PK–PD虚拟患者中比较增强ESynPID与原SynPID，加入动态目标、对称加权、控制范围与泵仿真。催眠监测调控改善，但伤害性感受响应存在权衡。\n\n这是传统反馈控制方法，不能称为AI或已验证的自主临床给药。结果受虚拟患者、刺激场景与离线整定约束；适合用作AI给药策略的控制基线与安全模块设计参考，尚未证实真实患者安全性或结局获益。",
+    "source_url": "https://doi.org/10.3390/bioengineering13101199",
+    "status": "已核验摘要",
+    "verifiedOn": "2026-10-28",
+    "verification": "2026-10-28 PubMed EFetch原始XML完整摘要、DOI及在线发表日期；非人工全文精读。出版商页面当前直读失败，未据此声称全文精读。",
+    "needs_review": false,
+    "archive_review_required": false,
+    "site_catalog_id": "pubmed-42939054",
+    "dateKind": "首次在线发表；2026-10-28为本次核验和推荐日期",
+    "selection_dates": [],
+    "selection_source": "网站独立检索补查；完整文献库",
+    "sources": [
+      {
+        "label": "PubMed题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42939054/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.3390/bioengineering13101199"
+      },
+      {
+        "label": "出版商页面",
+        "url": "https://www.mdpi.com/2306-5354/13/10/1199"
+      }
+    ]
+  },
+  {
+    "id": "pubmed-42135025",
+    "pmid": "42135025",
+    "doi": "10.1136/archdischild-2025-329523",
+    "title": "Automated oxygen flow titration for infants with bronchiolitis: a multicentre randomised controlled trial.",
+    "title_zh": "",
+    "journal": "Archives of disease in childhood",
+    "date": "2026-10-20",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42135025/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42504441",
+    "pmid": "42504441",
+    "doi": "10.1515/bmt-2026-0225",
+    "title": "Computed tomography body composition-based prediction of postoperative quality of life in non-small cell lung cancer patients.",
+    "title_zh": "",
+    "journal": "Biomedizinische Technik. Biomedical engineering",
+    "date": "2026-07-28",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42504441/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42520680",
+    "pmid": "42520680",
+    "doi": "10.1016/j.intimp.2026.117200",
+    "title": "Screening of potential targets of (2S)-2'-methoxykurarinone against sepsis and in vivo verification in zebrafish model.",
+    "title_zh": "",
+    "journal": "International immunopharmacology",
+    "date": "2026-07-28",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42520680/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42632433",
+    "pmid": "42632433",
+    "doi": "10.1016/j.exger.2026.113291",
+    "title": "Triglyceride-glucose frailty index, metabolic-frailty phenotypes, and mortality in critically ill patients with acute kidney injury: Derivation, interpretation, and external validation.",
+    "title_zh": "",
+    "journal": "Experimental gerontology",
+    "date": "2026-08-22",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42632433/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42691628",
+    "pmid": "42691628",
+    "doi": "10.1016/j.bbrc.2026.154511",
+    "title": "Identification of RING finger protein-related biomarkers in sepsis based on explainable machine learning: A comprehensive analysis.",
+    "title_zh": "",
+    "journal": "Biochemical and biophysical research communications",
+    "date": "2026-08-29",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42691628/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42869669",
+    "pmid": "42869669",
+    "doi": "10.1016/j.acra.2026.09.054",
+    "title": "Development and Prospective Validation of an Interpretable Machine Learning Model Integrating Cardiac MRI Extracellular Volume for 1-Year MACE Prediction Post-STEMI.",
+    "title_zh": "",
+    "journal": "Academic radiology",
+    "date": "2026-10-14",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42869669/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42874686",
+    "pmid": "42874686",
+    "doi": "10.1177/02676591261499217",
+    "title": "Di(2-ethylhexyl) phthalate (DEHP) exposure during cardiopulmonary bypass: A narrative review of human clinical evidence and future directions.",
+    "title_zh": "",
+    "journal": "Perfusion",
+    "date": "2026-10-14",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42874686/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42875693",
+    "pmid": "42875693",
+    "doi": "10.1007/s10278-026-02383-3",
+    "title": "Habitat Radiomics and Machine Learning for Preoperative Three-class Classification of Pediatric Acute Appendicitis: A Dual-center Study with External Validation.",
+    "title_zh": "",
+    "journal": "Journal of imaging informatics in medicine",
+    "date": "2026-10-14",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42875693/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42875939",
+    "pmid": "42875939",
+    "doi": "10.4266/acc.002782",
+    "title": "Clinical characteristics and risk factors for intensive care unit admission and mortality in rapid response team-activated ward patients: a retrospective cohort study at a tertiary hospital in South Korea.",
+    "title_zh": "",
+    "journal": "Acute and critical care",
+    "date": "2026-10-15",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42875939/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42878981",
+    "pmid": "42878981",
+    "doi": "10.1007/s10985-026-09734-w",
+    "title": "Estimating heterogeneous treatment effects with survival outcomes via a deep survival learner.",
+    "title_zh": "",
+    "journal": "Lifetime data analysis",
+    "date": "2026-10-15",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42878981/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42879167",
+    "pmid": "42879167",
+    "doi": "10.1002/ksa.70647",
+    "title": "Artificial intelligence across the continuum of care for the aging musculoskeletal patient: From longitudinal phenotyping to personalized surgery and recovery monitoring.",
+    "title_zh": "",
+    "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+    "date": "2026-10-15",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42879167/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42880407",
+    "pmid": "42880407",
+    "doi": "10.1016/j.accpm.2026.101937",
+    "title": "The Carbon Footprint of Clinical Artificial Intelligence in Anaesthesiology: An Order-of-Magnitude Comparison with Current Clinical Practice.",
+    "title_zh": "",
+    "journal": "Anaesthesia, critical care & pain medicine",
+    "date": "2026-10-15",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42880407/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42881558",
+    "pmid": "42881558",
+    "doi": "10.15441/ceem.26.368",
+    "title": "Artificial intelligence in sepsis care and research: aligning clinical questions with model selection and human oversight.",
+    "title_zh": "",
+    "journal": "Clinical and experimental emergency medicine",
+    "date": "2026-10-15",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42881558/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42885781",
+    "pmid": "42885781",
+    "doi": "10.1161/JAHA.126.052512",
+    "title": "Mental Health Factors in Cardiothoracic Surgery Risk Prediction Models: A Systematic Review.",
+    "title_zh": "",
+    "journal": "Journal of the American Heart Association",
+    "date": "2026-10-16",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42885781/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42886251",
+    "pmid": "42886251",
+    "doi": "10.1007/s00345-026-06856-6",
+    "title": "Assessment of accuracy, quality, and readability of large language models in kidney transplantation practice.",
+    "title_zh": "",
+    "journal": "World journal of urology",
+    "date": "2026-10-16",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42886251/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42893494",
+    "pmid": "42893494",
+    "doi": "10.1097/GCO.0000000000001148",
+    "title": "Artificial intelligence-based prediction of postoperative voiding dysfunction following midurethral sling.",
+    "title_zh": "",
+    "journal": "Current opinion in obstetrics & gynecology",
+    "date": "2026-10-20",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42893494/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42920073",
+    "pmid": "42920073",
+    "doi": "10.1007/s10278-026-02328-w",
+    "title": "Diagnostic Performance and Concordance of a BI-RADS-Output AI System in Mammography: A Retrospective Study of Radiologists-AI Collaboration.",
+    "title_zh": "",
+    "journal": "Journal of imaging informatics in medicine",
+    "date": "2026-10-23",
+    "dateKind": "PubMed在线发表日期",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·研究类型待复核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42920073/",
+    "status": "PubMed检索题录·待人工核验",
+    "description": "",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-28",
+    "metadata_checked_on": "2026-10-28",
+    "verifiedOn": null,
+    "needs_review": true,
+    "selection_source": null,
+    "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   }
 ]
