@@ -1033,6 +1033,9 @@
         "label": "出版商DOI",
         "url": "https://doi.org/10.1097/FTD.0000000000001540"
       }
+    ],
+    "brief_dates": [
+      "2026-10-29"
     ]
   },
   {
@@ -7968,5 +7971,84 @@
     "archive_id": "paper_17a84b3285ab",
     "archive_review_required": true,
     "brief_dates": []
+  },
+  {
+    "id": "doi-s41746-026-03313-x",
+    "doi": "10.1038/s41746-026-03313-x",
+    "title": "Radiographer fracture detection with and without AI assistance in prospective emergency department use",
+    "title_zh": "前瞻性急诊真实使用中，AI辅助放射技师的骨折识别收益与失误",
+    "journal": "npj Digital Medicine",
+    "date": "2026-10-27",
+    "epub_date": "2026-10-27",
+    "issue_date": null,
+    "topic": "临床智能体与医生协作",
+    "study_type": "前瞻性真实世界配对阅片研究；13名放射技师、2496次检查",
+    "source_url": "https://www.nature.com/articles/s41746-026-03313-x",
+    "status": "已核验出版社摘要",
+    "description": "单急诊连续2496次检查，13名放射技师在查看AI前后各作一次判断。原始准确率97.6%，AI辅助后98.0%（McNemar p=0.0064）；修正11例错误、引入1例错误。AI单独灵敏度75.6%，细微骨折仅46.2%，AI结果缺失/不完整8.8%。仅11/729次分歧改变决定。提示医生-AI互补、错误拒绝及接口可用性须同时评价；无患者结局评价。",
+    "verification": "2026-10-29核验出版商原始摘要和在线日期，未声称全文精读。",
+    "verifiedOn": "2026-10-29",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-29"
+    ],
+    "categories": [
+      "临床智能体与医生协作",
+      "真实世界部署",
+      "临床安全"
+    ]
+  },
+  {
+    "id": "doi-s41746-026-03326-6",
+    "doi": "10.1038/s41746-026-03326-6",
+    "title": "Systemwide adoption patterns of ambient AI scribe technology in an integrated academic health system",
+    "title_zh": "大型学术医疗系统AI病历助手的使用采纳与弃用轨迹",
+    "journal": "npj Digital Medicine",
+    "date": "2026-10-26",
+    "epub_date": "2026-10-26",
+    "issue_date": null,
+    "topic": "临床智能体与真实世界部署",
+    "study_type": "回顾性真实世界队列；2901名门诊临床人员",
+    "source_url": "https://www.nature.com/articles/s41746-026-03326-6",
+    "status": "已核验出版社摘要",
+    "description": "关联EHR和厂商使用日志，回顾2024年12月至2025年5月2901名临床人员的AI文书使用。社区内科采纳67%、社区儿科69%，学术普通外科16%、妇产科18%。使用轨迹包括持续增长、早用后停用、短暂使用和迟用；部分群体月度就诊使用比例达80%–90%。为临床Agent部署提供采纳率/弃用率/科室差异监测框架；观察性使用研究不证明疗效或节约时间。",
+    "verification": "2026-10-29核验出版商原始摘要和在线日期，未声称全文精读。",
+    "verifiedOn": "2026-10-29",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-29"
+    ],
+    "categories": [
+      "临床智能体与医生协作",
+      "真实世界部署",
+      "工作流"
+    ]
+  },
+  {
+    "id": "doi-s41746-026-03301-1",
+    "doi": "10.1038/s41746-026-03301-1",
+    "title": "Scalable drift monitoring in medical imaging AI",
+    "title_zh": "医疗影像AI部署后多模态数据漂移的可扩展监测",
+    "journal": "npj Digital Medicine",
+    "date": "2026-10-27",
+    "epub_date": "2026-10-27",
+    "issue_date": null,
+    "preprint_date": "2024-10-17",
+    "topic": "临床部署与安全",
+    "study_type": "方法学研究；医院影像真实世界时间漂移案例；2024年已有预印本",
+    "source_url": "https://www.nature.com/articles/s41746-026-03301-1",
+    "status": "已核验期刊日期与预印本摘要",
+    "description": "MMC+使用多模态一致性、基础模型影像嵌入和不确定性界限，监测真实部署环境数据分布变化。2024-10-17已有arXiv预印本，2026-10-27在npj Digital Medicine在线发表。作者以麻省总医院COVID期间影像数据验证漂移提示与模型表现变化的关联；漂移警报不等于直接预测性能下降。可迁移至跨设备BIS/EEG/监护数据质控和模型更新触发。",
+    "verification": "2026-10-29核验期刊正式上线日期、微软研究页及2024预印本摘要；未获得期刊全文，保留来源层级。",
+    "verifiedOn": "2026-10-29",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-29"
+    ],
+    "categories": [
+      "临床部署与安全",
+      "数据漂移",
+      "多模态"
+    ]
   }
 ]

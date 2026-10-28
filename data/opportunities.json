@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-28",
+    "verifiedOn": "2026-10-29",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -34,7 +34,8 @@
       "2026-10-25",
       "2026-10-26",
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
@@ -402,7 +403,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-28",
+    "verifiedOn": "2026-10-29",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -420,7 +421,8 @@
     "brief_dates": [
       "2026-10-26",
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "verificationNote": "2026-10-28官方会议页：11月3日23:59 CET截止，2027年2月4-5日米兰；ePoster，不在ICMx发表且无摘要集，3篇优秀摘要可获未来活动免费注册。",
     "site_catalog_id": "esicm-innovation2027",
@@ -474,7 +476,7 @@
     "archive": false,
     "announcement_date": "2026-10-10",
     "archive_review_required": false,
-    "verifiedOn": "2026-10-28",
+    "verifiedOn": "2026-10-29",
     "sources": [
       {
         "label": "2026-10-10 官方赛程调整",
@@ -491,7 +493,8 @@
       "2026-10-25",
       "2026-10-26",
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "verificationNote": "2026-10-28复核AIC官方10月10日赛程及7月9日赛题：AI+医学报名、缴费、初赛作品均10月30日20:00截止；每队最多3名学生和2名指导教师，500元/队。",
     "site_catalog_id": "aic-ai-medicine2026",
@@ -601,7 +604,8 @@
     "verification_failure": "2026-10-27官方页面为空、超时或不可取得；保留此前字段及实际核验日，未确认新变化。",
     "brief_dates": [
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -905,5 +909,34 @@
     "verification_failure": "2026-10-28 原记录只有CCF通用首页，未取得对应CNCC当届征集通知，保持待核实。",
     "brief_dates": [],
     "brief_date_sources": {}
+  },
+  {
+    "id": "competition-zgc-frontier-2026",
+    "title": "第十届中关村国际前沿科技大赛 · 数字医疗/AI领域赛与起点赛",
+    "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
+    "date": "2026-08-21",
+    "announcement_date": "2026-08-21",
+    "deadline": "2026-10-31",
+    "category": "competition",
+    "topic": "数字医疗/人工智能/成果转化",
+    "description": "官方2026规则：领域赛面向已注册企业，AI、数字医疗、医疗器械等12领域，10月31日截止；起点赛面向高校、科研院所、重点实验室，全年常态征集。总决赛冠军100万元、亚军50万元、季军30万元、优胜奖15万元；领域前3名符合条件企业可获最高30万元研发资金支持。高校医院尚未成立企业的项目宜优先评估起点赛，不能误认为领域赛企业资格自动适用。报名费官方公告未明确。",
+    "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
+    "registration_url": "https://www.zgcatech.cn/",
+    "status": "open",
+    "verifiedOn": "2026-10-29",
+    "needs_review": false,
+    "sources": [
+      {
+        "label": "北京市科委2026启动公告",
+        "url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html"
+      },
+      {
+        "label": "中科院国科控股征集通知",
+        "url": "https://www.holdings.cas.cn/tzgg2015/202609/t20260916_8283567.html"
+      }
+    ],
+    "brief_dates": [
+      "2026-10-29"
+    ]
   }
 ]
