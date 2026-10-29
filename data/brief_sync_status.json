@@ -3,7 +3,7 @@
   "brief_date": "2026-10-29",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "当日4篇已核验摘要/正式出版日期；Sites管理接口本次不可用，GitHub交接文件等待回读。",
+  "brief_status": "当日4篇精选与公开交接文件已保存并回读；GitHub成功，Sites本期未执行管理员POST/GET，待补同步。",
   "sites": {
     "status": "partial",
     "brief_alignment_status": "pending",
@@ -15,17 +15,21 @@
     ]
   },
   "github": {
-    "status": "pending_readback",
-    "brief_alignment_status": "pending",
+    "status": "success",
+    "brief_alignment_status": "success",
     "papers": 317,
     "opportunities": 30,
+    "selected_papers": 4,
+    "verified_at": "2026-10-29",
+    "readback_commit": "3002007715f54da9d7a9899fcf19dd3fad6ed28f",
     "readback_files": [
       "data/research.json",
       "data/opportunities.json",
       "data/history_briefs.json",
       "data/brief_sync_status.json",
       "data/daily_briefs/2026-10-29.json"
-    ]
+    ],
+    "verification": "同一数据提交后，从main分支逐文件GET回读；核对4篇精选、317条文献、30项机会、历史索引及原有人工摘要未写入。"
   },
   "selected_paper_ids": [
     "pubmed-42905972",
