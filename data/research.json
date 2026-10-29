@@ -70,6 +70,36 @@
     "ingested_date": "2026-10-29"
   },
   {
+    "id": "pubmed-42950249",
+    "pmid": "42950249",
+    "doi": "10.1177/15533506261501663",
+    "title": "Dynamic Machine Learning Prediction of Colorectal Anastomotic Leak Using Preoperative Factors and Serial Postoperative Biomarker Trajectories.",
+    "title_zh": "",
+    "journal": "Surgical innovation",
+    "date": "2026-10-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42950249/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-29"
+  },
+  {
+    "id": "pubmed-42951721",
+    "pmid": "42951721",
+    "doi": "10.1053/j.semnuclmed.2026.10.004",
+    "title": "Molecular imaging in adult spondylodiscitis: current evidence, clinical applications, and future perspectives.",
+    "title_zh": "",
+    "journal": "Seminars in nuclear medicine",
+    "date": "2026-10-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42951721/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-29"
+  },
+  {
     "id": "pubmed-42944909",
     "pmid": "42944909",
     "doi": "10.1007/s00261-026-05846-x",
@@ -2753,6 +2783,21 @@
     "topic": "自动题录",
     "study_type": "未人工精读",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42948379/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-29"
+  },
+  {
+    "id": "pubmed-42950648",
+    "pmid": "42950648",
+    "doi": "10.1016/j.artmed.2026.103560",
+    "title": "From cell images to clinical insight: Clinically grounded explainable classification of peripheral blood and bone marrow cells with cross-modal learning.",
+    "title_zh": "",
+    "journal": "Artificial intelligence in medicine",
+    "date": "2026-10-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42950648/",
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-29"
