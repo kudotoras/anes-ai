@@ -689,6 +689,35 @@
     "archive": true
   },
   {
+    "id": "competition-zgc-frontier-2026",
+    "title": "第十届中关村国际前沿科技大赛 · 数字医疗/AI领域赛与起点赛",
+    "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
+    "date": "2026-08-21",
+    "announcement_date": "2026-08-21",
+    "deadline": "2026-10-31",
+    "category": "competition",
+    "topic": "数字医疗/人工智能/成果转化",
+    "description": "官方2026规则：领域赛面向已注册企业，AI、数字医疗、医疗器械等12领域，10月31日截止；起点赛面向高校、科研院所、重点实验室，全年常态征集。总决赛冠军100万元、亚军50万元、季军30万元、优胜奖15万元；领域前3名符合条件企业可获最高30万元研发资金支持。高校医院尚未成立企业的项目宜优先评估起点赛，不能误认为领域赛企业资格自动适用。报名费官方公告未明确。",
+    "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
+    "registration_url": "https://www.zgcatech.cn/",
+    "status": "open",
+    "verifiedOn": "2026-10-29",
+    "needs_review": false,
+    "sources": [
+      {
+        "label": "北京市科委2026启动公告",
+        "url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html"
+      },
+      {
+        "label": "中科院国科控股征集通知",
+        "url": "https://www.holdings.cas.cn/tzgg2015/202609/t20260916_8283567.html"
+      }
+    ],
+    "brief_dates": [
+      "2026-10-29"
+    ]
+  },
+  {
     "id": "conference_7f04effad7",
     "title": "CONNECT.Albania会议（历史摘要机会）",
     "organizer": "待核实",
@@ -909,34 +938,5 @@
     "verification_failure": "2026-10-28 原记录只有CCF通用首页，未取得对应CNCC当届征集通知，保持待核实。",
     "brief_dates": [],
     "brief_date_sources": {}
-  },
-  {
-    "id": "competition-zgc-frontier-2026",
-    "title": "第十届中关村国际前沿科技大赛 · 数字医疗/AI领域赛与起点赛",
-    "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
-    "date": "2026-08-21",
-    "announcement_date": "2026-08-21",
-    "deadline": "2026-10-31",
-    "category": "competition",
-    "topic": "数字医疗/人工智能/成果转化",
-    "description": "官方2026规则：领域赛面向已注册企业，AI、数字医疗、医疗器械等12领域，10月31日截止；起点赛面向高校、科研院所、重点实验室，全年常态征集。总决赛冠军100万元、亚军50万元、季军30万元、优胜奖15万元；领域前3名符合条件企业可获最高30万元研发资金支持。高校医院尚未成立企业的项目宜优先评估起点赛，不能误认为领域赛企业资格自动适用。报名费官方公告未明确。",
-    "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
-    "registration_url": "https://www.zgcatech.cn/",
-    "status": "open",
-    "verifiedOn": "2026-10-29",
-    "needs_review": false,
-    "sources": [
-      {
-        "label": "北京市科委2026启动公告",
-        "url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html"
-      },
-      {
-        "label": "中科院国科控股征集通知",
-        "url": "https://www.holdings.cas.cn/tzgg2015/202609/t20260916_8283567.html"
-      }
-    ],
-    "brief_dates": [
-      "2026-10-29"
-    ]
   }
 ]
