@@ -3,7 +3,7 @@
   "brief_date": "2026-10-29",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "当天实际简报与公开交接完整可取，Sites已补同步并回读，GitHub等待本批提交回读",
+  "brief_status": "当日完整简报与公开交接已增量对齐两端；Site管理员写入与回读、GitHub及主站公开数据核验完成。",
   "sites": {
     "status": "success",
     "brief_alignment_status": "success",
@@ -15,8 +15,24 @@
     "verification": "管理员POST后GET回读，所有改动及旧ID核对通过；保留公开只读与Sites版本10。"
   },
   "github": {
-    "status": "pending",
-    "brief_alignment_status": "pending"
+    "status": "success",
+    "brief_alignment_status": "success",
+    "papers": 331,
+    "opportunities": 30,
+    "curated_papers": 117,
+    "verified_at": "2026-10-29T00:11:40.924Z",
+    "readback_commit": "d9adca9f96c9c0bf6dfac6b374130975ebced321",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/history_import.json",
+      "data/daily_updates/2026-10-29.json",
+      "data/brief_sync_status.json",
+      "data/article_summaries.json",
+      "data/daily_briefs/2026-10-29.json"
+    ],
+    "verification": "默认分支逐文件回读，既有自动PubMed更新完成后再次核对；所有旧ID、今日精选4篇和人工精读摘要保留。"
   },
   "selected_paper_ids": [
     "pubmed-42905972",
@@ -34,7 +50,9 @@
     "opportunities_checked": 11,
     "opportunities_unresolved": 6,
     "journals_checked": 51,
-    "journals_unavailable": 1
+    "journals_unavailable": 1,
+    "github_new_records": 2,
+    "github_modified_records": 4
   },
   "brief_catchup": {
     "window_start": "2026-10-23",
@@ -534,7 +552,7 @@
       },
       "verified_at": "2026-10-28T00:11:27.060Z"
     },
-    "2026-10-29-before-alignment": {
+    "2026-10-29": {
       "schema_version": 1,
       "brief_date": "2026-10-29",
       "overall_status": "partial",
@@ -1017,11 +1035,11 @@
   "frontend": {
     "status": "success",
     "canonical_url": "https://kudotoras.github.io/anes-ai/",
-    "verified_at": "2026-10-28T00:12:51.337Z",
-    "papers": 314,
-    "opportunities": 29,
-    "history_dates": 23,
-    "selected_papers": 3,
-    "verification": "既有自动Pages发布成功后，直接GET公开research、opportunities、history_briefs与当天简报JSON；内容与默认分支逐条一致。Sites保持公开、版本10，日常未修改源码或重新部署。"
+    "verified_at": "2026-10-29T00:11:40.928Z",
+    "papers": 331,
+    "opportunities": 30,
+    "history_dates": 24,
+    "daily_selected": 4,
+    "verification": "既有自动Pages发布成功后，直接读取公开JSON并逐条比对研究、机会、历史索引及当日交接，内容一致；未修改Sites源码或重部署Sites。"
   }
 }
