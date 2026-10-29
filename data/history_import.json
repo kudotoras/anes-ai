@@ -2607,6 +2607,29 @@
       "competition_count": 3,
       "conference_count": 5,
       "source_url": "data/daily_briefs/2026-10-28.json"
+    },
+    {
+      "date": "2026-10-29",
+      "record_status": "aligned_with_verified_catalog_and_brief",
+      "paper_ids": [
+        "pubmed-42905972",
+        "doi-s41746-026-03313-x",
+        "doi-s41746-026-03326-6",
+        "doi-s41746-026-03301-1"
+      ],
+      "competition_ids": [
+        "competition_c4b8c9eb04",
+        "competition-zgc-frontier-2026"
+      ],
+      "conference_ids": [
+        "cscva-ai-shanghai2026",
+        "esicm-innovation2027",
+        "conference_95a23edf4a"
+      ],
+      "paper_count": 4,
+      "competition_count": 2,
+      "conference_count": 3,
+      "source_url": "data/daily_briefs/2026-10-29.json"
     }
   ]
 }

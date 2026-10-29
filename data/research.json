@@ -152,6 +152,13 @@
       "临床智能体与医生协作",
       "真实世界部署",
       "临床安全"
+    ],
+    "site_catalog_id": "doi-s41746-026-03313-x",
+    "brief_date_sources": {
+      "2026-10-29": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-29"
     ]
   },
   {
@@ -179,6 +186,13 @@
       "临床部署与安全",
       "数据漂移",
       "多模态"
+    ],
+    "site_catalog_id": "doi-s41746-026-03301-1",
+    "brief_date_sources": {
+      "2026-10-29": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-29"
     ]
   },
   {
@@ -347,6 +361,13 @@
       "临床智能体与医生协作",
       "真实世界部署",
       "工作流"
+    ],
+    "site_catalog_id": "doi-s41746-026-03326-6",
+    "brief_date_sources": {
+      "2026-10-29": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-29"
     ]
   },
   {
@@ -1221,7 +1242,9 @@
     "archive_review_required": false,
     "site_catalog_id": "pubmed-42905972",
     "dateKind": "首次在线发表；2026-10-28为本次核验和推荐日期",
-    "selection_dates": [],
+    "selection_dates": [
+      "2026-10-29"
+    ],
     "selection_source": "网站独立检索补查；完整文献库",
     "sources": [
       {
@@ -1235,7 +1258,10 @@
     ],
     "brief_dates": [
       "2026-10-29"
-    ]
+    ],
+    "brief_date_sources": {
+      "2026-10-29": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42910770",
@@ -8230,5 +8256,43 @@
     "archive_id": "paper_17a84b3285ab",
     "archive_review_required": true,
     "brief_dates": []
+  },
+  {
+    "id": "pubmed-41055556",
+    "title": "The prognostic value of expiratory carbon monoxide level for outcome prediction after myocardial infarction.",
+    "pmid": "41055556",
+    "doi": "10.1093/eurjpc/zwaf559",
+    "journal": "European journal of preventive cardiology",
+    "date": "",
+    "dateKind": "PubMed在线发表日期；无独立在线日期时留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41055556/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-29",
+    "metadata_checked_on": "2026-10-29",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42946589",
+    "title": "Machine Learning-Based Mortality Prediction for Mechanically Ventilated Liver Failure Patients: A Retrospective Study.",
+    "pmid": "42946589",
+    "doi": "10.1016/j.transproceed.2026.09.029",
+    "journal": "Transplantation proceedings",
+    "date": "2026-10-27",
+    "dateKind": "PubMed在线发表日期；无独立在线日期时留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42946589/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-10-29",
+    "metadata_checked_on": "2026-10-29",
+    "verifiedOn": null,
+    "needs_review": true
   }
 ]
