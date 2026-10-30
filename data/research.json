@@ -791,6 +791,21 @@
     "ingested_date": "2026-10-29"
   },
   {
+    "id": "pubmed-42956568",
+    "pmid": "42956568",
+    "doi": "10.1016/j.artmed.2026.103561",
+    "title": "A personalized hybrid federated learning framework for glucose prediction in type 1 diabetes.",
+    "title_zh": "",
+    "journal": "Artificial intelligence in medicine",
+    "date": "2026-10-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42956568/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
     "id": "pubmed-42927942",
     "pmid": "42927942",
     "doi": "10.1111/ceo.70186",
