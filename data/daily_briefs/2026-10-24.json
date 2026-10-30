@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-10-24",
+  "source": "麻醉AI科研简报",
+  "source_type": "reconstructed_historical_index_not_full_brief",
+  "papers": [
+    {
+      "id": "paper_e305974489c6",
+      "doi": "10.1038/s41746-026-03408-5",
+      "title": "Human oversight of erroneous clinical AI and decision support a systematic review and meta analysis",
+      "journal": "npj Digital Medicine",
+      "epub_date": "2026-10-23",
+      "issue_date": null,
+      "study_type": "系统综述与Meta分析",
+      "source_url": "https://www.nature.com/articles/s41746-026-03408-5",
+      "description": "系统综述：46份报告、41个独立队列集群；错误AI建议可造成自动化偏倚。",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由2026-10-24历史公开目录重建；不是逐字原简报或本日新核验"
+    },
+    {
+      "id": "paper_3ce593cf5d94",
+      "doi": "10.1126/science.aeh7930",
+      "title": "Sequential diagnosis with language models",
+      "journal": "Science",
+      "epub_date": "2026-10-22",
+      "issue_date": null,
+      "study_type": "历史文献",
+      "source_url": "https://www.science.org/doi/10.1126/science.aeh7930",
+      "description": "304例NEJM复杂病例+325例MIMIC-IV-ED病例；交互式序贯诊断基准与成本约束。",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由2026-10-24历史公开目录重建；不是逐字原简报或本日新核验"
+    },
+    {
+      "id": "paper_bebd96a07805",
+      "doi": "10.1038/s41746-026-03349-z",
+      "title": "Large language models for multimodal clinical predictive modeling: a systematic review",
+      "journal": "npj Digital Medicine",
+      "epub_date": "2026-10-22",
+      "issue_date": null,
+      "study_type": "系统综述",
+      "source_url": "https://www.nature.com/articles/s41746-026-03349-z",
+      "description": "系统综述纳入57项使用LLM进行EHR多模态预测建模的研究，归纳嵌入、信息提取与文本融合三种路径。可为围术期智能体整合病历与连续监测数据提供方法参考。\n\n属于通用医学方法学拓展阅读。不同研究的性能增益不能直接等同于围术期患者获益；模型评价还需考虑样本规模、解释性、计算成本和外部验证。",
+      "verifiedOn": "2026-10-24",
+      "needs_review": true,
+      "verification_scope": "由2026-10-24历史公开目录重建；不是逐字原简报或本日新核验"
+    },
+    {
+      "id": "legacy-11",
+      "doi": "10.1038/s41591-026-04609-x",
+      "title": "On-premise medical AI agents for reliable clinical decision-making",
+      "journal": "Nature Medicine",
+      "epub_date": "2026-09-15",
+      "issue_date": null,
+      "study_type": "仿真 / 技术评估",
+      "source_url": "https://www.nature.com/articles/s41591-026-04609-x",
+      "description": "研究构建完全本地运行的临床智能体，并在两个由 MIMIC-IV 衍生的诊断基准上评估。七病种任务准确率为 90.04%，四病种任务为 83.8%；诊断行为一致性区分正确与错误回答的 AUC 为 0.860，压力测试下为 0.875。\n\n以行为一致性阈值 0.90 进行选择性自动化时，49.4% 病例被保留，诊断准确率为 98.9%。这为院内可控部署和“低置信度转人工”提供了方法框架，但证据来自回顾性模拟基准，并非前瞻性临床应用或患者结局试验。",
+      "verifiedOn": "2026-10-13",
+      "needs_review": true,
+      "verification_scope": "由2026-10-24历史公开目录重建；不是逐字原简报或本日新核验"
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "deadline": "2026-10-30",
+      "source_url": "https://www.aimtcbj.com/",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    },
+    {
+      "id": "competition_c4b8c9eb04",
+      "title": "第八届 AIC 算法主题赛 · AI＋医学",
+      "organizer": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "deadline": "2026-10-30T20:00:00+08:00",
+      "source_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    },
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会",
+      "deadline": null,
+      "source_url": "https://www.ai-race.com.cn/",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛",
+      "organizer": "中国计算机学会（CCF）",
+      "deadline": "2026-11-10",
+      "source_url": "https://ccf.org.cn/tecagi2026",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "deadline": "2026-12-07T07:59:00Z",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    },
+    {
+      "id": "conference_95688579fb",
+      "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
+      "organizer": "Society of Cardiovascular Anesthesiologists",
+      "deadline": "2026-12-02T04:59:00Z",
+      "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    },
+    {
+      "id": "conference_8d528a0f54",
+      "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
+      "organizer": "Biomedical Engineering Society",
+      "deadline": "2026-11-06",
+      "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+      "verifiedOn": null,
+      "needs_review": true,
+      "verification_scope": "由历史公开目录重建；可能已在后续日期复核或更正，不能作为2026-10-24当日核验"
+    }
+  ],
+  "note": "仅依据历史目录和现有公开记录恢复的2026-10-24条目索引；不是原始全文，也不以之后的核验日期冒充当日核验。所有记录均标记需复核。"
+}
