@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "update_date": "2026-10-30",
+  "source": "网站独立检索 ∪ 麻醉AI科研简报公开交接",
+  "selected_paper_ids": [
+    "doi-s41551-026-01777-6",
+    "doi-s43018-026-01264-6",
+    "doi-s41467-026-78520-x",
+    "doi-s41591-026-04655-5"
+  ],
+  "independent_bibliography_added": [],
+  "journal_checks": [
+    {
+      "journal": "Nature Biomedical Engineering",
+      "checkedOn": "2026-10-30",
+      "scope": "出版商2026-10-29新文原始论文",
+      "source_url": "https://www.nature.com/articles/s41551-026-01777-6"
+    },
+    {
+      "journal": "Nature Cancer",
+      "checkedOn": "2026-10-30",
+      "scope": "出版商2026-10-29新文原始论文",
+      "source_url": "https://www.nature.com/articles/s43018-026-01264-6"
+    },
+    {
+      "journal": "Nature Communications",
+      "checkedOn": "2026-10-30",
+      "scope": "出版商2026-10-29新文原始论文",
+      "source_url": "https://www.nature.com/articles/s41467-026-78520-x"
+    },
+    {
+      "journal": "Nature Medicine",
+      "checkedOn": "2026-10-30",
+      "scope": "出版商2026-10-29新文原始论文",
+      "source_url": "https://www.nature.com/articles/s41591-026-04655-5"
+    },
+    {
+      "journal": "JAMIA",
+      "checkedOn": "2026-10-30",
+      "scope": "Advance articles索引，非全刊穷尽扫描",
+      "source_url": "https://academic.oup.com/jamia/advance-articles"
+    }
+  ],
+  "failures": [
+    "Sites项目维护连接器未在本次执行环境提供；本次不能调用get_site及管理员POST/GET。",
+    "上海会议投稿平台无法读取官方正文，沿用原核验日期。"
+  ],
+  "selection_note": "今日4篇均为2026-10-29期刊上线且不重复前期每日精选；Nature Cancer此前有预印本。网站独立检索全量题录仍由原有自动流程维护，本次不伪称全刊扫描。"
+}

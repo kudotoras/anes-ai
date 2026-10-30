@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-10-30",
+  "source": "麻醉AI科研简报",
+  "source_type": "published_daily_brief",
+  "papers": [
+    {
+      "id": "doi-s41551-026-01777-6",
+      "doi": "10.1038/s41551-026-01777-6",
+      "title": "Optimal closed-loop feedback control of blood flow after spinal cord injury with norepinephrine",
+      "journal": "Nature Biomedical Engineering",
+      "epub_date": "2026-10-29",
+      "issue_date": null,
+      "study_type": "多阶段前临床闭环控制实验；大鼠和猪；非人体给药试验",
+      "source_url": "https://www.nature.com/articles/s41551-026-01777-6",
+      "description": "用超声测得脊髓血流速度，基于传递函数和H∞鲁棒控制实时调整去甲肾上腺素。大鼠快速MAP挑战中闭环血流RMS误差10.0%对开放给药22.6%，生存实验每组4只大鼠；猪实验显示可迁移性但主要为少量动物及技术重复。提示器官灌注直接反馈与药物给药控制的区别；尚非临床疗效证据。",
+      "verification_scope": "2026-10-30核对出版商论文摘要、方法和实验结果；非患者临床试验",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "直接相关",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "doi-s43018-026-01264-6",
+      "doi": "10.1038/s43018-026-01264-6",
+      "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study",
+      "journal": "Nature Cancer",
+      "epub_date": "2026-10-29",
+      "issue_date": null,
+      "study_type": "263份病历回顾性测试、884份病历3个月前瞻静默验证、17名人员随机交叉实验；先前已有预印本",
+      "source_url": "https://www.nature.com/articles/s43018-026-01264-6",
+      "description": "6种irAE的事件检测F1=0.92、细分严重度分级F1=0.66；前瞻静默运行F1降至0.72–0.79。17人交叉试验316个有效计时观察，AI辅助缩短注释时间2.71分钟、完整匹配准确率OR=1.45、提高评分者一致性；证据原文高亮和多阶段分级可借鉴CCI自动抽取。单医疗系统且无患者结局验证，2026年较早已有预印本，10月29日期刊正式上线。",
+      "verification_scope": "2026-10-30核对Nature Cancer原始论文、样本和前瞻/随机研究设计；2026-10-29为期刊上线而非首次公开",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "直接相关",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "doi-s41467-026-78520-x",
+      "doi": "10.1038/s41467-026-78520-x",
+      "title": "The accuracy-safety trade-off of large reasoning models in clinical diagnostics",
+      "journal": "Nature Communications",
+      "epub_date": "2026-10-29",
+      "issue_date": null,
+      "study_type": "基于真实EHR的诊断基准；6组匹配模型、12专科；15名医生受控验证",
+      "source_url": "https://www.nature.com/articles/s41467-026-78520-x",
+      "description": "与常规LLM相比，推理模型生成的假阳性诊断多34%以上，可重复性约低40%，虽改善主诊断与鉴别诊断；15名医生的结构化协作实验准确率提高20%、假阳性减少44%。结果来自受控回顾性环境，不是前瞻患者结局试验。对麻醉智能体的错误建议拦截率、输出一致性和人工确认评价有直接方法价值。",
+      "verification_scope": "2026-10-30核对Nature Communications出版商摘要和上线日期",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "doi-s41591-026-04655-5",
+      "doi": "10.1038/s41591-026-04655-5",
+      "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
+      "journal": "Nature Medicine",
+      "epub_date": "2026-10-29",
+      "issue_date": null,
+      "study_type": "模型开发及多数据集外部验证；>130万样本18数据集；13443外部样本17数据集",
+      "source_url": "https://www.nature.com/articles/s41591-026-04655-5",
+      "description": "EVLF-FM整合10种影像模态、6个专科，支持分类、视觉问答和像素级证据定位。内部诊断平均准确率0.895、视觉定位Acc@0.5=0.842，外部测试13443份；人工解释评价均分4.25/5。SFT与视觉强化微调可供多模态解释研究参考，但模型以医学影像为主，不能直接推断可用于麻醉EEG/BIS或改善临床结局。",
+      "verification_scope": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_c4b8c9eb04",
+      "title": "第八届 AIC 算法主题赛 · AI＋医学",
+      "organizer": "全球校园人工智能算法精英大赛全国组委会；北京邮电大学承办",
+      "deadline": "2026-10-30T20:00:00+08:00",
+      "deadline_timezone": "Asia/Shanghai",
+      "source_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+      "verification_scope": "2026-10-30核对组委会10月10日赛程调整公告：AI+医学报名缴费及初赛作品均10月30日20:00截止；学生队伍、技术报告、500元/队。",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false
+    },
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "deadline": "2026-10-30",
+      "deadline_timezone": null,
+      "source_url": "https://www.aimtcbj.com/",
+      "verification_scope": "2026-10-30核对当届主办赛事平台及10月16日发布会报道：医疗机构/高校可报转化组，截止10月30日；每组一等奖5万、二等奖3万、三等奖1万；100万–2000万为有条件股权投资，不是奖金。",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false
+    },
+    {
+      "id": "competition-zgc-frontier-2026",
+      "title": "第十届中关村国际前沿科技大赛 · 数字医疗/AI领域赛与起点赛",
+      "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "deadline": "2026-10-31",
+      "deadline_timezone": null,
+      "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
+      "verification_scope": "2026-10-30核对北京市科委公告：领域赛10月31截止且主要面向已注册企业；高校/医院早期项目可考虑全年征集的起点赛，最高支持不保证获得。",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false
+    }
+  ],
+  "conferences": [
+    {
+      "id": "cscva-ai-shanghai2026",
+      "title": "第三届国际医疗健康人工智能大会（上海）暨2026中国心胸血管麻醉学会学术会议 · 摘要征集",
+      "deadline": "2026-10-31",
+      "deadline_timezone": null,
+      "source_url": "https://mm.sciconf.cn/41149",
+      "verification_scope": "历史资料记载10月31截止；2026-10-30无法读取官方投稿正文，未重新核验",
+      "verifiedOn": "2026-10-28",
+      "needs_review": true
+    },
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+      "deadline": "2026-11-03T23:59:00+01:00",
+      "deadline_timezone": "Europe/Rome",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verification_scope": "2026-10-30核对ESICM官网：11月3日23:59 CET截止，ePoster、不出版摘要集。",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false
+    },
+    {
+      "id": "conference_8d528a0f54",
+      "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
+      "deadline": "2026-11-06",
+      "deadline_timezone": null,
+      "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+      "verification_scope": "2026-10-30核对BMES官网：11月6日Late-Breaking截止；常规摘要<250词，Late-Breaking按专用入口说明。",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "deadline_timezone": "Europe/Copenhagen",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verification_scope": "2026-10-30核对ESAIC官网：11月1日开放、12月10日23:59 CET截止，Innovation Showcase单独评审，录用并现场展示摘要进入EJA电子增刊。",
+      "verifiedOn": "2026-10-30",
+      "needs_review": false
+    }
+  ],
+  "note": "仅公开文献及机会条目；4篇10月29日期刊上线研究；不含个人项目、患者资料、私人对话或凭据。上海会议为历史记录待复核。"
+}

@@ -8339,5 +8339,162 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "doi-s41551-026-01777-6",
+    "doi": "10.1038/s41551-026-01777-6",
+    "title": "Optimal closed-loop feedback control of blood flow after spinal cord injury with norepinephrine",
+    "title_zh": "以脊髓血流为反馈的去甲肾上腺素闭环控制：大鼠与猪实验",
+    "journal": "Nature Biomedical Engineering",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "精准麻醉",
+    "study_type": "多阶段前临床闭环控制实验；大鼠和猪；非人体给药试验",
+    "source_url": "https://www.nature.com/articles/s41551-026-01777-6",
+    "description": "用超声测得脊髓血流速度，基于传递函数和H∞鲁棒控制实时调整去甲肾上腺素。大鼠快速MAP挑战中闭环血流RMS误差10.0%对开放给药22.6%，生存实验每组4只大鼠；猪实验显示可迁移性但主要为少量动物及技术重复。提示器官灌注直接反馈与药物给药控制的区别；尚非临床疗效证据。",
+    "categories": [
+      "精准麻醉",
+      "强化学习与数字孪生",
+      "闭环给药"
+    ],
+    "tags": [
+      "严格最新",
+      "直接相关",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对出版商论文摘要、方法和实验结果；非患者临床试验",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对出版商论文摘要、方法和实验结果；非患者临床试验",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
+  },
+  {
+    "id": "doi-s43018-026-01264-6",
+    "doi": "10.1038/s43018-026-01264-6",
+    "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study",
+    "title_zh": "临床Agent提取免疫相关不良事件：回顾、前瞻静默运行及随机交叉评价",
+    "journal": "Nature Cancer",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "临床智能体与医生协作",
+    "study_type": "263份病历回顾性测试、884份病历3个月前瞻静默验证、17名人员随机交叉实验；先前已有预印本",
+    "source_url": "https://www.nature.com/articles/s43018-026-01264-6",
+    "description": "6种irAE的事件检测F1=0.92、细分严重度分级F1=0.66；前瞻静默运行F1降至0.72–0.79。17人交叉试验316个有效计时观察，AI辅助缩短注释时间2.71分钟、完整匹配准确率OR=1.45、提高评分者一致性；证据原文高亮和多阶段分级可借鉴CCI自动抽取。单医疗系统且无患者结局验证，2026年较早已有预印本，10月29日期刊正式上线。",
+    "categories": [
+      "临床智能体与医生协作",
+      "真实世界部署",
+      "临床安全"
+    ],
+    "tags": [
+      "严格最新",
+      "直接相关",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对Nature Cancer原始论文、样本和前瞻/随机研究设计；2026-10-29为期刊上线而非首次公开",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对Nature Cancer原始论文、样本和前瞻/随机研究设计；2026-10-29为期刊上线而非首次公开",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
+  },
+  {
+    "id": "doi-s41467-026-78520-x",
+    "doi": "10.1038/s41467-026-78520-x",
+    "title": "The accuracy-safety trade-off of large reasoning models in clinical diagnostics",
+    "title_zh": "医疗推理大模型的准确性与安全权衡：假阳性、可重复性和医生复核",
+    "journal": "Nature Communications",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "临床智能体与医生协作",
+    "study_type": "基于真实EHR的诊断基准；6组匹配模型、12专科；15名医生受控验证",
+    "source_url": "https://www.nature.com/articles/s41467-026-78520-x",
+    "description": "与常规LLM相比，推理模型生成的假阳性诊断多34%以上，可重复性约低40%，虽改善主诊断与鉴别诊断；15名医生的结构化协作实验准确率提高20%、假阳性减少44%。结果来自受控回顾性环境，不是前瞻患者结局试验。对麻醉智能体的错误建议拦截率、输出一致性和人工确认评价有直接方法价值。",
+    "categories": [
+      "临床智能体与医生协作",
+      "临床安全",
+      "医学基础模型与多模态"
+    ],
+    "tags": [
+      "严格最新",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对Nature Communications出版商摘要和上线日期",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对Nature Communications出版商摘要和上线日期",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
+  },
+  {
+    "id": "doi-s41591-026-04655-5",
+    "doi": "10.1038/s41591-026-04655-5",
+    "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
+    "title_zh": "可细粒度解释的临床多模态视觉语言基础模型EVLF-FM",
+    "journal": "Nature Medicine",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "医学基础模型与多模态",
+    "study_type": "模型开发及多数据集外部验证；>130万样本18数据集；13443外部样本17数据集",
+    "source_url": "https://www.nature.com/articles/s41591-026-04655-5",
+    "description": "EVLF-FM整合10种影像模态、6个专科，支持分类、视觉问答和像素级证据定位。内部诊断平均准确率0.895、视觉定位Acc@0.5=0.842，外部测试13443份；人工解释评价均分4.25/5。SFT与视觉强化微调可供多模态解释研究参考，但模型以医学影像为主，不能直接推断可用于麻醉EEG/BIS或改善临床结局。",
+    "categories": [
+      "医学基础模型与多模态",
+      "临床安全"
+    ],
+    "tags": [
+      "严格最新",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
   }
 ]
