@@ -3,7 +3,7 @@
   "brief_date": "2026-10-30",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "当日实际简报完整可取；Sites已补写并回读，GitHub等待本批提交回读。",
+  "brief_status": "当天完整简报与公开交接已对齐两端；管理员写入、GitHub回读及主站公开数据比对通过。",
   "sites": {
     "status": "success",
     "brief_alignment_status": "success",
@@ -15,8 +15,24 @@
     "verification": "管理员POST后GET回读，全部改动和旧ID保留已核对；公开只读权限、Sites版本10未改。"
   },
   "github": {
-    "status": "pending",
-    "brief_alignment_status": "pending"
+    "status": "success",
+    "brief_alignment_status": "success",
+    "papers": 357,
+    "opportunities": 30,
+    "curated_papers": 121,
+    "verified_at": "2026-10-30T00:11:43.706Z",
+    "readback_commit": "a3d48164ae25a6f981c920a094d8f9b3d0f951fb",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/history_import.json",
+      "data/daily_updates/2026-10-30.json",
+      "data/brief_sync_status.json",
+      "data/article_summaries.json",
+      "data/daily_briefs/2026-10-30.json"
+    ],
+    "verification": "原子数据提交后逐文件回读，既有自动更新完成后再次核对；旧ID、今日同组4篇及人工精读摘要SHA保留。"
   },
   "selected_paper_ids": [
     "doi-s41551-026-01777-6",
@@ -34,7 +50,9 @@
     "opportunities_checked": 11,
     "opportunities_unresolved": 6,
     "journals_checked": 51,
-    "journals_unavailable": 1
+    "journals_unavailable": 1,
+    "github_new_records": 0,
+    "github_modified_records": 4
   },
   "brief_catchup": {
     "window_start": "2026-10-24",
@@ -771,9 +789,13 @@
     }
   },
   "frontend": {
-    "status": "not_verified",
+    "status": "success",
     "canonical_url": "https://kudotoras.github.io/anes-ai/",
-    "verified_at": null,
-    "verification": "已核验GitHub默认分支数据；本次未完成GitHub Pages公开前端数据回读，不能将仓库数据回读等同网站已发布。"
+    "verified_at": "2026-10-30T00:11:43.710Z",
+    "papers": 357,
+    "opportunities": 30,
+    "history_dates": 25,
+    "daily_selected": 4,
+    "verification": "既有自动Pages发布成功后，直接GET公开研究、机会、历史索引与当日简报JSON，逐条比对一致；Sites未改源码或重新部署。"
   }
 }
