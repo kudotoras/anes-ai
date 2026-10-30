@@ -55,6 +55,313 @@
     "ingested_date": "2026-10-29"
   },
   {
+    "id": "pubmed-42952284",
+    "pmid": "42952284",
+    "doi": "10.1111/nicc.70753",
+    "title": "The Use of Artificial Intelligence in Creating Educational Material for Critical Care Clinicians: A Survey.",
+    "title_zh": "",
+    "journal": "Nursing in critical care",
+    "date": "2026-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952284/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42952327",
+    "pmid": "42952327",
+    "doi": "10.1111/nicc.70763",
+    "title": "Clinical Phenotypes, Machine-Learning Risk Stratification and Treatment Outcomes of Constipation in Stroke Patients Receiving Enteral Nutrition: A Retrospective Study.",
+    "title_zh": "",
+    "journal": "Nursing in critical care",
+    "date": "2026-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952327/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "doi-s41551-026-01777-6",
+    "doi": "10.1038/s41551-026-01777-6",
+    "title": "Optimal closed-loop feedback control of blood flow after spinal cord injury with norepinephrine",
+    "title_zh": "以脊髓血流为反馈的去甲肾上腺素闭环控制：大鼠与猪实验",
+    "journal": "Nature Biomedical Engineering",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "精准麻醉",
+    "study_type": "多阶段前临床闭环控制实验；大鼠和猪；非人体给药试验",
+    "source_url": "https://www.nature.com/articles/s41551-026-01777-6",
+    "description": "用超声测得脊髓血流速度，基于传递函数和H∞鲁棒控制实时调整去甲肾上腺素。大鼠快速MAP挑战中闭环血流RMS误差10.0%对开放给药22.6%，生存实验每组4只大鼠；猪实验显示可迁移性但主要为少量动物及技术重复。提示器官灌注直接反馈与药物给药控制的区别；尚非临床疗效证据。",
+    "categories": [
+      "精准麻醉",
+      "强化学习与数字孪生",
+      "闭环给药"
+    ],
+    "tags": [
+      "严格最新",
+      "直接相关",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对出版商论文摘要、方法和实验结果；非患者临床试验",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对出版商论文摘要、方法和实验结果；非患者临床试验",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
+  },
+  {
+    "id": "doi-s43018-026-01264-6",
+    "doi": "10.1038/s43018-026-01264-6",
+    "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study",
+    "title_zh": "临床Agent提取免疫相关不良事件：回顾、前瞻静默运行及随机交叉评价",
+    "journal": "Nature Cancer",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "临床智能体与医生协作",
+    "study_type": "263份病历回顾性测试、884份病历3个月前瞻静默验证、17名人员随机交叉实验；先前已有预印本",
+    "source_url": "https://www.nature.com/articles/s43018-026-01264-6",
+    "description": "6种irAE的事件检测F1=0.92、细分严重度分级F1=0.66；前瞻静默运行F1降至0.72–0.79。17人交叉试验316个有效计时观察，AI辅助缩短注释时间2.71分钟、完整匹配准确率OR=1.45、提高评分者一致性；证据原文高亮和多阶段分级可借鉴CCI自动抽取。单医疗系统且无患者结局验证，2026年较早已有预印本，10月29日期刊正式上线。",
+    "categories": [
+      "临床智能体与医生协作",
+      "真实世界部署",
+      "临床安全"
+    ],
+    "tags": [
+      "严格最新",
+      "直接相关",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对Nature Cancer原始论文、样本和前瞻/随机研究设计；2026-10-29为期刊上线而非首次公开",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对Nature Cancer原始论文、样本和前瞻/随机研究设计；2026-10-29为期刊上线而非首次公开",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
+  },
+  {
+    "id": "doi-s41467-026-78520-x",
+    "doi": "10.1038/s41467-026-78520-x",
+    "title": "The accuracy-safety trade-off of large reasoning models in clinical diagnostics",
+    "title_zh": "医疗推理大模型的准确性与安全权衡：假阳性、可重复性和医生复核",
+    "journal": "Nature Communications",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "临床智能体与医生协作",
+    "study_type": "基于真实EHR的诊断基准；6组匹配模型、12专科；15名医生受控验证",
+    "source_url": "https://www.nature.com/articles/s41467-026-78520-x",
+    "description": "与常规LLM相比，推理模型生成的假阳性诊断多34%以上，可重复性约低40%，虽改善主诊断与鉴别诊断；15名医生的结构化协作实验准确率提高20%、假阳性减少44%。结果来自受控回顾性环境，不是前瞻患者结局试验。对麻醉智能体的错误建议拦截率、输出一致性和人工确认评价有直接方法价值。",
+    "categories": [
+      "临床智能体与医生协作",
+      "临床安全",
+      "医学基础模型与多模态"
+    ],
+    "tags": [
+      "严格最新",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对Nature Communications出版商摘要和上线日期",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对Nature Communications出版商摘要和上线日期",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
+  },
+  {
+    "id": "doi-s41591-026-04655-5",
+    "doi": "10.1038/s41591-026-04655-5",
+    "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
+    "title_zh": "可细粒度解释的临床多模态视觉语言基础模型EVLF-FM",
+    "journal": "Nature Medicine",
+    "epub_date": "2026-10-29",
+    "issue_date": null,
+    "topic": "医学基础模型与多模态",
+    "study_type": "模型开发及多数据集外部验证；>130万样本18数据集；13443外部样本17数据集",
+    "source_url": "https://www.nature.com/articles/s41591-026-04655-5",
+    "description": "EVLF-FM整合10种影像模态、6个专科，支持分类、视觉问答和像素级证据定位。内部诊断平均准确率0.895、视觉定位Acc@0.5=0.842，外部测试13443份；人工解释评价均分4.25/5。SFT与视觉强化微调可供多模态解释研究参考，但模型以医学影像为主，不能直接推断可用于麻醉EEG/BIS或改善临床结局。",
+    "categories": [
+      "医学基础模型与多模态",
+      "临床安全"
+    ],
+    "tags": [
+      "严格最新",
+      "方法可迁移"
+    ],
+    "verification_scope": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
+    "date": "2026-10-29",
+    "status": "已核验出版社摘要及部分方法结果",
+    "verifiedOn": "2026-10-30",
+    "verification": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-10-30"
+    ],
+    "brief_date_sources": {
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-10-30"
+    ],
+    "source_type": "publisher_original",
+    "origin": "麻醉AI科研简报"
+  },
+  {
+    "id": "pubmed-42955499",
+    "pmid": "42955499",
+    "doi": "10.1007/s10459-026-10590-4",
+    "title": "Toward multimodal physiological assessment of clinical performance in simulation-based medical education: a machine learning approach.",
+    "title_zh": "",
+    "journal": "Advances in health sciences education : theory and practice",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42955499/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42955613",
+    "pmid": "42955613",
+    "doi": "10.1007/s10140-026-02558-z",
+    "title": "Portable ultra-low field MRI in neurocritical care and intensive care units: A systematic review of diagnostic performance and feasibility.",
+    "title_zh": "",
+    "journal": "Emergency radiology",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42955613/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42955117",
+    "pmid": "42955117",
+    "doi": "10.1007/s00520-026-11401-7",
+    "title": "AI-facilitated individualized nutritional guidance with ABC-structured prompts improves short-term dietary intake adequacy and patient-reported symptoms after gastrointestinal cancer surgery: a randomized controlled trial.",
+    "title_zh": "",
+    "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42955117/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42954287",
+    "pmid": "42954287",
+    "doi": "10.1093/ajrccm/aamag582",
+    "title": "The Future of AI in Critical Care: An Exploration in Ten Parables.",
+    "title_zh": "",
+    "journal": "American journal of respiratory and critical care medicine",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42954287/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42955501",
+    "pmid": "42955501",
+    "doi": "10.1007/s11701-026-04128-4",
+    "title": "Robot-assisted gastrectomy for locally advanced gastric cancer and complex clinical scenarios: technical evolution, evidence gaps, and future directions.",
+    "title_zh": "",
+    "journal": "Journal of robotic surgery",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42955501/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42955869",
+    "pmid": "42955869",
+    "doi": "10.4103/NRR.NRRONLINE-D-26-00810",
+    "title": "Arousal-related neural circuits in consciousness disorders: Updated model integrating ascending reticular activating system and mesocircuit.",
+    "title_zh": "",
+    "journal": "Neural regeneration research",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42955869/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42951849",
+    "pmid": "42951849",
+    "doi": "10.3760/cma.j.cn112139-20260402-00140",
+    "title": "[A clinical study on predicting the surgical difficulty of robot-assisted total thyroidectomy combined with lateral cervical lymph node dissection based on machine learning algorithms].",
+    "title_zh": "",
+    "journal": "Zhonghua wai ke za zhi [Chinese journal of surgery]",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42951849/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42955763",
+    "pmid": "42955763",
+    "doi": "10.1109/TMI.2026.3745506",
+    "title": "GeoMind: Dancing with Geometric Brain Rhythm on Symmetric Positive Definite Manifolds.",
+    "title_zh": "",
+    "journal": "IEEE transactions on medical imaging",
+    "date": "2026-10-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42955763/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
     "id": "pubmed-42949674",
     "pmid": "42949674",
     "doi": "10.1016/j.jacc.2026.09.019",
@@ -98,6 +405,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-29"
+  },
+  {
+    "id": "pubmed-42955309",
+    "pmid": "42955309",
+    "doi": "10.1007/s00266-026-06392-z",
+    "title": "Artificial Intelligence in Facelift Surgery: A Systematic Review of Objective Outcome Assessment and Patient-Perceived Rejuvenation.",
+    "title_zh": "",
+    "journal": "Aesthetic plastic surgery",
+    "date": "2026-10-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42955309/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
   },
   {
     "id": "pubmed-42944909",
@@ -273,6 +595,21 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "pubmed-42954146",
+    "pmid": "42954146",
+    "doi": "10.2196/111475",
+    "title": "Clinical Readiness of Vital Sign-Based Sepsis Prediction.",
+    "title_zh": "",
+    "journal": "JMIR medical informatics",
+    "date": "2026-10-27",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42954146/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
   },
   {
     "id": "pubmed-42932211",
@@ -3409,6 +3746,111 @@
     "needs_review": true,
     "selection_source": null,
     "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-42952602",
+    "pmid": "42952602",
+    "doi": "10.3389/fimmu.2026.1931628",
+    "title": "Integrated transcriptomic and functional analyses identify LAIR1 as a key immunoregulatory molecule in postoperative sepsis.",
+    "title_zh": "",
+    "journal": "Frontiers in immunology",
+    "date": "2026-10-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952602/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42952730",
+    "pmid": "42952730",
+    "doi": "10.3389/fcimb.2026.1967577",
+    "title": "Machine learning-based risk prediction for invasive pulmonary aspergillosis in non-neutropenic intensive care unit patients, with an exploratory analysis of pathogen-related risk factors.",
+    "title_zh": "",
+    "journal": "Frontiers in cellular and infection microbiology",
+    "date": "2026-10-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952730/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42952529",
+    "pmid": "42952529",
+    "doi": "10.3389/fonc.2026.1848924",
+    "title": "Preoperative versus postoperative single-fraction or fractionated stereotactic radiosurgery for resected brain metastases: a systematic review and network meta-analysis.",
+    "title_zh": "",
+    "journal": "Frontiers in oncology",
+    "date": "2026-10-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952529/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42953249",
+    "pmid": "42953249",
+    "doi": "10.3389/fmed.2026.1903005",
+    "title": "Development and validation of a machine learning-based prediction model for emergence agitation in geriatric patients undergoing orthopedic surgery: a prospective cohort study.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-10-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42953249/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42952783",
+    "pmid": "42952783",
+    "doi": "10.3389/fmed.2026.1959885",
+    "title": "Development and multi-database validation of machine learning models for 28-day mortality prediction in ICU patients with COPD and pulmonary hypertension.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-10-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952783/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42952539",
+    "pmid": "42952539",
+    "doi": "10.3389/fonc.2026.1984365",
+    "title": "Multiparametric MRI radiomics for preoperative prediction of tumor budding grade in rectal cancer.",
+    "title_zh": "",
+    "journal": "Frontiers in oncology",
+    "date": "2026-10-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952539/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42952486",
+    "pmid": "42952486",
+    "doi": "10.3389/fendo.2026.1963622",
+    "title": "Interprofessional collaboration in emergency department nursing care for patients with diabetic ketoacidosis: a narrative review.",
+    "title_zh": "",
+    "journal": "Frontiers in endocrinology",
+    "date": "2026-10-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952486/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-10-30"
   },
   {
     "id": "paper_54832d55ba13",
@@ -8339,162 +8781,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-s41551-026-01777-6",
-    "doi": "10.1038/s41551-026-01777-6",
-    "title": "Optimal closed-loop feedback control of blood flow after spinal cord injury with norepinephrine",
-    "title_zh": "以脊髓血流为反馈的去甲肾上腺素闭环控制：大鼠与猪实验",
-    "journal": "Nature Biomedical Engineering",
-    "epub_date": "2026-10-29",
-    "issue_date": null,
-    "topic": "精准麻醉",
-    "study_type": "多阶段前临床闭环控制实验；大鼠和猪；非人体给药试验",
-    "source_url": "https://www.nature.com/articles/s41551-026-01777-6",
-    "description": "用超声测得脊髓血流速度，基于传递函数和H∞鲁棒控制实时调整去甲肾上腺素。大鼠快速MAP挑战中闭环血流RMS误差10.0%对开放给药22.6%，生存实验每组4只大鼠；猪实验显示可迁移性但主要为少量动物及技术重复。提示器官灌注直接反馈与药物给药控制的区别；尚非临床疗效证据。",
-    "categories": [
-      "精准麻醉",
-      "强化学习与数字孪生",
-      "闭环给药"
-    ],
-    "tags": [
-      "严格最新",
-      "直接相关",
-      "方法可迁移"
-    ],
-    "verification_scope": "2026-10-30核对出版商论文摘要、方法和实验结果；非患者临床试验",
-    "date": "2026-10-29",
-    "status": "已核验出版社摘要及部分方法结果",
-    "verifiedOn": "2026-10-30",
-    "verification": "2026-10-30核对出版商论文摘要、方法和实验结果；非患者临床试验",
-    "needs_review": false,
-    "brief_dates": [
-      "2026-10-30"
-    ],
-    "brief_date_sources": {
-      "2026-10-30": "麻醉AI科研简报"
-    },
-    "selection_dates": [
-      "2026-10-30"
-    ],
-    "source_type": "publisher_original",
-    "origin": "麻醉AI科研简报"
-  },
-  {
-    "id": "doi-s43018-026-01264-6",
-    "doi": "10.1038/s43018-026-01264-6",
-    "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study",
-    "title_zh": "临床Agent提取免疫相关不良事件：回顾、前瞻静默运行及随机交叉评价",
-    "journal": "Nature Cancer",
-    "epub_date": "2026-10-29",
-    "issue_date": null,
-    "topic": "临床智能体与医生协作",
-    "study_type": "263份病历回顾性测试、884份病历3个月前瞻静默验证、17名人员随机交叉实验；先前已有预印本",
-    "source_url": "https://www.nature.com/articles/s43018-026-01264-6",
-    "description": "6种irAE的事件检测F1=0.92、细分严重度分级F1=0.66；前瞻静默运行F1降至0.72–0.79。17人交叉试验316个有效计时观察，AI辅助缩短注释时间2.71分钟、完整匹配准确率OR=1.45、提高评分者一致性；证据原文高亮和多阶段分级可借鉴CCI自动抽取。单医疗系统且无患者结局验证，2026年较早已有预印本，10月29日期刊正式上线。",
-    "categories": [
-      "临床智能体与医生协作",
-      "真实世界部署",
-      "临床安全"
-    ],
-    "tags": [
-      "严格最新",
-      "直接相关",
-      "方法可迁移"
-    ],
-    "verification_scope": "2026-10-30核对Nature Cancer原始论文、样本和前瞻/随机研究设计；2026-10-29为期刊上线而非首次公开",
-    "date": "2026-10-29",
-    "status": "已核验出版社摘要及部分方法结果",
-    "verifiedOn": "2026-10-30",
-    "verification": "2026-10-30核对Nature Cancer原始论文、样本和前瞻/随机研究设计；2026-10-29为期刊上线而非首次公开",
-    "needs_review": false,
-    "brief_dates": [
-      "2026-10-30"
-    ],
-    "brief_date_sources": {
-      "2026-10-30": "麻醉AI科研简报"
-    },
-    "selection_dates": [
-      "2026-10-30"
-    ],
-    "source_type": "publisher_original",
-    "origin": "麻醉AI科研简报"
-  },
-  {
-    "id": "doi-s41467-026-78520-x",
-    "doi": "10.1038/s41467-026-78520-x",
-    "title": "The accuracy-safety trade-off of large reasoning models in clinical diagnostics",
-    "title_zh": "医疗推理大模型的准确性与安全权衡：假阳性、可重复性和医生复核",
-    "journal": "Nature Communications",
-    "epub_date": "2026-10-29",
-    "issue_date": null,
-    "topic": "临床智能体与医生协作",
-    "study_type": "基于真实EHR的诊断基准；6组匹配模型、12专科；15名医生受控验证",
-    "source_url": "https://www.nature.com/articles/s41467-026-78520-x",
-    "description": "与常规LLM相比，推理模型生成的假阳性诊断多34%以上，可重复性约低40%，虽改善主诊断与鉴别诊断；15名医生的结构化协作实验准确率提高20%、假阳性减少44%。结果来自受控回顾性环境，不是前瞻患者结局试验。对麻醉智能体的错误建议拦截率、输出一致性和人工确认评价有直接方法价值。",
-    "categories": [
-      "临床智能体与医生协作",
-      "临床安全",
-      "医学基础模型与多模态"
-    ],
-    "tags": [
-      "严格最新",
-      "方法可迁移"
-    ],
-    "verification_scope": "2026-10-30核对Nature Communications出版商摘要和上线日期",
-    "date": "2026-10-29",
-    "status": "已核验出版社摘要及部分方法结果",
-    "verifiedOn": "2026-10-30",
-    "verification": "2026-10-30核对Nature Communications出版商摘要和上线日期",
-    "needs_review": false,
-    "brief_dates": [
-      "2026-10-30"
-    ],
-    "brief_date_sources": {
-      "2026-10-30": "麻醉AI科研简报"
-    },
-    "selection_dates": [
-      "2026-10-30"
-    ],
-    "source_type": "publisher_original",
-    "origin": "麻醉AI科研简报"
-  },
-  {
-    "id": "doi-s41591-026-04655-5",
-    "doi": "10.1038/s41591-026-04655-5",
-    "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
-    "title_zh": "可细粒度解释的临床多模态视觉语言基础模型EVLF-FM",
-    "journal": "Nature Medicine",
-    "epub_date": "2026-10-29",
-    "issue_date": null,
-    "topic": "医学基础模型与多模态",
-    "study_type": "模型开发及多数据集外部验证；>130万样本18数据集；13443外部样本17数据集",
-    "source_url": "https://www.nature.com/articles/s41591-026-04655-5",
-    "description": "EVLF-FM整合10种影像模态、6个专科，支持分类、视觉问答和像素级证据定位。内部诊断平均准确率0.895、视觉定位Acc@0.5=0.842，外部测试13443份；人工解释评价均分4.25/5。SFT与视觉强化微调可供多模态解释研究参考，但模型以医学影像为主，不能直接推断可用于麻醉EEG/BIS或改善临床结局。",
-    "categories": [
-      "医学基础模型与多模态",
-      "临床安全"
-    ],
-    "tags": [
-      "严格最新",
-      "方法可迁移"
-    ],
-    "verification_scope": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
-    "date": "2026-10-29",
-    "status": "已核验出版社摘要及部分方法结果",
-    "verifiedOn": "2026-10-30",
-    "verification": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
-    "needs_review": false,
-    "brief_dates": [
-      "2026-10-30"
-    ],
-    "brief_date_sources": {
-      "2026-10-30": "麻醉AI科研简报"
-    },
-    "selection_dates": [
-      "2026-10-30"
-    ],
-    "source_type": "publisher_original",
-    "origin": "麻醉AI科研简报"
   }
 ]
