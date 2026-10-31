@@ -3,7 +3,7 @@
   "brief_date": "2026-10-31",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "2026-10-31已生成公开简报3篇精选并保存GitHub交接；Sites独立更新已由另一任务回读，但本期简报条目未通过Sites管理员接口写入/回读，仍待补齐。",
+  "brief_status": "10月31日聊天简报3篇精选、5项比赛、6项会议已提交GitHub并回读；Sites本日独立更新成功，但尚未将本期简报条目合并写入及回读。",
   "sites": {
     "status": "partial",
     "independent_update_status": "success",
@@ -16,24 +16,22 @@
     "verification": "保留2026-10-31独立任务已验证的Sites revision；本期简报写入未执行，不能把独立成功视为简报对齐成功。"
   },
   "github": {
-    "status": "pending",
+    "status": "success",
     "independent_update_status": "success",
-    "brief_alignment_status": "pending",
+    "brief_alignment_status": "success",
     "papers": 373,
     "opportunities": 31,
     "curated_papers": 3,
-    "verified_at": "2026-10-31T00:05:09.562Z",
-    "readback_commit": "f5eab7737b2bdc83bf200fabb61175691e4e32e6",
+    "verified_at": "2026-10-31T00:07:54.511Z",
+    "readback_commit": "88e12128bebb0792ad4eab6fbe1a5d10b32b745f",
     "readback_files": [
       "data/research.json",
       "data/opportunities.json",
       "data/history_briefs.json",
-      "data/history_import.json",
-      "data/daily_updates/2026-10-31.json",
-      "data/brief_sync_status.json",
-      "data/article_summaries.json"
+      "data/daily_briefs/2026-10-31.json",
+      "data/brief_sync_status.json"
     ],
-    "verification": "本次数据待提交及回读；禁止在核验前标success。"
+    "verification": "2026-10-31 GitHub原子提交后重新读取五个文件，核验3篇研究、5项比赛、6项会议、26个历史日期；已保留既有精读摘要。"
   },
   "selected_paper_ids": [
     "doi-10-2196-97456",
@@ -68,7 +66,7 @@
     "latest_actual_result_completed": true,
     "latest_actual_content_truncated": false,
     "today_handoff_available": true,
-    "today": "github_write_pending_site_alignment_pending",
+    "today": "github_success_sites_pending",
     "audit": [
       {
         "date": "2026-10-25",
@@ -105,7 +103,9 @@
         "source_type": "published_daily_brief",
         "missing": [
           "sites_brief_alignment"
-        ]
+        ],
+        "github": "success",
+        "sites": "pending"
       }
     ],
     "missing_prior_catalog_references": 0,
