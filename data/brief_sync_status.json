@@ -3,9 +3,9 @@
   "brief_date": "2026-10-31",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "独立维护已完成两端写入回读及公开主站验证；10月31日简报正在生成，尚未取得正文或公开交接，待对齐。",
+  "brief_status": "2026-10-31已生成公开简报3篇精选并保存GitHub交接；Sites独立更新已由另一任务回读，但本期简报条目未通过Sites管理员接口写入/回读，仍待补齐。",
   "sites": {
-    "status": "success",
+    "status": "partial",
     "independent_update_status": "success",
     "brief_alignment_status": "pending",
     "revision": "96213fb0-7b41-42ba-b2d4-cac1eac3b46c",
@@ -13,15 +13,15 @@
     "papers": 101,
     "opportunities": 20,
     "verified_at": "2026-10-31T00:03:02.208Z",
-    "verification": "管理员POST后GET回读核对全部改动及旧ID；日常未修改Sites源码、权限或部署。"
+    "verification": "保留2026-10-31独立任务已验证的Sites revision；本期简报写入未执行，不能把独立成功视为简报对齐成功。"
   },
   "github": {
-    "status": "success",
+    "status": "pending",
     "independent_update_status": "success",
     "brief_alignment_status": "pending",
-    "papers": 371,
+    "papers": 373,
     "opportunities": 31,
-    "curated_papers": 122,
+    "curated_papers": 3,
     "verified_at": "2026-10-31T00:05:09.562Z",
     "readback_commit": "f5eab7737b2bdc83bf200fabb61175691e4e32e6",
     "readback_files": [
@@ -33,9 +33,13 @@
       "data/brief_sync_status.json",
       "data/article_summaries.json"
     ],
-    "verification": "逐文件回读、自动更新后再次核对；本批全部改动和旧ID保留，11条并行自动新增题录保留，人工精读摘要SHA未变。"
+    "verification": "本次数据待提交及回读；禁止在核验前标success。"
   },
-  "selected_paper_ids": [],
+  "selected_paper_ids": [
+    "doi-10-2196-97456",
+    "pubmed-42954287",
+    "doi-ane-bis-volunteers-2026"
+  ],
   "counts": {
     "site_new_papers": 1,
     "site_modified_papers": 0,
@@ -43,24 +47,28 @@
     "site_modified_opportunities": 14,
     "independent_new_bibliography": 2,
     "independent_reviewed": 1,
-    "daily_selected": 0,
-    "brief_pending": true,
+    "daily_selected": 3,
+    "brief_pending": false,
     "opportunities_checked": 9,
     "opportunities_unresolved": 8,
     "journals_checked": 53,
     "journals_unavailable": 1,
     "github_new_records": 2,
     "github_modified_records": 1,
-    "parallel_automatic_bibliography_added": 11
+    "parallel_automatic_bibliography_added": 11,
+    "brief_new_papers": 2,
+    "brief_existing_papers": 1,
+    "brief_competitions": 5,
+    "brief_conferences": 6
   },
   "brief_catchup": {
     "window_start": "2026-10-25",
     "window_end": "2026-10-31",
-    "latest_actual_result_date": "2026-10-30",
+    "latest_actual_result_date": "2026-10-31",
     "latest_actual_result_completed": true,
     "latest_actual_content_truncated": false,
-    "today_handoff_available": false,
-    "today": "generating_pending_alignment",
+    "today_handoff_available": true,
+    "today": "github_write_pending_site_alignment_pending",
     "audit": [
       {
         "date": "2026-10-25",
@@ -91,10 +99,17 @@
         "date": "2026-10-30",
         "source_type": "published_daily_brief",
         "missing": []
+      },
+      {
+        "date": "2026-10-31",
+        "source_type": "published_daily_brief",
+        "missing": [
+          "sites_brief_alignment"
+        ]
       }
     ],
     "missing_prior_catalog_references": 0,
-    "note": "未把上一期当今天；未创建虚假的daily_briefs/2026-10-31.json，保留已有非空交接文件。"
+    "note": "已回溯10月25—30日交接文件，均存在；今天新增交接文件按DOI去重，旧ID/精读摘要保留。"
   },
   "failures": [
     {
@@ -134,8 +149,8 @@
       "reason": "arXiv最新排序关键词页面不可读取，未以PubMed零命中替代预印本核验。"
     },
     {
-      "id": "brief-2026-10-31",
-      "reason": "当前实际简报结果仍为10月30日，未取得31日正文或交接；当日待生成/待对齐。"
+      "id": "brief-2026-10-31-sites",
+      "reason": "Sites独立任务本日成功，但本次无法使用get_site及管理员更新接口；未将本期简报3篇/5赛/6会写入Sites并回读。"
     }
   ],
   "journal_checks": [
@@ -576,7 +591,9 @@
     "53份期刊完成PubMed限定检索，不代表未索引论文、出版商全部ToC和全文已穷尽。",
     "独立核验营养RCT存在招募月份表述不一致；保留摘要、方法核验范围与待复核标记，不列精选。",
     "新增2条AI题录待核实，不计精选。今日不足3篇合格新推荐，不重复旧文凑数。",
-    "AIC及AI+医疗按已知10月30日截止归档，未取得延期证据；中关村领域赛与全年起点赛分列，不误用截止日期。"
+    "AIC及AI+医疗按已知10月30日截止归档，未取得延期证据；中关村领域赛与全年起点赛分列，不误用截止日期。",
+    "2026-10-31本期直接核验JMIR病历质控、AJRCCM观点综述、PubMed健康志愿者BIS试验；其他待核验题录未进入精选。",
+    "Sites独立任务成功不等于本期聊天简报已对齐；无法获取get_site及短期凭据，本期Sites仍待补。"
   ],
   "previous_syncs": {
     "0": {
@@ -1227,13 +1244,13 @@
     }
   },
   "frontend": {
-    "status": "success",
+    "status": "pending",
     "canonical_url": "https://kudotoras.github.io/anes-ai/",
     "verified_at": "2026-10-31T00:05:09.574Z",
     "papers": 371,
     "opportunities": 31,
     "history_dates": 25,
     "daily_selected": 0,
-    "verification": "既有自动Pages发布成功后，直接读取公开研究、机会、历史索引和独立维护交接，提交条目完整且一致；未伪造当日聊天简报。"
+    "verification": "本期GitHub仓库尚待提交和回读；Pages前端未验证新版本，保留此前已核验日期。"
   }
 }
