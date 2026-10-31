@@ -3,7 +3,7 @@
   "brief_date": "2026-10-31",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "10月31日简报新增核验第二届全国人工智能应用创新大赛；GitHub更新及回读待完成，Sites独立更新成功但简报待对齐。",
+  "brief_status": "2026-10-31已完成GitHub本期简报增量合并和回读，Sites独立更新成功，但本期简报条目仍待Sites管理员接口写入回读。",
   "sites": {
     "status": "partial",
     "independent_update_status": "success",
@@ -16,14 +16,14 @@
     "verification": "保留2026-10-31独立任务已验证的Sites revision；本期简报写入未执行，不能把独立成功视为简报对齐成功。"
   },
   "github": {
-    "status": "pending",
+    "status": "success",
     "independent_update_status": "success",
-    "brief_alignment_status": "pending",
+    "brief_alignment_status": "success",
     "papers": 373,
     "opportunities": 31,
     "curated_papers": 3,
-    "verified_at": "2026-10-31T00:07:54.511Z",
-    "readback_commit": "88e12128bebb0792ad4eab6fbe1a5d10b32b745f",
+    "verified_at": "2026-10-31T00:09:03.042Z",
+    "readback_commit": "d3037d7e7a9273303adfca86b2b47f28d4d808a6",
     "readback_files": [
       "data/research.json",
       "data/opportunities.json",
@@ -31,7 +31,7 @@
       "data/daily_briefs/2026-10-31.json",
       "data/brief_sync_status.json"
     ],
-    "verification": "新赛事实核后更新中，待回读。"
+    "verification": "2026-10-31在并行PubMed更新后基于最新main重新合并，五文件回读：373文献、31机会、26简报日期；10月31日3文/6赛/6会，新增医疗Agent赛事已核验。"
   },
   "selected_paper_ids": [
     "doi-10-2196-97456",
@@ -103,7 +103,9 @@
         "source_type": "published_daily_brief",
         "missing": [
           "sites_brief_alignment"
-        ]
+        ],
+        "github": "success",
+        "sites": "pending"
       }
     ],
     "missing_prior_catalog_references": 0,
