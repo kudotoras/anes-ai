@@ -766,6 +766,33 @@
     "site_catalog_id": "competition-zgc-frontier-2026"
   },
   {
+    "id": "competition-zgc-qidian-2026",
+    "title": "第十届中关村国际前沿科技大赛 · 起点赛（全年征集）",
+    "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
+    "date": "2026-08-21",
+    "announcement_date": "2026-08-21",
+    "deadline": null,
+    "deadlineLabel": "全年常态化征集，非10月31日领域赛截止",
+    "category": "competition",
+    "topic": "医疗AI成果转化",
+    "description": "当届官方公告面向高校、科研院所、重点实验室等创新源头，全年征集；早期项目团队及2025年8月1日后成立的初创企业可参赛。已报名领域赛者不可重复。每期加速营择优评3—5个起点之星、每项10万元；政策支持有条件，报名费未明确。",
+    "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
+    "status": "open",
+    "sources": [
+      {
+        "label": "北京市科委2026启动公告",
+        "url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html"
+      },
+      {
+        "label": "中科院国科控股征集通知",
+        "url": "https://www.holdings.cas.cn/tzgg2015/202609/t20260916_8283567.html"
+      }
+    ],
+    "verifiedOn": "2026-10-31",
+    "verificationNote": "2026-10-31北京市科委原始公告分赛制核验；起点赛独立索引，避免被领域赛截止日期误关闭。",
+    "site_catalog_id": "competition-zgc-qidian-2026"
+  },
+  {
     "id": "conference_7f04effad7",
     "title": "CONNECT.Albania会议（历史摘要机会）",
     "organizer": "待核实",
@@ -986,32 +1013,5 @@
     "verification_failure": "2026-10-31 仅有CCF首页，未取得当届具体CNCC征集通知。",
     "brief_dates": [],
     "brief_date_sources": {}
-  },
-  {
-    "id": "competition-zgc-qidian-2026",
-    "title": "第十届中关村国际前沿科技大赛 · 起点赛（全年征集）",
-    "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
-    "date": "2026-08-21",
-    "announcement_date": "2026-08-21",
-    "deadline": null,
-    "deadlineLabel": "全年常态化征集，非10月31日领域赛截止",
-    "category": "competition",
-    "topic": "医疗AI成果转化",
-    "description": "当届官方公告面向高校、科研院所、重点实验室等创新源头，全年征集；早期项目团队及2025年8月1日后成立的初创企业可参赛。已报名领域赛者不可重复。每期加速营择优评3—5个起点之星、每项10万元；政策支持有条件，报名费未明确。",
-    "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
-    "status": "open",
-    "sources": [
-      {
-        "label": "北京市科委2026启动公告",
-        "url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html"
-      },
-      {
-        "label": "中科院国科控股征集通知",
-        "url": "https://www.holdings.cas.cn/tzgg2015/202609/t20260916_8283567.html"
-      }
-    ],
-    "verifiedOn": "2026-10-31",
-    "verificationNote": "2026-10-31北京市科委原始公告分赛制核验；起点赛独立索引，避免被领域赛截止日期误关闭。",
-    "site_catalog_id": "competition-zgc-qidian-2026"
   }
 ]
