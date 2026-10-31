@@ -755,6 +755,39 @@
     "ingested_date": "2026-10-30"
   },
   {
+    "id": "doi-10-2196-97456",
+    "doi": "10.2196/97456",
+    "title": "Real-Time Medical Record Quality Control System (MRQCS): Development and Retrospective Longitudinal Observational Study",
+    "journal": "JMIR Medical Informatics",
+    "date": "2026-10-27",
+    "epub_date": "2026-10-27",
+    "issue_date": "2026-10-27",
+    "study_type": "单中心真实世界系统部署评价；2019—2025年84个月中断时间序列；43,324例住院病案、19名主要审核人员",
+    "source_url": "https://medinform.jmir.org/2026/1/e97456/",
+    "description": "北京大学第三医院真实世界病历质控系统：规则库从41扩展至597条；43,324例病案、84个月；AI辅助后审核者ICC由0.782降至0.317，审核一致性提升。固定41规则集分析区分检测能力提高与实际质量改善；2025年出院拦截措施后残留缺陷率下降。单中心分阶段实施观察性研究，不能把变化完全归因于AI。对CCI Agent建议采用固定规则对照、中断时间序列、审核者一致性和人工回写率。",
+    "verification_scope": "2026-10-31查阅JMIR正式全文摘要、方法、表格和局限；非独立外部验证",
+    "tags": [
+      "严格最新",
+      "直接相关",
+      "真实世界部署",
+      "方法可迁移"
+    ],
+    "topic": "临床智能体与医疗文书",
+    "brief_dates": [
+      "2026-10-31"
+    ],
+    "brief_date_sources": {
+      "2026-10-31": "麻醉AI科研简报"
+    },
+    "verifiedOn": "2026-10-31",
+    "needs_review": false,
+    "status": "已核验原始摘要与研究设计·未人工全文精读",
+    "origin": "麻醉AI科研简报",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
     "id": "pubmed-42932211",
     "pmid": "42932211",
     "doi": "10.1109/TMI.2026.3747021",
@@ -4054,6 +4087,39 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "doi-ane-bis-volunteers-2026",
+    "pmid": "42873975",
+    "doi": "10.1213/ANE.0000000000008332",
+    "title": "Characterization of the Bispectral Index in Healthy Volunteers Receiving Inhalation Anesthetics in Combination With Opioids in a Randomized Trial",
+    "journal": "Anesthesia & Analgesia",
+    "date": "2026-10-14",
+    "epub_date": "2026-10-14",
+    "issue_date": null,
+    "study_type": "健康志愿者前瞻性随机试验；211人入组、143人完成有效数据；5种吸入麻醉/阿片方案",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42873975/",
+    "description": "211名健康志愿者随机分配5种吸入麻醉±阿片方案，143人完成有效记录。不同组BIS50为67.5—76.2，BIS95为49.1—63.3；BIS对反应性判别AUC≥0.95。加入瑞芬太尼或芬太尼对七氟烷方案的BIS50/95影响有限。仅年轻健康无持续伤害刺激的吸入麻醉，不可直接外推丙泊酚-瑞芬太尼TCI。对双药数字孪生提示BIS主要表征催眠/反应性，不宜将MAP/HR当作镇痛的直接金标准。",
+    "verification_scope": "2026-10-31核对PubMed原始结构化摘要、日期、试验人数及局限；非全文精读",
+    "tags": [
+      "30天内高匹配补看",
+      "直接相关",
+      "方法可迁移"
+    ],
+    "topic": "EEG/BIS与麻醉药效",
+    "brief_dates": [
+      "2026-10-31"
+    ],
+    "brief_date_sources": {
+      "2026-10-31": "麻醉AI科研简报"
+    },
+    "verifiedOn": "2026-10-31",
+    "needs_review": false,
+    "status": "已核验原始摘要与研究设计·未人工全文精读",
+    "origin": "麻醉AI科研简报",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "paper_54832d55ba13",
@@ -9029,71 +9095,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-10-2196-97456",
-    "doi": "10.2196/97456",
-    "title": "Real-Time Medical Record Quality Control System (MRQCS): Development and Retrospective Longitudinal Observational Study",
-    "journal": "JMIR Medical Informatics",
-    "date": "2026-10-27",
-    "epub_date": "2026-10-27",
-    "issue_date": "2026-10-27",
-    "study_type": "单中心真实世界系统部署评价；2019—2025年84个月中断时间序列；43,324例住院病案、19名主要审核人员",
-    "source_url": "https://medinform.jmir.org/2026/1/e97456/",
-    "description": "北京大学第三医院真实世界病历质控系统：规则库从41扩展至597条；43,324例病案、84个月；AI辅助后审核者ICC由0.782降至0.317，审核一致性提升。固定41规则集分析区分检测能力提高与实际质量改善；2025年出院拦截措施后残留缺陷率下降。单中心分阶段实施观察性研究，不能把变化完全归因于AI。对CCI Agent建议采用固定规则对照、中断时间序列、审核者一致性和人工回写率。",
-    "verification_scope": "2026-10-31查阅JMIR正式全文摘要、方法、表格和局限；非独立外部验证",
-    "tags": [
-      "严格最新",
-      "直接相关",
-      "真实世界部署",
-      "方法可迁移"
-    ],
-    "topic": "临床智能体与医疗文书",
-    "brief_dates": [
-      "2026-10-31"
-    ],
-    "brief_date_sources": {
-      "2026-10-31": "麻醉AI科研简报"
-    },
-    "verifiedOn": "2026-10-31",
-    "needs_review": false,
-    "status": "已核验原始摘要与研究设计·未人工全文精读",
-    "origin": "麻醉AI科研简报",
-    "provenance": [
-      "麻醉AI科研简报"
-    ]
-  },
-  {
-    "id": "doi-ane-bis-volunteers-2026",
-    "pmid": "42873975",
-    "doi": "10.1213/ANE.0000000000008332",
-    "title": "Characterization of the Bispectral Index in Healthy Volunteers Receiving Inhalation Anesthetics in Combination With Opioids in a Randomized Trial",
-    "journal": "Anesthesia & Analgesia",
-    "date": "2026-10-14",
-    "epub_date": "2026-10-14",
-    "issue_date": null,
-    "study_type": "健康志愿者前瞻性随机试验；211人入组、143人完成有效数据；5种吸入麻醉/阿片方案",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42873975/",
-    "description": "211名健康志愿者随机分配5种吸入麻醉±阿片方案，143人完成有效记录。不同组BIS50为67.5—76.2，BIS95为49.1—63.3；BIS对反应性判别AUC≥0.95。加入瑞芬太尼或芬太尼对七氟烷方案的BIS50/95影响有限。仅年轻健康无持续伤害刺激的吸入麻醉，不可直接外推丙泊酚-瑞芬太尼TCI。对双药数字孪生提示BIS主要表征催眠/反应性，不宜将MAP/HR当作镇痛的直接金标准。",
-    "verification_scope": "2026-10-31核对PubMed原始结构化摘要、日期、试验人数及局限；非全文精读",
-    "tags": [
-      "30天内高匹配补看",
-      "直接相关",
-      "方法可迁移"
-    ],
-    "topic": "EEG/BIS与麻醉药效",
-    "brief_dates": [
-      "2026-10-31"
-    ],
-    "brief_date_sources": {
-      "2026-10-31": "麻醉AI科研简报"
-    },
-    "verifiedOn": "2026-10-31",
-    "needs_review": false,
-    "status": "已核验原始摘要与研究设计·未人工全文精读",
-    "origin": "麻醉AI科研简报",
-    "provenance": [
-      "麻醉AI科研简报"
-    ]
   }
 ]
