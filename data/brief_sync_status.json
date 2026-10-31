@@ -3,7 +3,7 @@
   "brief_date": "2026-10-31",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "10月31日聊天简报3篇精选、5项比赛、6项会议已提交GitHub并回读；Sites本日独立更新成功，但尚未将本期简报条目合并写入及回读。",
+  "brief_status": "10月31日简报新增核验第二届全国人工智能应用创新大赛；GitHub更新及回读待完成，Sites独立更新成功但简报待对齐。",
   "sites": {
     "status": "partial",
     "independent_update_status": "success",
@@ -16,9 +16,9 @@
     "verification": "保留2026-10-31独立任务已验证的Sites revision；本期简报写入未执行，不能把独立成功视为简报对齐成功。"
   },
   "github": {
-    "status": "success",
+    "status": "pending",
     "independent_update_status": "success",
-    "brief_alignment_status": "success",
+    "brief_alignment_status": "pending",
     "papers": 373,
     "opportunities": 31,
     "curated_papers": 3,
@@ -31,7 +31,7 @@
       "data/daily_briefs/2026-10-31.json",
       "data/brief_sync_status.json"
     ],
-    "verification": "2026-10-31 GitHub原子提交后重新读取五个文件，核验3篇研究、5项比赛、6项会议、26个历史日期；已保留既有精读摘要。"
+    "verification": "新赛事实核后更新中，待回读。"
   },
   "selected_paper_ids": [
     "doi-10-2196-97456",
@@ -56,7 +56,7 @@
     "parallel_automatic_bibliography_added": 11,
     "brief_new_papers": 2,
     "brief_existing_papers": 1,
-    "brief_competitions": 5,
+    "brief_competitions": 6,
     "brief_conferences": 6
   },
   "brief_catchup": {
@@ -103,9 +103,7 @@
         "source_type": "published_daily_brief",
         "missing": [
           "sites_brief_alignment"
-        ],
-        "github": "success",
-        "sites": "pending"
+        ]
       }
     ],
     "missing_prior_catalog_references": 0,

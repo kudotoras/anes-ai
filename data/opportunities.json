@@ -969,24 +969,46 @@
   {
     "id": "competition_945b9a72d0",
     "title": "第二届全国人工智能应用创新大赛",
-    "organizer": "中国技术经济学会",
+    "organizer": "中国技术经济学会（人工智能应用专业委员会承办）",
     "journal": "中国技术经济学会",
     "date": "",
-    "deadline": "",
+    "deadline": "2026-11-10",
     "category": "competition",
     "topic": "AI Agent开放应用、医疗场景",
-    "description": "截止日期：未明确。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+    "description": "2026第二届全国人工智能应用创新大赛，通用赛道AI Agent赋能行业创新，含医疗、教育、制造、消费、金融、出海六大方向；高校学生、科研机构及企业人员可报名。每队1—3名参赛队员、0—2名指导教师，含研究生或科研人员归研究生组；报名费80元/参赛队员。官方索引及高校2026-10-23通知均列11月10日24:00截止报名及作品提交；校赛11月11—20日、全国总决赛12月25—27日。官网显示通用赛道可自主选题，专项赛道具体赛题待公布；设特等奖及等级奖，未核实具体奖金金额。CCI病历自动提取Agent与医生复核流程可选医疗方向，需符合数据安全和作品授权要求。",
     "source_url": "https://www.ai-race.com.cn/",
-    "status": "待核验",
+    "status": "open",
     "historical_status": "deadline_unknown_or_disputed",
     "archive": true,
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-31"
     ],
     "archive_review_required": true,
     "verification_attempted_on": "2026-10-31",
     "verification_failure": "2026-10-31 动态官方页无正文，完整规则无法复核。",
-    "brief_date_sources": {}
+    "brief_date_sources": {
+      "2026-10-31": "麻醉AI科研简报"
+    },
+    "deadlineLabel": "2026-11-10 24:00（北京时间；即11月11日00:00）",
+    "deadline_timezone": "Asia/Shanghai",
+    "deadlineInstant": "2026-11-10T16:00:00Z",
+    "sources": [
+      {
+        "label": "赛事官方网站（搜索索引可读取，动态正文直接读取受限）",
+        "url": "https://www.ai-race.com.cn/"
+      },
+      {
+        "label": "山东财经大学2026-10-23参赛通知",
+        "url": "https://gkgc.sdufe.edu.cn/info/1099/17650.htm"
+      }
+    ],
+    "verifiedOn": "2026-10-31",
+    "needs_review": false,
+    "verificationNote": "2026-10-31通过赛事官网公开索引及高校10月23日通知交叉核实11月10日24:00截止、AI Agent医疗赛道、80元/队员；官网动态正文直接读取失败，奖金未核实。",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "competition_df92d1669e",
