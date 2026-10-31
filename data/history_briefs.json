@@ -514,34 +514,5 @@
     "competition_count": 3,
     "conference_count": 4,
     "source_url": "data/daily_briefs/2026-10-30.json"
-  },
-  {
-    "date": "2026-10-31",
-    "record_status": "published_daily_brief",
-    "paper_ids": [
-      "doi-10-2196-97456",
-      "pubmed-42954287",
-      "doi-ane-bis-volunteers-2026"
-    ],
-    "competition_ids": [
-      "competition-zgc-frontier-2026",
-      "competition-zgc-qidian-2026",
-      "ncccu-ai",
-      "competition_e52bc9726b",
-      "competition_97722a8358",
-      "competition_945b9a72d0"
-    ],
-    "conference_ids": [
-      "cscva-ai-shanghai2026",
-      "esicm-innovation2027",
-      "conference_95a23edf4a",
-      "asnacc2027",
-      "asa2027-general-sessions",
-      "conference_95688579fb"
-    ],
-    "paper_count": 3,
-    "competition_count": 6,
-    "conference_count": 6,
-    "source_url": "data/daily_briefs/2026-10-31.json"
   }
 ]
