@@ -168,6 +168,144 @@
     "ingested_date": "2026-10-31"
   },
   {
+    "id": "doi-10-1093-jamia-ocag184",
+    "doi": "10.1093/jamia/ocag184",
+    "title": "Subgroup deployment-readiness audit of calibration and clinical utility in perioperative infection prediction",
+    "title_zh": "围术期感染模型的亚组校准与临床效用审计",
+    "journal": "Journal of the American Medical Informatics Association",
+    "date": "2026-10-30",
+    "epub_date": "2026-10-30",
+    "issue_date": null,
+    "study_type": "回顾性围术期模型审计；10,719次手术、504例感染；亚组校准与时间留出验证",
+    "description": "10,719次手术、504例POA编码感染；总体AUROC 0.876，但校准截距-1.02，虚弱/前期虚弱亚组在10%阈值下净获益不同。共用isotonic重校准使截距改善至-0.007；时间留出AUROC 0.851仍高估。2018年前感染编码近乎缺失，结局标签受时间影响。对麻醉AI外部验证应补充亚组校准、决策曲线与标签完整性分析；尚非前瞻性部署证据。",
+    "source_url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag184/9005654",
+    "topic": "围术期AI与临床决策支持",
+    "tags": [
+      "严格最新",
+      "直接相关",
+      "方法可迁移"
+    ],
+    "verifiedOn": "2026-11-01",
+    "verification_scope": "2026-11-01出版商全文可读摘要及方法结果核验",
+    "needs_review": false,
+    "categories": [
+      "围术期AI与临床决策支持"
+    ],
+    "status": "已核验出版社摘要/方法要点·未人工精读",
+    "origin": "麻醉AI科研简报",
+    "selection_dates": [
+      "2026-11-01"
+    ],
+    "brief_dates": [
+      "2026-11-01"
+    ],
+    "brief_date_sources": {
+      "2026-11-01": "麻醉AI科研简报"
+    }
+  },
+  {
+    "id": "doi-10-1093-jamia-ocag182",
+    "doi": "10.1093/jamia/ocag182",
+    "title": "External validation and clinical implementation of clinical prediction models: a systematic review",
+    "title_zh": "1072项临床预测模型的外部验证与实施路径研究",
+    "journal": "Journal of the American Medical Informatics Association",
+    "date": "2026-10-30",
+    "epub_date": "2026-10-30",
+    "issue_date": null,
+    "study_type": "元流行病学回顾性研究；1072项2017—2019年机器学习预测模型；引文追踪至2025年8月",
+    "description": "1072项临床机器学习预测模型中仅9.9%完成外部验证、5.2%进入临床实施；39%已实施模型此前没有外部验证。公开代码与外部验证相关OR 3.04（95%CI 1.91–4.84），TRIPOD遵循度每增加10%相关OR 2.68。外部验证与实施并非自然连续；可借鉴冻结模型→外部验证→静默运行→医生确认试验的分阶段证据链。观察性关联不等于因果。",
+    "source_url": "https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocag182/9005638",
+    "topic": "模型外部验证与真实世界部署",
+    "tags": [
+      "严格最新",
+      "方法可迁移",
+      "真实世界部署"
+    ],
+    "verifiedOn": "2026-11-01",
+    "verification_scope": "2026-11-01出版商原始摘要核验；全文需订阅",
+    "needs_review": false,
+    "categories": [
+      "模型外部验证与真实世界部署"
+    ],
+    "status": "已核验出版社摘要/方法要点·未人工精读",
+    "origin": "麻醉AI科研简报",
+    "selection_dates": [
+      "2026-11-01"
+    ],
+    "brief_dates": [
+      "2026-11-01"
+    ],
+    "brief_date_sources": {
+      "2026-11-01": "麻醉AI科研简报"
+    }
+  },
+  {
+    "id": "doi-10-1093-eurheartj-ehag816",
+    "doi": "10.1093/eurheartj/ehag816",
+    "title": "AI algorithms and external validation: promises, pitfalls, and a practical blueprint",
+    "title_zh": "临床AI外部验证的实践蓝图",
+    "journal": "European Heart Journal",
+    "date": "2026-10-30",
+    "epub_date": "2026-10-30",
+    "issue_date": null,
+    "study_type": "方法学实践框架；无新增患者样本或临床试验",
+    "description": "提出冻结完整预处理/模型流水线、跨机构/设备/时间验证、避免患者与时间泄漏、预设亚组、报告校准截距/斜率及决策曲线、重校准优先于重训练、漂移触发复核。对VitalDB到本地麻醉队列迁移和数字孪生校准可直接借鉴；不是新临床疗效证据。",
+    "source_url": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag816/9005502",
+    "topic": "临床AI外部验证与生命周期监管",
+    "tags": [
+      "严格最新",
+      "直接相关",
+      "方法可迁移"
+    ],
+    "verifiedOn": "2026-11-01",
+    "verification_scope": "2026-11-01出版商全文方法框架核验；无新患者样本",
+    "needs_review": false,
+    "categories": [
+      "临床AI外部验证与生命周期监管"
+    ],
+    "status": "已核验出版社摘要/方法要点·未人工精读",
+    "origin": "麻醉AI科研简报",
+    "selection_dates": [
+      "2026-11-01"
+    ],
+    "brief_dates": [
+      "2026-11-01"
+    ],
+    "brief_date_sources": {
+      "2026-11-01": "麻醉AI科研简报"
+    }
+  },
+  {
+    "id": "pubmed-42963354",
+    "pmid": "42963354",
+    "doi": "10.1038/s41746-026-03406-7",
+    "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-10-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42963354/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-01"
+  },
+  {
+    "id": "pubmed-42962616",
+    "pmid": "42962616",
+    "doi": "10.1016/j.jss.2026.09.036",
+    "title": "Development and Preliminary Validation of an AI-Derived Hemorrhage Metric for Surgical Skill Assessment in Laparoscopic Cholecystectomy.",
+    "title_zh": "",
+    "journal": "The Journal of surgical research",
+    "date": "2026-10-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962616/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-01"
+  },
+  {
     "id": "doi-s41551-026-01777-6",
     "doi": "10.1038/s41551-026-01777-6",
     "title": "Optimal closed-loop feedback control of blood flow after spinal cord injury with norepinephrine",
@@ -3344,6 +3482,66 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-31"
+  },
+  {
+    "id": "pubmed-42964336",
+    "pmid": "42964336",
+    "doi": "10.3389/fmed.2026.1942203",
+    "title": "Development and external validation of interpretable machine learning models for 7-, 14-, and 28-day mortality in sepsis-associated liver injury.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-10-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42964336/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-01"
+  },
+  {
+    "id": "pubmed-42964124",
+    "pmid": "42964124",
+    "doi": "10.3389/fdgth.2026.1965956",
+    "title": "OmniTFT: an EHR-driven multi-target forecasting model for ICU clinical decision support systems.",
+    "title_zh": "",
+    "journal": "Frontiers in digital health",
+    "date": "2026-10-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42964124/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-01"
+  },
+  {
+    "id": "pubmed-42964288",
+    "pmid": "42964288",
+    "doi": "10.3389/fmed.2026.1956632",
+    "title": "Development and validation of a prognostic prediction model for elderly patients with sepsis-associated acute kidney injury based on interpretable machine learning.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-10-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42964288/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-01"
+  },
+  {
+    "id": "pubmed-42964232",
+    "pmid": "42964232",
+    "doi": "10.3389/fimmu.2026.1845251",
+    "title": "Pathology-guided multimodal transformer predicts postoperative survival benefit from adjuvant chemotherapy in glioma: from DNA damage repair to immune characterization.",
+    "title_zh": "",
+    "journal": "Frontiers in immunology",
+    "date": "2026-10-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42964232/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-01"
   },
   {
     "id": "paper_f1817075c019",
@@ -9095,113 +9293,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-10-1093-jamia-ocag184",
-    "doi": "10.1093/jamia/ocag184",
-    "title": "Subgroup deployment-readiness audit of calibration and clinical utility in perioperative infection prediction",
-    "title_zh": "围术期感染模型的亚组校准与临床效用审计",
-    "journal": "Journal of the American Medical Informatics Association",
-    "date": "2026-10-30",
-    "epub_date": "2026-10-30",
-    "issue_date": null,
-    "study_type": "回顾性围术期模型审计；10,719次手术、504例感染；亚组校准与时间留出验证",
-    "description": "10,719次手术、504例POA编码感染；总体AUROC 0.876，但校准截距-1.02，虚弱/前期虚弱亚组在10%阈值下净获益不同。共用isotonic重校准使截距改善至-0.007；时间留出AUROC 0.851仍高估。2018年前感染编码近乎缺失，结局标签受时间影响。对麻醉AI外部验证应补充亚组校准、决策曲线与标签完整性分析；尚非前瞻性部署证据。",
-    "source_url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag184/9005654",
-    "topic": "围术期AI与临床决策支持",
-    "tags": [
-      "严格最新",
-      "直接相关",
-      "方法可迁移"
-    ],
-    "verifiedOn": "2026-11-01",
-    "verification_scope": "2026-11-01出版商全文可读摘要及方法结果核验",
-    "needs_review": false,
-    "categories": [
-      "围术期AI与临床决策支持"
-    ],
-    "status": "已核验出版社摘要/方法要点·未人工精读",
-    "origin": "麻醉AI科研简报",
-    "selection_dates": [
-      "2026-11-01"
-    ],
-    "brief_dates": [
-      "2026-11-01"
-    ],
-    "brief_date_sources": {
-      "2026-11-01": "麻醉AI科研简报"
-    }
-  },
-  {
-    "id": "doi-10-1093-jamia-ocag182",
-    "doi": "10.1093/jamia/ocag182",
-    "title": "External validation and clinical implementation of clinical prediction models: a systematic review",
-    "title_zh": "1072项临床预测模型的外部验证与实施路径研究",
-    "journal": "Journal of the American Medical Informatics Association",
-    "date": "2026-10-30",
-    "epub_date": "2026-10-30",
-    "issue_date": null,
-    "study_type": "元流行病学回顾性研究；1072项2017—2019年机器学习预测模型；引文追踪至2025年8月",
-    "description": "1072项临床机器学习预测模型中仅9.9%完成外部验证、5.2%进入临床实施；39%已实施模型此前没有外部验证。公开代码与外部验证相关OR 3.04（95%CI 1.91–4.84），TRIPOD遵循度每增加10%相关OR 2.68。外部验证与实施并非自然连续；可借鉴冻结模型→外部验证→静默运行→医生确认试验的分阶段证据链。观察性关联不等于因果。",
-    "source_url": "https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocag182/9005638",
-    "topic": "模型外部验证与真实世界部署",
-    "tags": [
-      "严格最新",
-      "方法可迁移",
-      "真实世界部署"
-    ],
-    "verifiedOn": "2026-11-01",
-    "verification_scope": "2026-11-01出版商原始摘要核验；全文需订阅",
-    "needs_review": false,
-    "categories": [
-      "模型外部验证与真实世界部署"
-    ],
-    "status": "已核验出版社摘要/方法要点·未人工精读",
-    "origin": "麻醉AI科研简报",
-    "selection_dates": [
-      "2026-11-01"
-    ],
-    "brief_dates": [
-      "2026-11-01"
-    ],
-    "brief_date_sources": {
-      "2026-11-01": "麻醉AI科研简报"
-    }
-  },
-  {
-    "id": "doi-10-1093-eurheartj-ehag816",
-    "doi": "10.1093/eurheartj/ehag816",
-    "title": "AI algorithms and external validation: promises, pitfalls, and a practical blueprint",
-    "title_zh": "临床AI外部验证的实践蓝图",
-    "journal": "European Heart Journal",
-    "date": "2026-10-30",
-    "epub_date": "2026-10-30",
-    "issue_date": null,
-    "study_type": "方法学实践框架；无新增患者样本或临床试验",
-    "description": "提出冻结完整预处理/模型流水线、跨机构/设备/时间验证、避免患者与时间泄漏、预设亚组、报告校准截距/斜率及决策曲线、重校准优先于重训练、漂移触发复核。对VitalDB到本地麻醉队列迁移和数字孪生校准可直接借鉴；不是新临床疗效证据。",
-    "source_url": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag816/9005502",
-    "topic": "临床AI外部验证与生命周期监管",
-    "tags": [
-      "严格最新",
-      "直接相关",
-      "方法可迁移"
-    ],
-    "verifiedOn": "2026-11-01",
-    "verification_scope": "2026-11-01出版商全文方法框架核验；无新患者样本",
-    "needs_review": false,
-    "categories": [
-      "临床AI外部验证与生命周期监管"
-    ],
-    "status": "已核验出版社摘要/方法要点·未人工精读",
-    "origin": "麻醉AI科研简报",
-    "selection_dates": [
-      "2026-11-01"
-    ],
-    "brief_dates": [
-      "2026-11-01"
-    ],
-    "brief_date_sources": {
-      "2026-11-01": "麻醉AI科研简报"
-    }
   }
 ]
