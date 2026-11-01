@@ -3,7 +3,7 @@
   "brief_date": "2026-11-01",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "2026-11-01三篇新研究已核验，GitHub原子写入待回读；Sites管理员维护接口不可用，本期对齐待补。",
+  "brief_status": "2026-11-01 GitHub今日简报、研究和机会已写入并回读；并行自动题录更新后恢复11月1日历史索引；Sites本期仍待管理员接口对齐。",
   "sites": {
     "status": "partial",
     "independent_update_status": "not_checked_this_run",
@@ -23,12 +23,21 @@
     ]
   },
   "github": {
-    "status": "pending_readback",
-    "brief_alignment_status": "pending_readback",
-    "papers": 376,
+    "status": "success",
+    "brief_alignment_status": "success",
+    "papers": 382,
     "opportunities": 31,
     "curated_papers": 3,
-    "verification": "原子写入后仍需逐文件回读，未预先标记success。"
+    "verification": "2026-11-01数据文件回读：382文献、31机会、26历史简报日期；3篇DOI均存在。并行PubMed任务新增6条后重新基于最新数据核对；人工精读摘要SHA未变。",
+    "verified_at": "2026-11-01",
+    "readback_commit": "c9f714db47b41223a742055e76939753a50f23d9",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/daily_briefs/2026-11-01.json",
+      "data/article_summaries.json"
+    ]
   },
   "selected_paper_ids": [
     "doi-10-1093-jamia-ocag184",
@@ -50,12 +59,12 @@
     "journals_unavailable": 1,
     "github_new_records": 3,
     "github_modified_records": 1,
-    "parallel_automatic_bibliography_added": 11,
+    "parallel_automatic_bibliography_added": 6,
     "brief_new_papers": 2,
     "brief_existing_papers": 1,
     "brief_competitions": 3,
     "brief_conferences": 4,
-    "github_papers": 376,
+    "github_papers": 382,
     "github_opportunities": 31
   },
   "brief_catchup": {
@@ -100,7 +109,7 @@
       },
       {
         "date": "2026-11-01",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "pending",
         "missing": [
           "sites_brief_alignment"
