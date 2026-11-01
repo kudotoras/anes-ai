@@ -177,7 +177,7 @@
     "epub_date": "2026-10-30",
     "issue_date": null,
     "study_type": "回顾性围术期模型审计；10,719次手术、504例感染；亚组校准与时间留出验证",
-    "description": "10,719次手术、504例POA编码感染；总体AUROC 0.876，但校准截距-1.02，虚弱/前期虚弱亚组在10%阈值下净获益不同。共用isotonic重校准使截距改善至-0.007；时间留出AUROC 0.851仍高估。2018年前感染编码近乎缺失，结局标签受时间影响。对麻醉AI外部验证应补充亚组校准、决策曲线与标签完整性分析；尚非前瞻性部署证据。",
+    "description": "10,719次手术、504例POA编码感染；总体AUROC 0.876，但校准截距-1.02，虚弱/前期虚弱亚组在10%阈值下净获益不同。共用isotonic重校准使截距改善至-0.007；时间留出AUROC 0.851仍高估。2018年前感染编码近乎缺失，结局标签受时间影响。对麻醉AI外部验证应补充亚组校准、决策曲线与标签完整性分析；尚非前瞻性部署证据。 前期虚弱组负净获益仅见于来源全队列，在2018—2022可确证期及时间留出分析中未持续；不能将其概括为所有情景均无临床效用。",
     "source_url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag184/9005654",
     "topic": "围术期AI与临床决策支持",
     "tags": [
@@ -201,7 +201,8 @@
     ],
     "brief_date_sources": {
       "2026-11-01": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "doi-10-1093-jamia-ocag184"
   },
   {
     "id": "doi-10-1093-jamia-ocag182",
@@ -237,7 +238,8 @@
     ],
     "brief_date_sources": {
       "2026-11-01": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "doi-10-1093-jamia-ocag182"
   },
   {
     "id": "doi-10-1093-eurheartj-ehag816",
@@ -273,7 +275,8 @@
     ],
     "brief_date_sources": {
       "2026-11-01": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "doi-10-1093-eurheartj-ehag816"
   },
   {
     "id": "pubmed-42963354",
@@ -550,7 +553,11 @@
       "2026-10-31": "麻醉AI科研简报"
     },
     "verifiedOn": "2026-10-31",
-    "needs_review": false
+    "needs_review": false,
+    "site_catalog_id": "pubmed-42954287",
+    "selection_dates": [
+      "2026-10-31"
+    ]
   },
   {
     "id": "pubmed-42955501",
@@ -923,7 +930,12 @@
     "origin": "麻醉AI科研简报",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "site_catalog_id": "doi-10-2196-97456",
+    "selection_dates": [
+      "2026-10-31"
+    ],
+    "pmid": "42945531"
   },
   {
     "id": "pubmed-42932211",
@@ -1240,7 +1252,11 @@
       "2026-10-27": "麻醉AI科研简报",
       "2026-10-26": "麻醉AI科研简报"
     },
-    "site_catalog_id": "pubmed-42919730"
+    "site_catalog_id": "pubmed-42919730",
+    "selection_dates": [
+      "2026-10-26",
+      "2026-10-27"
+    ]
   },
   {
     "id": "pubmed-42912756",
@@ -1411,7 +1427,10 @@
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报"
     },
-    "site_catalog_id": "jamiaopen-ooag208-2026"
+    "site_catalog_id": "jamiaopen-ooag208-2026",
+    "selection_dates": [
+      "2026-10-27"
+    ]
   },
   {
     "id": "pubmed-42937750",
@@ -1757,7 +1776,10 @@
     ],
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报"
-    }
+    },
+    "selection_dates": [
+      "2026-10-27"
+    ]
   },
   {
     "id": "jamiaopen-ooag206-2026",
@@ -1783,7 +1805,10 @@
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报"
     },
-    "site_catalog_id": "jamiaopen-ooag206-2026"
+    "site_catalog_id": "jamiaopen-ooag206-2026",
+    "selection_dates": [
+      "2026-10-27"
+    ]
   },
   {
     "id": "pubmed-42936785",
@@ -4317,6 +4342,10 @@
     "origin": "麻醉AI科研简报",
     "provenance": [
       "麻醉AI科研简报"
+    ],
+    "site_catalog_id": "doi-ane-bis-volunteers-2026",
+    "selection_dates": [
+      "2026-10-31"
     ]
   },
   {
@@ -5882,7 +5911,10 @@
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报"
     },
-    "site_catalog_id": "pubmed-42806783"
+    "site_catalog_id": "pubmed-42806783",
+    "selection_dates": [
+      "2026-10-26"
+    ]
   },
   {
     "id": "legacy-5",
@@ -9291,6 +9323,576 @@
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-10-29",
     "metadata_checked_on": "2026-10-29",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42874081",
+    "pmid": "42874081",
+    "doi": "10.1213/ANE.0000000000008352",
+    "title": "Effect of Sevoflurane, Propofol, and Remifentanil on Hemodynamic Response to Pneumoperitoneum and Laparoscopic Surgery: A Randomized Controlled Trial.",
+    "title_zh": "七氟烷、丙泊酚与瑞芬太尼的血流动力学药效：155例随机试验",
+    "journal": "Anesthesia & Analgesia",
+    "date": "2026-10-14",
+    "epub_date": "2026-10-14",
+    "issue_date": null,
+    "dateKind": "PubMed原始题录电子发表日期",
+    "study_type": "随机对照药效学试验；155例ASA I–II腹腔镜手术患者",
+    "topic": "精准麻醉与PK/PD模型验证",
+    "categories": [
+      "精准麻醉",
+      "PK/PD与监测目标"
+    ],
+    "description": "不同催眠药与瑞芬太尼组合对气腹血压反应的随机药效学研究，155例纳入分析。手术中按MAP目标滴定后，瑞芬太尼浓度与MAP未见相关，作者指出动态目标滴定使药物输入与结局关系解耦。对双药模型验证提示需区分干预后的滴定数据与独立药效验证；该研究不是AI控制或临床自动给药试验。",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42874081/",
+    "sources": [
+      {
+        "label": "PubMed原始摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42874081/"
+      },
+      {
+        "label": "出版商DOI入口",
+        "url": "https://doi.org/10.1213/ANE.0000000000008352"
+      }
+    ],
+    "verifiedOn": "2026-11-01",
+    "needs_review": false,
+    "status": "已核验PubMed结构化摘要·未人工全文精读",
+    "origin": "网站独立精准麻醉检索",
+    "ingested_date": "2026-11-01",
+    "site_catalog_id": "pubmed-42874081",
+    "verification_scope": "2026-11-01独立读取PubMed EFetch原始XML、完整结构化摘要、电子发表日期及研究类型；非全文精读",
+    "selection_dates": []
+  },
+  {
+    "id": "pubmed-42866127",
+    "pmid": "42866127",
+    "doi": "10.2147/JPR.S642801",
+    "title": "EEG-Derived Pain Threshold Index-Guided Remifentanil Titration During Laparoscopic Abdominal Surgery: A Randomized Trial.",
+    "title_zh": "脑电PTi指导瑞芬太尼滴定：主要药物用量终点未改善",
+    "journal": "Journal of Pain Research",
+    "date": "2026-10-08",
+    "epub_date": "2026-10-08",
+    "issue_date": null,
+    "dateKind": "PubMed原始题录电子发表日期",
+    "study_type": "单中心评估者盲法随机试验；200例随机、195例分析",
+    "topic": "精准麻醉与PK/PD模型验证",
+    "categories": [
+      "精准麻醉",
+      "PK/PD与监测目标"
+    ],
+    "description": "200例随机、195例分析的丙泊酚–瑞芬太尼TCI试验，PTi为伤害感受耐受的脑电代理指标，不是主观疼痛。术中瑞芬太尼用量主要终点中性：调整差−0.06 μg/kg/h，95%CI −0.44至0.32。救援阿片和PONV较少属于探索性次要结果，48小时阿片总量未降低。为精准麻醉闭环提供监测目标选择与阴性试验参考，不是AI控制有效性的证据。",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42866127/",
+    "sources": [
+      {
+        "label": "PubMed原始摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42866127/"
+      },
+      {
+        "label": "出版商DOI入口",
+        "url": "https://doi.org/10.2147/JPR.S642801"
+      }
+    ],
+    "verifiedOn": "2026-11-01",
+    "needs_review": false,
+    "status": "已核验PubMed结构化摘要·未人工全文精读",
+    "origin": "网站独立精准麻醉检索",
+    "ingested_date": "2026-11-01",
+    "site_catalog_id": "pubmed-42866127",
+    "verification_scope": "2026-11-01独立读取PubMed EFetch原始XML、完整结构化摘要、电子发表日期及研究类型；非全文精读",
+    "selection_dates": []
+  },
+  {
+    "id": "pubmed-41125453",
+    "title": "Development and validation of machine learning models for mortality risk stratification in acute pancreatitis patients complicated by acute kidney injury.",
+    "pmid": "41125453",
+    "doi": "10.1016/j.jfma.2025.10.021",
+    "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+    "date": "2025-10-22",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41125453/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-41949603",
+    "title": "A Systematic Review of Machine Learning Models For Sepsis Prediction: An Appraise-Ai Approach.",
+    "pmid": "41949603",
+    "doi": "10.1097/SHK.0000000000002850",
+    "journal": "Shock (Augusta, Ga.)",
+    "date": "2026-03-20",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41949603/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42066029",
+    "title": "Evaluation of Artificial Intelligence versus Human-Authored Anesthesia Patient Education Materials: A Multi-Institution Survey Study.",
+    "pmid": "42066029",
+    "doi": "10.1213/ANE.0000000000008102",
+    "journal": "Anesthesia and analgesia",
+    "date": "2026-04-29",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42066029/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42297654",
+    "title": "Levosimendan in Patients With Low Cardiac Ejection Fraction Undergoing Coronary Artery Bypass Grafting: Machine Learning Double Robust Causal Effect Analysis.",
+    "pmid": "42297654",
+    "doi": "10.1053/j.jvca.2026.05.060",
+    "journal": "Journal of cardiothoracic and vascular anesthesia",
+    "date": "2026-05-26",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42297654/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42298974",
+    "title": "Real-time peri-operative data integration and clinical decision support: an open interoperable platform for patient data.",
+    "pmid": "42298974",
+    "doi": "10.1097/EJA.0000000000002422",
+    "journal": "European journal of anaesthesiology",
+    "date": "2026-06-15",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42298974/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42307593",
+    "title": "Development of an Arterial Carbon Dioxide Estimation Model Using End-tidal Carbon Dioxide Levels during Surgery in the Pediatric Population.",
+    "pmid": "42307593",
+    "doi": "10.1097/ALN.0000000000006207",
+    "journal": "Anesthesiology",
+    "date": "2026-06-17",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42307593/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42391667",
+    "title": "BlockFedMed: A blockchain-federated learning framework for privacy-preserving mortality prediction across heterogeneous intensive care units.",
+    "pmid": "42391667",
+    "doi": "10.1016/j.ijmedinf.2026.106574",
+    "journal": "International journal of medical informatics",
+    "date": "2026-06-27",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42391667/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42401399",
+    "title": "Pupil-DLC: An open-source deep learning pipeline for scalable, marker-less tracking of pupil dynamics across conscious and unconscious states.",
+    "pmid": "42401399",
+    "doi": "10.1016/j.jneumeth.2026.110848",
+    "journal": "Journal of neuroscience methods",
+    "date": "2026-07-04",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42401399/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42407287",
+    "title": "Artificial intelligence for outcome prediction in burn care: A scoping review.",
+    "pmid": "42407287",
+    "doi": "10.1016/j.burns.2026.108121",
+    "journal": "Burns : journal of the International Society for Burn Injuries",
+    "date": "2026-06-20",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42407287/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42442070",
+    "title": "Derivation and external validation of machine learning prediction for severe acute kidney injury in patients with sepsis-induced coagulopathy: a study based on the MIMIC database and a Chinese cohort.",
+    "pmid": "42442070",
+    "doi": "10.1016/j.ijmedinf.2026.106602",
+    "journal": "International journal of medical informatics",
+    "date": "2026-07-11",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42442070/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42462621",
+    "title": "Machine Learning-Based Early Risk Stratification for Sepsis-Related Troponin-Defined Myocardial Injury Using Routine Metabolic Indicators.",
+    "pmid": "42462621",
+    "doi": "10.1016/j.ijmedinf.2026.106600",
+    "journal": "International journal of medical informatics",
+    "date": "2026-07-15",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42462621/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42479177",
+    "title": "Patient-Specific Instrumentation Improves Technical Execution Accuracy After Artificial Intelligence-Assisted Preoperative Planning in Medial Unicompartmental Knee Arthroplasty.",
+    "pmid": "42479177",
+    "doi": "10.1007/s00264-026-06954-5",
+    "journal": "International orthopaedics",
+    "date": "2026-07-21",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42479177/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42480414",
+    "title": "Early clinical decision support using interpretable artificial intelligence in acute illness (sepsis and infection): A systematic review and meta-analysis.",
+    "pmid": "42480414",
+    "doi": "10.1016/j.ijmedinf.2026.106629",
+    "journal": "International journal of medical informatics",
+    "date": "2026-07-18",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42480414/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42492116",
+    "title": "First-in-human pilot study of a robotic-assisted system for image-guided trans-thoracic lung biopsy: Clinical feasibility and exploratory post-hoc AI trajectory analysis.",
+    "pmid": "42492116",
+    "doi": "10.1016/j.ejrad.2026.113089",
+    "journal": "European journal of radiology",
+    "date": "2026-07-16",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42492116/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42498675",
+    "title": "Beyond Thresholds: Can Machine Learning Improve Trauma Field Triage?",
+    "pmid": "42498675",
+    "doi": "10.1177/00031348261471469",
+    "journal": "The American surgeon",
+    "date": "2026-07-24",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42498675/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42541389",
+    "title": "Physician-Supervised ChatGPT-Assisted Versus Physician-Led Informed Consent for Reducing Preoperative Anxiety: A Randomized Controlled Trial.",
+    "pmid": "42541389",
+    "doi": "10.1177/08927790261473184",
+    "journal": "Journal of endourology",
+    "date": "2026-08-01",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42541389/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42545042",
+    "title": "Comparison of machine learning and logistic regression in predicting mortality from acute poisoning in young adults: a multicenter study identifying herbicide exposure as the predominant risk determinant.",
+    "pmid": "42545042",
+    "doi": "10.1080/15376516.2026.2713207",
+    "journal": "Toxicology mechanisms and methods",
+    "date": "2026-08-11",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42545042/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42546495",
+    "title": "Interpretable Machine Learning Model Using Oxygenation and Respiratory Variability to Predict Hemorrhagic Stroke Mortality: A Multicenter Validation Study.",
+    "pmid": "42546495",
+    "doi": "10.1016/j.cmpb.2026.109572",
+    "journal": "Computer methods and programs in biomedicine",
+    "date": "2026-07-29",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42546495/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42560974",
+    "title": "Identifying GADD45A as a Potential R-Loop Regulator in Sepsis Via Machine-Learning and Multi-Omics Analysis.",
+    "pmid": "42560974",
+    "doi": "10.1097/SHK.0000000000002902",
+    "journal": "Shock (Augusta, Ga.)",
+    "date": "2026-08-06",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42560974/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42673898",
+    "title": "A perspective on foundation models in intensive care medicine.",
+    "pmid": "42673898",
+    "doi": "10.1016/j.artmed.2026.103515",
+    "journal": "Artificial intelligence in medicine",
+    "date": "2026-08-18",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42673898/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42753937",
+    "title": "MEDAL: Sequential adapter learning for privacy-preserving multicenter clinical language models.",
+    "pmid": "42753937",
+    "doi": "10.1016/j.jbi.2026.105101",
+    "journal": "Journal of biomedical informatics",
+    "date": "2026-09-17",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42753937/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42766079",
+    "title": "Application of Machine Learning to Predict 1-Year Weight Loss Outcomes After Laparoscopic Sleeve Gastrectomy.",
+    "pmid": "42766079",
+    "doi": "10.1007/s11695-026-08952-3",
+    "journal": "Obesity surgery",
+    "date": "2026-09-21",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42766079/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42772466",
+    "title": "Machine learning-based prognostic modeling and bar trajectory subphenotyping in critically ill patients with viral pneumonia: A retrospective cohort study.",
+    "pmid": "42772466",
+    "doi": "10.1016/j.rmed.2026.109176",
+    "journal": "Respiratory medicine",
+    "date": "2026-09-22",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772466/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42784706",
+    "title": "A real-time machine learning framework for improved intraoperative risk predictions in cardiac surgery patients.",
+    "pmid": "42784706",
+    "doi": "10.1093/jamia/ocag142",
+    "journal": "Journal of the American Medical Informatics Association : JAMIA",
+    "date": "",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42784706/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42855084",
+    "title": "Interpretable machine learning predicts successful weaning and ICU discharge alive following prone positioning ventilation in moderate-to-severe acute respiratory distress syndrome (ARDS) secondary to pneumonia.",
+    "pmid": "42855084",
+    "doi": "10.1016/j.rmed.2026.109201",
+    "journal": "Respiratory medicine",
+    "date": "2026-10-09",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42855084/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42868634",
+    "title": "(AI)lephant in the Room: Utility of Generative AI to Develop Discussion Guides for Cardiac Surgery Morbidity and Mortality Conferences.",
+    "pmid": "42868634",
+    "doi": "10.1016/j.jsurg.2026.104185",
+    "journal": "Journal of surgical education",
+    "date": "2026-10-13",
+    "dateKind": "PubMed在线日期，无独立日期则留空",
+    "topic": "麻醉/围术期/重症AI检索线索",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42868634/",
+    "description": "",
+    "status": "PubMed检索题录·待人工核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-01",
+    "metadata_checked_on": "2026-11-01",
     "verifiedOn": null,
     "needs_review": true
   }
