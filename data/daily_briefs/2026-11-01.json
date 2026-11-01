@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-01",
+  "source": "麻醉AI科研简报",
+  "source_type": "published_daily_brief",
+  "papers": [
+    {
+      "id": "doi-10-1093-jamia-ocag184",
+      "doi": "10.1093/jamia/ocag184",
+      "title": "Subgroup deployment-readiness audit of calibration and clinical utility in perioperative infection prediction",
+      "journal": "Journal of the American Medical Informatics Association",
+      "epub_date": "2026-10-30",
+      "issue_date": null,
+      "study_type": "回顾性围术期模型审计；10,719次手术、504例感染；亚组校准与时间留出验证",
+      "source_url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag184/9005654",
+      "description": "10,719次手术、504例POA编码感染；总体AUROC 0.876，但校准截距-1.02，虚弱/前期虚弱亚组在10%阈值下净获益不同。共用isotonic重校准使截距改善至-0.007；时间留出AUROC 0.851仍高估。2018年前感染编码近乎缺失，结局标签受时间影响。对麻醉AI外部验证应补充亚组校准、决策曲线与标签完整性分析；尚非前瞻性部署证据。",
+      "verification_scope": "2026-11-01出版商全文可读摘要及方法结果核验",
+      "verifiedOn": "2026-11-01",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "直接相关",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "doi-10-1093-jamia-ocag182",
+      "doi": "10.1093/jamia/ocag182",
+      "title": "External validation and clinical implementation of clinical prediction models: a systematic review",
+      "journal": "Journal of the American Medical Informatics Association",
+      "epub_date": "2026-10-30",
+      "issue_date": null,
+      "study_type": "元流行病学回顾性研究；1072项2017—2019年机器学习预测模型；引文追踪至2025年8月",
+      "source_url": "https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocag182/9005638",
+      "description": "1072项临床机器学习预测模型中仅9.9%完成外部验证、5.2%进入临床实施；39%已实施模型此前没有外部验证。公开代码与外部验证相关OR 3.04（95%CI 1.91–4.84），TRIPOD遵循度每增加10%相关OR 2.68。外部验证与实施并非自然连续；可借鉴冻结模型→外部验证→静默运行→医生确认试验的分阶段证据链。观察性关联不等于因果。",
+      "verification_scope": "2026-11-01出版商原始摘要核验；全文需订阅",
+      "verifiedOn": "2026-11-01",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移",
+        "真实世界部署"
+      ]
+    },
+    {
+      "id": "doi-10-1093-eurheartj-ehag816",
+      "doi": "10.1093/eurheartj/ehag816",
+      "title": "AI algorithms and external validation: promises, pitfalls, and a practical blueprint",
+      "journal": "European Heart Journal",
+      "epub_date": "2026-10-30",
+      "issue_date": null,
+      "study_type": "方法学实践框架；无新增患者样本或临床试验",
+      "source_url": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag816/9005502",
+      "description": "提出冻结完整预处理/模型流水线、跨机构/设备/时间验证、避免患者与时间泄漏、预设亚组、报告校准截距/斜率及决策曲线、重校准优先于重训练、漂移触发复核。对VitalDB到本地麻醉队列迁移和数字孪生校准可直接借鉴；不是新临床疗效证据。",
+      "verification_scope": "2026-11-01出版商全文方法框架核验；无新患者样本",
+      "verifiedOn": "2026-11-01",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "直接相关",
+        "方法可迁移"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会（人工智能应用专业委员会承办）",
+      "category": "competition",
+      "deadline": "2026-11-10",
+      "deadlineLabel": "2026-11-10 24:00（北京时间；即11月11日00:00）",
+      "announcement_date": null,
+      "source_url": "https://www.ai-race.com.cn/",
+      "description": "2026第二届全国人工智能应用创新大赛，通用赛道AI Agent赋能行业创新，含医疗、教育、制造、消费、金融、出海六大方向；高校学生、科研机构及企业人员可报名。每队1—3名参赛队员、0—2名指导教师，含研究生或科研人员归研究生组；报名费80元/参赛队员。官方索引及高校2026-10-23通知均列11月10日24:00截止报名及作品提交；校赛11月11—20日、全国总决赛12月25—27日。官网显示通用赛道可自主选题，专项赛道具体赛题待公布；设特等奖及等级奖，未核实具体奖金金额。CCI病历自动提取Agent与医生复核流程可选医疗方向，需符合数据安全和作品授权要求。",
+      "verifiedOn": "2026-11-01",
+      "verificationNote": "2026-11-01官方赛事首页搜索结果及2026-10-23高校公告确认11月10日24:00截止、医疗Agent方向、80元/参赛队员；官网直连超时，具体赛道细则以系统为准。",
+      "needs_review": false
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛",
+      "organizer": "中国计算机学会（CCF）",
+      "category": "competition",
+      "deadline": "2026-11-10",
+      "deadlineLabel": null,
+      "announcement_date": null,
+      "source_url": "https://ccf.org.cn/tecagi2026",
+      "description": "中国计算机学会主办，AI+生物医药、AI+脑机接口、AI+科学智能等赛道；中科院合肥智能机械研究所10月16日公告确认11月10日截止。CCF官网赛道细则动态页面未能读取，参赛资格、奖金、费用仍待核验。",
+      "verifiedOn": "2026-10-28",
+      "verificationNote": "2026-10-28核验中科院官方机构转发的报名截止；CCF赛事详情页面未能读取，不声称全部核验。",
+      "needs_review": true
+    },
+    {
+      "id": "competition-zgc-qidian-2026",
+      "title": "第十届中关村国际前沿科技大赛 · 起点赛（全年征集）",
+      "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "category": "competition",
+      "deadline": null,
+      "deadlineLabel": "全年常态化征集，非10月31日领域赛截止",
+      "announcement_date": "2026-08-21",
+      "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
+      "description": "当届官方公告面向高校、科研院所、重点实验室等创新源头，全年征集；早期项目团队及2025年8月1日后成立的初创企业可参赛。已报名领域赛者不可重复。每期加速营择优评3—5个起点之星、每项10万元；政策支持有条件，报名费未明确。",
+      "verifiedOn": "2026-11-01",
+      "verificationNote": "2026-11-01北京市科委2026-08-21公告再次核验：高校/科研院所/早期团队起点赛全年征集，优秀加速营项目可获10万元；费用未确认。",
+      "needs_review": false
+    }
+  ],
+  "conferences": [
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+      "organizer": "ESICM",
+      "category": "conference",
+      "deadline": "2026-11-03T23:59:00+01:00",
+      "deadlineLabel": "2026-11-03 23:59 CET（北京时间 11-04 06:59）",
+      "announcement_date": null,
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "description": "创新会议明确包含 AI、精准医学和新技术主题，当前征集原创研究。录取摘要均以 ePoster 展示，指南另允许少量选为口头报告。\n\n英文摘要不超过 3000 字符（不含标题、作者、参考文献），不得提交已发表数据；演讲者须注册。官网未列强制会员要求，具体资格按指南审核。明确不在 ICMx 发表且无 Abstract Book，成果形式为会议展示。\n2026-11-01补充核验：英文摘要正文≤3000字符（含空格，题目/作者/参考文献不计），可附图表；全部录用摘要ePoster展示，少量另选口头报告；无ICMx摘要集。",
+      "verifiedOn": "2026-11-01",
+      "verificationNote": "2026-11-01 ESICM官方会页及指南核验：11月3日23:59 CET截止，英文正文≤3000字符含空格，可附图表；全部ePoster、少量另选口头报告；无ICMx摘要集。",
+      "needs_review": false
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 11 月 1 日开放摘要征集",
+      "organizer": "ESAIC",
+      "category": "conference",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "deadlineLabel": "2026-12-10 23:59 CET（北京时间12月11日06:59）；11月1日开放",
+      "announcement_date": null,
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "description": "Euroanaesthesia 2027：2027年5月29-31日哥本哈根。2026年11月1日开放、12月10日23:59 CET截稿；纠正旧目录误载12月5日。英文摘要正文≤2500字符含空格、题目≤300字符、最多6作者；图片每幅计300字符，表格每行计50字符。新增Innovation Showcase，可额外申请展示原型、设备、数字解决方案，独立评审。需披露AI使用，现场ePoster及演讲者注册；录用且实际展示的摘要发表于EJA电子增刊，非完整原创论文。设Best Abstract Prize及合资格trainee travel grant。\n2026-10-31补充核对：Innovation Showcase排除已进入商业开发或商业化流程的解决方案，普通摘要录用不等于创新展示录用。",
+      "verifiedOn": "2026-11-01",
+      "verificationNote": "2026-11-01 ESAIC官方页面及2027版指南确认今日开放，12月10日23:59 CET截止；Innovation Showcase独立评审且排除已商业开发/商业化项目。",
+      "needs_review": false
+    },
+    {
+      "id": "asnacc2027",
+      "title": "ASNACC 2027 · 摘要征集截至11月15日，官网指南已同步",
+      "organizer": "Asian Society for Neuroanaesthesia & Critical Care（ASNACC）",
+      "category": "conference",
+      "deadline": "2026-11-15T15:59:00Z",
+      "deadlineLabel": "2026-11-15 23:59 GMT+8（北京时间；首页、主题页与投稿指南现已一致）",
+      "announcement_date": null,
+      "source_url": "https://asnacc2027.org/abstract/",
+      "description": "第9届ASNACC大会征集神经麻醉、神经重症及围术期神经科学基础与临床研究。2026-10-24核验时，官网首页、摘要主题页和投稿指南已全部列出11月15日23:59 GMT+8截止，移除此前指南尚未同步的冲突提示。\n\n最新公开投稿指南现已同步延期后的11月15日截止。英文正文不超过300词，曾向其他会议提交的摘要不予接受；录用后须注册缴费。JNA出版为会议摘要集，不等于完整期刊论文。未登录测试实际提交；具体录用与展示要求按官方指南执行。\n2026-10-31官网补核：2027录用摘要拟以Journal of Neurosurgical Anesthesiology会议论文集形式发表，不是完整原创论文；临床/基础研究Best Abstract分别设700美元一等、300美元二等；录用后报告人需注册缴费。",
+      "verifiedOn": "2026-11-01",
+      "verificationNote": "2026-11-01 ASNACC官方确认11月15日23:59 GMT+8截止，神经麻醉/神经重症摘要及JNA会议论文集。",
+      "needs_review": false
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "category": "conference",
+      "deadline": "2026-12-07T07:59:00Z",
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间 12-07 15:59）",
+      "announcement_date": null,
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "description": "2027 年会摘要征集已开放，新增监测与技术、围术期高风险人群、重症及脑健康等分类。入选摘要可作现场墙报展示。\n\n官方摘要页仍显示征集开放，截止为 12 月 6 日 23:59 PST。英文正文需按四部分填写，总计不超过 4500 字符（含空格），每部分不超过 2500 字符；截止后无法修改。研究摘要可参加 Kosaka Best Abstract Award，详细资格与展示要求以官方规则为准。",
+      "verifiedOn": "2026-11-01",
+      "verificationNote": "2026-11-01 IARS/SOCCA官网确认12月6日23:59 PST截止，IMRaD合计4500字符，录用并展示的科学摘要在线发表于A&A。",
+      "needs_review": false
+    }
+  ],
+  "note": "仅公开可核验条目，3篇均为2026-10-30 Online First；Sites本期管理员接口不可用，待补同步。"
+}

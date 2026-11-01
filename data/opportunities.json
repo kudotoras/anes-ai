@@ -10,12 +10,12 @@
     "topic": "麻醉",
     "description": "Euroanaesthesia 2027：2027年5月29-31日哥本哈根。2026年11月1日开放、12月10日23:59 CET截稿；纠正旧目录误载12月5日。英文摘要正文≤2500字符含空格、题目≤300字符、最多6作者；图片每幅计300字符，表格每行计50字符。新增Innovation Showcase，可额外申请展示原型、设备、数字解决方案，独立评审。需披露AI使用，现场ePoster及演讲者注册；录用且实际展示的摘要发表于EJA电子增刊，非完整原创论文。设Best Abstract Prize及合资格trainee travel grant。\n2026-10-31补充核对：Innovation Showcase排除已进入商业开发或商业化流程的解决方案，普通摘要录用不等于创新展示录用。",
     "source_url": "https://euroanaesthesia.org/2027/abstracts/",
-    "status": "upcoming",
+    "status": "open",
     "historical_status": "deadline_corrected_2026-10-28",
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-31",
+    "verifiedOn": "2026-11-01",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -37,14 +37,15 @@
       "2026-10-28",
       "2026-10-29",
       "2026-10-30",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "openingVerifiedOn": "2026-10-26",
-    "verificationNote": "2026-10-31 官网确认11月1日开放、12月10日23:59 CET截止；Innovation Showcase另行评审。",
+    "openingVerifiedOn": "2026-11-01",
+    "verificationNote": "2026-11-01 ESAIC官方页面及2027版指南确认今日开放，12月10日23:59 CET截止；Innovation Showcase独立评审且排除已商业开发/商业化项目。",
     "verification_attempted_on": "2026-10-31",
     "verification_failure": null,
     "brief_date_sources": {
@@ -53,7 +54,8 @@
       "2026-10-28": "麻醉AI科研简报",
       "2026-10-29": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报",
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-01": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen"
@@ -74,7 +76,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-30",
+    "verifiedOn": "2026-11-01",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -93,9 +95,10 @@
       "2026-10-25",
       "2026-10-26",
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-11-01"
     ],
-    "verificationNote": "2026-10-30 官方页确认12月6日23:59 PST截止，IMRaD合计4500字符、单节2500字符；会议摘要不等同完整论文。",
+    "verificationNote": "2026-11-01 IARS/SOCCA官网确认12月6日23:59 PST截止，IMRaD合计4500字符，录用并展示的科学摘要在线发表于A&A。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -104,10 +107,11 @@
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
       "2026-10-26": "麻醉AI科研简报",
-      "2026-10-28": "麻醉AI科研简报"
+      "2026-10-28": "麻醉AI科研简报",
+      "2026-11-01": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-10-31",
-    "verification_failure": "2026-10-31 官方摘要页不可读取，保留此前规则与实际核验日。"
+    "verification_failure": null
   },
   {
     "id": "conference_95688579fb",
@@ -255,7 +259,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-31",
+    "verifiedOn": "2026-11-01",
     "sources": [
       {
         "label": "官方摘要主题与新截止（页面更新2026-10-19）",
@@ -278,9 +282,10 @@
     "deadlineInstant": "2026-11-15T15:59:00Z",
     "format": "摘要 / 口头报告 / 墙报",
     "brief_dates": [
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
-    "verificationNote": "2026-10-31 官网确认11月15日23:59 GMT+8摘要截止。",
+    "verificationNote": "2026-11-01 ASNACC官方确认11月15日23:59 GMT+8截止，神经麻醉/神经重症摘要及JNA会议论文集。",
     "site_catalog_id": "asnacc2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -288,7 +293,8 @@
     "needs_review": false,
     "verification_attempted_on": "2026-10-31",
     "brief_date_sources": {
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-01": "麻醉AI科研简报"
     },
     "verification_failure": null
   },
@@ -349,15 +355,17 @@
       "2026-10-25",
       "2026-10-26",
       "2026-10-28",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
     "archive_review_required": false,
-    "verification_attempted_on": "2026-10-31",
-    "verification_failure": "2026-10-31 CCF赛事页仅图片，保留机构通知已核验字段，完整资格与费用待核实。",
+    "verification_attempted_on": "2026-11-01",
+    "verification_failure": "CCF报名页仅图像，完整资格与费用未核验；保留先前核验日期。",
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报",
       "2026-10-28": "麻醉AI科研简报",
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-01": "麻醉AI科研简报"
     },
     "verifiedOn": "2026-10-28",
     "needs_review": true,
@@ -442,19 +450,19 @@
     "deadline": "2026-11-03T23:59:00+01:00",
     "category": "conference",
     "topic": "重症",
-    "description": "创新会议明确包含 AI、精准医学和新技术主题，当前征集原创研究。录取摘要均以 ePoster 展示，指南另允许少量选为口头报告。\n\n英文摘要不超过 3000 字符（不含标题、作者、参考文献），不得提交已发表数据；演讲者须注册。官网未列强制会员要求，具体资格按指南审核。明确不在 ICMx 发表且无 Abstract Book，成果形式为会议展示。",
+    "description": "创新会议明确包含 AI、精准医学和新技术主题，当前征集原创研究。录取摘要均以 ePoster 展示，指南另允许少量选为口头报告。\n\n英文摘要不超过 3000 字符（不含标题、作者、参考文献），不得提交已发表数据；演讲者须注册。官网未列强制会员要求，具体资格按指南审核。明确不在 ICMx 发表且无 Abstract Book，成果形式为会议展示。\n2026-11-01补充核验：英文摘要正文≤3000字符（含空格，题目/作者/参考文献不计），可附图表；全部录用摘要ePoster展示，少量另选口头报告；无ICMx摘要集。",
     "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-10-31",
+    "verifiedOn": "2026-11-01",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
         "url": "https://www.esicm.org/events/intensive-care-innovation2027/"
       },
       {
-        "label": "官方摘要准备指南",
+        "label": "ESICM官方2027摘要指南",
         "url": "https://www.esicm.org/wp-content/uploads/2026/09/Instructions_Abstracts.pdf"
       }
     ],
@@ -468,9 +476,10 @@
       "2026-10-28",
       "2026-10-29",
       "2026-10-30",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
-    "verificationNote": "2026-10-31 官网确认11月3日23:59 CET摘要截止，ePoster，无ICMx发表和摘要集。",
+    "verificationNote": "2026-11-01 ESICM官方会页及指南核验：11月3日23:59 CET截止，英文正文≤3000字符含空格，可附图表；全部ePoster、少量另选口头报告；无ICMx摘要集。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -482,7 +491,8 @@
       "2026-10-28": "麻醉AI科研简报",
       "2026-10-29": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报",
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-01": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-10-31",
     "verification_failure": null,
@@ -835,14 +845,16 @@
         "url": "https://www.holdings.cas.cn/tzgg2015/202609/t20260916_8283567.html"
       }
     ],
-    "verifiedOn": "2026-10-31",
-    "verificationNote": "2026-10-31北京市科委原始公告分赛制核验；起点赛独立索引，避免被领域赛截止日期误关闭。",
+    "verifiedOn": "2026-11-01",
+    "verificationNote": "2026-11-01北京市科委2026-08-21公告再次核验：高校/科研院所/早期团队起点赛全年征集，优秀加速营项目可获10万元；费用未确认。",
     "site_catalog_id": "competition-zgc-qidian-2026",
     "brief_dates": [
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
     "brief_date_sources": {
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-01": "麻醉AI科研简报"
     },
     "provenance": [
       "麻醉AI科研简报"
@@ -982,13 +994,15 @@
     "archive": true,
     "brief_dates": [
       "2026-10-25",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
     "archive_review_required": true,
     "verification_attempted_on": "2026-10-31",
     "verification_failure": "2026-10-31 动态官方页无正文，完整规则无法复核。",
     "brief_date_sources": {
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-01": "麻醉AI科研简报"
     },
     "deadlineLabel": "2026-11-10 24:00（北京时间；即11月11日00:00）",
     "deadline_timezone": "Asia/Shanghai",
@@ -1003,9 +1017,9 @@
         "url": "https://gkgc.sdufe.edu.cn/info/1099/17650.htm"
       }
     ],
-    "verifiedOn": "2026-10-31",
+    "verifiedOn": "2026-11-01",
     "needs_review": false,
-    "verificationNote": "2026-10-31通过赛事官网公开索引及高校10月23日通知交叉核实11月10日24:00截止、AI Agent医疗赛道、80元/队员；官网动态正文直接读取失败，奖金未核实。",
+    "verificationNote": "2026-11-01官方赛事首页搜索结果及2026-10-23高校公告确认11月10日24:00截止、医疗Agent方向、80元/参赛队员；官网直连超时，具体赛道细则以系统为准。",
     "provenance": [
       "麻醉AI科研简报"
     ]
