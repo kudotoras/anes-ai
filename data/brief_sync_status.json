@@ -3,7 +3,7 @@
   "brief_date": "2026-11-01",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "已取得11月1日完整实际简报，3篇精选同组；Sites已补齐近7日公开交接并回读，GitHub等待本轮回读。",
+  "brief_status": "11月1日完整聊天简报3篇与Sites/GitHub/公开主站同组；已补齐10月31日和11月1日历史索引，近7日公开交接逐条回读对齐。来源未解决项独立列示。",
   "sites": {
     "status": "success",
     "independent_update_status": "success",
@@ -17,9 +17,25 @@
     "verification": "POST后GET逐条验证本次完整记录、revision、runId；未改源码、未重新部署，未变更公开只读权限。"
   },
   "github": {
-    "status": "partial",
-    "brief_alignment_status": "pending_readback",
-    "verification": "本轮数据提交后待回读，不能用此前简报成功或PubMed运行代替。"
+    "status": "success",
+    "independent_update_status": "success",
+    "brief_alignment_status": "success",
+    "papers": 410,
+    "opportunities": 31,
+    "history_dates": 27,
+    "verified_at": "2026-11-01T00:14:13.034843+00:00",
+    "readback_commit": "55c147897e79e60afca8526c5ea8b496fcc8dcf8",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/history_import.json",
+      "data/daily_briefs/2026-10-31.json",
+      "data/daily_briefs/2026-11-01.json",
+      "data/article_summaries.json",
+      "data/daily_updates/2026-11-01.json"
+    ],
+    "verification": "原子数据提交后逐文件SHA回读，既有Actions成功后再次回读，研究值未被覆盖；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。"
   },
   "selected_paper_ids": [
     "doi-10-1093-jamia-ocag184",
@@ -46,7 +62,11 @@
     "github_new_records": 28,
     "github_modified_records": 11,
     "github_modified_opportunities": 18,
-    "brief_pending": false
+    "brief_pending": false,
+    "github_papers": 410,
+    "github_opportunities": 31,
+    "github_history_dates": 27,
+    "parallel_automatic_bibliography_added": 0
   },
   "brief_catchup": {
     "window_start": "2026-10-26",
@@ -54,7 +74,7 @@
     "audit": [
       {
         "date": "2026-10-26",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "success",
         "paper_ids": [
           "pubmed-42919730",
@@ -74,7 +94,7 @@
       },
       {
         "date": "2026-10-27",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "success",
         "paper_ids": [
           "pubmed-42919730",
@@ -96,7 +116,7 @@
       },
       {
         "date": "2026-10-28",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "success",
         "paper_ids": [
           "pubmed-42918809",
@@ -118,7 +138,7 @@
       },
       {
         "date": "2026-10-29",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "success",
         "paper_ids": [
           "pubmed-42905972",
@@ -138,7 +158,7 @@
       },
       {
         "date": "2026-10-30",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "success",
         "paper_ids": [
           "doi-s41551-026-01777-6",
@@ -160,7 +180,7 @@
       },
       {
         "date": "2026-10-31",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "success",
         "paper_ids": [
           "doi-10-2196-97456",
@@ -186,7 +206,7 @@
       },
       {
         "date": "2026-11-01",
-        "github": "pending_readback",
+        "github": "success",
         "sites": "success",
         "paper_ids": [
           "doi-10-1093-jamia-ocag184",
@@ -1387,8 +1407,19 @@
     }
   },
   "frontend": {
-    "status": "pending",
+    "status": "success",
     "canonical_url": "https://kudotoras.github.io/anes-ai/",
-    "verification": "待本轮自动Pages发布后公开JSON回读。"
+    "verified_at": "2026-11-01T00:14:13.034843+00:00",
+    "papers": 410,
+    "opportunities": 31,
+    "history_dates": 27,
+    "daily_selected": 3,
+    "selected_paper_ids": [
+      "doi-10-1093-jamia-ocag184",
+      "doi-10-1093-jamia-ocag182",
+      "doi-10-1093-eurheartj-ehag816"
+    ],
+    "workflow_id": 41255741505,
+    "verification": "既有自动Pages发布成功后，GET公开研究/机会/历史索引/两日简报/精读摘要JSON，按ID逐条比较一致；当日3篇均具备精选关联、有效来源及核验状态。Sites原入口维护授权GET核实首页302与explorer跳转页指向唯一主站。未重新执行浏览器筛选交互测试。"
   }
 }
