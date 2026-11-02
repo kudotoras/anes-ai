@@ -3,7 +3,7 @@
   "brief_date": "2026-11-02",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "public_handoff_saved_pending_readback",
+  "brief_status": "github_verified_sites_pending",
   "sites": {
     "status": "failed",
     "independent_update_status": "not_checked",
@@ -16,13 +16,24 @@
     "verification": "本环境无Sites get_site与管理员维护接口；未写入、未回读。"
   },
   "github": {
-    "status": "pending",
-    "independent_update_status": "pending",
-    "brief_alignment_status": "pending",
+    "status": "success",
+    "independent_update_status": "success",
+    "brief_alignment_status": "success",
     "papers": 411,
     "opportunities": 31,
     "history_dates": 28,
-    "verification": "待原子提交后逐文件回读"
+    "verification": "原子提交后逐文件SHA回读，3篇、3项比赛、4项会议ID均存在，历史索引28日，人工精读摘要SHA不变。",
+    "verified_at": "2026-11-02T00:03:48.539Z",
+    "readback_commit": "779638e7a17e3da2a9565fda1e72fd227596b49b",
+    "readback_files": [
+      "data/research.json",
+      "data/opportunities.json",
+      "data/history_briefs.json",
+      "data/history_import.json",
+      "data/daily_briefs/2026-11-02.json",
+      "data/daily_updates/2026-11-02.json",
+      "data/article_summaries.json"
+    ]
   },
   "selected_paper_ids": [
     "pubmed-42963354",
@@ -180,7 +191,7 @@
       },
       {
         "date": "2026-11-02",
-        "github": "pending",
+        "github": "success",
         "sites": "failed",
         "paper_ids": [
           "pubmed-42963354",

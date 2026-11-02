@@ -2711,7 +2711,7 @@
     },
     {
       "date": "2026-11-02",
-      "record_status": "github_pending_sites_failed",
+      "record_status": "github_verified_sites_pending",
       "paper_ids": [
         "pubmed-42963354",
         "doi-10-1007-s40140-026-00737-9",
