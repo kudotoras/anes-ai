@@ -3,7 +3,7 @@
   "brief_date": "2026-11-02",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "当日简报已取得",
+  "brief_status": "11月2日完整实际简报公开交接已增量对齐两端，3篇精选一致；独立3篇保留完整库。近7日公开交接无漏项。",
   "sites": {
     "status": "success",
     "independent_update_status": "success",
@@ -16,9 +16,15 @@
     "verification": "管理员POST后GET逐条验证记录、revision和runId；保留旧ID、实际日期和未更新条目；不改源码、不重新部署。"
   },
   "github": {
-    "status": "partial",
-    "independent_update_status": "pending_readback",
-    "brief_alignment_status": "pending_readback"
+    "status": "success",
+    "independent_update_status": "success",
+    "brief_alignment_status": "success",
+    "papers": 425,
+    "opportunities": 31,
+    "history_dates": 28,
+    "verified_at": "2026-11-02T00:07:54.671536+00:00",
+    "readback_commit": "78bc7756e32d03892d2269d96ac61406431e4a8f",
+    "verification": "原子数据提交后逐文件SHA回读，既有Actions成功后公开JSON按ID逐条比较一致；人工精读摘要SHA保持原值。"
   },
   "selected_paper_ids": [
     "pubmed-42963354",
@@ -37,7 +43,11 @@
     "opportunities_checked": 11,
     "opportunities_unresolved": 4,
     "journals_checked": 58,
-    "journals_unavailable": 1
+    "journals_unavailable": 1,
+    "github_new_records": 4,
+    "github_modified_records": 5,
+    "github_modified_opportunities": 14,
+    "github_papers": 425
   },
   "brief_catchup": {
     "window_start": "2026-10-27",
@@ -101,6 +111,10 @@
     {
       "id": "arxiv",
       "reason": "官方检索无法读取"
+    },
+    {
+      "id": "publisher-page-read",
+      "reason": "本任务pEEG论文出版商DOI、JAMIA正文及AnySleep出版社全文直读失败；前两篇采用成功读取的PubMed原始摘要/出版商索引，AnySleep保留实际完整简报交接核验范围，未冒充本任务重新全文精读。"
     }
   ],
   "journal_checks": [
@@ -580,7 +594,8 @@
   "limitations": [
     "已完成PubMed期刊限定与主题检索，不表示未索引出版商ToC/全文已穷尽。",
     "3篇独立推荐包含2篇刊期补看，首次上线日期分别为6月15日和9月24日，不伪装11月新上线。",
-    "出版社pEEG全文与JAMIA正文直读失败；核验限成功取得的PubMed原始结构化摘要及出版商索引。"
+    "出版社pEEG全文与JAMIA正文直读失败；核验限成功取得的PubMed原始结构化摘要及出版商索引。",
+    "AnySleep本任务出版商全文直读失败，保留已完成简报的实际来源核验范围与日期。"
   ],
   "previous_syncs": {
     "0": {
@@ -1966,8 +1981,19 @@
     }
   },
   "frontend": {
-    "status": "pending",
+    "status": "success",
     "canonical_url": "https://kudotoras.github.io/anes-ai/",
-    "verification": "待本轮GitHub自动发布后公开数据回读。"
+    "verified_at": "2026-11-02T00:07:54.671536+00:00",
+    "papers": 425,
+    "opportunities": 31,
+    "history_dates": 28,
+    "daily_selected": 3,
+    "selected_paper_ids": [
+      "pubmed-42963354",
+      "doi-10-1007-s40140-026-00737-9",
+      "pubmed-42961855"
+    ],
+    "workflow_id": 41365376360,
+    "verification": "既有自动发布成功，公开研究/机会/历史索引/当日简报/精读摘要JSON比对通过。原Sites两入口指向唯一主站；未改Sites源码或部署。"
   }
 }
