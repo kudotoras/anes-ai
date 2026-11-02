@@ -234,7 +234,8 @@
     ],
     "brief_date_sources": {
       "2026-11-02": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "pubmed-42961855"
   },
   {
     "id": "pubmed-42961828",
@@ -401,7 +402,8 @@
     ],
     "brief_date_sources": {
       "2026-11-02": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "pubmed-42963354"
   },
   {
     "id": "pubmed-42962616",
@@ -4549,7 +4551,8 @@
     ],
     "brief_date_sources": {
       "2026-11-02": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "doi-10-1007-s40140-026-00737-9"
   },
   {
     "id": "paper_54832d55ba13",
@@ -8434,19 +8437,41 @@
     "title": "Real-time peri-operative data integration and clinical decision support: an open interoperable platform for patient data.",
     "pmid": "42298974",
     "doi": "10.1097/EJA.0000000000002422",
-    "journal": "European journal of anaesthesiology",
+    "journal": "European Journal of Anaesthesiology",
     "date": "2026-06-15",
-    "dateKind": "PubMed在线日期，无独立日期则留空",
-    "topic": "麻醉/围术期/重症AI检索线索",
-    "study_type": "题录线索·待核验",
+    "dateKind": "首次电子发表日期；正式刊期另记",
+    "topic": "精准麻醉、围术期数据与模型评价",
+    "study_type": "开放数据基础设施开发与实际部署；118,915人、77个手术室/ICU床位",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42298974/",
-    "description": "",
-    "status": "PubMed检索题录·待人工核验",
+    "description": "平台整合监护、注射泵、呼吸机、EEG与检验，以Kafka流传输及混合长期存储支持多设备数据。已积累118,915人资料，含7096例注射泵数据；为围术期AI研究提供基础设施范例。数据质量与跨机构标准化仍待解决；基础设施可行性不等于临床决策获益。首次上线2026-06-15，正式刊期2026年11月，按高价值补看收录。",
+    "status": "已核验原始摘要·未人工全文精读",
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-11-01",
     "metadata_checked_on": "2026-11-01",
-    "verifiedOn": null,
-    "needs_review": true
+    "verifiedOn": "2026-11-02",
+    "needs_review": false,
+    "title_zh": "开放围术期数据平台：实时整合监护、注射泵与EEG",
+    "epub_date": "2026-06-15",
+    "verification_scope": "2026-11-02 PubMed原始EFetch结构化摘要、日期及研究类型；JAMIA首次发表日期另经出版商检索索引核验，未声称全文精读。",
+    "sources": [
+      {
+        "label": "PubMed原始摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42298974/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1097/EJA.0000000000002422"
+      }
+    ],
+    "site_catalog_id": "pubmed-42298974",
+    "selection_dates": [
+      "2026-11-02"
+    ],
+    "selection_source": "独立检索精选",
+    "tags": [
+      "高价值补看"
+    ],
+    "issue_date": "2026-11"
   },
   {
     "id": "pubmed-42932676",
@@ -10077,17 +10102,132 @@
     "title": "A real-time machine learning framework for improved intraoperative risk predictions in cardiac surgery patients.",
     "pmid": "42784706",
     "doi": "10.1093/jamia/ocag142",
-    "journal": "Journal of the American Medical Informatics Association : JAMIA",
-    "date": "",
-    "dateKind": "PubMed在线日期，无独立日期则留空",
-    "topic": "麻醉/围术期/重症AI检索线索",
-    "study_type": "题录线索·待核验",
+    "journal": "Journal of the American Medical Informatics Association",
+    "date": "2026-09-24",
+    "dateKind": "首次电子发表日期；正式刊期另记",
+    "topic": "精准麻醉、围术期数据与模型评价",
+    "study_type": "回顾性模型开发与评价；6416例心脏手术",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42784706/",
-    "description": "",
-    "status": "PubMed检索题录·待人工核验",
+    "description": "TE-Transformer整合术前特征、生命体征、用药与简短手术记录，每30分钟更新风险。6416例心脏手术中POD AUROC 0.884、AKI 0.796；多模态消融支持术中数据贡献。仅回顾性验证，不是30秒生理预测、独立干预决策或前瞻部署获益证据。出版商首次发表2026-09-24，正式刊期2026年11月。",
+    "status": "已核验原始摘要·未人工全文精读",
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-11-01",
     "metadata_checked_on": "2026-11-01",
+    "verifiedOn": "2026-11-02",
+    "needs_review": false,
+    "title_zh": "TE-Transformer：心脏手术多模态连续风险预测",
+    "epub_date": "2026-09-24",
+    "verification_scope": "2026-11-02 PubMed原始EFetch结构化摘要、日期及研究类型；JAMIA首次发表日期另经出版商检索索引核验，未声称全文精读。",
+    "sources": [
+      {
+        "label": "PubMed原始摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42784706/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1093/jamia/ocag142"
+      }
+    ],
+    "site_catalog_id": "pubmed-42784706",
+    "selection_dates": [
+      "2026-11-02"
+    ],
+    "selection_source": "独立检索精选",
+    "tags": [
+      "高价值补看"
+    ],
+    "issue_date": "2026-11"
+  },
+  {
+    "id": "pubmed-42962495",
+    "pmid": "42962495",
+    "doi": "10.1016/j.jclinane.2026.112351",
+    "title": "Processed electroencephalogram-guided anesthesia and its impact on postoperative delirium and perioperative efficiency: A systematic review and meta-analysis.",
+    "title_zh": "pEEG引导麻醉与术后谵妄：87项随机试验的系统综述",
+    "journal": "Journal of Clinical Anesthesia",
+    "date": "2026-10-30",
+    "epub_date": "2026-10-30",
+    "dateKind": "首次电子发表日期；正式刊期另记",
+    "study_type": "系统综述与Meta分析；87项RCT、30,611人",
+    "description": "87项RCT共30,611人，pEEG指导较非pEEG指导的POD风险RR 0.73（95%CI 0.63–0.84）；异质性在若干结局中较大，BIS证据较充分，Entropy/SEDLine研究较少。检索截止2025年4月11日，不能视为纳入全部最新RCT；这是脑电监测引导证据，不是AI自动给药获益试验。",
+    "verifiedOn": "2026-11-02",
+    "verification_scope": "2026-11-02 PubMed原始EFetch结构化摘要、日期及研究类型；JAMIA首次发表日期另经出版商检索索引核验，未声称全文精读。",
+    "needs_review": false,
+    "status": "已核验原始摘要·未人工全文精读",
+    "topic": "精准麻醉、围术期数据与模型评价",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962495/",
+    "sources": [
+      {
+        "label": "PubMed原始摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42962495/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.jclinane.2026.112351"
+      }
+    ],
+    "origin": "网站独立检索",
+    "site_catalog_id": "pubmed-42962495",
+    "selection_dates": [
+      "2026-11-02"
+    ],
+    "selection_source": "独立检索精选",
+    "tags": [
+      "严格最新"
+    ],
+    "issue_date": null
+  },
+  {
+    "id": "pubmed-42628268",
+    "title": "A large language models-assisted and expert-corrected workflow for preoperative anesthesia assessment drafts: A single-centre exploratory feasibility study.",
+    "pmid": "42628268",
+    "doi": "10.1016/j.medcli.2026.107571",
+    "journal": "Medicina clinica",
+    "date": "2026-08-22",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42628268/",
+    "description": "",
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-02",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42758328",
+    "title": "Development and validation of a machine learning-based prediction model for postoperative delirium after glioma surgery.",
+    "pmid": "42758328",
+    "doi": "10.1080/00207454.2026.2736052",
+    "journal": "The International journal of neuroscience",
+    "date": "2026-09-24",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42758328/",
+    "description": "",
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-02",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42810006",
+    "title": "From physiological signals to decisions: Artificial intelligence in mechanical ventilation.",
+    "pmid": "42810006",
+    "doi": "10.1016/j.medcli.2026.107620",
+    "journal": "Medicina clinica",
+    "date": "2026-09-29",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42810006/",
+    "description": "",
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-02",
     "verifiedOn": null,
     "needs_review": true
   }
