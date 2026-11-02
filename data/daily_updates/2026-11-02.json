@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "update_date": "2026-11-02",
+  "source": "独立检索 ∪ 麻醉AI科研简报",
+  "selected_paper_ids": [
+    "pubmed-42963354",
+    "doi-10-1007-s40140-026-00737-9",
+    "pubmed-42961855"
+  ],
+  "independent_reviewed_paper_ids": [
+    "pubmed-42963354",
+    "doi-10-1007-s40140-026-00737-9",
+    "pubmed-42961855"
+  ],
+  "brief_dates_checked": [
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02"
+  ],
+  "independent_bibliography_added": [
+    {
+      "id": "doi-10-1007-s40140-026-00737-9",
+      "doi": "10.1007/s40140-026-00737-9",
+      "title": "Artificial Intelligence for Risk Prediction in Perioperative Cancer Surgery: a Narrative Review",
+      "journal": "Current Anesthesiology Reports",
+      "date": "2026-10-14",
+      "study_type": "叙述性综述；结构化MEDLINE检索后综合131项研究；无新增患者队列",
+      "source_url": "https://link.springer.com/article/10.1007/s40140-026-00737-9",
+      "description": "PRECAST团队从31063条检索记录经筛选综合131项研究；肿瘤围术期AI风险预测需兼顾校准、外部验证、临床阈值与实际干预效果。2026-10-14正式发表，属高价值补看而非本周新文。",
+      "tags": [
+        "高价值补看",
+        "直接相关",
+        "方法可迁移"
+      ],
+      "verification_scope": "2026-11-02出版社全文及检索方法核验"
+    }
+  ],
+  "journal_checks": {
+    "method": "期刊优先与主题检索；部分期刊未能完整逐刊获取当日目录",
+    "selected": 3
+  },
+  "failures": [
+    {
+      "source": "Sites",
+      "reason": "本环境无Sites get_site/管理员接口；未POST/GET，待补。"
+    }
+  ],
+  "selection_note": "2篇10月30日发表、1篇10月14日高匹配补看；原始研究1篇、综述1篇、编辑述评1篇。"
+}

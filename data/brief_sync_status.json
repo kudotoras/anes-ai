@@ -1,97 +1,50 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-01",
+  "brief_date": "2026-11-02",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "11月1日完整聊天简报3篇与Sites/GitHub/公开主站同组；已补齐10月31日和11月1日历史索引，近7日公开交接逐条回读对齐。来源未解决项独立列示。",
+  "brief_status": "public_handoff_saved_pending_readback",
   "sites": {
-    "status": "success",
-    "independent_update_status": "success",
-    "brief_alignment_status": "success",
-    "revision": "e614174e-6f76-4809-b5bd-8952d704979c",
-    "run_id": "daily-union-20261101-v1",
-    "verified_at": "2026-11-01T00:12:05.784761+00:00",
-    "papers": 109,
-    "opportunities": 21,
-    "pending_items": [],
-    "verification": "POST后GET逐条验证本次完整记录、revision、runId；未改源码、未重新部署，未变更公开只读权限。"
+    "status": "failed",
+    "independent_update_status": "not_checked",
+    "brief_alignment_status": "failed",
+    "last_confirmed_success": "2026-11-01",
+    "pending_items": [
+      "data/daily_briefs/2026-11-02.json",
+      "读取/api/update-guide与/api/site-data并执行增量POST/GET"
+    ],
+    "verification": "本环境无Sites get_site与管理员维护接口；未写入、未回读。"
   },
   "github": {
-    "status": "success",
-    "independent_update_status": "success",
-    "brief_alignment_status": "success",
-    "papers": 410,
+    "status": "pending",
+    "independent_update_status": "pending",
+    "brief_alignment_status": "pending",
+    "papers": 411,
     "opportunities": 31,
-    "history_dates": 27,
-    "verified_at": "2026-11-01T00:14:13.034843+00:00",
-    "readback_commit": "55c147897e79e60afca8526c5ea8b496fcc8dcf8",
-    "readback_files": [
-      "data/research.json",
-      "data/opportunities.json",
-      "data/history_briefs.json",
-      "data/history_import.json",
-      "data/daily_briefs/2026-10-31.json",
-      "data/daily_briefs/2026-11-01.json",
-      "data/article_summaries.json",
-      "data/daily_updates/2026-11-01.json"
-    ],
-    "verification": "原子数据提交后逐文件SHA回读，既有Actions成功后再次回读，研究值未被覆盖；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。"
+    "history_dates": 28,
+    "verification": "待原子提交后逐文件回读"
   },
   "selected_paper_ids": [
-    "doi-10-1093-jamia-ocag184",
-    "doi-10-1093-jamia-ocag182",
-    "doi-10-1093-eurheartj-ehag816"
+    "pubmed-42963354",
+    "doi-10-1007-s40140-026-00737-9",
+    "pubmed-42961855"
   ],
   "counts": {
-    "site_new_papers": 8,
-    "site_modified_papers": 8,
-    "site_new_opportunities": 1,
-    "site_modified_opportunities": 16,
-    "independent_new_bibliography": 26,
     "daily_selected": 3,
-    "brief_papers_caught_up": 6,
-    "brief_dates_caught_up": [
-      "2026-10-31",
-      "2026-11-01"
-    ],
-    "opportunities_checked": 13,
-    "opportunities_unresolved": 4,
-    "journals_checked": 54,
-    "journals_unavailable": 1,
-    "independent_reviewed": 2,
-    "github_new_records": 28,
-    "github_modified_records": 11,
-    "github_modified_opportunities": 18,
-    "brief_pending": false,
-    "github_papers": 410,
+    "strict_latest": 2,
+    "high_value_catchup": 1,
+    "github_papers": 411,
     "github_opportunities": 31,
-    "github_history_dates": 27,
-    "parallel_automatic_bibliography_added": 0
+    "github_history_dates": 28,
+    "competition_selected": 3,
+    "conference_selected": 4,
+    "site_new_papers": null,
+    "site_new_opportunities": null
   },
   "brief_catchup": {
-    "window_start": "2026-10-26",
-    "window_end": "2026-11-01",
+    "window_start": "2026-10-27",
+    "window_end": "2026-11-02",
     "audit": [
-      {
-        "date": "2026-10-26",
-        "github": "success",
-        "sites": "success",
-        "paper_ids": [
-          "pubmed-42919730",
-          "pubmed-42806783"
-        ],
-        "competition_ids": [
-          "competition_c4b8c9eb04",
-          "competition_80c6f85a8d",
-          "competition_e52bc9726b"
-        ],
-        "conference_ids": [
-          "esicm-innovation2027",
-          "conference_8d528a0f54",
-          "conference_ce9a2f54c2",
-          "conference_95a23edf4a"
-        ]
-      },
       {
         "date": "2026-10-27",
         "github": "success",
@@ -224,34 +177,39 @@
           "asnacc2027",
           "conference_ce9a2f54c2"
         ]
+      },
+      {
+        "date": "2026-11-02",
+        "github": "pending",
+        "sites": "failed",
+        "paper_ids": [
+          "pubmed-42963354",
+          "doi-10-1007-s40140-026-00737-9",
+          "pubmed-42961855"
+        ],
+        "competition_ids": [
+          "competition_945b9a72d0",
+          "competition_e52bc9726b",
+          "competition-zgc-qidian-2026"
+        ],
+        "conference_ids": [
+          "esicm-innovation2027",
+          "conference_95a23edf4a",
+          "asnacc2027",
+          "conference_ce9a2f54c2"
+        ]
       }
     ],
-    "note": "逐日读取公开结构化交接；补回10月31日及11月1日历史索引，同时更新history_import源，防止下次导入覆盖。"
+    "note": "历史6日沿用此前已回读成功的台账，11月2日Sites待补。"
   },
   "failures": [
     {
-      "id": "competition_80c6f85a8d",
-      "reason": "官方动态页面无可读正文；保留原核验日期及已截止状态。"
+      "id": "sites-2026-11-02",
+      "reason": "无法调用Sites维护接口；本期未同步，待重试。"
     },
     {
       "id": "competition_e52bc9726b",
-      "reason": "CCF官方页仅图片，完整资格与费用未核验。"
-    },
-    {
-      "id": "cscva-ai-shanghai2026",
-      "reason": "投稿平台无法读取；按已核验10月31日截止作日期归档，未核实是否延期。"
-    },
-    {
-      "id": "conference_bfdb156026",
-      "reason": "学会官方页仅确认11月6—8日深圳会期，未列可核验征集截止及全文规则。"
-    },
-    {
-      "id": "arxiv",
-      "reason": "官方检索无法读取"
-    },
-    {
-      "id": "ocag184-direct-page",
-      "reason": "本维护任务出版商正文直读失败；摘要由该出版商检索索引交叉核验，保留原简报核验范围。"
+      "reason": "CCF细则未能完整读取，保留原核验日期。"
     }
   ],
   "journal_checks": [
@@ -1407,19 +1365,8 @@
     }
   },
   "frontend": {
-    "status": "success",
-    "canonical_url": "https://kudotoras.github.io/anes-ai/",
-    "verified_at": "2026-11-01T00:14:13.034843+00:00",
-    "papers": 410,
-    "opportunities": 31,
-    "history_dates": 27,
-    "daily_selected": 3,
-    "selected_paper_ids": [
-      "doi-10-1093-jamia-ocag184",
-      "doi-10-1093-jamia-ocag182",
-      "doi-10-1093-eurheartj-ehag816"
-    ],
-    "workflow_id": 41255741505,
-    "verification": "既有自动Pages发布成功后，GET公开研究/机会/历史索引/两日简报/精读摘要JSON，按ID逐条比较一致；当日3篇均具备精选关联、有效来源及核验状态。Sites原入口维护授权GET核实首页302与explorer跳转页指向唯一主站。未重新执行浏览器筛选交互测试。"
+    "status": "not_checked",
+    "last_confirmed_success": "2026-11-01",
+    "verification": "本期未执行Pages发布后GET。"
   }
 }

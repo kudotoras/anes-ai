@@ -120,22 +120,31 @@
   },
   {
     "id": "pubmed-42961855",
-    "title": "Advancing Perioperative Medicine With AI: Current Landscape and Research Priorities.",
+    "title": "Advancing Perioperative Medicine With AI: Current Landscape and Research Priorities",
     "pmid": "42961855",
     "doi": "10.2196/107155",
-    "journal": "JMIR perioperative medicine",
+    "journal": "JMIR Perioperative Medicine",
     "date": "2026-10-30",
     "dateKind": "PubMed在线日期，无独立在线日期则留空",
     "topic": "麻醉/围术期/重症AI检索线索",
-    "study_type": "题录线索·待核验",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42961855/",
-    "description": "",
-    "status": "PubMed检索题录·待人工核验",
+    "study_type": "编辑述评/专家观点；无新增患者样本或试验",
+    "source_url": "https://periop.jmir.org/2026/1/e107155/",
+    "description": "围术期AI术前风险、术中智能决策/数字孪生、术后监测研究优先级；强调高频生理数据、临床界面、人工监督和跨人群前瞻验证。不是临床有效性证据。2026-10-30正式发表。",
+    "status": "已核验出版社原文·未人工精读",
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-10-31",
     "metadata_checked_on": "2026-10-31",
-    "verifiedOn": null,
-    "needs_review": true
+    "verifiedOn": "2026-11-02",
+    "needs_review": false,
+    "title_zh": "",
+    "issue_date": "2026-10-30",
+    "verificationNote": "2026-11-02 JMIR原文核验",
+    "brief_dates": [
+      "2026-11-02"
+    ],
+    "brief_date_sources": {
+      "2026-11-02": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42961828",
@@ -282,16 +291,27 @@
     "id": "pubmed-42963354",
     "pmid": "42963354",
     "doi": "10.1038/s41746-026-03406-7",
-    "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts.",
+    "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
     "title_zh": "",
-    "journal": "NPJ digital medicine",
+    "journal": "npj Digital Medicine",
     "date": "2026-10-30",
     "topic": "自动题录",
-    "study_type": "未人工精读",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42963354/",
-    "status": "PubMed 自动收录·待人工精读",
+    "study_type": "多中心回顾性二次数据开发与独立验证；28数据集、20589份过夜记录、约20万小时EEG/EOG",
+    "source_url": "https://www.nature.com/articles/s41746-026-03406-7",
+    "status": "已核验出版社原文·未人工精读",
     "origin": "PubMed",
-    "ingested_date": "2026-11-01"
+    "ingested_date": "2026-11-01",
+    "issue_date": "2026-10-30",
+    "description": "可变导联通道注意力EEG/EOG模型；15个独立留出数据集，30秒睡眠分期留出集macro-F1约0.777，可识别短暂觉醒相关信号；睡眠分期并非麻醉深度。2025-12预印本、2026-10-30正式发表。",
+    "verifiedOn": "2026-11-02",
+    "verificationNote": "2026-11-02出版社全文与发表日期核验",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-11-02"
+    ],
+    "brief_date_sources": {
+      "2026-11-02": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42962616",
@@ -9895,5 +9915,30 @@
     "metadata_checked_on": "2026-11-01",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "doi-10-1007-s40140-026-00737-9",
+    "pmid": null,
+    "doi": "10.1007/s40140-026-00737-9",
+    "title": "Artificial Intelligence for Risk Prediction in Perioperative Cancer Surgery: a Narrative Review",
+    "title_zh": "",
+    "journal": "Current Anesthesiology Reports",
+    "date": "2026-10-14",
+    "issue_date": "2026-10-14",
+    "topic": "围术期AI/脑电",
+    "study_type": "叙述性综述；结构化MEDLINE检索后综合131项研究；无新增患者队列",
+    "source_url": "https://link.springer.com/article/10.1007/s40140-026-00737-9",
+    "status": "已核验出版社原文·未人工精读",
+    "description": "PRECAST团队从31063条检索记录经筛选综合131项研究；肿瘤围术期AI风险预测需兼顾校准、外部验证、临床阈值与实际干预效果。2026-10-14正式发表，属高价值补看而非本周新文。",
+    "verifiedOn": "2026-11-02",
+    "verificationNote": "2026-11-02出版社全文及检索方法核验",
+    "needs_review": false,
+    "origin": "麻醉AI科研简报",
+    "brief_dates": [
+      "2026-11-02"
+    ],
+    "brief_date_sources": {
+      "2026-11-02": "麻醉AI科研简报"
+    }
   }
 ]

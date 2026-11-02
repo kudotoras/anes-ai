@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-02",
+  "source": "麻醉AI科研简报",
+  "source_type": "published_daily_brief",
+  "papers": [
+    {
+      "id": "pubmed-42963354",
+      "pmid": "42963354",
+      "doi": "10.1038/s41746-026-03406-7",
+      "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
+      "journal": "npj Digital Medicine",
+      "epub_date": "2026-10-30",
+      "issue_date": "2026-10-30",
+      "study_type": "多中心回顾性二次数据开发与独立验证；28数据集、20589份过夜记录、约20万小时EEG/EOG",
+      "source_url": "https://www.nature.com/articles/s41746-026-03406-7",
+      "description": "可变导联通道注意力EEG/EOG模型；15个独立留出数据集，30秒睡眠分期留出集macro-F1约0.777，可识别短暂觉醒相关信号；睡眠分期并非麻醉深度。2025-12预印本、2026-10-30正式发表。",
+      "verification_scope": "2026-11-02出版社全文与发表日期核验",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移",
+        "脑电"
+      ]
+    },
+    {
+      "id": "doi-10-1007-s40140-026-00737-9",
+      "pmid": null,
+      "doi": "10.1007/s40140-026-00737-9",
+      "title": "Artificial Intelligence for Risk Prediction in Perioperative Cancer Surgery: a Narrative Review",
+      "journal": "Current Anesthesiology Reports",
+      "epub_date": "2026-10-14",
+      "issue_date": "2026-10-14",
+      "study_type": "叙述性综述；结构化MEDLINE检索后综合131项研究；无新增患者队列",
+      "source_url": "https://link.springer.com/article/10.1007/s40140-026-00737-9",
+      "description": "PRECAST团队从31063条检索记录经筛选综合131项研究；肿瘤围术期AI风险预测需兼顾校准、外部验证、临床阈值与实际干预效果。2026-10-14正式发表，属高价值补看而非本周新文。",
+      "verification_scope": "2026-11-02出版社全文及检索方法核验",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false,
+      "tags": [
+        "高价值补看",
+        "直接相关",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "pubmed-42961855",
+      "pmid": "42961855",
+      "doi": "10.2196/107155",
+      "title": "Advancing Perioperative Medicine With AI: Current Landscape and Research Priorities",
+      "journal": "JMIR Perioperative Medicine",
+      "epub_date": "2026-10-30",
+      "issue_date": "2026-10-30",
+      "study_type": "编辑述评/专家观点；无新增患者样本或试验",
+      "source_url": "https://periop.jmir.org/2026/1/e107155/",
+      "description": "围术期AI术前风险、术中智能决策/数字孪生、术后监测研究优先级；强调高频生理数据、临床界面、人工监督和跨人群前瞻验证。不是临床有效性证据。2026-10-30正式发表。",
+      "verification_scope": "2026-11-02 JMIR原文核验",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "直接相关",
+        "临床部署"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会（人工智能应用专业委员会承办）",
+      "category": "competition",
+      "deadline": "2026-11-10",
+      "source_url": "https://www.ai-race.com.cn/",
+      "description": "中国技术经济学会主办，医疗AI Agent方向，11月10日24:00截止；每队1–3名选手、0–2指导教师，80元/参赛者，奖金具体金额未核实。2026-11-02核验官方索引与高校2026-10-23公告。",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛",
+      "organizer": "中国计算机学会（CCF）",
+      "category": "competition",
+      "deadline": "2026-11-10",
+      "source_url": "https://ccf.org.cn/tecagi2026",
+      "description": "中国计算机学会2026通用人工智能创新应用大赛，AI+生物医药/科学智能等方向；11月10日截止来自2026-10-28已核验机构转发，具体资格费用和奖金待复核。",
+      "verifiedOn": "2026-10-28",
+      "needs_review": true
+    },
+    {
+      "id": "competition-zgc-qidian-2026",
+      "title": "第十届中关村国际前沿科技大赛 · 起点赛（全年征集）",
+      "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "category": "competition",
+      "deadline": null,
+      "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
+      "description": "北京市科委2026-08-21正式公告：起点赛面向高校科研院所及早期团队全年征集；每期加速营3–5个起点之星各奖10万元；10月31日截止仅适用于领域赛。",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false
+    }
+  ],
+  "conferences": [
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+      "organizer": "ESICM",
+      "category": "conference",
+      "deadline": "2026-11-03T23:59:00+01:00",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "description": "ESICM重症创新会议，2027-02-04至05米兰，2026-11-03 23:59 CET截止；英文≤3000字符，ePoster，未出版ICMx摘要集；研究人员/培训人员0欧元注册，会员350欧元、非会员560欧元，前三名免费后续活动注册。",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 摘要征集已开放",
+      "organizer": "ESAIC",
+      "category": "conference",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "description": "ESAIC Euroanaesthesia 2027，2027-05-29至31哥本哈根，2026-12-10 23:59 CET截止；英文摘要≤2500字符、题目≤300字符、最多6作者；Innovation Showcase不接受已商业化开发方案；录用并展示摘要发表于EJA电子增刊，非完整论文。",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false
+    },
+    {
+      "id": "asnacc2027",
+      "title": "ASNACC 2027 · 摘要征集截至11月15日，官网指南已同步",
+      "organizer": "Asian Society for Neuroanaesthesia & Critical Care（ASNACC）",
+      "category": "conference",
+      "deadline": "2026-11-15T15:59:00Z",
+      "source_url": "https://asnacc2027.org/abstract/",
+      "description": "ASNACC 2027，2027-05-07至09马来西亚古晋，2026-11-15 23:59 GMT+8截止；英文≤300词，口头/Poster；录用摘要拟刊于JNA会议摘要集，非完整论文；需注册缴费。",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "category": "conference",
+      "deadline": "2026-12-07T07:59:00Z",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "description": "IARS-SOCCA 2027，2027-04-30至05-02芝加哥，2026-12-06 23:59 PST截止；英文IMRaD合计≤4500字符、各段≤2500；展示科学摘要在线发表于A&A，非完整论文；Kosaka最佳摘要奖。",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false
+    }
+  ],
+  "note": "公开核验信息；未上传个人项目、病人信息、私有对话。Sites 2026-11-02待补同步。"
+}
