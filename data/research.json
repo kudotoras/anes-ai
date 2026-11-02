@@ -25,6 +25,21 @@
     ]
   },
   {
+    "id": "pubmed-42966909",
+    "pmid": "42966909",
+    "doi": "10.1002/advs.78587",
+    "title": "A CT Lesion Foundation Model for Non-Invasive Assessment of Hepatocellular Carcinoma Aggressiveness and Prediction of Recurrence Risk.",
+    "title_zh": "",
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "date": "2026-11-01",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42966909/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
+  },
+  {
     "id": "pubmed-42949580",
     "pmid": "42949580",
     "doi": "10.1002/aorn.70187",
@@ -98,6 +113,81 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-31"
+  },
+  {
+    "id": "pubmed-42966757",
+    "pmid": "42966757",
+    "doi": "10.1038/s41390-026-05595-z",
+    "title": "Decreasing uncertainty: using artificial intelligence to predict bacteremia and antibiotic need in sepsis in pediatric emergency patients.",
+    "title_zh": "",
+    "journal": "Pediatric research",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42966757/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
+  },
+  {
+    "id": "pubmed-42966254",
+    "pmid": "42966254",
+    "doi": "10.1016/j.ijmedinf.2026.106775",
+    "title": "Efficacy and implementation of augmented reality in healthcare: a scoping review in randomized controlled trials.",
+    "title_zh": "",
+    "journal": "International journal of medical informatics",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42966254/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
+  },
+  {
+    "id": "pubmed-42965310",
+    "pmid": "42965310",
+    "doi": "10.1002/epd2.70440",
+    "title": "Exploratory prediction of surgical outcomes in MRI-negative epilepsy using preoperative individualized morphometric networks.",
+    "title_zh": "",
+    "journal": "Epileptic disorders : international epilepsy journal with videotape",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42965310/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
+  },
+  {
+    "id": "pubmed-42966761",
+    "pmid": "42966761",
+    "doi": "10.1038/s41746-026-03449-w",
+    "title": "Predicting persistent fever in patients with cancer receiving antibiotics: a machine learning approach.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42966761/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
+  },
+  {
+    "id": "pubmed-42965522",
+    "pmid": "42965522",
+    "doi": "10.1002/jmri.70599",
+    "title": "Multiparametric Quantitative MRI With 2.5D Deep Learning for Molecular Classification and Overall Survival Assessment in Adult-Type Diffuse Gliomas.",
+    "title_zh": "",
+    "journal": "Journal of magnetic resonance imaging : JMRI",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42965522/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
   },
   {
     "id": "pubmed-42960546",
@@ -327,6 +417,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-01"
+  },
+  {
+    "id": "pubmed-42965365",
+    "pmid": "42965365",
+    "doi": "10.3791/71985",
+    "title": "Artificial Intelligence-Based Three-Dimensional Preoperative Planning for Total Knee Arthroplasty in End-Stage Knee Osteoarthritis​.",
+    "title_zh": "",
+    "journal": "Journal of visualized experiments : JoVE",
+    "date": "2026-10-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42965365/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
   },
   {
     "id": "doi-s41551-026-01777-6",
@@ -1146,6 +1251,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-30"
+  },
+  {
+    "id": "pubmed-42966317",
+    "pmid": "42966317",
+    "doi": "10.1016/j.media.2026.104378",
+    "title": "Joint segmentation of pancreatic tumors and peripancreatic vessels via a clinical risk-aware uncertainty alignment framework.",
+    "title_zh": "",
+    "journal": "Medical image analysis",
+    "date": "2026-10-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42966317/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
   },
   {
     "id": "pubmed-42927942",
@@ -4407,6 +4527,31 @@
     "selection_dates": []
   },
   {
+    "id": "doi-10-1007-s40140-026-00737-9",
+    "pmid": null,
+    "doi": "10.1007/s40140-026-00737-9",
+    "title": "Artificial Intelligence for Risk Prediction in Perioperative Cancer Surgery: a Narrative Review",
+    "title_zh": "",
+    "journal": "Current Anesthesiology Reports",
+    "date": "2026-10-14",
+    "issue_date": "2026-10-14",
+    "topic": "围术期AI/脑电",
+    "study_type": "叙述性综述；结构化MEDLINE检索后综合131项研究；无新增患者队列",
+    "source_url": "https://link.springer.com/article/10.1007/s40140-026-00737-9",
+    "status": "已核验出版社原文·未人工精读",
+    "description": "PRECAST团队从31063条检索记录经筛选综合131项研究；肿瘤围术期AI风险预测需兼顾校准、外部验证、临床阈值与实际干预效果。2026-10-14正式发表，属高价值补看而非本周新文。",
+    "verifiedOn": "2026-11-02",
+    "verificationNote": "2026-11-02出版社全文及检索方法核验",
+    "needs_review": false,
+    "origin": "麻醉AI科研简报",
+    "brief_dates": [
+      "2026-11-02"
+    ],
+    "brief_date_sources": {
+      "2026-11-02": "麻醉AI科研简报"
+    }
+  },
+  {
     "id": "paper_54832d55ba13",
     "title": "Repurposing adult AI radiograph models for neonatal care through continual learning: an international multicentre study",
     "title_zh": "成人气管导管影像AI迁移至新生儿：30家NICU的持续学习验证",
@@ -4805,6 +4950,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-28"
+  },
+  {
+    "id": "pubmed-42965211",
+    "pmid": "42965211",
+    "doi": "10.4103/tjem.tjem_344_26",
+    "title": "Emergency department extracorporeal membrane oxygenation: Current concepts, systems-based implementation, and future directions.",
+    "title_zh": "",
+    "journal": "Turkish journal of emergency medicine",
+    "date": "2026-10-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42965211/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
+  },
+  {
+    "id": "pubmed-42964890",
+    "pmid": "42964890",
+    "doi": "10.4103/tjem.tjem_481_25",
+    "title": "Emergency medicine literature in the Web of Science category \"emergency medicine\": A bibliometric analysis (1980-2024).",
+    "title_zh": "",
+    "journal": "Turkish journal of emergency medicine",
+    "date": "2026-10-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42964890/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-02"
   },
   {
     "id": "legacy-1",
@@ -9915,30 +10090,5 @@
     "metadata_checked_on": "2026-11-01",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-10-1007-s40140-026-00737-9",
-    "pmid": null,
-    "doi": "10.1007/s40140-026-00737-9",
-    "title": "Artificial Intelligence for Risk Prediction in Perioperative Cancer Surgery: a Narrative Review",
-    "title_zh": "",
-    "journal": "Current Anesthesiology Reports",
-    "date": "2026-10-14",
-    "issue_date": "2026-10-14",
-    "topic": "围术期AI/脑电",
-    "study_type": "叙述性综述；结构化MEDLINE检索后综合131项研究；无新增患者队列",
-    "source_url": "https://link.springer.com/article/10.1007/s40140-026-00737-9",
-    "status": "已核验出版社原文·未人工精读",
-    "description": "PRECAST团队从31063条检索记录经筛选综合131项研究；肿瘤围术期AI风险预测需兼顾校准、外部验证、临床阈值与实际干预效果。2026-10-14正式发表，属高价值补看而非本周新文。",
-    "verifiedOn": "2026-11-02",
-    "verificationNote": "2026-11-02出版社全文及检索方法核验",
-    "needs_review": false,
-    "origin": "麻醉AI科研简报",
-    "brief_dates": [
-      "2026-11-02"
-    ],
-    "brief_date_sources": {
-      "2026-11-02": "麻醉AI科研简报"
-    }
   }
 ]
