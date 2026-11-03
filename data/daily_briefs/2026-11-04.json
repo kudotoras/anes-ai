@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-04",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "title": "Beyond Classification Accuracy: Building Trustworthy Artificial Intelligence for Clinical Electroencephalography",
+      "doi": "10.1016/j.brainresbull.2026.112198",
+      "pmid": "42971410",
+      "journal": "Brain Research Bulletin",
+      "publication_date": "2026-11-02",
+      "publication_type": "Review",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42971410/",
+      "verification_scope": "PubMed abstract",
+      "verifiedOn": "2026-11-04",
+      "needs_review": false,
+      "tag": "严格最新｜直接相关｜方法可迁移"
+    }
+  ],
+  "competitions": [],
+  "conferences": [
+    {
+      "title": "Intensive Care Innovation 2027",
+      "organizer": "ESICM",
+      "deadline": "2026-11-09T12:00:00+01:00",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verifiedOn": "2026-11-04",
+      "verification_scope": "official event page",
+      "needs_review": false
+    }
+  ]
+}
