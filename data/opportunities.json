@@ -401,54 +401,6 @@
     ]
   },
   {
-    "id": "conference_8d528a0f54",
-    "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
-    "organizer": "Biomedical Engineering Society",
-    "journal": "Biomedical Engineering Society",
-    "date": "2026-11-06",
-    "deadline": "2026-11-06",
-    "category": "conference",
-    "topic": "会议与征集",
-    "description": "官方摘要页明确Late-Breaking截止11月6日，常规摘要截止8月4日，需区分两个通道。会议在2027年1月3—7日举行。\n\n偏细胞与分子生物工程，作为基础研究拓展机会。常规摘要少于250词，不能未经核验直接套用于Late-Breaking；部分奖项申请已截止，费用和出版检索须另核实。",
-    "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
-    "status": "open",
-    "historical_status": "has_future_deadline_reported",
-    "archive": false,
-    "announcement_date": null,
-    "archive_review_required": false,
-    "verifiedOn": "2026-11-03",
-    "sources": [
-      {
-        "label": "BMES官方摘要征集页",
-        "url": "https://www.bmes.org/2027/cmbeconference/abstracts"
-      }
-    ],
-    "deadlineLabel": "2026-11-06（官网未注明具体时间/时区）",
-    "event": "2027-01-03—01-07 · 美国圣迭戈",
-    "format": "Late-Breaking Abstract / Poster",
-    "brief_dates": [
-      "2026-10-25",
-      "2026-10-26",
-      "2026-10-27",
-      "2026-10-28",
-      "2026-10-30"
-    ],
-    "site_catalog_id": "conference_8d528a0f54",
-    "provenance": [
-      "麻醉AI科研简报"
-    ],
-    "verificationNote": "2026-11-03 BMES官网确认Late-Breaking摘要11月6日截止，时区未注明。",
-    "needs_review": false,
-    "brief_date_sources": {
-      "2026-10-27": "麻醉AI科研简报",
-      "2026-10-26": "麻醉AI科研简报",
-      "2026-10-28": "麻醉AI科研简报",
-      "2026-10-30": "麻醉AI科研简报"
-    },
-    "verification_attempted_on": "2026-11-03",
-    "verification_failure": null
-  },
-  {
     "id": "esicm-innovation2027",
     "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
     "organizer": "ESICM",
@@ -507,6 +459,54 @@
     "verification_attempted_on": "2026-11-03",
     "verification_failure": null,
     "deadline_timezone": "Europe/Rome"
+  },
+  {
+    "id": "conference_8d528a0f54",
+    "title": "BMES CMBE 2027 · Late-Breaking摘要征集",
+    "organizer": "Biomedical Engineering Society",
+    "journal": "Biomedical Engineering Society",
+    "date": "2026-11-06",
+    "deadline": "2026-11-06",
+    "category": "conference",
+    "topic": "会议与征集",
+    "description": "官方摘要页明确Late-Breaking截止11月6日，常规摘要截止8月4日，需区分两个通道。会议在2027年1月3—7日举行。\n\n偏细胞与分子生物工程，作为基础研究拓展机会。常规摘要少于250词，不能未经核验直接套用于Late-Breaking；部分奖项申请已截止，费用和出版检索须另核实。",
+    "source_url": "https://www.bmes.org/2027/cmbeconference/abstracts",
+    "status": "open",
+    "historical_status": "has_future_deadline_reported",
+    "archive": false,
+    "announcement_date": null,
+    "archive_review_required": false,
+    "verifiedOn": "2026-11-03",
+    "sources": [
+      {
+        "label": "BMES官方摘要征集页",
+        "url": "https://www.bmes.org/2027/cmbeconference/abstracts"
+      }
+    ],
+    "deadlineLabel": "2026-11-06（官网未注明具体时间/时区）",
+    "event": "2027-01-03—01-07 · 美国圣迭戈",
+    "format": "Late-Breaking Abstract / Poster",
+    "brief_dates": [
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-30"
+    ],
+    "site_catalog_id": "conference_8d528a0f54",
+    "provenance": [
+      "麻醉AI科研简报"
+    ],
+    "verificationNote": "2026-11-03 BMES官网确认Late-Breaking摘要11月6日截止，时区未注明。",
+    "needs_review": false,
+    "brief_date_sources": {
+      "2026-10-27": "麻醉AI科研简报",
+      "2026-10-26": "麻醉AI科研简报",
+      "2026-10-28": "麻醉AI科研简报",
+      "2026-10-30": "麻醉AI科研简报"
+    },
+    "verification_attempted_on": "2026-11-03",
+    "verification_failure": null
   },
   {
     "id": "competition_80c6f85a8d",
