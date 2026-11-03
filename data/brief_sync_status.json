@@ -3,7 +3,7 @@
   "brief_date": "2026-11-03",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "当日聊天简报待生成/待对齐",
+  "brief_status": "11月3日聊天精选3篇，独立站点精选2篇保留目录；GitHub公开交接待提交回读，Sites独立更新成功但本期简报补对齐待完成。",
   "sites": {
     "status": "partial",
     "independent_update_status": "success",
@@ -13,17 +13,39 @@
     "papers": 117,
     "opportunities": 21,
     "verified_at": "2026-11-03T00:00:51.541259+00:00",
-    "verification": "管理员POST后GET逐条验证记录、revision和runId；保留旧ID、实际日期和未更新条目；不改源码、不重新部署。"
+    "verification": "管理员POST后GET逐条验证记录、revision和runId；保留旧ID、实际日期和未更新条目；不改源码、不重新部署。",
+    "brief_pending_ids": [
+      "pubmed-42962495",
+      "pubmed-42298974",
+      "doi-10-1038-s42256-026-01323-8"
+    ],
+    "brief_pending_opportunity_ids": [
+      "competition_945b9a72d0",
+      "competition_e52bc9726b",
+      "competition-zgc-qidian-2026",
+      "esicm-innovation2027",
+      "asnacc2027",
+      "conference_95a23edf4a",
+      "conference_ce9a2f54c2"
+    ],
+    "brief_pending_reason": "当前运行无Sites get_site及管理员维护接口；未执行本期POST/GET，独立更新成功不等于聊天精选对齐。"
   },
   "github": {
     "status": "partial",
     "independent_update_status": "success",
-    "brief_alignment_status": "pending",
-    "readback_commit": "d155aadcd2eafd98c957740a727cedd6b9d47558"
+    "brief_alignment_status": "pending_readback",
+    "readback_commit": "d155aadcd2eafd98c957740a727cedd6b9d47558",
+    "papers": 444,
+    "opportunities": 31,
+    "history_dates": 29,
+    "selected_papers": 3,
+    "selected_competitions": 3,
+    "selected_conferences": 4
   },
   "selected_paper_ids": [
-    "pubmed-42803764",
-    "pubmed-42673898"
+    "pubmed-42962495",
+    "pubmed-42298974",
+    "doi-10-1038-s42256-026-01323-8"
   ],
   "counts": {
     "site_new_papers": 2,
@@ -32,12 +54,14 @@
     "site_modified_opportunities": 7,
     "independent_new_bibliography": 2,
     "independent_reviewed": 2,
-    "daily_selected": 2,
-    "brief_pending": true,
+    "daily_selected": 3,
+    "brief_pending": false,
     "opportunities_checked": 4,
     "opportunities_unresolved": 3,
     "journals_checked": 25,
-    "journals_unavailable": 0
+    "journals_unavailable": 0,
+    "github_papers": 444,
+    "github_opportunities": 31
   },
   "brief_catchup": {
     "window_start": "2026-10-28",
@@ -45,45 +69,46 @@
     "audit": [
       {
         "date": "2026-10-28",
-        "missing": [],
-        "status": "success"
+        "status": "previously_aligned_or_recorded",
+        "missing": []
       },
       {
         "date": "2026-10-29",
-        "missing": [],
-        "status": "success"
+        "status": "previously_aligned_or_recorded",
+        "missing": []
       },
       {
         "date": "2026-10-30",
-        "missing": [],
-        "status": "success"
+        "status": "previously_aligned_or_recorded",
+        "missing": []
       },
       {
         "date": "2026-10-31",
-        "missing": [],
-        "status": "success"
+        "status": "previously_aligned_or_recorded",
+        "missing": []
       },
       {
         "date": "2026-11-01",
-        "missing": [],
-        "status": "success"
+        "status": "previously_aligned_or_recorded",
+        "missing": []
       },
       {
         "date": "2026-11-02",
-        "missing": [],
-        "status": "success"
+        "status": "previously_aligned_or_recorded",
+        "missing": []
+      },
+      {
+        "date": "2026-11-03",
+        "status": "github_pending_readback_sites_pending",
+        "missing": []
       }
     ],
-    "note": "前6日公开交接逐条检查，两端未见缺项；11月2日简报尚未完成时不造空简报覆盖旧内容。"
+    "note": "近7日GitHub公开交接文件逐一检查；前6日保留原台账状态，Sites本期聊天简报待补。"
   },
   "failures": [
     {
       "id": "competition_e52bc9726b",
       "reason": "CCF官方页仅图像，完整资格与费用待核验。"
-    },
-    {
-      "id": "competition_80c6f85a8d",
-      "reason": "官网无可读正文，保留既有状态。"
     },
     {
       "id": "cscva-ai-shanghai2026",
@@ -96,6 +121,16 @@
     {
       "id": "publisher-42803764",
       "reason": "出版商直读失败，PubMed原始摘要核验成功。"
+    },
+    {
+      "id": "sites-brief-2026-11-03",
+      "reason": "缺少Sites get_site及管理员维护接口，无法完成本期简报写入回读。",
+      "retry": true
+    },
+    {
+      "id": "competition_80c6f85a8d",
+      "reason": "首届AI+医疗大赛官网11月23日与10月16日媒体公告10月30日冲突，未确认正式延期；不推荐报名。",
+      "retry": true
     }
   ],
   "journal_checks": [
@@ -303,7 +338,8 @@
   "limitations": [
     "期刊限定PubMed及主题检索不等于出版商全部最新文章或全文覆盖。",
     "独立核验限PubMed原始摘要，保留原电子发表日期。",
-    "合并期刊查询覆盖当前期刊表；逐刊检查仅记录截至本次写入已完成的检查。"
+    "合并期刊查询覆盖当前期刊表；逐刊检查仅记录截至本次写入已完成的检查。",
+    "2026-11-03 Sites独立更新已核验，但本期聊天精选未获得Sites管理员写入及回读。"
   ],
   "previous_syncs": {
     "0": {
@@ -2305,8 +2341,9 @@
     }
   },
   "frontend": {
-    "status": "pending",
+    "status": "not_verified",
     "canonical_url": "https://kudotoras.github.io/anes-ai/",
-    "verification": "待本轮GitHub自动发布后公开数据回读。"
+    "verification": "待本轮GitHub自动发布后公开数据回读。",
+    "note": "本期公开GitHub Pages前端尚未单独回读核验。"
   }
 }

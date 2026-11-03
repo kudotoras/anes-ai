@@ -548,9 +548,16 @@
     ],
     "selection_source": "独立检索精选",
     "tags": [
-      "严格最新"
+      "严格最新",
+      "直接相关"
     ],
-    "issue_date": null
+    "issue_date": null,
+    "brief_dates": [
+      "2026-11-03"
+    ],
+    "brief_date_sources": {
+      "2026-11-03": "麻醉AI科研简报"
+    }
   },
   {
     "id": "doi-s41551-026-01777-6",
@@ -8899,16 +8906,16 @@
     "topic": "精准麻醉、围术期数据与模型评价",
     "study_type": "开放数据基础设施开发与实际部署；118,915人、77个手术室/ICU床位",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42298974/",
-    "description": "平台整合监护、注射泵、呼吸机、EEG与检验，以Kafka流传输及混合长期存储支持多设备数据。已积累118,915人资料，含7096例注射泵数据；为围术期AI研究提供基础设施范例。数据质量与跨机构标准化仍待解决；基础设施可行性不等于临床决策获益。首次上线2026-06-15，正式刊期2026年11月，按高价值补看收录。",
+    "description": "采用Kafka实时流式采集监护仪、注射泵、呼吸机、EEG及实验室数据，覆盖118915例患者，7096例有注射泵数据。是多模态数字孪生数据基础设施示范，不是临床疗效试验。Epub 6月15日，正式刊期11月1日。",
     "status": "已核验原始摘要·未人工全文精读",
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-11-01",
     "metadata_checked_on": "2026-11-01",
-    "verifiedOn": "2026-11-02",
+    "verifiedOn": "2026-11-03",
     "needs_review": false,
     "title_zh": "开放围术期数据平台：实时整合监护、注射泵与EEG",
     "epub_date": "2026-06-15",
-    "verification_scope": "2026-11-02 PubMed原始EFetch结构化摘要、日期及研究类型；JAMIA首次发表日期另经出版商检索索引核验，未声称全文精读。",
+    "verification_scope": "2026-11-03 PubMed与EJA出版商摘要、Epub及2026年11月正式卷期核对",
     "sources": [
       {
         "label": "PubMed原始摘要",
@@ -8925,9 +8932,17 @@
     ],
     "selection_source": "独立检索精选",
     "tags": [
-      "高价值补看"
+      "高价值补看",
+      "直接相关",
+      "方法可迁移"
     ],
-    "issue_date": "2026-11"
+    "issue_date": "2026-11-01",
+    "brief_dates": [
+      "2026-11-03"
+    ],
+    "brief_date_sources": {
+      "2026-11-03": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42932676",
@@ -10552,5 +10567,36 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "doi-10-1038-s42256-026-01323-8",
+    "pmid": null,
+    "doi": "10.1038/s42256-026-01323-8",
+    "title": "AI needs meaningful versioning",
+    "title_zh": "人工智能系统需要有意义的版本标识",
+    "journal": "Nature Machine Intelligence",
+    "date": "2026-11-02",
+    "epub_date": "2026-11-02",
+    "issue_date": "2026-11-02",
+    "topic": "临床AI安全与可复现性",
+    "study_type": "同行评审观点/治理方法学文章，无新增患者队列",
+    "source_url": "https://www.nature.com/articles/s42256-026-01323-8",
+    "status": "已核验出版社摘要·未人工全文精读",
+    "description": "模型服务可能在标识不变时更新权重、提示词或集成组件，影响复现与监管；主张可追溯的版本机制。适合临床Agent模型版本、提示词、工具链、审计日志和回滚机制设计，非临床效果证据。",
+    "verifiedOn": "2026-11-03",
+    "verification_scope": "2026-11-03 Nature Machine Intelligence出版商题录、摘要与发表日期核对；全文访问受限",
+    "needs_review": false,
+    "origin": "麻醉AI科研简报独立检索",
+    "brief_dates": [
+      "2026-11-03"
+    ],
+    "brief_date_sources": {
+      "2026-11-03": "麻醉AI科研简报"
+    },
+    "tags": [
+      "严格最新",
+      "方法可迁移",
+      "安全与治理"
+    ]
   }
 ]

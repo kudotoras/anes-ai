@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-03",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "id": "pubmed-42962495",
+      "pmid": "42962495",
+      "doi": "10.1016/j.jclinane.2026.112351",
+      "title": "Processed electroencephalogram-guided anesthesia and its impact on postoperative delirium and perioperative efficiency: A systematic review and meta-analysis.",
+      "title_zh": "pEEG引导麻醉与术后谵妄：87项随机试验系统综述",
+      "journal": "Journal of Clinical Anesthesia",
+      "epub_date": "2026-10-30",
+      "issue_date": null,
+      "study_type": "系统综述及Meta分析：87项RCT，共30,611名成人",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962495/",
+      "description": "87项RCT共30611人；POD风险RR 0.73（95%CI 0.63–0.84），丙泊酚用量及拔管时间亦下降；设备间证据量不均、多个结局异质性明显，且大型单项试验存在阴性结果。不能据此认定AI双药决策改善POD。",
+      "verification_scope": "2026-11-03与公开原始题录、研究摘要索引交叉核对；原PubMed核验日期保留2026-11-02",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "直接相关"
+      ]
+    },
+    {
+      "id": "pubmed-42298974",
+      "pmid": "42298974",
+      "doi": "10.1097/EJA.0000000000002422",
+      "title": "Real-time peri-operative data integration and clinical decision support: an open interoperable platform for patient data.",
+      "title_zh": "围术期实时多设备数据整合与临床决策支持开放平台",
+      "journal": "European Journal of Anaesthesiology",
+      "epub_date": "2026-06-15",
+      "issue_date": "2026-11-01",
+      "study_type": "实际部署的多设备数据基础设施研究；118,915例患者记录、77个手术室/ICU床位",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42298974/",
+      "description": "采用Kafka实时流式采集监护仪、注射泵、呼吸机、EEG及实验室数据，覆盖118915例患者，7096例有注射泵数据。是多模态数字孪生数据基础设施示范，不是临床疗效试验。Epub 6月15日，正式刊期11月1日。",
+      "verification_scope": "2026-11-03 PubMed与EJA出版商摘要、Epub及2026年11月正式卷期核对",
+      "verifiedOn": "2026-11-03",
+      "needs_review": false,
+      "tags": [
+        "高价值补看",
+        "直接相关",
+        "方法可迁移"
+      ]
+    },
+    {
+      "id": "doi-10-1038-s42256-026-01323-8",
+      "pmid": null,
+      "doi": "10.1038/s42256-026-01323-8",
+      "title": "AI needs meaningful versioning",
+      "title_zh": "人工智能系统需要有意义的版本标识",
+      "journal": "Nature Machine Intelligence",
+      "epub_date": "2026-11-02",
+      "issue_date": "2026-11-02",
+      "study_type": "同行评审观点/治理方法学文章，无新增患者队列",
+      "source_url": "https://www.nature.com/articles/s42256-026-01323-8",
+      "description": "模型服务可能在标识不变时更新权重、提示词或集成组件，影响复现与监管；主张可追溯的版本机制。适合临床Agent模型版本、提示词、工具链、审计日志和回滚机制设计，非临床效果证据。",
+      "verification_scope": "2026-11-03 Nature Machine Intelligence出版商题录、摘要与发表日期核对；全文访问受限",
+      "verifiedOn": "2026-11-03",
+      "needs_review": false,
+      "tags": [
+        "严格最新",
+        "方法可迁移",
+        "安全与治理"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会（人工智能应用专业委员会承办）",
+      "category": "competition",
+      "deadline": "2026-11-10",
+      "deadlineLabel": "2026-11-10 24:00（北京时间；即11月11日00:00）",
+      "deadline_timezone": "Asia/Shanghai",
+      "source_url": "https://www.ai-race.com.cn/",
+      "verifiedOn": "2026-11-03",
+      "needs_review": false,
+      "verificationNote": "2026-11-03赛事官网确认11月10日24:00截止，通用赛道含医疗Agent。",
+      "format": null,
+      "event": null
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛",
+      "organizer": "中国计算机学会（CCF）",
+      "category": "competition",
+      "deadline": "2026-11-10",
+      "deadlineLabel": null,
+      "deadline_timezone": null,
+      "source_url": "https://ccf.org.cn/tecagi2026",
+      "verifiedOn": "2026-10-28",
+      "needs_review": true,
+      "verificationNote": "2026-10-28核验中科院官方机构转发的报名截止；CCF赛事详情页面未能读取，不声称全部核验。",
+      "format": null,
+      "event": null
+    },
+    {
+      "id": "competition-zgc-qidian-2026",
+      "title": "第十届中关村国际前沿科技大赛 · 起点赛（全年征集）",
+      "organizer": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "category": "competition",
+      "deadline": null,
+      "deadlineLabel": "全年常态化征集，非10月31日领域赛截止",
+      "deadline_timezone": null,
+      "source_url": "https://kw.beijing.gov.cn/zwgk/zcwj/202608/t20260821_4831894.html",
+      "verifiedOn": "2026-11-02",
+      "needs_review": false,
+      "verificationNote": "2026-11-02 北京科委公告起点赛全年征集，独立于已截止企业领域赛。",
+      "format": null,
+      "event": null
+    }
+  ],
+  "conferences": [
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
+      "organizer": "ESICM",
+      "category": "conference",
+      "deadline": "2026-11-09T12:00:00+01:00",
+      "deadlineLabel": "2026-11-09 12:00 CET（北京时间11月9日19:00；官网已延长）",
+      "deadline_timezone": "Europe/Rome",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verifiedOn": "2026-11-03",
+      "needs_review": false,
+      "verificationNote": "2026-11-03 ESICM官方会议页面明确截止2026-11-09 12:00 CET，较此前11-03 23:59 CET延期；按新官方日期为准。",
+      "format": "摘要 / ePoster",
+      "event": "2027-02-04 — 02-05 · 意大利米兰"
+    },
+    {
+      "id": "asnacc2027",
+      "title": "ASNACC 2027 · 摘要征集截至11月15日，官网指南已同步",
+      "organizer": "Asian Society for Neuroanaesthesia & Critical Care（ASNACC）",
+      "category": "conference",
+      "deadline": "2026-11-15T15:59:00Z",
+      "deadlineLabel": "2026-11-15 23:59 GMT+8（北京时间；首页、主题页与投稿指南现已一致）",
+      "deadline_timezone": null,
+      "source_url": "https://asnacc2027.org/abstract/",
+      "verifiedOn": "2026-11-03",
+      "needs_review": false,
+      "verificationNote": "2026-11-02 官方指南11月15日23:59 GMT+8截止。",
+      "format": "摘要 / 口头报告 / 墙报",
+      "event": null
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 摘要征集已开放",
+      "organizer": "ESAIC",
+      "category": "conference",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "deadlineLabel": "2026-12-10 23:59 CET（北京时间12月11日06:59）；11月1日开放",
+      "deadline_timezone": "Europe/Copenhagen",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-03",
+      "needs_review": false,
+      "verificationNote": "2026-11-03 ESAIC官网确认摘要截至12月10日。",
+      "format": "英文摘要/ePoster；可申请Innovation Showcase原型展示",
+      "event": "2027-05-29 — 05-31 · 丹麦哥本哈根"
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "category": "conference",
+      "deadline": "2026-12-07T07:59:00Z",
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间 12-07 15:59）",
+      "deadline_timezone": null,
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-03",
+      "needs_review": false,
+      "verificationNote": "2026-11-03 IARS官方确认12月6日23:59 PST截止。",
+      "format": "摘要 / 墙报",
+      "event": "2027-04-30 — 05-02 · 美国芝加哥"
+    }
+  ],
+  "source_type": "已核验公开精选；含旧题录更新",
+  "note": "仅公开文献及赛事会议字段；不含私人研究计划、患者信息或会话内容。ESICM官方延期至11月9日12:00 CET。"
+}
