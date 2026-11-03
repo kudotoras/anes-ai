@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-02",
+    "verifiedOn": "2026-11-03",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -46,8 +46,8 @@
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "2026-11-02 ESAIC官网确认11月1日至12月10日摘要开放期，未登录测试提交。",
-    "verification_attempted_on": "2026-11-02",
+    "verificationNote": "2026-11-03 ESAIC官网确认摘要截至12月10日。",
+    "verification_attempted_on": "2026-11-03",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -78,7 +78,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-02",
+    "verifiedOn": "2026-11-03",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -101,7 +101,7 @@
       "2026-11-01",
       "2026-11-02"
     ],
-    "verificationNote": "2026-11-02 IARS官方页12月6日23:59 PST截止，保留真实时区。",
+    "verificationNote": "2026-11-03 IARS官方确认12月6日23:59 PST截止。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -114,7 +114,7 @@
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-02",
+    "verification_attempted_on": "2026-11-03",
     "verification_failure": null
   },
   {
@@ -366,8 +366,8 @@
       "2026-11-02"
     ],
     "archive_review_required": false,
-    "verification_attempted_on": "2026-11-02",
-    "verification_failure": "2026-11-02 CCF官方页仅图片，完整资格/费用待复核。",
+    "verification_attempted_on": "2026-11-03",
+    "verification_failure": "2026-11-03 CCF官方页仅图像，完整资格与费用待核验。",
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报",
       "2026-10-28": "麻醉AI科研简报",
@@ -416,7 +416,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-02",
+    "verifiedOn": "2026-11-03",
     "sources": [
       {
         "label": "BMES官方摘要征集页",
@@ -437,7 +437,7 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "2026-11-02 BMES官网Late-Breaking 11月6日截止，时区未注明。",
+    "verificationNote": "2026-11-03 BMES官网确认Late-Breaking摘要11月6日截止，时区未注明。",
     "needs_review": false,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -445,7 +445,7 @@
       "2026-10-28": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-02",
+    "verification_attempted_on": "2026-11-03",
     "verification_failure": null
   },
   {
@@ -453,17 +453,17 @@
     "title": "ESICM Intensive Care Innovation 2027 · AI 与精准重症 ePoster 征集",
     "organizer": "ESICM",
     "journal": "ESICM",
-    "date": "2026-11-03",
+    "date": "2026-11-09",
     "announcement_date": null,
-    "deadline": "2026-11-03T23:59:00+01:00",
+    "deadline": "2026-11-09T12:00:00+01:00",
     "category": "conference",
     "topic": "重症",
-    "description": "ESICM重症创新会议，2027-02-04至05米兰，2026-11-03 23:59 CET截止；英文≤3000字符，ePoster，未出版ICMx摘要集；研究人员/培训人员0欧元注册，会员350欧元、非会员560欧元，前三名免费后续活动注册。",
+    "description": "ESICM重症创新会议，2027-02-04至05米兰，2026-11-09 12:00 CET截止；英文≤3000字符，ePoster，未出版ICMx摘要集；研究人员/培训人员0欧元注册，会员350欧元、非会员560欧元，前三名免费后续活动注册。",
     "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-02",
+    "verifiedOn": "2026-11-03",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -474,8 +474,8 @@
         "url": "https://www.esicm.org/wp-content/uploads/2026/09/Instructions_Abstracts.pdf"
       }
     ],
-    "deadlineLabel": "2026-11-03 23:59 CET（北京时间 11-04 06:59）",
-    "deadlineInstant": "2026-11-03T22:59:00Z",
+    "deadlineLabel": "2026-11-09 12:00 CET（北京时间19:00）",
+    "deadlineInstant": "2026-11-09T11:00:00Z",
     "event": "2027-02-04 — 02-05 · 意大利米兰",
     "format": "摘要 / ePoster",
     "brief_dates": [
@@ -488,7 +488,7 @@
       "2026-11-01",
       "2026-11-02"
     ],
-    "verificationNote": "2026-11-02 官方会页确认11月3日23:59 CET截止，ePoster且无ICMx摘要集。",
+    "verificationNote": "2026-11-03 ESICM官网已更新至11月9日12:00 CET（北京时间19:00）；以会议页最新截止为准。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -504,7 +504,7 @@
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-02",
+    "verification_attempted_on": "2026-11-03",
     "verification_failure": null,
     "deadline_timezone": "Europe/Rome"
   },
@@ -528,8 +528,8 @@
       "2026-10-30"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-11-02",
-    "verification_failure": "2026-11-02 官方动态页面无正文；保留已截止状态。",
+    "verification_attempted_on": "2026-11-03",
+    "verification_failure": "2026-11-03 官网无可读正文，保留既有状态。",
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报"
@@ -693,8 +693,8 @@
     "format": "中文结构式摘要 / 优秀论文演讲交流",
     "archive": false,
     "needs_review": false,
-    "verification_attempted_on": "2026-11-02",
-    "verification_failure": "2026-11-02 原投稿平台读取失败，保留既有截止及核验日期。",
+    "verification_attempted_on": "2026-11-03",
+    "verification_failure": "2026-11-03 投稿页读取失败，保留既有记录。",
     "brief_dates": [
       "2026-10-27",
       "2026-10-28",

@@ -1,63 +1,47 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-02",
+  "brief_date": "2026-11-03",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "11月2日完整实际简报公开交接已增量对齐两端，3篇精选一致；独立3篇保留完整库。近7日公开交接无漏项。",
+  "brief_status": "当日聊天简报待生成/待对齐",
   "sites": {
-    "status": "success",
+    "status": "partial",
     "independent_update_status": "success",
-    "brief_alignment_status": "success",
-    "revision": "0fd9dcb9-c71c-4b0a-9413-f1c51202764a",
-    "run_id": "daily-union-20261102-v1",
-    "papers": 115,
+    "brief_alignment_status": "pending",
+    "revision": "74dfb2d0-302b-4f7d-9d1f-85f2167c0197",
+    "run_id": "daily-union-20261103-v1",
+    "papers": 117,
     "opportunities": 21,
-    "verified_at": "2026-11-02T00:06:20.092356+00:00",
+    "verified_at": "2026-11-03T00:00:51.541259+00:00",
     "verification": "管理员POST后GET逐条验证记录、revision和runId；保留旧ID、实际日期和未更新条目；不改源码、不重新部署。"
   },
   "github": {
-    "status": "success",
-    "independent_update_status": "success",
-    "brief_alignment_status": "success",
-    "papers": 425,
-    "opportunities": 31,
-    "history_dates": 28,
-    "verified_at": "2026-11-02T00:07:54.671536+00:00",
-    "readback_commit": "78bc7756e32d03892d2269d96ac61406431e4a8f",
-    "verification": "原子数据提交后逐文件SHA回读，既有Actions成功后公开JSON按ID逐条比较一致；人工精读摘要SHA保持原值。"
+    "status": "partial",
+    "independent_update_status": "pending_readback",
+    "brief_alignment_status": "pending"
   },
   "selected_paper_ids": [
-    "pubmed-42963354",
-    "doi-10-1007-s40140-026-00737-9",
-    "pubmed-42961855"
+    "pubmed-42803764",
+    "pubmed-42673898"
   ],
   "counts": {
-    "site_new_papers": 6,
+    "site_new_papers": 2,
     "site_modified_papers": 0,
     "site_new_opportunities": 0,
-    "site_modified_opportunities": 14,
-    "independent_new_bibliography": 3,
-    "independent_reviewed": 3,
-    "daily_selected": 3,
-    "brief_pending": false,
-    "opportunities_checked": 11,
-    "opportunities_unresolved": 4,
-    "journals_checked": 58,
-    "journals_unavailable": 1,
-    "github_new_records": 4,
-    "github_modified_records": 5,
-    "github_modified_opportunities": 14,
-    "github_papers": 425
+    "site_modified_opportunities": 7,
+    "independent_new_bibliography": 2,
+    "independent_reviewed": 2,
+    "daily_selected": 2,
+    "brief_pending": true,
+    "opportunities_checked": 4,
+    "opportunities_unresolved": 3,
+    "journals_checked": 25,
+    "journals_unavailable": 0
   },
   "brief_catchup": {
-    "window_start": "2026-10-27",
-    "window_end": "2026-11-02",
+    "window_start": "2026-10-28",
+    "window_end": "2026-11-03",
     "audit": [
-      {
-        "date": "2026-10-27",
-        "missing": [],
-        "status": "success"
-      },
       {
         "date": "2026-10-28",
         "missing": [],
@@ -94,508 +78,226 @@
   "failures": [
     {
       "id": "competition_e52bc9726b",
-      "reason": "CCF官方页仅图片，完整资格/费用待复核。"
+      "reason": "CCF官方页仅图像，完整资格与费用待核验。"
     },
     {
       "id": "competition_80c6f85a8d",
-      "reason": "官方动态页面无正文；保留已截止状态。"
+      "reason": "官网无可读正文，保留既有状态。"
     },
     {
       "id": "cscva-ai-shanghai2026",
-      "reason": "原投稿平台读取失败，保留既有截止及核验日期。"
-    },
-    {
-      "id": "conference_bfdb156026",
-      "reason": "学会官网仅确认会期，征集规则及截止仍未知。"
+      "reason": "投稿页读取失败，保留既有记录。"
     },
     {
       "id": "arxiv",
       "reason": "官方检索无法读取"
-    },
-    {
-      "id": "publisher-page-read",
-      "reason": "本任务pEEG论文出版商DOI、JAMIA正文及AnySleep出版社全文直读失败；前两篇采用成功读取的PubMed原始摘要/出版商索引，AnySleep保留实际完整简报交接核验范围，未冒充本任务重新全文精读。"
     }
   ],
   "journal_checks": [
     {
       "journal": "The Lancet Digital Health",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22The+Lancet+Digital+Health%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22The+Lancet+Digital+Health%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Nature Medicine",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 5,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Nature Biomedical Engineering",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 1,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Biomedical+Engineering%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Biomedical+Engineering%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Nature Machine Intelligence",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Machine+Intelligence%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Machine+Intelligence%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "NEJM AI",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 5,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22NEJM+AI%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22NEJM+AI%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "JAMA",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 10,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMA%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMA%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "JAMA Network Open",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMA+Network+Open%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "count": 1,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMA+Network+Open%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Critical Care",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Critical+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Critical+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Intensive Care Medicine",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Intensive+Care+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "count": 3,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Intensive+Care+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Anesthesiology",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anesthesiology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anesthesiology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "British Journal of Anaesthesia",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22British+Journal+of+Anaesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22British+Journal+of+Anaesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Anaesthesia",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anaesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anaesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Anesthesia & Analgesia",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anesthesia+%26+Analgesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anesthesia+%26+Analgesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "npj Digital Medicine",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 4,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22npj+Digital+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22npj+Digital+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "IEEE Transactions on Medical Imaging",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 3,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Transactions+on+Medical+Imaging%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "count": 2,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Transactions+on+Medical+Imaging%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Medical Image Analysis",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 35,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Medical+Image+Analysis%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "count": 33,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Medical+Image+Analysis%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Artificial Intelligence in Medicine",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 20,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Artificial+Intelligence+in+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Artificial+Intelligence+in+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "PLOS Medicine",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22PLOS+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22PLOS+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Journal of Medical Internet Research",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 28,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Medical+Internet+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "count": 25,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Medical+Internet+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Journal of Clinical Monitoring and Computing",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 1,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Clinical+Monitoring+and+Computing%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Clinical+Monitoring+and+Computing%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "BMC Anesthesiology",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22BMC+Anesthesiology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22BMC+Anesthesiology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Intensive Care Medicine Experimental",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Intensive+Care+Medicine+Experimental%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Intensive+Care+Medicine+Experimental%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "International Journal of Medical Informatics",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 48,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22International+Journal+of+Medical+Informatics%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "count": 50,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22International+Journal+of+Medical+Informatics%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Nature",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 10,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "count": 8,
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     },
     {
       "journal": "Computers in Biology and Medicine",
       "status": "checked",
-      "checkedOn": "2026-11-02",
+      "checkedOn": "2026-11-03",
       "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
       "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Computers+in+Biology+and+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "European Journal of Control",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22European+Journal+of+Control%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Scientific Reports",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Scientific+Reports%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of Anesthesia, Analgesia and Critical Care",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Anesthesia%2C+Analgesia+and+Critical+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "npj Precision Oncology",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22npj+Precision+Oncology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of the American Medical Informatics Association",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+the+American+Medical+Informatics+Association%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "AI in Precision Oncology",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22AI+in+Precision+Oncology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "BMC Pharmacology and Toxicology",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22BMC+Pharmacology+and+Toxicology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "arXiv",
-      "status": "unavailable",
-      "checkedOn": "2026-11-02",
-      "scope": "arXiv官方最新排序查询无法读取，不能以PubMed零命中替代。",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22arXiv%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Scientific Data",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Scientific+Data%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Anaesthesia Critical Care & Pain Medicine",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anaesthesia+Critical+Care+%26+Pain+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Advances in Simulation",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Advances+in+Simulation%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Medizinische Klinik - Intensivmedizin und Notfallmedizin",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Medizinische+Klinik+-+Intensivmedizin+und+Notfallmedizin%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "npj Health Systems",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 4,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22npj+Health+Systems%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of Intensive Care",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Intensive+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "JMIR Perioperative Medicine",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JMIR+Perioperative+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of Imaging Informatics in Medicine",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 29,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Imaging+Informatics+in+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Brain Research Bulletin",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 4,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Brain+Research+Bulletin%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Anaesthesia and Intensive Care",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 1,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anaesthesia+and+Intensive+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of Korean Medical Science",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 1,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Korean+Medical+Science%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "The American Journal of Medicine",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22The+American+Journal+of+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Critical Care Medicine",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 1,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Critical+Care+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of Clinical Anesthesia",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Clinical+Anesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Therapeutic Drug Monitoring",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 1,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Therapeutic+Drug+Monitoring%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "JMIR Formative Research",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 14,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JMIR+Formative+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Bioengineering",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Bioengineering%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "JAMIA Open",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 7,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMIA+Open%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of International Medical Research",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+International+Medical+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Nature Cancer",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Cancer%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Nature Communications",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 8,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Communications%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Supportive Care in Cancer",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Supportive+Care+in+Cancer%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "JMIR Medical Informatics",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 18,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JMIR+Medical+Informatics%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "American Journal of Respiratory and Critical Care Medicine",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 2,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22American+Journal+of+Respiratory+and+Critical+Care+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "European Heart Journal",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 4,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22European+Heart+Journal%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
-    },
-    {
-      "journal": "Journal of Pain Research",
-      "status": "checked",
-      "checkedOn": "2026-11-02",
-      "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
-      "count": 0,
-      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Pain+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Computers+in+Biology+and+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F20%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F03%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
     }
   ],
   "limitations": [
-    "已完成PubMed期刊限定与主题检索，不表示未索引出版商ToC/全文已穷尽。",
-    "3篇独立推荐包含2篇刊期补看，首次上线日期分别为6月15日和9月24日，不伪装11月新上线。",
-    "出版社pEEG全文与JAMIA正文直读失败；核验限成功取得的PubMed原始结构化摘要及出版商索引。",
-    "AnySleep本任务出版商全文直读失败，保留已完成简报的实际来源核验范围与日期。"
+    "期刊限定PubMed及主题检索不等于出版商全部最新文章或全文覆盖。",
+    "独立核验限PubMed原始摘要，保留原电子发表日期。"
   ],
   "previous_syncs": {
     "0": {
@@ -1978,22 +1680,627 @@
         "last_confirmed_success": "2026-11-01",
         "verification": "本期未执行Pages发布后GET。"
       }
+    },
+    "2026-11-02": {
+      "schema_version": 1,
+      "brief_date": "2026-11-02",
+      "overall_status": "partial",
+      "source": "独立检索 ∪ 麻醉AI科研简报",
+      "brief_status": "11月2日完整实际简报公开交接已增量对齐两端，3篇精选一致；独立3篇保留完整库。近7日公开交接无漏项。",
+      "sites": {
+        "status": "success",
+        "independent_update_status": "success",
+        "brief_alignment_status": "success",
+        "revision": "0fd9dcb9-c71c-4b0a-9413-f1c51202764a",
+        "run_id": "daily-union-20261102-v1",
+        "papers": 115,
+        "opportunities": 21,
+        "verified_at": "2026-11-02T00:06:20.092356+00:00",
+        "verification": "管理员POST后GET逐条验证记录、revision和runId；保留旧ID、实际日期和未更新条目；不改源码、不重新部署。"
+      },
+      "github": {
+        "status": "success",
+        "independent_update_status": "success",
+        "brief_alignment_status": "success",
+        "papers": 425,
+        "opportunities": 31,
+        "history_dates": 28,
+        "verified_at": "2026-11-02T00:07:54.671536+00:00",
+        "readback_commit": "78bc7756e32d03892d2269d96ac61406431e4a8f",
+        "verification": "原子数据提交后逐文件SHA回读，既有Actions成功后公开JSON按ID逐条比较一致；人工精读摘要SHA保持原值。"
+      },
+      "selected_paper_ids": [
+        "pubmed-42963354",
+        "doi-10-1007-s40140-026-00737-9",
+        "pubmed-42961855"
+      ],
+      "counts": {
+        "site_new_papers": 6,
+        "site_modified_papers": 0,
+        "site_new_opportunities": 0,
+        "site_modified_opportunities": 14,
+        "independent_new_bibliography": 3,
+        "independent_reviewed": 3,
+        "daily_selected": 3,
+        "brief_pending": false,
+        "opportunities_checked": 11,
+        "opportunities_unresolved": 4,
+        "journals_checked": 58,
+        "journals_unavailable": 1,
+        "github_new_records": 4,
+        "github_modified_records": 5,
+        "github_modified_opportunities": 14,
+        "github_papers": 425
+      },
+      "brief_catchup": {
+        "window_start": "2026-10-27",
+        "window_end": "2026-11-02",
+        "audit": [
+          {
+            "date": "2026-10-27",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-10-28",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-10-29",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-10-30",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-10-31",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-11-01",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-11-02",
+            "missing": [],
+            "status": "success"
+          }
+        ],
+        "note": "前6日公开交接逐条检查，两端未见缺项；11月2日简报尚未完成时不造空简报覆盖旧内容。"
+      },
+      "failures": [
+        {
+          "id": "competition_e52bc9726b",
+          "reason": "CCF官方页仅图片，完整资格/费用待复核。"
+        },
+        {
+          "id": "competition_80c6f85a8d",
+          "reason": "官方动态页面无正文；保留已截止状态。"
+        },
+        {
+          "id": "cscva-ai-shanghai2026",
+          "reason": "原投稿平台读取失败，保留既有截止及核验日期。"
+        },
+        {
+          "id": "conference_bfdb156026",
+          "reason": "学会官网仅确认会期，征集规则及截止仍未知。"
+        },
+        {
+          "id": "arxiv",
+          "reason": "官方检索无法读取"
+        },
+        {
+          "id": "publisher-page-read",
+          "reason": "本任务pEEG论文出版商DOI、JAMIA正文及AnySleep出版社全文直读失败；前两篇采用成功读取的PubMed原始摘要/出版商索引，AnySleep保留实际完整简报交接核验范围，未冒充本任务重新全文精读。"
+        }
+      ],
+      "journal_checks": [
+        {
+          "journal": "The Lancet Digital Health",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22The+Lancet+Digital+Health%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Nature Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 5,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Nature Biomedical Engineering",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 1,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Biomedical+Engineering%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Nature Machine Intelligence",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Machine+Intelligence%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "NEJM AI",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 5,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22NEJM+AI%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "JAMA",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 10,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMA%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "JAMA Network Open",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMA+Network+Open%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Critical Care",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Critical+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Intensive Care Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Intensive+Care+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Anesthesiology",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anesthesiology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "British Journal of Anaesthesia",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22British+Journal+of+Anaesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Anaesthesia",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anaesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Anesthesia & Analgesia",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anesthesia+%26+Analgesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "npj Digital Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 4,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22npj+Digital+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "IEEE Transactions on Medical Imaging",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 3,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Transactions+on+Medical+Imaging%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Medical Image Analysis",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 35,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Medical+Image+Analysis%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Artificial Intelligence in Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 20,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Artificial+Intelligence+in+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "PLOS Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22PLOS+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Medical Internet Research",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 28,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Medical+Internet+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Clinical Monitoring and Computing",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 1,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Clinical+Monitoring+and+Computing%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "BMC Anesthesiology",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22BMC+Anesthesiology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Intensive Care Medicine Experimental",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Intensive+Care+Medicine+Experimental%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "International Journal of Medical Informatics",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 48,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22International+Journal+of+Medical+Informatics%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Nature",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 10,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Computers in Biology and Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Computers+in+Biology+and+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "European Journal of Control",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22European+Journal+of+Control%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Scientific Reports",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Scientific+Reports%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Anesthesia, Analgesia and Critical Care",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Anesthesia%2C+Analgesia+and+Critical+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "npj Precision Oncology",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22npj+Precision+Oncology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of the American Medical Informatics Association",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+the+American+Medical+Informatics+Association%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "AI in Precision Oncology",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22AI+in+Precision+Oncology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "BMC Pharmacology and Toxicology",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22BMC+Pharmacology+and+Toxicology%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "arXiv",
+          "status": "unavailable",
+          "checkedOn": "2026-11-02",
+          "scope": "arXiv官方最新排序查询无法读取，不能以PubMed零命中替代。",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22arXiv%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Scientific Data",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Scientific+Data%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Anaesthesia Critical Care & Pain Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anaesthesia+Critical+Care+%26+Pain+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Advances in Simulation",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Advances+in+Simulation%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Medizinische Klinik - Intensivmedizin und Notfallmedizin",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Medizinische+Klinik+-+Intensivmedizin+und+Notfallmedizin%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "npj Health Systems",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 4,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22npj+Health+Systems%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Intensive Care",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Intensive+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "JMIR Perioperative Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JMIR+Perioperative+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Imaging Informatics in Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 29,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Imaging+Informatics+in+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Brain Research Bulletin",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 4,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Brain+Research+Bulletin%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Anaesthesia and Intensive Care",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 1,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Anaesthesia+and+Intensive+Care%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Korean Medical Science",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 1,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Korean+Medical+Science%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "The American Journal of Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22The+American+Journal+of+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Critical Care Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 1,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Critical+Care+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Clinical Anesthesia",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Clinical+Anesthesia%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Therapeutic Drug Monitoring",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 1,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Therapeutic+Drug+Monitoring%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "JMIR Formative Research",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 14,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JMIR+Formative+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Bioengineering",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Bioengineering%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "JAMIA Open",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 7,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JAMIA+Open%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of International Medical Research",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+International+Medical+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Nature Cancer",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Cancer%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Nature Communications",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 8,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Nature+Communications%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Supportive Care in Cancer",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Supportive+Care+in+Cancer%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "JMIR Medical Informatics",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 18,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22JMIR+Medical+Informatics%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "American Journal of Respiratory and Critical Care Medicine",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 2,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22American+Journal+of+Respiratory+and+Critical+Care+Medicine%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "European Heart Journal",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 4,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22European+Heart+Journal%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        },
+        {
+          "journal": "Journal of Pain Research",
+          "status": "checked",
+          "checkedOn": "2026-11-02",
+          "scope": "PubMed期刊限定AI检索；发表日2026-10-19至11-02；非穷尽全刊/未索引论文",
+          "count": 0,
+          "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Journal+of+Pain+Research%22%5BJournal%5D+AND+%28%22artificial+intelligence%22+OR+%22machine+learning%22+OR+%22deep+learning%22+OR+%22large+language+model%22+OR+%22foundation+model%22+OR+%22reinforcement+learning%22+OR+%22closed-loop%22+OR+%22digital+twin%22+OR+%22causal+inference%22+OR+%22federated+learning%22%29+AND+%28%222026%2F10%2F19%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F02%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100"
+        }
+      ],
+      "limitations": [
+        "已完成PubMed期刊限定与主题检索，不表示未索引出版商ToC/全文已穷尽。",
+        "3篇独立推荐包含2篇刊期补看，首次上线日期分别为6月15日和9月24日，不伪装11月新上线。",
+        "出版社pEEG全文与JAMIA正文直读失败；核验限成功取得的PubMed原始结构化摘要及出版商索引。",
+        "AnySleep本任务出版商全文直读失败，保留已完成简报的实际来源核验范围与日期。"
+      ],
+      "frontend": {
+        "status": "success",
+        "canonical_url": "https://kudotoras.github.io/anes-ai/",
+        "verified_at": "2026-11-02T00:07:54.671536+00:00",
+        "papers": 425,
+        "opportunities": 31,
+        "history_dates": 28,
+        "daily_selected": 3,
+        "selected_paper_ids": [
+          "pubmed-42963354",
+          "doi-10-1007-s40140-026-00737-9",
+          "pubmed-42961855"
+        ],
+        "workflow_id": 41365376360,
+        "verification": "既有自动发布成功，公开研究/机会/历史索引/当日简报/精读摘要JSON比对通过。原Sites两入口指向唯一主站；未改Sites源码或部署。"
+      }
     }
   },
   "frontend": {
-    "status": "success",
+    "status": "pending",
     "canonical_url": "https://kudotoras.github.io/anes-ai/",
-    "verified_at": "2026-11-02T00:07:54.671536+00:00",
-    "papers": 425,
-    "opportunities": 31,
-    "history_dates": 28,
-    "daily_selected": 3,
-    "selected_paper_ids": [
-      "pubmed-42963354",
-      "doi-10-1007-s40140-026-00737-9",
-      "pubmed-42961855"
-    ],
-    "workflow_id": 41365376360,
-    "verification": "既有自动发布成功，公开研究/机会/历史索引/当日简报/精读摘要JSON比对通过。原Sites两入口指向唯一主站；未改Sites源码或部署。"
+    "verification": "待本轮GitHub自动发布后公开数据回读。"
   }
 }
