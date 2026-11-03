@@ -17,8 +17,9 @@
   },
   "github": {
     "status": "partial",
-    "independent_update_status": "pending_readback",
-    "brief_alignment_status": "pending"
+    "independent_update_status": "success",
+    "brief_alignment_status": "pending",
+    "readback_commit": "d155aadcd2eafd98c957740a727cedd6b9d47558"
   },
   "selected_paper_ids": [
     "pubmed-42803764",
@@ -91,6 +92,10 @@
     {
       "id": "arxiv",
       "reason": "官方检索无法读取"
+    },
+    {
+      "id": "publisher-42803764",
+      "reason": "出版商直读失败，PubMed原始摘要核验成功。"
     }
   ],
   "journal_checks": [
@@ -297,7 +302,8 @@
   ],
   "limitations": [
     "期刊限定PubMed及主题检索不等于出版商全部最新文章或全文覆盖。",
-    "独立核验限PubMed原始摘要，保留原电子发表日期。"
+    "独立核验限PubMed原始摘要，保留原电子发表日期。",
+    "合并期刊查询覆盖当前期刊表；逐刊检查仅记录截至本次写入已完成的检查。"
   ],
   "previous_syncs": {
     "0": {
