@@ -103,6 +103,37 @@
     "ingested_date": "2026-11-03"
   },
   {
+    "id": "doi-10-1038-s42256-026-01323-8",
+    "pmid": null,
+    "doi": "10.1038/s42256-026-01323-8",
+    "title": "AI needs meaningful versioning",
+    "title_zh": "人工智能系统需要有意义的版本标识",
+    "journal": "Nature Machine Intelligence",
+    "date": "2026-11-02",
+    "epub_date": "2026-11-02",
+    "issue_date": "2026-11-02",
+    "topic": "临床AI安全与可复现性",
+    "study_type": "同行评审观点/治理方法学文章，无新增患者队列",
+    "source_url": "https://www.nature.com/articles/s42256-026-01323-8",
+    "status": "已核验出版社摘要·未人工全文精读",
+    "description": "模型服务可能在标识不变时更新权重、提示词或集成组件，影响复现与监管；主张可追溯的版本机制。适合临床Agent模型版本、提示词、工具链、审计日志和回滚机制设计，非临床效果证据。",
+    "verifiedOn": "2026-11-03",
+    "verification_scope": "2026-11-03 Nature Machine Intelligence出版商题录、摘要与发表日期核对；全文访问受限",
+    "needs_review": false,
+    "origin": "麻醉AI科研简报独立检索",
+    "brief_dates": [
+      "2026-11-03"
+    ],
+    "brief_date_sources": {
+      "2026-11-03": "麻醉AI科研简报"
+    },
+    "tags": [
+      "严格最新",
+      "方法可迁移",
+      "安全与治理"
+    ]
+  },
+  {
     "id": "pubmed-42966909",
     "pmid": "42966909",
     "doi": "10.1002/advs.78587",
@@ -10567,36 +10598,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-10-1038-s42256-026-01323-8",
-    "pmid": null,
-    "doi": "10.1038/s42256-026-01323-8",
-    "title": "AI needs meaningful versioning",
-    "title_zh": "人工智能系统需要有意义的版本标识",
-    "journal": "Nature Machine Intelligence",
-    "date": "2026-11-02",
-    "epub_date": "2026-11-02",
-    "issue_date": "2026-11-02",
-    "topic": "临床AI安全与可复现性",
-    "study_type": "同行评审观点/治理方法学文章，无新增患者队列",
-    "source_url": "https://www.nature.com/articles/s42256-026-01323-8",
-    "status": "已核验出版社摘要·未人工全文精读",
-    "description": "模型服务可能在标识不变时更新权重、提示词或集成组件，影响复现与监管；主张可追溯的版本机制。适合临床Agent模型版本、提示词、工具链、审计日志和回滚机制设计，非临床效果证据。",
-    "verifiedOn": "2026-11-03",
-    "verification_scope": "2026-11-03 Nature Machine Intelligence出版商题录、摘要与发表日期核对；全文访问受限",
-    "needs_review": false,
-    "origin": "麻醉AI科研简报独立检索",
-    "brief_dates": [
-      "2026-11-03"
-    ],
-    "brief_date_sources": {
-      "2026-11-03": "麻醉AI科研简报"
-    },
-    "tags": [
-      "严格最新",
-      "方法可迁移",
-      "安全与治理"
-    ]
   }
 ]
