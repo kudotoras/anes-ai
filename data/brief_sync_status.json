@@ -1,77 +1,34 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-03",
+  "brief_date": "2026-11-04",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "11月3日3篇精选、3项比赛和4项会议已写入GitHub并回读；Sites独立检索成功，但本期聊天精选尚未写入Sites。",
+  "brief_status": "1篇新EEG综述经PubMed核验并写入GitHub交接文件；Sites维护接口不可用，完整目录增量合并与回读尚未完成。",
   "sites": {
-    "status": "partial",
-    "independent_update_status": "success",
-    "brief_alignment_status": "pending",
-    "revision": "74dfb2d0-302b-4f7d-9d1f-85f2167c0197",
-    "run_id": "daily-union-20261103-v1",
-    "papers": 117,
-    "opportunities": 21,
-    "verified_at": "2026-11-03T00:00:51.541259+00:00",
-    "verification": "管理员POST后GET逐条验证记录、revision和runId；保留旧ID、实际日期和未更新条目；不改源码、不重新部署。",
-    "brief_pending_ids": [
-      "pubmed-42962495",
-      "pubmed-42298974",
-      "doi-10-1038-s42256-026-01323-8"
-    ],
-    "brief_pending_opportunity_ids": [
-      "competition_945b9a72d0",
-      "competition_e52bc9726b",
-      "competition-zgc-qidian-2026",
-      "esicm-innovation2027",
-      "asnacc2027",
-      "conference_95a23edf4a",
-      "conference_ce9a2f54c2"
-    ],
-    "brief_pending_reason": "当前运行无Sites get_site及管理员维护接口；未执行本期POST/GET，独立更新成功不等于聊天精选对齐。"
+    "status": "failed",
+    "reason": "Sites connector unavailable",
+    "pending": [
+      "2026-11-04 brief",
+      "seven-day catchup"
+    ]
   },
   "github": {
-    "status": "success",
-    "independent_update_status": "success",
-    "brief_alignment_status": "success",
-    "readback_commit": "d155aadcd2eafd98c957740a727cedd6b9d47558",
-    "papers": 444,
-    "opportunities": 31,
-    "history_dates": 29,
-    "selected_papers": 3,
-    "selected_competitions": 3,
-    "selected_conferences": 4,
-    "readback_sha": {
-      "research": "2a2a3ab789ddf6c801756e075b64486489c526c6",
-      "opportunities": "dd55a97b5e609d5e0ba2f823e790c59232fad4ed",
-      "history_briefs": "5892e3998b9f1c39207332ccf33fca5af8b3f6d1",
-      "daily_brief": "facf00333edaadff10b89ecd4de0a3710f6f6cdb",
-      "article_summaries": "59c764c19d3c69d5db42781b974f72219e2b3907"
-    },
-    "verification": "2026-11-03公开结构化交接及研究/机会/历史索引逐文件回读；原人工精读摘要SHA未变。",
-    "verified_at": "2026-11-03T00:03:53.422Z"
+    "status": "partial",
+    "handoff_path": "data/daily_briefs/2026-11-04.json",
+    "handoff_commit": "889620fa703fd8ee7e1e5665dda230dfa62900bf",
+    "pending": [
+      "catalogue merge",
+      "history merge",
+      "seven-day reconciliation"
+    ]
   },
   "selected_paper_ids": [
-    "pubmed-42962495",
-    "pubmed-42298974",
-    "doi-10-1038-s42256-026-01323-8"
+    "pubmed-42971410"
   ],
   "counts": {
-    "site_new_papers": 2,
-    "site_modified_papers": 0,
-    "site_new_opportunities": 0,
-    "site_modified_opportunities": 7,
-    "independent_new_bibliography": 2,
-    "independent_reviewed": 2,
-    "daily_selected": 3,
-    "brief_pending": false,
-    "opportunities_checked": 4,
-    "opportunities_unresolved": 3,
-    "journals_checked": 25,
-    "journals_unavailable": 0,
-    "github_papers": 444,
-    "github_opportunities": 31,
-    "github_history_dates": 29
+    "papers": 1,
+    "competitions": 0,
+    "conferences": 1
   },
   "brief_catchup": {
     "window_start": "2026-10-28",
@@ -116,32 +73,8 @@
     "note": "近7日GitHub公开交接文件逐一检查；前6日保留原台账状态，Sites本期聊天简报待补。"
   },
   "failures": [
-    {
-      "id": "competition_e52bc9726b",
-      "reason": "CCF官方页仅图像，完整资格与费用待核验。"
-    },
-    {
-      "id": "cscva-ai-shanghai2026",
-      "reason": "投稿页读取失败，保留既有记录。"
-    },
-    {
-      "id": "arxiv",
-      "reason": "官方检索无法读取"
-    },
-    {
-      "id": "publisher-42803764",
-      "reason": "出版商直读失败，PubMed原始摘要核验成功。"
-    },
-    {
-      "id": "sites-brief-2026-11-03",
-      "reason": "缺少Sites get_site及管理员维护接口，无法完成本期简报写入回读。",
-      "retry": true
-    },
-    {
-      "id": "competition_80c6f85a8d",
-      "reason": "首届AI+医疗大赛官网11月23日与10月16日媒体公告10月30日冲突，未确认正式延期；不推荐报名。",
-      "retry": true
-    }
+    "Sites write/read unavailable",
+    "GitHub full catalogue merge pending"
   ],
   "journal_checks": [
     {
@@ -2347,6 +2280,56 @@
         ],
         "workflow_id": 41365376360,
         "verification": "既有自动发布成功，公开研究/机会/历史索引/当日简报/精读摘要JSON比对通过。原Sites两入口指向唯一主站；未改Sites源码或部署。"
+      }
+    },
+    "2026-11-03": {
+      "overall_status": "partial",
+      "sites": {
+        "status": "partial",
+        "independent_update_status": "success",
+        "brief_alignment_status": "pending",
+        "revision": "74dfb2d0-302b-4f7d-9d1f-85f2167c0197",
+        "run_id": "daily-union-20261103-v1",
+        "papers": 117,
+        "opportunities": 21,
+        "verified_at": "2026-11-03T00:00:51.541259+00:00",
+        "verification": "管理员POST后GET逐条验证记录、revision和runId；保留旧ID、实际日期和未更新条目；不改源码、不重新部署。",
+        "brief_pending_ids": [
+          "pubmed-42962495",
+          "pubmed-42298974",
+          "doi-10-1038-s42256-026-01323-8"
+        ],
+        "brief_pending_opportunity_ids": [
+          "competition_945b9a72d0",
+          "competition_e52bc9726b",
+          "competition-zgc-qidian-2026",
+          "esicm-innovation2027",
+          "asnacc2027",
+          "conference_95a23edf4a",
+          "conference_ce9a2f54c2"
+        ],
+        "brief_pending_reason": "当前运行无Sites get_site及管理员维护接口；未执行本期POST/GET，独立更新成功不等于聊天精选对齐。"
+      },
+      "github": {
+        "status": "success",
+        "independent_update_status": "success",
+        "brief_alignment_status": "success",
+        "readback_commit": "d155aadcd2eafd98c957740a727cedd6b9d47558",
+        "papers": 444,
+        "opportunities": 31,
+        "history_dates": 29,
+        "selected_papers": 3,
+        "selected_competitions": 3,
+        "selected_conferences": 4,
+        "readback_sha": {
+          "research": "2a2a3ab789ddf6c801756e075b64486489c526c6",
+          "opportunities": "dd55a97b5e609d5e0ba2f823e790c59232fad4ed",
+          "history_briefs": "5892e3998b9f1c39207332ccf33fca5af8b3f6d1",
+          "daily_brief": "facf00333edaadff10b89ecd4de0a3710f6f6cdb",
+          "article_summaries": "59c764c19d3c69d5db42781b974f72219e2b3907"
+        },
+        "verification": "2026-11-03公开结构化交接及研究/机会/历史索引逐文件回读；原人工精读摘要SHA未变。",
+        "verified_at": "2026-11-03T00:03:53.422Z"
       }
     }
   },
