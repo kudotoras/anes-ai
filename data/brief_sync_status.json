@@ -3,7 +3,7 @@
   "brief_date": "2026-11-03",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "11月3日聊天精选3篇，独立站点精选2篇保留目录；GitHub公开交接待提交回读，Sites独立更新成功但本期简报补对齐待完成。",
+  "brief_status": "11月3日3篇精选、3项比赛和4项会议已写入GitHub并回读；Sites独立检索成功，但本期聊天精选尚未写入Sites。",
   "sites": {
     "status": "partial",
     "independent_update_status": "success",
@@ -31,16 +31,25 @@
     "brief_pending_reason": "当前运行无Sites get_site及管理员维护接口；未执行本期POST/GET，独立更新成功不等于聊天精选对齐。"
   },
   "github": {
-    "status": "partial",
+    "status": "success",
     "independent_update_status": "success",
-    "brief_alignment_status": "pending_readback",
+    "brief_alignment_status": "success",
     "readback_commit": "d155aadcd2eafd98c957740a727cedd6b9d47558",
     "papers": 444,
     "opportunities": 31,
     "history_dates": 29,
     "selected_papers": 3,
     "selected_competitions": 3,
-    "selected_conferences": 4
+    "selected_conferences": 4,
+    "readback_sha": {
+      "research": "2a2a3ab789ddf6c801756e075b64486489c526c6",
+      "opportunities": "dd55a97b5e609d5e0ba2f823e790c59232fad4ed",
+      "history_briefs": "5892e3998b9f1c39207332ccf33fca5af8b3f6d1",
+      "daily_brief": "facf00333edaadff10b89ecd4de0a3710f6f6cdb",
+      "article_summaries": "59c764c19d3c69d5db42781b974f72219e2b3907"
+    },
+    "verification": "2026-11-03公开结构化交接及研究/机会/历史索引逐文件回读；原人工精读摘要SHA未变。",
+    "verified_at": "2026-11-03T00:03:53.422Z"
   },
   "selected_paper_ids": [
     "pubmed-42962495",
@@ -61,7 +70,8 @@
     "journals_checked": 25,
     "journals_unavailable": 0,
     "github_papers": 444,
-    "github_opportunities": 31
+    "github_opportunities": 31,
+    "github_history_dates": 29
   },
   "brief_catchup": {
     "window_start": "2026-10-28",
@@ -99,7 +109,7 @@
       },
       {
         "date": "2026-11-03",
-        "status": "github_pending_readback_sites_pending",
+        "status": "github_success_sites_pending",
         "missing": []
       }
     ],
