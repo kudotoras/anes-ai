@@ -1,29 +1,35 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-04",
+  "brief_date": "2026-11-05",
   "overall_status": "partial",
   "source": "独立检索 ∪ 麻醉AI科研简报",
-  "brief_status": "11月3–4日公开简报已合并；11月4日合格精选1篇。",
+  "brief_status": "11月5日核验1篇新文、2项比赛（1项待核实）及2项会议；GitHub交接、文献和机会库已回读；Sites未同步。",
   "sites": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "revision": "0160cd52-0612-4cbc-9058-e984b472495d",
-    "papers": 119,
-    "opportunities": 21
+    "status": "failed",
+    "brief_alignment_status": "failed",
+    "verification": "无Sites维护连接器，未写入或回读",
+    "pending": [
+      "读取Sites更新说明及站点数据",
+      "按接口增量合并并回读",
+      "7日追补"
+    ]
   },
   "github": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "readback_commit": "ff64b9568736fb45d79d9d570a52c9aa88a93b90",
-    "verification": "11月3—4日历史索引与导入源均回读；人工精读摘要SHA未变。"
+    "status": "partial",
+    "brief_alignment_status": "partial",
+    "verification": "交接文件、research.json及opportunities.json写入并回读",
+    "pending": [
+      "history_briefs.json更新",
+      "7日完整追补"
+    ]
   },
   "selected_paper_ids": [
-    "pubmed-42971410"
+    "paper-llmjudge-20261104"
   ],
   "counts": {
     "papers": 1,
-    "competitions": 0,
-    "conferences": 1
+    "competitions": 2,
+    "conferences": 2
   },
   "brief_catchup": {
     "window_start": "2026-10-28",
@@ -69,8 +75,16 @@
   },
   "failures": [
     {
-      "id": "journal-coverage",
-      "reason": "本轮逐刊核验未完成；合并PubMed查询与主题查询已取回。"
+      "date": "2026-11-05",
+      "target": "Sites",
+      "reason": "无可用Sites维护工具",
+      "retry": true
+    },
+    {
+      "date": "2026-11-05",
+      "target": "GitHub",
+      "reason": "历史索引及7日完整追补待完成",
+      "retry": true
     }
   ],
   "journal_checks": [
