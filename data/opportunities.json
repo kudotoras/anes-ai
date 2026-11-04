@@ -423,7 +423,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-03",
+    "verifiedOn": "2026-11-04",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -434,7 +434,7 @@
         "url": "https://www.esicm.org/wp-content/uploads/2026/09/Instructions_Abstracts.pdf"
       }
     ],
-    "deadlineLabel": "2026-11-09 12:00 CET（北京时间11月9日19:00；官网已延长）",
+    "deadlineLabel": "2026-11-09 12:00 CET（北京时间19:00）",
     "deadlineInstant": "2026-11-09T11:00:00Z",
     "event": "2027-02-04 — 02-05 · 意大利米兰",
     "format": "摘要 / ePoster",
@@ -447,9 +447,10 @@
       "2026-10-31",
       "2026-11-01",
       "2026-11-02",
-      "2026-11-03"
+      "2026-11-03",
+      "2026-11-04"
     ],
-    "verificationNote": "2026-11-03 ESICM官方会议页面明确截止2026-11-09 12:00 CET，较此前11-03 23:59 CET延期；按新官方日期为准。",
+    "verificationNote": "2026-11-04 ESICM官网已更新至11月9日12:00 CET（北京时间19:00）；以会议页最新截止为准。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -464,9 +465,10 @@
       "2026-10-31": "麻醉AI科研简报",
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
-      "2026-11-03": "麻醉AI科研简报"
+      "2026-11-03": "麻醉AI科研简报",
+      "2026-11-04": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-03",
+    "verification_attempted_on": "2026-11-04",
     "verification_failure": null,
     "deadline_timezone": "Europe/Rome"
   },
@@ -486,7 +488,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-03",
+    "verifiedOn": "2026-11-04",
     "sources": [
       {
         "label": "BMES官方摘要征集页",
@@ -507,7 +509,7 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "2026-11-03 BMES官网确认Late-Breaking摘要11月6日截止，时区未注明。",
+    "verificationNote": "2026-11-04 BMES官网确认11月6日截止，时区未注明。",
     "needs_review": false,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -515,7 +517,7 @@
       "2026-10-28": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-03",
+    "verification_attempted_on": "2026-11-04",
     "verification_failure": null
   },
   {

@@ -206,7 +206,8 @@
       "严格最新",
       "方法可迁移",
       "安全与治理"
-    ]
+    ],
+    "site_catalog_id": "doi-10-1038-s42256-026-01323-8"
   },
   {
     "id": "pubmed-42971410",
@@ -214,14 +215,25 @@
     "doi": "10.1016/j.brainresbull.2026.112198",
     "title": "Beyond Classification Accuracy: Building Trustworthy Artificial Intelligence for Clinical Electroencephalography.",
     "title_zh": "",
-    "journal": "Brain research bulletin",
+    "journal": "Brain Research Bulletin",
     "date": "2026-11-02",
     "topic": "自动题录",
-    "study_type": "未人工精读",
+    "study_type": "Review",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42971410/",
-    "status": "PubMed 自动收录·待人工精读",
+    "status": "已核验PubMed摘要",
     "origin": "PubMed",
-    "ingested_date": "2026-11-03"
+    "ingested_date": "2026-11-03",
+    "site_catalog_id": "pubmed-42971410",
+    "brief_dates": [
+      "2026-11-04"
+    ],
+    "brief_date_sources": {
+      "2026-11-04": "麻醉AI科研简报"
+    },
+    "description": "综述讨论临床脑电AI的目标有效性、数据泄漏、混杂、外部验证与临床指标。强调可理解的输出和人机协作；未提供新的麻醉干预验证。",
+    "verifiedOn": "2026-11-04",
+    "verification_scope": "PubMed abstract",
+    "needs_review": false
   },
   {
     "id": "pubmed-42971026",
@@ -10881,6 +10893,24 @@
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-10-29",
     "metadata_checked_on": "2026-10-29",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
+    "id": "pubmed-42775780",
+    "title": "Artificial intelligence and perioperative nurses in error detection during operating room transfers: A simulation-based comparison.",
+    "pmid": "42775780",
+    "doi": "10.1177/10519815261488809",
+    "journal": "Work (Reading, Mass.)",
+    "date": "2026-09-23",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42775780/",
+    "description": "",
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-04",
     "verifiedOn": null,
     "needs_review": true
   }
