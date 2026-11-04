@@ -423,7 +423,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-04",
+    "verifiedOn": "2026-11-05",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -450,7 +450,7 @@
       "2026-11-03",
       "2026-11-04"
     ],
-    "verificationNote": "2026-11-04 ESICM官网已更新至11月9日12:00 CET（北京时间19:00）；以会议页最新截止为准。",
+    "verificationNote": "2026-11-05 ESICM官网复核：11月9日12:00 CET截止，ePoster，不出版ICMx摘要集。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -1151,5 +1151,22 @@
     "meeting_end": "2026-10-24",
     "verifiedOn": "2026-11-01",
     "verification_scope": "官方CCF新闻检索索引核验会期；非征稿规则"
+  },
+  {
+    "id": "competition-shic2026",
+    "title": "第九届智慧医疗创新大赛",
+    "organizer": "全国智慧医疗创新大赛组委会",
+    "date": "2026-09",
+    "deadline": null,
+    "category": "competition",
+    "topic": "智慧医疗与临床AI",
+    "description": "2026年9月启动，赛区2026年10月至2027年4月初审与决赛，2027年6月全国总决赛；各赛区具体报名截止、费用、奖项待核验。",
+    "source_url": "https://www.shic.org.cn/",
+    "status": "needs_review",
+    "verifiedOn": "2026-11-05",
+    "verificationNote": "仅核实官网总体赛程，未核实赛区细则；不代表全部赛区仍开放。",
+    "brief_dates": [
+      "2026-11-05"
+    ]
   }
 ]
