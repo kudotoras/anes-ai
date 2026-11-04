@@ -12,8 +12,10 @@
     "opportunities": 21
   },
   "github": {
-    "status": "partial",
-    "brief_alignment_status": "pending_readback"
+    "status": "success",
+    "brief_alignment_status": "success",
+    "readback_commit": "ff64b9568736fb45d79d9d570a52c9aa88a93b90",
+    "verification": "11月3—4日历史索引与导入源均回读；人工精读摘要SHA未变。"
   },
   "selected_paper_ids": [
     "pubmed-42971410"
@@ -2297,14 +2299,16 @@
         "verification": "11月4日补录后回读通过"
       },
       "github": {
-        "status": "partial",
+        "status": "success",
         "handoff_path": "data/daily_briefs/2026-11-04.json",
         "handoff_commit": "889620fa703fd8ee7e1e5665dda230dfa62900bf",
         "pending": [
           "catalogue merge",
           "history merge",
           "seven-day reconciliation"
-        ]
+        ],
+        "brief_alignment_status": "success",
+        "readback_commit": "ff64b9568736fb45d79d9d570a52c9aa88a93b90"
       },
       "selected_paper_ids": [
         "pubmed-42971410"
