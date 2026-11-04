@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-05",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
+      "title_zh": "临床文本评价中大语言模型裁判的跨范式审计",
+      "journal": "npj Digital Medicine",
+      "doi": "10.1038/s41746-026-03443-2",
+      "date": "2026-11-04",
+      "epub_date": "2026-11-04",
+      "study_type": "临床文本AI评价方法学实证研究",
+      "sample": "4个德语临床文本数据集、6个开源权重模型、3种评价范式、4种提示配置",
+      "description": "LLM裁判替代专家后57.2%逐点评分类别变化、41.7%成对比较胜者变化、漏检10.2%临床错误；存在位置与身份偏倚。",
+      "source_url": "https://www.nature.com/articles/s41746-026-03443-2",
+      "verifiedOn": "2026-11-05",
+      "verification_scope": "出版社原始摘要及发表日期",
+      "tags": [
+        "严格最新",
+        "方法可迁移"
+      ],
+      "needs_review": false
+    }
+  ],
+  "competitions": [
+    {
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会",
+      "deadline": "2026-11-10T24:00:00+08:00",
+      "source_url": "https://www.ai-race.com.cn/",
+      "verifiedOn": "2026-11-05",
+      "verification_scope": "赛事官网首页报名日期与赛道",
+      "needs_review": false
+    },
+    {
+      "title": "第九届智慧医疗创新大赛",
+      "organizer": "全国智慧医疗创新大赛组委会",
+      "deadline": null,
+      "source_url": "https://www.shic.org.cn/",
+      "verifiedOn": "2026-11-05",
+      "verification_scope": "官网赛程，具体赛区报名截止待核实",
+      "needs_review": true
+    }
+  ],
+  "conferences": [
+    {
+      "title": "Intensive Care Innovation 2027",
+      "organizer": "ESICM",
+      "deadline": "2026-11-09T12:00:00+01:00",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verifiedOn": "2026-11-05",
+      "verification_scope": "主办方官网截稿及会议展示性质",
+      "needs_review": false
+    },
+    {
+      "title": "Euroanaesthesia 2027",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-05",
+      "verification_scope": "主办方2027网页投稿开放和截止日期",
+      "needs_review": false
+    }
+  ]
+}
