@@ -7258,6 +7258,24 @@
     "ingested_date": "2026-10-31"
   },
   {
+    "id": "pubmed-42775780",
+    "title": "Artificial intelligence and perioperative nurses in error detection during operating room transfers: A simulation-based comparison.",
+    "pmid": "42775780",
+    "doi": "10.1177/10519815261488809",
+    "journal": "Work (Reading, Mass.)",
+    "date": "2026-09-23",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42775780/",
+    "description": "",
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-04",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
     "id": "pubmed-42772466",
     "title": "Machine learning-based prognostic modeling and bar trajectory subphenotyping in critically ill patients with viral pneumonia: A retrospective cohort study.",
     "pmid": "42772466",
@@ -10893,24 +10911,6 @@
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-10-29",
     "metadata_checked_on": "2026-10-29",
-    "verifiedOn": null,
-    "needs_review": true
-  },
-  {
-    "id": "pubmed-42775780",
-    "title": "Artificial intelligence and perioperative nurses in error detection during operating room transfers: A simulation-based comparison.",
-    "pmid": "42775780",
-    "doi": "10.1177/10519815261488809",
-    "journal": "Work (Reading, Mass.)",
-    "date": "2026-09-23",
-    "dateKind": "PubMed电子日期；缺失不臆造",
-    "topic": "麻醉/围术期/重症AI题录",
-    "study_type": "题录线索·待核验",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42775780/",
-    "description": "",
-    "status": "PubMed题录·待核验",
-    "origin": "网站独立PubMed检索",
-    "ingested_date": "2026-11-04",
     "verifiedOn": null,
     "needs_review": true
   }
