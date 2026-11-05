@@ -1,76 +1,60 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-05",
+  "brief_date": "2026-11-06",
   "overall_status": "partial",
-  "brief_status": "今日合格精选1篇，与完整公开简报对齐。",
-  "selected_paper_ids": [
-    "paper-llmjudge-20261104"
-  ],
+  "brief_status": "本期没有达到精选标准的新增研究；已独立核验1项比赛及2项会议，交接文件已提交回读。",
+  "selected_paper_ids": [],
   "sites": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "revision": "8c9db5be-0849-4e49-8d6a-84ab60e60720",
-    "papers": 120,
-    "opportunities": 21
+    "status": "failed",
+    "brief_alignment_status": "pending",
+    "verification": "本运行环境未提供Sites get_site或维护接口，无法读取/api/update-guide、/api/site-data或执行管理员POST及GET回读。",
+    "pending": [
+      "读取Sites独立检索数据并与本期并集去重",
+      "核验后执行管理员POST并GET回读",
+      "检查最近7日Sites漏项"
+    ]
   },
   "github": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "readback_commit": "0b8e518a57c5d43a18850e1bd7bafa1a63025338",
-    "verification": "公开简报、历史索引及导入源回读确认；精读摘要SHA未变。"
+    "status": "partial",
+    "brief_alignment_status": "partial",
+    "verification": "2026-11-06公开交接文件和history_briefs已提交并回读；本期无新论文，比赛与会议为已存在条目，未修改既有人工精读摘要。",
+    "pending": [
+      "本期与Sites独立检索并集合并",
+      "最近7日两端完整逐条回溯"
+    ]
   },
   "frontend": {
     "status": "pending"
   },
   "brief_catchup": {
-    "window_start": "2026-10-30",
-    "window_end": "2026-11-05",
+    "window_start": "2026-10-31",
+    "window_end": "2026-11-06",
+    "status": "partial",
+    "pending": [
+      "2026-10-31至2026-11-06 Sites最新数据无法读取，完整补同步待执行"
+    ],
     "audit": [
       {
-        "date": "2026-10-30",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-10-31",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-01",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-02",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-03",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-04",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-05",
-        "missing": [],
-        "status": "success"
+        "date": "2026-11-06",
+        "status": "partial",
+        "missing": [
+          "Sites读取、写入和回读"
+        ]
       }
     ]
   },
   "failures": [
     {
-      "id": "journal-coverage",
-      "reason": "完成PubMed期刊合并及主题检索；本轮逐刊检查未覆盖全部期刊。"
+      "id": "sites-connector",
+      "reason": "当前可用连接器中没有Sites读写操作，不能完成本期Sites同步。"
     },
     {
-      "id": "shic-regional",
-      "reason": "赛区分别截止；未核实全部赛区。"
+      "id": "journal-coverage",
+      "reason": "本期进行了主题与部分期刊检索，未完成所列全部期刊逐刊扫描；无新增论文达到精选标准。"
+    },
+    {
+      "id": "seven-day-site-audit",
+      "reason": "最近7日Sites数据缺少本次回读，无法独立确认全量对齐。"
     }
   ],
   "previous_syncs": {
@@ -2672,6 +2656,74 @@
         "status": "success",
         "verification": "11月5日公开索引回读确认11月3–4日均存在。"
       }
+    },
+    "2026-11-05": {
+      "brief_date": "2026-11-05",
+      "overall_status": "partial",
+      "sites": {
+        "status": "success",
+        "brief_alignment_status": "success",
+        "revision": "8c9db5be-0849-4e49-8d6a-84ab60e60720",
+        "papers": 120,
+        "opportunities": 21
+      },
+      "github": {
+        "status": "success",
+        "brief_alignment_status": "success",
+        "readback_commit": "0b8e518a57c5d43a18850e1bd7bafa1a63025338",
+        "verification": "公开简报、历史索引及导入源回读确认；精读摘要SHA未变。"
+      },
+      "brief_catchup": {
+        "window_start": "2026-10-30",
+        "window_end": "2026-11-05",
+        "audit": [
+          {
+            "date": "2026-10-30",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-10-31",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-11-01",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-11-02",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-11-03",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-11-04",
+            "missing": [],
+            "status": "success"
+          },
+          {
+            "date": "2026-11-05",
+            "missing": [],
+            "status": "success"
+          }
+        ]
+      },
+      "failures": [
+        {
+          "id": "journal-coverage",
+          "reason": "完成PubMed期刊合并及主题检索；本轮逐刊检查未覆盖全部期刊。"
+        },
+        {
+          "id": "shic-regional",
+          "reason": "赛区分别截止；未核实全部赛区。"
+        }
+      ]
     }
   }
 }
