@@ -80,12 +80,18 @@
     "study_type": "临床文本AI评价方法学实证研究",
     "source_url": "https://www.nature.com/articles/s41746-026-03443-2",
     "status": "出版社摘要已核验",
-    "description": "四个德语临床文本数据集、六个开源权重模型；LLM裁判漏检10.2%临床错误，存在位置和身份偏倚；不宜替代临床专家评估。",
+    "description": "LLM裁判替代专家后57.2%逐点评分类别变化、41.7%成对比较胜者变化、漏检10.2%临床错误；存在位置与身份偏倚。",
     "verifiedOn": "2026-11-05",
     "brief_dates": [
       "2026-11-05"
     ],
-    "origin": "麻醉AI科研简报"
+    "origin": "麻醉AI科研简报",
+    "site_catalog_id": "paper-llmjudge-20261104",
+    "brief_date_sources": {
+      "2026-11-05": "麻醉AI科研简报"
+    },
+    "verification_scope": "出版社原始摘要及发表日期",
+    "needs_review": false
   },
   {
     "id": "pubmed-42979898",

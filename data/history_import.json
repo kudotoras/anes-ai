@@ -2771,6 +2771,25 @@
       "competition_count": 0,
       "conference_count": 1,
       "source_url": "data/daily_briefs/2026-11-04.json"
+    },
+    {
+      "date": "2026-11-05",
+      "record_status": "aligned_with_verified_catalog_and_brief",
+      "paper_ids": [
+        "paper-llmjudge-20261104"
+      ],
+      "competition_ids": [
+        "competition_945b9a72d0",
+        "competition_df92d1669e"
+      ],
+      "conference_ids": [
+        "esicm-innovation2027",
+        "conference_95a23edf4a"
+      ],
+      "paper_count": 1,
+      "competition_count": 2,
+      "conference_count": 2,
+      "source_url": "data/daily_briefs/2026-11-05.json"
     }
   ]
 }

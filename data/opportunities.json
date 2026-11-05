@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-03",
+    "verifiedOn": "2026-11-05",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -40,15 +40,16 @@
       "2026-10-31",
       "2026-11-01",
       "2026-11-02",
-      "2026-11-03"
+      "2026-11-03",
+      "2026-11-05"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "2026-11-03 ESAIC官网确认摘要截至12月10日。",
-    "verification_attempted_on": "2026-11-03",
+    "verificationNote": "2026-11-05 ESAIC官网确认12月10日截止。",
+    "verification_attempted_on": "2026-11-05",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -59,7 +60,8 @@
       "2026-10-31": "麻醉AI科研简报",
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
-      "2026-11-03": "麻醉AI科研简报"
+      "2026-11-03": "麻醉AI科研简报",
+      "2026-11-05": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen"
@@ -448,9 +450,10 @@
       "2026-11-01",
       "2026-11-02",
       "2026-11-03",
-      "2026-11-04"
+      "2026-11-04",
+      "2026-11-05"
     ],
-    "verificationNote": "2026-11-05 ESICM官网复核：11月9日12:00 CET截止，ePoster，不出版ICMx摘要集。",
+    "verificationNote": "2026-11-05 ESICM官网已更新至11月9日12:00 CET（北京时间19:00）；以会议页最新截止为准。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -466,9 +469,10 @@
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
       "2026-11-03": "麻醉AI科研简报",
-      "2026-11-04": "麻醉AI科研简报"
+      "2026-11-04": "麻醉AI科研简报",
+      "2026-11-05": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-04",
+    "verification_attempted_on": "2026-11-05",
     "verification_failure": null,
     "deadline_timezone": "Europe/Rome"
   },
@@ -1044,16 +1048,18 @@
       "2026-10-31",
       "2026-11-01",
       "2026-11-02",
-      "2026-11-03"
+      "2026-11-03",
+      "2026-11-05"
     ],
     "archive_review_required": false,
-    "verification_attempted_on": "2026-11-03",
+    "verification_attempted_on": "2026-11-05",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-31": "麻醉AI科研简报",
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
-      "2026-11-03": "麻醉AI科研简报"
+      "2026-11-03": "麻醉AI科研简报",
+      "2026-11-05": "麻醉AI科研简报"
     },
     "deadlineLabel": "2026-11-10 24:00（北京时间；即11月11日00:00）",
     "deadline_timezone": "Asia/Shanghai",
@@ -1068,9 +1074,9 @@
         "url": "https://gkgc.sdufe.edu.cn/info/1099/17650.htm"
       }
     ],
-    "verifiedOn": "2026-11-03",
+    "verifiedOn": "2026-11-05",
     "needs_review": false,
-    "verificationNote": "2026-11-03赛事官网确认11月10日24:00截止，通用赛道含医疗Agent。",
+    "verificationNote": "2026-11-05 赛事官网确认报名截至11月10日24:00北京时间。",
     "provenance": [
       "麻醉AI科研简报"
     ],
@@ -1092,7 +1098,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-02",
+    "verifiedOn": "2026-11-05",
     "sources": [
       {
         "label": "第九届官方概况、报名规则及通知下载（页面更新 2026-10-08）",
@@ -1110,16 +1116,18 @@
     "deadlineLabel": "分赛区独立截止：广东2027-01-15、河北2027-03-15；海南已截止，其他待通知",
     "format": "创新项目竞赛",
     "brief_dates": [
-      "2026-10-27"
+      "2026-10-27",
+      "2026-11-05"
     ],
     "site_catalog_id": "shic",
     "provenance": [],
-    "verification_attempted_on": "2026-11-02",
+    "verification_attempted_on": "2026-11-05",
     "verification_failure": null,
     "brief_date_sources": {
-      "2026-10-27": "麻醉AI科研简报"
+      "2026-10-27": "麻醉AI科研简报",
+      "2026-11-05": "麻醉AI科研简报"
     },
-    "verificationNote": "2026-11-02 SHIC官方赛区表新增可读日期：广东2027-01-15、河北2027-03-15截止；海南10月15日已过，其他赛区不能套用全国统一日期。",
+    "verificationNote": "2026-11-05 官网总报名窗口2026年9月至2027年4月，各赛区独立截止，需查地方通知。",
     "regional_deadlines": {
       "广东": "2027-01-15",
       "河北": "2027-03-15",
