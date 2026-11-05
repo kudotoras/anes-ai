@@ -14,8 +14,10 @@
     "opportunities": 21
   },
   "github": {
-    "status": "partial",
-    "brief_alignment_status": "pending_readback"
+    "status": "success",
+    "brief_alignment_status": "success",
+    "readback_commit": "0b8e518a57c5d43a18850e1bd7bafa1a63025338",
+    "verification": "公开简报、历史索引及导入源回读确认；精读摘要SHA未变。"
   },
   "frontend": {
     "status": "pending"
