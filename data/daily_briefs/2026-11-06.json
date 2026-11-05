@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-06",
+  "source": "麻醉AI科研简报",
+  "papers": [],
+  "competitions": [
+    {
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会",
+      "deadline": "2026-11-10T24:00:00+08:00",
+      "category": "competition",
+      "source_url": "https://www.ai-race.com.cn/",
+      "verifiedOn": "2026-11-06",
+      "verification_scope": "主办方、组队规则、赛道、截止日期、作品提交说明及官方入口",
+      "needs_review": false
+    }
+  ],
+  "conferences": [
+    {
+      "title": "ESICM Intensive Care Innovation 2027",
+      "organizer": "European Society of Intensive Care Medicine",
+      "deadline": "2026-11-09T12:00:00+01:00",
+      "category": "conference",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verifiedOn": "2026-11-06",
+      "verification_scope": "会议官网日期、地点、摘要截止、ePoster、出版与注册收费",
+      "needs_review": false
+    },
+    {
+      "title": "Euroanaesthesia 2027",
+      "organizer": "European Society of Anaesthesiology and Intensive Care",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "category": "conference",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-06",
+      "verification_scope": "官方投稿页日期、Innovation Showcase、EJA电子增刊、AI披露要求及报告人注册要求",
+      "needs_review": false
+    }
+  ]
+}
