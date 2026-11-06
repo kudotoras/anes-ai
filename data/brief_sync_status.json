@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-06",
+  "brief_date": "2026-11-07",
   "overall_status": "partial",
-  "brief_status": "完整简报已取得；无达到精选标准的新增研究，交接1项比赛、2项会议。",
+  "brief_status": "无符合精选标准的未重复新增研究；核验1比赛2会议；逐刊扫描未完全覆盖。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "revision": "d88677bf-6f93-4c3b-8af0-f88ddb1d30ae",
-    "papers": 120,
-    "opportunities": 21,
-    "verification": "管理员写入后GET回读，核对4项机会更新。"
+    "status": "failed",
+    "brief_alignment_status": "pending",
+    "verification": "Sites维护连接器不可用，未执行写入回读。"
   },
   "github": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "readback_commit": "9db1d04d4b48c5429675737b721deca11e67c78f",
-    "verification": "数据文件提交后逐个回读核对SHA；人工精读摘要SHA未变。"
+    "status": "partial",
+    "brief_alignment_status": "partial",
+    "verification": "交接文件、机会、历史索引已提交回读；跨端7日追补待完成。"
   },
   "frontend": {
     "status": "pending"
@@ -28,10 +24,8 @@
     "verification": "检查7日公开交接条目，未发现缺项。"
   },
   "failures": [
-    {
-      "id": "journal-coverage",
-      "reason": "已完成主题检索，逐刊扫描未全部完成。"
-    }
+    "Sites不可用",
+    "最近7日跨端完整追补待核验"
   ],
   "previous_syncs": {
     "0": {
@@ -2700,6 +2694,23 @@
           "reason": "赛区分别截止；未核实全部赛区。"
         }
       ]
+    },
+    "2026-11-06": {
+      "sites": {
+        "status": "success",
+        "brief_alignment_status": "success",
+        "revision": "d88677bf-6f93-4c3b-8af0-f88ddb1d30ae",
+        "papers": 120,
+        "opportunities": 21,
+        "verification": "管理员写入后GET回读，核对4项机会更新。"
+      },
+      "github": {
+        "status": "success",
+        "brief_alignment_status": "success",
+        "readback_commit": "9db1d04d4b48c5429675737b721deca11e67c78f",
+        "verification": "数据文件提交后逐个回读核对SHA；人工精读摘要SHA未变。"
+      },
+      "overall_status": "partial"
     }
   }
 }
