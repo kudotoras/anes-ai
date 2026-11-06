@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-06",
+    "verifiedOn": "2026-11-07",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -42,7 +42,8 @@
       "2026-11-02",
       "2026-11-03",
       "2026-11-05",
-      "2026-11-06"
+      "2026-11-06",
+      "2026-11-07"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
@@ -427,7 +428,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-06",
+    "verifiedOn": "2026-11-07",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -454,7 +455,8 @@
       "2026-11-03",
       "2026-11-04",
       "2026-11-05",
-      "2026-11-06"
+      "2026-11-06",
+      "2026-11-07"
     ],
     "verificationNote": "2026-11-06 ESICM官网已更新至11月9日12:00 CET（北京时间19:00）；以会议页最新截止为准。",
     "site_catalog_id": "esicm-innovation2027",
@@ -1054,7 +1056,8 @@
       "2026-11-02",
       "2026-11-03",
       "2026-11-05",
-      "2026-11-06"
+      "2026-11-06",
+      "2026-11-07"
     ],
     "archive_review_required": false,
     "verification_attempted_on": "2026-11-06",
@@ -1080,7 +1083,7 @@
         "url": "https://gkgc.sdufe.edu.cn/info/1099/17650.htm"
       }
     ],
-    "verifiedOn": "2026-11-06",
+    "verifiedOn": "2026-11-07",
     "needs_review": false,
     "verificationNote": "2026-11-06 赛事官网确认报名截至11月10日24:00北京时间。",
     "provenance": [
