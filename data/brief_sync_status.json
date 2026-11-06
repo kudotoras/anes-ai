@@ -2,25 +2,20 @@
   "schema_version": 1,
   "brief_date": "2026-11-06",
   "overall_status": "partial",
-  "brief_status": "本期没有达到精选标准的新增研究；已独立核验1项比赛及2项会议，交接文件已提交回读。",
+  "brief_status": "完整简报已取得；无达到精选标准的新增研究，交接1项比赛、2项会议。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "failed",
-    "brief_alignment_status": "pending",
-    "verification": "本运行环境未提供Sites get_site或维护接口，无法读取/api/update-guide、/api/site-data或执行管理员POST及GET回读。",
-    "pending": [
-      "读取Sites独立检索数据并与本期并集去重",
-      "核验后执行管理员POST并GET回读",
-      "检查最近7日Sites漏项"
-    ]
+    "status": "success",
+    "brief_alignment_status": "success",
+    "revision": "d88677bf-6f93-4c3b-8af0-f88ddb1d30ae",
+    "papers": 120,
+    "opportunities": 21,
+    "verification": "管理员写入后GET回读，核对4项机会更新。"
   },
   "github": {
     "status": "partial",
-    "brief_alignment_status": "partial",
-    "verification": "2026-11-06公开交接文件和history_briefs已提交并回读；本期无新论文，比赛与会议为已存在条目，未修改既有人工精读摘要。",
     "pending": [
-      "本期与Sites独立检索并集合并",
-      "最近7日两端完整逐条回溯"
+      "提交后回读"
     ]
   },
   "frontend": {
@@ -29,32 +24,13 @@
   "brief_catchup": {
     "window_start": "2026-10-31",
     "window_end": "2026-11-06",
-    "status": "partial",
-    "pending": [
-      "2026-10-31至2026-11-06 Sites最新数据无法读取，完整补同步待执行"
-    ],
-    "audit": [
-      {
-        "date": "2026-11-06",
-        "status": "partial",
-        "missing": [
-          "Sites读取、写入和回读"
-        ]
-      }
-    ]
+    "status": "success",
+    "verification": "检查7日公开交接条目，未发现缺项。"
   },
   "failures": [
     {
-      "id": "sites-connector",
-      "reason": "当前可用连接器中没有Sites读写操作，不能完成本期Sites同步。"
-    },
-    {
       "id": "journal-coverage",
-      "reason": "本期进行了主题与部分期刊检索，未完成所列全部期刊逐刊扫描；无新增论文达到精选标准。"
-    },
-    {
-      "id": "seven-day-site-audit",
-      "reason": "最近7日Sites数据缺少本次回读，无法独立确认全量对齐。"
+      "reason": "已完成主题检索，逐刊扫描未全部完成。"
     }
   ],
   "previous_syncs": {

@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-05",
+    "verifiedOn": "2026-11-06",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -41,15 +41,16 @@
       "2026-11-01",
       "2026-11-02",
       "2026-11-03",
-      "2026-11-05"
+      "2026-11-05",
+      "2026-11-06"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "2026-11-05 ESAIC官网确认12月10日截止。",
-    "verification_attempted_on": "2026-11-05",
+    "verificationNote": "2026-11-06 ESAIC官网确认12月10日截止。",
+    "verification_attempted_on": "2026-11-06",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -61,7 +62,8 @@
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
       "2026-11-03": "麻醉AI科研简报",
-      "2026-11-05": "麻醉AI科研简报"
+      "2026-11-05": "麻醉AI科研简报",
+      "2026-11-06": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen"
@@ -425,7 +427,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-05",
+    "verifiedOn": "2026-11-06",
     "sources": [
       {
         "label": "ESICM 官方会议及征集截止",
@@ -451,9 +453,10 @@
       "2026-11-02",
       "2026-11-03",
       "2026-11-04",
-      "2026-11-05"
+      "2026-11-05",
+      "2026-11-06"
     ],
-    "verificationNote": "2026-11-05 ESICM官网已更新至11月9日12:00 CET（北京时间19:00）；以会议页最新截止为准。",
+    "verificationNote": "2026-11-06 ESICM官网已更新至11月9日12:00 CET（北京时间19:00）；以会议页最新截止为准。",
     "site_catalog_id": "esicm-innovation2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -470,9 +473,10 @@
       "2026-11-02": "麻醉AI科研简报",
       "2026-11-03": "麻醉AI科研简报",
       "2026-11-04": "麻醉AI科研简报",
-      "2026-11-05": "麻醉AI科研简报"
+      "2026-11-05": "麻醉AI科研简报",
+      "2026-11-06": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-05",
+    "verification_attempted_on": "2026-11-06",
     "verification_failure": null,
     "deadline_timezone": "Europe/Rome"
   },
@@ -492,7 +496,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-04",
+    "verifiedOn": "2026-11-06",
     "sources": [
       {
         "label": "BMES官方摘要征集页",
@@ -513,7 +517,7 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "2026-11-04 BMES官网确认11月6日截止，时区未注明。",
+    "verificationNote": "2026-11-06 BMES官网确认Late-Breaking摘要11月6日截止，未注明时区。",
     "needs_review": false,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -521,7 +525,7 @@
       "2026-10-28": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-04",
+    "verification_attempted_on": "2026-11-06",
     "verification_failure": null
   },
   {
@@ -1049,17 +1053,19 @@
       "2026-11-01",
       "2026-11-02",
       "2026-11-03",
-      "2026-11-05"
+      "2026-11-05",
+      "2026-11-06"
     ],
     "archive_review_required": false,
-    "verification_attempted_on": "2026-11-05",
+    "verification_attempted_on": "2026-11-06",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-31": "麻醉AI科研简报",
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
       "2026-11-03": "麻醉AI科研简报",
-      "2026-11-05": "麻醉AI科研简报"
+      "2026-11-05": "麻醉AI科研简报",
+      "2026-11-06": "麻醉AI科研简报"
     },
     "deadlineLabel": "2026-11-10 24:00（北京时间；即11月11日00:00）",
     "deadline_timezone": "Asia/Shanghai",
@@ -1074,9 +1080,9 @@
         "url": "https://gkgc.sdufe.edu.cn/info/1099/17650.htm"
       }
     ],
-    "verifiedOn": "2026-11-05",
+    "verifiedOn": "2026-11-06",
     "needs_review": false,
-    "verificationNote": "2026-11-05 赛事官网确认报名截至11月10日24:00北京时间。",
+    "verificationNote": "2026-11-06 赛事官网确认报名截至11月10日24:00北京时间。",
     "provenance": [
       "麻醉AI科研简报"
     ],

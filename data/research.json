@@ -11537,5 +11537,23 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "pubmed-42562666",
+    "title": "Interpretable Machine Learning Models for Mortality Prediction in Critically Ill Patients with Intra-Aortic Balloon Pump Therapy: Development and Evaluation.",
+    "pmid": "42562666",
+    "doi": "10.1016/j.hlc.2026.03.061",
+    "journal": "Heart, lung & circulation",
+    "date": "2026-08-06",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42562666/",
+    "description": "",
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-06",
+    "verifiedOn": null,
+    "needs_review": true
   }
 ]
