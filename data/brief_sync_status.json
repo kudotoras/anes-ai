@@ -13,10 +13,10 @@
     "verification": "管理员写入后GET回读，核对4项机会更新。"
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "brief_alignment_status": "success",
+    "readback_commit": "9db1d04d4b48c5429675737b721deca11e67c78f",
+    "verification": "数据文件提交后逐个回读核对SHA；人工精读摘要SHA未变。"
   },
   "frontend": {
     "status": "pending"
