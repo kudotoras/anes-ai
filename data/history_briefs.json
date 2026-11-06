@@ -665,5 +665,20 @@
     "competition_count": 1,
     "conference_count": 2,
     "source_url": "data/daily_briefs/2026-11-06.json"
+  },
+  {
+    "date": "2026-11-07",
+    "record_status": "verified_public_sources",
+    "paper_ids": [],
+    "competition_ids": [
+      "competition_945b9a72d0"
+    ],
+    "conference_ids": [
+      "esicm-innovation2027",
+      "conference_95a23edf4a"
+    ],
+    "paper_count": 0,
+    "competition_count": 1,
+    "conference_count": 2
   }
 ]
