@@ -185,6 +185,36 @@
     "selected": false
   },
   {
+    "id": "pubmed-42994240",
+    "pmid": "42994240",
+    "doi": "10.1016/j.gerinurse.2026.104412",
+    "title": "Evaluating the effectiveness of digital and intelligent technology-driven rehabilitation training following radical prostatectomy: A scoping review.",
+    "title_zh": "",
+    "journal": "Geriatric nursing (New York, N.Y.)",
+    "date": "2026-11-06",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42994240/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-08"
+  },
+  {
+    "id": "pubmed-42994857",
+    "pmid": "42994857",
+    "doi": "10.1097/MD.0000000000051458",
+    "title": "Bibliometric analysis of septic cardiomyopathy: Current status, research hotspots, and emerging trends (2015-2025).",
+    "title_zh": "",
+    "journal": "Medicine",
+    "date": "2026-11-06",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42994857/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-08"
+  },
+  {
     "id": "pubmed-42987267",
     "pmid": "42987267",
     "doi": "10.2196/90724",
@@ -1108,6 +1138,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-06"
+  },
+  {
+    "id": "pubmed-42994283",
+    "pmid": "42994283",
+    "doi": "10.1016/j.ijmedinf.2026.106778",
+    "title": "Temporal regularization of a dynamic graph network for ordinal prediction of discharge disposition after ischemic stroke in intensive care.",
+    "title_zh": "",
+    "journal": "International journal of medical informatics",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42994283/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-08"
   },
   {
     "id": "pubmed-42960546",
@@ -7400,6 +7445,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-28"
+  },
+  {
+    "id": "pubmed-42994619",
+    "pmid": "42994619",
+    "doi": "10.1016/j.accpm.2026.101984",
+    "title": "Artificial Intelligence in Pre-anaesthetic Evaluation and Perioperative Planning: A Narrative Review.",
+    "title_zh": "",
+    "journal": "Anaesthesia, critical care & pain medicine",
+    "date": "2026-09-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42994619/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-08"
   },
   {
     "id": "legacy-4",
