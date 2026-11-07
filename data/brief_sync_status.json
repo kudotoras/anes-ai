@@ -13,10 +13,10 @@
     "verification": "管理员写入后GET回读；新增1条待精读文献、复核3项机会。"
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "brief_alignment_status": "success",
+    "readback_commit": "0a3e2a41af6ccd5868ac6591cfecae323ecceea0",
+    "verification": "回读默认分支确认新增和机会标记，人工精读摘要SHA未变。"
   },
   "frontend": {
     "status": "pending"
