@@ -1,76 +1,41 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-07",
+  "brief_date": "2026-11-08",
   "overall_status": "partial",
-  "brief_status": "当日完整简报已取得；1条题录核验待精读、1项比赛、2项会议，精选0篇。",
+  "brief_status": "本期无完成全文核验的新文精选；公开交接包含3项比赛和2项会议。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "revision": "89fa09cc-a9f9-4d29-900e-d5826eccf032",
-    "papers": 121,
-    "opportunities": 21,
-    "verification": "管理员写入后GET回读；新增1条待精读文献、复核3项机会。"
+    "status": "failed",
+    "brief_alignment_status": "pending",
+    "verification": "当前连接器未提供Sites读写动作，无法执行管理员POST及GET回读。"
   },
   "github": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "readback_commit": "0a3e2a41af6ccd5868ac6591cfecae323ecceea0",
-    "verification": "回读默认分支确认新增和机会标记，人工精读摘要SHA未变。"
+    "status": "partial",
+    "brief_alignment_status": "partial",
+    "verification": "当日公开交接文件已写入并回读；研究与机会主库尚未完成增量合并。",
+    "readback_commit": "27c285d8e815e5b86d5c80c92a083c48662eacce"
   },
   "frontend": {
     "status": "pending"
   },
   "brief_catchup": {
-    "window_start": "2026-11-01",
-    "window_end": "2026-11-07",
-    "status": "success",
-    "audit": [
-      {
-        "date": "2026-11-01",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-02",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-03",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-04",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-05",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-06",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-07",
-        "missing": [],
-        "status": "success"
-      }
-    ]
+    "window_start": "2026-11-02",
+    "window_end": "2026-11-08",
+    "status": "partial",
+    "audit": []
   },
   "failures": [
     {
-      "id": "journal-coverage",
-      "reason": "PubMed完成合并期刊与主题检索，逐刊扫描未全部完成。"
+      "id": "sites-connector",
+      "reason": "Sites读写接口不可用，未进行网站同步。"
     },
     {
-      "id": "publisher",
-      "reason": "HM-CDSS出版商页面未能回读；已核对Crossref出版商登记题录，不计入精选。"
+      "id": "github-catalog",
+      "reason": "仅完成每日公开交接，主目录与机会库未合并。"
+    },
+    {
+      "id": "journal-coverage",
+      "reason": "未完成全部指定期刊逐刊检索；无足够完成核验的新文。"
     }
   ],
   "previous_syncs": {
@@ -2758,5 +2723,12 @@
       },
       "overall_status": "partial"
     }
-  }
+  },
+  "previous_runs": [
+    {
+      "brief_date": "2026-11-07",
+      "sites": "success",
+      "github": "success"
+    }
+  ]
 }
