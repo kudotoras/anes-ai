@@ -2,30 +2,76 @@
   "schema_version": 1,
   "brief_date": "2026-11-07",
   "overall_status": "partial",
-  "brief_status": "无符合精选标准的未重复新增研究；核验1比赛2会议；逐刊扫描未完全覆盖。",
+  "brief_status": "当日完整简报已取得；1条题录核验待精读、1项比赛、2项会议，精选0篇。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "failed",
-    "brief_alignment_status": "pending",
-    "verification": "Sites维护连接器不可用，未执行写入回读。"
+    "status": "success",
+    "brief_alignment_status": "success",
+    "revision": "89fa09cc-a9f9-4d29-900e-d5826eccf032",
+    "papers": 121,
+    "opportunities": 21,
+    "verification": "管理员写入后GET回读；新增1条待精读文献、复核3项机会。"
   },
   "github": {
     "status": "partial",
-    "brief_alignment_status": "partial",
-    "verification": "交接文件、机会、历史索引已提交回读；跨端7日追补待完成。"
+    "pending": [
+      "提交后回读"
+    ]
   },
   "frontend": {
     "status": "pending"
   },
   "brief_catchup": {
-    "window_start": "2026-10-31",
-    "window_end": "2026-11-06",
+    "window_start": "2026-11-01",
+    "window_end": "2026-11-07",
     "status": "success",
-    "verification": "检查7日公开交接条目，未发现缺项。"
+    "audit": [
+      {
+        "date": "2026-11-01",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-02",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-03",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-04",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-05",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-06",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-07",
+        "missing": [],
+        "status": "success"
+      }
+    ]
   },
   "failures": [
-    "Sites不可用",
-    "最近7日跨端完整追补待核验"
+    {
+      "id": "journal-coverage",
+      "reason": "PubMed完成合并期刊与主题检索，逐刊扫描未全部完成。"
+    },
+    {
+      "id": "publisher",
+      "reason": "HM-CDSS出版商页面未能回读；已核对Crossref出版商登记题录，不计入精选。"
+    }
   ],
   "previous_syncs": {
     "0": {
