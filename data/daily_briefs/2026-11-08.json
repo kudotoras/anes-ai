@@ -15,18 +15,27 @@
       "description": "亳州专项赛，8个场景含智能病历、辅助医疗诊断、多智能体协同；总场景预算3580万元，落地资助有条件，不等于参赛现金奖金。",
       "verifiedOn": "2026-11-08",
       "verification_scope": "人民网安徽11月6日报道核对；官网报名规则需复核",
-      "needs_review": true
+      "needs_review": true,
+      "id": "competition_e52bc9726b",
+      "brief_dates": [
+        "2026-11-08"
+      ]
     },
     {
       "title": "第二届全国人工智能应用创新大赛",
       "organizer": "大赛组委会",
-      "deadline": "2026-11-10T24:00:00+08:00",
+      "deadline": "2026-11-11T00:00:00+08:00",
       "source_url": "https://www.ai-race.com.cn/",
       "category": "competition",
       "description": "面向高校学生并欢迎科研机构和企业，医疗Agent方向适配；报名与收费按官网章程核对。",
       "verifiedOn": "2026-11-08",
       "verification_scope": "赛事官网首页报名截止及赛道核对",
-      "needs_review": false
+      "needs_review": false,
+      "id": "competition_945b9a72d0",
+      "deadlineLabel": "2026-11-10 24:00 北京时间",
+      "brief_dates": [
+        "2026-11-08"
+      ]
     },
     {
       "title": "中国电科网信杯人工智能创新大赛",
@@ -37,7 +46,11 @@
       "description": "智能体应用、领域模型、数据治理等赛道；具体参赛资格和奖励需核对章程。",
       "verifiedOn": "2026-11-08",
       "verification_scope": "官网赛程与赛道核对",
-      "needs_review": true
+      "needs_review": true,
+      "id": "cetc-wangxinbei2026",
+      "brief_dates": [
+        "2026-11-08"
+      ]
     }
   ],
   "conferences": [
@@ -50,7 +63,11 @@
       "description": "2027年2月4–5日米兰；ePoster，无会议摘要集；研究者免费注册，最佳3摘要报告人获后续活动注册权益。",
       "verifiedOn": "2026-11-08",
       "verification_scope": "ESICM官方页面核对",
-      "needs_review": false
+      "needs_review": false,
+      "id": "esicm-innovation2027",
+      "brief_dates": [
+        "2026-11-08"
+      ]
     },
     {
       "title": "Euroanaesthesia 2027",
@@ -59,7 +76,13 @@
       "source_url": "https://euroanaesthesia.org/2027/abstracts/",
       "category": "conference",
       "description": "2027年5月29–31日哥本哈根，摘要与Innovation Showcase；本期未重新核对细则。",
-      "needs_review": true
+      "needs_review": true,
+      "id": "conference_95a23edf4a",
+      "verifiedOn": "2026-11-08",
+      "verification_scope": "2026-11-08 官方页面复核截止及展示规则；未核验字段保留原值。",
+      "brief_dates": [
+        "2026-11-08"
+      ]
     }
   ]
 }

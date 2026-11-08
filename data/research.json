@@ -170,11 +170,11 @@
     "topic": "脓毒症与强化学习",
     "study_type": "强化学习临床决策支持方法研究（待精读）",
     "source_url": "https://link.springer.com/article/10.1007/s12559-026-10680-w",
-    "status": "题录已核验·待精读",
-    "description": "Crossref出版商登记元数据确认题名、DOI、期刊和在线发表日期；出版商正文未能回读，样本、外部验证和效果待核实。",
-    "verifiedOn": "2026-11-07",
+    "status": "出版商摘要已核验·方法待精读",
+    "description": "MIMIC-IV 5,282例成年脓毒症患者、约78,200条离线状态转移。层次化多智能体结合保守Q学习及指南检索增强解释；报告临床行为一致性49.9%。一致性不等于患者获益，推理评估仅98个时点；尚不能证明临床安全有效。",
+    "verifiedOn": "2026-11-08",
     "needs_review": true,
-    "verification_scope": "Crossref出版商登记元数据确认题名、DOI、期刊和在线发表日期；出版商正文未能回读，样本、外部验证和效果待核实。",
+    "verification_scope": "出版商题录、摘要和RAG作用说明；未完成全文精读。",
     "brief_dates": [
       "2026-11-07"
     ],
