@@ -13,14 +13,14 @@
     "verification": "管理员POST后GET回读，保留旧ID；修改1论文，新增1机会，修改8机会。"
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "brief_alignment_status": "success",
+    "readback_commit": "7334ccf4da5c76b41b2f27445dfbf2204302f514",
+    "verification": "原子提交数据后逐文件回读核对SHA；人工精读摘要SHA保持。"
   },
   "frontend": {
     "status": "pending",
-    "verification": "写入前公开主站已显示11月7日索引；11月8日尚待确认。"
+    "verification": "公开主站尚未确认11月8日目录发布；先前11月7日索引已可读。"
   },
   "brief_catchup": {
     "window_start": "2026-11-02",
