@@ -321,6 +321,40 @@
     "deadline_timezone": "Asia/Singapore"
   },
   {
+    "id": "cetc-wangxinbei2026",
+    "category": "competition",
+    "title": "中国电科网信杯人工智能创新大赛",
+    "organizer": "中国电子科技集团有限公司",
+    "date": "2026-11-15",
+    "deadline": "2026-11-15",
+    "deadline_timezone": "Asia/Shanghai",
+    "deadlineLabel": "2026-11-15（北京时间；官网未注明具体时刻）",
+    "status": "open",
+    "source_url": "https://wangxinbei.taiji.com.cn/schedule",
+    "description": "智能体应用、领域模型、数据治理等赛道；具体参赛资格和奖励需核对章程。",
+    "verifiedOn": "2026-11-08",
+    "needs_review": true,
+    "verificationNote": "官网赛程及章程第五章确认报名11月15日截止；首页及赛程对成果提交安排表述有差异，以具体赛题为准；资格、奖励、权属待核实。",
+    "announcement_date": "2026-09-30",
+    "site_catalog_id": "cetc-wangxinbei2026",
+    "sources": [
+      {
+        "label": "官方赛程",
+        "url": "https://wangxinbei.taiji.com.cn/schedule"
+      },
+      {
+        "label": "官方章程第五章",
+        "url": "https://wangxinbei.taiji.com.cn/news/34"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-08"
+    ],
+    "brief_date_sources": {
+      "2026-11-08": "麻醉AI科研简报"
+    }
+  },
+  {
     "id": "ncccu-ai",
     "title": "2026 全国高校计算机能力挑战赛 · 医学影像 AI 赛项",
     "organizer": "全国高等学校计算机教育研究会",
@@ -1206,39 +1240,5 @@
     "meeting_end": "2026-10-24",
     "verifiedOn": "2026-11-01",
     "verification_scope": "官方CCF新闻检索索引核验会期；非征稿规则"
-  },
-  {
-    "id": "cetc-wangxinbei2026",
-    "category": "competition",
-    "title": "中国电科网信杯人工智能创新大赛",
-    "organizer": "中国电子科技集团有限公司",
-    "date": "2026-11-15",
-    "deadline": "2026-11-15",
-    "deadline_timezone": "Asia/Shanghai",
-    "deadlineLabel": "2026-11-15（北京时间；官网未注明具体时刻）",
-    "status": "open",
-    "source_url": "https://wangxinbei.taiji.com.cn/schedule",
-    "description": "智能体应用、领域模型、数据治理等赛道；具体参赛资格和奖励需核对章程。",
-    "verifiedOn": "2026-11-08",
-    "needs_review": true,
-    "verificationNote": "官网赛程及章程第五章确认报名11月15日截止；首页及赛程对成果提交安排表述有差异，以具体赛题为准；资格、奖励、权属待核实。",
-    "announcement_date": "2026-09-30",
-    "site_catalog_id": "cetc-wangxinbei2026",
-    "sources": [
-      {
-        "label": "官方赛程",
-        "url": "https://wangxinbei.taiji.com.cn/schedule"
-      },
-      {
-        "label": "官方章程第五章",
-        "url": "https://wangxinbei.taiji.com.cn/news/34"
-      }
-    ],
-    "brief_dates": [
-      "2026-11-08"
-    ],
-    "brief_date_sources": {
-      "2026-11-08": "麻醉AI科研简报"
-    }
   }
 ]
