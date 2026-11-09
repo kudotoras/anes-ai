@@ -13,14 +13,14 @@
     "verification": "管理员POST后GET回读核对条目及旧ID；2篇旧文追加简报日期，新增1机会，复核9机会。"
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "brief_alignment_status": "success",
+    "readback_commit": "1fbcc69b68e13cbe529e256316c45aacf6a0fb7d",
+    "verification": "原子提交数据后逐文件回读核对SHA，人工精读摘要SHA未变。"
   },
   "frontend": {
     "status": "pending",
-    "verification": "公开主站已回读11月8日历史索引及网信杯；11月9日待发布验证。"
+    "verification": "公开主站尚未确认11月9日完整目录；11月8日索引已可读。"
   },
   "brief_catchup": {
     "window_start": "2026-11-03",
