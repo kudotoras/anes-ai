@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-09",
+  "source": "麻醉AI科研简报",
+  "papers": [],
+  "competitions": [
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会",
+      "deadline": "2026-11-10",
+      "source_url": "https://www.ai-race.com.cn/",
+      "needs_review": true,
+      "verification_scope": "沿用11月8日已核验赛事资料；本次网站动态页面未能重新读取章程",
+      "brief_dates": [
+        "2026-11-09"
+      ]
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛（TEC-AGI）",
+      "organizer": "中国计算机学会",
+      "deadline": "2026-11-10",
+      "source_url": "https://www.ccf.org.cn/tecagi2026",
+      "needs_review": true,
+      "verification_scope": "沿用11月8日公开资料；本次官方页面访问失败",
+      "brief_dates": [
+        "2026-11-09"
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "id": "esicm-innovation2027",
+      "title": "ESICM Intensive Care Innovation 2027",
+      "organizer": "ESICM",
+      "deadline": "2026-11-09T12:00:00+01:00",
+      "source_url": "https://www.esicm.org/events/intensive-care-innovation2027/",
+      "verifiedOn": "2026-11-09",
+      "verification_scope": "官方网页直接核验截稿时间、ePoster、无摘要集、注册费用及评奖",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-09"
+      ]
+    },
+    {
+      "title": "ESICM Research Second Call for Project Endorsement Applications",
+      "organizer": "ESICM",
+      "deadline": "2026-11-30",
+      "announcement_date": "2026-11-02",
+      "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
+      "category": "conference",
+      "description": "研究项目学会背书申请；不是论文投稿、会议墙报或资金奖励。ESICM会员申请且须事先获得相关委员会负责人支持；英文表格邮件至research@esicm.org。",
+      "verifiedOn": "2026-11-09",
+      "verification_scope": "ESICM官方征集公告及项目申请要求",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-09"
+      ]
+    }
+  ]
+}
