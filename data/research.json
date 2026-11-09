@@ -2188,12 +2188,16 @@
     "title_zh": "",
     "journal": "Journal of thoracic disease",
     "date": "2026-10-27",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996701/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-11-09"
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-09",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "description": "",
+    "verifiedOn": null,
+    "needs_review": true
   },
   {
     "id": "pubmed-42932211",
@@ -2408,12 +2412,16 @@
     "title_zh": "",
     "journal": "Journal of gastrointestinal oncology",
     "date": "2026-10-26",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996617/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-11-09"
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-09",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "description": "",
+    "verifiedOn": null,
+    "needs_review": true
   },
   {
     "id": "pubmed-42927942",
@@ -6608,7 +6616,8 @@
     "archive_id": "paper_e03c66ffbc85",
     "archive_review_required": false,
     "brief_dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-11-09"
     ],
     "pmid": "42854247",
     "verifiedOn": "2026-10-14",
@@ -6638,7 +6647,10 @@
     "site_catalog_id": "ai-delirium-prevention-pragmatic-rct-2026",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "brief_date_sources": {
+      "2026-11-09": "麻醉AI科研简报·既有研究线索"
+    }
   },
   {
     "id": "paper_d13f82b07d13",
@@ -8829,7 +8841,8 @@
     "archive_id": "paper_dada8858d23c",
     "archive_review_required": false,
     "brief_dates": [
-      "2026-10-18"
+      "2026-10-18",
+      "2026-11-09"
     ],
     "pmid": "42731321",
     "verifiedOn": "2026-10-23",
@@ -8856,7 +8869,10 @@
       "AReS"
     ],
     "site_catalog_id": "rl-gpc-multivariable-anesthesia-2026",
-    "provenance": []
+    "provenance": [],
+    "brief_date_sources": {
+      "2026-11-09": "麻醉AI科研简报·既有研究线索"
+    }
   },
   {
     "id": "pubmed-42905115",

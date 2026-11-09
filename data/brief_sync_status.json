@@ -3,50 +3,96 @@
   "brief_date": "2026-11-09",
   "overall_status": "partial",
   "selected_paper_ids": [],
-  "brief_status": "11月9日公开交接文件已回读；新研究0篇；赛事2项，会议1项及项目背书征集1项；主目录与Sites待对齐。",
+  "brief_status": "当天完整简报和公开交接已合并；科研精选0篇，2篇既有研究线索仅追加简报日期；2比赛及3征集。",
   "sites": {
-    "status": "failed",
-    "brief_alignment_status": "pending",
-    "verification": "本次无Sites管理连接器，无法执行get_site及管理员POST/GET回读；不得沿用昨日成功状态。"
+    "status": "success",
+    "brief_alignment_status": "success",
+    "revision": "ea7d8d26-a2d6-4b8f-bf12-65de07778382",
+    "papers": 121,
+    "opportunities": 23,
+    "verification": "管理员POST后GET回读核对条目及旧ID；2篇旧文追加简报日期，新增1机会，复核9机会。"
   },
   "github": {
     "status": "partial",
-    "brief_alignment_status": "partial",
-    "verification": "11月9日交接文件写入回读；历史索引写入；研究/机会主目录及近7日跨端复核未完成。"
+    "pending": [
+      "提交后回读"
+    ]
   },
   "frontend": {
     "status": "pending",
-    "verification": "公开主站尚未确认11月8日目录发布；先前11月7日索引已可读。"
+    "verification": "公开主站已回读11月8日历史索引及网信杯；11月9日待发布验证。"
   },
   "brief_catchup": {
     "window_start": "2026-11-03",
     "window_end": "2026-11-09",
-    "status": "pending",
-    "pending": [
-      "Sites当日同步",
-      "研究与机会主目录合并",
-      "最近7日两端回读审计"
+    "status": "success",
+    "audit": [
+      {
+        "date": "2026-11-03",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-04",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-05",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-06",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-07",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-08",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-09",
+        "status": "success",
+        "missing": []
+      }
     ]
   },
   "counts": {
     "site_new_papers": 0,
-    "site_modified_papers": 1,
+    "site_modified_papers": 2,
     "site_new_opportunities": 1,
-    "site_modified_opportunities": 8,
-    "independent_new_bibliography": 0,
+    "site_modified_opportunities": 9,
+    "independent_new_bibliography": 2,
     "daily_selected": 0,
     "journals_checked": 62
   },
   "failures": [
-    "Sites接口不可用",
-    "GitHub主目录尚未完成当日合并"
-  ],
-  "previous_syncs": [
     {
+      "id": "tec-agi-rules",
+      "reason": "机构原始公告确认日期；主办方完整规则未回读，资格费用材料待核。"
+    },
+    {
+      "id": "shic",
+      "reason": "SHIC页面复查超时，保留原核验日期及分赛区截止待补项。"
+    },
+    {
+      "id": "publisher-coverage",
+      "reason": "完成62期刊PubMed限定检索和主题检索；未穷尽出版商未索引Online First。"
+    }
+  ],
+  "previous_syncs": {
+    "0": {
       "date": "2026-11-08",
       "overall_status": "partial",
       "sites": "success",
       "github": "success"
     }
-  ]
+  }
 }

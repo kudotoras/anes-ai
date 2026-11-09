@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "update_date": "2026-11-09",
+  "source": "网站独立检索",
+  "selected_paper_ids": [],
+  "independent_bibliography_added": [
+    {
+      "id": "pubmed-42996617",
+      "title": "Development and external validation of an explainable machine learning model using routine perioperative clinical variables for postoperative pulmonary complication risk stratification after hepatectomy for primary liver cancer.",
+      "doi": "10.21037/jgo-2026-0702",
+      "pmid": "42996617",
+      "journal": "Journal of gastrointestinal oncology",
+      "date": "2026-10-26",
+      "dateKind": "PubMed电子日期；缺失不臆造",
+      "topic": "麻醉/围术期/重症AI题录",
+      "study_type": "题录线索·待核验",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996617/",
+      "description": "",
+      "status": "PubMed题录·待核验",
+      "origin": "网站独立PubMed检索",
+      "ingested_date": "2026-11-09",
+      "verifiedOn": null,
+      "needs_review": true
+    },
+    {
+      "id": "pubmed-42996701",
+      "title": "From risk factors to individualized prediction: development and internal validation of a machine learning model for early identification of postoperative pneumonia after lung cancer surgery.",
+      "doi": "10.21037/jtd-2026-1970",
+      "pmid": "42996701",
+      "journal": "Journal of thoracic disease",
+      "date": "2026-10-27",
+      "dateKind": "PubMed电子日期；缺失不臆造",
+      "topic": "麻醉/围术期/重症AI题录",
+      "study_type": "题录线索·待核验",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996701/",
+      "description": "",
+      "status": "PubMed题录·待核验",
+      "origin": "网站独立PubMed检索",
+      "ingested_date": "2026-11-09",
+      "verifiedOn": null,
+      "needs_review": true
+    }
+  ],
+  "brief_status": "当日完整简报已取得并合并",
+  "journal_checks": [
+    {
+      "journal": "The Lancet Digital Health",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 4
+    },
+    {
+      "journal": "Nature Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 5
+    },
+    {
+      "journal": "Nature Biomedical Engineering",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Nature Machine Intelligence",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "NEJM AI",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 5
+    },
+    {
+      "journal": "JAMA",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 8
+    },
+    {
+      "journal": "JAMA Network Open",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 7
+    },
+    {
+      "journal": "Critical Care",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 4
+    },
+    {
+      "journal": "Anesthesiology",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "British Journal of Anaesthesia",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Anaesthesia",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 1
+    },
+    {
+      "journal": "Anesthesia & Analgesia",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 5
+    },
+    {
+      "journal": "IEEE Transactions on Medical Imaging",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Medical Image Analysis",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 34
+    },
+    {
+      "journal": "Artificial Intelligence in Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 22
+    },
+    {
+      "journal": "PLOS Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Journal of Medical Internet Research",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 27
+    },
+    {
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 1
+    },
+    {
+      "journal": "BMC Anesthesiology",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Intensive Care Medicine Experimental",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "International Journal of Medical Informatics",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 51
+    },
+    {
+      "journal": "Nature",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 18
+    },
+    {
+      "journal": "Computers in Biology and Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 13
+    },
+    {
+      "journal": "European Journal of Control",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Scientific Reports",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Journal of Anesthesia, Analgesia and Critical Care",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "npj Precision Oncology",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Journal of the American Medical Informatics Association",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "AI in Precision Oncology",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "BMC Pharmacology and Toxicology",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "arXiv",
+      "status": "unavailable",
+      "checkedOn": "2026-11-09",
+      "scope": "本次未完成arXiv官方检索，不以PubMed零命中替代",
+      "count": 6
+    },
+    {
+      "journal": "Scientific Data",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Anaesthesia Critical Care & Pain Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 3
+    },
+    {
+      "journal": "Advances in Simulation",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Medizinische Klinik - Intensivmedizin und Notfallmedizin",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 1
+    },
+    {
+      "journal": "npj Health Systems",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Journal of Intensive Care",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "JMIR Perioperative Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Journal of Imaging Informatics in Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 34
+    },
+    {
+      "journal": "Brain Research Bulletin",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 5
+    },
+    {
+      "journal": "Anaesthesia and Intensive Care",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Journal of Korean Medical Science",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "The American Journal of Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Critical Care Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Journal of Clinical Anesthesia",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 1
+    },
+    {
+      "journal": "Therapeutic Drug Monitoring",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "JMIR Formative Research",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 13
+    },
+    {
+      "journal": "Bioengineering",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "JAMIA Open",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Journal of International Medical Research",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Nature Cancer",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Nature Communications",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 8
+    },
+    {
+      "journal": "Supportive Care in Cancer",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "JMIR Medical Informatics",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 21
+    },
+    {
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "European Heart Journal",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 3
+    },
+    {
+      "journal": "Journal of Pain Research",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "European Journal of Anaesthesiology",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 2
+    },
+    {
+      "journal": "Current Anesthesiology Reports",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Annals of Medicine",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    },
+    {
+      "journal": "Cognitive Computation",
+      "status": "checked",
+      "checkedOn": "2026-11-09",
+      "scope": "PubMed期刊限定AI检索；发表日2026-10-26至11-09；非穷尽全刊/未索引论文",
+      "count": 0
+    }
+  ],
+  "failures": [
+    {
+      "id": "publisher-coverage",
+      "reason": "PubMed限定检索不覆盖全部未索引出版商Online First"
+    },
+    {
+      "id": "tec-agi-rules",
+      "reason": "机构原始公告确认日期；主办方完整规则未回读，资格费用材料待核。"
+    },
+    {
+      "id": "shic",
+      "reason": "SHIC页面复查超时，保留原核验日期及分赛区截止待补项。"
+    },
+    {
+      "id": "publisher-coverage",
+      "reason": "完成62期刊PubMed限定检索和主题检索；未穷尽出版商未索引Online First。"
+    }
+  ]
+}
