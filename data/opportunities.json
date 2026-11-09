@@ -176,6 +176,31 @@
     "verification_failure": null
   },
   {
+    "id": "esicm-project-endorsement2026-call2",
+    "title": "ESICM Research Second Call for Project Endorsement Applications",
+    "category": "conference",
+    "organizer": "ESICM",
+    "date": "2026-11-30",
+    "deadline": "2026-11-30T23:59:00+01:00",
+    "deadlineLabel": "2026-11-30 23:59 CET（北京时间12月1日06:59）",
+    "deadlineInstant": "2026-11-30T22:59:00Z",
+    "deadline_timezone": "Europe/Brussels",
+    "announcement_date": "2026-11-02",
+    "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
+    "status": "open",
+    "description": "ESICM研究项目学会背书征集；申请前须获相关Section Lead或委员会支持，英文表格邮件提交。属于项目背书申请，不是论文投稿、墙报或资金奖励；会员等完整资格待核表格。",
+    "verifiedOn": "2026-11-09",
+    "verificationNote": "本次直接核验官方公告的开放/截止时刻、事先支持及英文邮件提交要求；未核验申请表全部细则。",
+    "needs_review": true,
+    "site_catalog_id": "esicm-project-endorsement2026-call2",
+    "brief_dates": [
+      "2026-11-09"
+    ],
+    "brief_date_sources": {
+      "2026-11-09": "麻醉AI科研简报"
+    }
+  },
+  {
     "id": "asa2027-general-sessions",
     "title": "ANESTHESIOLOGY 2027 · General Session 议程提案征集",
     "organizer": "American Society of Anesthesiologists（ASA）",
@@ -1251,30 +1276,5 @@
     "meeting_end": "2026-10-24",
     "verifiedOn": "2026-11-01",
     "verification_scope": "官方CCF新闻检索索引核验会期；非征稿规则"
-  },
-  {
-    "id": "esicm-project-endorsement2026-call2",
-    "title": "ESICM Research Second Call for Project Endorsement Applications",
-    "category": "conference",
-    "organizer": "ESICM",
-    "date": "2026-11-30",
-    "deadline": "2026-11-30T23:59:00+01:00",
-    "deadlineLabel": "2026-11-30 23:59 CET（北京时间12月1日06:59）",
-    "deadlineInstant": "2026-11-30T22:59:00Z",
-    "deadline_timezone": "Europe/Brussels",
-    "announcement_date": "2026-11-02",
-    "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
-    "status": "open",
-    "description": "ESICM研究项目学会背书征集；申请前须获相关Section Lead或委员会支持，英文表格邮件提交。属于项目背书申请，不是论文投稿、墙报或资金奖励；会员等完整资格待核表格。",
-    "verifiedOn": "2026-11-09",
-    "verificationNote": "本次直接核验官方公告的开放/截止时刻、事先支持及英文邮件提交要求；未核验申请表全部细则。",
-    "needs_review": true,
-    "site_catalog_id": "esicm-project-endorsement2026-call2",
-    "brief_dates": [
-      "2026-11-09"
-    ],
-    "brief_date_sources": {
-      "2026-11-09": "麻醉AI科研简报"
-    }
   }
 ]
