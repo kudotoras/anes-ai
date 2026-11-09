@@ -70,6 +70,36 @@
     "ingested_date": "2026-11-03"
   },
   {
+    "id": "pubmed-42998655",
+    "pmid": "42998655",
+    "doi": "10.1016/j.ejmp.2026.107218",
+    "title": "Resolving the open questions in individualized and cumulative patient dose in the era of AI.",
+    "title_zh": "",
+    "journal": "Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)",
+    "date": "2026-11-07",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42998655/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
+    "id": "pubmed-42998968",
+    "pmid": "42998968",
+    "doi": "10.1016/j.pmn.2026.10.003",
+    "title": "AI for Postoperative Pain and Opioid Stewardship in Pediatric Surgery: A Systematic Review.",
+    "title_zh": "",
+    "journal": "Pain management nursing : official journal of the American Society of Pain Management Nurses",
+    "date": "2026-11-07",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42998968/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "pubmed-42989357",
     "pmid": "42989357",
     "doi": "10.1186/s42836-026-00444-0",
@@ -509,6 +539,21 @@
     "ingested_date": "2026-11-06"
   },
   {
+    "id": "pubmed-42998474",
+    "pmid": "42998474",
+    "doi": "10.1016/j.artmed.2026.103565",
+    "title": "The measure that matters: What medicine asks of artificial intelligence.",
+    "title_zh": "",
+    "journal": "Artificial intelligence in medicine",
+    "date": "2026-11-04",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42998474/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "pubmed-42967647",
     "pmid": "42967647",
     "doi": "10.3760/cma.j.cn112137-20260419-01060",
@@ -612,6 +657,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-06"
+  },
+  {
+    "id": "pubmed-42998450",
+    "pmid": "42998450",
+    "doi": "10.1016/j.ijmedinf.2026.106781",
+    "title": "Weakly supervised deep learning predicts perineural invasion from H&E whole-slide images in tongue squamous cell carcinoma: development and external validation.",
+    "title_zh": "",
+    "journal": "International journal of medical informatics",
+    "date": "2026-11-03",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42998450/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
   },
   {
     "id": "pubmed-42970569",
@@ -1462,6 +1522,21 @@
     "ingested_date": "2026-11-05"
   },
   {
+    "id": "pubmed-42998473",
+    "pmid": "42998473",
+    "doi": "10.1016/j.artmed.2026.103559",
+    "title": "Predictive models and significant predictors for vaginal birth after caesarean section: A scoping review.",
+    "title_zh": "",
+    "journal": "Artificial intelligence in medicine",
+    "date": "2026-10-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42998473/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "doi-s41551-026-01777-6",
     "doi": "10.1038/s41551-026-01777-6",
     "title": "Optimal closed-loop feedback control of blood flow after spinal cord injury with norepinephrine",
@@ -2106,6 +2181,21 @@
     "pmid": "42945531"
   },
   {
+    "id": "pubmed-42996701",
+    "pmid": "42996701",
+    "doi": "10.21037/jtd-2026-1970",
+    "title": "From risk factors to individualized prediction: development and internal validation of a machine learning model for early identification of postoperative pneumonia after lung cancer surgery.",
+    "title_zh": "",
+    "journal": "Journal of thoracic disease",
+    "date": "2026-10-27",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996701/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "pubmed-42932211",
     "pmid": "42932211",
     "doi": "10.1109/TMI.2026.3747021",
@@ -2309,6 +2399,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-02"
+  },
+  {
+    "id": "pubmed-42996617",
+    "pmid": "42996617",
+    "doi": "10.21037/jgo-2026-0702",
+    "title": "Development and external validation of an explainable machine learning model using routine perioperative clinical variables for postoperative pulmonary complication risk stratification after hepatectomy for primary liver cancer.",
+    "title_zh": "",
+    "journal": "Journal of gastrointestinal oncology",
+    "date": "2026-10-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996617/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
   },
   {
     "id": "pubmed-42927942",
@@ -2703,6 +2808,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-06"
+  },
+  {
+    "id": "pubmed-42999401",
+    "pmid": "42999401",
+    "doi": "10.21037/tlcr-2026-0739",
+    "title": "Development and validation of a deep learning model integrating 18F-FDG PET/CT radiomics and clinical features to predict major pathological response in non-small cell lung cancer patients receiving chemoimmunotherapy.",
+    "title_zh": "",
+    "journal": "Translational lung cancer research",
+    "date": "2026-10-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42999401/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
+    "id": "pubmed-42996715",
+    "pmid": "42996715",
+    "doi": "10.3389/fmed.2026.1966805",
+    "title": "Deep learning-based CT lesion analysis and radiological burden stratification in clinically diagnosed ventilator-associated pneumonia.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-10-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996715/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
   },
   {
     "id": "pubmed-42907983",
@@ -3580,6 +3715,36 @@
     "ingested_date": "2026-11-06"
   },
   {
+    "id": "pubmed-42997025",
+    "pmid": "42997025",
+    "doi": "10.1016/j.jpra.2026.10.016",
+    "title": "Artificial intelligence-assisted smartphone thermal imaging for pedicled facial and head-neck flaps: An exploratory feasibility study using ΔT-based proxy perfusion grading.",
+    "title_zh": "",
+    "journal": "JPRAS open",
+    "date": "2026-10-21",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42997025/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
+    "id": "pubmed-42996144",
+    "pmid": "42996144",
+    "doi": "10.21203/rs.3.rs-11283568/v1",
+    "title": "Artificial intelligence simulation study of Therapeutic Plasma Exchange (TPE) using an 8- State Markov State-Transition Model integrated within a Bayesian Markov Chain Monte Carlo Framework.",
+    "title_zh": "",
+    "journal": "Research square",
+    "date": "2026-10-21",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996144/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "pubmed-42909203",
     "pmid": "42909203",
     "doi": "10.1177/24741264261495481",
@@ -4344,6 +4509,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-04"
+  },
+  {
+    "id": "pubmed-42997762",
+    "pmid": "42997762",
+    "doi": "10.21037/qims-2026-1489",
+    "title": "Ultrasonic texture features for assessing abnormal interventricular septum motion following cardiac surgery.",
+    "title_zh": "",
+    "journal": "Quantitative imaging in medicine and surgery",
+    "date": "2026-10-19",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42997762/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
   },
   {
     "id": "jamia-ambient-scribe-ocag151-2026",
@@ -5371,6 +5551,21 @@
     "ingested_date": "2026-10-31"
   },
   {
+    "id": "pubmed-42996725",
+    "pmid": "42996725",
+    "doi": "10.21037/tp-2026-0673",
+    "title": "Risk-adapted radiotherapy in pediatric neuroblastoma: current evidence, controversies, and future directions-a narrative review.",
+    "title_zh": "",
+    "journal": "Translational pediatrics",
+    "date": "2026-10-15",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996725/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "pubmed-42894920",
     "pmid": "42894920",
     "doi": "10.62713/aic.4796",
@@ -6266,6 +6461,21 @@
     "ingested_date": "2026-11-02"
   },
   {
+    "id": "pubmed-42997797",
+    "pmid": "42997797",
+    "doi": "10.21037/qims-2026-0513",
+    "title": "MIFF-CLIP-HCC: Contrastive Language-Image Pretraining-enhanced multimodal information fusion framework for early recurrence prediction in postoperative hepatocellular carcinoma.",
+    "title_zh": "",
+    "journal": "Quantitative imaging in medicine and surgery",
+    "date": "2026-10-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42997797/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "legacy-1",
     "title": "Early prediction of prolonged ICU stay in sepsis patients using an explainable hybrid deep learning model",
     "title_zh": "脓毒症 ICU 住院延长预测：混合深度学习与外部验证",
@@ -6905,6 +7115,21 @@
     ],
     "site_catalog_id": "anterior-ql-injection-plane-segmentation-2026",
     "provenance": []
+  },
+  {
+    "id": "pubmed-42997526",
+    "pmid": "42997526",
+    "doi": "10.7759/cureus.117591",
+    "title": "Agreement Between Artificial Intelligence-Based and Expert Consensus Implant Planning Using Cone-Beam Computed Tomography: A Retrospective Observational Study.",
+    "title_zh": "",
+    "journal": "Cureus",
+    "date": "2026-10-07",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42997526/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
   },
   {
     "id": "pubmed-42919895",
@@ -7618,6 +7843,21 @@
     "ingested_date": "2026-11-03"
   },
   {
+    "id": "pubmed-42996661",
+    "pmid": "42996661",
+    "doi": "10.21037/jtd-2026-2022",
+    "title": "Explainable machine-learning prediction of prolonged postoperative hospitalization after esophagectomy using clinical and CT-derived body-composition features.",
+    "title_zh": "",
+    "journal": "Journal of thoracic disease",
+    "date": "2026-09-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996661/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
     "id": "legacy-5",
     "title": "Beyond risk scores: artificial intelligence representations of physiological resilience in surgical patients",
     "title_zh": "超越静态风险评分：用 AI 表征手术患者的生理韧性",
@@ -7704,6 +7944,51 @@
       "高价值补看"
     ],
     "issue_date": "2026-12"
+  },
+  {
+    "id": "pubmed-42996833",
+    "pmid": "42996833",
+    "doi": "10.21037/gs-2026-0357",
+    "title": "Development and internal validation of preoperative clinical and ultrasonographic models for cervical lymph node metastasis in papillary thyroid carcinoma.",
+    "title_zh": "",
+    "journal": "Gland surgery",
+    "date": "2026-09-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996833/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
+    "id": "pubmed-42996951",
+    "pmid": "42996951",
+    "doi": "10.21037/jtd-2026-1813",
+    "title": "Development and external validation of risk prediction models for gastrointestinal bleeding after aortic dissection surgery.",
+    "title_zh": "",
+    "journal": "Journal of thoracic disease",
+    "date": "2026-09-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996951/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
+  },
+  {
+    "id": "pubmed-42996832",
+    "pmid": "42996832",
+    "doi": "10.21037/gs-2026-0383",
+    "title": "Development and validation of prediction models for biochemical hypocalcemia after parathyroidectomy in primary hyperparathyroidism.",
+    "title_zh": "",
+    "journal": "Gland surgery",
+    "date": "2026-09-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996832/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
   },
   {
     "id": "legacy-6",
@@ -9073,6 +9358,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-27"
+  },
+  {
+    "id": "pubmed-42996604",
+    "pmid": "42996604",
+    "doi": "10.21037/jgo-2026-0523",
+    "title": "Preoperative prediction of microvascular invasion in hepatocellular carcinoma using routine clinical variables: development and temporal validation of an interpretable random forest model in a single-center retrospective cohort study.",
+    "title_zh": "",
+    "journal": "Journal of gastrointestinal oncology",
+    "date": "2026-08-17",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996604/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-09"
   },
   {
     "id": "legacy-13",
