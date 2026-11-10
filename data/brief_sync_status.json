@@ -2,49 +2,97 @@
   "schema_version": 1,
   "brief_date": "2026-11-10",
   "overall_status": "partial",
+  "brief_status": "独立检索已写入；最近可取完整聊天简报为11月9日，11月10日尚未生成/待对齐。未以昨日冒充今日。",
   "selected_paper_ids": [],
-  "brief_status": "今日公开简报已交接；无新精选论文；2项赛事和1项会议经不同范围核验。",
   "sites": {
-    "status": "failed",
-    "brief_alignment_status": "failed",
-    "verification": "当前工具环境没有Sites get_site/管理员写入能力，未执行POST/GET，未读取今日site-data。"
+    "status": "success",
+    "brief_alignment_status": "pending",
+    "revision": "bbdf43bc-f214-4040-8e36-aa5e4a6fbb12",
+    "papers": 122,
+    "opportunities": 23,
+    "verification": "管理员写入后GET回读，新增1摘要核验综述、更新13机会，保留旧ID与日期。",
+    "pending": [
+      "当日聊天简报生成后增量对齐"
+    ]
   },
   "github": {
     "status": "partial",
-    "brief_alignment_status": "partial",
-    "verification": "每日交接、机会目录、历史索引已写入；需回读确认。未完成两端联合去重。"
+    "brief_alignment_status": "pending",
+    "pending": [
+      "提交后回读",
+      "当日聊天简报待生成/待对齐"
+    ]
   },
   "frontend": {
     "status": "pending",
-    "verification": "未确认公开站点今日精选与简报一致"
+    "verification": "公开主站已回读11月9日索引及ESICM背书征集；11月10日独立增量待确认。"
   },
   "brief_catchup": {
     "window_start": "2026-11-04",
     "window_end": "2026-11-10",
     "status": "partial",
-    "verification": "历史日期文件存在性与跨端差异未逐条核验，待补。"
+    "audit": [
+      {
+        "date": "2026-11-04",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-05",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-06",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-07",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-08",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-09",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-10",
+        "status": "pending",
+        "missing": [
+          "当日简报未生成/待取得"
+        ]
+      }
+    ]
   },
   "counts": {
-    "site_new_papers": 0,
-    "site_modified_papers": 2,
-    "site_new_opportunities": 1,
-    "site_modified_opportunities": 9,
+    "site_new_papers": 1,
+    "site_modified_papers": 0,
+    "site_new_opportunities": 0,
+    "site_modified_opportunities": 13,
     "independent_new_bibliography": 2,
     "daily_selected": 0,
-    "journals_checked": 62
+    "journals_checked": 62,
+    "independent_reviewed": 1
   },
   "failures": [
     {
-      "id": "tec-agi-rules",
-      "reason": "机构原始公告确认日期；主办方完整规则未回读，资格费用材料待核。"
+      "id": "brief-pending",
+      "reason": "当日聊天简报及公开交接尚未生成；后续任务继续补同步。"
     },
     {
-      "id": "shic",
-      "reason": "SHIC页面复查超时，保留原核验日期及分赛区截止待补项。"
+      "id": "tec-agi-rules",
+      "reason": "CCF主办方入口不可读，机构公告检索缓存确认截止日期；费用材料资格待核。"
     },
     {
       "id": "publisher-coverage",
-      "reason": "完成62期刊PubMed限定检索和主题检索；未穷尽出版商未索引Online First。"
+      "reason": "62期刊完成PubMed限定检索并补查出版商；仍非所有未索引Online First的穷尽核验。"
     }
   ],
   "previous_syncs": {
@@ -60,23 +108,5 @@
       "sites": "success",
       "github": "success"
     }
-  },
-  "pending_items": [
-    {
-      "id": "sites-2026-11-10",
-      "reason": "缺少Sites维护接口，待获取站点独立检索与回读同步"
-    },
-    {
-      "id": "7day-audit",
-      "reason": "最近7日跨端完整回溯未完成"
-    },
-    {
-      "id": "journal-coverage",
-      "reason": "本期未完成全部指定期刊逐刊扫描；不可宣称穷尽"
-    },
-    {
-      "id": "tec-agi-official",
-      "reason": "CCF报名页访问失败；保留原核验日期并待复核报名资格"
-    }
-  ]
+  }
 }

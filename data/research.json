@@ -112,7 +112,11 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/43002664/",
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
-    "ingested_date": "2026-11-10"
+    "ingested_date": "2026-11-10",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "description": "",
+    "verifiedOn": null,
+    "needs_review": true
   },
   {
     "id": "pubmed-43000650",
@@ -641,7 +645,11 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001150/",
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
-    "ingested_date": "2026-11-10"
+    "ingested_date": "2026-11-10",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "description": "",
+    "verifiedOn": null,
+    "needs_review": true
   },
   {
     "id": "pubmed-43001136",
@@ -12422,5 +12430,24 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "perioperative-ai-safety-review20261103",
+    "title": "Risks and benefits of artificial intelligence across the perioperative surgical pathway: a review",
+    "title_zh": "围术期AI的风险与收益：患者安全结局证据仍有限",
+    "journal": "Patient Safety in Surgery",
+    "doi": "10.1186/s13037-026-00518-7",
+    "date": "2026-11-03",
+    "dateKind": "出版商接受后提前发布；尚待最终版本",
+    "topic": "围术期AI / 临床验证与安全",
+    "study_type": "叙述性综述",
+    "source_url": "https://link.springer.com/article/10.1186/s13037-026-00518-7",
+    "status": "出版商摘要已核验",
+    "description": "叙述性综述纳入90篇文献，区分围术期直接证据与其他场景的可迁移经验，强调预测性能和生理指标不能替代患者安全结局。非系统综述，未作正式偏倚评估或合并效应估计，不能据此判断特定AI干预的疗效。",
+    "verifiedOn": "2026-11-10",
+    "verification_scope": "出版商原始题录与摘要；未全文精读",
+    "needs_review": false,
+    "site_catalog_id": "perioperative-ai-safety-review20261103",
+    "origin": "网站独立出版商检索"
   }
 ]
