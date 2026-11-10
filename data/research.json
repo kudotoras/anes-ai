@@ -119,6 +119,21 @@
     "needs_review": true
   },
   {
+    "id": "pubmed-43003703",
+    "pmid": "43003703",
+    "doi": "10.1016/j.jclinane.2026.112368",
+    "title": "From prediction to impact: The next frontier of perioperative artificial intelligence.",
+    "title_zh": "",
+    "journal": "Journal of clinical anesthesia",
+    "date": "2026-11-09",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43003703/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
     "id": "pubmed-43000650",
     "pmid": "43000650",
     "doi": "10.1177/03913988261499929",
@@ -9035,6 +9050,21 @@
     }
   },
   {
+    "id": "pubmed-43003545",
+    "pmid": "43003545",
+    "doi": "10.1016/j.ccc.2026.07.010",
+    "title": "Intensive Monitoring, Big Data, and Artificial Intelligence in Critical Care.",
+    "title_zh": "",
+    "journal": "Critical care clinics",
+    "date": "2026-09-04",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43003545/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
     "id": "pubmed-42905115",
     "pmid": "42905115",
     "doi": "10.2106/JBJS.25.01324",
@@ -9209,6 +9239,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-27"
+  },
+  {
+    "id": "pubmed-43003546",
+    "pmid": "43003546",
+    "doi": "10.1016/j.ccc.2026.07.002",
+    "title": "Prediction, Prescription, and Proactive Medication Management in the Intensive Care Unit.",
+    "title_zh": "",
+    "journal": "Critical care clinics",
+    "date": "2026-08-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43003546/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
   },
   {
     "id": "paper_626294886bd7",
@@ -10240,6 +10285,21 @@
     ],
     "site_catalog_id": "six-center",
     "provenance": []
+  },
+  {
+    "id": "pubmed-42996809",
+    "pmid": "42996809",
+    "doi": "10.31661/gmj.v15i.4260",
+    "title": "Physician-Reported Practices and Innovation Adoption in Acute Kidney Injury Care in Saudi Arabia: A Nationwide Cross-Sectional Survey : Short title: Acute Kidney Injury Care and Innovation Adoption in Saudi Arabia.",
+    "title_zh": "",
+    "journal": "Galen medical journal",
+    "date": "2026-07-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996809/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
   },
   {
     "id": "pubmed-42480414",
