@@ -55,6 +55,21 @@
     "ingested_date": "2026-11-03"
   },
   {
+    "id": "pubmed-43000120",
+    "pmid": "43000120",
+    "doi": "10.1111/aas.70389",
+    "title": "Streamlining the Evidence-to-Practice Pathway With Computerised Decision Support in Anaesthesiology and Critical Care: A Qualitative Study of Clinician and System-Level Interest Holder Perspectives Across Five Scandinavian Countries.",
+    "title_zh": "",
+    "journal": "Acta anaesthesiologica Scandinavica",
+    "date": "2027-01",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43000120/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
     "id": "pubmed-42969324",
     "pmid": "42969324",
     "doi": "10.1002/rcs.70247",
@@ -68,6 +83,51 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-03"
+  },
+  {
+    "id": "pubmed-43001843",
+    "pmid": "43001843",
+    "doi": "10.4081/aiua.2026.16295",
+    "title": "Beyond executive robotics: harnessing artificial intelligence for data-driven governance in complex urological units.",
+    "title_zh": "",
+    "journal": "Archivio italiano di urologia, andrologia : organo ufficiale [di] Societa italiana di ecografia urologica e nefrologica",
+    "date": "2026-11-09",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001843/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
+    "id": "pubmed-43002664",
+    "pmid": "43002664",
+    "doi": "10.2196/101607",
+    "title": "PancreaGuide for Computed Tomography Report Interpretation and Perioperative Consultation in Pancreatic Cancer: Development and Retrospective Evaluation of a Knowledge-Augmented Large Language Model Agent.",
+    "title_zh": "",
+    "journal": "Journal of medical Internet research",
+    "date": "2026-11-09",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43002664/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
+    "id": "pubmed-43000650",
+    "pmid": "43000650",
+    "doi": "10.1177/03913988261499929",
+    "title": "Dynamic machine learning models for the early prediction of acute kidney injury following left ventricular assist device implantation: An explainable AI approach.",
+    "title_zh": "",
+    "journal": "The International journal of artificial organs",
+    "date": "2026-11-08",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43000650/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
   },
   {
     "id": "pubmed-42998655",
@@ -380,6 +440,21 @@
     "ingested_date": "2026-11-07"
   },
   {
+    "id": "pubmed-43001900",
+    "pmid": "43001900",
+    "doi": "10.1097/XCS.0000000000002282",
+    "title": "Rethinking Opioid Prescribing at Surgical Discharge: User-Centered Approach to Clinical Decision Support in the Electronic Health Record.",
+    "title_zh": "",
+    "journal": "Journal of the American College of Surgeons",
+    "date": "2026-11-05",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001900/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
     "id": "paper-llmjudge-20261104",
     "doi": "10.1038/s41746-026-03443-2",
     "title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
@@ -552,6 +627,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-09"
+  },
+  {
+    "id": "pubmed-43001150",
+    "pmid": "43001150",
+    "doi": "10.2147/IJGM.S646786",
+    "title": "Development and Validation of a Machine Learning‑based Prediction Model for ICU‑Acquired Weakness in Critically Ill Patients: A Prospective Multicenter Cohort Study.",
+    "title_zh": "",
+    "journal": "International journal of general medicine",
+    "date": "2026-11-04",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001150/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
+    "id": "pubmed-43001136",
+    "pmid": "43001136",
+    "doi": "10.2147/CIA.S569138",
+    "title": "Stress Hyperglycemia Ratio and Preoperative Acute Heart Failure in Elderly Hip Fracture Patients with Chronic Cerebrovascular Diseases.",
+    "title_zh": "",
+    "journal": "Clinical interventions in aging",
+    "date": "2026-11-04",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001136/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
   },
   {
     "id": "pubmed-42967647",
@@ -945,6 +1050,21 @@
     "ingested_date": "2026-11-07"
   },
   {
+    "id": "pubmed-43002404",
+    "pmid": "43002404",
+    "doi": "10.1001/jamanetworkopen.2026.42797",
+    "title": "Artificial Intelligence Use in Interventional Clinical Trials Registered on ClinicalTrials.gov.",
+    "title_zh": "",
+    "journal": "JAMA network open",
+    "date": "2026-11-02",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43002404/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
     "id": "pubmed-42966909",
     "pmid": "42966909",
     "doi": "10.1002/advs.78587",
@@ -988,6 +1108,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-07"
+  },
+  {
+    "id": "pubmed-43001824",
+    "pmid": "43001824",
+    "doi": "10.3928/19382359-20260826-03",
+    "title": "Artificial Intelligence in Pediatric Hospital Medicine: Foundations, Clinical Applications, and Emerging Case Uses.",
+    "title_zh": "",
+    "journal": "Pediatric annals",
+    "date": "2026-11-01",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001824/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
   },
   {
     "id": "pubmed-42949580",
@@ -9272,6 +9407,21 @@
     "ingested_date": "2026-10-27"
   },
   {
+    "id": "pubmed-42995620",
+    "pmid": "42995620",
+    "doi": "10.1186/s13054-026-06274-5",
+    "title": "Structural imbalances in open-access critical care research: a bibliometric analysis of abstracts from ICU database studies, 2018-2025.",
+    "title_zh": "",
+    "journal": "Critical care (London, England)",
+    "date": "2026-08-19",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42995620/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
+  },
+  {
     "id": "pubmed-42673898",
     "title": "A perspective on foundation models in intensive care medicine.",
     "pmid": "42673898",
@@ -9499,6 +9649,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-07"
+  },
+  {
+    "id": "pubmed-42995583",
+    "pmid": "42995583",
+    "doi": "10.1186/s12911-026-03754-0",
+    "title": "Explainable machine learning for predicting 28-day mortality in ICU patients with stroke complicated by chronic kidney disease.",
+    "title_zh": "",
+    "journal": "BMC medical informatics and decision making",
+    "date": "2026-08-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42995583/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-10"
   },
   {
     "id": "pubmed-42983310",
