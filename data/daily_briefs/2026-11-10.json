@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-10",
+  "source": "麻醉AI科研简报",
+  "papers": [],
+  "competitions": [
+    {
+      "id": "competition_945b9a72d0",
+      "title": "第二届全国人工智能应用创新大赛",
+      "organizer": "中国技术经济学会",
+      "deadline": "2026-11-10T24:00:00+08:00",
+      "source_url": "https://www.ai-race.com.cn/",
+      "verifiedOn": "2026-11-10",
+      "verification_scope": "官网首页确认报名截止11月10日24:00、医疗Agent方向、研究生及科研单位可参加；未核验具体收费",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-10"
+      ]
+    },
+    {
+      "id": "competition_e52bc9726b",
+      "title": "2026全国通用人工智能创新应用大赛（TEC-AGI）",
+      "organizer": "中国计算机学会",
+      "deadline": "2026-11-10",
+      "source_url": "https://www.ccf.org.cn/tecagi2026",
+      "sources": [
+        {
+          "url": "https://ah.people.com.cn/n2/2026/1106/c375162-41743736.html",
+          "label": "人民网11月6日亳州赛道报道"
+        }
+      ],
+      "verifiedOn": "2026-11-10",
+      "verification_scope": "11月6日地方新闻核对报名日期与AI+生物医药场景；CCF官方报名页本次访问失败，具体资格待核验",
+      "needs_review": true,
+      "brief_dates": [
+        "2026-11-10"
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027摘要及Innovation Showcase",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-10",
+      "verification_scope": "ESAIC官网核对截稿、现场展示、EJA电子增刊、Innovation Showcase、AI披露、作者最多6人",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-10"
+      ]
+    }
+  ]
+}
