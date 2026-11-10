@@ -723,5 +723,23 @@
     ],
     "selected_paper_ids": [],
     "selected_paper_count": 0
+  },
+  {
+    "date": "2026-11-10",
+    "record_status": "public_brief_partial_sync",
+    "paper_ids": [],
+    "competition_ids": [
+      "competition_945b9a72d0",
+      "competition_e52bc9726b"
+    ],
+    "conference_ids": [
+      "conference_95a23edf4a"
+    ],
+    "paper_count": 0,
+    "competition_count": 2,
+    "conference_count": 1,
+    "selected_paper_ids": [],
+    "selected_paper_count": 0,
+    "source_url": "data/daily_briefs/2026-11-10.json"
   }
 ]
