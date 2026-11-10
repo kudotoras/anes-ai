@@ -16,16 +16,17 @@
     ]
   },
   "github": {
-    "status": "partial",
+    "status": "success",
     "brief_alignment_status": "pending",
+    "readback_commit": "89db2f838b39b86f0fef36b961e8e58d7abf106f",
+    "verification": "原子提交独立检索数据后逐文件回读核对SHA；人工精读摘要SHA未变。",
     "pending": [
-      "提交后回读",
-      "当日聊天简报待生成/待对齐"
+      "11月10日聊天简报待生成/待对齐"
     ]
   },
   "frontend": {
     "status": "pending",
-    "verification": "公开主站已回读11月9日索引及ESICM背书征集；11月10日独立增量待确认。"
+    "verification": "公开主站尚未确认11月10日独立检索增量，不能宣称前台已更新。"
   },
   "brief_catchup": {
     "window_start": "2026-11-04",
