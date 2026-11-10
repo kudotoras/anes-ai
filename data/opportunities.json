@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-09",
+    "verifiedOn": "2026-11-10",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -45,7 +45,8 @@
       "2026-11-06",
       "2026-11-07",
       "2026-11-08",
-      "2026-11-09"
+      "2026-11-09",
+      "2026-11-10"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
@@ -72,7 +73,8 @@
       "2026-11-09": "麻醉AI科研简报"
     },
     "needs_review": false,
-    "deadline_timezone": "Europe/Copenhagen"
+    "deadline_timezone": "Europe/Copenhagen",
+    "verification_scope": "；2026-11-10官网/官方信息复核"
   },
   {
     "id": "conference_ce9a2f54c2",
@@ -446,7 +448,8 @@
       "2026-11-02",
       "2026-11-03",
       "2026-11-08",
-      "2026-11-09"
+      "2026-11-09",
+      "2026-11-10"
     ],
     "archive_review_required": false,
     "verification_attempted_on": "2026-11-09",
@@ -492,7 +495,8 @@
     "site_catalog_id": "competition_e52bc9726b",
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "verification_note": "2026-11-10人民网新闻确认报名截止；官方报名页本次不可访问，沿用此前verifiedOn"
   },
   {
     "id": "esicm-innovation2027",
@@ -1145,7 +1149,8 @@
       "2026-11-06",
       "2026-11-07",
       "2026-11-08",
-      "2026-11-09"
+      "2026-11-09",
+      "2026-11-10"
     ],
     "archive_review_required": false,
     "verification_attempted_on": "2026-11-09",
@@ -1174,13 +1179,14 @@
         "url": "https://gkgc.sdufe.edu.cn/info/1099/17650.htm"
       }
     ],
-    "verifiedOn": "2026-11-09",
+    "verifiedOn": "2026-11-10",
     "needs_review": false,
     "verificationNote": "2026-11-09 赛事官网确认11月10日24:00北京时间报名截止，保留具体赛道规则待核。",
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "site_catalog_id": "competition_945b9a72d0"
+    "site_catalog_id": "competition_945b9a72d0",
+    "verification_scope": "；2026-11-10官网/官方信息复核"
   },
   {
     "id": "competition_df92d1669e",
