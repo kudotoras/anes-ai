@@ -1,68 +1,28 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-09",
+  "brief_date": "2026-11-10",
   "overall_status": "partial",
   "selected_paper_ids": [],
-  "brief_status": "当天完整简报和公开交接已合并；科研精选0篇，2篇既有研究线索仅追加简报日期；2比赛及3征集。",
+  "brief_status": "今日公开简报已交接；无新精选论文；2项赛事和1项会议经不同范围核验。",
   "sites": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "revision": "ea7d8d26-a2d6-4b8f-bf12-65de07778382",
-    "papers": 121,
-    "opportunities": 23,
-    "verification": "管理员POST后GET回读核对条目及旧ID；2篇旧文追加简报日期，新增1机会，复核9机会。"
+    "status": "failed",
+    "brief_alignment_status": "failed",
+    "verification": "当前工具环境没有Sites get_site/管理员写入能力，未执行POST/GET，未读取今日site-data。"
   },
   "github": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "readback_commit": "1fbcc69b68e13cbe529e256316c45aacf6a0fb7d",
-    "verification": "原子提交数据后逐文件回读核对SHA，人工精读摘要SHA未变。"
+    "status": "partial",
+    "brief_alignment_status": "partial",
+    "verification": "每日交接、机会目录、历史索引已写入；需回读确认。未完成两端联合去重。"
   },
   "frontend": {
     "status": "pending",
-    "verification": "公开主站尚未确认11月9日完整目录；11月8日索引已可读。"
+    "verification": "未确认公开站点今日精选与简报一致"
   },
   "brief_catchup": {
-    "window_start": "2026-11-03",
-    "window_end": "2026-11-09",
-    "status": "success",
-    "audit": [
-      {
-        "date": "2026-11-03",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-04",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-05",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-06",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-07",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-08",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-09",
-        "status": "success",
-        "missing": []
-      }
-    ]
+    "window_start": "2026-11-04",
+    "window_end": "2026-11-10",
+    "status": "partial",
+    "verification": "历史日期文件存在性与跨端差异未逐条核验，待补。"
   },
   "counts": {
     "site_new_papers": 0,
@@ -93,6 +53,30 @@
       "overall_status": "partial",
       "sites": "success",
       "github": "success"
+    },
+    "2026-11-09": {
+      "date": "2026-11-09",
+      "overall_status": "partial",
+      "sites": "success",
+      "github": "success"
     }
-  }
+  },
+  "pending_items": [
+    {
+      "id": "sites-2026-11-10",
+      "reason": "缺少Sites维护接口，待获取站点独立检索与回读同步"
+    },
+    {
+      "id": "7day-audit",
+      "reason": "最近7日跨端完整回溯未完成"
+    },
+    {
+      "id": "journal-coverage",
+      "reason": "本期未完成全部指定期刊逐刊扫描；不可宣称穷尽"
+    },
+    {
+      "id": "tec-agi-official",
+      "reason": "CCF报名页访问失败；保留原核验日期并待复核报名资格"
+    }
+  ]
 }
