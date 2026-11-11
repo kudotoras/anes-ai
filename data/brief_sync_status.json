@@ -2,36 +2,31 @@
   "schema_version": 1,
   "brief_date": "2026-11-11",
   "overall_status": "partial",
-  "brief_status": "11月11日简报交接已提交回读；未核实到符合精选要求的新论文或新机会；Sites尚未同步。",
+  "brief_status": "11月10日完整简报已追补、11月11日完整简报已对齐。今日正式精选0篇；既有文献仅追加来源日期。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "failed",
-    "pending": [
-      "Sites管理接口本期未可用，未读取/api/site-data及写入回读"
-    ]
+    "status": "success",
+    "brief_alignment_status": "success",
+    "revision": "ce769340-caa4-4672-9ae2-eec7ed766919",
+    "papers": 123,
+    "opportunities": 23,
+    "verification": "管理员POST后GET回读，新增1篇历史范围综述、3篇旧文追加简报日期、更新13机会，保留旧ID与精读摘要。"
   },
   "github": {
     "status": "partial",
-    "verification": "11月11日交接文件已回读；主目录未新增；最近7日对齐待补",
     "pending": [
-      "Sites独立检索数据待合并",
-      "最近7日核对"
+      "提交后回读"
     ]
   },
   "frontend": {
     "status": "pending",
-    "verification": "公开主站尚未确认11月10日独立检索增量，不能宣称前台已更新。"
+    "verification": "写入前主站已显示11月10日新增综述，但11月10日历史索引仍缺；本次补索引后待复核。"
   },
   "brief_catchup": {
-    "window_start": "2026-11-04",
-    "window_end": "2026-11-10",
-    "status": "partial",
+    "window_start": "2026-11-05",
+    "window_end": "2026-11-11",
+    "status": "success",
     "audit": [
-      {
-        "date": "2026-11-04",
-        "missing": [],
-        "status": "success"
-      },
       {
         "date": "2026-11-05",
         "missing": [],
@@ -59,31 +54,38 @@
       },
       {
         "date": "2026-11-10",
-        "status": "pending",
-        "missing": [
-          "当日简报未生成/待取得"
-        ]
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-11",
+        "status": "success",
+        "missing": []
       }
     ]
   },
   "counts": {
+    "site_new_papers": 1,
+    "site_modified_papers": 3,
+    "site_new_opportunities": 0,
+    "site_modified_opportunities": 13,
+    "independent_new_bibliography": 3,
     "daily_selected": 0,
-    "brief_papers": 0,
-    "brief_competitions": 0,
-    "brief_conferences": 0
+    "journals_checked": 63,
+    "independent_reviewed": 1
   },
   "failures": [
     {
-      "id": "sites-unavailable",
-      "reason": "本次未发现可用Sites连接器，无法完成API管理写入及回读"
+      "id": "publisher-access",
+      "reason": "Anesthesiology新题录无摘要且出版商不可读取，保持待核验；既有强化学习RCT原文重读失败，不修改旧核验日期。"
     },
     {
-      "id": "journal-coverage",
-      "reason": "本期未完成全部指定期刊逐刊检索，不可宣称穷尽"
+      "id": "tec-agi-rules",
+      "reason": "CCF主办方入口不可读，保留既有截止并按已过期关闭；完整资格待核。"
     },
     {
-      "id": "seven-day-audit",
-      "reason": "最近7日跨端核验尚未完成"
+      "id": "publisher-coverage",
+      "reason": "完成63期刊PubMed限定检索，尚非所有出版商未索引Online First的穷尽核验。"
     }
   ],
   "previous_syncs": {

@@ -2,20 +2,39 @@
   "schema_version": 1,
   "brief_date": "2026-11-10",
   "source": "麻醉AI科研简报",
-  "papers": [],
+  "papers": [
+    {
+      "id": "legacy-22",
+      "title": "Reinforcement learning based automated anesthesia system for gastrointestinal endoscopy with a multicenter randomized trial",
+      "journal": "npj Digital Medicine",
+      "date": "2026-04-29",
+      "doi": "10.1038/s41746-026-02657-8",
+      "study_type": "随机对照试验",
+      "source_url": "https://www.nature.com/articles/s41746-026-02657-8",
+      "verifiedOn": "2026-10-23",
+      "selected": false,
+      "needs_review": true,
+      "verification_scope": "11月10日完整简报提及的既有内镜麻醉强化学习RCT；沿用既有核验资料，未重新核验全文。",
+      "brief_dates": [
+        "2026-11-10"
+      ],
+      "source_type": "麻醉AI科研简报·既有研究线索"
+    }
+  ],
   "competitions": [
     {
       "id": "competition_945b9a72d0",
       "title": "第二届全国人工智能应用创新大赛",
       "organizer": "中国技术经济学会",
-      "deadline": "2026-11-10T24:00:00+08:00",
+      "deadline": "2026-11-11T00:00:00+08:00",
       "source_url": "https://www.ai-race.com.cn/",
       "verifiedOn": "2026-11-10",
       "verification_scope": "官网首页确认报名截止11月10日24:00、医疗Agent方向、研究生及科研单位可参加；未核验具体收费",
       "needs_review": false,
       "brief_dates": [
         "2026-11-10"
-      ]
+      ],
+      "deadlineLabel": "2026-11-10 24:00 北京时间"
     },
     {
       "id": "competition_e52bc9726b",
@@ -32,6 +51,19 @@
       "verifiedOn": "2026-11-10",
       "verification_scope": "11月6日地方新闻核对报名日期与AI+生物医药场景；CCF官方报名页本次访问失败，具体资格待核验",
       "needs_review": true,
+      "brief_dates": [
+        "2026-11-10"
+      ]
+    },
+    {
+      "id": "cetc-wangxinbei2026",
+      "title": "中国电科网信杯人工智能创新大赛",
+      "organizer": "中国电子科技集团有限公司",
+      "deadline": "2026-11-15",
+      "source_url": "https://wangxinbei.taiji.com.cn/schedule",
+      "verifiedOn": "2026-11-11",
+      "needs_review": true,
+      "verification_scope": "官网赛程确认报名11月15日截止，完整赛题资格费用待核。",
       "brief_dates": [
         "2026-11-10"
       ]

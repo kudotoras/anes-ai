@@ -2864,6 +2864,49 @@
       ],
       "selected_paper_ids": [],
       "selected_paper_count": 0
+    },
+    {
+      "date": "2026-11-10",
+      "record_status": "aligned_with_completed_brief",
+      "paper_ids": [],
+      "referenced_paper_ids": [
+        "legacy-22"
+      ],
+      "selected_paper_ids": [],
+      "selected_paper_count": 0,
+      "paper_count": 0,
+      "competition_ids": [
+        "competition_945b9a72d0",
+        "competition_e52bc9726b",
+        "cetc-wangxinbei2026"
+      ],
+      "conference_ids": [
+        "conference_95a23edf4a"
+      ],
+      "competition_count": 3,
+      "conference_count": 1,
+      "source_url": "data/daily_briefs/2026-11-10.json"
+    },
+    {
+      "date": "2026-11-11",
+      "record_status": "aligned_with_completed_brief",
+      "paper_ids": [],
+      "referenced_paper_ids": [
+        "paper_805813ca4265",
+        "paper_e03c66ffbc85"
+      ],
+      "selected_paper_ids": [],
+      "selected_paper_count": 0,
+      "paper_count": 0,
+      "competition_ids": [
+        "cetc-wangxinbei2026"
+      ],
+      "conference_ids": [
+        "conference_95a23edf4a"
+      ],
+      "competition_count": 1,
+      "conference_count": 1,
+      "source_url": "data/daily_briefs/2026-11-11.json"
     }
   ]
 }
