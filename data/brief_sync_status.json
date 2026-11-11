@@ -13,14 +13,15 @@
     "verification": "管理员POST后GET回读，新增1篇历史范围综述、3篇旧文追加简报日期、更新13机会，保留旧ID与精读摘要。"
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "brief_alignment_status": "success",
+    "readback_commit": "bca9b4add8eec45d1230072e07fd5696a750b671",
+    "verification": "数据原子提交后逐文件回读核对SHA；人工精读摘要SHA不变。"
   },
   "frontend": {
-    "status": "pending",
-    "verification": "写入前主站已显示11月10日新增综述，但11月10日历史索引仍缺；本次补索引后待复核。"
+    "status": "success",
+    "verification": "公开主站回读11月10日及11月11日索引和新范围综述；自动发布工作流成功。",
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/42928332181"
   },
   "brief_catchup": {
     "window_start": "2026-11-05",
