@@ -6981,8 +6981,7 @@
     "archive_id": "paper_e03c66ffbc85",
     "archive_review_required": false,
     "brief_dates": [
-      "2026-10-25",
-      "2026-11-11"
+      "2026-10-25"
     ],
     "pmid": "42854247",
     "verifiedOn": "2026-10-14",
@@ -7510,6 +7509,25 @@
     "ingested_date": "2026-11-09"
   },
   {
+    "id": "intraoperative-ai-ethics-review20261007",
+    "title": "Ethical considerations for intraoperative implementation of artificial intelligence clinical decision support systems: a scoping review",
+    "title_zh": "术中AI决策支持的伦理实施：临床验证与治理仍存在缺口",
+    "journal": "npj Digital Surgery",
+    "doi": "10.1038/s44484-026-00024-4",
+    "date": "2026-10-07",
+    "dateKind": "出版商在线发表日期；高价值历史补收",
+    "study_type": "范围综述",
+    "topic": "精准麻醉 / 临床部署与伦理治理",
+    "source_url": "https://www.nature.com/articles/s44484-026-00024-4",
+    "status": "出版商摘要已核验",
+    "description": "范围综述从3020条记录纳入5项研究，其中1项为已完成可行性研究，4项为进行中的注册或随机试验。强调术中AI决策支持的前瞻临床证据与伦理治理报告仍有限；提出的伦理实施评分框架为概念性工具，尚不能视作已验证量表或疗效证据。",
+    "verifiedOn": "2026-11-11",
+    "verification_scope": "出版商原始题录与摘要；未全文精读",
+    "needs_review": false,
+    "site_catalog_id": "intraoperative-ai-ethics-review20261007",
+    "origin": "网站独立出版商检索"
+  },
+  {
     "id": "pubmed-42919895",
     "pmid": "42919895",
     "doi": "10.1038/s41746-026-03268-z",
@@ -7844,8 +7862,7 @@
     "archive_id": "paper_805813ca4265",
     "archive_review_required": false,
     "brief_dates": [
-      "2026-10-07",
-      "2026-11-11"
+      "2026-10-07"
     ],
     "pmid": "",
     "verifiedOn": "2026-10-24",
@@ -11414,9 +11431,7 @@
     "archive": true,
     "archive_review_required": false,
     "archive_id": "paper_e894bc25d5c9",
-    "brief_dates": [
-      "2026-11-10"
-    ],
+    "brief_dates": [],
     "pmid": "",
     "verifiedOn": "2026-10-23",
     "verification": "出版商全文",
@@ -12140,6 +12155,24 @@
     "ingested_date": "2026-10-27"
   },
   {
+    "id": "pubmed-41419723",
+    "title": "Development and validation of machine learning tools for predicting postoperative complications in acute calculous cholecystitis.",
+    "doi": "10.1007/s13304-025-02476-8",
+    "pmid": "41419723",
+    "journal": "Updates in surgery",
+    "date": "2025-12-19",
+    "dateKind": "PubMed电子日期；缺失不臆造",
+    "topic": "麻醉/围术期/重症AI题录",
+    "study_type": "题录线索·待核验",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41419723/",
+    "description": "",
+    "status": "PubMed题录·待核验",
+    "origin": "网站独立PubMed检索",
+    "ingested_date": "2026-11-11",
+    "verifiedOn": null,
+    "needs_review": true
+  },
+  {
     "id": "pubmed-42932534",
     "pmid": "42932534",
     "doi": "10.1056/AIp2500873",
@@ -12738,42 +12771,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "pubmed-41419723",
-    "title": "Development and validation of machine learning tools for predicting postoperative complications in acute calculous cholecystitis.",
-    "doi": "10.1007/s13304-025-02476-8",
-    "pmid": "41419723",
-    "journal": "Updates in surgery",
-    "date": "2025-12-19",
-    "dateKind": "PubMed电子日期；缺失不臆造",
-    "topic": "麻醉/围术期/重症AI题录",
-    "study_type": "题录线索·待核验",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41419723/",
-    "description": "",
-    "status": "PubMed题录·待核验",
-    "origin": "网站独立PubMed检索",
-    "ingested_date": "2026-11-11",
-    "verifiedOn": null,
-    "needs_review": true
-  },
-  {
-    "id": "intraoperative-ai-ethics-review20261007",
-    "title": "Ethical considerations for intraoperative implementation of artificial intelligence clinical decision support systems: a scoping review",
-    "title_zh": "术中AI决策支持的伦理实施：临床验证与治理仍存在缺口",
-    "journal": "npj Digital Surgery",
-    "doi": "10.1038/s44484-026-00024-4",
-    "date": "2026-10-07",
-    "dateKind": "出版商在线发表日期；高价值历史补收",
-    "study_type": "范围综述",
-    "topic": "精准麻醉 / 临床部署与伦理治理",
-    "source_url": "https://www.nature.com/articles/s44484-026-00024-4",
-    "status": "出版商摘要已核验",
-    "description": "范围综述从3020条记录纳入5项研究，其中1项为已完成可行性研究，4项为进行中的注册或随机试验。强调术中AI决策支持的前瞻临床证据与伦理治理报告仍有限；提出的伦理实施评分框架为概念性工具，尚不能视作已验证量表或疗效证据。",
-    "verifiedOn": "2026-11-11",
-    "verification_scope": "出版商原始题录与摘要；未全文精读",
-    "needs_review": false,
-    "site_catalog_id": "intraoperative-ai-ethics-review20261007",
-    "origin": "网站独立出版商检索"
   }
 ]
