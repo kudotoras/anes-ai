@@ -1,22 +1,26 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-11",
+  "brief_date": "2026-11-12",
   "overall_status": "partial",
-  "brief_status": "11月10日完整简报已追补、11月11日完整简报已对齐。今日正式精选0篇；既有文献仅追加来源日期。",
+  "brief_status": "11月12日公开交接文件已提交并回读；网站及主目录本期尚未回读核验，另有AI+医疗赛事截止日期冲突待核实。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "revision": "ce769340-caa4-4672-9ae2-eec7ed766919",
-    "papers": 123,
-    "opportunities": 23,
-    "verification": "管理员POST后GET回读，新增1篇历史范围综述、3篇旧文追加简报日期、更新13机会，保留旧ID与精读摘要。"
+    "status": "partial",
+    "verification": "本期未取得Sites管理API回读与写入核验；11月11日历史成功记录不代表今日成功。",
+    "pending": [
+      "读取/api/update-guide和/api/site-data",
+      "按官方源合并11月12日公开条目并回读"
+    ]
   },
   "github": {
-    "status": "success",
-    "brief_alignment_status": "success",
-    "readback_commit": "bca9b4add8eec45d1230072e07fd5696a750b671",
-    "verification": "数据原子提交后逐文件回读核对SHA；人工精读摘要SHA不变。"
+    "status": "partial",
+    "readback_commit": "2a5d717fefbaa02f412d181c210cc5e62139340d",
+    "verification": "11月12日daily_briefs文件写入并回读；主目录及历史索引未完成本期合并。",
+    "pending": [
+      "合并data/opportunities.json",
+      "更新data/history_briefs.json",
+      "复核近7日同步"
+    ]
   },
   "frontend": {
     "status": "success",
@@ -24,45 +28,12 @@
     "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/42928332181"
   },
   "brief_catchup": {
-    "window_start": "2026-11-05",
-    "window_end": "2026-11-11",
-    "status": "success",
-    "audit": [
-      {
-        "date": "2026-11-05",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-06",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-07",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-08",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-09",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-10",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-11",
-        "status": "success",
-        "missing": []
-      }
+    "window_start": "2026-11-06",
+    "window_end": "2026-11-12",
+    "status": "partial",
+    "pending": [
+      "11月12日Sites与GitHub主目录对齐",
+      "AI+医疗赛事11月23日是否正式延期"
     ]
   },
   "counts": {
