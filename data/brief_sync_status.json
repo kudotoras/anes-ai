@@ -1,27 +1,21 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-10",
+  "brief_date": "2026-11-11",
   "overall_status": "partial",
-  "brief_status": "独立检索已写入；最近可取完整聊天简报为11月9日，11月10日尚未生成/待对齐。未以昨日冒充今日。",
+  "brief_status": "11月11日简报交接已提交回读；未核实到符合精选要求的新论文或新机会；Sites尚未同步。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "success",
-    "brief_alignment_status": "pending",
-    "revision": "bbdf43bc-f214-4040-8e36-aa5e4a6fbb12",
-    "papers": 122,
-    "opportunities": 23,
-    "verification": "管理员写入后GET回读，新增1摘要核验综述、更新13机会，保留旧ID与日期。",
+    "status": "failed",
     "pending": [
-      "当日聊天简报生成后增量对齐"
+      "Sites管理接口本期未可用，未读取/api/site-data及写入回读"
     ]
   },
   "github": {
-    "status": "success",
-    "brief_alignment_status": "pending",
-    "readback_commit": "89db2f838b39b86f0fef36b961e8e58d7abf106f",
-    "verification": "原子提交独立检索数据后逐文件回读核对SHA；人工精读摘要SHA未变。",
+    "status": "partial",
+    "verification": "11月11日交接文件已回读；主目录未新增；最近7日对齐待补",
     "pending": [
-      "11月10日聊天简报待生成/待对齐"
+      "Sites独立检索数据待合并",
+      "最近7日核对"
     ]
   },
   "frontend": {
@@ -73,27 +67,23 @@
     ]
   },
   "counts": {
-    "site_new_papers": 1,
-    "site_modified_papers": 0,
-    "site_new_opportunities": 0,
-    "site_modified_opportunities": 13,
-    "independent_new_bibliography": 2,
     "daily_selected": 0,
-    "journals_checked": 62,
-    "independent_reviewed": 1
+    "brief_papers": 0,
+    "brief_competitions": 0,
+    "brief_conferences": 0
   },
   "failures": [
     {
-      "id": "brief-pending",
-      "reason": "当日聊天简报及公开交接尚未生成；后续任务继续补同步。"
+      "id": "sites-unavailable",
+      "reason": "本次未发现可用Sites连接器，无法完成API管理写入及回读"
     },
     {
-      "id": "tec-agi-rules",
-      "reason": "CCF主办方入口不可读，机构公告检索缓存确认截止日期；费用材料资格待核。"
+      "id": "journal-coverage",
+      "reason": "本期未完成全部指定期刊逐刊检索，不可宣称穷尽"
     },
     {
-      "id": "publisher-coverage",
-      "reason": "62期刊完成PubMed限定检索并补查出版商；仍非所有未索引Online First的穷尽核验。"
+      "id": "seven-day-audit",
+      "reason": "最近7日跨端核验尚未完成"
     }
   ],
   "previous_syncs": {
