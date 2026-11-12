@@ -9968,7 +9968,13 @@
     "tags": [
       "高价值补看"
     ],
-    "issue_date": "2026-11"
+    "issue_date": "2026-11",
+    "brief_dates": [
+      "2026-11-12"
+    ],
+    "brief_date_sources": {
+      "2026-11-12": "麻醉AI科研简报·方法学参考"
+    }
   },
   {
     "id": "icm-rl-randomization-perspective-2026",

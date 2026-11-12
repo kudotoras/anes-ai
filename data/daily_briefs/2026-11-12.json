@@ -2,7 +2,27 @@
   "schema_version": 1,
   "brief_date": "2026-11-12",
   "source": "麻醉AI科研简报",
-  "papers": [],
+  "papers": [
+    {
+      "id": "pubmed-42673898",
+      "title": "A perspective on foundation models in intensive care medicine.",
+      "journal": "Artificial Intelligence in Medicine",
+      "doi": "10.1016/j.artmed.2026.103515",
+      "pmid": "42673898",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42673898/",
+      "date": "2026-08-18",
+      "verifiedOn": "2026-11-03",
+      "study_type": "观点文章",
+      "epub_date": "2026-08-18",
+      "issue_date": "2026-11",
+      "selected": false,
+      "brief_dates": [
+        "2026-11-12"
+      ],
+      "verification_scope": "PubMed题录、摘要和发表日期；观点文章，无模型临床验证。",
+      "needs_review": false
+    }
+  ],
   "competitions": [
     {
       "id": "cetc-wangxinbei2026",
@@ -12,7 +32,7 @@
       "source_url": "https://wangxinbei.taiji.com.cn/schedule",
       "verifiedOn": "2026-11-12",
       "needs_review": false,
-      "verification_scope": "官方赛程及报名页面确认报名至11月15日",
+      "verification_scope": "官网赛程显示11月15日报名截止；具体赛题资格及费用待核。",
       "brief_dates": [
         "2026-11-12"
       ]
@@ -20,14 +40,18 @@
     {
       "title": "2026年首届AI+医疗技术创新大赛",
       "organizer": "中国生产力促进中心协会",
-      "deadline": "2026-11-23",
+      "deadline": "2026-10-30",
       "source_url": "https://www.aimtcbj.com/",
-      "verifiedOn": "2026-11-12",
+      "verifiedOn": "2026-10-30",
       "needs_review": true,
-      "verification_scope": "官网显示11月23日截止，但10月16日新闻报道为10月30日；延期正式公告待核验",
+      "verification_scope": "赛事官网检索缓存显示11月23日，10月16日报道为10月30日；未找到正式延期通知，报名状态待主办方确认。",
       "brief_dates": [
         "2026-11-12"
-      ]
+      ],
+      "id": "competition_80c6f85a8d",
+      "reported_deadline": "2026-11-23",
+      "verification_attempted_on": "2026-11-12",
+      "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html"
     }
   ],
   "conferences": [
@@ -38,10 +62,11 @@
       "source_url": "https://meetings.iars.org/abstracts/submissions/",
       "verifiedOn": "2026-11-12",
       "needs_review": false,
-      "verification_scope": "官方摘要页面确认开放及截止日期，PST时区",
+      "verification_scope": "IARS官方摘要页确认开放，12月6日23:59 PST截止（北京时间12月7日15:59）。",
       "brief_dates": [
         "2026-11-12"
-      ]
+      ],
+      "id": "conference_ce9a2f54c2"
     },
     {
       "title": "Euroanaesthesia 2027 abstracts",
@@ -50,10 +75,11 @@
       "source_url": "https://euroanaesthesia.org/2027/abstracts/",
       "verifiedOn": "2026-11-12",
       "needs_review": false,
-      "verification_scope": "官方2027摘要页面确认12月10日截止；沿用此前核验的具体时刻",
+      "verification_scope": "ESAIC官方摘要页复核12月10日截止及创新展示；保留既有23:59 CET时刻。",
       "brief_dates": [
         "2026-11-12"
-      ]
+      ],
+      "id": "conference_95a23edf4a"
     }
   ]
 }

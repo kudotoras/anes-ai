@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-11",
+    "verifiedOn": "2026-11-12",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -47,15 +47,16 @@
       "2026-11-08",
       "2026-11-09",
       "2026-11-10",
-      "2026-11-11"
+      "2026-11-11",
+      "2026-11-12"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "2026-11-11 ESAIC官方摘要页确认12月10日截止，创新展示与EJA电子增刊规则可读。",
-    "verification_attempted_on": "2026-11-11",
+    "verificationNote": "ESAIC官方摘要页复核12月10日截止及创新展示；保留既有23:59 CET时刻。",
+    "verification_attempted_on": "2026-11-12",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -73,7 +74,8 @@
       "2026-11-08": "麻醉AI科研简报",
       "2026-11-09": "麻醉AI科研简报",
       "2026-11-10": "麻醉AI科研简报",
-      "2026-11-11": "麻醉AI科研简报"
+      "2026-11-11": "麻醉AI科研简报",
+      "2026-11-12": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
@@ -85,7 +87,7 @@
     "organizer": "IARS / SOCCA",
     "journal": "IARS / SOCCA",
     "date": "2026-12-06",
-    "deadline": "2026-12-06",
+    "deadline": "2026-12-06T23:59:00-08:00",
     "category": "conference",
     "topic": "麻醉",
     "description": "IARS-SOCCA 2027，2027-04-30至05-02芝加哥，2026-12-06 23:59 PST截止；英文IMRaD合计≤4500字符、各段≤2500；展示科学摘要在线发表于A&A，非完整论文；Kosaka最佳摘要奖。",
@@ -95,7 +97,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-11",
+    "verifiedOn": "2026-11-12",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -106,7 +108,7 @@
         "url": "https://meetings.iars.org/"
       }
     ],
-    "deadlineLabel": "2026-12-06 23:59 PST",
+    "deadlineLabel": "2026-12-06 23:59 PST（北京时间12月7日15:59）",
     "deadlineInstant": "2026-12-07T07:59:00Z",
     "event": "2027-04-30 — 05-02 · 美国芝加哥",
     "format": "摘要 / 墙报",
@@ -117,9 +119,10 @@
       "2026-10-28",
       "2026-11-01",
       "2026-11-02",
-      "2026-11-03"
+      "2026-11-03",
+      "2026-11-12"
     ],
-    "verificationNote": "2026-11-11 IARS官方确认12月6日23:59 PST截止，科学摘要展示后发表于A&A。",
+    "verificationNote": "IARS官方摘要页确认开放，12月6日23:59 PST截止（北京时间12月7日15:59）。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -131,9 +134,10 @@
       "2026-10-28": "麻醉AI科研简报",
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
-      "2026-11-03": "麻醉AI科研简报"
+      "2026-11-03": "麻醉AI科研简报",
+      "2026-11-12": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-11",
+    "verification_attempted_on": "2026-11-12",
     "verification_failure": null,
     "deadline_timezone": "America/Los_Angeles"
   },
@@ -153,7 +157,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-11",
+    "verifiedOn": "2026-11-12",
     "sources": [
       {
         "label": "SCA官方会议及摘要截止",
@@ -172,7 +176,7 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "2026-11-11 SCA官网确认摘要12月1日23:59 EST截止，ePoster上传另为2027年3月8日。",
+    "verificationNote": "SCA 官方年会页确认科学摘要12月1日23:59 EST截止。",
     "needs_review": false,
     "verification_attempted_on": "2026-11-11",
     "brief_date_sources": {
@@ -223,7 +227,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-11",
+    "verifiedOn": "2026-11-12",
     "sources": [
       {
         "label": "ASA 官方 Submission Information（页面更新 2026-08-25）",
@@ -235,7 +239,7 @@
     "brief_dates": [
       "2026-10-31"
     ],
-    "verificationNote": "2026-11-11 ASA官网确认议程提案11月16日截止，科学摘要2027年1月另行开放。",
+    "verificationNote": "ASA 官网确认 General Sessions 议程提案11月16日截止；该入口不是科研摘要投稿。",
     "site_catalog_id": "asa2027-general-sessions",
     "provenance": [
       "麻醉AI科研简报"
@@ -312,7 +316,7 @@
     "status": "open",
     "archive": false,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-11",
+    "verifiedOn": "2026-11-12",
     "sources": [
       {
         "label": "官方摘要主题与新截止（页面更新2026-10-19）",
@@ -340,7 +344,7 @@
       "2026-11-02",
       "2026-11-03"
     ],
-    "verificationNote": "2026-11-11 ASNACC官方摘要主题页确认11月15日23:59 GMT+8截止。",
+    "verificationNote": "官方摘要页确认2026年11月15日23:59 GMT+8截止。",
     "site_catalog_id": "asnacc2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -368,9 +372,9 @@
     "status": "open",
     "source_url": "https://wangxinbei.taiji.com.cn/schedule",
     "description": "智能体应用、领域模型、数据治理等赛道；具体参赛资格和奖励需核对章程。",
-    "verifiedOn": "2026-11-11",
+    "verifiedOn": "2026-11-12",
     "needs_review": true,
-    "verificationNote": "2026-11-11 官方赛程检索缓存确认11月15日报名截止；具体赛题规则待核。",
+    "verificationNote": "官网赛程显示11月15日报名截止；具体赛题资格及费用待核。",
     "announcement_date": "2026-09-30",
     "site_catalog_id": "cetc-wangxinbei2026",
     "sources": [
@@ -386,14 +390,16 @@
     "brief_dates": [
       "2026-11-08",
       "2026-11-10",
-      "2026-11-11"
+      "2026-11-11",
+      "2026-11-12"
     ],
     "brief_date_sources": {
       "2026-11-08": "麻醉AI科研简报",
       "2026-11-10": "麻醉AI科研简报",
-      "2026-11-11": "麻醉AI科研简报"
+      "2026-11-11": "麻醉AI科研简报",
+      "2026-11-12": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-11",
+    "verification_attempted_on": "2026-11-12",
     "verification_failure": null
   },
   {
@@ -643,22 +649,24 @@
     "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
     "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
     "source_url": "https://www.aimtcbj.com/",
-    "status": "closed",
+    "status": "unknown",
     "historical_status": "has_future_deadline_reported",
     "archive": true,
     "brief_dates": [
       "2026-10-25",
       "2026-10-26",
-      "2026-10-30"
+      "2026-10-30",
+      "2026-11-12"
     ],
     "archive_review_required": true,
-    "verification_attempted_on": "2026-11-03",
-    "verification_failure": "2026-11-03赛事报名站显示11月23日，但2026-10-16新闻稿明确10月30日，未找到主办方正式延期公告；暂不重新开放或推荐。",
+    "verification_attempted_on": "2026-11-12",
+    "verification_failure": "未核实正式延期公告；保留原截止日期。",
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报",
-      "2026-10-30": "麻醉AI科研简报"
+      "2026-10-30": "麻醉AI科研简报",
+      "2026-11-12": "麻醉AI科研简报"
     },
-    "verificationNote": "截止时间冲突：既有10月30日 vs 报名站显示11月23日；待主办方公告核实。",
+    "verificationNote": "赛事官网检索缓存显示11月23日，10月16日报道为10月30日；未找到正式延期通知，报名状态待主办方确认。",
     "verifiedOn": "2026-10-30",
     "needs_review": true,
     "sources": [
@@ -668,7 +676,10 @@
       }
     ],
     "site_catalog_id": "competition_80c6f85a8d",
-    "closure_note": "按原有2026-10-30截止日期归档；未取得延期证据，保留原规则与核验范围。"
+    "closure_note": "按原有2026-10-30截止日期归档；未取得延期证据，保留原规则与核验范围。",
+    "reported_deadline": "2026-11-23",
+    "reported_deadline_source": "https://www.aimtcbj.com/",
+    "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html"
   },
   {
     "id": "competition_c4b8c9eb04",
@@ -1210,14 +1221,14 @@
     "deadline": "",
     "category": "competition",
     "topic": "医疗大模型",
-    "description": "第九届于 2026 年 9 月启动，面向医疗机构、企事业单位、科研院所、社会组织及个人。应用、技术、数据要素等六赛道覆盖 AI、大模型与智能医疗器械成果。\n\n2026-10-19已恢复读取官方概况及赛区表。页面仍列海南赛区10月15日报名截止、拟定10月16日决赛，未见该表提供延期日期；不得把海南呈现为仍可报名。全国报名按各赛区通知执行，其他多数赛区尚未列具体日期。报名需承诺书及成果/知识产权证明，同项目仅一个赛道、一个赛区；同单位不能连续两届报相同主题。",
+    "description": "第九届于 2026 年 9 月启动，面向医疗机构、企事业单位、科研院所、社会组织及个人。应用、技术、数据要素等六赛道覆盖 AI、大模型与智能医疗器械成果。\n\n2026-10-19已恢复读取官方概况及赛区表。页面仍列海南赛区10月15日报名截止、拟定10月16日决赛，未见该表提供延期日期；不得把海南呈现为仍可报名。全国报名按各赛区通知执行，其他多数赛区尚未列具体日期。报名需承诺书及成果/知识产权证明，同项目仅一个赛道、一个赛区；同单位不能连续两届报相同主题。 主办方分赛区表：深圳11月15日、安徽12月4日、广东2027年1月15日、河北和天津2027年3月15日；北京未列报名截止。",
     "source_url": "https://www.shic.org.cn/overview/",
     "status": "open",
     "historical_status": "deadline_unknown_or_disputed",
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-11",
+    "verifiedOn": "2026-11-12",
     "sources": [
       {
         "label": "第九届官方概况、报名规则及通知下载（页面更新 2026-10-08）",
@@ -1246,12 +1257,18 @@
       "2026-10-27": "麻醉AI科研简报",
       "2026-11-05": "麻醉AI科研简报"
     },
-    "verificationNote": "2026-11-11 官网确认总报名窗口2026年9月至2027年4月，具体截止以各赛区通知为准；赛区日期待补。",
+    "verificationNote": "主办方分赛区表：深圳11月15日、安徽12月4日、广东2027年1月15日、河北和天津2027年3月15日；北京未列报名截止。",
     "regional_deadlines": {
+      "深圳": "2026-11-15",
+      "安徽": "2026-12-04",
       "广东": "2027-01-15",
+      "海南": "2026-10-15",
       "河北": "2027-03-15",
-      "海南": "2026-10-15"
-    }
+      "四川": "2026-11-08",
+      "天津": "2027-03-15",
+      "北京": null
+    },
+    "regional_deadlines_source": "https://www.shic.org.cn/overview/"
   },
   {
     "id": "conference_bfdb156026",

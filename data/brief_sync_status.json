@@ -2,62 +2,98 @@
   "schema_version": 1,
   "brief_date": "2026-11-12",
   "overall_status": "partial",
-  "brief_status": "11月12日公开交接文件已提交并回读；网站及主目录本期尚未回读核验，另有AI+医疗赛事截止日期冲突待核实。",
+  "brief_status": "11月12日完整简报，正式精选0篇，保留1篇方法学参考和4条公开机会。",
   "selected_paper_ids": [],
   "sites": {
-    "status": "partial",
-    "verification": "本期未取得Sites管理API回读与写入核验；11月11日历史成功记录不代表今日成功。",
+    "status": "failed",
+    "verification": "目录已读取，未发送写请求，保留现有内容。",
     "pending": [
-      "读取/api/update-guide和/api/site-data",
-      "按官方源合并11月12日公开条目并回读"
+      "独立目录管理员写入授权",
+      "同步1条文献简报关联及8条机会记录并回读"
     ]
   },
   "github": {
     "status": "partial",
-    "readback_commit": "2a5d717fefbaa02f412d181c210cc5e62139340d",
-    "verification": "11月12日daily_briefs文件写入并回读；主目录及历史索引未完成本期合并。",
     "pending": [
-      "合并data/opportunities.json",
-      "更新data/history_briefs.json",
-      "复核近7日同步"
+      "提交后回读"
     ]
   },
   "frontend": {
-    "status": "success",
-    "verification": "公开主站回读11月10日及11月11日索引和新范围综述；自动发布工作流成功。",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/42928332181"
+    "status": "partial",
+    "pending": [
+      "等待公开主站回读"
+    ]
   },
   "brief_catchup": {
     "window_start": "2026-11-06",
     "window_end": "2026-11-12",
     "status": "partial",
+    "catalog_audit": [
+      {
+        "date": "2026-11-06",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-07",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-08",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-09",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-10",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-11",
+        "missing": [],
+        "status": "success"
+      },
+      {
+        "date": "2026-11-12",
+        "missing": [],
+        "status": "success"
+      }
+    ],
     "pending": [
-      "11月12日Sites与GitHub主目录对齐",
-      "AI+医疗赛事11月23日是否正式延期"
+      "11月12日 Sites 简报关联及机会更新"
     ]
   },
   "counts": {
-    "site_new_papers": 1,
-    "site_modified_papers": 3,
+    "site_new_papers": 0,
+    "site_modified_papers": 0,
     "site_new_opportunities": 0,
-    "site_modified_opportunities": 13,
-    "independent_new_bibliography": 3,
+    "site_modified_opportunities": 0,
+    "independent_new_bibliography": 0,
     "daily_selected": 0,
-    "journals_checked": 63,
-    "independent_reviewed": 1
+    "journals_checked": 48,
+    "github_new_papers": 0,
+    "github_modified_papers": 1,
+    "github_new_opportunities": 0,
+    "github_modified_opportunities": 8
   },
   "failures": [
     {
-      "id": "publisher-access",
-      "reason": "Anesthesiology新题录无摘要且出版商不可读取，保持待核验；既有强化学习RCT原文重读失败，不修改旧核验日期。"
+      "id": "sites-write-auth",
+      "reason": "Sites 数据接口要求将 Git 仓库写凭据传给网站应用；未获得独立的目录写入授权，本次未写入 Sites。"
     },
     {
-      "id": "tec-agi-rules",
-      "reason": "CCF主办方入口不可读，保留既有截止并按已过期关闭；完整资格待核。"
+      "id": "ai-medical-competition-deadline",
+      "reason": "官网检索结果显示11月23日，早期报道为10月30日，正式延期未确认。"
     },
     {
       "id": "publisher-coverage",
-      "reason": "完成63期刊PubMed限定检索，尚非所有出版商未索引Online First的穷尽核验。"
+      "reason": "PubMed 限定检索不涵盖全部出版社未索引 Online First；未完成 arXiv 官方检索。"
     }
   ],
   "previous_syncs": {
@@ -73,5 +109,16 @@
       "sites": "success",
       "github": "success"
     }
-  }
+  },
+  "referenced_paper_ids": [
+    "pubmed-42673898"
+  ],
+  "competition_ids": [
+    "cetc-wangxinbei2026",
+    "competition_80c6f85a8d"
+  ],
+  "conference_ids": [
+    "conference_ce9a2f54c2",
+    "conference_95a23edf4a"
+  ]
 }
