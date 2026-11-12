@@ -18,9 +18,9 @@
     "verification": "默认分支数据文件提交后回读通过，人工精读摘要文件 SHA 未变。"
   },
   "frontend": {
-    "status": "partial",
-    "verification": "初次自动发布失败；待后续公开回读。",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43124696977"
+    "status": "success",
+    "verification": "公开主站回读 11月12日简报索引、文献关联及赛事更新，三项均一致。",
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43124834897"
   },
   "brief_catchup": {
     "window_start": "2026-11-06",
