@@ -1,21 +1,27 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-12",
+  "brief_date": "2026-11-13",
   "overall_status": "partial",
-  "brief_status": "11月12日完整简报，正式精选0篇，保留1篇方法学参考和4条公开机会。",
-  "selected_paper_ids": [],
+  "brief_status": "11月13日：高价值补看1篇，比赛1项，会议2项；公开交接已提交回读，主目录与Sites待补。",
+  "selected_paper_ids": [
+    "doi-s41591-026-04655-5"
+  ],
   "sites": {
     "status": "failed",
-    "verification": "目录已读取，未发送写请求，保留现有内容。",
+    "verification": "本次没有可用的 Sites 项目连接器，未获取管理写入授权；未写入。",
     "pending": [
-      "独立目录管理员写入授权",
-      "同步1条文献简报关联及8条机会记录并回读"
+      "读取 get_site /api/update-guide /api/site-data",
+      "按独立授权增量写入并回读"
     ]
   },
   "github": {
-    "status": "success",
-    "readback_commit": "8156414813d06e7e5810e9e7acf1d544eabd731a",
-    "verification": "默认分支数据文件提交后回读通过，人工精读摘要文件 SHA 未变。"
+    "status": "partial",
+    "verification": "data/daily_briefs/2026-11-13.json 提交并回读成功；主目录与历史索引尚未增量更新。",
+    "readback_commit": "a785458c29b90065fe98b11c8d316673acfca5cf",
+    "pending": [
+      "research/opportunities brief_dates 合并",
+      "history_briefs 索引及主站展示回读"
+    ]
   },
   "frontend": {
     "status": "success",
@@ -23,75 +29,25 @@
     "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43124834897"
   },
   "brief_catchup": {
-    "window_start": "2026-11-06",
-    "window_end": "2026-11-12",
+    "window_start": "2026-11-07",
+    "window_end": "2026-11-13",
     "status": "partial",
-    "catalog_audit": [
-      {
-        "date": "2026-11-06",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-07",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-08",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-09",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-10",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-11",
-        "missing": [],
-        "status": "success"
-      },
-      {
-        "date": "2026-11-12",
-        "missing": [],
-        "status": "success"
-      }
-    ],
     "pending": [
-      "11月12日 Sites 简报关联及机会更新"
+      "Sites 最近7日跨端追补",
+      "GitHub主目录11月13日关联更新"
     ]
   },
   "counts": {
-    "site_new_papers": 0,
-    "site_modified_papers": 0,
-    "site_new_opportunities": 0,
-    "site_modified_opportunities": 0,
-    "independent_new_bibliography": 0,
-    "daily_selected": 0,
-    "journals_checked": 64,
+    "daily_selected": 1,
     "github_new_papers": 0,
-    "github_modified_papers": 1,
+    "github_modified_papers": 0,
     "github_new_opportunities": 0,
-    "github_modified_opportunities": 8
+    "github_modified_opportunities": 0
   },
   "failures": [
     {
-      "id": "sites-write-auth",
-      "reason": "Sites 数据接口要求将 Git 仓库写凭据传给网站应用；未获得独立的目录写入授权，本次未写入 Sites。"
-    },
-    {
-      "id": "ai-medical-competition-deadline",
-      "reason": "官网检索结果显示11月23日，早期报道为10月30日，正式延期未确认。"
-    },
-    {
-      "id": "publisher-coverage",
-      "reason": "PubMed 限定检索不涵盖全部出版社未索引 Online First；未完成 arXiv 官方检索。"
+      "id": "sites-connector-unavailable",
+      "reason": "当前可用连接器中无 Sites 管理工具，未尝试传递GitHub凭据到网站。"
     }
   ],
   "previous_syncs": {
@@ -106,14 +62,19 @@
       "overall_status": "partial",
       "sites": "success",
       "github": "success"
+    },
+    "2026-11-12": {
+      "date": "2026-11-12",
+      "overall_status": "partial",
+      "sites": "failed",
+      "github": "success"
     }
   },
   "referenced_paper_ids": [
-    "pubmed-42673898"
+    "doi-s41591-026-04655-5"
   ],
   "competition_ids": [
-    "cetc-wangxinbei2026",
-    "competition_80c6f85a8d"
+    "cetc-wangxinbei2026"
   ],
   "conference_ids": [
     "conference_ce9a2f54c2",
