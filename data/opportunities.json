@@ -15,7 +15,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-12",
+    "verifiedOn": "2026-11-13",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -48,14 +48,15 @@
       "2026-11-09",
       "2026-11-10",
       "2026-11-11",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "ESAIC官方摘要页复核12月10日截止及创新展示；保留既有23:59 CET时刻。",
+    "verificationNote": "11月13日复核ESAIC，12月10日23:59 CET截止，另设创新展示。",
     "verification_attempted_on": "2026-11-12",
     "verification_failure": null,
     "brief_date_sources": {
@@ -75,7 +76,8 @@
       "2026-11-09": "麻醉AI科研简报",
       "2026-11-10": "麻醉AI科研简报",
       "2026-11-11": "麻醉AI科研简报",
-      "2026-11-12": "麻醉AI科研简报"
+      "2026-11-12": "麻醉AI科研简报",
+      "2026-11-13": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
@@ -97,7 +99,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-12",
+    "verifiedOn": "2026-11-13",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -120,9 +122,10 @@
       "2026-11-01",
       "2026-11-02",
       "2026-11-03",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
-    "verificationNote": "IARS官方摘要页确认开放，12月6日23:59 PST截止（北京时间12月7日15:59）。",
+    "verificationNote": "11月13日复核官方摘要指南，截止12月6日23:59 PST（北京时间12月7日15:59）；研究摘要投稿与完整论文不同。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -135,7 +138,8 @@
       "2026-11-01": "麻醉AI科研简报",
       "2026-11-02": "麻醉AI科研简报",
       "2026-11-03": "麻醉AI科研简报",
-      "2026-11-12": "麻醉AI科研简报"
+      "2026-11-12": "麻醉AI科研简报",
+      "2026-11-13": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-11-12",
     "verification_failure": null,
@@ -374,7 +378,7 @@
     "description": "智能体应用、领域模型、数据治理等赛道；具体参赛资格和奖励需核对章程。",
     "verifiedOn": "2026-11-12",
     "needs_review": true,
-    "verificationNote": "官网赛程显示11月15日报名截止；具体赛题资格及费用待核。",
+    "verificationNote": "主办方赛程列11月15日，具体赛题、资格及报名系统实时状态仍待核。",
     "announcement_date": "2026-09-30",
     "site_catalog_id": "cetc-wangxinbei2026",
     "sources": [
@@ -391,13 +395,15 @@
       "2026-11-08",
       "2026-11-10",
       "2026-11-11",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
     "brief_date_sources": {
       "2026-11-08": "麻醉AI科研简报",
       "2026-11-10": "麻醉AI科研简报",
       "2026-11-11": "麻醉AI科研简报",
-      "2026-11-12": "麻醉AI科研简报"
+      "2026-11-12": "麻醉AI科研简报",
+      "2026-11-13": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-11-12",
     "verification_failure": null
@@ -812,7 +818,7 @@
     "description": "学会会议官网确认10月31日截稿，会议11月13—15日在上海举行。征集围术期数据、AI、麻醉与脑功能等临床及基础研究，要求中文800—1000字结构摘要，结果含主要数据，仅接受网站投稿。\n\n官网拟遴选50位优秀论文作者现场7分钟演讲。属于会议摘要及交流机会，不等于完整期刊论文；投稿收费、评奖资格及正式出版检索本次未核实，不能以参会注册截止替代截稿日。",
     "source_url": "https://mm.sciconf.cn/41149",
     "status": "closed",
-    "verifiedOn": "2026-10-28",
+    "verifiedOn": "2026-11-13",
     "sources": [
       {
         "label": "中国心胸血管麻醉学会征文通知",
@@ -821,10 +827,14 @@
       {
         "label": "投稿入口",
         "url": "https://mm.sciconf.cn/41149"
+      },
+      {
+        "label": "11月12日官方参会指南",
+        "url": "https://xue.sciconf.cn/organization/org-info-detail?id=7B5B3145-F338-13E6-C222-8BDABA6F928C"
       }
     ],
-    "verificationNote": "2026-10-28核验中国心胸血管麻醉学会2026-10-09征文通知：10月31日截止，11月13-15日上海，800-1000字中文结构摘要，拟遴选50名7分钟报告；费用/检索未核验。",
-    "event": "2026-11-13—11-15 · 上海",
+    "verificationNote": "主办方11月12日参会指南确认会议11月13–15日及会址；原10月31日截稿，未发现重开通知。",
+    "event": "2026-11-13—11-15 · 上海临港凯悦酒店",
     "format": "中文结构式摘要 / 优秀论文演讲交流",
     "archive": false,
     "needs_review": false,

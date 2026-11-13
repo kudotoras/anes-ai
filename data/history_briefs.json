@@ -788,5 +788,30 @@
     "competition_count": 2,
     "conference_count": 2,
     "source_url": "data/daily_briefs/2026-11-12.json"
+  },
+  {
+    "date": "2026-11-13",
+    "record_status": "aligned_with_completed_brief",
+    "paper_ids": [
+      "doi-s41591-026-04655-5"
+    ],
+    "selected_paper_ids": [
+      "doi-s41591-026-04655-5"
+    ],
+    "referenced_paper_ids": [
+      "doi-s43588-026-01094-7"
+    ],
+    "selected_paper_count": 1,
+    "paper_count": 1,
+    "competition_ids": [
+      "cetc-wangxinbei2026"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95a23edf4a"
+    ],
+    "competition_count": 1,
+    "conference_count": 2,
+    "source_url": "data/daily_briefs/2026-11-13.json"
   }
 ]

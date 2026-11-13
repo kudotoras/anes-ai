@@ -2,52 +2,91 @@
   "schema_version": 1,
   "brief_date": "2026-11-13",
   "overall_status": "partial",
-  "brief_status": "11月13日：高价值补看1篇，比赛1项，会议2项；公开交接已提交回读，主目录与Sites待补。",
+  "brief_status": "已取得11月13日完整简报：1篇精选、1篇非精选研究亮点、1项比赛及2项会议。",
   "selected_paper_ids": [
     "doi-s41591-026-04655-5"
   ],
   "sites": {
     "status": "failed",
-    "verification": "本次没有可用的 Sites 项目连接器，未获取管理写入授权；未写入。",
+    "verification": "已确认站点公开、当前账号为所有者；维护指南与目录在可用通道中不可读，没有发出写请求。",
     "pending": [
-      "读取 get_site /api/update-guide /api/site-data",
-      "按独立授权增量写入并回读"
+      "回读维护指南与目录",
+      "追补11月12日至13日内容"
     ]
   },
   "github": {
     "status": "partial",
-    "verification": "data/daily_briefs/2026-11-13.json 提交并回读成功；主目录与历史索引尚未增量更新。",
-    "readback_commit": "a785458c29b90065fe98b11c8d316673acfca5cf",
     "pending": [
-      "research/opportunities brief_dates 合并",
-      "history_briefs 索引及主站展示回读"
+      "提交后回读"
     ]
   },
   "frontend": {
-    "status": "success",
-    "verification": "公开主站回读 11月12日简报索引、文献关联及赛事更新，三项均一致。",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43124834897"
+    "status": "partial",
+    "pending": [
+      "公开页面回读"
+    ]
   },
   "brief_catchup": {
     "window_start": "2026-11-07",
     "window_end": "2026-11-13",
     "status": "partial",
+    "catalog_audit": [
+      {
+        "date": "2026-11-07",
+        "github_catalog_missing": []
+      },
+      {
+        "date": "2026-11-08",
+        "github_catalog_missing": []
+      },
+      {
+        "date": "2026-11-09",
+        "github_catalog_missing": []
+      },
+      {
+        "date": "2026-11-10",
+        "github_catalog_missing": []
+      },
+      {
+        "date": "2026-11-11",
+        "github_catalog_missing": []
+      },
+      {
+        "date": "2026-11-12",
+        "github_catalog_missing": []
+      },
+      {
+        "date": "2026-11-13",
+        "github_catalog_missing": []
+      }
+    ],
     "pending": [
-      "Sites 最近7日跨端追补",
-      "GitHub主目录11月13日关联更新"
+      "Sites逐条复核及追补"
     ]
   },
   "counts": {
+    "independent_new_bibliography": 2,
+    "brief_new_papers": 1,
+    "brief_modified_papers": 1,
+    "github_modified_opportunities": 4,
     "daily_selected": 1,
-    "github_new_papers": 0,
-    "github_modified_papers": 0,
-    "github_new_opportunities": 0,
-    "github_modified_opportunities": 0
+    "site_new_papers": 0,
+    "site_modified_papers": 0,
+    "site_new_opportunities": 0,
+    "site_modified_opportunities": 0
   },
   "failures": [
     {
-      "id": "sites-connector-unavailable",
-      "reason": "当前可用连接器中无 Sites 管理工具，未尝试传递GitHub凭据到网站。"
+      "id": "sites-access",
+      "reason": "无可用HTTPS客户端读取站点维护与目录接口；未签发写凭据。"
+    },
+    {
+      "id": "publisher-coverage",
+      "reason": "PubMed及主要期刊定向检索，不是逐刊Online First完整扫描。"
+    },
+    {
+      "id": "ai-medical-competition-deadline",
+      "reason": "11月23日正式延期仍待核，保留已有状态。"
     }
   ],
   "previous_syncs": {
@@ -71,7 +110,7 @@
     }
   },
   "referenced_paper_ids": [
-    "doi-s41591-026-04655-5"
+    "doi-s43588-026-01094-7"
   ],
   "competition_ids": [
     "cetc-wangxinbei2026"

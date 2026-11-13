@@ -18,7 +18,35 @@
       "brief_dates": [
         "2026-11-13"
       ],
-      "needs_review": false
+      "needs_review": false,
+      "pmid": "42957777",
+      "selected": true,
+      "epub_date": "2026-10-29",
+      "description": "开发与测试覆盖18个数据集及10种影像模态，另用17个数据集外测；适合参考多模态解释评估，未验证麻醉连续生理信号或给药控制。",
+      "brief_date_sources": {
+        "2026-11-13": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "doi-s43588-026-01094-7",
+      "title": "Open foundation models for clinical AI",
+      "journal": "Nature Computational Science",
+      "date": "2026-11-12",
+      "doi": "10.1038/s43588-026-01094-7",
+      "source_url": "https://www.nature.com/articles/s43588-026-01094-7",
+      "study_type": "Research Highlight",
+      "topic": "医学基础模型",
+      "description": "介绍 MedGemma 的研究亮点，非原始模型验证。",
+      "verification_scope": "出版商题录及文章类型",
+      "verifiedOn": "2026-11-13",
+      "needs_review": false,
+      "selected": false,
+      "brief_dates": [
+        "2026-11-13"
+      ],
+      "brief_date_sources": {
+        "2026-11-13": "麻醉AI科研简报"
+      }
     }
   ],
   "competitions": [
@@ -29,7 +57,13 @@
       "source_url": "https://wangxinbei.taiji.com.cn/",
       "verifiedOn": "2026-11-12",
       "needs_review": true,
-      "verificationNote": "11月13日未重新确认实时报名资格和截止时刻"
+      "verificationNote": "11月13日未重新确认实时报名资格和截止时刻",
+      "brief_dates": [
+        "2026-11-13"
+      ],
+      "brief_date_sources": {
+        "2026-11-13": "麻醉AI科研简报"
+      }
     }
   ],
   "conferences": [
@@ -40,15 +74,27 @@
       "source_url": "https://meetings.iars.org/abstracts/submissions/",
       "verifiedOn": "2026-11-13",
       "verification_scope": "主办方官网摘要规则及截止日期",
-      "needs_review": false
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-13"
+      ],
+      "brief_date_sources": {
+        "2026-11-13": "麻醉AI科研简报"
+      }
     },
     {
       "id": "conference_95a23edf4a",
       "title": "Euroanaesthesia 2027",
       "deadline": "2026-12-10T23:59:00+01:00",
       "source_url": "https://euroanaesthesia.org/2027/abstracts/",
-      "verifiedOn": "2026-11-12",
-      "needs_review": false
+      "verifiedOn": "2026-11-13",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-13"
+      ],
+      "brief_date_sources": {
+        "2026-11-13": "麻醉AI科研简报"
+      }
     }
   ]
 }

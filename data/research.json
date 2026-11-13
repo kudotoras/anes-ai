@@ -2350,17 +2350,20 @@
     "verification": "2026-10-30核对Nature Medicine原始论文摘要、数据规模、日期",
     "needs_review": false,
     "brief_dates": [
-      "2026-10-30"
+      "2026-10-30",
+      "2026-11-13"
     ],
     "brief_date_sources": {
-      "2026-10-30": "麻醉AI科研简报"
+      "2026-10-30": "麻醉AI科研简报",
+      "2026-11-13": "麻醉AI科研简报"
     },
     "selection_dates": [
       "2026-10-30"
     ],
     "source_type": "publisher_original",
     "origin": "麻醉AI科研简报",
-    "site_catalog_id": "doi-s41591-026-04655-5"
+    "site_catalog_id": "doi-s41591-026-04655-5",
+    "pmid": "42957777"
   },
   {
     "id": "pubmed-42955499",
@@ -13392,5 +13395,68 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "pubmed-42562668",
+    "pmid": "42562668",
+    "doi": "10.1016/j.hlc.2026.02.020",
+    "title": "Predicting Readmissions or Post-Discharge Mortality After Cardiac Surgery with Machine Learning Using an Australian Database.",
+    "journal": "Heart, Lung and Circulation",
+    "date": "2026-08-06",
+    "issue_date": "2026-11",
+    "topic": "心脏手术 / 术后结局",
+    "study_type": "回顾性注册数据库模型研究",
+    "description": "纳入61,721例心脏手术，最佳模型AUROC为0.615，提示仅凭现有登记变量的预测能力有限。",
+    "epub_date": "2026-08-06",
+    "dateKind": "在线发表",
+    "verifiedOn": "2026-11-13",
+    "verification_scope": "PubMed题录与摘要；全文未核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42562668/",
+    "status": "摘要已核验",
+    "origin": "独立检索",
+    "needs_review": false
+  },
+  {
+    "id": "pubmed-42700560",
+    "pmid": "42700560",
+    "doi": "10.1016/j.jclinane.2026.112308",
+    "title": "Utility ratings do not establish the safety of intraprocedural large language model advice.",
+    "journal": "Journal of Clinical Anesthesia",
+    "date": "2026-09-05",
+    "issue_date": "2026-11",
+    "topic": "临床大模型 / 安全性",
+    "study_type": "来信",
+    "description": "讨论术中大模型建议的实用性评分与安全性证据的区别。仅核验题录及文献类型。",
+    "needs_review": true,
+    "epub_date": "2026-09-05",
+    "dateKind": "在线发表",
+    "verifiedOn": "2026-11-13",
+    "verification_scope": "PubMed题录与类型；全文未核",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42700560/",
+    "status": "待核验",
+    "origin": "独立检索"
+  },
+  {
+    "id": "doi-s43588-026-01094-7",
+    "title": "Open foundation models for clinical AI",
+    "journal": "Nature Computational Science",
+    "date": "2026-11-12",
+    "doi": "10.1038/s43588-026-01094-7",
+    "source_url": "https://www.nature.com/articles/s43588-026-01094-7",
+    "study_type": "Research Highlight",
+    "topic": "医学基础模型",
+    "description": "介绍 MedGemma 的研究亮点，非原始模型验证。",
+    "verification_scope": "出版商题录及文章类型",
+    "verifiedOn": "2026-11-13",
+    "needs_review": false,
+    "selected": false,
+    "brief_dates": [
+      "2026-11-13"
+    ],
+    "brief_date_sources": {
+      "2026-11-13": "麻醉AI科研简报"
+    },
+    "status": "来源已核验",
+    "origin": "麻醉AI科研简报"
   }
 ]
