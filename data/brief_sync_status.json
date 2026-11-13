@@ -15,16 +15,14 @@
     ]
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "readback_commit": "77f65e3fbc5a8669f8bc148324fc7d432a48396e",
+    "verification": "研究、机会、简报交接与历史索引提交后回读通过，人工精读摘要文件未变。"
   },
   "frontend": {
     "status": "partial",
-    "pending": [
-      "公开页面回读"
-    ]
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43334451586",
+    "verification": "尚未独立读取公开网页；发布工作流状态：in_progress"
   },
   "brief_catchup": {
     "window_start": "2026-11-07",
