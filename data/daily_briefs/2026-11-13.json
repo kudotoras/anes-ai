@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-13",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "id": "doi-s41591-026-04655-5",
+      "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
+      "journal": "Nature Medicine",
+      "doi": "10.1038/s41591-026-04655-5",
+      "publication_date": "2026-10-29",
+      "study_type": "多模态基础模型开发及外部数据评估",
+      "sample_size": "超过130万样本；18个数据集；10种影像模态",
+      "source_url": "https://www.nature.com/articles/s41591-026-04655-5",
+      "selection_tag": "高价值补看/方法可迁移",
+      "verifiedOn": "2026-11-13",
+      "verification_scope": "出版社文章页面摘要、日期和样本量",
+      "brief_dates": [
+        "2026-11-13"
+      ],
+      "needs_review": false
+    }
+  ],
+  "competitions": [
+    {
+      "id": "cetc-wangxinbei2026",
+      "title": "中国电科网信杯人工智能创新大赛",
+      "deadline": "2026-11-15",
+      "source_url": "https://wangxinbei.taiji.com.cn/",
+      "verifiedOn": "2026-11-12",
+      "needs_review": true,
+      "verificationNote": "11月13日未重新确认实时报名资格和截止时刻"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 Annual Meeting Abstracts",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-13",
+      "verification_scope": "主办方官网摘要规则及截止日期",
+      "needs_review": false
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-12",
+      "needs_review": false
+    }
+  ]
+}
