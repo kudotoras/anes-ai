@@ -1,23 +1,21 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-13",
+  "brief_date": "2026-11-14",
   "overall_status": "partial",
-  "brief_status": "已取得11月13日完整简报：1篇精选、1篇非精选研究亮点、1项比赛及2项会议。",
-  "selected_paper_ids": [
-    "doi-s41591-026-04655-5"
-  ],
+  "brief_status": "无合格新增论文；2项比赛、2项会议已写入公开交接；AI+医疗官网截止与旧公告冲突。",
+  "selected_paper_ids": [],
   "sites": {
     "status": "failed",
-    "verification": "已确认站点公开、当前账号为所有者；维护指南与目录在可用通道中不可读，没有发出写请求。",
+    "verification": "本期无可用Sites get_site及维护连接器，未取得维护指南或管理员凭据；未写入Sites。",
     "pending": [
-      "回读维护指南与目录",
-      "追补11月12日至13日内容"
+      "读取get_site、/api/update-guide和/api/site-data",
+      "补齐11月8日至14日并回读"
     ]
   },
   "github": {
     "status": "success",
-    "readback_commit": "77f65e3fbc5a8669f8bc148324fc7d432a48396e",
-    "verification": "研究、机会、简报交接与历史索引提交后回读通过，人工精读摘要文件未变。"
+    "verification": "11月14日交接、opportunities及history_briefs提交并回读；research和人工精读摘要未修改。",
+    "readback_commit": "efcd8ad31a05759dcfe8c279ed3d45e304d4cfff"
   },
   "frontend": {
     "status": "partial",
@@ -25,93 +23,58 @@
     "verification": "尚未独立读取公开网页；发布工作流状态：in_progress"
   },
   "brief_catchup": {
-    "window_start": "2026-11-07",
-    "window_end": "2026-11-13",
+    "window_start": "2026-11-08",
+    "window_end": "2026-11-14",
     "status": "partial",
-    "catalog_audit": [
-      {
-        "date": "2026-11-07",
-        "github_catalog_missing": []
-      },
-      {
-        "date": "2026-11-08",
-        "github_catalog_missing": []
-      },
-      {
-        "date": "2026-11-09",
-        "github_catalog_missing": []
-      },
-      {
-        "date": "2026-11-10",
-        "github_catalog_missing": []
-      },
-      {
-        "date": "2026-11-11",
-        "github_catalog_missing": []
-      },
-      {
-        "date": "2026-11-12",
-        "github_catalog_missing": []
-      },
-      {
-        "date": "2026-11-13",
-        "github_catalog_missing": []
-      }
-    ],
+    "verification": "上期GitHub最近7日审计无遗漏；14日交接与机会目录已回读；Sites待核。",
     "pending": [
-      "Sites逐条复核及追补"
+      "Sites最近7日逐条核验与补同步"
     ]
   },
   "counts": {
-    "independent_new_bibliography": 2,
-    "brief_new_papers": 1,
-    "brief_modified_papers": 1,
-    "github_modified_opportunities": 4,
-    "daily_selected": 1,
-    "site_new_papers": 0,
-    "site_modified_papers": 0,
-    "site_new_opportunities": 0,
-    "site_modified_opportunities": 0
+    "papers": 0,
+    "competitions": 2,
+    "conferences": 2
   },
   "failures": [
-    {
-      "id": "sites-access",
-      "reason": "无可用HTTPS客户端读取站点维护与目录接口；未签发写凭据。"
-    },
-    {
-      "id": "publisher-coverage",
-      "reason": "PubMed及主要期刊定向检索，不是逐刊Online First完整扫描。"
-    },
-    {
-      "id": "ai-medical-competition-deadline",
-      "reason": "11月23日正式延期仍待核，保留已有状态。"
-    }
+    "Sites接口不可用",
+    "AI+医疗11月23日未取得正式延期公告",
+    "逐刊扫描未全部完成"
   ],
-  "previous_syncs": {
-    "0": {
-      "date": "2026-11-08",
-      "overall_status": "partial",
-      "sites": "success",
-      "github": "success"
+  "previous_syncs": [
+    {
+      "0": {
+        "date": "2026-11-08",
+        "overall_status": "partial",
+        "sites": "success",
+        "github": "success"
+      },
+      "2026-11-09": {
+        "date": "2026-11-09",
+        "overall_status": "partial",
+        "sites": "success",
+        "github": "success"
+      },
+      "2026-11-12": {
+        "date": "2026-11-12",
+        "overall_status": "partial",
+        "sites": "failed",
+        "github": "success"
+      }
     },
-    "2026-11-09": {
-      "date": "2026-11-09",
-      "overall_status": "partial",
-      "sites": "success",
-      "github": "success"
-    },
-    "2026-11-12": {
-      "date": "2026-11-12",
+    {
+      "brief_date": "2026-11-13",
       "overall_status": "partial",
       "sites": "failed",
       "github": "success"
     }
-  },
+  ],
   "referenced_paper_ids": [
     "doi-s43588-026-01094-7"
   ],
   "competition_ids": [
-    "cetc-wangxinbei2026"
+    "cetc-wangxinbei2026",
+    "competition_80c6f85a8d"
   ],
   "conference_ids": [
     "conference_ce9a2f54c2",
