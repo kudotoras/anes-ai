@@ -225,6 +225,55 @@
     "verification_failure": null
   },
   {
+    "id": "competition_80c6f85a8d",
+    "title": "首届“AI+医疗”技术创新大赛",
+    "organizer": "中国生产力促进中心协会",
+    "journal": "中国生产力促进中心协会",
+    "date": "2026-11-23",
+    "deadline": "2026-11-23",
+    "category": "competition",
+    "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
+    "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+    "source_url": "https://www.aimtcbj.com/",
+    "status": "open_pending_extension_confirmation",
+    "historical_status": "has_future_deadline_reported",
+    "archive": true,
+    "brief_dates": [
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-30",
+      "2026-11-12",
+      "2026-11-14"
+    ],
+    "archive_review_required": true,
+    "verification_attempted_on": "2026-11-12",
+    "verification_failure": "未核实正式延期公告；保留原截止日期。",
+    "brief_date_sources": {
+      "2026-10-26": "麻醉AI科研简报",
+      "2026-10-30": "麻醉AI科研简报",
+      "2026-11-12": "麻醉AI科研简报",
+      "2026-11-14": "麻醉AI科研简报"
+    },
+    "verificationNote": "2026-11-14官网显示11月23日；原公告10月30日，尚未核实正式延期文件。",
+    "verifiedOn": "2026-11-14",
+    "needs_review": true,
+    "sources": [
+      {
+        "label": "2026-10-30核验官方入口",
+        "url": "https://www.aimtcbj.com/"
+      },
+      {
+        "label": "2026-11-14官网当前截止",
+        "url": "https://www.aimtcbj.com/"
+      }
+    ],
+    "site_catalog_id": "competition_80c6f85a8d",
+    "closure_note": "按原有2026-10-30截止日期归档；未取得延期证据，保留原规则与核验范围。",
+    "reported_deadline": "2026-11-23",
+    "reported_deadline_source": "https://www.aimtcbj.com/",
+    "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html"
+  },
+  {
     "id": "asa2027-general-sessions",
     "title": "ANESTHESIOLOGY 2027 · General Session 议程提案征集",
     "organizer": "American Society of Anesthesiologists（ASA）",
@@ -657,55 +706,6 @@
     },
     "verification_attempted_on": "2026-11-08",
     "verification_failure": null
-  },
-  {
-    "id": "competition_80c6f85a8d",
-    "title": "首届“AI+医疗”技术创新大赛",
-    "organizer": "中国生产力促进中心协会",
-    "journal": "中国生产力促进中心协会",
-    "date": "2026-11-23",
-    "deadline": "2026-11-23",
-    "category": "competition",
-    "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
-    "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
-    "source_url": "https://www.aimtcbj.com/",
-    "status": "open_pending_extension_confirmation",
-    "historical_status": "has_future_deadline_reported",
-    "archive": true,
-    "brief_dates": [
-      "2026-10-25",
-      "2026-10-26",
-      "2026-10-30",
-      "2026-11-12",
-      "2026-11-14"
-    ],
-    "archive_review_required": true,
-    "verification_attempted_on": "2026-11-12",
-    "verification_failure": "未核实正式延期公告；保留原截止日期。",
-    "brief_date_sources": {
-      "2026-10-26": "麻醉AI科研简报",
-      "2026-10-30": "麻醉AI科研简报",
-      "2026-11-12": "麻醉AI科研简报",
-      "2026-11-14": "麻醉AI科研简报"
-    },
-    "verificationNote": "2026-11-14官网显示11月23日；原公告10月30日，尚未核实正式延期文件。",
-    "verifiedOn": "2026-11-14",
-    "needs_review": true,
-    "sources": [
-      {
-        "label": "2026-10-30核验官方入口",
-        "url": "https://www.aimtcbj.com/"
-      },
-      {
-        "label": "2026-11-14官网当前截止",
-        "url": "https://www.aimtcbj.com/"
-      }
-    ],
-    "site_catalog_id": "competition_80c6f85a8d",
-    "closure_note": "按原有2026-10-30截止日期归档；未取得延期证据，保留原规则与核验范围。",
-    "reported_deadline": "2026-11-23",
-    "reported_deadline_source": "https://www.aimtcbj.com/",
-    "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html"
   },
   {
     "id": "competition_c4b8c9eb04",
