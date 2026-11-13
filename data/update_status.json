@@ -1,9 +1,9 @@
 {
-  "last_success": "2026-11-13T23:58:29+00:00",
+  "last_success": "2026-11-13T23:59:06+00:00",
   "queries_ok": 19,
   "queries_total": 19,
   "queries_failed": 0,
-  "papers_added": 18,
+  "papers_added": 0,
   "ingested_date": "2026-11-14",
   "pubmed_records_checked": 91,
   "total_papers": 645,
