@@ -813,5 +813,22 @@
     "competition_count": 1,
     "conference_count": 2,
     "source_url": "data/daily_briefs/2026-11-13.json"
+  },
+  {
+    "date": "2026-11-14",
+    "source_url": "data/daily_briefs/2026-11-14.json",
+    "record_status": "public_brief_verified_opportunities_only",
+    "paper_ids": [],
+    "competition_ids": [
+      "cetc-wangxinbei2026",
+      "competition_80c6f85a8d"
+    ],
+    "conference_ids": [
+      "conference_ce9a2f54c2",
+      "conference_95a23edf4a"
+    ],
+    "paper_count": 0,
+    "competition_count": 2,
+    "conference_count": 2
   }
 ]
