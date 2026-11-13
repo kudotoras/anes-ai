@@ -49,7 +49,8 @@
       "2026-11-10",
       "2026-11-11",
       "2026-11-12",
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-14"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
@@ -77,7 +78,8 @@
       "2026-11-10": "麻醉AI科研简报",
       "2026-11-11": "麻醉AI科研简报",
       "2026-11-12": "麻醉AI科研简报",
-      "2026-11-13": "麻醉AI科研简报"
+      "2026-11-13": "麻醉AI科研简报",
+      "2026-11-14": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
@@ -99,7 +101,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-13",
+    "verifiedOn": "2026-11-14",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -108,6 +110,10 @@
       {
         "label": "官方年会页面",
         "url": "https://meetings.iars.org/"
+      },
+      {
+        "label": "SOCCA官方会议页",
+        "url": "https://www.socca.org/annual-meeting-ql"
       }
     ],
     "deadlineLabel": "2026-12-06 23:59 PST（北京时间12月7日15:59）",
@@ -123,7 +129,8 @@
       "2026-11-02",
       "2026-11-03",
       "2026-11-12",
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-14"
     ],
     "verificationNote": "11月13日复核官方摘要指南，截止12月6日23:59 PST（北京时间12月7日15:59）；研究摘要投稿与完整论文不同。",
     "site_catalog_id": "iars2027",
@@ -139,7 +146,8 @@
       "2026-11-02": "麻醉AI科研简报",
       "2026-11-03": "麻醉AI科研简报",
       "2026-11-12": "麻醉AI科研简报",
-      "2026-11-13": "麻醉AI科研简报"
+      "2026-11-13": "麻醉AI科研简报",
+      "2026-11-14": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-11-12",
     "verification_failure": null,
@@ -376,7 +384,7 @@
     "status": "open",
     "source_url": "https://wangxinbei.taiji.com.cn/schedule",
     "description": "智能体应用、领域模型、数据治理等赛道；具体参赛资格和奖励需核对章程。",
-    "verifiedOn": "2026-11-12",
+    "verifiedOn": "2026-11-14",
     "needs_review": true,
     "verificationNote": "主办方赛程列11月15日，具体赛题、资格及报名系统实时状态仍待核。",
     "announcement_date": "2026-09-30",
@@ -389,6 +397,10 @@
       {
         "label": "官方章程第五章",
         "url": "https://wangxinbei.taiji.com.cn/news/34"
+      },
+      {
+        "label": "2026-11-14官网赛程复核",
+        "url": "https://wangxinbei.taiji.com.cn/"
       }
     ],
     "brief_dates": [
@@ -396,14 +408,16 @@
       "2026-11-10",
       "2026-11-11",
       "2026-11-12",
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-14"
     ],
     "brief_date_sources": {
       "2026-11-08": "麻醉AI科研简报",
       "2026-11-10": "麻醉AI科研简报",
       "2026-11-11": "麻醉AI科研简报",
       "2026-11-12": "麻醉AI科研简报",
-      "2026-11-13": "麻醉AI科研简报"
+      "2026-11-13": "麻醉AI科研简报",
+      "2026-11-14": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-11-12",
     "verification_failure": null
@@ -649,20 +663,21 @@
     "title": "首届“AI+医疗”技术创新大赛",
     "organizer": "中国生产力促进中心协会",
     "journal": "中国生产力促进中心协会",
-    "date": "2026-10-30",
-    "deadline": "2026-10-30",
+    "date": "2026-11-23",
+    "deadline": "2026-11-23",
     "category": "competition",
     "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
     "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
     "source_url": "https://www.aimtcbj.com/",
-    "status": "unknown",
+    "status": "open_pending_extension_confirmation",
     "historical_status": "has_future_deadline_reported",
     "archive": true,
     "brief_dates": [
       "2026-10-25",
       "2026-10-26",
       "2026-10-30",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-14"
     ],
     "archive_review_required": true,
     "verification_attempted_on": "2026-11-12",
@@ -670,14 +685,19 @@
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报",
-      "2026-11-12": "麻醉AI科研简报"
+      "2026-11-12": "麻醉AI科研简报",
+      "2026-11-14": "麻醉AI科研简报"
     },
-    "verificationNote": "赛事官网检索缓存显示11月23日，10月16日报道为10月30日；未找到正式延期通知，报名状态待主办方确认。",
-    "verifiedOn": "2026-10-30",
+    "verificationNote": "2026-11-14官网显示11月23日；原公告10月30日，尚未核实正式延期文件。",
+    "verifiedOn": "2026-11-14",
     "needs_review": true,
     "sources": [
       {
         "label": "2026-10-30核验官方入口",
+        "url": "https://www.aimtcbj.com/"
+      },
+      {
+        "label": "2026-11-14官网当前截止",
         "url": "https://www.aimtcbj.com/"
       }
     ],
