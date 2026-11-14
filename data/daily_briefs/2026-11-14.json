@@ -2,7 +2,29 @@
   "schema_version": 1,
   "brief_date": "2026-11-14",
   "source": "麻醉AI科研简报",
-  "papers": [],
+  "papers": [
+    {
+      "id": "pubmed-42066029",
+      "title": "Evaluation of Artificial Intelligence versus Human-Authored Anesthesia Patient Education Materials: A Multi-Institution Survey Study.",
+      "pmid": "42066029",
+      "doi": "10.1213/ANE.0000000000008102",
+      "journal": "Anesthesia & Analgesia",
+      "date": "2026-04-29",
+      "issue_date": "2026-11",
+      "study_type": "多机构调查",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42066029/",
+      "verifiedOn": "2026-11-14",
+      "needs_review": false,
+      "selected": false,
+      "verification_scope": "PubMed及出版商题录",
+      "brief_dates": [
+        "2026-11-14"
+      ],
+      "brief_date_sources": {
+        "2026-11-14": "麻醉AI科研简报"
+      }
+    }
+  ],
   "competitions": [
     {
       "id": "cetc-wangxinbei2026",
@@ -24,7 +46,7 @@
       "id": "competition_80c6f85a8d",
       "title": "2026年首届“AI+医疗”技术创新大赛",
       "organizer": "中国生产力促进中心协会",
-      "deadline": "2026-11-23",
+      "deadline": "2026-10-30",
       "source_url": "https://www.aimtcbj.com/",
       "verifiedOn": "2026-11-14",
       "verification_scope": "赛事官网当前页面的截止日期、主办单位、转化组和产业组；与旧公告冲突，延期正式文件未核",
@@ -35,7 +57,8 @@
       ],
       "brief_date_sources": {
         "2026-11-14": "麻醉AI科研简报"
-      }
+      },
+      "reported_deadline": "2026-11-23"
     }
   ],
   "conferences": [
@@ -43,27 +66,33 @@
       "id": "conference_ce9a2f54c2",
       "title": "IARS/SOCCA 2027 Annual Meeting abstract submissions",
       "organizer": "IARS/SOCCA",
-      "deadline": "2026-12-06",
+      "deadline": "2026-12-06T23:59:00-08:00",
       "source_url": "https://www.socca.org/annual-meeting-ql",
       "verifiedOn": "2026-11-14",
       "verification_scope": "SOCCA官方会议页确认摘要截止日及会议日期；细则沿用此前核验",
       "needs_review": false,
       "brief_dates": [
         "2026-11-14"
-      ]
+      ],
+      "brief_date_sources": {
+        "2026-11-14": "麻醉AI科研简报"
+      }
     },
     {
       "id": "conference_95a23edf4a",
       "title": "Euroanaesthesia 2027 abstract submissions",
       "organizer": "ESAIC",
-      "deadline": "2026-12-10",
+      "deadline": "2026-12-10T23:59:00+01:00",
       "source_url": "https://euroanaesthesia.org/2027/abstracts/",
-      "verifiedOn": "2026-11-13",
+      "verifiedOn": "2026-11-14",
       "verification_scope": "本期仅外部会议信息再次确认截止日；官方指南保留上次核验日期",
       "needs_review": false,
       "brief_dates": [
         "2026-11-14"
-      ]
+      ],
+      "brief_date_sources": {
+        "2026-11-14": "麻醉AI科研简报"
+      }
     }
   ]
 }

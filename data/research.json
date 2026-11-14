@@ -12420,8 +12420,16 @@
     "origin": "网站独立PubMed检索",
     "ingested_date": "2026-11-01",
     "metadata_checked_on": "2026-11-01",
-    "verifiedOn": null,
-    "needs_review": true
+    "verifiedOn": "2026-11-14",
+    "needs_review": true,
+    "brief_dates": [
+      "2026-11-14"
+    ],
+    "brief_date_sources": {
+      "2026-11-14": "麻醉AI科研简报"
+    },
+    "issue_date": "2026-11",
+    "verification_scope": "PubMed与出版商题录核对；非全文精读"
   },
   {
     "id": "pubmed-42932681",
@@ -13728,5 +13736,24 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "doi-s41598-026-79602-y",
+    "title": "An interpretable machine learning model for predicting 28-day in-hospital mortality in ICU patients with sepsis and atrial fibrillation",
+    "title_zh": "脓毒症合并房颤患者的28天院内死亡预测",
+    "doi": "10.1038/s41598-026-79602-y",
+    "journal": "Scientific Reports",
+    "date": "2026-11-10",
+    "dateKind": "在线发表·Article in Press",
+    "topic": "重症 / 脓毒症与房颤",
+    "study_type": "回顾性模型开发与跨数据库验证",
+    "description": "纳入11,740例，GBM在MIMIC-III和eICU的AUC分别为0.781和0.721。预测性能因数据库而异；回顾性验证未检验临床部署的获益。",
+    "source_url": "https://www.nature.com/articles/s41598-026-79602-y",
+    "verifiedOn": "2026-11-14",
+    "verification_scope": "出版商文章页与Article in Press摘要、研究设计、结果与发表日；非全文精读",
+    "status": "摘要已核验",
+    "needs_review": false,
+    "origin": "独立检索",
+    "selected": false
   }
 ]
