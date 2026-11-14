@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-14",
-  "overall_status": "partial",
+  "overall_status": "success",
   "brief_status": "11月14日完整简报；正式精选0篇，1篇非精选参考，2项比赛与2项会议。",
   "selected_paper_ids": [],
   "sites": {
@@ -15,8 +15,8 @@
     "verification": "默认分支数据文件提交后逐一回读，人工精读摘要未改动。"
   },
   "frontend": {
-    "status": "partial",
-    "verification": "公开历史索引尚未显示本期；发布工作流进行中。",
+    "status": "success",
+    "verification": "公开 GitHub Pages 已回读核验11月14日精选索引、新研究及赛事状态。",
     "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43531706929"
   },
   "brief_catchup": {
