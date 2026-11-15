@@ -19,10 +19,8 @@
   },
   "frontend": {
     "status": "partial",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43656450390",
-    "pending": [
-      "公开数据回读"
-    ]
+    "verification": "首次发布的历史导入遇到空日期类型冲突；已将未知公告日期改为目录兼容的空字符串，待公开回读。",
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43656450390"
   },
   "brief_catchup": {
     "window_start": "2026-11-09",
