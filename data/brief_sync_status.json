@@ -13,15 +13,15 @@
     "verification": "两批数据均已通过部署接口写入并回读，公开权限未改。"
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "readback_commit": "bf22ea4b4814ec68a1f46e4595442e924336f2ed",
+    "verification": "默认分支提交后回读，人工精读摘要SHA未变。"
   },
   "frontend": {
     "status": "partial",
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43656450390",
     "pending": [
-      "公开页面回读"
+      "公开数据回读"
     ]
   },
   "brief_catchup": {
