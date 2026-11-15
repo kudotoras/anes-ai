@@ -2374,8 +2374,8 @@
     "dateKind": "首次电子发表日期；正式刊期另记",
     "study_type": "系统综述与Meta分析；87项RCT、30,611人",
     "description": "87项RCT共30,611人，pEEG指导较非pEEG指导的POD风险RR 0.73（95%CI 0.63–0.84）；异质性在若干结局中较大，BIS证据较充分，Entropy/SEDLine研究较少。检索截止2025年4月11日，不能视为纳入全部最新RCT；这是脑电监测引导证据，不是AI自动给药获益试验。",
-    "verifiedOn": "2026-11-02",
-    "verification_scope": "2026-11-02 PubMed原始EFetch结构化摘要、日期及研究类型；JAMIA首次发表日期另经出版商检索索引核验，未声称全文精读。",
+    "verifiedOn": "2026-11-15",
+    "verification_scope": "PubMed索引摘要与机构卷期记录；非全文精读",
     "needs_review": false,
     "status": "已核验原始摘要·未人工全文精读",
     "topic": "精准麻醉、围术期数据与模型评价",
@@ -2393,19 +2393,22 @@
     "origin": "网站独立检索",
     "site_catalog_id": "pubmed-42962495",
     "selection_dates": [
-      "2026-11-02"
+      "2026-11-02",
+      "2026-11-15"
     ],
     "selection_source": "独立检索精选",
     "tags": [
       "严格最新",
       "直接相关"
     ],
-    "issue_date": null,
+    "issue_date": "2027-01",
     "brief_dates": [
-      "2026-11-03"
+      "2026-11-03",
+      "2026-11-15"
     ],
     "brief_date_sources": {
-      "2026-11-03": "麻醉AI科研简报"
+      "2026-11-03": "麻醉AI科研简报",
+      "2026-11-15": "麻醉AI科研简报"
     }
   },
   {
@@ -9316,7 +9319,9 @@
     "archive": true,
     "archive_id": "paper_ed6b4491d6c8",
     "archive_review_required": false,
-    "brief_dates": [],
+    "brief_dates": [
+      "2026-11-15"
+    ],
     "pmid": "",
     "verifiedOn": "2026-10-23",
     "verification": "arXiv v1题录、发布日期、摘要及任务定义；未经同行评审",
@@ -9342,7 +9347,10 @@
       "时序一致性"
     ],
     "site_catalog_id": "anestrace-intraoperative-agent-benchmark-2026",
-    "provenance": []
+    "provenance": [],
+    "brief_date_sources": {
+      "2026-11-15": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42800644",
@@ -13755,5 +13763,75 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "pubmed-42667903",
+    "pmid": "42667903",
+    "doi": "10.1016/j.ijmedinf.2026.106673",
+    "title": "Clinical evaluation of a vision-language model for optimizing triage and clinical workflows in critical care.",
+    "title_zh": "视觉语言模型解读重症生命体征趋势并辅助分诊",
+    "journal": "International Journal of Medical Informatics",
+    "date": "2026-08-23",
+    "issue_date": "2026-11-15",
+    "topic": "重症 / 分诊与生理趋势",
+    "study_type": "单中心专家一致性试点研究",
+    "description": "100例，模型与主治医生分诊类别一致率75%，低估严重程度7%。未进行外部验证，也未验证临床部署获益。",
+    "status": "摘要已核验",
+    "needs_review": false,
+    "verification_scope": "PubMed与出版商摘要及日期",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42667903/",
+    "dateKind": "在线发表",
+    "verifiedOn": "2026-11-15",
+    "origin": "独立检索",
+    "selected": false
+  },
+  {
+    "id": "pubmed-43025897",
+    "pmid": "43025897",
+    "doi": "10.1136/rapm-2026-108456",
+    "title": "Beyond the blind epidural: sensing, robotics, and artificial intelligence for safer neuraxial anesthesia.",
+    "title_zh": "椎管内麻醉中的传感、机器人与人工智能",
+    "journal": "Regional Anesthesia & Pain Medicine",
+    "date": "2026-11-13",
+    "topic": "精准麻醉 / 椎管内麻醉",
+    "study_type": "题录线索·待核验",
+    "description": "PubMed原始题录没有摘要；研究类型、结果及全文待核。",
+    "status": "待核验",
+    "needs_review": true,
+    "verification_scope": "PubMed EFetch题录、在线日期与DOI",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43025897/",
+    "dateKind": "在线发表",
+    "verifiedOn": "2026-11-15",
+    "origin": "独立检索",
+    "selected": false
+  },
+  {
+    "id": "arxiv-2611-15004",
+    "title": "A Cardiorespiratory Foundation Model Pretrained on Ten Physiological Signals for Perioperative and Critical Care",
+    "title_zh": "CARMEN：围术期与重症医学心肺生理波形基础模型",
+    "journal": "arXiv",
+    "date": "2026-11-11",
+    "dateKind": "预印本v1公开日期",
+    "doi": "10.48550/arXiv.2611.15004",
+    "study_type": "预印本 / 自监督模型开发与跨队列验证",
+    "topic": "精准麻醉 / 多模态生理波形",
+    "source_url": "https://arxiv.org/abs/2611.15004",
+    "description": "使用10种波形、227万模态小时自监督预训练；在韩国和美国队列的19项任务中评估。术中低血压预测AUROC为0.894，去除绝对信号水平恢复机制后为0.780。尚未经同行评审，未验证闭环给药或干预后的反事实反应。",
+    "status": "预印本 · 摘要已核验",
+    "verifiedOn": "2026-11-15",
+    "verification_scope": "arXiv v1日期、摘要与作者报告指标；未经同行评审，非全文精读",
+    "needs_review": false,
+    "selected": true,
+    "site_catalog_id": "arxiv-2611-15004",
+    "origin": "麻醉AI科研简报",
+    "brief_dates": [
+      "2026-11-15"
+    ],
+    "brief_date_sources": {
+      "2026-11-15": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-11-15"
+    ]
   }
 ]

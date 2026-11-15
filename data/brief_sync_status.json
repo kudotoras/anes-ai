@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-14",
-  "overall_status": "success",
-  "brief_status": "11月14日完整简报；正式精选0篇，1篇非精选参考，2项比赛与2项会议。",
-  "selected_paper_ids": [],
+  "brief_date": "2026-11-15",
+  "overall_status": "partial",
+  "brief_status": "完整简报；2篇精选（含1篇预印本）、1篇非精选参考。",
+  "selected_paper_ids": [
+    "arxiv-2611-15004",
+    "pubmed-42962495"
+  ],
   "sites": {
     "status": "success",
-    "verification": "已写入目录、回读revision与全部改动，补入11月12–13日关联及11月14日增量。",
-    "revision": "f5d8e03a-e9b3-44fb-a8e2-bd348a58bd9c"
+    "revision": "f7e649a1-c0b0-4021-9193-6c570cf5adc1",
+    "verification": "两批数据均已通过部署接口写入并回读，公开权限未改。"
   },
   "github": {
-    "status": "success",
-    "readback_commit": "2b72670fd8129dd70e36e111c60c873808fab203",
-    "verification": "默认分支数据文件提交后逐一回读，人工精读摘要未改动。"
+    "status": "partial",
+    "pending": [
+      "提交后回读"
+    ]
   },
   "frontend": {
-    "status": "success",
-    "verification": "公开 GitHub Pages 已回读核验11月14日精选索引、新研究及赛事状态。",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43531706929"
+    "status": "partial",
+    "pending": [
+      "公开页面回读"
+    ]
   },
   "brief_catchup": {
-    "window_start": "2026-11-08",
-    "window_end": "2026-11-14",
+    "window_start": "2026-11-09",
+    "window_end": "2026-11-15",
     "status": "success",
     "catalog_audit": [
-      {
-        "date": "2026-11-08",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
       {
         "date": "2026-11-09",
         "github_catalog_missing": [],
@@ -58,17 +58,25 @@
         "date": "2026-11-14",
         "github_catalog_missing": [],
         "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-15",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
       }
     ]
   },
   "counts": {
-    "independent_new_bibliography": 1,
-    "github_modified_papers": 1,
-    "github_modified_opportunities": 5,
-    "site_new_papers": 5,
+    "independent_new_bibliography": 2,
+    "brief_new_papers": 1,
+    "github_modified_papers": 2,
+    "github_new_opportunities": 1,
+    "github_modified_opportunities": 6,
+    "site_new_papers": 3,
     "site_modified_papers": 2,
-    "site_modified_opportunities": 9,
-    "daily_selected": 0
+    "site_new_opportunities": 1,
+    "site_modified_opportunities": 6,
+    "daily_selected": 2
   },
   "failures": [
     {
@@ -76,8 +84,12 @@
       "reason": "官网索引与早期公告日期冲突，正式延期未确认。"
     },
     {
+      "id": "pubmed-43025897",
+      "reason": "原始题录没有摘要，研究类型与结果待核。"
+    },
+    {
       "id": "publisher-coverage",
-      "reason": "PubMed联合期刊与主题检索及出版商定向复查，未完成所有出版商逐刊在线首发扫描。"
+      "reason": "PubMed期刊合并与主题检索，未完成全部出版商逐刊在线首发扫描。"
     }
   ],
   "previous_syncs": [
@@ -106,10 +118,104 @@
       "overall_status": "partial",
       "sites": "failed",
       "github": "success"
+    },
+    {
+      "schema_version": 1,
+      "brief_date": "2026-11-14",
+      "overall_status": "success",
+      "brief_status": "11月14日完整简报；正式精选0篇，1篇非精选参考，2项比赛与2项会议。",
+      "selected_paper_ids": [],
+      "sites": {
+        "status": "success",
+        "verification": "已写入目录、回读revision与全部改动，补入11月12–13日关联及11月14日增量。",
+        "revision": "f5d8e03a-e9b3-44fb-a8e2-bd348a58bd9c"
+      },
+      "github": {
+        "status": "success",
+        "readback_commit": "2b72670fd8129dd70e36e111c60c873808fab203",
+        "verification": "默认分支数据文件提交后逐一回读，人工精读摘要未改动。"
+      },
+      "frontend": {
+        "status": "success",
+        "verification": "公开 GitHub Pages 已回读核验11月14日精选索引、新研究及赛事状态。",
+        "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43531706929"
+      },
+      "brief_catchup": {
+        "window_start": "2026-11-08",
+        "window_end": "2026-11-14",
+        "status": "success",
+        "catalog_audit": [
+          {
+            "date": "2026-11-08",
+            "github_catalog_missing": [],
+            "sites_catalog_missing": []
+          },
+          {
+            "date": "2026-11-09",
+            "github_catalog_missing": [],
+            "sites_catalog_missing": []
+          },
+          {
+            "date": "2026-11-10",
+            "github_catalog_missing": [],
+            "sites_catalog_missing": []
+          },
+          {
+            "date": "2026-11-11",
+            "github_catalog_missing": [],
+            "sites_catalog_missing": []
+          },
+          {
+            "date": "2026-11-12",
+            "github_catalog_missing": [],
+            "sites_catalog_missing": []
+          },
+          {
+            "date": "2026-11-13",
+            "github_catalog_missing": [],
+            "sites_catalog_missing": []
+          },
+          {
+            "date": "2026-11-14",
+            "github_catalog_missing": [],
+            "sites_catalog_missing": []
+          }
+        ]
+      },
+      "counts": {
+        "independent_new_bibliography": 1,
+        "github_modified_papers": 1,
+        "github_modified_opportunities": 5,
+        "site_new_papers": 5,
+        "site_modified_papers": 2,
+        "site_modified_opportunities": 9,
+        "daily_selected": 0
+      },
+      "failures": [
+        {
+          "id": "ai-medical-deadline",
+          "reason": "官网索引与早期公告日期冲突，正式延期未确认。"
+        },
+        {
+          "id": "publisher-coverage",
+          "reason": "PubMed联合期刊与主题检索及出版商定向复查，未完成所有出版商逐刊在线首发扫描。"
+        }
+      ],
+      "referenced_paper_ids": [
+        "pubmed-42066029"
+      ],
+      "competition_ids": [
+        "cetc-wangxinbei2026",
+        "competition_80c6f85a8d"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95a23edf4a"
+      ]
     }
   ],
   "referenced_paper_ids": [
-    "pubmed-42066029"
+    "paper_ed6b4491d6c8"
   ],
   "competition_ids": [
     "cetc-wangxinbei2026",
@@ -117,6 +223,7 @@
   ],
   "conference_ids": [
     "conference_ce9a2f54c2",
-    "conference_95a23edf4a"
+    "conference_95a23edf4a",
+    "ieee-medai2026"
   ]
 }

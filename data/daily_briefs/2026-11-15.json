@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-15",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "id": "arxiv-2611-15004",
+      "title": "A Cardiorespiratory Foundation Model Pretrained on Ten Physiological Signals for Perioperative and Critical Care",
+      "title_zh": "CARMEN：围术期与重症医学心肺生理波形基础模型",
+      "journal": "arXiv",
+      "date": "2026-11-11",
+      "dateKind": "预印本v1公开日期",
+      "doi": "10.48550/arXiv.2611.15004",
+      "study_type": "预印本 / 自监督模型开发与跨队列验证",
+      "topic": "精准麻醉 / 多模态生理波形",
+      "source_url": "https://arxiv.org/abs/2611.15004",
+      "description": "使用10种波形、227万模态小时自监督预训练；在韩国和美国队列的19项任务中评估。术中低血压预测AUROC为0.894，去除绝对信号水平恢复机制后为0.780。尚未经同行评审，未验证闭环给药或干预后的反事实反应。",
+      "status": "预印本 · 摘要已核验",
+      "verifiedOn": "2026-11-15",
+      "verification_scope": "arXiv v1日期、摘要与作者报告指标；未经同行评审，非全文精读",
+      "needs_review": false,
+      "selected": true,
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "pubmed-42962495",
+      "title": "Processed electroencephalogram-guided anesthesia and its impact on postoperative delirium and perioperative efficiency: A systematic review and meta-analysis.",
+      "journal": "Journal of Clinical Anesthesia",
+      "doi": "10.1016/j.jclinane.2026.112351",
+      "pmid": "42962495",
+      "date": "2026-10-30",
+      "issue_date": "2027-01",
+      "study_type": "随机试验系统综述与Meta分析",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962495/",
+      "description": "摘要报告87项RCT、30,611人；pEEG指导组术后谵妄RR 0.73（95%CI 0.63–0.84），部分结局异质性较大。属监测指导证据，不能外推为AI闭环给药获益。",
+      "verifiedOn": "2026-11-15",
+      "verification_scope": "PubMed索引摘要与机构卷期记录；非全文精读",
+      "needs_review": false,
+      "selected": true,
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "paper_ed6b4491d6c8",
+      "title": "AnesTRACE: Benchmarking Intraoperative Anesthesia from Multimodal Perception to Multi-step Decision-Making",
+      "journal": "arXiv",
+      "date": "2026-09-26",
+      "study_type": "预印本 / 离线基准评估",
+      "source_url": "https://arxiv.org/abs/2609.32740",
+      "description": "评估术中感知及连续决策安全；离线回放不能验证干预效果。",
+      "verifiedOn": "2026-11-15",
+      "verification_scope": "arXiv索引题录及摘要；未精读",
+      "needs_review": true,
+      "selected": false,
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    }
+  ],
+  "competitions": [
+    {
+      "id": "cetc-wangxinbei2026",
+      "site_catalog_id": "cetc-wangxinbei2026",
+      "title": "中国电科网信杯人工智能创新大赛",
+      "organizer": "中国电子科技集团有限公司",
+      "deadline": "2026-11-15",
+      "source_url": "https://wangxinbei.taiji.com.cn/schedule",
+      "verifiedOn": "2026-11-15",
+      "needs_review": true,
+      "announcement_date": "2026-09-28",
+      "verificationNote": "官网赛程与竞赛规程列11月15日截止、成果提交11月16日至12月15日；未实测报名入口或参赛资格。",
+      "sources": [
+        {
+          "label": "主办方竞赛规程",
+          "url": "https://wangxinbei.taiji.com.cn/news/34"
+        }
+      ],
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "competition_80c6f85a8d",
+      "site_catalog_id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "deadline": "2026-10-30",
+      "source_url": "https://www.aimtcbj.com/",
+      "verifiedOn": "2026-11-14",
+      "needs_review": true,
+      "reported_deadline": "2026-11-23",
+      "verification_attempted_on": "2026-11-15",
+      "verificationNote": "官方索引列11月23日，旧报道为10月30日，正式延期及实时状态未确认。",
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_ce9a2f54c2",
+      "site_catalog_id": "iars2027",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-15",
+      "needs_review": false,
+      "verificationNote": "IARS官方摘要指南：12月6日23:59 PST（北京时间12月7日15:59）。",
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "site_catalog_id": "ea2027",
+      "title": "Euroanaesthesia 2027 · 摘要征集已开放",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-15",
+      "needs_review": false,
+      "verificationNote": "ESAIC官方指南：12月10日23:59 CET（北京时间12月11日06:59）。",
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "ieee-medai2026",
+      "title": "第四届 IEEE 医学人工智能国际会议（IEEE MedAI 2026）",
+      "organizer": "IEEE MedAI 2026 大会组委会",
+      "category": "conference",
+      "date": null,
+      "event": "2026-11-20—11-22 · 郑州",
+      "deadline": "2026-09-10",
+      "deadlineLabel": "常规论文第二轮截稿：2026-09-10；定稿2026-10-15",
+      "status": "closed",
+      "format": "学术交流；常规论文、短文、摘要/墙报征集已截止",
+      "topic": "医学AI / 临床数据建模",
+      "source_url": "https://medai2026.zzuli.edu.cn/",
+      "sources": [
+        {
+          "label": "会议官网与重要日期",
+          "url": "https://medai2026.zzuli.edu.cn/"
+        }
+      ],
+      "description": "大会11月20–22日在郑州举行。官网显示常规论文第二轮9月10日截止，短文8月15日截止，定稿10月15日截止；未见重新开放投稿。",
+      "verifiedOn": "2026-11-15",
+      "verification_scope": "大会官网会议日期与投稿日程",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-15"
+      ],
+      "brief_date_sources": {
+        "2026-11-15": "麻醉AI科研简报"
+      }
+    }
+  ]
+}
