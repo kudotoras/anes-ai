@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-15",
-  "overall_status": "partial",
+  "overall_status": "success",
   "brief_status": "完整简报；2篇精选（含1篇预印本）、1篇非精选参考。",
   "selected_paper_ids": [
     "arxiv-2611-15004",
@@ -14,13 +14,13 @@
   },
   "github": {
     "status": "success",
-    "readback_commit": "bf22ea4b4814ec68a1f46e4595442e924336f2ed",
+    "readback_commit": "5158be3f45dc8216fe20fa7b7e233f67fcdfb78e",
     "verification": "默认分支提交后回读，人工精读摘要SHA未变。"
   },
   "frontend": {
-    "status": "partial",
-    "verification": "首次发布的历史导入遇到空日期类型冲突；已将未知公告日期改为目录兼容的空字符串，待公开回读。",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43656450390"
+    "status": "success",
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43656535472",
+    "verification": "发布重试成功；公开回读验证当天精选索引、三条新文献和IEEE MedAI会议状态。"
   },
   "brief_catchup": {
     "window_start": "2026-11-09",
