@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-16",
-  "overall_status": "partial",
+  "overall_status": "success",
   "brief_status": "完整简报；1篇精选（仿真预印本）、2篇补看与参考。",
   "selected_paper_ids": [
     "arxiv-2611-16537"
@@ -12,16 +12,14 @@
     "verification": "部署接口写入后回读，新增3条文献，修改1条文献及8条机会；公开只读权限未变。"
   },
   "github": {
-    "status": "partial",
-    "pending": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "readback_commit": "54eb080f40c8a89dc08766ad082031b012346bbf",
+    "verification": "数据文件提交后回读；人工精读摘要未改。"
   },
   "frontend": {
-    "status": "partial",
-    "pending": [
-      "公开页面回读"
-    ]
+    "status": "success",
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43777867904",
+    "verification": "公开主站回读11月16日精选索引、三条新增文献和两项已截止机会。"
   },
   "brief_catchup": {
     "window_start": "2026-11-10",
