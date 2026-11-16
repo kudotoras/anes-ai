@@ -864,5 +864,33 @@
     "competition_count": 2,
     "conference_count": 3,
     "source_url": "data/daily_briefs/2026-11-15.json"
+  },
+  {
+    "date": "2026-11-16",
+    "record_status": "aligned_with_completed_brief",
+    "paper_ids": [
+      "arxiv-2611-16537"
+    ],
+    "selected_paper_ids": [
+      "arxiv-2611-16537"
+    ],
+    "selected_paper_count": 1,
+    "paper_count": 1,
+    "referenced_paper_ids": [
+      "pubmed-42772975",
+      "pubmed-42806783"
+    ],
+    "competition_ids": [
+      "competition_80c6f85a8d",
+      "cetc-wangxinbei2026"
+    ],
+    "conference_ids": [
+      "ieee-medai2026",
+      "conference_ce9a2f54c2",
+      "conference_95a23edf4a"
+    ],
+    "competition_count": 2,
+    "conference_count": 3,
+    "source_url": "data/daily_briefs/2026-11-16.json"
   }
 ]

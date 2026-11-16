@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-16",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "id": "arxiv-2611-16537",
+      "title": "Incremental Model Predictive Control for Reference Tracking of Nonlinear Anesthesia Dynamics",
+      "title_zh": "非线性麻醉动态的增量模型预测控制",
+      "doi": "10.48550/arXiv.2611.16537",
+      "journal": "arXiv",
+      "date": "2026-11-12",
+      "dateKind": "预印本v1公开日期",
+      "study_type": "预印本 / 模型预测控制仿真",
+      "source_url": "https://arxiv.org/abs/2611.16537",
+      "description": "1,000名虚拟患者仿真中，增量MPC较基准MPC改善稳态目标追踪并保持扰动抑制。无真实患者干预验证，不能据此认定已实现临床双药协同控制。",
+      "verification_scope": "arXiv原始日期及摘要；未完成全文精读",
+      "selected": true,
+      "status": "预印本 · 摘要已核验",
+      "verifiedOn": "2026-11-16",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "pubmed-42772975",
+      "title": "Effects of lidocaine bolus and infusion on neuromonitoring by bispectral index (BIS®), electroencephalogram periodic and aperiodic activity, and Surgical Pleth Index® during propofol-remifentanil anaesthesia: a single-centre prospective observational study.",
+      "title_zh": "利多卡因对丙泊酚–瑞芬太尼麻醉期间脑电及镇痛监测的影响",
+      "pmid": "42772975",
+      "doi": "10.1016/j.bja.2026.07.058",
+      "journal": "British Journal of Anaesthesia",
+      "date": "2026-09-23",
+      "dateKind": "首次电子发表",
+      "issue_date": "2026-11",
+      "study_type": "单中心前瞻性观察研究",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772975/",
+      "description": "20例乳腺手术患者的PubMed摘要报告，利多卡因后早期delta活动增加、beta活动降低，BIS和SEF95同期变化不显著。单中心观察，不能证明患者结局获益。",
+      "verification_scope": "PubMed索引摘要、研究设计与电子日期；非全文精读",
+      "selected": false,
+      "status": "摘要已核验",
+      "verifiedOn": "2026-11-16",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "pubmed-42806783",
+      "title": "Artificial intelligence-assisted perioperative risk prediction, decision support, and supervised automation in anesthesia: A narrative review.",
+      "pmid": "42806783",
+      "doi": "10.1177/03000605261491422",
+      "journal": "Journal of International Medical Research",
+      "date": "2026-09-29",
+      "study_type": "叙述性综述",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/03000605261491422",
+      "description": "梳理风险预测、临床决策支持及监督式自动化，区分常规模型驱动闭环和含自适应或学习组件的控制。综述不提供新患者干预数据。",
+      "verification_scope": "出版商与PMC来源核对日期及综述范围",
+      "selected": false,
+      "verifiedOn": "2026-11-16",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "deadline": "2026-10-30",
+      "source_url": "https://www.aimtcbj.com/",
+      "verifiedOn": "2026-11-14",
+      "needs_review": true,
+      "reported_deadline": "2026-11-23",
+      "verification_attempted_on": "2026-11-16",
+      "site_catalog_id": "competition_80c6f85a8d",
+      "status": "unknown",
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "cetc-wangxinbei2026",
+      "title": "中国电科网信杯人工智能创新大赛",
+      "organizer": "中国电子科技集团有限公司",
+      "deadline": "2026-11-15",
+      "source_url": "https://wangxinbei.taiji.com.cn/schedule",
+      "verifiedOn": "2026-11-16",
+      "needs_review": true,
+      "status": "closed",
+      "verificationNote": "官网原报名期11月15日结束；11月16日至12月15日为已报名队伍作品提交，未核实实时系统。",
+      "submission_deadline": "2026-12-15",
+      "site_catalog_id": "cetc-wangxinbei2026",
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    }
+  ],
+  "conferences": [
+    {
+      "id": "ieee-medai2026",
+      "title": "第四届 IEEE 医学人工智能国际会议（IEEE MedAI 2026）",
+      "organizer": "IEEE MedAI 2026 大会组委会",
+      "deadline": "2026-09-10",
+      "source_url": "https://medai2026.zzuli.edu.cn/",
+      "verifiedOn": "2026-11-16",
+      "needs_review": false,
+      "site_catalog_id": "ieee-medai2026",
+      "status": "closed",
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "IARS / SOCCA",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-15",
+      "needs_review": false,
+      "site_catalog_id": "iars2027",
+      "status": "open",
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 摘要征集已开放",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-15",
+      "needs_review": false,
+      "site_catalog_id": "ea2027",
+      "status": "open",
+      "brief_dates": [
+        "2026-11-16"
+      ],
+      "brief_date_sources": {
+        "2026-11-16": "麻醉AI科研简报"
+      }
+    }
+  ]
+}
