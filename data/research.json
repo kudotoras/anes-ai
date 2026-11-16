@@ -130,6 +130,66 @@
     "ingested_date": "2026-11-14"
   },
   {
+    "id": "pubmed-43033141",
+    "pmid": "43033141",
+    "doi": "10.1097/ACO.0000000000001721",
+    "title": "Postoperative acute kidney injury in thoracic noncardiac surgery: incidence, impact on outcomes, risk and protective factors, and evolving preventive strategies.",
+    "title_zh": "",
+    "journal": "Current opinion in anaesthesiology",
+    "date": "2026-11-17",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43033141/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43034949",
+    "pmid": "43034949",
+    "doi": "10.1007/s00586-026-10459-5",
+    "title": "Utilizing machine learning to predict functional recovery, complications, adjacent segment disease and fusion status after cervical spine surgery: a systematic review.",
+    "title_zh": "",
+    "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+    "date": "2026-11-15",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43034949/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43033839",
+    "pmid": "43033839",
+    "doi": "10.1016/j.ahj.2026.107655",
+    "title": "Machine-Learning Derived Individual Risk Prediction in Congenital Heart Surgery: Development and internal validation of risk prediction models for in-hospital mortality after congenital heart surgery using data from the Pediatric Cardiac Critical Care Consortium (PC4) registry.",
+    "title_zh": "",
+    "journal": "American heart journal",
+    "date": "2026-11-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43033839/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43034165",
+    "pmid": "43034165",
+    "doi": "10.1038/s41390-026-05665-2",
+    "title": "A pulse oximetry warning system predicts severity of late-onset sepsis in very low birth weight neonates.",
+    "title_zh": "",
+    "journal": "Pediatric research",
+    "date": "2026-11-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43034165/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
     "id": "pubmed-43024933",
     "pmid": "43024933",
     "doi": "10.2196/99361",
@@ -360,6 +420,54 @@
     "ingested_date": "2026-11-15"
   },
   {
+    "id": "doi-s41598-026-78511-4",
+    "title": "BIS-based model reference adaptive control of anesthesia depth under patient variability and time-varying delays",
+    "title_zh": "考虑患者差异和时变延迟的BIS模型参考自适应麻醉控制",
+    "doi": "10.1038/s41598-026-78511-4",
+    "journal": "Scientific Reports",
+    "date": "2026-11-13",
+    "dateKind": "首次在线发表",
+    "study_type": "模型参考自适应控制 / 虚拟患者仿真",
+    "source_url": "https://www.nature.com/articles/s41598-026-78511-4",
+    "description": "提出用于丙泊酚–瑞芬太尼给药的BIS模型参考自适应控制，在异质虚拟患者中评价目标跟踪和时变延迟。仿真结果不能证明临床安全性或疗效。",
+    "verification_scope": "出版商题录、Article in Press摘要与在线发布日期；非全文精读",
+    "selected": false,
+    "status": "摘要已核验",
+    "origin": "独立检索",
+    "verifiedOn": "2026-11-16",
+    "needs_review": false
+  },
+  {
+    "id": "pubmed-43032252",
+    "pmid": "43032252",
+    "doi": "10.1093/jamiaopen/ooag216",
+    "title": "Continuous prediction of prolonged intensive care unit stay from longitudinal electronic health record data: development and external validation.",
+    "title_zh": "",
+    "journal": "JAMIA open",
+    "date": "2026-11-13",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43032252/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43032873",
+    "pmid": "43032873",
+    "doi": "10.1097/GOX.0000000000008262",
+    "title": "Multicenter Survival Analysis of Infectious Complications Following Breast Reconstruction: Healthcare Workers Versus General Population.",
+    "title_zh": "",
+    "journal": "Plastic and reconstructive surgery. Global open",
+    "date": "2026-11-13",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43032873/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
     "id": "pubmed-43018772",
     "pmid": "43018772",
     "doi": "10.1007/s00429-026-03214-5",
@@ -501,6 +609,34 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-14"
+  },
+  {
+    "id": "arxiv-2611-16537",
+    "title": "Incremental Model Predictive Control for Reference Tracking of Nonlinear Anesthesia Dynamics",
+    "title_zh": "非线性麻醉动态的增量模型预测控制",
+    "doi": "10.48550/arXiv.2611.16537",
+    "journal": "arXiv",
+    "date": "2026-11-12",
+    "dateKind": "预印本v1公开日期",
+    "study_type": "预印本 / 模型预测控制仿真",
+    "source_url": "https://arxiv.org/abs/2611.16537",
+    "description": "1,000名虚拟患者仿真中，增量MPC较基准MPC改善稳态目标追踪并保持扰动抑制。无真实患者干预验证，不能据此认定已实现临床双药协同控制。",
+    "verification_scope": "arXiv原始日期及摘要；未完成全文精读",
+    "selected": true,
+    "status": "预印本 · 摘要已核验",
+    "verifiedOn": "2026-11-16",
+    "needs_review": false,
+    "site_catalog_id": "arxiv-2611-16537",
+    "origin": "麻醉AI科研简报",
+    "brief_dates": [
+      "2026-11-16"
+    ],
+    "brief_date_sources": {
+      "2026-11-16": "麻醉AI科研简报"
+    },
+    "selection_dates": [
+      "2026-11-16"
+    ]
   },
   {
     "id": "pubmed-43012937",
@@ -2136,6 +2272,21 @@
     "ingested_date": "2026-11-10"
   },
   {
+    "id": "pubmed-43033663",
+    "pmid": "43033663",
+    "doi": "10.1016/j.media.2026.104385",
+    "title": "MedReShaper: mesh-based AI for 3D anatomical shape completion in orbital fracture reconstruction with controlled technical validation.",
+    "title_zh": "",
+    "journal": "Medical image analysis",
+    "date": "2026-11-01",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43033663/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
     "id": "pubmed-42949580",
     "pmid": "42949580",
     "doi": "10.1002/aorn.70187",
@@ -2744,6 +2895,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-15"
+  },
+  {
+    "id": "pubmed-43031894",
+    "pmid": "43031894",
+    "doi": "10.3389/fmed.2026.1961833",
+    "title": "Postoperative opioid-induced respiratory depression monitoring in the context of supplemental oxygen: current limitations and emerging machine-learning approaches.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-10-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43031894/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43032066",
+    "pmid": "43032066",
+    "doi": "10.3389/fmed.2026.1975712",
+    "title": "Integrating quantitative biometrics and automated risk stratification for ophthalmic surgical triage.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-10-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43032066/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
   },
   {
     "id": "doi-s41551-026-01777-6",
@@ -8955,6 +9136,21 @@
     "ingested_date": "2026-10-26"
   },
   {
+    "id": "pubmed-43034676",
+    "pmid": "43034676",
+    "doi": "10.1016/j.xrrt.2026.100892",
+    "title": "Artificial intelligence-based automated computed tomography segmentation of shoulder muscles: functional muscle volume and post-operative range of motion after arthroscopic rotator cuff repair - A retrospective study.",
+    "title_zh": "",
+    "journal": "JSES reviews, reports, and techniques",
+    "date": "2026-10-03",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43034676/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-16"
+  },
+  {
     "id": "pubmed-42923278",
     "pmid": "42923278",
     "doi": "10.3892/etm.2026.13320",
@@ -9984,6 +10180,33 @@
     "ingested_date": "2026-11-04",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "pubmed-42772975",
+    "title": "Effects of lidocaine bolus and infusion on neuromonitoring by bispectral index (BIS®), electroencephalogram periodic and aperiodic activity, and Surgical Pleth Index® during propofol-remifentanil anaesthesia: a single-centre prospective observational study.",
+    "title_zh": "利多卡因对丙泊酚–瑞芬太尼麻醉期间脑电及镇痛监测的影响",
+    "pmid": "42772975",
+    "doi": "10.1016/j.bja.2026.07.058",
+    "journal": "British Journal of Anaesthesia",
+    "date": "2026-09-23",
+    "dateKind": "首次电子发表",
+    "issue_date": "2026-11",
+    "study_type": "单中心前瞻性观察研究",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772975/",
+    "description": "20例乳腺手术患者的PubMed摘要报告，利多卡因后早期delta活动增加、beta活动降低，BIS和SEF95同期变化不显著。单中心观察，不能证明患者结局获益。",
+    "verification_scope": "PubMed索引摘要、研究设计与电子日期；非全文精读",
+    "selected": false,
+    "status": "摘要已核验",
+    "verifiedOn": "2026-11-16",
+    "needs_review": false,
+    "site_catalog_id": "pubmed-42772975",
+    "origin": "麻醉AI科研简报",
+    "brief_dates": [
+      "2026-11-16"
+    ],
+    "brief_date_sources": {
+      "2026-11-16": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42772466",
@@ -14133,78 +14356,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-s41598-026-78511-4",
-    "title": "BIS-based model reference adaptive control of anesthesia depth under patient variability and time-varying delays",
-    "title_zh": "考虑患者差异和时变延迟的BIS模型参考自适应麻醉控制",
-    "doi": "10.1038/s41598-026-78511-4",
-    "journal": "Scientific Reports",
-    "date": "2026-11-13",
-    "dateKind": "首次在线发表",
-    "study_type": "模型参考自适应控制 / 虚拟患者仿真",
-    "source_url": "https://www.nature.com/articles/s41598-026-78511-4",
-    "description": "提出用于丙泊酚–瑞芬太尼给药的BIS模型参考自适应控制，在异质虚拟患者中评价目标跟踪和时变延迟。仿真结果不能证明临床安全性或疗效。",
-    "verification_scope": "出版商题录、Article in Press摘要与在线发布日期；非全文精读",
-    "selected": false,
-    "status": "摘要已核验",
-    "origin": "独立检索",
-    "verifiedOn": "2026-11-16",
-    "needs_review": false
-  },
-  {
-    "id": "arxiv-2611-16537",
-    "title": "Incremental Model Predictive Control for Reference Tracking of Nonlinear Anesthesia Dynamics",
-    "title_zh": "非线性麻醉动态的增量模型预测控制",
-    "doi": "10.48550/arXiv.2611.16537",
-    "journal": "arXiv",
-    "date": "2026-11-12",
-    "dateKind": "预印本v1公开日期",
-    "study_type": "预印本 / 模型预测控制仿真",
-    "source_url": "https://arxiv.org/abs/2611.16537",
-    "description": "1,000名虚拟患者仿真中，增量MPC较基准MPC改善稳态目标追踪并保持扰动抑制。无真实患者干预验证，不能据此认定已实现临床双药协同控制。",
-    "verification_scope": "arXiv原始日期及摘要；未完成全文精读",
-    "selected": true,
-    "status": "预印本 · 摘要已核验",
-    "verifiedOn": "2026-11-16",
-    "needs_review": false,
-    "site_catalog_id": "arxiv-2611-16537",
-    "origin": "麻醉AI科研简报",
-    "brief_dates": [
-      "2026-11-16"
-    ],
-    "brief_date_sources": {
-      "2026-11-16": "麻醉AI科研简报"
-    },
-    "selection_dates": [
-      "2026-11-16"
-    ]
-  },
-  {
-    "id": "pubmed-42772975",
-    "title": "Effects of lidocaine bolus and infusion on neuromonitoring by bispectral index (BIS®), electroencephalogram periodic and aperiodic activity, and Surgical Pleth Index® during propofol-remifentanil anaesthesia: a single-centre prospective observational study.",
-    "title_zh": "利多卡因对丙泊酚–瑞芬太尼麻醉期间脑电及镇痛监测的影响",
-    "pmid": "42772975",
-    "doi": "10.1016/j.bja.2026.07.058",
-    "journal": "British Journal of Anaesthesia",
-    "date": "2026-09-23",
-    "dateKind": "首次电子发表",
-    "issue_date": "2026-11",
-    "study_type": "单中心前瞻性观察研究",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772975/",
-    "description": "20例乳腺手术患者的PubMed摘要报告，利多卡因后早期delta活动增加、beta活动降低，BIS和SEF95同期变化不显著。单中心观察，不能证明患者结局获益。",
-    "verification_scope": "PubMed索引摘要、研究设计与电子日期；非全文精读",
-    "selected": false,
-    "status": "摘要已核验",
-    "verifiedOn": "2026-11-16",
-    "needs_review": false,
-    "site_catalog_id": "pubmed-42772975",
-    "origin": "麻醉AI科研简报",
-    "brief_dates": [
-      "2026-11-16"
-    ],
-    "brief_date_sources": {
-      "2026-11-16": "麻醉AI科研简报"
-    }
   }
 ]
