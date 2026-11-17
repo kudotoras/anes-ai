@@ -25,14 +25,15 @@
   ],
   "sites": {
     "status": "failed",
-    "verification": "本轮未能在可用工具中找到Sites项目的get_site、/api/update-guide及/api/site-data读取/写入接口；未执行写入，不宣称成功。",
+    "verification": "本轮可用工具中未提供Sites项目的get_site、/api/update-guide或/api/site-data接口；未执行写入，不宣称成功。",
     "pending_items": [
-      "2026-11-17全部论文、比赛和会议条目待Sites同步"
+      "2026-11-17全部公开论文、比赛与会议条目待Sites同步"
     ]
   },
   "github": {
-    "status": "pending_verification",
-    "verification": "数据文件已准备，等待提交后逐项回读验证。",
+    "status": "success",
+    "readback_commit": "7cac1c0729d9a59efd20606f3381612d556bbc3f",
+    "verification": "首个数据提交后已回读验证daily_briefs/2026-11-17.json、research.json、opportunities.json、history_briefs.json；article_summaries.json SHA保持不变。",
     "pending_items": []
   },
   "frontend": {
@@ -108,11 +109,14 @@
     },
     {
       "id": "daily-brief-pending",
-      "reason": "11月17日简报运行仍为in_progress；最新完整简报为11月16日，不能据此创建当天交接文件。"
+      "reason": "11月17日简报运行仍为in_progress；最新完整简报为11月16日，不能据此创建当天交接文件。",
+      "status": "resolved",
+      "resolvedOn": "2026-11-17",
+      "resolution": "GitHub daily_briefs/2026-11-17.json已写入并回读验证。"
     },
     {
       "id": "publisher-coverage",
-      "reason": "已核验PubMed与部分出版商/官方来源，但未完成所有目标期刊的逐刊Online First全量扫描。"
+      "reason": "完成了重点期刊与主题定向检索，但未能穷尽清单中每一本期刊的全部Online First/最新ToC。"
     },
     {
       "id": "gi-ai4h-specification",
@@ -125,10 +129,6 @@
     {
       "id": "ai-medical-deadline",
       "reason": "官网当前首页显示2026-11-23，但10月16日新闻稿写2026-10-30；未找到单独延期公告，需报名系统/秘书处确认。"
-    },
-    {
-      "id": "publisher-coverage",
-      "reason": "完成了重点期刊与主题定向检索，但未能穷尽清单中每一本期刊的全部Online First/最新ToC。"
     }
   ],
   "previous_syncs": [

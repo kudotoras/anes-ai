@@ -5686,13 +5686,15 @@
       "模型外部验证"
     ],
     "description": "纳入12项研究，其中9项提供22组验证数据。合并敏感度0.78、特异度0.88、SROC-AUC 0.87；5分钟预测窗表现较好。证据确定性为低，研究普遍缺少正式校准评估，外部验证稀少。\n\n有助于识别低血压预警模型评价缺口；预测准确率不能替代治疗获益、报警负担或安全性证据。地域集中与方法异质限制外推。",
-    "verifiedOn": "2026-10-28",
-    "verification": "2026-10-28 PubMed EFetch原始XML完整摘要、DOI及在线发表日期；非人工全文精读。",
+    "verifiedOn": "2026-11-17",
+    "verification": "2026-11-17重新核对PubMed原始摘要与DOI；未进行人工全文精读。",
     "needs_review": false,
     "archive_review_required": false,
     "site_catalog_id": "pubmed-42900999",
     "dateKind": "首次在线发表；2026-10-28为本次核验和推荐日期",
-    "selection_dates": [],
+    "selection_dates": [
+      "2026-11-17"
+    ],
     "selection_source": "网站独立检索补查；完整文献库",
     "sources": [
       {
@@ -5703,7 +5705,14 @@
         "label": "出版商DOI",
         "url": "https://doi.org/10.1016/j.jclinane.2026.112353"
       }
-    ]
+    ],
+    "selected": true,
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    }
   },
   {
     "id": "pubmed-42907206",
