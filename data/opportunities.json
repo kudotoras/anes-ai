@@ -1,5 +1,36 @@
 [
   {
+    "id": "gi-ai4h-benchmarking2026-trackb",
+    "title": "GI-AI4H Benchmarking Challenge · Track B / Phase 1",
+    "organizer": "ITU / WHO / WIPO Global Initiative on AI for Health；CAICT与清华大学协作",
+    "journal": "GI-AI4H / ITU AI for Good",
+    "date": "2026-12-18",
+    "deadline": "2026-12-18T23:59:00Z",
+    "deadlineInstant": "2026-12-18T23:59:00Z",
+    "deadline_timezone": "UTC",
+    "deadlineLabel": "Phase 1提交截止：2026-12-18 23:59 UTC（北京时间12月19日07:59）",
+    "category": "competition",
+    "topic": "医疗AI基准评测 / 隐私保护 / 联邦评估",
+    "format": "全球医疗AI模型隐私保护基准评测挑战（Track B）",
+    "description": "GI-AI4H Benchmarking Challenge面向医疗AI模型开展隐私保护评测：临床数据保留在数据持有机构，模型开发者无需获得原始数据；挑战以评测而非模型训练为目标。医院、大学、卫生部门、研究机构和企业可作为模型开发者、数据托管方或评测方案提供者参与；WHO说明免费开放。EvalAI挑战页显示Track B于2026-11-01开放，Phase 1提交窗口于2026-12-18 23:59 UTC关闭。适合关注跨机构模型评估、联邦学习与数据不出域的团队。",
+    "source_url": "https://competition.aiforgood.itu.int/web/challenges/challenge-page/493/overview",
+    "status": "open",
+    "verifiedOn": "2026-11-17",
+    "verification_scope": "WHO GI-AI4H官方页面核实挑战定位、免费参与、参与角色与隐私保护评测方式；ITU AI for Good / EvalAI挑战页检索摘要核实Track B开放日及Phase 1截止时间；技术规范未全文读取。",
+    "verificationNote": "挑战开放且Phase 1截止日期来自官方EvalAI挑战页检索摘要；具体Track B任务规范、模型提交格式与评分细则仍待打开技术说明核实。",
+    "needs_review": true,
+    "sources": [
+      {
+        "label": "WHO GI-AI4H官方挑战说明（免费参与、数据隐私保护、参与角色）",
+        "url": "https://www.who.int/news-room/events/detail/2026/09/16/default-calendar/third-meeting-of-the-global-initiative-on-ai-for-health"
+      },
+      {
+        "label": "ITU AI for Good / EvalAI GI-AI4H Benchmarking Challenge（Track B与Phase 1日期）",
+        "url": "https://competition.aiforgood.itu.int/web/challenges/challenge-page/493/overview"
+      }
+    ]
+  },
+  {
     "id": "conference_95a23edf4a",
     "title": "Euroanaesthesia 2027 · 摘要征集已开放",
     "organizer": "ESAIC",
@@ -15,7 +46,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-15",
+    "verifiedOn": "2026-11-17",
     "sources": [
       {
         "label": "ESAIC 2027官方摘要页",
@@ -59,8 +90,8 @@
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "ESAIC官方指南：12月10日23:59 CET（北京时间12月11日06:59）。",
-    "verification_attempted_on": "2026-11-12",
+    "verificationNote": "ESAIC官方2027摘要页仍显示11月1日开放、12月10日截止；既有官方指南记录的截止时刻为23:59 CET（北京时间12月11日06:59）。",
+    "verification_attempted_on": "2026-11-17",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -87,7 +118,7 @@
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
-    "verification_scope": "；2026-11-10官网/官方信息复核"
+    "verification_scope": "2026-11-17 ESAIC Euroanaesthesia 2027官方摘要页及既有官方指南；确认11月1日开放、12月10日关闭、2027年5月29–31日哥本哈根。"
   },
   {
     "id": "conference_ce9a2f54c2",
@@ -105,7 +136,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-15",
+    "verifiedOn": "2026-11-17",
     "sources": [
       {
         "label": "官方摘要征集与规则",
@@ -138,7 +169,7 @@
       "2026-11-15",
       "2026-11-16"
     ],
-    "verificationNote": "IARS官方摘要指南：12月6日23:59 PST（北京时间12月7日15:59）。",
+    "verificationNote": "IARS官网当前仍开放2027摘要征集，截止2026-12-06 23:59 PST（北京时间12月7日15:59）；摘要可申请口头或墙报展示，科学摘要发表于Anesthesia & Analgesia在线版。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -157,9 +188,10 @@
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-12",
+    "verification_attempted_on": "2026-11-17",
     "verification_failure": null,
-    "deadline_timezone": "America/Los_Angeles"
+    "deadline_timezone": "America/Los_Angeles",
+    "verification_scope": "2026-11-17 IARS官方摘要征集页；确认2027年4月30日至5月2日芝加哥、12月6日23:59 PST截止、监测技术/围术期/重症/区域麻醉等扩展类别及摘要/墙报规则。"
   },
   {
     "id": "conference_95688579fb",
@@ -170,18 +202,22 @@
     "deadline": "2026-12-01T23:59:00-05:00",
     "category": "conference",
     "topic": "会议与征集",
-    "description": "官网明确2027年科学摘要已开放，截止12月1日美国东部标准时间23:59，录用通知计划于2027年1月底发出。\n\n属于会议摘要展示，不等于完整SCI原创论文。ePoster PDF上传与摘要投稿分别有截止；字数、费用及出版安排需按投稿系统细则，本站本次未登录提交系统。",
+    "description": "官网明确2027年科学摘要已开放，截止12月1日美国东部标准时间23:59，录用通知计划于2027年1月底发出。\n\n属于会议摘要展示，不等于完整SCI原创论文。ePoster PDF上传与摘要投稿分别有截止；字数、费用及出版安排需按投稿系统细则，本站本次未登录提交系统。 官方青年研究者奖：前5篇符合资格的摘要获SCA Early Career Investigator Award，含口头报告及每人1000美元差旅资助；需在提交时标记资格并附证明。",
     "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
     "status": "open",
     "historical_status": "has_future_deadline_reported",
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-12",
+    "verifiedOn": "2026-11-17",
     "sources": [
       {
         "label": "SCA官方会议及摘要截止",
         "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+      },
+      {
+        "label": "SCA Early Career Investigator Award官方指南",
+        "url": "https://scahq.org/fellowships-and-career-development/funding-opportunities/early-career-investigator-award/"
       }
     ],
     "deadlineLabel": "2026-12-01 23:59 EST（北京时间12月2日12:59）",
@@ -196,14 +232,15 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "SCA 官方年会页确认科学摘要12月1日23:59 EST截止。",
+    "verificationNote": "SCA官方页确认摘要截止2026-12-01 23:59 EST（北京时间12月2日12:59）；Early Career Investigator Award将遴选5篇合格摘要，每人提供1000美元差旅资助。",
     "needs_review": false,
-    "verification_attempted_on": "2026-11-11",
+    "verification_attempted_on": "2026-11-17",
     "brief_date_sources": {
       "2026-10-31": "麻醉AI科研简报"
     },
     "verification_failure": null,
-    "deadline_timezone": "America/New_York"
+    "deadline_timezone": "America/New_York",
+    "verification_scope": "SCA官方2027年会页面及Early Career Investigator Award指南；核实摘要截止、会期及青年研究者奖条件。"
   },
   {
     "id": "esicm-project-endorsement2026-call2",
@@ -218,10 +255,10 @@
     "announcement_date": "2026-11-02",
     "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
     "status": "open",
-    "description": "ESICM研究项目学会背书征集；申请前须获相关Section Lead或委员会支持，英文表格邮件提交。属于项目背书申请，不是论文投稿、墙报或资金奖励；会员等完整资格待核表格。",
-    "verifiedOn": "2026-11-11",
-    "verificationNote": "2026-11-11 ESICM公告确认第二轮项目背书11月30日23:59 CET截止；完整申请表资格待核。",
-    "needs_review": true,
+    "description": "ESICM研究项目学会背书征集；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件提交至research@esicm.org。属于项目背书/成果征集，不是论文投稿、墙报或资金奖励。",
+    "verifiedOn": "2026-11-17",
+    "verificationNote": "ESICM官方页确认第二轮征集2026-11-02开放、11-30 23:59 CET截止；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件发送至research@esicm.org。此项为项目背书申请，不是论文摘要或资助申请。",
+    "needs_review": false,
     "site_catalog_id": "esicm-project-endorsement2026-call2",
     "brief_dates": [
       "2026-11-09"
@@ -229,23 +266,24 @@
     "brief_date_sources": {
       "2026-11-09": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-11",
-    "verification_failure": null
+    "verification_attempted_on": "2026-11-17",
+    "verification_failure": null,
+    "verification_scope": "2026-11-17 ESICM官方项目背书征集页；核实开放/关闭日期、申请前置审批、英文申请表及research@esicm.org提交方式。"
   },
   {
     "id": "competition_80c6f85a8d",
-    "title": "首届“AI+医疗”技术创新大赛",
+    "title": "首届“AI+医疗”技术创新大赛 · 项目征集截至11月23日",
     "organizer": "中国生产力促进中心协会",
     "journal": "中国生产力促进中心协会",
     "date": "2026-11-23",
-    "deadline": "2026-10-30",
+    "deadline": "2026-11-23",
     "category": "competition",
     "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
     "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
     "source_url": "https://www.aimtcbj.com/",
-    "status": "unknown",
+    "status": "open",
     "historical_status": "has_future_deadline_reported",
-    "archive": true,
+    "archive": false,
     "brief_dates": [
       "2026-10-25",
       "2026-10-26",
@@ -255,9 +293,9 @@
       "2026-11-15",
       "2026-11-16"
     ],
-    "archive_review_required": true,
-    "verification_attempted_on": "2026-11-16",
-    "verification_failure": "未核实正式延期公告；保留原截止日期。",
+    "archive_review_required": false,
+    "verification_attempted_on": "2026-11-17",
+    "verification_failure": null,
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报",
       "2026-10-30": "麻醉AI科研简报",
@@ -266,29 +304,27 @@
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报"
     },
-    "verificationNote": "官方索引列11月23日，旧报道为10月30日，正式延期及实时状态未确认。",
-    "verifiedOn": "2026-11-14",
-    "needs_review": true,
+    "verificationNote": "官网当前明确显示“项目征集中·截至2026年11月23日”。早期媒体报道曾列10月30日，按当前官方页面更新有效截止日；页面未注明具体时刻与时区。",
+    "verifiedOn": "2026-11-17",
+    "needs_review": false,
     "sources": [
       {
-        "label": "2026-10-30核验官方入口",
+        "label": "大赛官网当前项目征集及组织架构（2026-11-17核验）",
         "url": "https://www.aimtcbj.com/"
       },
       {
-        "label": "2026-11-14官网当前截止",
-        "url": "https://www.aimtcbj.com/"
-      },
-      {
-        "label": "10月16日报道",
+        "label": "早期媒体报道（历史日期，仅作变更记录）",
         "url": "https://www.bjnews.com.cn/detail/1792134166168952.html"
       }
     ],
     "site_catalog_id": "competition_80c6f85a8d",
-    "closure_note": "按原有2026-10-30截止日期归档；未取得延期证据，保留原规则与核验范围。",
+    "closure_note": null,
     "reported_deadline": "2026-11-23",
     "reported_deadline_source": "https://www.aimtcbj.com/",
     "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html",
-    "deadline_verification_scope": "11月14日核对官网索引；未核定有效截止日"
+    "deadline_verification_scope": "11月14日核对官网索引；未核定有效截止日",
+    "deadlineLabel": "2026-11-23（官网未注明具体时刻/时区）",
+    "verification_scope": "2026-11-17大赛官方首页当前项目征集栏与组织架构；未显示具体截止时刻/时区。"
   },
   {
     "id": "asa2027-general-sessions",
@@ -302,7 +338,7 @@
     "topic": "麻醉",
     "description": "ASA 已开放 ANESTHESIOLOGY 2027 General Session 提案，征集期为 2026 年 8 月 25 日至 11 月 16 日，支持主题小组、Clinical Forum、Refresher Course、争鸣、工作坊和圆桌讨论等形式。\n\n这是会议议程与教育项目提案，不是科学摘要征集。官网列明科学摘要将于 2027 年 1 月 5 日至 3 月 30 日开放；当前投稿应按所选 session format 的门户指南准备，截止具体时间与时区未在公开页注明。\n2026-10-31官网复核：2026-11-16为General Session教育/议程提案截止；2027科学摘要另在2027-01-05至03-30征集，不能混淆。",
     "source_url": "https://www.asahq.org/annualmeeting/education/submissions",
-    "status": "open",
+    "status": "closed",
     "archive": false,
     "archive_review_required": false,
     "verifiedOn": "2026-11-16",
@@ -317,17 +353,18 @@
     "brief_dates": [
       "2026-10-31"
     ],
-    "verificationNote": "ASA官网11月16日截止的是General Session议程提案；科研摘要2027年1月5日至3月30日另行征集。官网未明确本日截止时刻。",
+    "verificationNote": "General Session议程提案原截止2026-11-16，现按已过期归档；科研摘要2027-01-05至03-30另行征集。未核实议程提案延期。",
     "site_catalog_id": "asa2027-general-sessions",
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "needs_review": false,
+    "needs_review": true,
     "verification_attempted_on": "2026-11-11",
     "brief_date_sources": {
       "2026-10-31": "麻醉AI科研简报"
     },
-    "verification_failure": null
+    "verification_failure": null,
+    "closure_note": "原General Session议程提案截止2026-11-16；当前日期已过。科研摘要另于2027-01-05至03-30开放，不应与本条议程提案混淆。"
   },
   {
     "id": "competition_97722a8358",
@@ -340,12 +377,12 @@
     "topic": "AI创新技术、规模化应用；企业组及团队组",
     "description": "面向全国高新技术企业、科技型中小企业和创新创业团队，企业组/团队组。2026年10月16日中国科学院合肥智能机械研究所公告确认11月15日截止及报名入口；安徽省政府新闻办信息确认主办单位及算力、转化支持。奖金与费用本次未核实。",
     "source_url": "http://rgzn.cxcyds.com",
-    "status": "open",
+    "status": "closed",
     "historical_status": "has_future_deadline_reported",
     "archive": false,
     "archive_review_required": false,
     "verifiedOn": "2026-11-11",
-    "needs_review": false,
+    "needs_review": true,
     "sources": [
       {
         "label": "中科院合肥智能机械研究所10月16日报名公告",
@@ -356,7 +393,7 @@
         "url": "https://news.ustc.edu.cn/info/1056/96541.htm"
       }
     ],
-    "verificationNote": "2026-11-11 中科院机构通知检索缓存确认第十五届创新创业大赛AI专业赛11月15日报名截止；其余细则保留待核。",
+    "verificationNote": "按原记录的2026-11-15报名截止日归档；未取得延期证据，未重新核验主办方实时系统。",
     "brief_dates": [
       "2026-10-28",
       "2026-10-31"
@@ -377,7 +414,8 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verification_failure": null
+    "verification_failure": null,
+    "closure_note": "原记录报名截止2026-11-15已过；是否延期未核实。"
   },
   {
     "id": "asnacc2027",
@@ -505,7 +543,7 @@
     "topic": "医学影像",
     "description": "赛题为胸部 X 光片多标签病变检测与分类。官方公开页现列训练集18,513次检查、验证集859次检查、测试集1,414次检查；主要排名指标为宏平均AUC，宏平均F1用于同分辅助排序。\n\n官方赛程仍列数据集下载开放期为2026-10-15 15:00至11-13 23:59。公开赛项页已展示数据划分、字段、服务器环境与submission.csv要求，但本次未登录或实际下载，不能确认下载链路。报名截至11月13日，作品截至当日23:59，官网未注明时区。每队1—3名在校生，费用200元/队，仅允许使用主办方训练数据，不允许外部标注数据。\n2026-10-31复核官网：报名/作品截至11月13日，训练18,513、验证859、测试1,414次检查；区域赛报名200元/队，国赛不再另收费；国赛各赛项前三名每队1000元税前奖金，医院团队仅在成员具备高校学籍且遵守赛事规则时适用。",
     "source_url": "https://www.ncccu.org.cn/index/Paper/case1.html?way=gansu",
-    "status": "open",
+    "status": "closed",
     "archive": false,
     "archive_review_required": false,
     "verifiedOn": "2026-11-11",
@@ -520,7 +558,7 @@
     "brief_dates": [
       "2026-10-31"
     ],
-    "verificationNote": "2026-11-11 官网可读为人工智能挑战赛；未找到医学影像专门赛项或截止日期，保留为待核实机会，不宣称医学专项已开放。",
+    "verificationNote": "按原记录的2026-11-13报名截止日归档；未取得延期证据，医学专项仍未证实。",
     "site_catalog_id": "ncccu-ai",
     "provenance": [
       "麻醉AI科研简报"
@@ -531,7 +569,8 @@
       "2026-10-31": "麻醉AI科研简报"
     },
     "verification_failure": null,
-    "historical_title": "2026 全国高校计算机能力挑战赛 · 医学影像 AI 赛项"
+    "historical_title": "2026 全国高校计算机能力挑战赛 · 医学影像 AI 赛项",
+    "closure_note": "原记录报名截止2026-11-13已过；是否延期未核实。"
   },
   {
     "id": "competition_e52bc9726b",
@@ -926,20 +965,23 @@
   },
   {
     "id": "competition-shic2026",
-    "title": "第九届智慧医疗创新大赛",
+    "title": "第九届智慧医疗创新大赛（历史ID别名，详见分赛区报名记录）",
     "organizer": "全国智慧医疗创新大赛组委会",
     "date": "2026-09",
     "deadline": null,
     "category": "competition",
     "topic": "智慧医疗与临床AI",
-    "description": "2026年9月启动，赛区2026年10月至2027年4月初审与决赛，2027年6月全国总决赛；各赛区具体报名截止、费用、奖项待核验。",
+    "description": "保留历史记录ID以兼容旧链接；本届分赛区报名及截止日期以competition_df92d1669e为准，不再单独展示为另一项赛事。",
     "source_url": "https://www.shic.org.cn/",
-    "status": "needs_review",
-    "verifiedOn": "2026-11-05",
+    "status": "duplicate_alias",
+    "verifiedOn": "2026-11-17",
     "verificationNote": "仅核实官网总体赛程，未核实赛区细则；不代表全部赛区仍开放。",
     "brief_dates": [
       "2026-11-05"
-    ]
+    ],
+    "alias_of": "competition_df92d1669e",
+    "archive": true,
+    "verification_scope": "与SHIC官方第九届概况及分赛区报名记录交叉去重。"
   },
   {
     "id": "koreanesthesia2026",
@@ -1273,14 +1315,14 @@
     "deadline": "",
     "category": "competition",
     "topic": "医疗大模型",
-    "description": "第九届于 2026 年 9 月启动，面向医疗机构、企事业单位、科研院所、社会组织及个人。应用、技术、数据要素等六赛道覆盖 AI、大模型与智能医疗器械成果。\n\n2026-10-19已恢复读取官方概况及赛区表。页面仍列海南赛区10月15日报名截止、拟定10月16日决赛，未见该表提供延期日期；不得把海南呈现为仍可报名。全国报名按各赛区通知执行，其他多数赛区尚未列具体日期。报名需承诺书及成果/知识产权证明，同项目仅一个赛道、一个赛区；同单位不能连续两届报相同主题。 主办方分赛区表：深圳11月15日、安徽12月4日、广东2027年1月15日、河北和天津2027年3月15日；北京未列报名截止。",
+    "description": "第九届于2026年9月启动，官网明确全国报名期为2026年9月至2027年4月，按30个分赛区通知分别截止。面向医疗机构、企事业单位、科研院所、社会组织及个人；应用、技术、数据要素等赛道覆盖AI、大模型与智能医疗器械。近期明确日期：安徽12月4日、广东2027年1月15日、河北和天津2027年3月15日；深圳11月15日、四川11月8日、海南10月15日已过；北京未列日期。报名需主体承诺书及成果/知识产权证明，同项目仅可报一个赛道和赛区。",
     "source_url": "https://www.shic.org.cn/overview/",
     "status": "open",
     "historical_status": "deadline_unknown_or_disputed",
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-15",
+    "verifiedOn": "2026-11-17",
     "sources": [
       {
         "label": "第九届官方概况、报名规则及通知下载（页面更新 2026-10-08）",
@@ -1293,9 +1335,13 @@
       {
         "label": "2026-10-27官方概况复核",
         "url": "https://www.shic.org.cn/overview/"
+      },
+      {
+        "label": "SHIC第九届官方概况、报名事项与分赛区截止表（2026-11-17核验）",
+        "url": "https://www.shic.org.cn/overview/"
       }
     ],
-    "deadlineLabel": "分赛区独立截止：广东2027-01-15、河北2027-03-15；海南已截止，其他待通知",
+    "deadlineLabel": "全国报名期2026-09至2027-04，按赛区通知；近期：安徽12-04、广东2027-01-15、河北/天津2027-03-15；深圳已于11-15截止",
     "format": "创新项目竞赛",
     "brief_dates": [
       "2026-10-27",
@@ -1303,13 +1349,13 @@
     ],
     "site_catalog_id": "shic",
     "provenance": [],
-    "verification_attempted_on": "2026-11-11",
+    "verification_attempted_on": "2026-11-17",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
       "2026-11-05": "麻醉AI科研简报"
     },
-    "verificationNote": "深圳赛区原截止11月15日已过；全国其他赛区按各自公告，北京暂未列日期。",
+    "verificationNote": "官方页面确认全国报名期2026年9月至2027年4月，截止以各赛区通知为准；安徽12月4日、广东2027年1月15日、河北/天津2027年3月15日仍在未来；深圳11月15日、四川11月8日、海南10月15日已过，北京暂未列日期。",
     "regional_deadlines": {
       "深圳": "2026-11-15",
       "安徽": "2026-12-04",
@@ -1320,7 +1366,9 @@
       "天津": "2027-03-15",
       "北京": null
     },
-    "regional_deadlines_source": "https://www.shic.org.cn/overview/"
+    "regional_deadlines_source": "https://www.shic.org.cn/overview/",
+    "verification_scope": "2026-11-17 SHIC第九届大赛官方概况、报名事项及赛区截止表。",
+    "needs_review": false
   },
   {
     "id": "conference_bfdb156026",
