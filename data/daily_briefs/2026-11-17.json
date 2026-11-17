@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-17",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "id": "pubmed-43025023",
+      "title": "Leveraging artificial intelligence for ICU pharmacotherapy training: Supporting learning while preserving clinical judgment.",
+      "title_zh": "利用人工智能辅助ICU药物治疗培训：支持学习，同时保留临床判断",
+      "journal": "Journal of Critical Care",
+      "publication_date": "2026-11-13",
+      "date_kind": "Epub / Online First",
+      "study_type": "观点文章（Perspective）",
+      "sample_size": "无临床样本",
+      "core_findings": "提出AI可用于即时学习、病例练习和床旁药物决策支持；同时强调防止错误信息、认知卸载、技能退化、隐私风险和模型偏倚。",
+      "limitations": "观点文章，没有患者队列或临床结局验证；本次核验基于PubMed摘要。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43025023/",
+      "verifiedOn": "2026-11-17",
+      "verification_scope": "PubMed元数据与摘要",
+      "needs_review": false,
+      "selected": true,
+      "tag": "严格最新 / 方法可迁移",
+      "sources": [
+        {
+          "label": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43025023/"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.jcrc.2026.155820"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-42900999",
+      "title": "Deep learning algorithms for predicting intraoperative hypotension: A systematic review and meta-analysis.",
+      "title_zh": "深度学习算法预测术中低血压：系统综述与Meta分析",
+      "journal": "Journal of Clinical Anesthesia",
+      "publication_date": "2026-10-20",
+      "date_kind": "Epub / Ahead of Print；卷116，文章号112353",
+      "study_type": "系统综述与诊断准确性Meta分析",
+      "sample_size": "12项研究；9项研究贡献22组验证数据",
+      "core_findings": "合并敏感度0.78、特异度0.88、SROC-AUC 0.87；5分钟预测窗的敏感度0.81、特异度0.91；混合CNN-RNN的特异度优于纯CNN。",
+      "limitations": "GRADE证据确定性低；异质性较大；普遍缺少正式校准评估，外部验证稀少且地域集中；预测准确率不等于临床获益。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42900999/",
+      "verifiedOn": "2026-11-17",
+      "verification_scope": "PubMed题录与完整摘要；未人工精读全文",
+      "needs_review": false,
+      "selected": true,
+      "tag": "近30天 / 直接相关",
+      "sources": [
+        {
+          "label": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42900999/"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.jclinane.2026.112353"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-41649906",
+      "title": "rECMOmender: Reinforcement Learning for Decision Support in Venovenous Extracorporeal Membrane Oxygenation Management.",
+      "title_zh": "rECMOmender：用于静脉-静脉ECMO管理的强化学习决策支持系统",
+      "journal": "Critical Care Explorations",
+      "publication_date": "2026-02-01",
+      "date_kind": "正式卷期：2026;8(2):e1369",
+      "study_type": "单中心回顾性离线强化学习研究",
+      "sample_size": "184例成人VV-ECMO患者",
+      "core_findings": "以CQL和生理约束奖励函数生成5项呼吸机/ECMO参数建议，使用FQE与临床动作分布比较评估；展示了离线RL从连续EHR轨迹学习多参数治疗策略的实现路径。",
+      "limitations": "单中心、小样本、回顾性；策略与医生动作差异较大，尚无前瞻性安全性和患者结局验证。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41649906/",
+      "verifiedOn": "2026-11-17",
+      "verification_scope": "PubMed摘要及PMC全文方法/结果片段",
+      "needs_review": false,
+      "selected": true,
+      "tag": "高价值补看 / 方法可迁移",
+      "sources": [
+        {
+          "label": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41649906/"
+        },
+        {
+          "label": "PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12885701/"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1097/CCE.0000000000001369"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2608.16482",
+      "title": "Offline Reinforcement Learning for Hemodynamic Management of Sepsis in the ICU: a MIMIC-IV Study with Dual Off-Policy Evaluation",
+      "title_zh": "基于离线强化学习的ICU脓毒症血流动力学管理：MIMIC-IV双重离线策略评估研究",
+      "journal": "arXiv",
+      "publication_date": "2026-08-17",
+      "date_kind": "预印本上线日期",
+      "study_type": "预印本；回顾性离线强化学习研究",
+      "sample_size": "36,872次脓毒症ICU住院记录",
+      "core_findings": "将液体与血管活性药物管理建模为1,000状态、25动作的MDP，使用WIS与FQE双重离线评估，并报告ESS和临床策略一致性。",
+      "limitations": "尚未同行评审；离线策略价值估计存在分布偏移与估计不稳定风险，不能据此推断治疗效果。",
+      "source_url": "https://arxiv.org/abs/2608.16482",
+      "verifiedOn": "2026-11-17",
+      "verification_scope": "arXiv原始摘要与元数据",
+      "needs_review": false,
+      "selected": true,
+      "tag": "高价值补看 / 方法可迁移（预印本）",
+      "sources": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2608.16482"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-43007422",
+      "title": "AI - Train with the best.",
+      "title_zh": "让AI向临床表现最优的医生学习",
+      "journal": "Intensive Care Medicine",
+      "publication_date": "2026-11-10",
+      "date_kind": "Epub / Ahead of Print",
+      "study_type": "What's New in Intensive Care / 短评",
+      "sample_size": "无临床样本",
+      "core_findings": "出版商节选讨论ICU临床决策噪声，提出以高质量临床实践轨迹训练AI的研究方向，并强调模型覆盖、公平性和前瞻性评价。",
+      "limitations": "非原始研究；本次仅核验PubMed元数据与出版商节选，全文访问受限，具体方法和结论待全文复核。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43007422/",
+      "verifiedOn": "2026-11-17",
+      "verification_scope": "PubMed元数据与Springer出版商节选；全文未取得",
+      "needs_review": true,
+      "selected": false,
+      "tag": "严格最新 / 待全文核验",
+      "sources": [
+        {
+          "label": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43007422/"
+        },
+        {
+          "label": "Springer",
+          "url": "https://www.springermedizin.de/ai-train-with-the-best/53963972"
+        }
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "category": "competition",
+      "deadline": "2026-11-23",
+      "deadline_timezone": "Asia/Shanghai",
+      "deadlineLabel": "官网当前首页显示截至2026-11-23；未标明具体时刻",
+      "source_url": "https://www.aimtcbj.com/",
+      "verifiedOn": "2026-11-17",
+      "needs_review": true,
+      "verification_scope": "2026-11-17核对官网当前首页与10月16日公开报道；延期公告未找到",
+      "verificationNote": "官网当前首页显示11月23日；10月16日新闻稿写10月30日。建议先通过报名系统或秘书处确认延期，再提交。",
+      "sources": [
+        {
+          "label": "大赛官网当前页面",
+          "url": "https://www.aimtcbj.com/"
+        },
+        {
+          "label": "10月16日新闻发布会报道",
+          "url": "https://www.bjnews.com.cn/detail/1792134166168952.html"
+        }
+      ]
+    },
+    {
+      "id": "competition-huizhihui-2026",
+      "title": "首届“汇智杯”医工交叉临床创新转化路演大赛",
+      "organizer": "中华医学会外科学分会（主办）；中华医学会外科学分会手术学学组（承办）；长三角国家技术创新中心（协办）",
+      "category": "competition",
+      "deadline": "2026-11-20",
+      "deadline_timezone": "Asia/Shanghai",
+      "deadlineLabel": "2026-11-20 24:00（北京时间；以官方申报系统为准）",
+      "source_url": "https://www.nice.org.cn/application/14804.html",
+      "verifiedOn": "2026-11-17",
+      "needs_review": false,
+      "verification_scope": "长三角国家技术创新中心2026-11-09正式启动通知",
+      "verificationNote": "官方通知确认11月20日24:00截止；申报材料格式及路演答辩材料以系统说明为准。",
+      "sources": [
+        {
+          "label": "长三角国家技术创新中心正式通知",
+          "url": "https://www.nice.org.cn/application/14804.html"
+        },
+        {
+          "label": "官方申报系统",
+          "url": "https://hzb.wjprogram.com/#/index"
+        }
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 摘要征集与Innovation Showcase",
+      "organizer": "European Society of Anaesthesiology and Intensive Care（ESAIC）",
+      "category": "conference",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "deadline_timezone": "Europe/Copenhagen",
+      "deadlineLabel": "2026-12-10 23:59 CET（北京时间12月11日06:59）",
+      "event": "2027-05-29—31 · 丹麦哥本哈根",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-17",
+      "needs_review": false,
+      "verification_scope": "ESAIC官方摘要页与2027摘要指南v2.0",
+      "verificationNote": "官方指南确认12月10日23:59 CET；接受后摘要发表于EJA电子增刊，非完整论文；Innovation Showcase为独立评审。",
+      "format": null,
+      "sources": [
+        {
+          "label": "ESAIC官方摘要页",
+          "url": "https://euroanaesthesia.org/2027/abstracts/"
+        },
+        {
+          "label": "ESAIC官方指南",
+          "url": "https://euroanaesthesia.org/2027/wp-content/uploads/sites/7/2026/10/EA27_Abstract_Submission_Guidelines-2.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "International Anesthesia Research Society（IARS） / Society of Critical Care Anesthesiologists（SOCCA）",
+      "category": "conference",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "deadline_timezone": "America/Los_Angeles",
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间12月7日15:59）",
+      "event": "2027-04-30—05-02 · 美国芝加哥",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-17",
+      "needs_review": false,
+      "verification_scope": "IARS官方摘要页与完整摘要指南",
+      "verificationNote": "官方页确认12月6日23:59 PST；新设Monitoring, Technology, QI & POCUS等类别。",
+      "format": null,
+      "sources": [
+        {
+          "label": "IARS官方摘要征集",
+          "url": "https://meetings.iars.org/abstracts/submissions/"
+        },
+        {
+          "label": "IARS官方摘要指南",
+          "url": "https://meetings.iars.org/wp-content/uploads/2023/03/AM27-Abstract-Submission-Guidelines-V2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "conference_95688579fb",
+      "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
+      "organizer": "Society of Cardiovascular Anesthesiologists（SCA）",
+      "category": "conference",
+      "deadline": "2026-12-01T23:59:00-05:00",
+      "deadline_timezone": "America/New_York",
+      "deadlineLabel": "2026-12-01 23:59 EST（北京时间12月2日12:59）",
+      "event": "2027-04-08—11 · 美国拉斯维加斯",
+      "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "verifiedOn": "2026-11-17",
+      "needs_review": false,
+      "verification_scope": "SCA官方会议页与摘要提交平台",
+      "verificationNote": "官方页面和提交平台均确认12月1日23:59 EST；未核实正式出版/检索。",
+      "format": null,
+      "sources": [
+        {
+          "label": "SCA官方会议页",
+          "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+        },
+        {
+          "label": "SCA官方摘要提交平台",
+          "url": "https://www.abstractscorecard.com/cfp/submit/login.asp?EventKey=IIFKVPGV"
+        }
+      ]
+    },
+    {
+      "id": "conference-icbai2026",
+      "title": "2026年世界生物医药与人工智能大会（ICBAI 2026）",
+      "organizer": "上海交通大学生命科学技术学院生物信息学系、湖南省生物信息学会（官网列示主办单位）",
+      "category": "conference",
+      "deadline": "2026-11-20",
+      "deadline_timezone": null,
+      "deadlineLabel": "2026-11-20（官网未标明具体时刻）",
+      "event": "2026-12-11—13 · 上海交通大学，线上线下结合",
+      "source_url": "https://worldbiomedai.org/conference2026/index.html",
+      "verifiedOn": "2026-11-17",
+      "needs_review": true,
+      "verification_scope": "大会官网投稿、墙报、注册和组织单位页面",
+      "verificationNote": "官网确认11月20日截稿及主办单位；正式出版商、论文集与数据库检索未明确，投稿前建议向组委会书面确认。",
+      "format": "会议长摘要/墙报；全文仅用于评奖或期刊推荐，不等同于正式会议论文集",
+      "sources": [
+        {
+          "label": "ICBAI 2026官网征文与注册页",
+          "url": "https://worldbiomedai.org/conference2026/index.html"
+        }
+      ]
+    },
+    {
+      "id": "ieee-medai2026",
+      "title": "第四届 IEEE 医学人工智能国际会议（IEEE MedAI 2026）",
+      "organizer": "IEEE MedAI 2026 大会组委会",
+      "category": "conference",
+      "deadline": "2026-09-10",
+      "deadline_timezone": "Asia/Shanghai",
+      "deadlineLabel": "非作者/共同作者参会注册截止2026-11-17",
+      "event": "2026-11-20—22 · 郑州",
+      "source_url": "https://medai2026.zzuli.edu.cn/",
+      "verifiedOn": "2026-11-17",
+      "needs_review": false,
+      "verification_scope": "大会官网注册费用、投稿状态、会议日期及出版说明",
+      "verificationNote": "11月17日仅是非作者/共同作者注册截止；不是论文投稿截止。",
+      "format": "论文、短文、摘要与墙报投稿已关闭；目前仅剩非作者/共同作者现场参会注册",
+      "sources": [
+        {
+          "label": "IEEE MedAI 2026官网",
+          "url": "https://medai2026.zzuli.edu.cn/"
+        }
+      ]
+    }
+  ]
+}

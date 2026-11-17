@@ -454,15 +454,40 @@
     "pmid": "43025023",
     "doi": "10.1016/j.jcrc.2026.155820",
     "title": "Leveraging artificial intelligence for ICU pharmacotherapy training: Supporting learning while preserving clinical judgment.",
-    "title_zh": "",
-    "journal": "Journal of critical care",
+    "title_zh": "利用人工智能辅助ICU药物治疗培训：支持学习，同时保留临床判断",
+    "journal": "Journal of Critical Care",
     "date": "2026-11-13",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "重症AI / 临床决策支持 / 药物治疗",
+    "study_type": "观点文章（Perspective）",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/43025023/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
-    "ingested_date": "2026-11-15"
+    "status": "已核验摘要",
+    "origin": "独立检索",
+    "ingested_date": "2026-11-15",
+    "dateKind": "Epub / Online First",
+    "description": "讨论AI用于即时学习、病例练习和床旁药物治疗决策支持的场景；重点指出错误信息、认知卸载、技能退化、隐私与数据安全、模型偏倚等风险，并强调AI建议不能替代独立临床判断。无临床样本或治疗效果数据。",
+    "verification_scope": "PubMed题录与摘要；未进行全文精读",
+    "verifiedOn": "2026-11-17",
+    "needs_review": false,
+    "selected": true,
+    "sources": [
+      {
+        "label": "PubMed题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43025023/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.jcrc.2026.155820"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "pubmed-43024943",
@@ -14575,5 +14600,124 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "pubmed-43007422",
+    "pmid": "43007422",
+    "doi": "10.1007/s00134-026-08660-7",
+    "title": "AI - Train with the best.",
+    "title_zh": "让AI向临床表现最优的医生学习",
+    "journal": "Intensive Care Medicine",
+    "date": "2026-11-10",
+    "dateKind": "Epub / Ahead of Print",
+    "topic": "重症AI / 临床决策噪声 / 专家行为学习",
+    "study_type": "What's New in Intensive Care / 短评",
+    "description": "出版商节选讨论ICU临床决策中的不必要变异，并提出研究以高质量临床实践轨迹训练AI的可能性。该文不是临床验证研究；当前可访问信息未提供样本量或模型效果，全文访问受限。",
+    "status": "题录与出版商节选已核验·待全文精读",
+    "verification_scope": "PubMed元数据与Springer出版商节选；未取得全文",
+    "verifiedOn": "2026-11-17",
+    "needs_review": true,
+    "selected": false,
+    "origin": "独立检索",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43007422/",
+    "sources": [
+      {
+        "label": "PubMed题录",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43007422/"
+      },
+      {
+        "label": "Springer出版商页面",
+        "url": "https://www.springermedizin.de/ai-train-with-the-best/53963972"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
+    "id": "pubmed-41649906",
+    "pmid": "41649906",
+    "doi": "10.1097/CCE.0000000000001369",
+    "title": "rECMOmender: Reinforcement Learning for Decision Support in Venovenous Extracorporeal Membrane Oxygenation Management.",
+    "title_zh": "rECMOmender：用于静脉-静脉ECMO管理的强化学习决策支持系统",
+    "journal": "Critical Care Explorations",
+    "date": "2026-02-01",
+    "dateKind": "正式卷期：2026;8(2):e1369",
+    "topic": "重症强化学习 / 离线决策支持 / 连续治疗参数",
+    "study_type": "单中心回顾性队列上的离线强化学习模型开发",
+    "sample_size": "184例成人VV-ECMO患者",
+    "description": "使用184例成人VV-ECMO患者EHR数据，采用保守Q学习（CQL）与生理学约束奖励函数，比较离散/连续动作空间，并以Fitted Q Evaluation、动作分布和临床实践一致性评估策略。模型为FiO2、PEEP、呼吸频率、扫气流量和血流量生成可解释建议。单中心回顾性研究，尚无前瞻性安全性或患者结局验证。",
+    "status": "已核验摘要与方法信息",
+    "verification_scope": "PubMed摘要、PMC全文页面的方法与结果片段；未完成逐表全文复核",
+    "verifiedOn": "2026-11-17",
+    "needs_review": false,
+    "selected": true,
+    "origin": "独立检索",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41649906/",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41649906/"
+      },
+      {
+        "label": "PMC全文",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12885701/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1097/CCE.0000000000001369"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
+    "id": "arxiv-2608.16482",
+    "arxiv_id": "2608.16482",
+    "title": "Offline Reinforcement Learning for Hemodynamic Management of Sepsis in the ICU: a MIMIC-IV Study with Dual Off-Policy Evaluation",
+    "title_zh": "基于离线强化学习的ICU脓毒症血流动力学管理：MIMIC-IV双重离线策略评估研究",
+    "journal": "arXiv",
+    "date": "2026-08-17",
+    "dateKind": "预印本上线日期",
+    "topic": "重症因果推断 / 离线强化学习 / 血流动力学管理",
+    "study_type": "预印本；基于MIMIC-IV的回顾性离线强化学习研究",
+    "sample_size": "36,872次脓毒症ICU住院记录",
+    "description": "构建1,000状态、25动作的离散MDP，用随机森林估计临床行为策略，并结合加权重要性采样（WIS）与Fitted Q Evaluation（FQE）进行双重离线策略评估；同时报告有效样本量（ESS）与临床策略一致性。作者报告学习策略的估计回报高于观察到的临床策略。该文为预印本，未同行评审；离线估计不能证明真实治疗获益。",
+    "status": "预印本·摘要已核验",
+    "verification_scope": "arXiv原始摘要与元数据",
+    "verifiedOn": "2026-11-17",
+    "needs_review": false,
+    "peer_reviewed": false,
+    "selected": true,
+    "origin": "独立检索",
+    "source_url": "https://arxiv.org/abs/2608.16482",
+    "sources": [
+      {
+        "label": "arXiv原始页面",
+        "url": "https://arxiv.org/abs/2608.16482"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   }
 ]

@@ -32,14 +32,14 @@
   },
   {
     "id": "conference_95a23edf4a",
-    "title": "Euroanaesthesia 2027 · 摘要征集已开放",
-    "organizer": "ESAIC",
+    "title": "Euroanaesthesia 2027 · 摘要征集与Innovation Showcase",
+    "organizer": "European Society of Anaesthesiology and Intensive Care（ESAIC）",
     "journal": "ESAIC",
     "date": "2026-12-10",
     "deadline": "2026-12-10T23:59:00+01:00",
     "category": "conference",
-    "topic": "麻醉",
-    "description": "ESAIC Euroanaesthesia 2027，2027-05-29至31哥本哈根，2026-12-10 23:59 CET截止；英文摘要≤2500字符、题目≤300字符、最多6作者；Innovation Showcase不接受已商业化开发方案；录用并展示摘要发表于EJA电子增刊，非完整论文。",
+    "topic": "麻醉 / 围术期 / 设备与技术 / 数字医疗",
+    "description": "英文摘要题目≤300字符、正文≤2500字符、最多6位作者；录用后需现场ePoster展示并作简短口头介绍，摘要全文发表于European Journal of Anaesthesiology（EJA）e-supplement。首次设Innovation Showcase，可展示原型、设备、数字解决方案和教育工具；已进入商业开发/商业化流程的方案不符合该展示项目条件。AI使用须披露。最佳摘要奖及20名培训阶段作者的注册与差旅资助。",
     "source_url": "https://euroanaesthesia.org/2027/abstracts/",
     "status": "open",
     "historical_status": "deadline_corrected_2026-10-28",
@@ -49,17 +49,17 @@
     "verifiedOn": "2026-11-17",
     "sources": [
       {
-        "label": "ESAIC 2027官方摘要页",
+        "label": "ESAIC官方摘要页",
         "url": "https://euroanaesthesia.org/2027/abstracts/"
       },
       {
-        "label": "ESAIC 2027官方指南v2.0",
+        "label": "ESAIC官方指南",
         "url": "https://euroanaesthesia.org/2027/wp-content/uploads/sites/7/2026/10/EA27_Abstract_Submission_Guidelines-2.0.pdf"
       }
     ],
-    "deadlineLabel": "2026-12-10 23:59 CET（北京时间12月11日06:59）；11月1日开放",
+    "deadlineLabel": "2026-12-10 23:59 CET（北京时间12月11日06:59）",
     "deadlineInstant": "2026-12-10T22:59:00Z",
-    "event": "2027-05-29 — 05-31 · 丹麦哥本哈根",
+    "event": "2027-05-29—31 · 丹麦哥本哈根",
     "format": "英文摘要/ePoster；可申请Innovation Showcase原型展示",
     "brief_dates": [
       "2026-10-25",
@@ -83,14 +83,15 @@
       "2026-11-13",
       "2026-11-14",
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "ESAIC官方2027摘要页仍显示11月1日开放、12月10日截止；既有官方指南记录的截止时刻为23:59 CET（北京时间12月11日06:59）。",
+    "verificationNote": "官方指南确认12月10日23:59 CET；接受后摘要发表于EJA电子增刊，非完整论文；Innovation Showcase为独立评审。",
     "verification_attempted_on": "2026-11-17",
     "verification_failure": null,
     "brief_date_sources": {
@@ -114,22 +115,23 @@
       "2026-11-13": "麻醉AI科研简报",
       "2026-11-14": "麻醉AI科研简报",
       "2026-11-15": "麻醉AI科研简报",
-      "2026-11-16": "麻醉AI科研简报"
+      "2026-11-16": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
-    "verification_scope": "2026-11-17 ESAIC Euroanaesthesia 2027官方摘要页及既有官方指南；确认11月1日开放、12月10日关闭、2027年5月29–31日哥本哈根。"
+    "verification_scope": "ESAIC官方摘要页与2027摘要指南v2.0"
   },
   {
     "id": "conference_ce9a2f54c2",
     "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
-    "organizer": "IARS / SOCCA",
+    "organizer": "International Anesthesia Research Society（IARS） / Society of Critical Care Anesthesiologists（SOCCA）",
     "journal": "IARS / SOCCA",
     "date": "2026-12-06",
     "deadline": "2026-12-06T23:59:00-08:00",
     "category": "conference",
-    "topic": "麻醉",
-    "description": "IARS-SOCCA 2027，2027-04-30至05-02芝加哥，2026-12-06 23:59 PST截止；英文IMRaD合计≤4500字符、各段≤2500；展示科学摘要在线发表于A&A，非完整论文；Kosaka最佳摘要奖。",
+    "topic": "麻醉 / 围术期 / 重症 / 监测与技术 / 脑健康",
+    "description": "英文科学摘要；Introduction、Methods、Results、Conclusions合计≤4500字符（含空格），每段≤2500字符。可申请Kosaka Best Abstract Award；录用后现场墙报或电子展示。实际展示的科学摘要在线发表于Anesthesia & Analgesia；属于会议摘要发表，不是完整论文。研究在2027年会前不得先发表于索引期刊。",
     "source_url": "https://meetings.iars.org/abstracts/submissions/",
     "status": "open",
     "historical_status": "has_future_deadline_reported",
@@ -139,21 +141,17 @@
     "verifiedOn": "2026-11-17",
     "sources": [
       {
-        "label": "官方摘要征集与规则",
+        "label": "IARS官方摘要征集",
         "url": "https://meetings.iars.org/abstracts/submissions/"
       },
       {
-        "label": "官方年会页面",
-        "url": "https://meetings.iars.org/"
-      },
-      {
-        "label": "SOCCA官方会议页",
-        "url": "https://www.socca.org/annual-meeting-ql"
+        "label": "IARS官方摘要指南",
+        "url": "https://meetings.iars.org/wp-content/uploads/2023/03/AM27-Abstract-Submission-Guidelines-V2.pdf"
       }
     ],
     "deadlineLabel": "2026-12-06 23:59 PST（北京时间12月7日15:59）",
     "deadlineInstant": "2026-12-07T07:59:00Z",
-    "event": "2027-04-30 — 05-02 · 美国芝加哥",
+    "event": "2027-04-30—05-02 · 美国芝加哥",
     "format": "摘要 / 墙报",
     "brief_dates": [
       "2026-10-25",
@@ -167,9 +165,10 @@
       "2026-11-13",
       "2026-11-14",
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
-    "verificationNote": "IARS官网当前仍开放2027摘要征集，截止2026-12-06 23:59 PST（北京时间12月7日15:59）；摘要可申请口头或墙报展示，科学摘要发表于Anesthesia & Analgesia在线版。",
+    "verificationNote": "官方页确认12月6日23:59 PST；新设Monitoring, Technology, QI & POCUS等类别。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -186,23 +185,24 @@
       "2026-11-13": "麻醉AI科研简报",
       "2026-11-14": "麻醉AI科研简报",
       "2026-11-15": "麻醉AI科研简报",
-      "2026-11-16": "麻醉AI科研简报"
+      "2026-11-16": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-11-17",
     "verification_failure": null,
     "deadline_timezone": "America/Los_Angeles",
-    "verification_scope": "2026-11-17 IARS官方摘要征集页；确认2027年4月30日至5月2日芝加哥、12月6日23:59 PST截止、监测技术/围术期/重症/区域麻醉等扩展类别及摘要/墙报规则。"
+    "verification_scope": "IARS官方摘要页与完整摘要指南"
   },
   {
     "id": "conference_95688579fb",
     "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
-    "organizer": "Society of Cardiovascular Anesthesiologists",
+    "organizer": "Society of Cardiovascular Anesthesiologists（SCA）",
     "journal": "Society of Cardiovascular Anesthesiologists",
     "date": "2026-12-01",
     "deadline": "2026-12-01T23:59:00-05:00",
     "category": "conference",
-    "topic": "会议与征集",
-    "description": "官网明确2027年科学摘要已开放，截止12月1日美国东部标准时间23:59，录用通知计划于2027年1月底发出。\n\n属于会议摘要展示，不等于完整SCI原创论文。ePoster PDF上传与摘要投稿分别有截止；字数、费用及出版安排需按投稿系统细则，本站本次未登录提交系统。 官方青年研究者奖：前5篇符合资格的摘要获SCA Early Career Investigator Award，含口头报告及每人1000美元差旅资助；需在提交时标记资格并附证明。",
+    "topic": "心血管麻醉 / 围术期监测与技术",
+    "description": "官方摘要系统已开放；12月1日23:59 EST截止，1月下旬通知结果，ePoster PDF上传截止2027年3月8日。可提交科学摘要并申请相关评审；官方会议页未说明摘要是否进入正式期刊增刊或数据库检索。",
     "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
     "status": "open",
     "historical_status": "has_future_deadline_reported",
@@ -212,35 +212,37 @@
     "verifiedOn": "2026-11-17",
     "sources": [
       {
-        "label": "SCA官方会议及摘要截止",
+        "label": "SCA官方会议页",
         "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
       },
       {
-        "label": "SCA Early Career Investigator Award官方指南",
-        "url": "https://scahq.org/fellowships-and-career-development/funding-opportunities/early-career-investigator-award/"
+        "label": "SCA官方摘要提交平台",
+        "url": "https://www.abstractscorecard.com/cfp/submit/login.asp?EventKey=IIFKVPGV"
       }
     ],
     "deadlineLabel": "2026-12-01 23:59 EST（北京时间12月2日12:59）",
     "deadlineInstant": "2026-12-02T04:59:00Z",
-    "event": "2027-04-08—04-11 · 美国拉斯维加斯",
+    "event": "2027-04-08—11 · 美国拉斯维加斯",
     "format": "科学摘要 / ePoster",
     "brief_dates": [
       "2026-10-25",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-17"
     ],
     "site_catalog_id": "conference_95688579fb",
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "SCA官方页确认摘要截止2026-12-01 23:59 EST（北京时间12月2日12:59）；Early Career Investigator Award将遴选5篇合格摘要，每人提供1000美元差旅资助。",
+    "verificationNote": "官方页面和提交平台均确认12月1日23:59 EST；未核实正式出版/检索。",
     "needs_review": false,
     "verification_attempted_on": "2026-11-17",
     "brief_date_sources": {
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
     },
     "verification_failure": null,
     "deadline_timezone": "America/New_York",
-    "verification_scope": "SCA官方2027年会页面及Early Career Investigator Award指南；核实摘要截止、会期及青年研究者奖条件。"
+    "verification_scope": "SCA官方会议页与摘要提交平台"
   },
   {
     "id": "esicm-project-endorsement2026-call2",
@@ -272,14 +274,14 @@
   },
   {
     "id": "competition_80c6f85a8d",
-    "title": "首届“AI+医疗”技术创新大赛 · 项目征集截至11月23日",
+    "title": "首届“AI+医疗”技术创新大赛",
     "organizer": "中国生产力促进中心协会",
     "journal": "中国生产力促进中心协会",
     "date": "2026-11-23",
     "deadline": "2026-11-23",
     "category": "competition",
     "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
-    "description": "截止日期：2026-10-30。该记录恢复自历史科研简报，是否仍开放需查看官网核实。",
+    "description": "官网当前页面面向医疗机构、高校院所、科研院所和医疗科技企业征集AI医疗项目，设转化组与产业组。转化组要求概念验证或原理/工程样机、清晰自主知识产权、合规伦理与数据安全；每组一等奖5万元、二等奖3万元、三等奖1万元，另有100万–2000万元股权投资对接资源。官网当前截止为11月23日，但10月16日新闻稿写10月30日，尚未找到单独延期公告，需向秘书处确认。",
     "source_url": "https://www.aimtcbj.com/",
     "status": "open",
     "historical_status": "has_future_deadline_reported",
@@ -291,7 +293,8 @@
       "2026-11-12",
       "2026-11-14",
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "archive_review_required": false,
     "verification_attempted_on": "2026-11-17",
@@ -302,18 +305,19 @@
       "2026-11-12": "麻醉AI科研简报",
       "2026-11-14": "麻醉AI科研简报",
       "2026-11-15": "麻醉AI科研简报",
-      "2026-11-16": "麻醉AI科研简报"
+      "2026-11-16": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
     },
-    "verificationNote": "官网当前明确显示“项目征集中·截至2026年11月23日”。早期媒体报道曾列10月30日，按当前官方页面更新有效截止日；页面未注明具体时刻与时区。",
+    "verificationNote": "官网当前首页显示11月23日；10月16日新闻稿写10月30日。建议先通过报名系统或秘书处确认延期，再提交。",
     "verifiedOn": "2026-11-17",
-    "needs_review": false,
+    "needs_review": true,
     "sources": [
       {
-        "label": "大赛官网当前项目征集及组织架构（2026-11-17核验）",
+        "label": "大赛官网当前页面",
         "url": "https://www.aimtcbj.com/"
       },
       {
-        "label": "早期媒体报道（历史日期，仅作变更记录）",
+        "label": "10月16日新闻发布会报道",
         "url": "https://www.bjnews.com.cn/detail/1792134166168952.html"
       }
     ],
@@ -323,8 +327,13 @@
     "reported_deadline_source": "https://www.aimtcbj.com/",
     "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html",
     "deadline_verification_scope": "11月14日核对官网索引；未核定有效截止日",
-    "deadlineLabel": "2026-11-23（官网未注明具体时刻/时区）",
-    "verification_scope": "2026-11-17大赛官方首页当前项目征集栏与组织架构；未显示具体截止时刻/时区。"
+    "deadlineLabel": "官网当前首页显示截至2026-11-23；未标明具体时刻",
+    "verification_scope": "2026-11-17核对官网当前首页与10月16日公开报道；延期公告未找到",
+    "deadline_timezone": "Asia/Shanghai",
+    "previous_deadline": "2026-10-30",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   },
   {
     "id": "asa2027-general-sessions",
@@ -339,7 +348,7 @@
     "description": "ASA 已开放 ANESTHESIOLOGY 2027 General Session 提案，征集期为 2026 年 8 月 25 日至 11 月 16 日，支持主题小组、Clinical Forum、Refresher Course、争鸣、工作坊和圆桌讨论等形式。\n\n这是会议议程与教育项目提案，不是科学摘要征集。官网列明科学摘要将于 2027 年 1 月 5 日至 3 月 30 日开放；当前投稿应按所选 session format 的门户指南准备，截止具体时间与时区未在公开页注明。\n2026-10-31官网复核：2026-11-16为General Session教育/议程提案截止；2027科学摘要另在2027-01-05至03-30征集，不能混淆。",
     "source_url": "https://www.asahq.org/annualmeeting/education/submissions",
     "status": "closed",
-    "archive": false,
+    "archive": true,
     "archive_review_required": false,
     "verifiedOn": "2026-11-16",
     "sources": [
@@ -351,7 +360,8 @@
     "deadlineLabel": "2026-11-16（官网未注明具体时间与时区）",
     "format": "会议议程 / 专题提案",
     "brief_dates": [
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-17"
     ],
     "verificationNote": "General Session议程提案原截止2026-11-16，现按已过期归档；科研摘要2027-01-05至03-30另行征集。未核实议程提案延期。",
     "site_catalog_id": "asa2027-general-sessions",
@@ -361,10 +371,12 @@
     "needs_review": true,
     "verification_attempted_on": "2026-11-11",
     "brief_date_sources": {
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
     },
     "verification_failure": null,
-    "closure_note": "原General Session议程提案截止2026-11-16；当前日期已过。科研摘要另于2027-01-05至03-30开放，不应与本条议程提案混淆。"
+    "closure_note": "截至2026-11-17，原官方截止日期已过；不再作为开放机会推荐。",
+    "closedVerifiedOn": "2026-11-17"
   },
   {
     "id": "competition_97722a8358",
@@ -379,7 +391,7 @@
     "source_url": "http://rgzn.cxcyds.com",
     "status": "closed",
     "historical_status": "has_future_deadline_reported",
-    "archive": false,
+    "archive": true,
     "archive_review_required": false,
     "verifiedOn": "2026-11-11",
     "needs_review": true,
@@ -396,11 +408,13 @@
     "verificationNote": "按原记录的2026-11-15报名截止日归档；未取得延期证据，未重新核验主办方实时系统。",
     "brief_dates": [
       "2026-10-28",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-17"
     ],
     "brief_date_sources": {
       "2026-10-28": "麻醉AI科研简报",
-      "2026-10-31": "麻醉AI科研简报"
+      "2026-10-31": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-11-11",
     "source_attempts": [
@@ -415,7 +429,8 @@
       "麻醉AI科研简报"
     ],
     "verification_failure": null,
-    "closure_note": "原记录报名截止2026-11-15已过；是否延期未核实。"
+    "closure_note": "截至2026-11-17，原官方截止日期已过；不再作为开放机会推荐。",
+    "closedVerifiedOn": "2026-11-17"
   },
   {
     "id": "asnacc2027",
@@ -1418,32 +1433,115 @@
     "title": "第四届 IEEE 医学人工智能国际会议（IEEE MedAI 2026）",
     "organizer": "IEEE MedAI 2026 大会组委会",
     "category": "conference",
-    "date": "",
-    "event": "2026-11-20—11-22 · 郑州",
+    "date": "2026-11-20",
+    "event": "2026-11-20—22 · 郑州",
     "deadline": "2026-09-10",
     "deadlineLabel": "常规论文第二轮截稿：2026-09-10；定稿2026-10-15",
     "status": "closed",
-    "format": "学术交流；常规论文、短文、摘要/墙报征集已截止",
-    "topic": "医学AI / 临床数据建模",
+    "format": "论文、短文、摘要与墙报投稿已关闭；目前仅剩非作者/共同作者现场参会注册",
+    "topic": "医学AI / 临床数据建模 / 智能体 / 数字孪生",
     "source_url": "https://medai2026.zzuli.edu.cn/",
     "sources": [
       {
-        "label": "会议官网与重要日期",
+        "label": "IEEE MedAI 2026官网",
         "url": "https://medai2026.zzuli.edu.cn/"
       }
     ],
-    "description": "大会11月20–22日在郑州举行。官网显示常规论文第二轮9月10日截止，短文8月15日截止，定稿10月15日截止；未见重新开放投稿。",
-    "verifiedOn": "2026-11-16",
-    "verification_scope": "大会官网会议日期与投稿日程",
+    "description": "大会11月20–22日在郑州线下举行；论文投稿与定稿已截止。官网当前列非作者/共同作者注册截止11月17日；非作者参会无线上参会选项。2026会议录用论文将进入IEEE会议论文集，历届论文集曾收录于IEEE Xplore；期刊推荐不等于录用或发表保证。",
+    "verifiedOn": "2026-11-17",
+    "verification_scope": "大会官网注册费用、投稿状态、会议日期及出版说明",
     "needs_review": false,
     "site_catalog_id": "ieee-medai2026",
     "brief_dates": [
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "brief_date_sources": {
       "2026-11-15": "麻醉AI科研简报",
-      "2026-11-16": "麻醉AI科研简报"
-    }
+      "2026-11-16": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "registration_deadline": "2026-11-17",
+    "registration_deadline_timezone": "Asia/Shanghai",
+    "registration_deadline_label": "非作者/共同作者参会注册截止2026-11-17",
+    "attendee_fee": "非作者/共同作者：IEEE学生会员1860元，学生非会员2200元；IEEE会员2625元，非会员3150元",
+    "verificationNote": "11月17日仅是非作者/共同作者注册截止；不是论文投稿截止。",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
+    "id": "competition-huizhihui-2026",
+    "title": "首届“汇智杯”医工交叉临床创新转化路演大赛",
+    "organizer": "中华医学会外科学分会（主办）；中华医学会外科学分会手术学学组（承办）；长三角国家技术创新中心（协办）",
+    "category": "competition",
+    "deadline": "2026-11-20",
+    "deadline_timezone": "Asia/Shanghai",
+    "deadlineLabel": "2026-11-20 24:00（北京时间；以官方申报系统为准）",
+    "date": "2026-11-20",
+    "event": "城市路演：2026-12-03线上；全国终评及总决赛：2026-12-19杭州",
+    "topic": "医工交叉临床创新转化",
+    "description": "面向全国三甲医院在职临床医师及科研团队负责人；项目须达到实验室验证阶段及以上，聚焦真实临床痛点并具有患者获益价值，需有自主知识产权。获奖项目可进入创新合作池，获得专家辅导、概念验证、中试工程化、注册临床、法规支持、知识产权运营及资本对接。官网未公布具体现金奖金或报名费。",
+    "format": "项目申报与路演；非正式论文投稿",
+    "source_url": "https://www.nice.org.cn/application/14804.html",
+    "status": "open",
+    "verifiedOn": "2026-11-17",
+    "needs_review": false,
+    "verification_scope": "长三角国家技术创新中心2026-11-09正式启动通知",
+    "verificationNote": "官方通知确认11月20日24:00截止；申报材料格式及路演答辩材料以系统说明为准。",
+    "sources": [
+      {
+        "label": "长三角国家技术创新中心正式通知",
+        "url": "https://www.nice.org.cn/application/14804.html"
+      },
+      {
+        "label": "官方申报系统",
+        "url": "https://hzb.wjprogram.com/#/index"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
+    "id": "conference-icbai2026",
+    "title": "2026年世界生物医药与人工智能大会（ICBAI 2026）",
+    "organizer": "上海交通大学生命科学技术学院生物信息学系、湖南省生物信息学会（官网列示主办单位）",
+    "category": "conference",
+    "deadline": "2026-11-20",
+    "deadlineLabel": "2026-11-20（官网未标明具体时刻）",
+    "date": "2026-11-20",
+    "event": "2026-12-11—13 · 上海交通大学，线上线下结合",
+    "topic": "生物医学AI / 智能医疗装备 / 医疗大模型",
+    "description": "投稿中文或英文长摘要800–1000字；若参加优秀论文评奖或申请期刊推荐，需另交全文。录用摘要可做120×90 cm墙报。官网列有合作期刊但标注“更新中”，未承诺所有投稿进入正式论文集或EI/Scopus；注册费1500–2900元，11月20日前为早鸟价。",
+    "format": "会议长摘要/墙报；全文仅用于评奖或期刊推荐，不等同于正式会议论文集",
+    "source_url": "https://worldbiomedai.org/conference2026/index.html",
+    "status": "open",
+    "verifiedOn": "2026-11-17",
+    "needs_review": true,
+    "verification_scope": "大会官网投稿、墙报、注册和组织单位页面",
+    "verificationNote": "官网确认11月20日截稿及主办单位；正式出版商、论文集与数据库检索未明确，投稿前建议向组委会书面确认。",
+    "sources": [
+      {
+        "label": "ICBAI 2026官网征文与注册页",
+        "url": "https://worldbiomedai.org/conference2026/index.html"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
   }
 ]

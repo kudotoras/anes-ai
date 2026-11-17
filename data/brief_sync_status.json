@@ -2,31 +2,42 @@
   "schema_version": 1,
   "brief_date": "2026-11-17",
   "overall_status": "partial",
-  "brief_status": "当日简报待生成/待对齐。automations.peek显示11月17日运行仍为in_progress；最新完整结果为11月16日且content_truncated=false。今日独立检索已完成部分，未把11月16日简报冒充为11月17日。",
-  "selected_paper_ids": [],
+  "brief_status": "4篇精选（含1篇预印本）+1条待全文核验；2项比赛、5项会议/征集。",
+  "selected_paper_ids": [
+    "pubmed-43025023",
+    "pubmed-42900999",
+    "pubmed-41649906",
+    "arxiv-2608.16482"
+  ],
+  "referenced_paper_ids": [
+    "pubmed-43007422"
+  ],
+  "competition_ids": [
+    "competition_80c6f85a8d",
+    "competition-huizhihui-2026"
+  ],
+  "conference_ids": [
+    "conference_95a23edf4a",
+    "conference_ce9a2f54c2",
+    "conference_95688579fb",
+    "conference-icbai2026",
+    "ieee-medai2026"
+  ],
   "sites": {
     "status": "failed",
-    "verification": "本轮工具清单未提供Sites get_site、create_source_repository_write_credential或站点API客户端；未读取/api/update-guide与/api/site-data，未发起写入，原站点内容和公开只读权限未触碰。",
+    "verification": "本轮未能在可用工具中找到Sites项目的get_site、/api/update-guide及/api/site-data读取/写入接口；未执行写入，不宣称成功。",
     "pending_items": [
-      "恢复Sites工具后读取维护说明和最新目录",
-      "取得短期管理员凭据并按指南写入",
-      "POST后GET回读验证",
-      "回查11/11–11/17站点简报目录"
+      "2026-11-17全部论文、比赛和会议条目待Sites同步"
     ]
   },
   "github": {
-    "status": "partial",
-    "readback_commit": "faae3bd0f8d853044f0348a9f16c24a092f50a59",
-    "verification": "data/research.json与data/opportunities.json已原子提交并回读；3条既有文献元数据更新、1项比赛新增、10项机会更新/去重或状态调整。随后GitHub自动PubMed流程另行新增14条题录（见data/update_status.json），该自动题录任务不代表每日简报同步。data/article_summaries.json与data/history_briefs.json未改动。11月17日简报尚未完成，未创建data/daily_briefs/2026-11-17.json。",
-    "pending_items": [
-      "等待11月17日麻醉AI科研简报完整输出",
-      "写入并回读data/daily_briefs/2026-11-17.json",
-      "简报完成后增量更新history_briefs.json并回读"
-    ]
+    "status": "pending_verification",
+    "verification": "数据文件已准备，等待提交后逐项回读验证。",
+    "pending_items": []
   },
   "frontend": {
-    "status": "pending",
-    "verification": "本轮未检查GitHub Pages公开前台或确认部署工作流；未修改源码。"
+    "status": "not_checked",
+    "verification": "本轮未触发站点部署或前端工作流；仅计划更新GitHub数据JSON。"
   },
   "brief_catchup": {
     "window_start": "2026-11-11",
@@ -72,21 +83,23 @@
       {
         "date": "2026-11-17",
         "github_catalog_missing": [],
-        "sites_catalog_missing": null,
-        "sites_audit_status": "not_read",
-        "status": "brief_pending"
+        "sites_catalog_missing": [
+          "本期条目待同步；Sites接口本轮不可用"
+        ]
       }
     ]
   },
   "counts": {
-    "independent_new_bibliography": 0,
-    "independent_modified_papers": 3,
-    "github_new_opportunities": 1,
-    "github_modified_opportunities": 10,
-    "github_closed_opportunities": 3,
-    "github_automatic_pubmed_ingested": 14,
-    "daily_selected": 0,
-    "daily_brief_pending": true
+    "independent_new_bibliography": 2,
+    "brief_new_papers": 4,
+    "brief_reference_papers": 1,
+    "github_new_opportunities": 2,
+    "github_modified_opportunities": 7,
+    "site_new_papers": 0,
+    "site_modified_papers": 0,
+    "site_new_opportunities": 0,
+    "site_modified_opportunities": 0,
+    "daily_selected": 4
   },
   "failures": [
     {
@@ -104,6 +117,18 @@
     {
       "id": "gi-ai4h-specification",
       "reason": "GI-AI4H Track B/Phase 1日期来自官方EvalAI挑战页检索摘要；详细任务规范和评分细则待复核。"
+    },
+    {
+      "id": "sites-connector",
+      "reason": "当前运行环境未提供Sites专用工具；无法取得项目URL、update-guide或site-data，因此本期Sites写入与回读失败。"
+    },
+    {
+      "id": "ai-medical-deadline",
+      "reason": "官网当前首页显示2026-11-23，但10月16日新闻稿写2026-10-30；未找到单独延期公告，需报名系统/秘书处确认。"
+    },
+    {
+      "id": "publisher-coverage",
+      "reason": "完成了重点期刊与主题定向检索，但未能穷尽清单中每一本期刊的全部Online First/最新ToC。"
     }
   ],
   "previous_syncs": [
@@ -340,25 +365,5 @@
       "frontend": "pending",
       "note": "GitHub独立目录增量已提交并回读；Sites工具不可用；当天简报尚未生成，待生成后补齐daily_briefs/history_briefs。"
     }
-  ],
-  "referenced_paper_ids": [
-    "pubmed-43003703",
-    "pubmed-43007273",
-    "pubmed-43025897"
-  ],
-  "competition_ids": [
-    "gi-ai4h-benchmarking2026-trackb",
-    "competition_80c6f85a8d",
-    "competition_df92d1669e",
-    "competition-shic2026",
-    "competition_97722a8358",
-    "ncccu-ai"
-  ],
-  "conference_ids": [
-    "conference_ce9a2f54c2",
-    "conference_95a23edf4a",
-    "conference_95688579fb",
-    "esicm-project-endorsement2026-call2",
-    "asa2027-general-sessions"
   ]
 }
