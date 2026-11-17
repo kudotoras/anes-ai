@@ -598,6 +598,21 @@
     "ingested_date": "2026-11-16"
   },
   {
+    "id": "pubmed-43038589",
+    "pmid": "43038589",
+    "doi": "10.1016/j.ijmedinf.2026.106816",
+    "title": "Automated extraction of seizures and ictal-interictal continuum patterns from EEG reports to enable large-scale neurophysiology and neurocritical care research.",
+    "title_zh": "",
+    "journal": "International journal of medical informatics",
+    "date": "2026-11-13",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43038589/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
     "id": "pubmed-43018772",
     "pmid": "43018772",
     "doi": "10.1007/s00429-026-03214-5",
@@ -3762,6 +3777,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-15"
+  },
+  {
+    "id": "pubmed-43039604",
+    "pmid": "43039604",
+    "doi": "10.1016/j.nec.2026.09.012",
+    "title": "Future Directions in Endoscopic Pituitary Surgery: Robotics, Artificial Intelligence, and Technological Innovations.",
+    "title_zh": "",
+    "journal": "Neurosurgery clinics of North America",
+    "date": "2026-10-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039604/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
   },
   {
     "id": "pubmed-42944909",
