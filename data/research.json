@@ -130,6 +130,21 @@
     "ingested_date": "2026-11-14"
   },
   {
+    "id": "pubmed-43036145",
+    "pmid": "43036145",
+    "doi": "10.1002/ddr.70412",
+    "title": "mRNA‑Encoded Antibodies as a Powerful Arsenal Against Superbugs-Induced Sepsis.",
+    "title_zh": "",
+    "journal": "Drug development research",
+    "date": "2026-12",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43036145/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
     "id": "pubmed-43033141",
     "pmid": "43033141",
     "doi": "10.1097/ACO.0000000000001721",
@@ -143,6 +158,96 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43038320",
+    "pmid": "43038320",
+    "doi": "10.1097/MOU.0000000000001458",
+    "title": "Image-guided and augmented reality-assisted robotic surgery.",
+    "title_zh": "",
+    "journal": "Current opinion in urology",
+    "date": "2026-11-17",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43038320/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
+    "id": "pubmed-43037770",
+    "pmid": "43037770",
+    "doi": "10.1007/s10916-026-02486-y",
+    "title": "Decoding Complications: Large Language Model-Based Classification of Free-Text Entries in Clinical Stroke Registries.",
+    "title_zh": "",
+    "journal": "Journal of medical systems",
+    "date": "2026-11-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43037770/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
+    "id": "pubmed-43037685",
+    "pmid": "43037685",
+    "doi": "10.1007/s00586-026-10510-5",
+    "title": "Paraspinal muscle radiomics from MRI alone or combined with CT for predicting outcomes after degenerative lumbar spine surgery: a scoping review.",
+    "title_zh": "",
+    "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+    "date": "2026-11-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43037685/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
+    "id": "pubmed-43037196",
+    "pmid": "43037196",
+    "doi": "10.1002/alr.70309",
+    "title": "Development and External Validation of a Machine Learning-Based Predictive Model for Postoperative Recurrence in Pediatric Chronic Rhinosinusitis.",
+    "title_zh": "",
+    "journal": "International forum of allergy & rhinology",
+    "date": "2026-11-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43037196/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
+    "id": "pubmed-43037729",
+    "pmid": "43037729",
+    "doi": "10.1007/s00423-026-04351-5",
+    "title": "ChatGPT concordance with guidelines and tumour board treatment recommendations in gastrointestinal cancer.",
+    "title_zh": "",
+    "journal": "Langenbeck's archives of surgery",
+    "date": "2026-11-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43037729/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
+    "id": "pubmed-43037483",
+    "pmid": "43037483",
+    "doi": "10.1056/AIoa2600590",
+    "title": "Opportunistic Risk Assessment of Major Osteoporotic Fractures from Routine Chest Radiographs Using Deep Learning.",
+    "title_zh": "",
+    "journal": "NEJM AI",
+    "date": "2026-11-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43037483/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
   },
   {
     "id": "pubmed-43034949",
@@ -639,6 +744,21 @@
     ]
   },
   {
+    "id": "pubmed-43036679",
+    "pmid": "43036679",
+    "doi": "10.7717/peerj.21877",
+    "title": "Learning curve analysis of artificial intelligence-assisted ultrasound for teaching popliteal fossa sciatic nerve block to novice anesthesiologists: a pilot randomized educational study.",
+    "title_zh": "",
+    "journal": "PeerJ",
+    "date": "2026-11-12",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43036679/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
     "id": "pubmed-43012937",
     "pmid": "43012937",
     "doi": "10.1007/s10557-026-07986-0",
@@ -711,6 +831,21 @@
     "selection_dates": [
       "2026-11-15"
     ]
+  },
+  {
+    "id": "pubmed-43036587",
+    "pmid": "43036587",
+    "doi": "10.2147/PPA.S653378",
+    "title": "Development and Validation of an Interpretable Machine Learning Model for Predicting Postoperative Functional Exercise Adherence in Breast Cancer Patients: The Central Role of Illness Perception.",
+    "title_zh": "",
+    "journal": "Patient preference and adherence",
+    "date": "2026-11-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43036587/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
   },
   {
     "id": "pubmed-43007273",
@@ -872,6 +1007,21 @@
     "needs_review": false,
     "origin": "独立检索",
     "selected": false
+  },
+  {
+    "id": "pubmed-43036211",
+    "pmid": "43036211",
+    "doi": "10.62713/aic.4852",
+    "title": "Development and Validation of a LASSO-Based Prediction Model for Postoperative Bleeding Following Pediatric Tonsillectomy and Adenoidectomy.",
+    "title_zh": "",
+    "journal": "Annali italiani di chirurgia",
+    "date": "2026-11-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43036211/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
   },
   {
     "id": "pubmed-43001843",
@@ -2414,6 +2564,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-12"
+  },
+  {
+    "id": "pubmed-43036881",
+    "pmid": "43036881",
+    "doi": "10.1111/nicc.70772",
+    "title": "Nurses' Experiences With the Use of Artificial Intelligence-Supported Decision-Making Systems and Their Ethical Dimensions: A Qualitative Study.",
+    "title_zh": "",
+    "journal": "Nursing in critical care",
+    "date": "2026-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43036881/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
+    "id": "pubmed-43036876",
+    "pmid": "43036876",
+    "doi": "10.1111/nicc.70778",
+    "title": "Reading the Patient, Evaluating the System: Nurses' Trust and Reliance in Artificial Intelligence-Assisted Early Warning.",
+    "title_zh": "",
+    "journal": "Nursing in critical care",
+    "date": "2026-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43036876/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
   },
   {
     "id": "pubmed-42966757",
@@ -9319,6 +9499,21 @@
     "ingested_date": "2026-11-03"
   },
   {
+    "id": "pubmed-43037098",
+    "pmid": "43037098",
+    "doi": "10.21614/chirurgia.3379",
+    "title": "Artificial Intelligence - Driven Risk Stratification in Emergency Surgery: Development and Validation of the PROMETHEUS-AI Model.",
+    "title_zh": "",
+    "journal": "Chirurgia (Bucharest, Romania : 1990)",
+    "date": "2026-10-01",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43037098/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
+  },
+  {
     "id": "pubmed-42897696",
     "pmid": "42897696",
     "doi": "10.1111/nmo.70467",
@@ -9624,6 +9819,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-09"
+  },
+  {
+    "id": "pubmed-43036519",
+    "pmid": "43036519",
+    "doi": "10.1177/17562872261473178",
+    "title": "Evaluating trends in treatment and outcomes of stage I renal cell carcinoma with machine learning: The RECLAIM-L (REnal cancer landscape and artificial intelligence with machine learning) database.",
+    "title_zh": "",
+    "journal": "Therapeutic advances in urology",
+    "date": "2026-09-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43036519/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-17"
   },
   {
     "id": "legacy-5",
