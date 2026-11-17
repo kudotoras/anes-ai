@@ -336,6 +336,122 @@
     ]
   },
   {
+    "id": "ieee-medai2026",
+    "title": "第四届 IEEE 医学人工智能国际会议（IEEE MedAI 2026）",
+    "organizer": "IEEE MedAI 2026 大会组委会",
+    "category": "conference",
+    "date": "2026-11-20",
+    "event": "2026-11-20—22 · 郑州",
+    "deadline": "2026-09-10",
+    "deadlineLabel": "常规论文第二轮截稿：2026-09-10；定稿2026-10-15",
+    "status": "closed",
+    "format": "论文、短文、摘要与墙报投稿已关闭；目前仅剩非作者/共同作者现场参会注册",
+    "topic": "医学AI / 临床数据建模 / 智能体 / 数字孪生",
+    "source_url": "https://medai2026.zzuli.edu.cn/",
+    "sources": [
+      {
+        "label": "IEEE MedAI 2026官网",
+        "url": "https://medai2026.zzuli.edu.cn/"
+      }
+    ],
+    "description": "大会11月20–22日在郑州线下举行；论文投稿与定稿已截止。官网当前列非作者/共同作者注册截止11月17日；非作者参会无线上参会选项。2026会议录用论文将进入IEEE会议论文集，历届论文集曾收录于IEEE Xplore；期刊推荐不等于录用或发表保证。",
+    "verifiedOn": "2026-11-17",
+    "verification_scope": "大会官网注册费用、投稿状态、会议日期及出版说明",
+    "needs_review": false,
+    "site_catalog_id": "ieee-medai2026",
+    "brief_dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-15": "麻醉AI科研简报",
+      "2026-11-16": "麻醉AI科研简报",
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "registration_deadline": "2026-11-17",
+    "registration_deadline_timezone": "Asia/Shanghai",
+    "registration_deadline_label": "非作者/共同作者参会注册截止2026-11-17",
+    "attendee_fee": "非作者/共同作者：IEEE学生会员1860元，学生非会员2200元；IEEE会员2625元，非会员3150元",
+    "verificationNote": "11月17日仅是非作者/共同作者注册截止；不是论文投稿截止。",
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
+    "id": "competition-huizhihui-2026",
+    "title": "首届“汇智杯”医工交叉临床创新转化路演大赛",
+    "organizer": "中华医学会外科学分会（主办）；中华医学会外科学分会手术学学组（承办）；长三角国家技术创新中心（协办）",
+    "category": "competition",
+    "deadline": "2026-11-20",
+    "deadline_timezone": "Asia/Shanghai",
+    "deadlineLabel": "2026-11-20 24:00（北京时间；以官方申报系统为准）",
+    "date": "2026-11-20",
+    "event": "城市路演：2026-12-03线上；全国终评及总决赛：2026-12-19杭州",
+    "topic": "医工交叉临床创新转化",
+    "description": "面向全国三甲医院在职临床医师及科研团队负责人；项目须达到实验室验证阶段及以上，聚焦真实临床痛点并具有患者获益价值，需有自主知识产权。获奖项目可进入创新合作池，获得专家辅导、概念验证、中试工程化、注册临床、法规支持、知识产权运营及资本对接。官网未公布具体现金奖金或报名费。",
+    "format": "项目申报与路演；非正式论文投稿",
+    "source_url": "https://www.nice.org.cn/application/14804.html",
+    "status": "open",
+    "verifiedOn": "2026-11-17",
+    "needs_review": false,
+    "verification_scope": "长三角国家技术创新中心2026-11-09正式启动通知",
+    "verificationNote": "官方通知确认11月20日24:00截止；申报材料格式及路演答辩材料以系统说明为准。",
+    "sources": [
+      {
+        "label": "长三角国家技术创新中心正式通知",
+        "url": "https://www.nice.org.cn/application/14804.html"
+      },
+      {
+        "label": "官方申报系统",
+        "url": "https://hzb.wjprogram.com/#/index"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
+    "id": "conference-icbai2026",
+    "title": "2026年世界生物医药与人工智能大会（ICBAI 2026）",
+    "organizer": "上海交通大学生命科学技术学院生物信息学系、湖南省生物信息学会（官网列示主办单位）",
+    "category": "conference",
+    "deadline": "2026-11-20",
+    "deadlineLabel": "2026-11-20（官网未标明具体时刻）",
+    "date": "2026-11-20",
+    "event": "2026-12-11—13 · 上海交通大学，线上线下结合",
+    "topic": "生物医学AI / 智能医疗装备 / 医疗大模型",
+    "description": "投稿中文或英文长摘要800–1000字；若参加优秀论文评奖或申请期刊推荐，需另交全文。录用摘要可做120×90 cm墙报。官网列有合作期刊但标注“更新中”，未承诺所有投稿进入正式论文集或EI/Scopus；注册费1500–2900元，11月20日前为早鸟价。",
+    "format": "会议长摘要/墙报；全文仅用于评奖或期刊推荐，不等同于正式会议论文集",
+    "source_url": "https://worldbiomedai.org/conference2026/index.html",
+    "status": "open",
+    "verifiedOn": "2026-11-17",
+    "needs_review": true,
+    "verification_scope": "大会官网投稿、墙报、注册和组织单位页面",
+    "verificationNote": "官网确认11月20日截稿及主办单位；正式出版商、论文集与数据库检索未明确，投稿前建议向组委会书面确认。",
+    "sources": [
+      {
+        "label": "ICBAI 2026官网征文与注册页",
+        "url": "https://worldbiomedai.org/conference2026/index.html"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-17"
+    ],
+    "brief_date_sources": {
+      "2026-11-17": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
+    ]
+  },
+  {
     "id": "asa2027-general-sessions",
     "title": "ANESTHESIOLOGY 2027 · General Session 议程提案征集",
     "organizer": "American Society of Anesthesiologists（ASA）",
@@ -1427,121 +1543,5 @@
     "meeting_end": "2026-10-24",
     "verifiedOn": "2026-11-01",
     "verification_scope": "官方CCF新闻检索索引核验会期；非征稿规则"
-  },
-  {
-    "id": "ieee-medai2026",
-    "title": "第四届 IEEE 医学人工智能国际会议（IEEE MedAI 2026）",
-    "organizer": "IEEE MedAI 2026 大会组委会",
-    "category": "conference",
-    "date": "2026-11-20",
-    "event": "2026-11-20—22 · 郑州",
-    "deadline": "2026-09-10",
-    "deadlineLabel": "常规论文第二轮截稿：2026-09-10；定稿2026-10-15",
-    "status": "closed",
-    "format": "论文、短文、摘要与墙报投稿已关闭；目前仅剩非作者/共同作者现场参会注册",
-    "topic": "医学AI / 临床数据建模 / 智能体 / 数字孪生",
-    "source_url": "https://medai2026.zzuli.edu.cn/",
-    "sources": [
-      {
-        "label": "IEEE MedAI 2026官网",
-        "url": "https://medai2026.zzuli.edu.cn/"
-      }
-    ],
-    "description": "大会11月20–22日在郑州线下举行；论文投稿与定稿已截止。官网当前列非作者/共同作者注册截止11月17日；非作者参会无线上参会选项。2026会议录用论文将进入IEEE会议论文集，历届论文集曾收录于IEEE Xplore；期刊推荐不等于录用或发表保证。",
-    "verifiedOn": "2026-11-17",
-    "verification_scope": "大会官网注册费用、投稿状态、会议日期及出版说明",
-    "needs_review": false,
-    "site_catalog_id": "ieee-medai2026",
-    "brief_dates": [
-      "2026-11-15",
-      "2026-11-16",
-      "2026-11-17"
-    ],
-    "brief_date_sources": {
-      "2026-11-15": "麻醉AI科研简报",
-      "2026-11-16": "麻醉AI科研简报",
-      "2026-11-17": "麻醉AI科研简报"
-    },
-    "registration_deadline": "2026-11-17",
-    "registration_deadline_timezone": "Asia/Shanghai",
-    "registration_deadline_label": "非作者/共同作者参会注册截止2026-11-17",
-    "attendee_fee": "非作者/共同作者：IEEE学生会员1860元，学生非会员2200元；IEEE会员2625元，非会员3150元",
-    "verificationNote": "11月17日仅是非作者/共同作者注册截止；不是论文投稿截止。",
-    "provenance": [
-      "麻醉AI科研简报"
-    ]
-  },
-  {
-    "id": "competition-huizhihui-2026",
-    "title": "首届“汇智杯”医工交叉临床创新转化路演大赛",
-    "organizer": "中华医学会外科学分会（主办）；中华医学会外科学分会手术学学组（承办）；长三角国家技术创新中心（协办）",
-    "category": "competition",
-    "deadline": "2026-11-20",
-    "deadline_timezone": "Asia/Shanghai",
-    "deadlineLabel": "2026-11-20 24:00（北京时间；以官方申报系统为准）",
-    "date": "2026-11-20",
-    "event": "城市路演：2026-12-03线上；全国终评及总决赛：2026-12-19杭州",
-    "topic": "医工交叉临床创新转化",
-    "description": "面向全国三甲医院在职临床医师及科研团队负责人；项目须达到实验室验证阶段及以上，聚焦真实临床痛点并具有患者获益价值，需有自主知识产权。获奖项目可进入创新合作池，获得专家辅导、概念验证、中试工程化、注册临床、法规支持、知识产权运营及资本对接。官网未公布具体现金奖金或报名费。",
-    "format": "项目申报与路演；非正式论文投稿",
-    "source_url": "https://www.nice.org.cn/application/14804.html",
-    "status": "open",
-    "verifiedOn": "2026-11-17",
-    "needs_review": false,
-    "verification_scope": "长三角国家技术创新中心2026-11-09正式启动通知",
-    "verificationNote": "官方通知确认11月20日24:00截止；申报材料格式及路演答辩材料以系统说明为准。",
-    "sources": [
-      {
-        "label": "长三角国家技术创新中心正式通知",
-        "url": "https://www.nice.org.cn/application/14804.html"
-      },
-      {
-        "label": "官方申报系统",
-        "url": "https://hzb.wjprogram.com/#/index"
-      }
-    ],
-    "brief_dates": [
-      "2026-11-17"
-    ],
-    "brief_date_sources": {
-      "2026-11-17": "麻醉AI科研简报"
-    },
-    "provenance": [
-      "麻醉AI科研简报"
-    ]
-  },
-  {
-    "id": "conference-icbai2026",
-    "title": "2026年世界生物医药与人工智能大会（ICBAI 2026）",
-    "organizer": "上海交通大学生命科学技术学院生物信息学系、湖南省生物信息学会（官网列示主办单位）",
-    "category": "conference",
-    "deadline": "2026-11-20",
-    "deadlineLabel": "2026-11-20（官网未标明具体时刻）",
-    "date": "2026-11-20",
-    "event": "2026-12-11—13 · 上海交通大学，线上线下结合",
-    "topic": "生物医学AI / 智能医疗装备 / 医疗大模型",
-    "description": "投稿中文或英文长摘要800–1000字；若参加优秀论文评奖或申请期刊推荐，需另交全文。录用摘要可做120×90 cm墙报。官网列有合作期刊但标注“更新中”，未承诺所有投稿进入正式论文集或EI/Scopus；注册费1500–2900元，11月20日前为早鸟价。",
-    "format": "会议长摘要/墙报；全文仅用于评奖或期刊推荐，不等同于正式会议论文集",
-    "source_url": "https://worldbiomedai.org/conference2026/index.html",
-    "status": "open",
-    "verifiedOn": "2026-11-17",
-    "needs_review": true,
-    "verification_scope": "大会官网投稿、墙报、注册和组织单位页面",
-    "verificationNote": "官网确认11月20日截稿及主办单位；正式出版商、论文集与数据库检索未明确，投稿前建议向组委会书面确认。",
-    "sources": [
-      {
-        "label": "ICBAI 2026官网征文与注册页",
-        "url": "https://worldbiomedai.org/conference2026/index.html"
-      }
-    ],
-    "brief_dates": [
-      "2026-11-17"
-    ],
-    "brief_date_sources": {
-      "2026-11-17": "麻醉AI科研简报"
-    },
-    "provenance": [
-      "麻醉AI科研简报"
-    ]
   }
 ]
