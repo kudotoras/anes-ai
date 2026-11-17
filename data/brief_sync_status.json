@@ -1,88 +1,109 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-16",
-  "overall_status": "success",
-  "brief_status": "完整简报；1篇精选（仿真预印本）、2篇补看与参考。",
-  "selected_paper_ids": [
-    "arxiv-2611-16537"
-  ],
+  "brief_date": "2026-11-17",
+  "overall_status": "partial",
+  "brief_status": "当日简报待生成/待对齐。automations.peek显示11月17日运行仍为in_progress；最新完整结果为11月16日且content_truncated=false。今日独立检索已完成部分，未把11月16日简报冒充为11月17日。",
+  "selected_paper_ids": [],
   "sites": {
-    "status": "success",
-    "revision": "e415664b-823a-479e-9d5f-89fa31e034f5",
-    "verification": "部署接口写入后回读，新增3条文献，修改1条文献及8条机会；公开只读权限未变。"
+    "status": "failed",
+    "verification": "本轮工具清单未提供Sites get_site、create_source_repository_write_credential或站点API客户端；未读取/api/update-guide与/api/site-data，未发起写入，原站点内容和公开只读权限未触碰。",
+    "pending_items": [
+      "恢复Sites工具后读取维护说明和最新目录",
+      "取得短期管理员凭据并按指南写入",
+      "POST后GET回读验证",
+      "回查11/11–11/17站点简报目录"
+    ]
   },
   "github": {
-    "status": "success",
-    "readback_commit": "54eb080f40c8a89dc08766ad082031b012346bbf",
-    "verification": "数据文件提交后回读；人工精读摘要未改。"
+    "status": "partial",
+    "readback_commit": "faae3bd0f8d853044f0348a9f16c24a092f50a59",
+    "verification": "data/research.json与data/opportunities.json已原子提交并回读；3条既有文献元数据更新、1项比赛新增、10项机会更新/去重或状态调整。随后GitHub自动PubMed流程另行新增14条题录（见data/update_status.json），该自动题录任务不代表每日简报同步。data/article_summaries.json与data/history_briefs.json未改动。11月17日简报尚未完成，未创建data/daily_briefs/2026-11-17.json。",
+    "pending_items": [
+      "等待11月17日麻醉AI科研简报完整输出",
+      "写入并回读data/daily_briefs/2026-11-17.json",
+      "简报完成后增量更新history_briefs.json并回读"
+    ]
   },
   "frontend": {
-    "status": "success",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/43777867904",
-    "verification": "公开主站回读11月16日精选索引、三条新增文献和两项已截止机会。"
+    "status": "pending",
+    "verification": "本轮未检查GitHub Pages公开前台或确认部署工作流；未修改源码。"
   },
   "brief_catchup": {
-    "window_start": "2026-11-10",
-    "window_end": "2026-11-16",
-    "status": "success",
+    "window_start": "2026-11-11",
+    "window_end": "2026-11-17",
+    "status": "partial",
     "catalog_audit": [
-      {
-        "date": "2026-11-10",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
       {
         "date": "2026-11-11",
         "github_catalog_missing": [],
-        "sites_catalog_missing": []
+        "sites_catalog_missing": null,
+        "sites_audit_status": "not_read"
       },
       {
         "date": "2026-11-12",
         "github_catalog_missing": [],
-        "sites_catalog_missing": []
+        "sites_catalog_missing": null,
+        "sites_audit_status": "not_read"
       },
       {
         "date": "2026-11-13",
         "github_catalog_missing": [],
-        "sites_catalog_missing": []
+        "sites_catalog_missing": null,
+        "sites_audit_status": "not_read"
       },
       {
         "date": "2026-11-14",
         "github_catalog_missing": [],
-        "sites_catalog_missing": []
+        "sites_catalog_missing": null,
+        "sites_audit_status": "not_read"
       },
       {
         "date": "2026-11-15",
         "github_catalog_missing": [],
-        "sites_catalog_missing": []
+        "sites_catalog_missing": null,
+        "sites_audit_status": "not_read"
       },
       {
         "date": "2026-11-16",
         "github_catalog_missing": [],
-        "sites_catalog_missing": []
+        "sites_catalog_missing": null,
+        "sites_audit_status": "not_read"
+      },
+      {
+        "date": "2026-11-17",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": null,
+        "sites_audit_status": "not_read",
+        "status": "brief_pending"
       }
     ]
   },
   "counts": {
-    "independent_new_bibliography": 1,
-    "brief_new_papers": 2,
-    "github_modified_papers": 1,
-    "github_new_opportunities": 0,
-    "github_modified_opportunities": 8,
-    "site_new_papers": 3,
-    "site_modified_papers": 1,
-    "site_new_opportunities": 0,
-    "site_modified_opportunities": 8,
-    "daily_selected": 1
+    "independent_new_bibliography": 0,
+    "independent_modified_papers": 3,
+    "github_new_opportunities": 1,
+    "github_modified_opportunities": 10,
+    "github_closed_opportunities": 3,
+    "github_automatic_pubmed_ingested": 14,
+    "daily_selected": 0,
+    "daily_brief_pending": true
   },
   "failures": [
     {
-      "id": "ai-medical-deadline",
-      "reason": "官网索引与原日期冲突，正式延期未确认。"
+      "id": "sites-access",
+      "reason": "当前运行环境未暴露Sites get_site、短期凭据及站点API工具；未尝试绕过授权或修改源码。"
+    },
+    {
+      "id": "daily-brief-pending",
+      "reason": "11月17日简报运行仍为in_progress；最新完整简报为11月16日，不能据此创建当天交接文件。"
     },
     {
       "id": "publisher-coverage",
-      "reason": "期刊联合与主题PubMed检索及出版商定向核验，未穷尽逐刊在线首发。"
+      "reason": "已核验PubMed与部分出版商/官方来源，但未完成所有目标期刊的逐刊Online First全量扫描。"
+    },
+    {
+      "id": "gi-ai4h-specification",
+      "reason": "GI-AI4H Track B/Phase 1日期来自官方EvalAI挑战页检索摘要；详细任务规范和评分细则待复核。"
     }
   ],
   "previous_syncs": [
@@ -310,19 +331,34 @@
         "conference_95a23edf4a",
         "ieee-medai2026"
       ]
+    },
+    {
+      "brief_date": "2026-11-17",
+      "overall_status": "partial",
+      "sites": "failed",
+      "github": "partial",
+      "frontend": "pending",
+      "note": "GitHub独立目录增量已提交并回读；Sites工具不可用；当天简报尚未生成，待生成后补齐daily_briefs/history_briefs。"
     }
   ],
   "referenced_paper_ids": [
-    "pubmed-42772975",
-    "pubmed-42806783"
+    "pubmed-43003703",
+    "pubmed-43007273",
+    "pubmed-43025897"
   ],
   "competition_ids": [
+    "gi-ai4h-benchmarking2026-trackb",
     "competition_80c6f85a8d",
-    "cetc-wangxinbei2026"
+    "competition_df92d1669e",
+    "competition-shic2026",
+    "competition_97722a8358",
+    "ncccu-ai"
   ],
   "conference_ids": [
-    "ieee-medai2026",
     "conference_ce9a2f54c2",
-    "conference_95a23edf4a"
+    "conference_95a23edf4a",
+    "conference_95688579fb",
+    "esicm-project-endorsement2026-call2",
+    "asa2027-general-sessions"
   ]
 }
