@@ -2,89 +2,100 @@
   "schema_version": 1,
   "brief_date": "2026-11-18",
   "overall_status": "partial",
-  "brief_status": "今日独立检索核实1篇麻醉数字孪生高匹配综述题录（待全文），2项比赛与1项会议官方状态；其余文献未达到精选核验要求",
+  "brief_status": "今日简报已完成且未截断；精选1篇麻醉数字孪生综述。独立复核另补1篇脓毒症AI真实世界实施综述入完整库。",
   "selected_paper_ids": [
     "doi-10.1038-s44573-026-00030-0"
   ],
   "referenced_paper_ids": [
-    "pubmed-43007422"
+    "pubmed-43008935"
   ],
   "competition_ids": [
-    "competition_80c6f85a8d",
-    "competition-huizhihui-2026"
+    "competition-huizhihui-2026",
+    "competition_80c6f85a8d"
   ],
   "conference_ids": [
-    "conference_95a23edf4a",
-    "conference_ce9a2f54c2",
-    "conference_95688579fb",
-    "conference-icbai2026",
-    "ieee-medai2026"
+    "conference_95a23edf4a"
   ],
   "sites": {
-    "status": "failed",
-    "verification": "本轮无Sites get_site及维护API连接器；未读取站点数据或写入，不宣称同步",
-    "pending_items": [
-      "2026-11-18公开条目待Sites同步",
-      "此前Sites失败记录待追补"
-    ]
-  },
-  "github": {
     "status": "success",
-    "verification": "2026-11-18交接文件已写入回读；research、opportunities、history_briefs已提交，随后执行回读",
+    "revision": "2ed89f47-7739-4729-8a59-f4627a9bb0da",
+    "verification": "已按v6维护说明写入后GET回读；10条文献补丁与10条机会补丁逐字段一致，公开权限未改。",
     "pending_items": []
   },
-  "frontend": {
-    "status": "not_checked",
-    "verification": "本轮未触发站点部署或前端工作流；仅计划更新GitHub数据JSON。"
-  },
-  "brief_catchup": {
-    "window_start": "2026-11-11",
-    "window_end": "2026-11-17",
-    "status": "partial",
-    "verification": "前次台账保留在本文件历史字段（若存在）；本轮未能核验Sites过去7日缺项",
+  "github": {
+    "status": "pending",
+    "verification": "数据文件已在本地增量合并，待原子提交与固定commit回读。",
     "pending_items": [
-      "Sites过去7日回溯与追补"
+      "提交并回读"
     ]
   },
+  "frontend": {
+    "status": "pending",
+    "verification": "待GitHub数据提交后的公开主站回读。"
+  },
+  "brief_catchup": {
+    "window_start": "2026-11-12",
+    "window_end": "2026-11-18",
+    "status": "success",
+    "catalog_audit": [
+      {
+        "date": "2026-11-12",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-13",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-14",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-15",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-16",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-17",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-18",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      }
+    ],
+    "pending_items": []
+  },
   "counts": {
-    "independent_new_bibliography": 2,
-    "brief_new_papers": 4,
-    "brief_reference_papers": 1,
-    "github_new_opportunities": 2,
-    "github_modified_opportunities": 7,
-    "site_new_papers": 0,
-    "site_modified_papers": 0,
-    "site_new_opportunities": 0,
-    "site_modified_opportunities": 0,
-    "daily_selected": 4
+    "independent_new_bibliography": 1,
+    "github_new_papers": 0,
+    "github_modified_papers": 2,
+    "github_new_opportunities": 0,
+    "github_modified_opportunities": 4,
+    "site_new_papers": 8,
+    "site_modified_papers": 2,
+    "site_new_opportunities": 3,
+    "site_modified_opportunities": 7,
+    "daily_selected": 1
   },
   "failures": [
     {
-      "id": "sites-access",
-      "reason": "当前运行环境未暴露Sites get_site、短期凭据及站点API工具；未尝试绕过授权或修改源码。"
-    },
-    {
-      "id": "daily-brief-pending",
-      "reason": "11月17日简报运行仍为in_progress；最新完整简报为11月16日，不能据此创建当天交接文件。",
-      "status": "resolved",
-      "resolvedOn": "2026-11-17",
-      "resolution": "GitHub daily_briefs/2026-11-17.json已写入并回读验证。"
-    },
-    {
       "id": "publisher-coverage",
-      "reason": "完成了重点期刊与主题定向检索，但未能穷尽清单中每一本期刊的全部Online First/最新ToC。"
-    },
-    {
-      "id": "gi-ai4h-specification",
-      "reason": "GI-AI4H Track B/Phase 1日期来自官方EvalAI挑战页检索摘要；详细任务规范和评分细则待复核。"
-    },
-    {
-      "id": "sites-connector",
-      "reason": "当前运行环境未提供Sites专用工具；无法取得项目URL、update-guide或site-data，因此本期Sites写入与回读失败。"
+      "reason": "完成PubMed期刊/主题检索、Nature出版商全文复核及重点机会官网核验；未穷尽目录全部68种期刊的Online First/最新ToC。"
     },
     {
       "id": "ai-medical-deadline",
-      "reason": "官网当前首页显示2026-11-23，但10月16日新闻稿写2026-10-30；未找到单独延期公告，需报名系统/秘书处确认。"
+      "reason": "赛事官网当前显示11月23日，10月16日新闻稿显示原截止10月30日；保留两条来源及差异说明。"
     }
   ],
   "previous_syncs": [
@@ -320,6 +331,96 @@
       "github": "partial",
       "frontend": "pending",
       "note": "GitHub独立目录增量已提交并回读；Sites工具不可用；当天简报尚未生成，待生成后补齐daily_briefs/history_briefs。"
+    },
+    {
+      "schema_version": 1,
+      "brief_date": "2026-11-18",
+      "overall_status": "partial",
+      "brief_status": "今日独立检索核实1篇麻醉数字孪生高匹配综述题录（待全文），2项比赛与1项会议官方状态；其余文献未达到精选核验要求",
+      "selected_paper_ids": [
+        "doi-10.1038-s44573-026-00030-0"
+      ],
+      "referenced_paper_ids": [
+        "pubmed-43007422"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition-huizhihui-2026"
+      ],
+      "conference_ids": [
+        "conference_95a23edf4a",
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference-icbai2026",
+        "ieee-medai2026"
+      ],
+      "sites": {
+        "status": "failed",
+        "verification": "本轮无Sites get_site及维护API连接器；未读取站点数据或写入，不宣称同步",
+        "pending_items": [
+          "2026-11-18公开条目待Sites同步",
+          "此前Sites失败记录待追补"
+        ]
+      },
+      "github": {
+        "status": "success",
+        "verification": "2026-11-18交接文件已写入回读；research、opportunities、history_briefs已提交，随后执行回读",
+        "pending_items": []
+      },
+      "frontend": {
+        "status": "not_checked",
+        "verification": "本轮未触发站点部署或前端工作流；仅计划更新GitHub数据JSON。"
+      },
+      "brief_catchup": {
+        "window_start": "2026-11-11",
+        "window_end": "2026-11-17",
+        "status": "partial",
+        "verification": "前次台账保留在本文件历史字段（若存在）；本轮未能核验Sites过去7日缺项",
+        "pending_items": [
+          "Sites过去7日回溯与追补"
+        ]
+      },
+      "counts": {
+        "independent_new_bibliography": 2,
+        "brief_new_papers": 4,
+        "brief_reference_papers": 1,
+        "github_new_opportunities": 2,
+        "github_modified_opportunities": 7,
+        "site_new_papers": 0,
+        "site_modified_papers": 0,
+        "site_new_opportunities": 0,
+        "site_modified_opportunities": 0,
+        "daily_selected": 4
+      },
+      "failures": [
+        {
+          "id": "sites-access",
+          "reason": "当前运行环境未暴露Sites get_site、短期凭据及站点API工具；未尝试绕过授权或修改源码。"
+        },
+        {
+          "id": "daily-brief-pending",
+          "reason": "11月17日简报运行仍为in_progress；最新完整简报为11月16日，不能据此创建当天交接文件。",
+          "status": "resolved",
+          "resolvedOn": "2026-11-17",
+          "resolution": "GitHub daily_briefs/2026-11-17.json已写入并回读验证。"
+        },
+        {
+          "id": "publisher-coverage",
+          "reason": "完成了重点期刊与主题定向检索，但未能穷尽清单中每一本期刊的全部Online First/最新ToC。"
+        },
+        {
+          "id": "gi-ai4h-specification",
+          "reason": "GI-AI4H Track B/Phase 1日期来自官方EvalAI挑战页检索摘要；详细任务规范和评分细则待复核。"
+        },
+        {
+          "id": "sites-connector",
+          "reason": "当前运行环境未提供Sites专用工具；无法取得项目URL、update-guide或site-data，因此本期Sites写入与回读失败。"
+        },
+        {
+          "id": "ai-medical-deadline",
+          "reason": "官网当前首页显示2026-11-23，但10月16日新闻稿写2026-10-30；未找到单独延期公告，需报名系统/秘书处确认。"
+        }
+      ]
     }
   ],
   "last_updated": "2026-11-18"

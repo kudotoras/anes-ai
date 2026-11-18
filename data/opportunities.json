@@ -46,7 +46,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-17",
+    "verifiedOn": "2026-11-18",
     "sources": [
       {
         "label": "ESAIC官方摘要页",
@@ -117,7 +117,8 @@
       "2026-11-14": "麻醉AI科研简报",
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报",
-      "2026-11-17": "麻醉AI科研简报"
+      "2026-11-17": "麻醉AI科研简报",
+      "2026-11-18": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
@@ -259,7 +260,7 @@
     "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
     "status": "open",
     "description": "ESICM研究项目学会背书征集；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件提交至research@esicm.org。属于项目背书/成果征集，不是论文投稿、墙报或资金奖励。",
-    "verifiedOn": "2026-11-17",
+    "verifiedOn": "2026-11-18",
     "verificationNote": "ESICM官方页确认第二轮征集2026-11-02开放、11-30 23:59 CET截止；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件发送至research@esicm.org。此项为项目背书申请，不是论文摘要或资助申请。",
     "needs_review": false,
     "site_catalog_id": "esicm-project-endorsement2026-call2",
@@ -308,10 +309,11 @@
       "2026-11-14": "麻醉AI科研简报",
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报",
-      "2026-11-17": "麻醉AI科研简报"
+      "2026-11-17": "麻醉AI科研简报",
+      "2026-11-18": "麻醉AI科研简报"
     },
     "verificationNote": "官网当前首页显示11月23日；10月16日新闻稿写10月30日。建议先通过报名系统或秘书处确认延期，再提交。",
-    "verifiedOn": "2026-11-17",
+    "verifiedOn": "2026-11-18",
     "needs_review": true,
     "sources": [
       {
@@ -330,7 +332,7 @@
     "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html",
     "deadline_verification_scope": "11月14日核对官网索引；未核定有效截止日",
     "deadlineLabel": "官网当前首页显示截至2026-11-23；未标明具体时刻",
-    "verification_scope": "2026-11-17核对官网当前首页与10月16日公开报道；延期公告未找到",
+    "verification_scope": "2026-11-18核对大赛官网当前首页；保留10月16日新闻稿的原10月30日日期用于追溯。",
     "deadline_timezone": "Asia/Shanghai",
     "previous_deadline": "2026-10-30",
     "provenance": [
@@ -395,7 +397,7 @@
     "format": "项目申报与路演；非正式论文投稿",
     "source_url": "https://www.nice.org.cn/application/14804.html",
     "status": "open",
-    "verifiedOn": "2026-11-17",
+    "verifiedOn": "2026-11-18",
     "needs_review": false,
     "verification_scope": "长三角国家技术创新中心2026-11-09正式启动通知",
     "verificationNote": "官方通知确认11月20日24:00截止；申报材料格式及路演答辩材料以系统说明为准。",
@@ -414,7 +416,8 @@
       "2026-11-18"
     ],
     "brief_date_sources": {
-      "2026-11-17": "麻醉AI科研简报"
+      "2026-11-17": "麻醉AI科研简报",
+      "2026-11-18": "麻醉AI科研简报"
     },
     "provenance": [
       "麻醉AI科研简报"

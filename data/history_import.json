@@ -3033,6 +3033,64 @@
       "competition_count": 2,
       "conference_count": 3,
       "source_url": "data/daily_briefs/2026-11-16.json"
+    },
+    {
+      "date": "2026-11-17",
+      "record_status": "aligned_with_completed_brief",
+      "paper_ids": [
+        "pubmed-43025023",
+        "pubmed-42900999",
+        "pubmed-41649906",
+        "arxiv-2608.16482"
+      ],
+      "selected_paper_ids": [
+        "pubmed-43025023",
+        "pubmed-42900999",
+        "pubmed-41649906",
+        "arxiv-2608.16482"
+      ],
+      "selected_paper_count": 4,
+      "paper_count": 4,
+      "referenced_paper_ids": [
+        "pubmed-43007422"
+      ],
+      "competition_ids": [
+        "competition_80c6f85a8d",
+        "competition-huizhihui-2026"
+      ],
+      "conference_ids": [
+        "conference_95a23edf4a",
+        "conference_ce9a2f54c2",
+        "conference_95688579fb",
+        "conference-icbai2026",
+        "ieee-medai2026"
+      ],
+      "competition_count": 2,
+      "conference_count": 5,
+      "source_url": "data/daily_briefs/2026-11-17.json"
+    },
+    {
+      "date": "2026-11-18",
+      "record_status": "aligned_with_completed_brief",
+      "paper_ids": [
+        "doi-10.1038-s44573-026-00030-0"
+      ],
+      "selected_paper_ids": [
+        "doi-10.1038-s44573-026-00030-0"
+      ],
+      "selected_paper_count": 1,
+      "paper_count": 1,
+      "referenced_paper_ids": [],
+      "competition_ids": [
+        "competition-huizhihui-2026",
+        "competition_80c6f85a8d"
+      ],
+      "conference_ids": [
+        "conference_95a23edf4a"
+      ],
+      "competition_count": 2,
+      "conference_count": 1,
+      "source_url": "data/daily_briefs/2026-11-18.json"
     }
   ]
 }

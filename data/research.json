@@ -1124,15 +1124,31 @@
     "pmid": "43008935",
     "doi": "10.1016/j.cmi.2026.10.036",
     "title": "Artificial Intelligence for sepsis prediction: A review of real-world clinical implementation.",
-    "title_zh": "",
-    "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+    "title_zh": "脓毒症预测人工智能：真实世界临床实施综述",
+    "journal": "Clinical Microbiology and Infection",
     "date": "2026-11-10",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "重症AI / 脓毒症预测 / 真实世界部署",
+    "study_type": "真实世界临床实施综述",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/43008935/",
-    "status": "PubMed 自动收录·待人工精读",
+    "status": "PubMed原始摘要已核验·未全文精读",
     "origin": "PubMed",
-    "ingested_date": "2026-11-12"
+    "ingested_date": "2026-11-12",
+    "dateKind": "PubMed电子发表日期",
+    "description": "综述2019—2026年描述或评价脓毒症AI预测工具临床实施的研究，重点从单纯准确率转向患者结局或流程指标、工作流整合、人因设计、培训与公平性。属于实施证据综述，不提供一个可直接外推的统一效应量。",
+    "verifiedOn": "2026-11-18",
+    "needs_review": false,
+    "selected": false,
+    "verification_scope": "PubMed题录、日期、DOI与完整摘要；未逐篇核查综述纳入研究。",
+    "sources": [
+      {
+        "label": "PubMed原始摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43008935/"
+      },
+      {
+        "label": "出版商DOI",
+        "url": "https://doi.org/10.1016/j.cmi.2026.10.036"
+      }
+    ]
   },
   {
     "id": "pubmed-43009362",
@@ -1273,14 +1289,35 @@
     "title": "Pharmacokinetic--pharmacodynamic blueprints for the anaesthetized adult digital twin: a coupled five-layer specification with an open reference implementation",
     "journal": "Scientific Reviews",
     "date": "2026-11-10",
-    "topic": "麻醉数字孪生/PKPD",
-    "study_type": "Review",
+    "topic": "精准麻醉 / 数字孪生 / 多药PK–PD / 闭环控制",
+    "study_type": "开放获取综述、可执行规范与体外仿真演示",
     "source_url": "https://www.nature.com/articles/s44573-026-00030-0",
-    "status": "出版社题录已核验·待全文精读",
+    "status": "出版社全文与开放实现已核验·待系统精读",
     "verifiedOn": "2026-11-18",
     "needs_review": true,
     "brief_dates": [
       "2026-11-18"
+    ],
+    "title_zh": "成人麻醉数字孪生的PK–PD蓝图：耦合五层规范与开放参考实现",
+    "dateKind": "出版社正式发表日期",
+    "description": "整合催眠、伤害性感受、呼吸安全、血流动力学和神经肌肉阻滞五个药效层，将手术刺激、心输出量相关药代动力学和BIS混杂观测纳入统一可执行规范。开放参考实现包含耦合病例、监测反馈增益和Fisher信息可辨识性分析；用20分钟监测个体化后，随后15分钟BIS预测中位误差由18.4%降至5.8%，但效应室浓度估计没有同步改善。该结果来自体外演示，不是临床器械验证或患者结局证据。",
+    "verification_scope": "Nature出版商全文页面：题录、摘要、五层架构、体外演示及开放实现；未逐表复核全部模型来源。",
+    "selected": true,
+    "sources": [
+      {
+        "label": "Nature出版商全文",
+        "url": "https://www.nature.com/articles/s44573-026-00030-0"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1038/s44573-026-00030-0"
+      }
+    ],
+    "brief_date_sources": {
+      "2026-11-18": "麻醉AI科研简报"
+    },
+    "provenance": [
+      "麻醉AI科研简报"
     ]
   },
   {
