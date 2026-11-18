@@ -265,6 +265,21 @@
     "ingested_date": "2026-11-18"
   },
   {
+    "id": "pubmed-43044216",
+    "pmid": "43044216",
+    "doi": "10.1016/j.clinsp.2026.101243",
+    "title": "An early prediction model for MODS in patients with traumatic sepsis: a development and external validation study.",
+    "title_zh": "",
+    "journal": "Clinics (Sao Paulo, Brazil)",
+    "date": "2026-11-17",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43044216/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-18"
+  },
+  {
     "id": "pubmed-43037770",
     "pmid": "43037770",
     "doi": "10.1007/s10916-026-02486-y",
@@ -1033,6 +1048,21 @@
     "topic": "自动题录",
     "study_type": "未人工精读",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/43041788/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-18"
+  },
+  {
+    "id": "pubmed-43044486",
+    "pmid": "43044486",
+    "doi": "10.1016/j.ejogrb.2026.115537",
+    "title": "Polypharmacy and the ageing brain: Anticholinergic burden in the ageing population and the impact of gynaecological medications.",
+    "title_zh": "",
+    "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+    "date": "2026-11-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43044486/",
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-18"
@@ -11076,6 +11106,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-06"
+  },
+  {
+    "id": "pubmed-43045316",
+    "pmid": "43045316",
+    "doi": "10.1016/j.cps.2026.08.001",
+    "title": "Artificial Intelligence as a Clinical Tool in Practice.",
+    "title_zh": "",
+    "journal": "Clinics in plastic surgery",
+    "date": "2026-09-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045316/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-18"
   },
   {
     "id": "legacy-10",
