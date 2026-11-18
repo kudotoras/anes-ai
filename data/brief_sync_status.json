@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-18",
-  "overall_status": "partial",
+  "overall_status": "success",
   "brief_status": "今日简报已完成且未截断；精选1篇麻醉数字孪生综述。独立复核另补1篇脓毒症AI真实世界实施综述入完整库。",
   "selected_paper_ids": [
     "doi-10.1038-s44573-026-00030-0"
@@ -23,15 +23,15 @@
     "pending_items": []
   },
   "github": {
-    "status": "pending",
-    "verification": "数据文件已在本地增量合并，待原子提交与固定commit回读。",
-    "pending_items": [
-      "提交并回读"
-    ]
+    "status": "success",
+    "readback_commit": "f0bbff7a286dd30d7f2cc908247135bb1de429dd",
+    "verification": "五个增量数据文件已在固定commit逐一回读，随后自动PubMed工作流成功完成并保留本次更改。",
+    "pending_items": []
   },
   "frontend": {
-    "status": "pending",
-    "verification": "待GitHub数据提交后的公开主站回读。"
+    "status": "success",
+    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/44206314392",
+    "verification": "公开GitHub Pages已回读research、opportunities、history_briefs与同步台账；11月17–18日索引及本次两条文献更新均可见。"
   },
   "brief_catchup": {
     "window_start": "2026-11-12",
