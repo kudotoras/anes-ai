@@ -1268,6 +1268,22 @@
     "ingested_date": "2026-11-18"
   },
   {
+    "id": "doi-10.1038-s44573-026-00030-0",
+    "doi": "10.1038/s44573-026-00030-0",
+    "title": "Pharmacokinetic--pharmacodynamic blueprints for the anaesthetized adult digital twin: a coupled five-layer specification with an open reference implementation",
+    "journal": "Scientific Reviews",
+    "date": "2026-11-10",
+    "topic": "麻醉数字孪生/PKPD",
+    "study_type": "Review",
+    "source_url": "https://www.nature.com/articles/s44573-026-00030-0",
+    "status": "出版社题录已核验·待全文精读",
+    "verifiedOn": "2026-11-18",
+    "needs_review": true,
+    "brief_dates": [
+      "2026-11-18"
+    ]
+  },
+  {
     "id": "pubmed-43001843",
     "pmid": "43001843",
     "doi": "10.4081/aiua.2026.16295",
@@ -15028,21 +15044,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-10.1038-s44573-026-00030-0",
-    "doi": "10.1038/s44573-026-00030-0",
-    "title": "Pharmacokinetic--pharmacodynamic blueprints for the anaesthetized adult digital twin: a coupled five-layer specification with an open reference implementation",
-    "journal": "Scientific Reviews",
-    "date": "2026-11-10",
-    "topic": "麻醉数字孪生/PKPD",
-    "study_type": "Review",
-    "source_url": "https://www.nature.com/articles/s44573-026-00030-0",
-    "status": "出版社题录已核验·待全文精读",
-    "verifiedOn": "2026-11-18",
-    "needs_review": true,
-    "brief_dates": [
-      "2026-11-18"
-    ]
   }
 ]
