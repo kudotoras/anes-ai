@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-18",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "title": "Pharmacokinetic--pharmacodynamic blueprints for the anaesthetized adult digital twin: a coupled five-layer specification with an open reference implementation",
+      "doi": "10.1038/s44573-026-00030-0",
+      "journal": "Scientific Reviews",
+      "publication_date": "2026-11-10",
+      "study_type": "Review",
+      "source_url": "https://www.nature.com/articles/s44573-026-00030-0",
+      "selection": "严格最新/直接相关",
+      "verifiedOn": "2026-11-18",
+      "verification_scope": "出版社检索页核实题名、日期、文献类型和开放参考实现；全文未获取",
+      "needs_review": true
+    }
+  ],
+  "competitions": [
+    {
+      "title": "首届汇智杯医工交叉临床创新转化路演大赛",
+      "organizer": "中华医学会外科学分会",
+      "deadline": "2026-11-20T24:00:00+08:00",
+      "source_url": "https://www.nice.org.cn/application/14804.html",
+      "verifiedOn": "2026-11-18",
+      "verification_scope": "主办方正式通知",
+      "needs_review": false
+    },
+    {
+      "title": "首届AI+医疗技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "deadline": "2026-11-23",
+      "source_url": "https://www.aimtcbj.com/",
+      "verifiedOn": "2026-11-18",
+      "verification_scope": "官网当前展示截止日期，延期正式通知未核实",
+      "needs_review": true
+    }
+  ],
+  "conferences": [
+    {
+      "title": "Euroanaesthesia 2027 Abstracts and Innovation Showcase",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-18",
+      "verification_scope": "官方征稿页，确认截止、展示形式、摘要电子增刊、参会注册要求",
+      "needs_review": false
+    }
+  ]
+}
