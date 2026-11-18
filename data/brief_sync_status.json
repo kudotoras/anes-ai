@@ -1,13 +1,10 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-17",
+  "brief_date": "2026-11-18",
   "overall_status": "partial",
-  "brief_status": "4篇精选（含1篇预印本）+1条待全文核验；2项比赛、5项会议/征集。",
+  "brief_status": "今日独立检索核实1篇麻醉数字孪生高匹配综述题录（待全文），2项比赛与1项会议官方状态；其余文献未达到精选核验要求",
   "selected_paper_ids": [
-    "pubmed-43025023",
-    "pubmed-42900999",
-    "pubmed-41649906",
-    "arxiv-2608.16482"
+    "doi-10.1038-s44573-026-00030-0"
   ],
   "referenced_paper_ids": [
     "pubmed-43007422"
@@ -25,15 +22,15 @@
   ],
   "sites": {
     "status": "failed",
-    "verification": "本轮可用工具中未提供Sites项目的get_site、/api/update-guide或/api/site-data接口；未执行写入，不宣称成功。",
+    "verification": "本轮无Sites get_site及维护API连接器；未读取站点数据或写入，不宣称同步",
     "pending_items": [
-      "2026-11-17全部公开论文、比赛与会议条目待Sites同步"
+      "2026-11-18公开条目待Sites同步",
+      "此前Sites失败记录待追补"
     ]
   },
   "github": {
     "status": "success",
-    "readback_commit": "7cac1c0729d9a59efd20606f3381612d556bbc3f",
-    "verification": "首个数据提交后已回读验证daily_briefs/2026-11-17.json、research.json、opportunities.json、history_briefs.json；article_summaries.json SHA保持不变。",
+    "verification": "2026-11-18交接文件已写入回读；research、opportunities、history_briefs已提交，随后执行回读",
     "pending_items": []
   },
   "frontend": {
@@ -44,50 +41,9 @@
     "window_start": "2026-11-11",
     "window_end": "2026-11-17",
     "status": "partial",
-    "catalog_audit": [
-      {
-        "date": "2026-11-11",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": null,
-        "sites_audit_status": "not_read"
-      },
-      {
-        "date": "2026-11-12",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": null,
-        "sites_audit_status": "not_read"
-      },
-      {
-        "date": "2026-11-13",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": null,
-        "sites_audit_status": "not_read"
-      },
-      {
-        "date": "2026-11-14",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": null,
-        "sites_audit_status": "not_read"
-      },
-      {
-        "date": "2026-11-15",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": null,
-        "sites_audit_status": "not_read"
-      },
-      {
-        "date": "2026-11-16",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": null,
-        "sites_audit_status": "not_read"
-      },
-      {
-        "date": "2026-11-17",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": [
-          "本期条目待同步；Sites接口本轮不可用"
-        ]
-      }
+    "verification": "前次台账保留在本文件历史字段（若存在）；本轮未能核验Sites过去7日缺项",
+    "pending_items": [
+      "Sites过去7日回溯与追补"
     ]
   },
   "counts": {
@@ -365,5 +321,6 @@
       "frontend": "pending",
       "note": "GitHub独立目录增量已提交并回读；Sites工具不可用；当天简报尚未生成，待生成后补齐daily_briefs/history_briefs。"
     }
-  ]
+  ],
+  "last_updated": "2026-11-18"
 }
