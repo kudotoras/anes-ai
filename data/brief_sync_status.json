@@ -32,13 +32,17 @@
   },
   "github": {
     "status": "success",
-    "readback_commit": "269bdd4ad3f139fe141f2d05f194f9e42a3c5cdf",
-    "verification": "六个增量数据文件已在固定commit逐一回读；5篇精选、2项比赛、5项会议/征集均存在；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "readback_commit": "5208f5cca53eaf56b283433102e6be0bdb7474cf",
+    "verification": "数据提交与精选可见性字段均已回读；公开daily_briefs/2026-11-19.json显示5篇精选，research目录747条、机会38条；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
     "pending_items": []
   },
   "frontend": {
-    "status": "pending",
-    "verification": "公开数据文件已回读，等待主站每日精选重新加载核验。"
+    "status": "partial",
+    "verification": "公开daily_briefs/2026-11-19.json已回读显示5篇；公开主页面目录计数为747/38且精选目录147条，但当前核验浏览器因客户端日期判断仍显示“精选0篇”。数据已发布，未按日常维护约束修改前端源码或重新部署。",
+    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-19.json",
+    "pending_items": [
+      "主页面每日精选显示依赖客户端北京时间；当前核验浏览器与任务日期不一致时会把2026-11-17/18文献判为未来日期并过滤。"
+    ]
   },
   "brief_catchup": {
     "window_start": "2026-11-13",
