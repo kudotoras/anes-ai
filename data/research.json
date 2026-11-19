@@ -486,6 +486,29 @@
     "ingested_date": "2026-11-19"
   },
   {
+    "id": "pubmed-43044723",
+    "pmid": "43044723",
+    "doi": "10.1016/j.resuscitation.2026.111398",
+    "title": "Commercially available multimodal LLMs for EEG-based prognostication after cardiac arrest.",
+    "title_zh": "商用多模态大语言模型基于脑电图预测心脏骤停后神经结局",
+    "journal": "Resuscitation",
+    "date": "2026-11-17",
+    "topic": "重症 / 心脏骤停后脑电预后",
+    "study_type": "小样本前瞻性队列探索性模型评估",
+    "description": "33名心脏骤停后昏迷患者，每例仅用1段10秒EEG图像。ChatGPT与Claude在五种提示策略下AUC分别为0.86–0.99和0.74–1.00，最佳准确率均为93.9%。样本极小且结果明显受提示词影响，不能支持个体预后或临床应用。",
+    "verification_scope": "PubMed完整摘要、DOI和电子发表日期；研究设计、样本量及主要指标；非全文精读。",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43044723/",
+    "status": "今日精选·摘要已核验",
+    "origin": "PubMed",
+    "verifiedOn": "2026-11-19",
+    "needs_review": false,
+    "selected": true,
+    "selection_dates": [
+      "2026-11-19"
+    ],
+    "selection_source": "独立检索精选"
+  },
+  {
     "id": "pubmed-43037770",
     "pmid": "43037770",
     "doi": "10.1007/s10916-026-02486-y",
@@ -1138,6 +1161,25 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-17"
+  },
+  {
+    "id": "pubmed-42770562",
+    "pmid": "42770562",
+    "doi": "10.1097/ALN.0000000000006388",
+    "title": "Effect of In-line Clinical Decision Support to Improve Accuracy of American Society of Anesthesiologists Physical Status Documentation: A Two-center Evaluation of a Quality Intervention.",
+    "title_zh": "嵌入式临床决策支持改善ASA分级记录准确性：双中心质量干预评估",
+    "journal": "Anesthesiology",
+    "date": "2026-11-12",
+    "topic": "麻醉 / 术前评估与临床决策支持",
+    "study_type": "双中心差异中的差异质量改进研究",
+    "description": "干预中心251,944例麻醉、对照中心286,172例；实施后干预中心ASA≥III比例由52.9%升至61.7%（aOR 1.42），对照中心为47.2%至48.4%（aOR 1.05）。属于规则型临床决策支持而非机器学习，故收入完整库但不列为AI每日精选。",
+    "verification_scope": "PubMed完整摘要；研究设计、双中心样本量、主要结果与发表日期；非全文精读。",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42770562/",
+    "status": "独立检索补充·临床决策支持邻近证据",
+    "origin": "PubMed",
+    "verifiedOn": "2026-11-19",
+    "needs_review": false,
+    "selected": false
   },
   {
     "id": "pubmed-43012937",
@@ -15497,47 +15539,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "pubmed-43044723",
-    "pmid": "43044723",
-    "doi": "10.1016/j.resuscitation.2026.111398",
-    "title": "Commercially available multimodal LLMs for EEG-based prognostication after cardiac arrest.",
-    "title_zh": "商用多模态大语言模型基于脑电图预测心脏骤停后神经结局",
-    "journal": "Resuscitation",
-    "date": "2026-11-17",
-    "topic": "重症 / 心脏骤停后脑电预后",
-    "study_type": "小样本前瞻性队列探索性模型评估",
-    "description": "33名心脏骤停后昏迷患者，每例仅用1段10秒EEG图像。ChatGPT与Claude在五种提示策略下AUC分别为0.86–0.99和0.74–1.00，最佳准确率均为93.9%。样本极小且结果明显受提示词影响，不能支持个体预后或临床应用。",
-    "verification_scope": "PubMed完整摘要、DOI和电子发表日期；研究设计、样本量及主要指标；非全文精读。",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43044723/",
-    "status": "今日精选·摘要已核验",
-    "origin": "PubMed",
-    "verifiedOn": "2026-11-19",
-    "needs_review": false,
-    "selected": true,
-    "selection_dates": [
-      "2026-11-19"
-    ],
-    "selection_source": "独立检索精选"
-  },
-  {
-    "id": "pubmed-42770562",
-    "pmid": "42770562",
-    "doi": "10.1097/ALN.0000000000006388",
-    "title": "Effect of In-line Clinical Decision Support to Improve Accuracy of American Society of Anesthesiologists Physical Status Documentation: A Two-center Evaluation of a Quality Intervention.",
-    "title_zh": "嵌入式临床决策支持改善ASA分级记录准确性：双中心质量干预评估",
-    "journal": "Anesthesiology",
-    "date": "2026-11-12",
-    "topic": "麻醉 / 术前评估与临床决策支持",
-    "study_type": "双中心差异中的差异质量改进研究",
-    "description": "干预中心251,944例麻醉、对照中心286,172例；实施后干预中心ASA≥III比例由52.9%升至61.7%（aOR 1.42），对照中心为47.2%至48.4%（aOR 1.05）。属于规则型临床决策支持而非机器学习，故收入完整库但不列为AI每日精选。",
-    "verification_scope": "PubMed完整摘要；研究设计、双中心样本量、主要结果与发表日期；非全文精读。",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42770562/",
-    "status": "独立检索补充·临床决策支持邻近证据",
-    "origin": "PubMed",
-    "verifiedOn": "2026-11-19",
-    "needs_review": false,
-    "selected": false
   }
 ]
