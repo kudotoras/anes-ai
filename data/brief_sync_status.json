@@ -1,101 +1,60 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-18",
-  "overall_status": "success",
-  "brief_status": "今日简报已完成且未截断；精选1篇麻醉数字孪生综述。独立复核另补1篇脓毒症AI真实世界实施综述入完整库。",
+  "brief_date": "2026-11-19",
+  "overall_status": "partial",
+  "brief_status": "今日精选1篇11月18日新上线的临床多Agent负面复评研究；发现AI+医疗赛事主办方正式延期通知，纠正此前未核实截止日期。",
   "selected_paper_ids": [
-    "doi-10.1038-s44573-026-00030-0"
+    "doi-10.1038-s41598-026-80974-4"
   ],
-  "referenced_paper_ids": [
-    "pubmed-43008935"
-  ],
+  "referenced_paper_ids": [],
   "competition_ids": [
     "competition-huizhihui-2026",
     "competition_80c6f85a8d"
   ],
   "conference_ids": [
+    "conference_ce9a2f54c2",
     "conference_95a23edf4a"
   ],
   "sites": {
-    "status": "success",
-    "revision": "2ed89f47-7739-4729-8a59-f4627a9bb0da",
-    "verification": "已按v6维护说明写入后GET回读；10条文献补丁与10条机会补丁逐字段一致，公开权限未改。",
-    "pending_items": []
+    "status": "failed",
+    "verification": "当前可用连接器没有Sites get_site或专用短期管理API，未读取或写入Site",
+    "pending_items": [
+      "2026-11-19公开条目待Sites同步",
+      "最近7日Sites目录待再次核验"
+    ]
   },
   "github": {
-    "status": "success",
-    "readback_commit": "f0bbff7a286dd30d7f2cc908247135bb1de429dd",
-    "verification": "五个增量数据文件已在固定commit逐一回读，随后自动PubMed工作流成功完成并保留本次更改。",
+    "status": "partial",
+    "verification": "数据待提交及回读",
     "pending_items": []
   },
   "frontend": {
-    "status": "success",
-    "workflow_url": "https://github.com/kudotoras/anes-ai/actions/runs/44206314392",
-    "verification": "公开GitHub Pages已回读research、opportunities、history_briefs与同步台账；11月17–18日索引及本次两条文献更新均可见。"
+    "status": "not_checked",
+    "verification": "未部署或修改任何站点源码"
   },
   "brief_catchup": {
-    "window_start": "2026-11-12",
-    "window_end": "2026-11-18",
-    "status": "success",
-    "catalog_audit": [
-      {
-        "date": "2026-11-12",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-13",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-14",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-15",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-16",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-17",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-18",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      }
-    ],
-    "pending_items": []
+    "window_start": "2026-11-13",
+    "window_end": "2026-11-19",
+    "status": "partial",
+    "verification": "11月13日至18日GitHub历史记录存在；Sites本轮无法回读",
+    "pending_items": [
+      "Sites最近7日追补核验"
+    ]
   },
   "counts": {
     "independent_new_bibliography": 1,
-    "github_new_papers": 0,
-    "github_modified_papers": 2,
-    "github_new_opportunities": 0,
+    "github_new_papers": 1,
     "github_modified_opportunities": 4,
-    "site_new_papers": 8,
-    "site_modified_papers": 2,
-    "site_new_opportunities": 3,
-    "site_modified_opportunities": 7,
     "daily_selected": 1
   },
   "failures": [
     {
-      "id": "publisher-coverage",
-      "reason": "完成PubMed期刊/主题检索、Nature出版商全文复核及重点机会官网核验；未穷尽目录全部68种期刊的Online First/最新ToC。"
+      "id": "sites-access",
+      "reason": "Sites专用维护接口不可用，不能核验或更新站点"
     },
     {
-      "id": "ai-medical-deadline",
-      "reason": "赛事官网当前显示11月23日，10月16日新闻稿显示原截止10月30日；保留两条来源及差异说明。"
+      "id": "publisher-coverage",
+      "reason": "本次检索重点出版商及主题，但未穷尽全部期刊逐刊ToC"
     }
   ],
   "previous_syncs": [
@@ -421,7 +380,13 @@
           "reason": "官网当前首页显示2026-11-23，但10月16日新闻稿写2026-10-30；未找到单独延期公告，需报名系统/秘书处确认。"
         }
       ]
+    },
+    {
+      "brief_date": "2026-11-18",
+      "overall_status": "success",
+      "sites": "success",
+      "github": "success"
     }
   ],
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-19"
 }

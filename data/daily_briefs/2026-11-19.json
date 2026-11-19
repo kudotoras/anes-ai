@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-19",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "id": "doi-10.1038-s41598-026-80974-4",
+      "title": "Safety-constrained multi-agent AI for emergency department disposition decisions",
+      "doi": "10.1038/s41598-026-80974-4",
+      "journal": "Scientific Reports",
+      "publication_date": "2026-11-19",
+      "epub_date": "2026-11-19",
+      "formal_issue_date": null,
+      "study_type": "回顾性单中心开发与锁定协议复评",
+      "sample_size": "469 valid-label encounters; 468 in initial analysis",
+      "key_result": "开发集表观准确率88.2%；锁定协议v2 AUC 0.794，低于单Agent 0.821–0.823；缺外部验证",
+      "selection": "严格最新/方法可迁移",
+      "source_url": "https://www.nature.com/articles/s41598-026-80974-4",
+      "verifiedOn": "2026-11-19",
+      "verification_scope": "出版社公开摘要、方法结果及出版日期核验；未宣称临床获益",
+      "needs_review": false
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition-huizhihui-2026",
+      "title": "首届汇智杯医工交叉临床创新转化路演大赛",
+      "organizer": "中华医学会外科学分会",
+      "deadline": "2026-11-20T24:00:00+08:00",
+      "source_url": "https://www.nice.org.cn/application/14804.html",
+      "verifiedOn": "2026-11-19",
+      "needs_review": false
+    },
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届AI+医疗技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "deadline": "2026-11-22T24:00:00+08:00",
+      "reported_homepage_deadline": "2026-11-23",
+      "source_url": "https://www.cppc.org.cn/show-1913.html",
+      "sources": [
+        "https://www.cppc.org.cn/show-1913.html",
+        "https://www.aimtcbj.com/"
+      ],
+      "verifiedOn": "2026-11-19",
+      "verification_scope": "主办方正式延期通知与官网日期对照",
+      "needs_review": false
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 Annual Meeting abstracts",
+      "organizer": "IARS/SOCCA",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-19",
+      "needs_review": false
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 Abstracts and Innovation Showcase",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-19",
+      "needs_review": false
+    }
+  ]
+}

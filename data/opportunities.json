@@ -46,7 +46,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-18",
+    "verifiedOn": "2026-11-19",
     "sources": [
       {
         "label": "ESAIC官方摘要页",
@@ -85,7 +85,8 @@
       "2026-11-15",
       "2026-11-16",
       "2026-11-17",
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-19"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
@@ -118,11 +119,12 @@
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报",
       "2026-11-17": "麻醉AI科研简报",
-      "2026-11-18": "麻醉AI科研简报"
+      "2026-11-18": "麻醉AI科研简报",
+      "2026-11-19": "麻醉AI科研简报"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
-    "verification_scope": "ESAIC官方摘要页与2027摘要指南v2.0"
+    "verification_scope": "2026-11-19再次核验主办方官方征集页面与截止日期"
   },
   {
     "id": "conference_ce9a2f54c2",
@@ -140,7 +142,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-17",
+    "verifiedOn": "2026-11-19",
     "sources": [
       {
         "label": "IARS官方摘要征集",
@@ -168,7 +170,8 @@
       "2026-11-14",
       "2026-11-15",
       "2026-11-16",
-      "2026-11-17"
+      "2026-11-17",
+      "2026-11-19"
     ],
     "verificationNote": "官方页确认12月6日23:59 PST；新设Monitoring, Technology, QI & POCUS等类别。",
     "site_catalog_id": "iars2027",
@@ -188,12 +191,13 @@
       "2026-11-14": "麻醉AI科研简报",
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报",
-      "2026-11-17": "麻醉AI科研简报"
+      "2026-11-17": "麻醉AI科研简报",
+      "2026-11-19": "麻醉AI科研简报"
     },
     "verification_attempted_on": "2026-11-17",
     "verification_failure": null,
     "deadline_timezone": "America/Los_Angeles",
-    "verification_scope": "IARS官方摘要页与完整摘要指南"
+    "verification_scope": "2026-11-19再次核验主办方官方征集页面与截止日期"
   },
   {
     "id": "conference_95688579fb",
@@ -279,11 +283,11 @@
     "title": "首届“AI+医疗”技术创新大赛",
     "organizer": "中国生产力促进中心协会",
     "journal": "中国生产力促进中心协会",
-    "date": "2026-11-23",
-    "deadline": "2026-11-23",
+    "date": "2026-11-22",
+    "deadline": "2026-11-22T24:00:00+08:00",
     "category": "competition",
     "topic": "AI辅助诊断、治疗、监测与医疗成果转化",
-    "description": "官网当前页面面向医疗机构、高校院所、科研院所和医疗科技企业征集AI医疗项目，设转化组与产业组。转化组要求概念验证或原理/工程样机、清晰自主知识产权、合规伦理与数据安全；每组一等奖5万元、二等奖3万元、三等奖1万元，另有100万–2000万元股权投资对接资源。官网当前截止为11月23日，但10月16日新闻稿写10月30日，尚未找到单独延期公告，需向秘书处确认。",
+    "description": "官网当前页面面向医疗机构、高校院所、科研院所和医疗科技企业征集AI医疗项目，设转化组与产业组。转化组要求概念验证或原理/工程样机、清晰自主知识产权、合规伦理与数据安全；每组一等奖5万元、二等奖3万元、三等奖1万元，另有100万–2000万元股权投资对接资源。主办方10月28日正式延期公告明确截止11月22日24时；官网首页显示11月23日，建议以较早的正式时刻为准。",
     "source_url": "https://www.aimtcbj.com/",
     "status": "open",
     "historical_status": "has_future_deadline_reported",
@@ -297,7 +301,8 @@
       "2026-11-15",
       "2026-11-16",
       "2026-11-17",
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-19"
     ],
     "archive_review_required": false,
     "verification_attempted_on": "2026-11-17",
@@ -310,11 +315,12 @@
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报",
       "2026-11-17": "麻醉AI科研简报",
-      "2026-11-18": "麻醉AI科研简报"
+      "2026-11-18": "麻醉AI科研简报",
+      "2026-11-19": "麻醉AI科研简报"
     },
-    "verificationNote": "官网当前首页显示11月23日；10月16日新闻稿写10月30日。建议先通过报名系统或秘书处确认延期，再提交。",
-    "verifiedOn": "2026-11-18",
-    "needs_review": true,
+    "verificationNote": "已找到主办方2026-10-28正式延期公告，原10月31日24时延期至11月22日24时；官网首页显示11月23日，建议按较早的正式截止提交。",
+    "verifiedOn": "2026-11-19",
+    "needs_review": false,
     "sources": [
       {
         "label": "大赛官网当前页面",
@@ -323,6 +329,10 @@
       {
         "label": "10月16日新闻发布会报道",
         "url": "https://www.bjnews.com.cn/detail/1792134166168952.html"
+      },
+      {
+        "label": "主办方正式延期通知 2026-10-28",
+        "url": "https://www.cppc.org.cn/show-1913.html"
       }
     ],
     "site_catalog_id": "competition_80c6f85a8d",
@@ -330,9 +340,9 @@
     "reported_deadline": "2026-11-23",
     "reported_deadline_source": "https://www.aimtcbj.com/",
     "previous_deadline_source": "https://www.bjnews.com.cn/detail/1792134166168952.html",
-    "deadline_verification_scope": "11月14日核对官网索引；未核定有效截止日",
-    "deadlineLabel": "官网当前首页显示截至2026-11-23；未标明具体时刻",
-    "verification_scope": "2026-11-18核对大赛官网当前首页；保留10月16日新闻稿的原10月30日日期用于追溯。",
+    "deadline_verification_scope": "主办方2026-10-28正式延期通知明确11月22日24时；官网首页显示11月23日但未注明具体时刻",
+    "deadlineLabel": "主办方正式延期通知：11月22日24:00；官网首页另显示11月23日",
+    "verification_scope": "主办方正式延期通知与赛事官网交叉核验",
     "deadline_timezone": "Asia/Shanghai",
     "previous_deadline": "2026-10-30",
     "provenance": [
@@ -397,9 +407,9 @@
     "format": "项目申报与路演；非正式论文投稿",
     "source_url": "https://www.nice.org.cn/application/14804.html",
     "status": "open",
-    "verifiedOn": "2026-11-18",
+    "verifiedOn": "2026-11-19",
     "needs_review": false,
-    "verification_scope": "长三角国家技术创新中心2026-11-09正式启动通知",
+    "verification_scope": "2026-11-19再次核验主办方官方征集页面与截止日期",
     "verificationNote": "官方通知确认11月20日24:00截止；申报材料格式及路演答辩材料以系统说明为准。",
     "sources": [
       {
@@ -413,11 +423,13 @@
     ],
     "brief_dates": [
       "2026-11-17",
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-19"
     ],
     "brief_date_sources": {
       "2026-11-17": "麻醉AI科研简报",
-      "2026-11-18": "麻醉AI科研简报"
+      "2026-11-18": "麻醉AI科研简报",
+      "2026-11-19": "麻醉AI科研简报"
     },
     "provenance": [
       "麻醉AI科研简报"

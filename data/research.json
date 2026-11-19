@@ -15126,5 +15126,34 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "doi-10.1038-s41598-026-80974-4",
+    "title": "Safety-constrained multi-agent AI for emergency department disposition decisions",
+    "title_zh": "安全约束多智能体AI用于急诊收治决策",
+    "journal": "Scientific Reports",
+    "date": "2026-11-18",
+    "dateKind": "Online First; accepted article; formal issue not confirmed",
+    "doi": "10.1038/s41598-026-80974-4",
+    "topic": "临床智能体、安全约束与部署评估",
+    "categories": [
+      "临床部署、监管与人机协作"
+    ],
+    "study_type": "回顾性单中心开发与锁定协议复评",
+    "description": "469例急诊记录，初版在同一队列反复优化、无留出测试集，表观准确率88.2%；同行评议后锁定协议的v2 AUC 0.794，低于单Agent的0.821–0.823。医生总结文本造成标签泄漏风险；缺外部及前瞻验证。可借鉴智能体安全门、信息泄漏审计、冻结版本复评和单Agent基线。",
+    "source_url": "https://www.nature.com/articles/s41598-026-80974-4",
+    "lookup_url": "https://www.nature.com/articles/s41598-026-80974-4",
+    "link_kind": "original",
+    "status": "精选·已核验摘要与方法局限",
+    "origin": "麻醉AI科研简报",
+    "verifiedOn": "2026-11-19",
+    "verification_scope": "出版社公开摘要、方法结果及出版日期核验；未宣称临床获益",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-11-19"
+    ],
+    "brief_date_sources": {
+      "2026-11-19": "麻醉AI科研简报"
+    }
   }
 ]
