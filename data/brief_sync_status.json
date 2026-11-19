@@ -24,8 +24,9 @@
     ]
   },
   "github": {
-    "status": "partial",
-    "verification": "数据待提交及回读",
+    "status": "success",
+    "readback_commit": "9fc2de265f4f67d5b572714778e185caf2009e1e",
+    "verification": "research、opportunities、history_briefs、daily_briefs及同步台账已在固定commit逐一回读；保留人工精读摘要与原有记录",
     "pending_items": []
   },
   "frontend": {
