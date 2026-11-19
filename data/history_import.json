@@ -3091,6 +3091,43 @@
       "competition_count": 2,
       "conference_count": 1,
       "source_url": "data/daily_briefs/2026-11-18.json"
+    },
+    {
+      "date": "2026-11-19",
+      "record_status": "aligned_with_completed_brief_and_independent_search",
+      "paper_ids": [
+        "doi-10.1038-s41598-026-80974-4",
+        "pubmed-43049301",
+        "pubmed-43044098",
+        "pubmed-43041177",
+        "pubmed-43044723"
+      ],
+      "selected_paper_ids": [
+        "doi-10.1038-s41598-026-80974-4",
+        "pubmed-43049301",
+        "pubmed-43044098",
+        "pubmed-43041177",
+        "pubmed-43044723"
+      ],
+      "selected_paper_count": 5,
+      "paper_count": 5,
+      "referenced_paper_ids": [
+        "pubmed-42770562"
+      ],
+      "competition_ids": [
+        "competition-huizhihui-2026",
+        "competition_80c6f85a8d"
+      ],
+      "conference_ids": [
+        "conference_ce9a2f54c2",
+        "conference_95a23edf4a",
+        "conference-icbai2026",
+        "esicm-project-endorsement2026-call2",
+        "conference_95688579fb"
+      ],
+      "competition_count": 2,
+      "conference_count": 5,
+      "source_url": "data/daily_briefs/2026-11-19.json"
     }
   ]
 }

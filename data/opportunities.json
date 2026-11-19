@@ -215,7 +215,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-17",
+    "verifiedOn": "2026-11-19",
     "sources": [
       {
         "label": "SCA官方会议页",
@@ -239,9 +239,9 @@
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "官方页面和提交平台均确认12月1日23:59 EST；未核实正式出版/检索。",
+    "verificationNote": "SCA官网于2026-11-19回读：SCA 2027科学摘要截止2026-12-01 23:59 ET。",
     "needs_review": false,
-    "verification_attempted_on": "2026-11-17",
+    "verification_attempted_on": "2026-11-19",
     "brief_date_sources": {
       "2026-10-31": "麻醉AI科研简报",
       "2026-11-17": "麻醉AI科研简报"
@@ -264,8 +264,8 @@
     "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
     "status": "open",
     "description": "ESICM研究项目学会背书征集；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件提交至research@esicm.org。属于项目背书/成果征集，不是论文投稿、墙报或资金奖励。",
-    "verifiedOn": "2026-11-18",
-    "verificationNote": "ESICM官方页确认第二轮征集2026-11-02开放、11-30 23:59 CET截止；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件发送至research@esicm.org。此项为项目背书申请，不是论文摘要或资助申请。",
+    "verifiedOn": "2026-11-19",
+    "verificationNote": "ESICM官网于2026-11-19回读：Call 2截止2026-11-30 23:59 CET，申请前须取得相关Section Lead或委员会批准。",
     "needs_review": false,
     "site_catalog_id": "esicm-project-endorsement2026-call2",
     "brief_dates": [
@@ -274,7 +274,7 @@
     "brief_date_sources": {
       "2026-11-09": "麻醉AI科研简报"
     },
-    "verification_attempted_on": "2026-11-17",
+    "verification_attempted_on": "2026-11-19",
     "verification_failure": null,
     "verification_scope": "2026-11-17 ESICM官方项目背书征集页；核实开放/关闭日期、申请前置审批、英文申请表及research@esicm.org提交方式。"
   },
@@ -449,10 +449,10 @@
     "format": "会议长摘要/墙报；全文仅用于评奖或期刊推荐，不等同于正式会议论文集",
     "source_url": "https://worldbiomedai.org/conference2026/index.html",
     "status": "open",
-    "verifiedOn": "2026-11-17",
+    "verifiedOn": "2026-11-19",
     "needs_review": true,
     "verification_scope": "大会官网投稿、墙报、注册和组织单位页面",
-    "verificationNote": "官网确认11月20日截稿及主办单位；正式出版商、论文集与数据库检索未明确，投稿前建议向组委会书面确认。",
+    "verificationNote": "ICBAI官网于2026-11-19回读：长摘要/墙报投稿截止2026-11-20；出版与检索仍未明确。",
     "sources": [
       {
         "label": "ICBAI 2026官网征文与注册页",
@@ -467,7 +467,8 @@
     },
     "provenance": [
       "麻醉AI科研简报"
-    ]
+    ],
+    "verification_attempted_on": "2026-11-19"
   },
   {
     "id": "asa2027-general-sessions",

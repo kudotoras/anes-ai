@@ -2,60 +2,103 @@
   "schema_version": 1,
   "brief_date": "2026-11-19",
   "overall_status": "partial",
-  "brief_status": "今日精选1篇11月18日新上线的临床多Agent负面复评研究；发现AI+医疗赛事主办方正式延期通知，纠正此前未核实截止日期。",
+  "brief_status": "当日聊天简报已完成且未截断；与独立检索去重并集合并为5篇精选。",
   "selected_paper_ids": [
-    "doi-10.1038-s41598-026-80974-4"
+    "doi-10.1038-s41598-026-80974-4",
+    "pubmed-43049301",
+    "pubmed-43044098",
+    "pubmed-43041177",
+    "pubmed-43044723"
   ],
-  "referenced_paper_ids": [],
+  "referenced_paper_ids": [
+    "pubmed-42770562"
+  ],
   "competition_ids": [
     "competition-huizhihui-2026",
     "competition_80c6f85a8d"
   ],
   "conference_ids": [
     "conference_ce9a2f54c2",
-    "conference_95a23edf4a"
+    "conference_95a23edf4a",
+    "conference-icbai2026",
+    "esicm-project-endorsement2026-call2",
+    "conference_95688579fb"
   ],
   "sites": {
-    "status": "failed",
-    "verification": "当前可用连接器没有Sites get_site或专用短期管理API，未读取或写入Site",
-    "pending_items": [
-      "2026-11-19公开条目待Sites同步",
-      "最近7日Sites目录待再次核验"
-    ]
+    "status": "success",
+    "revision": "d37ae890-6cc0-478a-981b-85455137fa39",
+    "verification": "按v6维护说明分两批POST并GET回读；6篇新增文献和7项机会更新均持久化，公开只读权限未改。",
+    "pending_items": []
   },
   "github": {
-    "status": "success",
-    "readback_commit": "9fc2de265f4f67d5b572714778e185caf2009e1e",
-    "verification": "research、opportunities、history_briefs、daily_briefs及同步台账已在固定commit逐一回读；保留人工精读摘要与原有记录",
+    "status": "pending",
+    "verification": "等待本次增量提交与固定commit回读。",
     "pending_items": []
   },
   "frontend": {
-    "status": "not_checked",
-    "verification": "未部署或修改任何站点源码"
+    "status": "pending",
+    "verification": "等待公开GitHub Pages数据端回读。"
   },
   "brief_catchup": {
     "window_start": "2026-11-13",
     "window_end": "2026-11-19",
-    "status": "partial",
-    "verification": "11月13日至18日GitHub历史记录存在；Sites本轮无法回读",
-    "pending_items": [
-      "Sites最近7日追补核验"
-    ]
+    "status": "success",
+    "catalog_audit": [
+      {
+        "date": "2026-11-13",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-14",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-15",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-16",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-17",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-18",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      },
+      {
+        "date": "2026-11-19",
+        "github_catalog_missing": [],
+        "sites_catalog_missing": []
+      }
+    ],
+    "pending_items": []
   },
   "counts": {
-    "independent_new_bibliography": 1,
-    "github_new_papers": 1,
-    "github_modified_opportunities": 4,
-    "daily_selected": 1
+    "independent_new_bibliography": 2,
+    "brief_new_papers": 1,
+    "github_new_papers": 2,
+    "github_modified_papers": 3,
+    "github_new_opportunities": 0,
+    "github_modified_opportunities": 7,
+    "site_new_papers": 6,
+    "site_modified_papers": 0,
+    "site_new_opportunities": 0,
+    "site_modified_opportunities": 7,
+    "daily_selected": 5
   },
   "failures": [
     {
-      "id": "sites-access",
-      "reason": "Sites专用维护接口不可用，不能核验或更新站点"
-    },
-    {
       "id": "publisher-coverage",
-      "reason": "本次检索重点出版商及主题，但未穷尽全部期刊逐刊ToC"
+      "reason": "完成PubMed期刊与主题重叠窗口检索、5篇精选的出版商/摘要核验及7项官方机会回读；未穷尽目录全部期刊的每个Online First/最新ToC。"
     }
   ],
   "previous_syncs": [
