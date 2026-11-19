@@ -31,13 +31,14 @@
     "pending_items": []
   },
   "github": {
-    "status": "pending",
-    "verification": "等待本次增量提交与固定commit回读。",
+    "status": "success",
+    "readback_commit": "269bdd4ad3f139fe141f2d05f194f9e42a3c5cdf",
+    "verification": "六个增量数据文件已在固定commit逐一回读；5篇精选、2项比赛、5项会议/征集均存在；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
     "pending_items": []
   },
   "frontend": {
     "status": "pending",
-    "verification": "等待公开GitHub Pages数据端回读。"
+    "verification": "公开数据文件已回读，等待主站每日精选重新加载核验。"
   },
   "brief_catchup": {
     "window_start": "2026-11-13",

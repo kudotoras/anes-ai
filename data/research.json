@@ -171,7 +171,8 @@
     ],
     "brief_date_sources": {
       "2026-11-19": "麻醉AI科研简报"
-    }
+    },
+    "site_catalog_id": "doi-s41598-026-80974-4"
   },
   {
     "id": "pubmed-43049258",
@@ -300,7 +301,8 @@
     "selection_dates": [
       "2026-11-19"
     ],
-    "selection_source": "独立检索精选"
+    "selection_source": "独立检索精选",
+    "site_catalog_id": "pubmed-43041177"
   },
   {
     "id": "pubmed-43044098",
@@ -324,7 +326,8 @@
     "selection_dates": [
       "2026-11-19"
     ],
-    "selection_source": "独立检索精选"
+    "selection_source": "独立检索精选",
+    "site_catalog_id": "pubmed-43044098"
   },
   {
     "id": "pubmed-43040057",
@@ -468,7 +471,8 @@
     "selection_dates": [
       "2026-11-19"
     ],
-    "selection_source": "独立检索精选"
+    "selection_source": "独立检索精选",
+    "site_catalog_id": "pubmed-43049301"
   },
   {
     "id": "pubmed-43046517",
@@ -506,7 +510,8 @@
     "selection_dates": [
       "2026-11-19"
     ],
-    "selection_source": "独立检索精选"
+    "selection_source": "独立检索精选",
+    "site_catalog_id": "pubmed-43044723"
   },
   {
     "id": "pubmed-43037770",
