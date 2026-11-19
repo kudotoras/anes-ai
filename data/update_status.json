@@ -1,11 +1,11 @@
 {
-  "last_success": "2026-11-18T05:09:03+00:00",
+  "last_success": "2026-11-19T00:03:42+00:00",
   "queries_ok": 19,
   "queries_total": 19,
   "queries_failed": 0,
-  "papers_added": 3,
-  "ingested_date": "2026-11-18",
-  "pubmed_records_checked": 84,
-  "total_papers": 723,
+  "papers_added": 21,
+  "ingested_date": "2026-11-19",
+  "pubmed_records_checked": 93,
+  "total_papers": 745,
   "notes": "PubMed 题录自动收录；比赛和会议尚未自动抓取。"
 }

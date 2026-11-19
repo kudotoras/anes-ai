@@ -950,24 +950,5 @@
     "competition_count": 2,
     "conference_count": 1,
     "source_url": "data/daily_briefs/2026-11-18.json"
-  },
-  {
-    "date": "2026-11-19",
-    "record_status": "aligned_with_completed_brief",
-    "paper_ids": [
-      "doi-10.1038-s41598-026-80974-4"
-    ],
-    "competition_ids": [
-      "competition-huizhihui-2026",
-      "competition_80c6f85a8d"
-    ],
-    "conference_ids": [
-      "conference_ce9a2f54c2",
-      "conference_95a23edf4a"
-    ],
-    "paper_count": 1,
-    "competition_count": 2,
-    "conference_count": 2,
-    "source_url": "data/daily_briefs/2026-11-19.json"
   }
 ]
