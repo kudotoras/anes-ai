@@ -2,68 +2,72 @@
   "schema_version": 1,
   "brief_date": "2026-11-20",
   "overall_status": "partial",
-  "brief_status": "今日独立检索精选2篇11月19日Online First研究，出版社题录及摘要核实，全文待精读；2项赛事、1项会议官网核验。",
+  "brief_status": "GitHub当日交接2篇与独立检索2篇合并为4篇精选；私有科研简报自动化仍待显示当日完成状态。",
   "selected_paper_ids": [
     "doi-10.1038-s44573-026-00036-8",
-    "doi-10.1038-s41746-026-03472-x"
+    "doi-10.1038-s41746-026-03472-x",
+    "doi-s41598-026-78511-4",
+    "pubmed-43001150"
   ],
   "referenced_paper_ids": [
-    "pubmed-42770562"
+    "pubmed-43003703",
+    "pubmed-43007273"
   ],
   "competition_ids": [
     "competition-huizhihui-2026",
     "competition_80c6f85a8d"
   ],
   "conference_ids": [
-    "iars-socca2027"
+    "conference-icbai2026",
+    "esicm-project-endorsement2026-call2"
   ],
   "sites": {
-    "status": "failed",
-    "verification": "当前无Sites get_site与站点维护API授权，未进行站点写入或回读。",
+    "status": "success",
+    "revision": "5f42b484-f3a8-436c-adff-cdfe83657638",
+    "verification": "已通过部署数据接口写入并回读：149篇、27项机会；新增1篇、实质补充1篇、更新4项机会。",
     "pending_items": [
-      "2026-11-20公开条目待Sites核验同步"
+      "当日私有科研简报完成后继续对齐"
     ]
   },
   "github": {
-    "status": "success",
-    "verification": "2026-11-20交接文件、research和history_briefs写入后逐项回读；opportunities既有条目未覆盖。",
-    "pending_items": []
+    "status": "pending",
+    "verification": "数据合并已准备，等待提交与回读。",
+    "pending_items": [
+      "提交后回读"
+    ]
   },
   "frontend": {
-    "status": "partial",
-    "verification": "公开daily_briefs/2026-11-19.json已回读显示5篇；公开主页面目录计数为747/38且精选目录147条，但当前核验浏览器因客户端日期判断仍显示“精选0篇”。数据已发布，未按日常维护约束修改前端源码或重新部署。",
-    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-19.json",
-    "pending_items": [
-      "主页面每日精选显示依赖客户端北京时间；当前核验浏览器与任务日期不一致时会把2026-11-17/18文献判为未来日期并过滤。"
-    ]
+    "status": "not_checked",
+    "verification": "本轮按日常维护约束不修改源码、不重新部署；仅更新数据文件。",
+    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-20.json"
   },
   "brief_catchup": {
     "window_start": "2026-11-14",
     "window_end": "2026-11-20",
     "status": "partial",
     "pending_items": [
-      "Sites近7日目录未能实时回读"
+      "2026-11-20私有科研简报自动化尚未显示完成"
     ]
   },
   "counts": {
-    "independent_new_bibliography": 2,
-    "github_new_papers": 2,
-    "daily_selected": 2,
+    "independent_new_bibliography": 0,
+    "github_modified_papers": 2,
+    "github_modified_opportunities": 4,
+    "site_new_papers": 1,
+    "site_modified_papers": 1,
+    "site_modified_opportunities": 4,
+    "daily_selected": 4,
     "competition_verified": 2,
-    "conference_verified": 1
+    "conference_verified": 3
   },
   "failures": [
     {
-      "id": "sites-access",
-      "reason": "Sites专用连接器及临时管理员凭据不可用"
+      "id": "daily-brief-pending",
+      "reason": "私有麻醉AI科研简报自动化尚未显示2026-11-20已完成；已先合并GitHub当日交接与独立检索，待后续复核。"
     },
     {
-      "id": "fulltext",
-      "reason": "两篇新文出版社摘要已核实，但全文无法获取，不标记精读"
-    },
-    {
-      "id": "journal-coverage",
-      "reason": "未完成所列全部期刊逐刊最新ToC扫描"
+      "id": "publisher-coverage",
+      "reason": "完成PubMed联合检索与重点出版商定向复查，未穷尽全部期刊逐刊最新ToC。"
     }
   ],
   "previous_syncs": [

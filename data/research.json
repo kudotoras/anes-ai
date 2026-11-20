@@ -1176,13 +1176,24 @@
     "dateKind": "首次在线发表",
     "study_type": "模型参考自适应控制 / 虚拟患者仿真",
     "source_url": "https://www.nature.com/articles/s41598-026-78511-4",
-    "description": "提出用于丙泊酚–瑞芬太尼给药的BIS模型参考自适应控制，在异质虚拟患者中评价目标跟踪和时变延迟。仿真结果不能证明临床安全性或疗效。",
-    "verification_scope": "出版商题录、Article in Press摘要与在线发布日期；非全文精读",
-    "selected": false,
-    "status": "摘要已核验",
-    "origin": "独立检索",
-    "verifiedOn": "2026-11-16",
-    "needs_review": false
+    "description": "面向丙泊酚–瑞芬太尼联合给药的BIS模型参考自适应控制，在异质虚拟患者和时变延迟条件下评估麻醉深度跟踪。仿真诱导调节时间约4–6分钟、超调低于5%，稳态BIS约50±2；尚不能证明临床安全性、鲁棒性或患者获益。",
+    "verification_scope": "Scientific Reports公开全文、DOI、方法及仿真数值结果",
+    "selected": true,
+    "status": "今日精选·出版商全文已核验",
+    "origin": "独立检索高价值补看",
+    "verifiedOn": "2026-11-20",
+    "needs_review": false,
+    "topic": "精准麻醉 / 闭环麻醉控制",
+    "selection_dates": [
+      "2026-11-20"
+    ],
+    "brief_dates": [
+      "2026-11-20"
+    ],
+    "brief_date_sources": {
+      "2026-11-20": "独立检索高价值补看"
+    },
+    "site_catalog_id": "doi-s41598-026-78511-4"
   },
   {
     "id": "pubmed-43032252",
@@ -2683,20 +2694,42 @@
     "id": "pubmed-43001150",
     "pmid": "43001150",
     "doi": "10.2147/IJGM.S646786",
-    "title": "Development and Validation of a Machine Learning‑based Prediction Model for ICU‑Acquired Weakness in Critically Ill Patients: A Prospective Multicenter Cohort Study.",
-    "title_zh": "",
-    "journal": "International journal of general medicine",
+    "title": "Development and Validation of a Machine Learning-based Prediction Model for ICU-Acquired Weakness in Critically Ill Patients: A Prospective Multicenter Cohort Study.",
+    "title_zh": "三中心前瞻性队列预测ICU获得性衰弱：简单逻辑回归与机器学习的外部验证比较",
+    "journal": "International Journal of General Medicine",
     "date": "2026-11-04",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001150/",
-    "status": "PubMed 自动收录·待人工精读",
-    "origin": "PubMed",
+    "topic": "重症风险预测 / 临床外部验证",
+    "study_type": "三中心前瞻性队列 / 预测模型开发与外部验证",
+    "source_url": "https://www.dovepress.com/development-and-validation-of-a-machine-learning-based-prediction-mode-peer-reviewed-fulltext-article-IJGM",
+    "status": "今日精选·PubMed与出版商全文已核验",
+    "origin": "独立检索高价值补看",
     "ingested_date": "2026-11-10",
-    "dateKind": "PubMed电子日期；缺失不臆造",
-    "description": "",
-    "verifiedOn": null,
-    "needs_review": true
+    "dateKind": "正式发表",
+    "description": "三中心前瞻性队列共535例：训练276例、内部验证119例、外部验证140例。外部AUC为SVM 0.853、逻辑回归0.841、随机森林0.802、XGBoost 0.790、CART 0.685；SVM与逻辑回归差异P=0.085，复杂树模型出现过拟合。固定48小时测量窗口、样本量有限，且未验证动态更新或患者结局改善。",
+    "verifiedOn": "2026-11-20",
+    "needs_review": false,
+    "verification_scope": "PubMed题录与DovePress公开全文；样本量、外部AUC和局限",
+    "selected": true,
+    "selection_dates": [
+      "2026-11-20"
+    ],
+    "brief_dates": [
+      "2026-11-20"
+    ],
+    "brief_date_sources": {
+      "2026-11-20": "独立检索高价值补看"
+    },
+    "sources": [
+      {
+        "label": "DovePress原文",
+        "url": "https://www.dovepress.com/development-and-validation-of-a-machine-learning-based-prediction-mode-peer-reviewed-fulltext-article-IJGM"
+      },
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43001150/"
+      }
+    ],
+    "site_catalog_id": "pubmed-43001150"
   },
   {
     "id": "pubmed-43001136",

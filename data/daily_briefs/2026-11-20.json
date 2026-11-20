@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-20",
-  "source": "麻醉AI科研简报",
+  "source": "GitHub当日简报交接 ∪ 独立检索",
   "papers": [
     {
       "id": "doi-10.1038-s44573-026-00036-8",
@@ -34,6 +34,45 @@
       "verifiedOn": "2026-11-20",
       "verification_scope": "publisher metadata and abstract",
       "needs_review": true,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "id": "doi-s41598-026-78511-4",
+      "title": "BIS-based model reference adaptive control of anesthesia depth under patient variability and time-varying delays",
+      "title_zh": "考虑患者差异和时变延迟的BIS模型参考自适应麻醉控制",
+      "journal": "Scientific Reports",
+      "date": "2026-11-13",
+      "publication_date": "2026-11-13",
+      "study_type": "模型参考自适应控制 / 虚拟患者仿真",
+      "doi": "10.1038/s41598-026-78511-4",
+      "source_url": "https://www.nature.com/articles/s41598-026-78511-4",
+      "key_result": "异质虚拟患者中诱导调节约4–6分钟、超调低于5%、稳态BIS约50±2；仅为仿真，未作临床验证。",
+      "status": "fulltext_verified_simulation_only",
+      "verifiedOn": "2026-11-20",
+      "verification_scope": "Scientific Reports公开全文",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "id": "pubmed-43001150",
+      "title": "Development and Validation of a Machine Learning-based Prediction Model for ICU-Acquired Weakness in Critically Ill Patients: A Prospective Multicenter Cohort Study.",
+      "title_zh": "三中心前瞻性队列预测ICU获得性衰弱",
+      "journal": "International Journal of General Medicine",
+      "date": "2026-11-04",
+      "publication_date": "2026-11-04",
+      "study_type": "三中心前瞻性队列 / 外部验证",
+      "pmid": "43001150",
+      "doi": "10.2147/IJGM.S646786",
+      "source_url": "https://www.dovepress.com/development-and-validation-of-a-machine-learning-based-prediction-mode-peer-reviewed-fulltext-article-IJGM",
+      "key_result": "535例三中心队列；外部AUC SVM 0.853、逻辑回归0.841，差异P=0.085，复杂树模型出现过拟合。",
+      "status": "publisher_fulltext_and_pubmed_verified",
+      "verifiedOn": "2026-11-20",
+      "verification_scope": "PubMed题录与DovePress公开全文",
+      "needs_review": false,
       "brief_dates": [
         "2026-11-20"
       ]
@@ -77,6 +116,31 @@
       "brief_dates": [
         "2026-11-20"
       ]
+    },
+    {
+      "id": "conference-icbai2026",
+      "title": "2026年世界生物医药与人工智能大会（ICBAI 2026）",
+      "category": "conference",
+      "deadline": "2026-11-20",
+      "source_url": "https://worldbiomedai.org/conference2026/index.html",
+      "verifiedOn": "2026-11-20",
+      "needs_review": true,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "id": "esicm-project-endorsement2026-call2",
+      "title": "ESICM Research Second Call for Project Endorsement Applications",
+      "category": "conference",
+      "deadline": "2026-11-30T23:59:00+01:00",
+      "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
+      "verifiedOn": "2026-11-20",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-20"
+      ]
     }
-  ]
+  ],
+  "merge_note": "GitHub当日交接已有2篇已核验条目，与独立检索2篇高价值补看合并，共4篇；私有麻醉AI科研简报自动化尚未显示2026-11-20运行完成，完成后继续核对。"
 }
