@@ -235,6 +235,44 @@
     "ingested_date": "2026-11-20"
   },
   {
+    "id": "doi-10.1038-s44573-026-00036-8",
+    "doi": "10.1038/s44573-026-00036-8",
+    "title": "Artificial intelligence for operating room workflow optimization using a seven-domain prediction-to-action implementation framework",
+    "title_zh": "",
+    "journal": "Scientific Reviews",
+    "date": "2026-11-19",
+    "topic": "麻醉AI/围术期方法迁移",
+    "study_type": "Review",
+    "source_url": "https://www.nature.com/articles/s44573-026-00036-8",
+    "status": "出版社题录与摘要核验·待全文精读",
+    "origin": "麻醉AI科研简报",
+    "verifiedOn": "2026-11-20",
+    "verification_scope": "publisher metadata and abstract",
+    "needs_review": true,
+    "brief_dates": [
+      "2026-11-20"
+    ]
+  },
+  {
+    "id": "doi-10.1038-s41746-026-03472-x",
+    "doi": "10.1038/s41746-026-03472-x",
+    "title": "Imaging-based biological age gap and risk of mortality and incident diseases: a systematic review and meta-analysis",
+    "title_zh": "",
+    "journal": "npj Digital Medicine",
+    "date": "2026-11-19",
+    "topic": "麻醉AI/围术期方法迁移",
+    "study_type": "Systematic review and meta-analysis",
+    "source_url": "https://www.nature.com/articles/s41746-026-03472-x",
+    "status": "出版社题录与摘要核验·待全文精读",
+    "origin": "麻醉AI科研简报",
+    "verifiedOn": "2026-11-20",
+    "verification_scope": "publisher metadata and abstract",
+    "needs_review": true,
+    "brief_dates": [
+      "2026-11-20"
+    ]
+  },
+  {
     "id": "doi-10.1038-s41598-026-80974-4",
     "title": "Safety-constrained multi-agent AI for emergency department disposition decisions",
     "title_zh": "安全约束多智能体AI用于急诊收治决策",
@@ -15949,43 +15987,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "doi-10.1038-s44573-026-00036-8",
-    "doi": "10.1038/s44573-026-00036-8",
-    "title": "Artificial intelligence for operating room workflow optimization using a seven-domain prediction-to-action implementation framework",
-    "title_zh": "",
-    "journal": "Scientific Reviews",
-    "date": "2026-11-19",
-    "topic": "麻醉AI/围术期方法迁移",
-    "study_type": "Review",
-    "source_url": "https://www.nature.com/articles/s44573-026-00036-8",
-    "status": "出版社题录与摘要核验·待全文精读",
-    "origin": "麻醉AI科研简报",
-    "verifiedOn": "2026-11-20",
-    "verification_scope": "publisher metadata and abstract",
-    "needs_review": true,
-    "brief_dates": [
-      "2026-11-20"
-    ]
-  },
-  {
-    "id": "doi-10.1038-s41746-026-03472-x",
-    "doi": "10.1038/s41746-026-03472-x",
-    "title": "Imaging-based biological age gap and risk of mortality and incident diseases: a systematic review and meta-analysis",
-    "title_zh": "",
-    "journal": "npj Digital Medicine",
-    "date": "2026-11-19",
-    "topic": "麻醉AI/围术期方法迁移",
-    "study_type": "Systematic review and meta-analysis",
-    "source_url": "https://www.nature.com/articles/s41746-026-03472-x",
-    "status": "出版社题录与摘要核验·待全文精读",
-    "origin": "麻醉AI科研简报",
-    "verifiedOn": "2026-11-20",
-    "verification_scope": "publisher metadata and abstract",
-    "needs_review": true,
-    "brief_dates": [
-      "2026-11-20"
-    ]
   }
 ]
