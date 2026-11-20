@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-21",
+  "source": "麻醉AI科研简报 ∪ 独立检索",
+  "papers": [
+    {
+      "id": "doi-10.1038-s41746-026-03382-y",
+      "title": "Epidemiology-informed graph neural networks for predicting and interpreting transmissible hospital-acquired infections",
+      "journal": "npj Digital Medicine",
+      "publication_date": "2026-11-20",
+      "date": "2026-11-20",
+      "study_type": "Dynamic contact-network graph neural network; one real-world hospital-onset COVID-19 cohort and two simulated HAI datasets",
+      "doi": "10.1038/s41746-026-03382-y",
+      "source_url": "https://www.nature.com/articles/s41746-026-03382-y",
+      "key_result": "Epidemiology-informed GNN jointly predicts patient infection state transitions and estimates transmission/recovery parameters; reported AUC-ROC up to 98.46% across datasets/settings. External prospective clinical effectiveness not established.",
+      "status": "publisher_abstract_verified",
+      "verifiedOn": "2026-11-21",
+      "verification_scope": "publisher abstract, DOI and online date",
+      "needs_review": true,
+      "brief_dates": [
+        "2026-11-21"
+      ],
+      "relevance": "ICU infections, mechanistic constraints, interpretable patient state transitions; method transferable to perioperative digital twin but not an anesthesia validation"
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届AI+医疗技术创新大赛",
+      "category": "competition",
+      "deadline": "2026-11-22T24:00:00+08:00",
+      "source_url": "https://www.cppc.org.cn/show-1913.html",
+      "sources": [
+        "https://www.cppc.org.cn/show-1913.html",
+        "https://www.aimtcbj.com/"
+      ],
+      "verificationNote": "主办方正式延期公告截止11月22日24时；官网首页显示11月23日，优先遵循较早时间",
+      "verifiedOn": "2026-11-21",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-21"
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 abstracts and Innovation Showcase",
+      "category": "conference",
+      "deadline": "2026-12-10",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-21",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-21"
+      ]
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS and SOCCA 2027 Annual Meeting abstracts",
+      "category": "conference",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-21",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-21"
+      ]
+    }
+  ],
+  "merge_note": "仅1篇新增合格研究，其他检索结果不满足精选条件；未完成全部期刊逐刊扫描；Sites连接器不可用，待后续合并独立站点目录。"
+}
