@@ -29,14 +29,15 @@
   },
   "github": {
     "status": "success",
-    "readback_commit": "73e1515fb00b0945c06994d2d7188992e19a49a4",
-    "verification": "研究库、机会库、当日交接文件和历史索引均已提交并回读；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "readback_commit": "8091bfa8c63536300bc3f9891a52eb2f81f32487",
+    "verification": "研究库、机会库、当日交接文件和历史索引均已提交并回读；自动刷新后已恢复2026-11-20历史索引；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
     "pending_items": []
   },
   "frontend": {
-    "status": "not_checked",
-    "verification": "本轮按日常维护约束不修改源码、不重新部署；仅更新数据文件。",
-    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-20.json"
+    "status": "success",
+    "verification": "公开首页回读显示2026-11-20每日精选4篇；完整库776篇、精选目录156篇。",
+    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-20.json",
+    "public_site": "https://kudotoras.github.io/anes-ai/"
   },
   "brief_catchup": {
     "window_start": "2026-11-14",
