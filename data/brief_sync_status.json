@@ -1,14 +1,11 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-19",
+  "brief_date": "2026-11-20",
   "overall_status": "partial",
-  "brief_status": "当日聊天简报已完成且未截断；与独立检索去重并集合并为5篇精选。",
+  "brief_status": "今日独立检索精选2篇11月19日Online First研究，出版社题录及摘要核实，全文待精读；2项赛事、1项会议官网核验。",
   "selected_paper_ids": [
-    "doi-10.1038-s41598-026-80974-4",
-    "pubmed-43049301",
-    "pubmed-43044098",
-    "pubmed-43041177",
-    "pubmed-43044723"
+    "doi-10.1038-s44573-026-00036-8",
+    "doi-10.1038-s41746-026-03472-x"
   ],
   "referenced_paper_ids": [
     "pubmed-42770562"
@@ -18,22 +15,18 @@
     "competition_80c6f85a8d"
   ],
   "conference_ids": [
-    "conference_ce9a2f54c2",
-    "conference_95a23edf4a",
-    "conference-icbai2026",
-    "esicm-project-endorsement2026-call2",
-    "conference_95688579fb"
+    "iars-socca2027"
   ],
   "sites": {
-    "status": "success",
-    "revision": "d37ae890-6cc0-478a-981b-85455137fa39",
-    "verification": "按v6维护说明分两批POST并GET回读；6篇新增文献和7项机会更新均持久化，公开只读权限未改。",
-    "pending_items": []
+    "status": "failed",
+    "verification": "当前无Sites get_site与站点维护API授权，未进行站点写入或回读。",
+    "pending_items": [
+      "2026-11-20公开条目待Sites核验同步"
+    ]
   },
   "github": {
     "status": "success",
-    "readback_commit": "5208f5cca53eaf56b283433102e6be0bdb7474cf",
-    "verification": "数据提交与精选可见性字段均已回读；公开daily_briefs/2026-11-19.json显示5篇精选，research目录747条、机会38条；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "verification": "2026-11-20交接文件、research和history_briefs写入后逐项回读；opportunities既有条目未覆盖。",
     "pending_items": []
   },
   "frontend": {
@@ -45,65 +38,32 @@
     ]
   },
   "brief_catchup": {
-    "window_start": "2026-11-13",
-    "window_end": "2026-11-19",
-    "status": "success",
-    "catalog_audit": [
-      {
-        "date": "2026-11-13",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-14",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-15",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-16",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-17",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-18",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      },
-      {
-        "date": "2026-11-19",
-        "github_catalog_missing": [],
-        "sites_catalog_missing": []
-      }
-    ],
-    "pending_items": []
+    "window_start": "2026-11-14",
+    "window_end": "2026-11-20",
+    "status": "partial",
+    "pending_items": [
+      "Sites近7日目录未能实时回读"
+    ]
   },
   "counts": {
     "independent_new_bibliography": 2,
-    "brief_new_papers": 1,
     "github_new_papers": 2,
-    "github_modified_papers": 3,
-    "github_new_opportunities": 0,
-    "github_modified_opportunities": 7,
-    "site_new_papers": 6,
-    "site_modified_papers": 0,
-    "site_new_opportunities": 0,
-    "site_modified_opportunities": 7,
-    "daily_selected": 5
+    "daily_selected": 2,
+    "competition_verified": 2,
+    "conference_verified": 1
   },
   "failures": [
     {
-      "id": "publisher-coverage",
-      "reason": "完成PubMed期刊与主题重叠窗口检索、5篇精选的出版商/摘要核验及7项官方机会回读；未穷尽目录全部期刊的每个Online First/最新ToC。"
+      "id": "sites-access",
+      "reason": "Sites专用连接器及临时管理员凭据不可用"
+    },
+    {
+      "id": "fulltext",
+      "reason": "两篇新文出版社摘要已核实，但全文无法获取，不标记精读"
+    },
+    {
+      "id": "journal-coverage",
+      "reason": "未完成所列全部期刊逐刊最新ToC扫描"
     }
   ],
   "previous_syncs": [
@@ -435,7 +395,13 @@
       "overall_status": "success",
       "sites": "success",
       "github": "success"
+    },
+    {
+      "brief_date": "2026-11-19",
+      "overall_status": "partial",
+      "sites": "success",
+      "github": "success"
     }
   ],
-  "last_updated": "2026-11-19"
+  "last_updated": "2026-11-20"
 }
