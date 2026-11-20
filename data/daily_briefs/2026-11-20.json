@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-20",
+  "source": "麻醉AI科研简报",
+  "papers": [
+    {
+      "id": "doi-10.1038-s44573-026-00036-8",
+      "title": "Artificial intelligence for operating room workflow optimization using a seven-domain prediction-to-action implementation framework",
+      "journal": "Scientific Reviews",
+      "date": "2026-11-19",
+      "publication_date": "2026-11-19",
+      "study_type": "Review",
+      "doi": "10.1038/s44573-026-00036-8",
+      "source_url": "https://www.nature.com/articles/s44573-026-00036-8",
+      "status": "abstract_verified_fulltext_pending",
+      "verifiedOn": "2026-11-20",
+      "verification_scope": "publisher metadata and abstract",
+      "needs_review": true,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "id": "doi-10.1038-s41746-026-03472-x",
+      "title": "Imaging-based biological age gap and risk of mortality and incident diseases: a systematic review and meta-analysis",
+      "journal": "npj Digital Medicine",
+      "date": "2026-11-19",
+      "publication_date": "2026-11-19",
+      "study_type": "Systematic review and meta-analysis",
+      "study_size": "40 eligible reports; 21 in meta-analysis",
+      "doi": "10.1038/s41746-026-03472-x",
+      "source_url": "https://www.nature.com/articles/s41746-026-03472-x",
+      "status": "abstract_verified_fulltext_pending",
+      "verifiedOn": "2026-11-20",
+      "verification_scope": "publisher metadata and abstract",
+      "needs_review": true,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "competition-huizhihui-2026",
+      "title": "首届汇智杯医工交叉临床创新转化路演大赛",
+      "category": "competition",
+      "deadline": "2026-11-20T24:00:00+08:00",
+      "source_url": "https://www.nice.org.cn/application/14804.html",
+      "verifiedOn": "2026-11-20",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届AI+医疗技术创新大赛",
+      "category": "competition",
+      "deadline": "2026-11-22T24:00:00+08:00",
+      "source_url": "https://www.cppc.org.cn/show-1913.html",
+      "verificationNote": "主办方延期公告11月22日24时；赛事官网首页显示11月23日，按较早时间提交",
+      "verifiedOn": "2026-11-20",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "title": "IARS and SOCCA 2027 Annual Meeting",
+      "category": "conference",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-20",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-20"
+      ]
+    }
+  ]
+}
