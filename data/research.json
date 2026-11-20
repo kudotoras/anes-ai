@@ -251,7 +251,14 @@
     "needs_review": true,
     "brief_dates": [
       "2026-11-20"
-    ]
+    ],
+    "selected": true,
+    "selection_dates": [
+      "2026-11-20"
+    ],
+    "brief_date_sources": {
+      "2026-11-20": "麻醉AI科研简报"
+    }
   },
   {
     "id": "doi-10.1038-s41746-026-03472-x",
@@ -270,7 +277,14 @@
     "needs_review": true,
     "brief_dates": [
       "2026-11-20"
-    ]
+    ],
+    "selected": true,
+    "selection_dates": [
+      "2026-11-20"
+    ],
+    "brief_date_sources": {
+      "2026-11-20": "麻醉AI科研简报"
+    }
   },
   {
     "id": "doi-10.1038-s41598-026-80974-4",
