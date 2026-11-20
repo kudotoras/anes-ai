@@ -238,17 +238,17 @@
     "id": "doi-10.1038-s44573-026-00036-8",
     "doi": "10.1038/s44573-026-00036-8",
     "title": "Artificial intelligence for operating room workflow optimization using a seven-domain prediction-to-action implementation framework",
-    "title_zh": "",
+    "title_zh": "手术室工作流AI优化：从预测到行动的七领域实施框架",
     "journal": "Scientific Reviews",
     "date": "2026-11-19",
     "topic": "麻醉AI/围术期方法迁移",
     "study_type": "Review",
     "source_url": "https://www.nature.com/articles/s44573-026-00036-8",
-    "status": "出版社题录与摘要核验·待全文精读",
+    "status": "今日精选·出版社题录与摘要核验·全文待精读",
     "origin": "麻醉AI科研简报",
     "verifiedOn": "2026-11-20",
-    "verification_scope": "publisher metadata and abstract",
-    "needs_review": true,
+    "verification_scope": "Scientific Reviews出版商题录与摘要；全文待精读",
+    "needs_review": false,
     "brief_dates": [
       "2026-11-20"
     ],
@@ -259,23 +259,24 @@
     "brief_date_sources": {
       "2026-11-20": "麻醉AI科研简报"
     },
-    "selection_source": "麻醉AI科研简报"
+    "selection_source": "麻醉AI科研简报",
+    "description": "综述提出手术室AI从预测走向临床行动的七领域实施框架，强调模型除预测BIS、MAP或HR外，还需连接临床决策节点、工作流整合与人机协作评价。当前已核验出版社题录和摘要；七领域具体定义、证据覆盖及实施效果仍待全文精读。"
   },
   {
     "id": "doi-10.1038-s41746-026-03472-x",
     "doi": "10.1038/s41746-026-03472-x",
     "title": "Imaging-based biological age gap and risk of mortality and incident diseases: a systematic review and meta-analysis",
-    "title_zh": "",
+    "title_zh": "AI影像生物年龄差与死亡及新发疾病风险：系统评价与Meta分析",
     "journal": "npj Digital Medicine",
     "date": "2026-11-19",
     "topic": "麻醉AI/围术期方法迁移",
     "study_type": "Systematic review and meta-analysis",
     "source_url": "https://www.nature.com/articles/s41746-026-03472-x",
-    "status": "出版社题录与摘要核验·待全文精读",
+    "status": "今日精选·出版社题录与摘要核验·全文待精读",
     "origin": "麻醉AI科研简报",
     "verifiedOn": "2026-11-20",
-    "verification_scope": "publisher metadata and abstract",
-    "needs_review": true,
+    "verification_scope": "npj Digital Medicine出版商题录与摘要；全文待精读",
+    "needs_review": false,
     "brief_dates": [
       "2026-11-20"
     ],
@@ -286,7 +287,8 @@
     "brief_date_sources": {
       "2026-11-20": "麻醉AI科研简报"
     },
-    "selection_source": "麻醉AI科研简报"
+    "selection_source": "麻醉AI科研简报",
+    "description": "系统评价纳入40篇报告，其中21篇进入定量合并，考察AI影像生物年龄差与死亡及年龄相关新发疾病的关联。对围术期脑健康和老年风险研究的价值在于评估生物年龄相对传统年龄与临床指标的增量信息；跨器官效应量、异质性和外部验证细节仍待全文精读。"
   },
   {
     "id": "doi-10.1038-s41598-026-80974-4",
