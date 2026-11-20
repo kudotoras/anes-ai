@@ -1,5 +1,27 @@
 [
   {
+    "id": "doi-10.1038-s41746-026-03382-y",
+    "title": "Epidemiology-informed graph neural networks for predicting and interpreting transmissible hospital-acquired infections",
+    "journal": "npj Digital Medicine",
+    "publication_date": "2026-11-20",
+    "date": "2026-11-20",
+    "study_type": "Dynamic contact-network graph neural network; one real-world hospital-onset COVID-19 cohort and two simulated HAI datasets",
+    "doi": "10.1038/s41746-026-03382-y",
+    "source_url": "https://www.nature.com/articles/s41746-026-03382-y",
+    "key_result": "Epidemiology-informed GNN jointly predicts patient infection state transitions and estimates transmission/recovery parameters; reported AUC-ROC up to 98.46% across datasets/settings. External prospective clinical effectiveness not established.",
+    "status": "publisher_abstract_verified",
+    "verifiedOn": "2026-11-21",
+    "verification_scope": "publisher abstract, DOI and online date",
+    "needs_review": true,
+    "brief_dates": [
+      "2026-11-21"
+    ],
+    "relevance": "ICU infections, mechanistic constraints, interpretable patient state transitions; method transferable to perioperative digital twin but not an anesthesia validation",
+    "topic": "院内感染/ICU/机制约束图神经网络",
+    "origin": "manual_verified_brief",
+    "ingested_date": "2026-11-21"
+  },
+  {
     "id": "pubmed-43020745",
     "pmid": "43020745",
     "doi": "10.1016/j.landig.2026.101060",
