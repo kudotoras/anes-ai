@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-20",
-  "overall_status": "partial",
-  "brief_status": "GitHub当日交接2篇与独立检索2篇合并为4篇精选；私有科研简报自动化仍待显示当日完成状态。",
+  "overall_status": "success",
+  "brief_status": "2026-11-20完整科研简报已确认完成且未截断；简报2篇与独立检索2篇合并为4篇精选，两端使用同一组条目。",
   "selected_paper_ids": [
     "doi-10.1038-s44573-026-00036-8",
     "doi-10.1038-s41746-026-03472-x",
@@ -23,16 +23,14 @@
   ],
   "sites": {
     "status": "success",
-    "revision": "6dbe9c77-e909-4fa0-a965-e2a7128f21b0",
-    "verification": "已通过部署数据接口写入并两次回读：目录149篇、27项机会；新增1篇、实质补充1篇、更新4项机会，并修正1条官方来源链接。",
-    "pending_items": [
-      "当日私有科研简报完成后继续对齐"
-    ]
+    "revision": "8c5914a0-9e79-4c9b-b8c3-536ae7305d1b",
+    "verification": "部署数据接口写入并最终回读：151篇、27项机会；当日4篇精选均存在且verifiedOn为2026-11-20，IARS征集同步完成。",
+    "pending_items": []
   },
   "github": {
     "status": "success",
-    "readback_commit": "d29df63c62ffefbb25c969c90c13fb084b11beb7",
-    "verification": "research、opportunities、history_briefs、2026-11-20 daily_briefs及台账合并提交后按提交SHA逐项回读；人工精读摘要SHA保持不变。",
+    "readback_commit": "73e1515fb00b0945c06994d2d7188992e19a49a4",
+    "verification": "研究库、机会库、当日交接文件和历史索引均已提交并回读；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
     "pending_items": []
   },
   "frontend": {
@@ -43,30 +41,29 @@
   "brief_catchup": {
     "window_start": "2026-11-14",
     "window_end": "2026-11-20",
-    "status": "partial",
-    "pending_items": [
-      "2026-11-20私有科研简报自动化尚未显示完成"
-    ]
+    "status": "success",
+    "pending_items": []
   },
   "counts": {
     "independent_new_bibliography": 0,
+    "brief_new_papers": 2,
     "github_modified_papers": 2,
     "github_modified_opportunities": 4,
-    "site_new_papers": 1,
+    "site_new_papers": 3,
     "site_modified_papers": 1,
-    "site_modified_opportunities": 4,
+    "site_modified_opportunities": 5,
     "daily_selected": 4,
     "competition_verified": 2,
     "conference_verified": 3
   },
   "failures": [
     {
-      "id": "daily-brief-pending",
-      "reason": "私有麻醉AI科研简报自动化尚未显示2026-11-20已完成；已先合并GitHub当日交接与独立检索，待后续复核。"
-    },
-    {
       "id": "publisher-coverage",
       "reason": "完成PubMed联合检索与重点出版商定向复查，未穷尽全部期刊逐刊最新ToC。"
+    },
+    {
+      "id": "fulltext-pending",
+      "reason": "科研简报的两篇11月19日新文已核验出版社题录与摘要，但全文待精读；未将其伪装为全文核验。"
     }
   ],
   "previous_syncs": [
