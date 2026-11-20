@@ -30,11 +30,10 @@
     ]
   },
   "github": {
-    "status": "pending",
-    "verification": "数据合并已准备，等待提交与回读。",
-    "pending_items": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "readback_commit": "d29df63c62ffefbb25c969c90c13fb084b11beb7",
+    "verification": "research、opportunities、history_briefs、2026-11-20 daily_briefs及台账合并提交后按提交SHA逐项回读；人工精读摘要SHA保持不变。",
+    "pending_items": []
   },
   "frontend": {
     "status": "not_checked",
