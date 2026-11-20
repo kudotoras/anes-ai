@@ -182,6 +182,66 @@
     "ingested_date": "2026-11-17"
   },
   {
+    "id": "pubmed-43062574",
+    "pmid": "43062574",
+    "doi": "10.1007/s40477-026-01260-7",
+    "title": "Intracardiac hemodynamics in critical illness: paradigm evolution from mechanistic understanding and standardized assessment to a holographic future.",
+    "title_zh": "",
+    "journal": "Journal of ultrasound",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43062574/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43063104",
+    "pmid": "43063104",
+    "doi": "10.1097/MD.0000000000051617",
+    "title": "An interpretable AutoML framework for predicting carbapenem resistance and ICU outcomes in patients with Pseudomonas aeruginosa-positive cultures: A single-center retrospective cohort study.",
+    "title_zh": "",
+    "journal": "Medicine",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43063104/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43062525",
+    "pmid": "43062525",
+    "doi": "10.1007/s13304-026-02963-6",
+    "title": "Digital precision in the trauma bay: a roadmap for AI and robotics in hepato-pancreato-biliary injuries.",
+    "title_zh": "",
+    "journal": "Updates in surgery",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43062525/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43063111",
+    "pmid": "43063111",
+    "doi": "10.1097/MD.0000000000051672",
+    "title": "Machine learning for early identification of delirium in ICU patients with acute kidney injury.",
+    "title_zh": "",
+    "journal": "Medicine",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43063111/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
     "id": "pubmed-43056268",
     "pmid": "43056268",
     "doi": "10.1109/TMI.2026.3755232",
@@ -615,6 +675,36 @@
     "ingested_date": "2026-11-20"
   },
   {
+    "id": "pubmed-43060749",
+    "pmid": "43060749",
+    "doi": "10.1002/mco2.71131",
+    "title": "Interpretable Machine Learning for Predicting Risk Factors for Chronic Postsurgical Pain After Cesarean Delivery: A Prospective Cohort Study.",
+    "title_zh": "",
+    "journal": "MedComm",
+    "date": "2026-11-18",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060749/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43052384",
+    "pmid": "43052384",
+    "doi": "10.1038/s41746-026-03475-8",
+    "title": "The proposed reform of the Medical Device Regulation and its implications for AI-enabled medical devices in the EU.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-11-18",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43052384/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
     "id": "pubmed-43033141",
     "pmid": "43033141",
     "doi": "10.1097/ACO.0000000000001721",
@@ -1027,6 +1117,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43059343",
+    "pmid": "43059343",
+    "doi": "10.7499/j.issn.1008-8830.2607064",
+    "title": "[Current status and optimization strategies for diagnosis and treatment of neonatal culture-negative sepsis].",
+    "title_zh": "",
+    "journal": "Zhongguo dang dai er ke za zhi = Chinese journal of contemporary pediatrics",
+    "date": "2026-11-15",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43059343/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
   },
   {
     "id": "pubmed-43033839",
@@ -2230,6 +2335,21 @@
     "ingested_date": "2026-11-15"
   },
   {
+    "id": "pubmed-43059940",
+    "pmid": "43059940",
+    "doi": "10.21203/rs.3.rs-10670041/v1",
+    "title": "Machine Learning-Based Identification of Patients with Elevated Central Venous Pressure Using Features Extracted from Photoplethysmography and Arterial Blood Pressure Waveforms.",
+    "title_zh": "",
+    "journal": "Research square",
+    "date": "2026-11-09",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43059940/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
     "id": "pubmed-43000650",
     "pmid": "43000650",
     "doi": "10.1177/03913988261499929",
@@ -2709,6 +2829,51 @@
     "ingested_date": "2026-11-14"
   },
   {
+    "id": "pubmed-43060522",
+    "pmid": "43060522",
+    "doi": "10.3389/fmed.2026.1882661",
+    "title": "A body shape index-based machine learning model for predicting postoperative delirium and three-year mortality: a prospective cohort study.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-11-05",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060522/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43061040",
+    "pmid": "43061040",
+    "doi": "10.3389/fsurg.2026.1968188",
+    "title": "Internal hernia through a congenital fibrolipomatous omental ring causing jejunal incarceration and acute intestinal obstruction: a case report.",
+    "title_zh": "",
+    "journal": "Frontiers in surgery",
+    "date": "2026-11-05",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061040/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43061501",
+    "pmid": "43061501",
+    "doi": "10.3389/fmed.2026.1975591",
+    "title": "Impact of Artificial Intelligence Education on Nursing Decision-Making in Intensive Care Units (ICUs): Systematic Review Study.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-11-05",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061501/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
     "id": "paper-llmjudge-20261104",
     "doi": "10.1038/s41746-026-03443-2",
     "title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
@@ -3012,6 +3177,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-20"
+  },
+  {
+    "id": "pubmed-43060306",
+    "pmid": "43060306",
+    "doi": "10.64898/2026.11.03.26367198",
+    "title": "Physiological Waveform Features Based Aging Clocks Associate with Cardiovascular Disease.",
+    "title_zh": "",
+    "journal": "medRxiv : the preprint server for health sciences",
+    "date": "2026-11-04",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060306/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
   },
   {
     "id": "pubmed-42967647",
@@ -7279,6 +7459,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-07"
+  },
+  {
+    "id": "pubmed-43061055",
+    "pmid": "43061055",
+    "doi": "10.7759/cureus.118237",
+    "title": "Artificial Intelligence Versus Logistic Regression for Postoperative Mortality Prediction: A Systematic Review and Meta-Analysis.",
+    "title_zh": "",
+    "journal": "Cureus",
+    "date": "2026-10-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061055/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
   },
   {
     "id": "pubmed-42896140",
@@ -12195,6 +12390,21 @@
     "provenance": []
   },
   {
+    "id": "pubmed-43058283",
+    "pmid": "43058283",
+    "doi": "10.1038/s41746-026-03233-w",
+    "title": "Virtual reality and tablet cognitive training improve attention and academic skills without dose effects.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-09-15",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43058283/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
     "id": "paper_7f7fb68a993f",
     "title": "Artificial intelligence and the future of the clinical workforce",
     "title_zh": "",
@@ -13313,6 +13523,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-03"
+  },
+  {
+    "id": "pubmed-43058248",
+    "pmid": "43058248",
+    "doi": "10.1038/s41746-026-03058-7",
+    "title": "MedKGent: a large language model agent framework for constructing temporally evolving medical knowledge graph.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-04",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43058248/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
   },
   {
     "id": "pubmed-42982853",
