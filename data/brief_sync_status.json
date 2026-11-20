@@ -1,36 +1,32 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-20",
-  "overall_status": "success",
-  "brief_status": "2026-11-20完整科研简报已确认完成且未截断；简报2篇与独立检索2篇合并为4篇精选，两端使用同一组条目。",
+  "brief_date": "2026-11-21",
+  "overall_status": "partial",
+  "brief_status": "2026-11-21完成公开来源定向检索；新增1篇已核实摘要的高匹配研究，未凑数。",
   "selected_paper_ids": [
-    "doi-10.1038-s44573-026-00036-8",
-    "doi-10.1038-s41746-026-03472-x",
-    "doi-s41598-026-78511-4",
-    "pubmed-43001150"
+    "doi-10.1038-s41746-026-03382-y"
   ],
   "referenced_paper_ids": [
     "pubmed-43003703",
     "pubmed-43007273"
   ],
   "competition_ids": [
-    "competition-huizhihui-2026",
     "competition_80c6f85a8d"
   ],
   "conference_ids": [
-    "conference-icbai2026",
-    "esicm-project-endorsement2026-call2"
+    "conference_95a23edf4a",
+    "conference_ce9a2f54c2"
   ],
   "sites": {
-    "status": "success",
-    "revision": "8c5914a0-9e79-4c9b-b8c3-536ae7305d1b",
-    "verification": "部署数据接口写入并最终回读：151篇、27项机会；当日4篇精选均存在且verifiedOn为2026-11-20，IARS征集同步完成。",
-    "pending_items": []
+    "status": "failed",
+    "verification": "本轮未提供Sites get_site或维护接口，未读取site-data或写入；不得推定成功。",
+    "pending_items": [
+      "2026-11-21简报及最近7日Sites目录回读和追补"
+    ]
   },
   "github": {
     "status": "success",
-    "readback_commit": "8091bfa8c63536300bc3f9891a52eb2f81f32487",
-    "verification": "研究库、机会库、当日交接文件和历史索引均已提交并回读；自动刷新后已恢复2026-11-20历史索引；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "verification": "2026-11-21交接、research、opportunities、history_briefs已分别提交并回读；未修改人工摘要。",
     "pending_items": []
   },
   "frontend": {
@@ -40,31 +36,28 @@
     "public_site": "https://kudotoras.github.io/anes-ai/"
   },
   "brief_catchup": {
-    "window_start": "2026-11-14",
-    "window_end": "2026-11-20",
-    "status": "success",
-    "pending_items": []
+    "window_start": "2026-11-15",
+    "window_end": "2026-11-21",
+    "status": "partial",
+    "verification": "GitHub现存历史交接和索引；本轮未逐条对照Sites。",
+    "pending_items": [
+      "Sites过去7日回读与追补"
+    ]
   },
   "counts": {
-    "independent_new_bibliography": 0,
-    "brief_new_papers": 2,
-    "github_modified_papers": 2,
-    "github_modified_opportunities": 4,
-    "site_new_papers": 3,
-    "site_modified_papers": 1,
-    "site_modified_opportunities": 5,
-    "daily_selected": 4,
-    "competition_verified": 2,
-    "conference_verified": 3
+    "independent_new_bibliography": 1,
+    "github_new_papers": 1,
+    "github_modified_opportunities": 3,
+    "daily_selected": 1
   },
   "failures": [
     {
-      "id": "publisher-coverage",
-      "reason": "完成PubMed联合检索与重点出版商定向复查，未穷尽全部期刊逐刊最新ToC。"
+      "id": "sites-access",
+      "reason": "Sites维护接口本轮不可用"
     },
     {
-      "id": "fulltext-pending",
-      "reason": "科研简报的两篇11月19日新文已核验出版社题录与摘要，但全文待精读；未将其伪装为全文核验。"
+      "id": "publisher-coverage",
+      "reason": "定向检索未覆盖全部目标期刊最新ToC；不声称穷尽"
     }
   ],
   "previous_syncs": [
@@ -402,7 +395,13 @@
       "overall_status": "partial",
       "sites": "success",
       "github": "success"
+    },
+    {
+      "brief_date": "2026-11-20",
+      "overall_status": "success",
+      "sites": "success",
+      "github": "success"
     }
   ],
-  "last_updated": "2026-11-20"
+  "last_updated": "2026-11-21"
 }
