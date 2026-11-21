@@ -172,7 +172,7 @@
     "status": "publisher_abstract_verified",
     "verifiedOn": "2026-11-21",
     "verification_scope": "publisher abstract, DOI and online date",
-    "needs_review": true,
+    "needs_review": false,
     "brief_dates": [
       "2026-11-21"
     ],
