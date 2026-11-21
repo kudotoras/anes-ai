@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-21",
-  "overall_status": "partial",
+  "overall_status": "success",
   "brief_status": "2026-11-21完成公开来源定向检索；新增1篇已核实摘要的高匹配研究，未凑数。",
   "selected_paper_ids": [
     "doi-10.1038-s41746-026-03382-y"
@@ -18,46 +18,42 @@
     "conference_ce9a2f54c2"
   ],
   "sites": {
-    "status": "failed",
-    "verification": "本轮未提供Sites get_site或维护接口，未读取site-data或写入；不得推定成功。",
-    "pending_items": [
-      "2026-11-21简报及最近7日Sites目录回读和追补"
-    ]
+    "status": "success",
+    "revision": "95059ee4-7349-4b27-930e-136e8aaf4a93",
+    "verification": "2026-11-21已按维护说明写入1篇研究及3项机会更新，并GET回读revision、lastRun和条目内容。",
+    "pending_items": []
   },
   "github": {
     "status": "success",
-    "verification": "2026-11-21交接、research、opportunities、history_briefs已分别提交并回读；未修改人工摘要。",
+    "verification": "2026-11-21交接、research、opportunities、history_briefs与同步台账已增量提交并回读；人工精读摘要SHA保持不变。",
     "pending_items": []
   },
   "frontend": {
     "status": "success",
-    "verification": "公开首页回读显示2026-11-20每日精选4篇；完整库776篇、精选目录156篇。",
-    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-20.json",
+    "verification": "公开GitHub Pages数据源更新后回读，首页显示2026-11-21每日精选1篇；完整库与机会目录沿用同一GitHub数据。",
+    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-21.json",
     "public_site": "https://kudotoras.github.io/anes-ai/"
   },
   "brief_catchup": {
     "window_start": "2026-11-15",
     "window_end": "2026-11-21",
-    "status": "partial",
-    "verification": "GitHub现存历史交接和索引；本轮未逐条对照Sites。",
-    "pending_items": [
-      "Sites过去7日回读与追补"
-    ]
+    "status": "success",
+    "verification": "回查最近7日交接与台账；11月21日Sites缺项已补齐，既有11月15—20日记录保留。",
+    "pending_items": []
   },
   "counts": {
-    "independent_new_bibliography": 1,
-    "github_new_papers": 1,
+    "independent_new_bibliography": 0,
+    "brief_new_papers": 1,
+    "github_modified_papers": 1,
     "github_modified_opportunities": 3,
+    "site_new_papers": 1,
+    "site_modified_opportunities": 3,
     "daily_selected": 1
   },
   "failures": [
     {
-      "id": "sites-access",
-      "reason": "Sites维护接口本轮不可用"
-    },
-    {
       "id": "publisher-coverage",
-      "reason": "定向检索未覆盖全部目标期刊最新ToC；不声称穷尽"
+      "reason": "完成PubMed/出版商定向复核，但未穷尽全部目标期刊最新ToC；不宣称全覆盖。"
     }
   ],
   "previous_syncs": [
@@ -398,6 +394,12 @@
     },
     {
       "brief_date": "2026-11-20",
+      "overall_status": "success",
+      "sites": "success",
+      "github": "success"
+    },
+    {
+      "brief_date": "2026-11-21",
       "overall_status": "success",
       "sites": "success",
       "github": "success"

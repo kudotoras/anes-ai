@@ -179,7 +179,15 @@
     "relevance": "ICU infections, mechanistic constraints, interpretable patient state transitions; method transferable to perioperative digital twin but not an anesthesia validation",
     "topic": "院内感染/ICU/机制约束图神经网络",
     "origin": "manual_verified_brief",
-    "ingested_date": "2026-11-21"
+    "ingested_date": "2026-11-21",
+    "site_catalog_id": "doi-10.1038-s41746-026-03382-y",
+    "selected": true,
+    "selection_dates": [
+      "2026-11-21"
+    ],
+    "selection_source": "麻醉AI科研简报",
+    "title_zh": "流行病学机制引导的图神经网络用于院内感染预测与解释",
+    "description": "EIGNN将流行病学传播机制嵌入动态接触网络，联合预测患者感染状态转移并估计传播率、恢复率等参数；最佳报告AUC-ROC最高98.46%。两个数据集来自模拟环境，尚无前瞻临床部署或患者结局证据。"
   },
   {
     "id": "pubmed-43062574",
