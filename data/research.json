@@ -280,6 +280,36 @@
     "ingested_date": "2026-11-21"
   },
   {
+    "id": "pubmed-43064878",
+    "pmid": "43064878",
+    "doi": "10.1186/s13244-026-02451-w",
+    "title": "Enhanced prognosis stratification following surgery for pancreatic ductal adenocarcinoma to optimize clinical decisions by reflecting tumor heterogeneity and microenvironment.",
+    "title_zh": "",
+    "journal": "Insights into imaging",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43064878/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-22"
+  },
+  {
+    "id": "pubmed-43065092",
+    "pmid": "43065092",
+    "doi": "10.1111/ans.71079",
+    "title": "Machine Learning Versus Traditional Methods for Predicting Venous Thromboembolism After Surgery: A Systematic Review and Bayesian Network Meta-Analysis.",
+    "title_zh": "",
+    "journal": "ANZ journal of surgery",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43065092/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-22"
+  },
+  {
     "id": "pubmed-43056268",
     "pmid": "43056268",
     "doi": "10.1109/TMI.2026.3755232",
@@ -1260,6 +1290,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-20"
+  },
+  {
+    "id": "pubmed-43065486",
+    "pmid": "43065486",
+    "doi": "10.2147/JIR.S649505",
+    "title": "Intellectual Structure and Thematic Evolution of Diabetes-Sepsis Research, 1992-2025: A Bibliometric and Science-Mapping Analysis.",
+    "title_zh": "",
+    "journal": "Journal of inflammation research",
+    "date": "2026-11-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43065486/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-22"
   },
   {
     "id": "pubmed-43024933",
@@ -5800,6 +5845,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-11"
+  },
+  {
+    "id": "pubmed-43065335",
+    "pmid": "43065335",
+    "doi": "10.1016/j.infpip.2026.100620",
+    "title": "Performance of predictive models for infection in knee arthroplasty surgeries: an analysis of a clinical cohort from routine surveillance at a rehabilitation hospital.",
+    "title_zh": "",
+    "journal": "Infection prevention in practice",
+    "date": "2026-10-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43065335/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-22"
   },
   {
     "id": "pubmed-42927942",
@@ -12734,6 +12794,21 @@
     "needs_review": true,
     "selection_source": null,
     "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
+  },
+  {
+    "id": "pubmed-43064969",
+    "pmid": "43064969",
+    "doi": "10.1186/s12871-026-04212-0",
+    "title": "Comparison of seven machine learning models for predicting prolonged PACU length of stay: performance evaluation and identification of key influencing factors.",
+    "title_zh": "",
+    "journal": "BMC anesthesiology",
+    "date": "2026-08-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43064969/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-22"
   },
   {
     "id": "pubmed-42932708",
