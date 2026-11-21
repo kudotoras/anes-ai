@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-22",
+  "source": "麻醉AI科研简报",
+  "papers": [],
+  "competitions": [
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届AI+医疗技术创新大赛",
+      "deadline": "2026-11-22T24:00:00+08:00",
+      "source_url": "https://www.cppc.org.cn/show-1913.html",
+      "verifiedOn": "2026-11-22",
+      "verificationNote": "主办方2026-10-28正式延期公告确认11月22日24时截止；官网显示不同日期时以公告为准",
+      "brief_dates": [
+        "2026-11-22"
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference_95a23edf4a",
+      "title": "IARS & SOCCA 2027 Annual Meeting Abstracts",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-22",
+      "brief_dates": [
+        "2026-11-22"
+      ],
+      "verificationNote": "官方投稿页确认截止时间及4500字符规则"
+    }
+  ],
+  "verification_scope": "本期独立检索未发现足够高质量且未曾推荐的新研究；仅对赛事延期公告和IARS投稿官网完成当日核验。Sites未访问。"
+}
