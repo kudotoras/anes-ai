@@ -250,6 +250,36 @@
     "ingested_date": "2026-11-21"
   },
   {
+    "id": "pubmed-43063987",
+    "pmid": "43063987",
+    "doi": "10.1055/a-3002-3157",
+    "title": "The Role of Diagnostic Tools in the Management of Ventilator Associated Lower Respiratory Tract Infections.",
+    "title_zh": "",
+    "journal": "Seminars in respiratory and critical care medicine",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43063987/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43064677",
+    "pmid": "43064677",
+    "doi": "10.1111/jan.70831",
+    "title": "Implementing a Clinical Decision Support System for Pressure Injury Risk Management in Intensive Care Nursing: A Mixed-Methods Evaluation.",
+    "title_zh": "",
+    "journal": "Journal of advanced nursing",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43064677/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
+  },
+  {
     "id": "pubmed-43056268",
     "pmid": "43056268",
     "doi": "10.1109/TMI.2026.3755232",
@@ -990,6 +1020,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-20"
+  },
+  {
+    "id": "pubmed-43063976",
+    "pmid": "43063976",
+    "doi": "10.1213/ANE.0000000000008405",
+    "title": "A Machine Learning-Based Early Warning System for Renal Replacement Therapy in the Intensive Care Unit.",
+    "title_zh": "",
+    "journal": "Anesthesia and analgesia",
+    "date": "2026-11-17",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43063976/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-21"
   },
   {
     "id": "pubmed-43037770",
