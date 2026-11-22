@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-22",
-  "source": "麻醉AI科研简报",
+  "source": "麻醉AI科研简报 ∪ 独立检索",
   "papers": [],
   "competitions": [
     {
@@ -18,8 +18,8 @@
   ],
   "conferences": [
     {
-      "id": "conference_95a23edf4a",
-      "title": "IARS & SOCCA 2027 Annual Meeting Abstracts",
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
       "deadline": "2026-12-06T23:59:00-08:00",
       "source_url": "https://meetings.iars.org/abstracts/submissions/",
       "verifiedOn": "2026-11-22",
@@ -29,5 +29,5 @@
       "verificationNote": "官方投稿页确认截止时间及4500字符规则"
     }
   ],
-  "verification_scope": "本期独立检索未发现足够高质量且未曾推荐的新研究；仅对赛事延期公告和IARS投稿官网完成当日核验。Sites未访问。"
+  "verification_scope": "完整简报与独立检索均未发现足够高质量且此前未推荐的新研究；当日精选0篇。已核验主办方赛事延期通知和IARS官方投稿页；Sites与GitHub目录均完成增量写入及回读。"
 }

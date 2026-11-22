@@ -143,7 +143,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-19",
+    "verifiedOn": "2026-11-22",
     "sources": [
       {
         "label": "IARS官方摘要征集",
@@ -173,9 +173,10 @@
       "2026-11-16",
       "2026-11-17",
       "2026-11-19",
-      "2026-11-21"
+      "2026-11-21",
+      "2026-11-22"
     ],
-    "verificationNote": "官方页确认12月6日23:59 PST；新设Monitoring, Technology, QI & POCUS等类别。",
+    "verificationNote": "2026-11-22回读IARS官方摘要页：截止2026-12-06 23:59 PST；正文四部分合计不超过4500字符。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -194,12 +195,13 @@
       "2026-11-15": "麻醉AI科研简报",
       "2026-11-16": "麻醉AI科研简报",
       "2026-11-17": "麻醉AI科研简报",
-      "2026-11-19": "麻醉AI科研简报"
+      "2026-11-19": "麻醉AI科研简报",
+      "2026-11-22": "麻醉AI科研简报 ∪ 独立检索"
     },
-    "verification_attempted_on": "2026-11-17",
+    "verification_attempted_on": "2026-11-22",
     "verification_failure": null,
     "deadline_timezone": "America/Los_Angeles",
-    "verification_scope": "2026-11-19再次核验主办方官方征集页面与截止日期"
+    "verification_scope": "IARS官方摘要页与完整摘要指南"
   },
   {
     "id": "conference_95688579fb",
@@ -308,10 +310,11 @@
       "2026-11-18",
       "2026-11-19",
       "2026-11-20",
-      "2026-11-21"
+      "2026-11-21",
+      "2026-11-22"
     ],
     "archive_review_required": false,
-    "verification_attempted_on": "2026-11-20",
+    "verification_attempted_on": "2026-11-22",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-26": "麻醉AI科研简报",
@@ -323,10 +326,11 @@
       "2026-11-17": "麻醉AI科研简报",
       "2026-11-18": "麻醉AI科研简报",
       "2026-11-19": "麻醉AI科研简报",
-      "2026-11-20": "当日机会复核"
+      "2026-11-20": "当日机会复核",
+      "2026-11-22": "麻醉AI科研简报 ∪ 独立检索"
     },
-    "verificationNote": "主办方正式延期公告截止11月22日24时；官网首页显示11月23日，优先遵循较早时间",
-    "verifiedOn": "2026-11-21",
+    "verificationNote": "2026-11-22回读主办方2026-10-28正式延期通知：截止2026-11-22 24:00；按较早时点提交。",
+    "verifiedOn": "2026-11-22",
     "needs_review": false,
     "sources": [
       {
