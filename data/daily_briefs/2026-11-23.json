@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-23",
+  "source": "麻醉AI科研简报",
+  "papers": [],
+  "competitions": [],
+  "conferences": [
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 Annual Meeting Abstract Submission",
+      "organizer": "IARS / SOCCA",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "deadline_timezone": "PST",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "verifiedOn": "2026-11-23",
+      "verification_scope": "official abstract submission page",
+      "brief_dates": [
+        "2026-11-23"
+      ],
+      "category": "conference",
+      "submission_type": "conference abstract, not full paper"
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 Abstracts and Innovation Showcase",
+      "organizer": "ESAIC",
+      "deadline": "2026-12-10",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "verifiedOn": "2026-11-23",
+      "verification_scope": "official ESAIC abstract page",
+      "brief_dates": [
+        "2026-11-23"
+      ],
+      "category": "conference",
+      "submission_type": "conference abstract and optional innovation showcase"
+    }
+  ],
+  "verification_scope": "Official organizer sources verified for 2 conference opportunities; no newly qualified paper; AI+medical contest closed on 2026-11-22 24:00 per organizer notice. Target journal coverage not exhaustive.",
+  "needs_review": [
+    "Publisher ToC coverage incomplete",
+    "Sites update guide and site-data inaccessible in current connector set"
+  ]
+}
