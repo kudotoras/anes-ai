@@ -1,53 +1,55 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-22",
-  "overall_status": "success",
-  "brief_status": "完整简报与独立检索均未发现足够高质量且此前未推荐的新研究；精选0篇；核验1项临近截止赛事及1项会议摘要征集。",
+  "brief_date": "2026-11-23",
+  "overall_status": "partial",
+  "brief_status": "本期独立检索未发现足够高质量且未推荐的新研究；核验两项仍开放的会议摘要征集；AI+医疗比赛按正式公告已于11月22日截止。",
   "selected_paper_ids": [],
   "referenced_paper_ids": [],
-  "competition_ids": [
-    "competition_80c6f85a8d"
-  ],
+  "competition_ids": [],
   "conference_ids": [
-    "conference_ce9a2f54c2"
+    "conference_ce9a2f54c2",
+    "conference_95a23edf4a"
   ],
   "sites": {
-    "status": "success",
-    "revision": "62130fef-f67b-4a2b-8c5f-7ffd59dcb8a0",
-    "verification": "已按维护指南通过管理员数据接口写入2项机会并GET回读；152篇文献、27项机会保留，公开只读权限未变。",
-    "pending_items": []
+    "status": "failed",
+    "verification": "当前工具未提供Sites get_site、短期管理员访问或维护API；未读取、写入或回读，不声称同步",
+    "pending_items": [
+      "2026-11-23公开会议条目待Sites同步"
+    ]
   },
   "github": {
     "status": "success",
-    "verification": "opportunities、history_briefs、daily_briefs及同步台账在同一提交增量合并；提交后回读验证，research和人工精读摘要未改动。",
+    "verification": "daily_briefs/2026-11-23.json和history_briefs.json已提交并逐文件回读；今日无新增研究或比赛记录，其他目录保持不变",
     "pending_items": []
   },
   "frontend": {
-    "status": "success",
-    "verification": "GitHub Pages数据源更新后回读；今日索引为2026-11-22，精选0篇，赛事及会议记录与目录一致。",
-    "public_daily_brief": "https://kudotoras.github.io/anes-ai/data/daily_briefs/2026-11-22.json",
-    "public_site": "https://kudotoras.github.io/anes-ai/"
+    "status": "not_checked",
+    "verification": "未重新部署或核验前端"
   },
   "brief_catchup": {
-    "window_start": "2026-11-16",
-    "window_end": "2026-11-22",
-    "status": "success",
-    "verification": "回溯近7日；补齐history_briefs中11月20—22日索引，当前目录无已知待补项。",
-    "pending_items": []
+    "window_start": "2026-11-17",
+    "window_end": "2026-11-23",
+    "status": "partial",
+    "verification": "GitHub 11月20—23日历史索引缺项已补；Sites 7日目录无法访问",
+    "pending_items": [
+      "Sites 7日目录回读与追补"
+    ]
   },
   "counts": {
     "independent_new_bibliography": 0,
     "daily_selected": 0,
-    "verified_competitions": 1,
-    "verified_conferences": 1,
-    "github_modified_opportunities": 2,
-    "github_history_backfilled": 3,
-    "site_modified_opportunities": 2
+    "verified_competitions": 0,
+    "verified_conferences": 2,
+    "github_history_backfilled": 4
   },
   "failures": [
     {
+      "id": "sites-access",
+      "reason": "Sites专用接口未在当前可用工具中暴露"
+    },
+    {
       "id": "publisher-coverage",
-      "reason": "完成PubMed与重点期刊/官方来源定向检索，但未穷尽全部出版商逐刊Online First目录。"
+      "reason": "重点期刊和主题检索未覆盖全部目标期刊逐刊最新ToC"
     }
   ],
   "previous_syncs": [
@@ -403,7 +405,13 @@
       "overall_status": "success",
       "sites": "success",
       "github": "success"
+    },
+    {
+      "brief_date": "2026-11-22",
+      "overall_status": "success",
+      "sites": "success",
+      "github": "success"
     }
   ],
-  "last_updated": "2026-11-22"
+  "last_updated": "2026-11-23"
 }
