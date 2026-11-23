@@ -11464,7 +11464,7 @@
     "topic": "精准麻醉 / 血流动力学与低血压",
     "study_type": "多中心回顾性模型开发与外部验证",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42876673/",
-    "status": "PubMed摘要与出版商全文已核验·非今日精选",
+    "status": "PubMed摘要与出版商全文已核验·未人工精读·非今日精选",
     "description": "702例非心脏手术用于开发/内部验证，248例独立外部队列；随机森林预测下一5分钟MAP<65 mmHg，外部AUROC 0.894、AUPRC 0.540。模型主要依赖近期MAP特征，仍需前瞻工作流与结局验证。",
     "origin": "独立检索",
     "verifiedOn": "2026-11-23",
@@ -11479,10 +11479,11 @@
         "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1884174/full"
       }
     ],
-    "needs_review": false,
+    "needs_review": true,
     "selected": false,
     "ingested_date": "2026-11-23",
-    "site_catalog_id": "pubmed-42876673"
+    "site_catalog_id": "pubmed-42876673",
+    "selection_note": "历史补收，仅入完整文献库；不计入2026-11-23每日精选。"
   },
   {
     "id": "legacy-4",
