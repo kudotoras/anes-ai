@@ -638,6 +638,21 @@
     "ingested_date": "2026-11-20"
   },
   {
+    "id": "pubmed-43068926",
+    "pmid": "43068926",
+    "doi": "10.1016/j.siny.2026.101780",
+    "title": "Evolution of POCUS in the NICU: From a diagnostic tool to an extension of clinical examination.",
+    "title_zh": "",
+    "journal": "Seminars in fetal & neonatal medicine",
+    "date": "2026-11-19",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43068926/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-23"
+  },
+  {
     "id": "doi-10.1038-s41598-026-80974-4",
     "title": "Safety-constrained multi-agent AI for emergency department disposition decisions",
     "title_zh": "安全约束多智能体AI用于急诊收治决策",
