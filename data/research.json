@@ -11453,6 +11453,38 @@
     "ingested_date": "2026-11-13"
   },
   {
+    "id": "pubmed-42876673",
+    "pmid": "42876673",
+    "doi": "10.3389/fmed.2026.1884174",
+    "title": "Dynamic machine-learning model for early prediction of intraoperative hypotension using 5-minute perioperative time-series data: a multicenter retrospective study.",
+    "title_zh": "5分钟时间序列预测术中低血压：多中心回顾性外部验证",
+    "journal": "Frontiers in Medicine",
+    "date": "2026-09-30",
+    "publication_date": "2026-09-30",
+    "topic": "精准麻醉 / 血流动力学与低血压",
+    "study_type": "多中心回顾性模型开发与外部验证",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42876673/",
+    "status": "PubMed摘要与出版商全文已核验·非今日精选",
+    "description": "702例非心脏手术用于开发/内部验证，248例独立外部队列；随机森林预测下一5分钟MAP<65 mmHg，外部AUROC 0.894、AUPRC 0.540。模型主要依赖近期MAP特征，仍需前瞻工作流与结局验证。",
+    "origin": "独立检索",
+    "verifiedOn": "2026-11-23",
+    "verification_scope": "PubMed题录/摘要与Frontiers原始全文",
+    "sources": [
+      {
+        "label": "PubMed原始题录与摘要",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42876673/"
+      },
+      {
+        "label": "Frontiers in Medicine原始全文",
+        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1884174/full"
+      }
+    ],
+    "needs_review": false,
+    "selected": false,
+    "ingested_date": "2026-11-23",
+    "site_catalog_id": "pubmed-42876673"
+  },
+  {
     "id": "legacy-4",
     "title": "Hypotension Prediction Index versus High Mean Arterial Pressure Target for Preventing Intraoperative Hypotension: A Randomized Controlled Trial.",
     "title_zh": "HPI 预警与较高 MAP 目标：直接比较两种低血压预防策略",
@@ -16700,37 +16732,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "pubmed-42876673",
-    "pmid": "42876673",
-    "doi": "10.3389/fmed.2026.1884174",
-    "title": "Dynamic machine-learning model for early prediction of intraoperative hypotension using 5-minute perioperative time-series data: a multicenter retrospective study.",
-    "title_zh": "5分钟时间序列预测术中低血压：多中心回顾性外部验证",
-    "journal": "Frontiers in Medicine",
-    "date": "2026-09-30",
-    "publication_date": "2026-09-30",
-    "topic": "精准麻醉 / 血流动力学与低血压",
-    "study_type": "多中心回顾性模型开发与外部验证",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42876673/",
-    "status": "PubMed摘要与出版商全文已核验·非今日精选",
-    "description": "702例非心脏手术用于开发/内部验证，248例独立外部队列；随机森林预测下一5分钟MAP<65 mmHg，外部AUROC 0.894、AUPRC 0.540。模型主要依赖近期MAP特征，仍需前瞻工作流与结局验证。",
-    "origin": "独立检索",
-    "verifiedOn": "2026-11-23",
-    "verification_scope": "PubMed题录/摘要与Frontiers原始全文",
-    "sources": [
-      {
-        "label": "PubMed原始题录与摘要",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42876673/"
-      },
-      {
-        "label": "Frontiers in Medicine原始全文",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1884174/full"
-      }
-    ],
-    "needs_review": false,
-    "selected": false,
-    "ingested_date": "2026-11-23",
-    "site_catalog_id": "pubmed-42876673"
   }
 ]
