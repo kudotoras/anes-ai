@@ -24,13 +24,16 @@
   },
   "github": {
     "status": "success",
-    "readback_commit": "5efbc3365c45dd4ad941ff280e732b628b540f04",
+    "readback_commit": "7e78a888d5a6a3ff6274b041179ed4f6da46cacf",
     "verification": "research、opportunities、daily_briefs/2026-11-23、history_briefs和同步台账已提交并逐文件回读；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
     "pending_items": []
   },
   "frontend": {
-    "status": "pending",
-    "verification": "GitHub数据已提交；公开前端待部署/缓存刷新后核验。"
+    "status": "partial",
+    "verification": "2026-11-23公开GitHub Pages已回读：完整库820条已刷新，但页面每日精选仍由旧回退逻辑将1条历史补录显示为今日精选；daily_briefs/2026-11-23.json实际精选为0篇。",
+    "pending_items": [
+      "公开前端每日精选回退显示待后续数据刷新或维护时修正；本轮未修改源码或重新部署。"
+    ]
   },
   "brief_catchup": {
     "window_start": "2026-11-17",
@@ -47,7 +50,7 @@
     "github_history_backfilled": 4,
     "github_new_papers": 1,
     "github_modified_opportunities": 3,
-    "site_new_papers": 1,
+    "site_new_papers": 0,
     "site_modified_opportunities": 3
   },
   "failures": [
@@ -58,6 +61,10 @@
     {
       "id": "publisher-coverage",
       "reason": "完成PubMed、出版商及重点官方来源定向检索，未穷尽全部目标期刊逐刊Online First/ToC。"
+    },
+    {
+      "id": "frontend-daily-fallback",
+      "reason": "公开GitHub Pages仍将1篇2026-09-30历史补录按核验日期回退显示为11月23日每日精选；结构化daily_briefs为0篇，本轮遵守日常更新约束未修改源码或重新部署。"
     }
   ],
   "previous_syncs": [
