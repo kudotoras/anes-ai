@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-23",
-  "overall_status": "success",
+  "overall_status": "partial",
   "brief_status": "完整简报精选0篇；独立检索补收1篇既往发表的多中心术中低血压模型研究；1项赛事按官方时点关闭，2项会议征集仍开放。",
   "selected_paper_ids": [],
   "referenced_paper_ids": [
@@ -15,22 +15,22 @@
     "conference_95a23edf4a"
   ],
   "sites": {
-    "status": "pending",
-    "verification": "已读取站点维护说明和最新目录，待管理员接口写入及回读。",
+    "status": "partial",
+    "revision": "bea03e4b-e748-4a1c-83b3-75b295bc44f0",
+    "verification": "已通过管理员接口写入并回读：3项机会更新成功，152篇/27项机会总量保持；新增论文因期刊不在站点维护目录被接口拒绝，未绕过目录限制。",
     "pending_items": [
-      "写入并回读后更新为success"
+      "pubmed-42876673待站点目录支持Frontiers in Medicine后补入"
     ]
   },
   "github": {
-    "status": "pending",
-    "verification": "待提交后回读。",
-    "pending_items": [
-      "提交并回读后更新为success"
-    ]
+    "status": "success",
+    "readback_commit": "5efbc3365c45dd4ad941ff280e732b628b540f04",
+    "verification": "research、opportunities、daily_briefs/2026-11-23、history_briefs和同步台账已提交并逐文件回读；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "pending_items": []
   },
   "frontend": {
     "status": "pending",
-    "verification": "待数据提交后核验公开前端。"
+    "verification": "GitHub数据已提交；公开前端待部署/缓存刷新后核验。"
   },
   "brief_catchup": {
     "window_start": "2026-11-17",
@@ -51,6 +51,10 @@
     "site_modified_opportunities": 3
   },
   "failures": [
+    {
+      "id": "site-journal-directory",
+      "reason": "Frontiers in Medicine不在Sites维护目录；站点接口拒绝该论文，GitHub完整库已保存，未修改源码或伪造期刊归属。"
+    },
     {
       "id": "publisher-coverage",
       "reason": "完成PubMed、出版商及重点官方来源定向检索，未穷尽全部目标期刊逐刊Online First/ToC。"
