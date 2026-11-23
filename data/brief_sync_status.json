@@ -1,55 +1,59 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-23",
-  "overall_status": "partial",
-  "brief_status": "本期独立检索未发现足够高质量且未推荐的新研究；核验两项仍开放的会议摘要征集；AI+医疗比赛按正式公告已于11月22日截止。",
+  "overall_status": "success",
+  "brief_status": "完整简报精选0篇；独立检索补收1篇既往发表的多中心术中低血压模型研究；1项赛事按官方时点关闭，2项会议征集仍开放。",
   "selected_paper_ids": [],
-  "referenced_paper_ids": [],
-  "competition_ids": [],
+  "referenced_paper_ids": [
+    "pubmed-42876673"
+  ],
+  "competition_ids": [
+    "competition_80c6f85a8d"
+  ],
   "conference_ids": [
     "conference_ce9a2f54c2",
     "conference_95a23edf4a"
   ],
   "sites": {
-    "status": "failed",
-    "verification": "当前工具未提供Sites get_site、短期管理员访问或维护API；未读取、写入或回读，不声称同步",
+    "status": "pending",
+    "verification": "已读取站点维护说明和最新目录，待管理员接口写入及回读。",
     "pending_items": [
-      "2026-11-23公开会议条目待Sites同步"
+      "写入并回读后更新为success"
     ]
   },
   "github": {
-    "status": "success",
-    "verification": "daily_briefs/2026-11-23.json和history_briefs.json已提交并逐文件回读；今日无新增研究或比赛记录，其他目录保持不变",
-    "pending_items": []
+    "status": "pending",
+    "verification": "待提交后回读。",
+    "pending_items": [
+      "提交并回读后更新为success"
+    ]
   },
   "frontend": {
-    "status": "not_checked",
-    "verification": "未重新部署或核验前端"
+    "status": "pending",
+    "verification": "待数据提交后核验公开前端。"
   },
   "brief_catchup": {
     "window_start": "2026-11-17",
     "window_end": "2026-11-23",
-    "status": "partial",
-    "verification": "GitHub 11月20—23日历史索引缺项已补；Sites 7日目录无法访问",
-    "pending_items": [
-      "Sites 7日目录回读与追补"
-    ]
+    "status": "success",
+    "verification": "GitHub历史索引已按daily_briefs回补2026-11-20至23；最近7日记录17至23连续。",
+    "pending_items": []
   },
   "counts": {
-    "independent_new_bibliography": 0,
+    "independent_new_bibliography": 1,
     "daily_selected": 0,
-    "verified_competitions": 0,
+    "verified_competitions": 1,
     "verified_conferences": 2,
-    "github_history_backfilled": 4
+    "github_history_backfilled": 4,
+    "github_new_papers": 1,
+    "github_modified_opportunities": 3,
+    "site_new_papers": 1,
+    "site_modified_opportunities": 3
   },
   "failures": [
     {
-      "id": "sites-access",
-      "reason": "Sites专用接口未在当前可用工具中暴露"
-    },
-    {
       "id": "publisher-coverage",
-      "reason": "重点期刊和主题检索未覆盖全部目标期刊逐刊最新ToC"
+      "reason": "完成PubMed、出版商及重点官方来源定向检索，未穷尽全部目标期刊逐刊Online First/ToC。"
     }
   ],
   "previous_syncs": [

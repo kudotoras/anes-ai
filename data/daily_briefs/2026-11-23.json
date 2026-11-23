@@ -1,9 +1,29 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-23",
-  "source": "麻醉AI科研简报",
+  "source": "麻醉AI科研简报 ∪ 独立检索",
   "papers": [],
-  "competitions": [],
+  "competitions": [
+    {
+      "id": "competition_80c6f85a8d",
+      "title": "首届“AI+医疗”技术创新大赛",
+      "organizer": "中国生产力促进中心协会",
+      "category": "competition",
+      "status": "closed",
+      "deadline": "2026-11-22T24:00:00+08:00",
+      "deadline_timezone": "Asia/Shanghai",
+      "source_url": "https://www.cppc.org.cn/show-1913.html",
+      "announcement_date": "2026-10-28",
+      "verifiedOn": "2026-11-23",
+      "verification_scope": "主办方正式延期通知（截止及后续赛程）",
+      "verificationNote": "2026-11-23回读主办方2026-10-28正式延期通知：申报已于11月22日24:00截止，11月23—27日进行形式审查。",
+      "closure_note": "主办方正式通知规定2026-11-22 24:00后申报系统关闭；2026-11-23至27日进入形式审查。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-23"
+      ]
+    }
+  ],
   "conferences": [
     {
       "id": "conference_ce9a2f54c2",
@@ -18,7 +38,8 @@
         "2026-11-23"
       ],
       "category": "conference",
-      "submission_type": "conference abstract, not full paper"
+      "submission_type": "conference abstract, not full paper",
+      "needs_review": false
     },
     {
       "id": "conference_95a23edf4a",
@@ -32,12 +53,13 @@
         "2026-11-23"
       ],
       "category": "conference",
-      "submission_type": "conference abstract and optional innovation showcase"
+      "submission_type": "conference abstract and optional innovation showcase",
+      "needs_review": false
     }
   ],
-  "verification_scope": "Official organizer sources verified for 2 conference opportunities; no newly qualified paper; AI+medical contest closed on 2026-11-22 24:00 per organizer notice. Target journal coverage not exhaustive.",
+  "verification_scope": "完整简报未发现达到精选标准且此前未推荐的新研究；独立检索补收1篇2026-09-30发表的多中心术中低血压机器学习外部验证研究，仅入完整文献库。官方核验1项已截止赛事与2项仍开放会议征集；未穷尽全部出版商ToC。",
   "needs_review": [
-    "Publisher ToC coverage incomplete",
-    "Sites update guide and site-data inaccessible in current connector set"
-  ]
+    "Publisher ToC coverage incomplete"
+  ],
+  "merge_note": "2026-11-23完整简报与独立检索已合并：每日精选0篇；完整库新增1篇历史补收；AI+医疗赛事转为已截止，IARS与Euroanaesthesia征集仍开放。"
 }
