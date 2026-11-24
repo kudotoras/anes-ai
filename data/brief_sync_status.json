@@ -1,70 +1,63 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-23",
+  "brief_date": "2026-11-24",
   "overall_status": "partial",
-  "brief_status": "完整简报精选0篇；独立检索补收1篇既往发表的多中心术中低血压模型研究；1项赛事按官方时点关闭，2项会议征集仍开放。",
+  "brief_status": "完整简报精选0篇；独立检索未发现达到精选标准的新研究；4项临近截止的会议/成果征集已用官方来源复核。",
   "selected_paper_ids": [],
-  "referenced_paper_ids": [
-    "pubmed-42876673"
-  ],
-  "competition_ids": [
-    "competition_80c6f85a8d"
-  ],
+  "referenced_paper_ids": [],
+  "competition_ids": [],
   "conference_ids": [
+    "esicm-project-endorsement2026-call2",
+    "conference_95688579fb",
     "conference_ce9a2f54c2",
     "conference_95a23edf4a"
   ],
   "sites": {
-    "status": "partial",
-    "revision": "bea03e4b-e748-4a1c-83b3-75b295bc44f0",
-    "verification": "已通过管理员接口写入并回读：3项机会更新成功，152篇/27项机会总量保持；新增论文因期刊不在站点维护目录被接口拒绝，未绕过目录限制。",
+    "status": "failed",
+    "verification": "Sites项目本身已确认active、public、owner可维护；但本次运行无可用浏览器或执行环境，无法读取/api/update-guide与/api/site-data，也未取得凭据或尝试写入。",
     "pending_items": [
-      "pubmed-42876673待站点目录支持Frontiers in Medicine后补入"
+      "读取站点维护说明与最新目录",
+      "将2026-11-24机会复核结果写入Sites并回读"
     ]
   },
   "github": {
-    "status": "success",
-    "readback_commit": "7e78a888d5a6a3ff6274b041179ed4f6da46cacf",
-    "verification": "research、opportunities、daily_briefs/2026-11-23、history_briefs和同步台账已提交并逐文件回读；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
-    "pending_items": []
-  },
-  "frontend": {
     "status": "partial",
-    "verification": "2026-11-23公开GitHub Pages已回读：完整库820条已刷新，但页面每日精选仍由旧回退逻辑将1条历史补录显示为今日精选；daily_briefs/2026-11-23.json实际精选为0篇。",
+    "readback_commit": null,
+    "verification": "数据正在原子提交，尚未完成提交后回读。",
     "pending_items": [
-      "公开前端每日精选回退显示待后续数据刷新或维护时修正；本轮未修改源码或重新部署。"
+      "提交后回读"
     ]
   },
+  "frontend": {
+    "status": "not_checked",
+    "verification": "本轮不修改源码或重新部署；公开前端待数据提交后自然刷新。"
+  },
   "brief_catchup": {
-    "window_start": "2026-11-17",
-    "window_end": "2026-11-23",
+    "window_start": "2026-11-18",
+    "window_end": "2026-11-24",
     "status": "success",
-    "verification": "GitHub历史索引已按daily_briefs回补2026-11-20至23；最近7日记录17至23连续。",
+    "verification": "GitHub历史索引已按daily_briefs补齐2026-11-20至24；最近7日18至24连续。",
     "pending_items": []
   },
   "counts": {
-    "independent_new_bibliography": 1,
+    "independent_new_bibliography": 0,
     "daily_selected": 0,
-    "verified_competitions": 1,
-    "verified_conferences": 2,
-    "github_history_backfilled": 4,
-    "github_new_papers": 1,
-    "github_modified_opportunities": 3,
+    "verified_competitions": 0,
+    "verified_conferences": 4,
+    "github_history_backfilled": 5,
+    "github_new_papers": 0,
+    "github_modified_opportunities": 4,
     "site_new_papers": 0,
-    "site_modified_opportunities": 3
+    "site_modified_opportunities": 0
   },
   "failures": [
     {
-      "id": "site-journal-directory",
-      "reason": "Frontiers in Medicine不在Sites维护目录；站点接口拒绝该论文，GitHub完整库已保存，未修改源码或伪造期刊归属。"
+      "id": "sites-runtime-access",
+      "reason": "Sites get_site成功并确认公开权限，但本次运行没有可用浏览器或执行环境，站点API无法读取或写入；保留已有内容，未声称同步成功。"
     },
     {
       "id": "publisher-coverage",
-      "reason": "完成PubMed、出版商及重点官方来源定向检索，未穷尽全部目标期刊逐刊Online First/ToC。"
-    },
-    {
-      "id": "frontend-daily-fallback",
-      "reason": "公开GitHub Pages仍将1篇2026-09-30历史补录按核验日期回退显示为11月23日每日精选；结构化daily_briefs为0篇，本轮遵守日常更新约束未修改源码或重新部署。"
+      "reason": "完成PubMed与重点出版商定向检索，未穷尽全部目标期刊逐刊Online First/ToC。"
     }
   ],
   "previous_syncs": [
@@ -426,7 +419,14 @@
       "overall_status": "success",
       "sites": "success",
       "github": "success"
+    },
+    {
+      "brief_date": "2026-11-23",
+      "overall_status": "partial",
+      "sites": "partial",
+      "github": "success",
+      "frontend": "partial"
     }
   ],
-  "last_updated": "2026-11-23"
+  "last_updated": "2026-11-24"
 }
