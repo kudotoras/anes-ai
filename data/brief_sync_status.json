@@ -21,12 +21,10 @@
     ]
   },
   "github": {
-    "status": "partial",
-    "readback_commit": null,
-    "verification": "数据正在原子提交，尚未完成提交后回读。",
-    "pending_items": [
-      "提交后回读"
-    ]
+    "status": "success",
+    "readback_commit": "75ad6d70dbdb47b4df8fc04e748d5a915f632e5e",
+    "verification": "opportunities、daily_briefs/2026-11-24、history_briefs与同步台账已原子提交并逐文件回读；每日精选0篇、会议/成果征集4项，最近7日18至24连续。人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "pending_items": []
   },
   "frontend": {
     "status": "not_checked",
