@@ -160,6 +160,81 @@
     "ingested_date": "2026-11-17"
   },
   {
+    "id": "pubmed-43071126",
+    "pmid": "43071126",
+    "doi": "10.1007/s00134-026-08636-7",
+    "title": "Subphenotyping and precision medicine approaches to ARDS.",
+    "title_zh": "",
+    "journal": "Intensive care medicine",
+    "date": "2026-11-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43071126/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43070045",
+    "pmid": "43070045",
+    "doi": "10.1002/jhm.70559",
+    "title": "Impact of a sepsis clinical decision support system and workflow on sepsis-associated mortality or hospice discharge: A multihospital quasi-experimental study from 2018 to 2024.",
+    "title_zh": "",
+    "journal": "Journal of hospital medicine",
+    "date": "2026-11-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43070045/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43070524",
+    "pmid": "43070524",
+    "doi": "10.14744/AnatolJCardiol.2026.6296",
+    "title": "A Machine Learning-Based Prognostic Risk Scoring Model for Patients with Coronary Artery Disease Admitted to the Intensive Care Unit Using Multi-Source Structured Clinical Data From the Information Mart for Intensive Care IV Database.",
+    "title_zh": "",
+    "journal": "Anatolian journal of cardiology",
+    "date": "2026-11-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43070524/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43070493",
+    "pmid": "43070493",
+    "doi": "10.1177/26893614261510246",
+    "title": "Artificial Intelligence Series: Data Modalities and Clinical Applications in Rhinoplasty.",
+    "title_zh": "",
+    "journal": "Facial plastic surgery & aesthetic medicine",
+    "date": "2026-11-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43070493/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43070780",
+    "pmid": "43070780",
+    "doi": "10.23736/S0375-9393.26.20329-2",
+    "title": "Artificial intelligence and enhanced recovery after surgery: from protocol-driven pathways to adaptive perioperative care systems (cognitive ERAS).",
+    "title_zh": "",
+    "journal": "Minerva anestesiologica",
+    "date": "2026-11-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43070780/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-43068408",
     "pmid": "43068408",
     "doi": "10.1007/s11136-026-04437-z",
@@ -1155,6 +1230,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43069334",
+    "pmid": "43069334",
+    "doi": "10.1007/s11427-026-3552-3",
+    "title": "Machine learning-based analysis of patient-reported outcomes between endoscopic and open breast-conserving surgery: a multicenter retrospective study.",
+    "title_zh": "",
+    "journal": "Science China. Life sciences",
+    "date": "2026-11-17",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43069334/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-43037770",
@@ -2833,6 +2923,21 @@
     "ingested_date": "2026-11-15"
   },
   {
+    "id": "pubmed-43071727",
+    "pmid": "43071727",
+    "doi": "10.1097/MCC.0000000000001457",
+    "title": "Perioperative hemodynamic optimization.",
+    "title_zh": "",
+    "journal": "Current opinion in critical care",
+    "date": "2026-11-06",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43071727/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-42987267",
     "pmid": "42987267",
     "doi": "10.2196/90724",
@@ -4045,6 +4150,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-18"
+  },
+  {
+    "id": "pubmed-43065794",
+    "pmid": "43065794",
+    "doi": "10.3389/fneur.2026.1909375",
+    "title": "Decoding glioblastoma recurrence: harnessing radiomics and machine learning for early prediction.",
+    "title_zh": "",
+    "journal": "Frontiers in neurology",
+    "date": "2026-11-02",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43065794/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-42966909",
@@ -10496,6 +10616,21 @@
     "needs_review": true
   },
   {
+    "id": "pubmed-43071603",
+    "pmid": "43071603",
+    "doi": "10.1097/MCC.0000000000001450",
+    "title": "The use of predictive artificial intelligence in the perioperative period.",
+    "title_zh": "",
+    "journal": "Current opinion in critical care",
+    "date": "2026-10-09",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43071603/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-42894613",
     "pmid": "42894613",
     "doi": "10.1016/j.isci.2026.117643",
@@ -12979,6 +13114,21 @@
     "verificationNote": "仅从本次PubMed原始XML保存题名、来源与日期；未进行逐篇临床结论核验，不列入每日精选。"
   },
   {
+    "id": "pubmed-43069171",
+    "pmid": "43069171",
+    "doi": "10.1186/s13018-026-07211-6",
+    "title": "Prediction models for intraoperative blood loss in spine surgery: a systematic review and methodological appraisal.",
+    "title_zh": "",
+    "journal": "Journal of orthopaedic surgery and research",
+    "date": "2026-08-29",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43069171/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-43064969",
     "pmid": "43064969",
     "doi": "10.1186/s12871-026-04212-0",
@@ -13806,6 +13956,21 @@
     "needs_review": false
   },
   {
+    "id": "pubmed-43069375",
+    "pmid": "43069375",
+    "doi": "10.1038/s41746-026-03081-8",
+    "title": "AI enabled continuous care features enhance engagement and clinical outcomes in psychotherapy.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-06",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43069375/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-42968127",
     "pmid": "42968127",
     "doi": "10.1186/s12890-026-04425-6",
@@ -13834,6 +13999,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-03"
+  },
+  {
+    "id": "pubmed-43069263",
+    "pmid": "43069263",
+    "doi": "10.1038/s41746-026-03071-w",
+    "title": "Dynamic prediction of preterm birth and gestational age at delivery based on longitudinal electronic health records.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-05",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43069263/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43069224",
+    "pmid": "43069224",
+    "doi": "10.1038/s41746-026-03067-6",
+    "title": "Large language model-assisted referral triage automation in a tertiary hospital.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-05",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43069224/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-43058248",
