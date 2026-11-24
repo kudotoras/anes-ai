@@ -235,6 +235,36 @@
     "ingested_date": "2026-11-24"
   },
   {
+    "id": "pubmed-43071999",
+    "pmid": "43071999",
+    "doi": "10.1088/2057-1976/aec568",
+    "title": "Deep learning-derived pathological features from whole-slide images as independent predictors of survival in combined hepatocellular-cholangiocarcinoma.",
+    "title_zh": "",
+    "journal": "Biomedical physics & engineering express",
+    "date": "2026-11-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43071999/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43072835",
+    "pmid": "43072835",
+    "doi": "10.1136/bmjopen-2026-124746",
+    "title": "Co-design of an eye-tracking communication tool and a feasibility randomised controlled trial in conscious non-verbal ICU patients in Shanghai, China: protocol for a two-phase mixed-methods study.",
+    "title_zh": "",
+    "journal": "BMJ open",
+    "date": "2026-11-23",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43072835/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-43068408",
     "pmid": "43068408",
     "doi": "10.1007/s11136-026-04437-z",
@@ -728,6 +758,21 @@
     "ingested_date": "2026-11-23"
   },
   {
+    "id": "pubmed-43072277",
+    "pmid": "43072277",
+    "doi": "10.1016/j.diagmicrobio.2026.117766",
+    "title": "Predicting expert-adjudicated appropriateness of postoperative antibiotic prescriptions from routine demographic, diagnostic and laboratory data: development and internal validation of machine learning models.",
+    "title_zh": "",
+    "journal": "Diagnostic microbiology and infectious disease",
+    "date": "2026-11-19",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43072277/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "doi-10.1038-s41598-026-80974-4",
     "title": "Safety-constrained multi-agent AI for emergency department disposition decisions",
     "title_zh": "安全约束多智能体AI用于急诊收治决策",
@@ -936,6 +981,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-21"
+  },
+  {
+    "id": "pubmed-43072058",
+    "pmid": "43072058",
+    "doi": "10.1016/j.ejso.2026.112364",
+    "title": "Key updates on Peritoneal Surface Oncology: Take-home messages from the 2025 15th PSOGI congress.",
+    "title_zh": "",
+    "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+    "date": "2026-11-18",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43072058/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-43033141",
@@ -2746,6 +2806,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-23"
+  },
+  {
+    "id": "pubmed-43072288",
+    "pmid": "43072288",
+    "doi": "10.1016/j.media.2026.104388",
+    "title": "MoCE-GAN: Mixture of Complexity Experts with generative adversarial networks for image restoration in sparse-view and limited-view photoacoustic tomography.",
+    "title_zh": "",
+    "journal": "Medical image analysis",
+    "date": "2026-11-07",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43072288/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-42989357",
@@ -4570,6 +4645,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-19"
+  },
+  {
+    "id": "pubmed-43054518",
+    "pmid": "43054518",
+    "doi": "10.1177/15353508261503758",
+    "title": "Prediction of VISTA Expression and Its Prognostic Value in Pancreatic Cancer Using Contrast-Enhanced CT Radiomics.",
+    "title_zh": "",
+    "journal": "Molecular imaging",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43054518/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43062042",
+    "pmid": "43062042",
+    "doi": "10.1093/bjs/znag154",
+    "title": "Prediction of postoperative pancreatic fistula after left pancreatectomy by surgeons and artificial intelligence: a randomized multi-reader study.",
+    "title_zh": "",
+    "journal": "The British journal of surgery",
+    "date": "2026-10-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43062042/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-42960546",
@@ -9351,6 +9456,21 @@
     "ingested_date": "2026-11-09"
   },
   {
+    "id": "pubmed-43066016",
+    "pmid": "43066016",
+    "doi": "10.62347/WEIC7025",
+    "title": "Advances in paediatric urology: the role of minimally invasive surgery and emerging technologies in personalized treatment approaches for congenital urological disorders.",
+    "title_zh": "",
+    "journal": "American journal of translational research",
+    "date": "2026-10-15",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43066016/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-42894920",
     "pmid": "42894920",
     "doi": "10.62713/aic.4796",
@@ -13144,6 +13264,36 @@
     "ingested_date": "2026-11-22"
   },
   {
+    "id": "pubmed-43052787",
+    "pmid": "43052787",
+    "doi": "10.1186/s12872-026-06369-5",
+    "title": "Machine learning insights on stress hyperglycemia ratio and mortality in congestive heart failure patients with cerebrovascular disease: an analysis of the MIMIC-IV database.",
+    "title_zh": "",
+    "journal": "BMC cardiovascular disorders",
+    "date": "2026-08-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43052787/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43065064",
+    "pmid": "43065064",
+    "doi": "10.1186/s12957-026-04563-5",
+    "title": "A machine learning model for predicting early adverse outcomes after surgery in patients with early-onset rectal cancer: a two-center retrospective cohort study.",
+    "title_zh": "",
+    "journal": "World journal of surgical oncology",
+    "date": "2026-08-28",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43065064/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
     "id": "pubmed-42932708",
     "pmid": "42932708",
     "doi": "10.1056/AIoa2501034",
@@ -13172,6 +13322,51 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-10"
+  },
+  {
+    "id": "pubmed-43058514",
+    "pmid": "43058514",
+    "doi": "10.1186/s12880-026-02642-3",
+    "title": "Applications of artificial intelligence in the analysis of alveolar clefts: a scoping review.",
+    "title_zh": "",
+    "journal": "BMC medical imaging",
+    "date": "2026-08-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43058514/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43058471",
+    "pmid": "43058471",
+    "doi": "10.1186/s12872-026-06496-z",
+    "title": "Dynamic machine learning for time-updated prediction of death within the next 24 hours in critically ill patients with acute myocardial infarction.",
+    "title_zh": "",
+    "journal": "BMC cardiovascular disorders",
+    "date": "2026-08-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43058471/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43058717",
+    "pmid": "43058717",
+    "doi": "10.1186/s12911-026-03791-9",
+    "title": "Machine learning with SHAP interpretation for modeling delayed extubation decisions in Atlantoaxial dislocation surgery.",
+    "title_zh": "",
+    "journal": "BMC medical informatics and decision making",
+    "date": "2026-08-26",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43058717/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "paper_626294886bd7",
@@ -13226,6 +13421,21 @@
     ],
     "site_catalog_id": "morgoth-eeg-foundation-model-2026",
     "provenance": []
+  },
+  {
+    "id": "pubmed-43053061",
+    "pmid": "43053061",
+    "doi": "10.1186/s12911-026-03782-w",
+    "title": "Using explainable machine learning for early detection of diabetic kidney disease in Rwandan diabetic patients.",
+    "title_zh": "",
+    "journal": "BMC medical informatics and decision making",
+    "date": "2026-08-24",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43053061/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-42667903",
@@ -13416,6 +13626,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-18"
+  },
+  {
+    "id": "pubmed-43052802",
+    "pmid": "43052802",
+    "doi": "10.1186/s12872-026-06422-3",
+    "title": "Interpretable machine learning analysis for predicting the instability of the distal false lumen after thoracic endovascular aortic repair in type B aortic dissection.",
+    "title_zh": "",
+    "journal": "BMC cardiovascular disorders",
+    "date": "2026-08-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43052802/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-24"
   },
   {
     "id": "pubmed-42932710",
