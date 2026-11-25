@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-25",
+  "source": "麻醉AI科研简报 ∪ 独立检索",
+  "papers": [],
+  "competitions": [],
+  "conferences": [
+    {
+      "id": "esicm-project-endorsement2026-call2",
+      "title": "ESICM Research Second Call for Project Endorsement Applications",
+      "organizer": "ESICM",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-11-30T23:59:00+01:00",
+      "deadline_timezone": "Europe/Brussels",
+      "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
+      "verifiedOn": "2026-11-25",
+      "verification_scope": "ESICM官方项目背书征集页",
+      "verificationNote": "2026-11-25回读ESICM官方征集页：Call 2截止2026-11-30 23:59 CET；申请前须获相关Section Lead或委员会批准。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-25"
+      ]
+    },
+    {
+      "id": "conference_95688579fb",
+      "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
+      "organizer": "Society of Cardiovascular Anesthesiologists（SCA）",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-12-01T23:59:00-05:00",
+      "deadline_timezone": "America/New_York",
+      "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "sources": [
+        {
+          "label": "SCA官方会议页",
+          "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+        },
+        {
+          "label": "SCA官方摘要提交平台",
+          "url": "https://www.abstractscorecard.com/cfp/submit/login.asp?EventKey=IIFKVPGV"
+        }
+      ],
+      "verifiedOn": "2026-11-25",
+      "verification_scope": "SCA官方会议页与摘要提交平台",
+      "verificationNote": "2026-11-25回读SCA官方会议页：科学摘要截止2026-12-01 23:59 EST；录用结果预计2027年1月底通知。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-25"
+      ]
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "International Anesthesia Research Society（IARS） / Society of Critical Care Anesthesiologists（SOCCA）",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "deadline_timezone": "America/Los_Angeles",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "sources": [
+        {
+          "label": "IARS官方摘要征集",
+          "url": "https://meetings.iars.org/abstracts/submissions/"
+        },
+        {
+          "label": "IARS官方摘要指南",
+          "url": "https://meetings.iars.org/wp-content/uploads/2023/03/AM27-Abstract-Submission-Guidelines-V2.pdf"
+        }
+      ],
+      "verifiedOn": "2026-11-25",
+      "verification_scope": "IARS官方摘要页与完整摘要指南",
+      "verificationNote": "2026-11-25回读IARS官方摘要页：截止2026-12-06 23:59 PST；科学摘要正文四部分合计不超过4500字符。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-25"
+      ]
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 摘要征集与Innovation Showcase",
+      "organizer": "European Society of Anaesthesiology and Intensive Care（ESAIC）",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "deadline_timezone": "Europe/Copenhagen",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "sources": [
+        {
+          "label": "ESAIC官方摘要页",
+          "url": "https://euroanaesthesia.org/2027/abstracts/"
+        },
+        {
+          "label": "ESAIC官方指南",
+          "url": "https://euroanaesthesia.org/2027/wp-content/uploads/sites/7/2026/10/EA27_Abstract_Submission_Guidelines-2.0.pdf"
+        }
+      ],
+      "verifiedOn": "2026-11-25",
+      "verification_scope": "ESAIC官方摘要页与2027摘要指南",
+      "verificationNote": "2026-11-25回读ESAIC官方摘要页：截止2026-12-10 23:59 CET；录用摘要全文发表于EJA电子增刊，并设Innovation Showcase。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-25"
+      ]
+    }
+  ],
+  "verification_scope": "当日聊天简报完整可取但未执行实时检索；独立检索复核PubMed、重点期刊、精准麻醉主题及4项官方机会来源。未发现达到每日精选标准且此前未推荐的新研究；今日精选0篇。",
+  "needs_review": [
+    "Publisher ToC coverage incomplete"
+  ],
+  "merge_note": "2026-11-25聊天简报精选0篇；独立检索未新增精选。4项临近截止的会议/墙报/成果征集已用官方来源复核。"
+}

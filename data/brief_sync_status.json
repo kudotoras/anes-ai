@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-24",
+  "brief_date": "2026-11-25",
   "overall_status": "partial",
   "brief_status": "完整简报精选0篇；独立检索未发现达到精选标准的新研究；4项临近截止的会议/成果征集已用官方来源复核。",
   "selected_paper_ids": [],
@@ -13,49 +13,46 @@
     "conference_95a23edf4a"
   ],
   "sites": {
-    "status": "failed",
-    "verification": "Sites项目本身已确认active、public、owner可维护；但本次运行无可用浏览器或执行环境，无法读取/api/update-guide与/api/site-data，也未取得凭据或尝试写入。",
-    "pending_items": [
-      "读取站点维护说明与最新目录",
-      "将2026-11-24机会复核结果写入Sites并回读"
-    ]
+    "status": "success",
+    "revision": "685e711b-6d9d-4b3a-9f85-5d78c86dd391",
+    "verification": "Site已通过部署数据接口写入并回读：论文0变更、机会4变更，lastRun与revision一致；公开权限未改。",
+    "pending_items": []
   },
   "github": {
-    "status": "success",
-    "readback_commit": "75ad6d70dbdb47b4df8fc04e748d5a915f632e5e",
-    "verification": "opportunities、daily_briefs/2026-11-24、history_briefs与同步台账已原子提交并逐文件回读；每日精选0篇、会议/成果征集4项，最近7日18至24连续。人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
-    "pending_items": []
+    "status": "partial",
+    "verification": "数据提交准备中；须在写入并逐文件回读后改为success。",
+    "pending_items": [
+      "提交并回读2026-11-25数据"
+    ]
   },
   "frontend": {
     "status": "not_checked",
-    "verification": "本轮不修改源码或重新部署；公开前端待数据提交后自然刷新。"
+    "verification": "待GitHub数据提交后回读公开主站。"
   },
   "brief_catchup": {
-    "window_start": "2026-11-18",
-    "window_end": "2026-11-24",
-    "status": "success",
-    "verification": "GitHub历史索引已按daily_briefs补齐2026-11-20至24；最近7日18至24连续。",
-    "pending_items": []
+    "window_start": "2026-11-19",
+    "window_end": "2026-11-25",
+    "status": "partial",
+    "verification": "已依据daily_briefs重建11月20日至25日历史索引；待提交回读。",
+    "pending_items": [
+      "GitHub提交回读"
+    ]
   },
   "counts": {
     "independent_new_bibliography": 0,
     "daily_selected": 0,
     "verified_competitions": 0,
     "verified_conferences": 4,
-    "github_history_backfilled": 5,
+    "github_history_backfilled": 6,
     "github_new_papers": 0,
     "github_modified_opportunities": 4,
     "site_new_papers": 0,
-    "site_modified_opportunities": 0
+    "site_modified_opportunities": 4
   },
   "failures": [
     {
-      "id": "sites-runtime-access",
-      "reason": "Sites get_site成功并确认公开权限，但本次运行没有可用浏览器或执行环境，站点API无法读取或写入；保留已有内容，未声称同步成功。"
-    },
-    {
       "id": "publisher-coverage",
-      "reason": "完成PubMed与重点出版商定向检索，未穷尽全部目标期刊逐刊Online First/ToC。"
+      "reason": "完成PubMed、重点期刊与精准麻醉主题检索，未穷尽全部目标期刊逐刊Online First/ToC。"
     }
   ],
   "previous_syncs": [
@@ -424,7 +421,14 @@
       "sites": "partial",
       "github": "success",
       "frontend": "partial"
+    },
+    {
+      "brief_date": "2026-11-24",
+      "overall_status": "partial",
+      "sites": "failed",
+      "github": "success",
+      "frontend": "not_checked"
     }
   ],
-  "last_updated": "2026-11-24"
+  "last_updated": "2026-11-25"
 }

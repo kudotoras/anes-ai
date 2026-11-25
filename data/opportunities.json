@@ -46,7 +46,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-24",
+    "verifiedOn": "2026-11-25",
     "sources": [
       {
         "label": "ESAIC官方摘要页",
@@ -89,15 +89,16 @@
       "2026-11-19",
       "2026-11-21",
       "2026-11-23",
-      "2026-11-24"
+      "2026-11-24",
+      "2026-11-25"
     ],
     "site_catalog_id": "ea2027",
     "provenance": [
       "麻醉AI科研简报"
     ],
     "openingVerifiedOn": "2026-11-01",
-    "verificationNote": "2026-11-24回读ESAIC官方摘要页：截止2026-12-10 23:59 CET；录用摘要需ePoster及短讲，并设Innovation Showcase。",
-    "verification_attempted_on": "2026-11-24",
+    "verificationNote": "2026-11-25回读ESAIC官方摘要页：截止2026-12-10 23:59 CET；录用摘要全文发表于EJA电子增刊，并设Innovation Showcase。",
+    "verification_attempted_on": "2026-11-25",
     "verification_failure": null,
     "brief_date_sources": {
       "2026-10-27": "麻醉AI科研简报",
@@ -125,11 +126,12 @@
       "2026-11-18": "麻醉AI科研简报",
       "2026-11-19": "麻醉AI科研简报",
       "2026-11-23": "麻醉AI科研简报 ∪ 独立检索",
-      "2026-11-24": "独立检索（官方来源复核）"
+      "2026-11-24": "独立检索（官方来源复核）",
+      "2026-11-25": "独立检索（官方来源复核）"
     },
     "needs_review": false,
     "deadline_timezone": "Europe/Copenhagen",
-    "verification_scope": "ESAIC官方摘要页与2027摘要指南v2.0"
+    "verification_scope": "ESAIC官方摘要页与2027摘要指南"
   },
   {
     "id": "conference_ce9a2f54c2",
@@ -147,7 +149,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-24",
+    "verifiedOn": "2026-11-25",
     "sources": [
       {
         "label": "IARS官方摘要征集",
@@ -180,9 +182,10 @@
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
-      "2026-11-24"
+      "2026-11-24",
+      "2026-11-25"
     ],
-    "verificationNote": "2026-11-24回读IARS官方摘要页：截止2026-12-06 23:59 PST；科学摘要正文四部分合计不超过4500字符。",
+    "verificationNote": "2026-11-25回读IARS官方摘要页：截止2026-12-06 23:59 PST；科学摘要正文四部分合计不超过4500字符。",
     "site_catalog_id": "iars2027",
     "provenance": [
       "麻醉AI科研简报"
@@ -204,9 +207,10 @@
       "2026-11-19": "麻醉AI科研简报",
       "2026-11-22": "麻醉AI科研简报 ∪ 独立检索",
       "2026-11-23": "麻醉AI科研简报 ∪ 独立检索",
-      "2026-11-24": "独立检索（官方来源复核）"
+      "2026-11-24": "独立检索（官方来源复核）",
+      "2026-11-25": "独立检索（官方来源复核）"
     },
-    "verification_attempted_on": "2026-11-24",
+    "verification_attempted_on": "2026-11-25",
     "verification_failure": null,
     "deadline_timezone": "America/Los_Angeles",
     "verification_scope": "IARS官方摘要页与完整摘要指南"
@@ -227,7 +231,7 @@
     "archive": false,
     "announcement_date": null,
     "archive_review_required": false,
-    "verifiedOn": "2026-11-24",
+    "verifiedOn": "2026-11-25",
     "sources": [
       {
         "label": "SCA官方会议页",
@@ -246,19 +250,21 @@
       "2026-10-25",
       "2026-10-31",
       "2026-11-17",
-      "2026-11-24"
+      "2026-11-24",
+      "2026-11-25"
     ],
     "site_catalog_id": "conference_95688579fb",
     "provenance": [
       "麻醉AI科研简报"
     ],
-    "verificationNote": "2026-11-24回读SCA官方会议页：科学摘要截止2026-12-01 23:59 EST，录用结果预计2027年1月底通知。",
+    "verificationNote": "2026-11-25回读SCA官方会议页：科学摘要截止2026-12-01 23:59 EST；录用结果预计2027年1月底通知。",
     "needs_review": false,
-    "verification_attempted_on": "2026-11-24",
+    "verification_attempted_on": "2026-11-25",
     "brief_date_sources": {
       "2026-10-31": "麻醉AI科研简报",
       "2026-11-17": "麻醉AI科研简报",
-      "2026-11-24": "独立检索（官方来源复核）"
+      "2026-11-24": "独立检索（官方来源复核）",
+      "2026-11-25": "独立检索（官方来源复核）"
     },
     "verification_failure": null,
     "deadline_timezone": "America/New_York",
@@ -278,23 +284,25 @@
     "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
     "status": "open",
     "description": "ESICM研究项目学会背书征集；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件提交至research@esicm.org。属于项目背书/成果征集，不是论文投稿、墙报或资金奖励。",
-    "verifiedOn": "2026-11-24",
-    "verificationNote": "2026-11-24回读ESICM官方征集页：Call 2截止2026-11-30 23:59 CET；需先获相关Section Lead或委员会批准，并以英文申请表邮件提交。",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "2026-11-25回读ESICM官方征集页：Call 2截止2026-11-30 23:59 CET；申请前须获相关Section Lead或委员会批准。",
     "needs_review": false,
     "site_catalog_id": "esicm-project-endorsement2026-call2",
     "brief_dates": [
       "2026-11-09",
       "2026-11-20",
-      "2026-11-24"
+      "2026-11-24",
+      "2026-11-25"
     ],
     "brief_date_sources": {
       "2026-11-09": "麻醉AI科研简报",
       "2026-11-20": "当日机会复核",
-      "2026-11-24": "独立检索（官方来源复核）"
+      "2026-11-24": "独立检索（官方来源复核）",
+      "2026-11-25": "独立检索（官方来源复核）"
     },
-    "verification_attempted_on": "2026-11-24",
+    "verification_attempted_on": "2026-11-25",
     "verification_failure": null,
-    "verification_scope": "2026-11-17 ESICM官方项目背书征集页；核实开放/关闭日期、申请前置审批、英文申请表及research@esicm.org提交方式。"
+    "verification_scope": "ESICM官方项目背书征集页"
   },
   {
     "id": "competition_80c6f85a8d",
