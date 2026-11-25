@@ -20,13 +20,13 @@
   },
   "github": {
     "status": "success",
-    "readback_commit": "179959a6f43f7500e687ed538f668ea7c6c38377",
-    "verification": "机会与daily_briefs已回读；自动更新随后将research扩充至865条并覆盖history索引，本次已基于最新HEAD重做历史合并。人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "readback_commit": "c6ac7caffa7382293aaf1ccb9317186bd84e8c39",
+    "verification": "机会、daily_briefs与自动PubMed刷新已回读；自动任务扩充research至865条并覆盖history索引，本次已在其最新HEAD上恢复最近7日历史。人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
     "pending_items": []
   },
   "frontend": {
     "status": "not_checked",
-    "verification": "待公开主站浏览器回读。"
+    "verification": "公开主站浏览器运行时无法读取页面要求；已保留公开首页供复核，GitHub数据文件本身已逐项回读。"
   },
   "brief_catchup": {
     "window_start": "2026-11-19",
