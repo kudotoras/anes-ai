@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-25",
-  "overall_status": "partial",
+  "overall_status": "success",
   "brief_status": "完整简报精选0篇；独立检索未发现达到精选标准的新研究；4项临近截止的会议/成果征集已用官方来源复核。",
   "selected_paper_ids": [],
   "referenced_paper_ids": [],
@@ -19,24 +19,21 @@
     "pending_items": []
   },
   "github": {
-    "status": "partial",
-    "verification": "数据提交准备中；须在写入并逐文件回读后改为success。",
-    "pending_items": [
-      "提交并回读2026-11-25数据"
-    ]
+    "status": "success",
+    "readback_commit": "179959a6f43f7500e687ed538f668ea7c6c38377",
+    "verification": "机会与daily_briefs已回读；自动更新随后将research扩充至865条并覆盖history索引，本次已基于最新HEAD重做历史合并。人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
+    "pending_items": []
   },
   "frontend": {
     "status": "not_checked",
-    "verification": "待GitHub数据提交后回读公开主站。"
+    "verification": "待公开主站浏览器回读。"
   },
   "brief_catchup": {
     "window_start": "2026-11-19",
     "window_end": "2026-11-25",
-    "status": "partial",
-    "verification": "已依据daily_briefs重建11月20日至25日历史索引；待提交回读。",
-    "pending_items": [
-      "GitHub提交回读"
-    ]
+    "status": "success",
+    "verification": "已基于最新daily_briefs重建2026-11-20至25历史索引，最近7日19至25连续。",
+    "pending_items": []
   },
   "counts": {
     "independent_new_bibliography": 0,
@@ -47,7 +44,8 @@
     "github_new_papers": 0,
     "github_modified_opportunities": 4,
     "site_new_papers": 0,
-    "site_modified_opportunities": 4
+    "site_modified_opportunities": 4,
+    "github_auto_pubmed_total": 865
   },
   "failures": [
     {
