@@ -13347,6 +13347,21 @@
     "ingested_date": "2026-11-25"
   },
   {
+    "id": "pubmed-43073914",
+    "pmid": "43073914",
+    "doi": "10.1186/s12931-026-03884-z",
+    "title": "Development and validation of an interpretable machine learning model for predicting ICU prognosis in critically ill patients with invasive pulmonary aspergillosis: a multicenter study.",
+    "title_zh": "",
+    "journal": "Respiratory research",
+    "date": "2026-08-31",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43073914/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-25"
+  },
+  {
     "id": "pubmed-42691628",
     "pmid": "42691628",
     "doi": "10.1016/j.bbrc.2026.154511",
@@ -13556,6 +13571,21 @@
     ],
     "site_catalog_id": "morgoth-eeg-foundation-model-2026",
     "provenance": []
+  },
+  {
+    "id": "pubmed-43073791",
+    "pmid": "43073791",
+    "doi": "10.1186/s12883-026-05309-2",
+    "title": "Machine learning-based prediction of early neurological deterioration after stroke embolectomy.",
+    "title_zh": "",
+    "journal": "BMC neurology",
+    "date": "2026-08-25",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43073791/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-25"
   },
   {
     "id": "pubmed-43053061",
@@ -14284,6 +14314,21 @@
     "topic": "自动题录",
     "study_type": "未人工精读",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/43073452/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-25"
+  },
+  {
+    "id": "pubmed-43065051",
+    "pmid": "43065051",
+    "doi": "10.1186/s12912-026-05203-9",
+    "title": "Development and external validation of a machine learning model for early identification of hypotension associated with renal replacement therapy in ICU patients.",
+    "title_zh": "",
+    "journal": "BMC nursing",
+    "date": "2026-08-08",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43065051/",
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-25"
