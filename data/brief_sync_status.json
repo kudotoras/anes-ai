@@ -1,9 +1,12 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-25",
-  "overall_status": "success",
-  "brief_status": "完整简报精选0篇；独立检索未发现达到精选标准的新研究；4项临近截止的会议/成果征集已用官方来源复核。",
-  "selected_paper_ids": [],
+  "brief_date": "2026-11-26",
+  "overall_status": "partial",
+  "brief_status": "聊天简报未完成实时检索；独立检索精选2篇近7日高相关综述，4项临近截止机会官方复核。",
+  "selected_paper_ids": [
+    "pubmed-43070780",
+    "pubmed-43066843"
+  ],
   "referenced_paper_ids": [],
   "competition_ids": [],
   "conference_ids": [
@@ -14,40 +17,49 @@
   ],
   "sites": {
     "status": "success",
-    "revision": "685e711b-6d9d-4b3a-9f85-5d78c86dd391",
-    "verification": "Site已通过部署数据接口写入并回读：论文0变更、机会4变更，lastRun与revision一致；公开权限未改。",
+    "revision": "42d39d63-9f6b-43a2-aa63-b144dca5c451",
+    "verification": "Site已通过数据接口写入并回读：新增论文2篇、机会更新4条，lastRun与revision一致；公开权限未改。",
     "pending_items": []
   },
   "github": {
-    "status": "success",
-    "readback_commit": "c6ac7caffa7382293aaf1ccb9317186bd84e8c39",
-    "verification": "机会、daily_briefs与自动PubMed刷新已回读；自动任务扩充research至865条并覆盖history索引，本次已在其最新HEAD上恢复最近7日历史。人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907。",
-    "pending_items": []
+    "status": "partial",
+    "verification": "数据提交准备中；须在写入并回读后改为success。",
+    "pending_items": [
+      "提交并回读2026-11-26数据"
+    ]
   },
   "frontend": {
     "status": "not_checked",
-    "verification": "公开主站浏览器运行时无法读取页面要求；已保留公开首页供复核，GitHub数据文件本身已逐项回读。"
+    "verification": "待GitHub数据提交后公开主站自然刷新。"
   },
   "brief_catchup": {
-    "window_start": "2026-11-19",
-    "window_end": "2026-11-25",
-    "status": "success",
-    "verification": "已基于最新daily_briefs重建2026-11-20至25历史索引，最近7日19至25连续。",
-    "pending_items": []
+    "window_start": "2026-11-20",
+    "window_end": "2026-11-26",
+    "status": "partial",
+    "verification": "已依据daily_briefs重建11月20日至26日历史索引；待提交回读。",
+    "pending_items": [
+      "GitHub提交回读"
+    ]
   },
   "counts": {
     "independent_new_bibliography": 0,
-    "daily_selected": 0,
+    "independent_modified_papers": 2,
+    "daily_selected": 2,
     "verified_competitions": 0,
     "verified_conferences": 4,
-    "github_history_backfilled": 6,
+    "github_history_backfilled": 7,
     "github_new_papers": 0,
+    "github_modified_papers": 2,
     "github_modified_opportunities": 4,
-    "site_new_papers": 0,
-    "site_modified_opportunities": 4,
-    "github_auto_pubmed_total": 865
+    "site_new_papers": 2,
+    "site_modified_opportunities": 4
   },
   "failures": [
+    {
+      "id": "brief-realtime-search",
+      "reason": "当天聊天简报未完成实时检索；本轮已用独立检索补齐公开可核验内容。",
+      "status": "resolved_by_independent_search"
+    },
     {
       "id": "publisher-coverage",
       "reason": "完成PubMed、重点期刊与精准麻醉主题检索，未穷尽全部目标期刊逐刊Online First/ToC。"
@@ -426,7 +438,14 @@
       "sites": "failed",
       "github": "success",
       "frontend": "not_checked"
+    },
+    {
+      "brief_date": "2026-11-25",
+      "overall_status": "success",
+      "sites": "success",
+      "github": "success",
+      "frontend": "not_checked"
     }
   ],
-  "last_updated": "2026-11-25"
+  "last_updated": "2026-11-26"
 }
