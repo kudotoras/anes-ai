@@ -175,6 +175,51 @@
     "ingested_date": "2026-11-25"
   },
   {
+    "id": "pubmed-43084431",
+    "pmid": "43084431",
+    "doi": "10.1148/rg.250203",
+    "title": "Imaging of Pediatric Pancreas Revisited: Spectrum of Diseases and Diagnostic Clues.",
+    "title_zh": "",
+    "journal": "Radiographics : a review publication of the Radiological Society of North America, Inc",
+    "date": "2026-12",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43084431/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
+    "id": "pubmed-43085747",
+    "pmid": "43085747",
+    "doi": "10.1055/a-3009-2757",
+    "title": "Artificial Intelligence across the Perioperative Continuum in Facial Plastic and Microvascular Surgery: A State-of-the-Art Narrative Review.",
+    "title_zh": "",
+    "journal": "Facial plastic surgery : FPS",
+    "date": "2026-11-25",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43085747/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
+    "id": "pubmed-43079090",
+    "pmid": "43079090",
+    "doi": "10.1007/s00259-026-08219-0",
+    "title": "PET/CT radiomics integrating tumour and whole-body composition enhances prognostic prediction in esophageal squamous cell carcinoma: a multicentre study.",
+    "title_zh": "",
+    "journal": "European journal of nuclear medicine and molecular imaging",
+    "date": "2026-11-25",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43079090/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
     "id": "pubmed-43077230",
     "pmid": "43077230",
     "doi": "10.2196/91597",
@@ -218,6 +263,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-25"
+  },
+  {
+    "id": "pubmed-43078740",
+    "pmid": "43078740",
+    "doi": "10.1016/j.landig.2026.101108",
+    "title": "Artificial intelligence literacy among health-care professionals: a systematic review of reported competency needs.",
+    "title_zh": "",
+    "journal": "The Lancet. Digital health",
+    "date": "2026-11-24",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43078740/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
+    "id": "pubmed-43083744",
+    "pmid": "43083744",
+    "doi": "10.1097/CCE.0000000000001506",
+    "title": "Developing and Externally Validating Machine Learning Models to Forecast Short-Term Risk of Ventilator-Associated Pneumonia.",
+    "title_zh": "",
+    "journal": "Critical care explorations",
+    "date": "2026-11-24",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43083744/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-43071126",
@@ -608,6 +683,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-22"
+  },
+  {
+    "id": "pubmed-43080822",
+    "pmid": "43080822",
+    "doi": "10.2147/JIR.S661246",
+    "title": "ETS1 as a Candidate Biomarker for Sepsis‑Associated Acute Respiratory Distress Syndrome: Multi‑Omics Analysis and Clinical Validation.",
+    "title_zh": "",
+    "journal": "Journal of inflammation research",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43080822/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-43056268",
@@ -1562,6 +1652,21 @@
     "ingested_date": "2026-11-23"
   },
   {
+    "id": "pubmed-43085079",
+    "pmid": "43085079",
+    "doi": "10.1016/j.bjps.2026.11.016",
+    "title": "Defining the role of artificial intelligence in reconstructive microsurgery: An international two-stage survey of reconstructive microsurgeons.",
+    "title_zh": "",
+    "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPRAS",
+    "date": "2026-11-16",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43085079/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
     "id": "pubmed-43034949",
     "pmid": "43034949",
     "doi": "10.1007/s00586-026-10459-5",
@@ -1680,6 +1785,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-22"
+  },
+  {
+    "id": "pubmed-43080573",
+    "pmid": "43080573",
+    "doi": "10.1210/jendso/bvag268",
+    "title": "Machine learning-based prediction of tumor recurrence or progression in patients with nonfunctioning pituitary adenomas.",
+    "title_zh": "",
+    "journal": "Journal of the Endocrine Society",
+    "date": "2026-11-14",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43080573/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-43024933",
@@ -2011,6 +2131,21 @@
     "ingested_date": "2026-11-17"
   },
   {
+    "id": "pubmed-43082545",
+    "pmid": "43082545",
+    "doi": "10.3390/bios16110650",
+    "title": "Next-Generation Molecular Diagnostics for Sepsis: Toward a SPICE-Based Diagnostic Architecture.",
+    "title_zh": "",
+    "journal": "Biosensors",
+    "date": "2026-11-13",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43082545/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
     "id": "pubmed-43018772",
     "pmid": "43018772",
     "doi": "10.1007/s00429-026-03214-5",
@@ -2229,6 +2364,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-19"
+  },
+  {
+    "id": "pubmed-43082544",
+    "pmid": "43082544",
+    "doi": "10.3390/bios16110649",
+    "title": "Clinical Biosensors: Emerging Technologies, Applications, and Translational Horizons.",
+    "title_zh": "",
+    "journal": "Biosensors",
+    "date": "2026-11-12",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43082544/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-43012937",
@@ -2646,6 +2796,51 @@
     "provenance": [
       "麻醉AI科研简报"
     ]
+  },
+  {
+    "id": "pubmed-43080462",
+    "pmid": "43080462",
+    "doi": "10.3389/frai.2026.1944508",
+    "title": "Retrieval-augmented Large Language Models for automated discharge summary generation in post-surgical ICU cancer patients.",
+    "title_zh": "",
+    "journal": "Frontiers in artificial intelligence",
+    "date": "2026-11-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43080462/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
+    "id": "pubmed-43080276",
+    "pmid": "43080276",
+    "doi": "10.3389/fmed.2026.1967654",
+    "title": "Machine-learning models for preoperative prediction of new-onset hypocalcemia within 48 h after intertrochanteric fracture surgery in older adults.",
+    "title_zh": "",
+    "journal": "Frontiers in medicine",
+    "date": "2026-11-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43080276/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
+    "id": "pubmed-43077992",
+    "pmid": "43077992",
+    "doi": "10.1016/j.artmed.2026.103566",
+    "title": "Artificial intelligence and machine learning: Shaping the future of venous thromboembolism diagnosis and prognosis.",
+    "title_zh": "",
+    "journal": "Artificial intelligence in medicine",
+    "date": "2026-11-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43077992/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-43001843",
@@ -3146,6 +3341,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-24"
+  },
+  {
+    "id": "pubmed-43082449",
+    "pmid": "43082449",
+    "doi": "10.3390/curroncol33110686",
+    "title": "Renal Cell Carcinoma with Vena Cava Invasion: Contemporary Oncovascular Management.",
+    "title_zh": "",
+    "journal": "Current oncology (Toronto, Ont.)",
+    "date": "2026-11-06",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43082449/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-42987267",
@@ -4392,6 +4602,21 @@
     "ingested_date": "2026-11-25"
   },
   {
+    "id": "pubmed-43084300",
+    "pmid": "43084300",
+    "doi": "10.1001/jamanetworkopen.2026.45941",
+    "title": "Simplified Regimen for Hypertension Management With Telemedicine and Blood Pressure Self-Monitoring: A Randomized Clinical Trial.",
+    "title_zh": "",
+    "journal": "JAMA network open",
+    "date": "2026-11-02",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43084300/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
     "id": "pubmed-42966909",
     "pmid": "42966909",
     "doi": "10.1002/advs.78587",
@@ -5225,6 +5450,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-16"
+  },
+  {
+    "id": "pubmed-43082811",
+    "pmid": "43082811",
+    "doi": "10.3390/jpm16110561",
+    "title": "Personalized Decision-Making in Spine Surgery: From Predictive Algorithms to Clinical Implementation.",
+    "title_zh": "",
+    "journal": "Journal of personalized medicine",
+    "date": "2026-10-30",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43082811/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "doi-s41551-026-01777-6",
@@ -6086,6 +6326,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-12"
+  },
+  {
+    "id": "pubmed-43082414",
+    "pmid": "43082414",
+    "doi": "10.3390/curroncol33110650",
+    "title": "Decision-Linked Multimodal Prediction in Non-Metastatic Rectal Adenocarcinoma.",
+    "title_zh": "",
+    "journal": "Current oncology (Toronto, Ont.)",
+    "date": "2026-10-27",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43082414/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-42932211",
@@ -7165,6 +7420,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-07"
+  },
+  {
+    "id": "pubmed-43082790",
+    "pmid": "43082790",
+    "doi": "10.3390/jpm16110539",
+    "title": "NSTEMI-CARE: A Calibrated Multilayer Decision-Support Tool for Early Level-of-Care Assignment in Non-ST-Segment Elevation Myocardial Infarction.",
+    "title_zh": "",
+    "journal": "Journal of personalized medicine",
+    "date": "2026-10-22",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43082790/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-42902577",
@@ -13188,6 +13458,21 @@
     }
   },
   {
+    "id": "pubmed-43079396",
+    "pmid": "43079396",
+    "doi": "10.1186/s12887-026-07682-w",
+    "title": "Multidisciplinary rescue and evidence-based nursing intervention for severe postoperative hypoxemia in a former preterm infant: a case report.",
+    "title_zh": "",
+    "journal": "BMC pediatrics",
+    "date": "2026-09-09",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43079396/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
     "id": "pubmed-42700560",
     "pmid": "42700560",
     "doi": "10.1016/j.jclinane.2026.112308",
@@ -13302,6 +13587,21 @@
     "ingested_date": "2026-10-26"
   },
   {
+    "id": "pubmed-43079265",
+    "pmid": "43079265",
+    "doi": "10.1186/s12880-026-02734-0",
+    "title": "Automated whole-brain MRI segmentation combined with clinical scores for the diagnosis of sepsis-associated encephalopathy: a case-control study.",
+    "title_zh": "",
+    "journal": "BMC medical imaging",
+    "date": "2026-09-02",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43079265/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
     "id": "pubmed-42960996",
     "pmid": "42960996",
     "doi": "10.1093/bib/bbag605",
@@ -13315,6 +13615,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-03"
+  },
+  {
+    "id": "pubmed-43079414",
+    "pmid": "43079414",
+    "doi": "10.1186/s12911-026-03803-8",
+    "title": "A clinically explainable temporal fusion model for predicting postoperative acute kidney injury.",
+    "title_zh": "",
+    "journal": "BMC medical informatics and decision making",
+    "date": "2026-09-01",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43079414/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "precision-anesthesia-parmai-perspective-2026",
@@ -14274,6 +14589,21 @@
     "ingested_date": "2026-11-10"
   },
   {
+    "id": "pubmed-43078940",
+    "pmid": "43078940",
+    "doi": "10.1038/s41746-026-03105-3",
+    "title": "Eyecare-Cloud enabling 21 years of real world pediatric ophthalmology practice and paperless healthcare.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43078940/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
     "id": "pubmed-42983310",
     "pmid": "42983310",
     "doi": "10.1186/s12871-026-04152-9",
@@ -14302,6 +14632,36 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-07"
+  },
+  {
+    "id": "pubmed-43078952",
+    "pmid": "43078952",
+    "doi": "10.1038/s41746-026-03107-1",
+    "title": "Sequential question answering AI for hierarchical gastric pathology diagnosis.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43078952/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
+  },
+  {
+    "id": "pubmed-43078912",
+    "pmid": "43078912",
+    "doi": "10.1038/s41746-026-03119-x",
+    "title": "The promise and pitfalls of artificial intelligence in sports medicine.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43078912/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-26"
   },
   {
     "id": "pubmed-43073432",
