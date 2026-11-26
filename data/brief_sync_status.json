@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brief_date": "2026-11-26",
-  "overall_status": "partial",
+  "overall_status": "success",
   "brief_status": "聊天简报未完成实时检索；独立检索精选2篇近7日高相关综述，4项临近截止机会官方复核。",
   "selected_paper_ids": [
     "pubmed-43070780",
@@ -22,24 +22,21 @@
     "pending_items": []
   },
   "github": {
-    "status": "partial",
-    "verification": "数据提交准备中；须在写入并回读后改为success。",
-    "pending_items": [
-      "提交并回读2026-11-26数据"
-    ]
+    "status": "success",
+    "readback_commit": "ac681679092d3afaf8652a5fb3c339e2221fff1a",
+    "verification": "默认分支原子提交后回读：research 868条、opportunities 38条、当日交接2篇论文/0项比赛/4项会议；人工精读摘要SHA保持不变。",
+    "pending_items": []
   },
   "frontend": {
     "status": "not_checked",
-    "verification": "待GitHub数据提交后公开主站自然刷新。"
+    "verification": "本轮按维护说明仅更新已部署数据接口和GitHub数据文件，未修改源码或触发部署；公开前端未作浏览器级核验。"
   },
   "brief_catchup": {
     "window_start": "2026-11-20",
     "window_end": "2026-11-26",
-    "status": "partial",
-    "verification": "已依据daily_briefs重建11月20日至26日历史索引；待提交回读。",
-    "pending_items": [
-      "GitHub提交回读"
-    ]
+    "status": "success",
+    "verification": "已依据daily_briefs重建并回读11月20日至26日连续历史索引；当日为2篇精选、0项比赛、4项会议。",
+    "pending_items": []
   },
   "counts": {
     "independent_new_bibliography": 0,
