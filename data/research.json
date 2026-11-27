@@ -254,15 +254,25 @@
     "pmid": "43076004",
     "doi": "10.1177/08850666261503535",
     "title": "An Interpretable Machine Learning Model for Early Prediction of Septic Shock in Intensive Care Unit Patients: The Incremental Value of Cardiac Output.",
-    "title_zh": "",
-    "journal": "Journal of intensive care medicine",
+    "title_zh": "心输出量对ICU脓毒性休克早期机器学习预测的增量价值",
+    "journal": "Journal of Intensive Care Medicine",
     "date": "2026-11-24",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "重症AI / 脓毒性休克早期预警 / 血流动力学",
+    "study_type": "MIMIC-IV单数据库回顾性建模研究",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/43076004/",
-    "status": "PubMed 自动收录·待人工精读",
+    "status": "PubMed摘要已核验·未入选每日精选",
     "origin": "PubMed",
-    "ingested_date": "2026-11-25"
+    "ingested_date": "2026-11-25",
+    "description": "基于MIMIC-IV v3.0，从7,384例有血流动力学监测记录的患者中纳入1,716例、16,140个小时级预测窗口，预测未来6小时脓毒性休克。加入心输出量及衍生血流动力学指标后，XGBoost留出测试AUROC由0.819升至0.844；心输出量贡献最大，衍生指数增益有限。研究仅为单一公共数据库内部验证，未进行跨中心外部验证或前瞻部署，因此不纳入当日精选。",
+    "verifiedOn": "2026-11-27",
+    "verification_scope": "PubMed题录与摘要；期刊官网目录核对",
+    "needs_review": true,
+    "selected": false,
+    "exclusion_reason": "单一公共数据库、无跨中心外部验证；属于常规AUC+SHAP增量建模，不达到每日精选门槛",
+    "independent_search_dates": [
+      "2026-11-27"
+    ],
+    "source_type": "独立检索非精选；PubMed自动题录保留"
   },
   {
     "id": "pubmed-43078740",

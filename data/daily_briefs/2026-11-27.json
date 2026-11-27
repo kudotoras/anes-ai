@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-27",
+  "source": "麻醉AI科研简报 ∪ 独立检索",
+  "papers": [],
+  "competitions": [],
+  "conferences": [
+    {
+      "id": "esicm-project-endorsement2026-call2",
+      "title": "ESICM Research Second Call for Project Endorsement Applications",
+      "organizer": "ESICM",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-11-30T23:59:00+01:00",
+      "deadline_timezone": "Europe/Brussels",
+      "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
+      "verifiedOn": "2026-11-27",
+      "verification_scope": "ESICM官方项目背书征集页",
+      "verificationNote": "2026-11-27回读ESICM官方征集页：Call 2仍于2026-11-30 23:59 CET截止；申请前须获相关Section Lead或委员会批准。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-27"
+      ]
+    },
+    {
+      "id": "conference_95688579fb",
+      "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
+      "organizer": "Society of Cardiovascular Anesthesiologists（SCA）",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-12-01T23:59:00-05:00",
+      "deadline_timezone": "America/New_York",
+      "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "sources": [
+        {
+          "label": "SCA官方会议页",
+          "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+        },
+        {
+          "label": "SCA官方摘要提交平台",
+          "url": "https://www.abstractscorecard.com/cfp/submit/login.asp?EventKey=IIFKVPGV"
+        }
+      ],
+      "verifiedOn": "2026-11-27",
+      "verification_scope": "SCA官方会议页与摘要提交平台",
+      "verificationNote": "2026-11-27回读SCA官方会议页：科学摘要仍于2026-12-01 23:59 EST截止；录用结果预计2027年1月底通知。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-27"
+      ]
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "International Anesthesia Research Society（IARS） / Society of Critical Care Anesthesiologists（SOCCA）",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "deadline_timezone": "America/Los_Angeles",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "sources": [
+        {
+          "label": "IARS官方摘要征集",
+          "url": "https://meetings.iars.org/abstracts/submissions/"
+        },
+        {
+          "label": "IARS官方摘要指南",
+          "url": "https://meetings.iars.org/wp-content/uploads/2023/03/AM27-Abstract-Submission-Guidelines-V2.pdf"
+        }
+      ],
+      "verifiedOn": "2026-11-27",
+      "verification_scope": "IARS官方摘要页与完整摘要指南",
+      "verificationNote": "2026-11-27回读IARS官方摘要页：仍于2026-12-06 23:59 PST截止；录用科学摘要在线发表于Anesthesia & Analgesia。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-27"
+      ]
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 摘要征集与Innovation Showcase",
+      "organizer": "European Society of Anaesthesiology and Intensive Care（ESAIC）",
+      "category": "conference",
+      "status": "open",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "deadline_timezone": "Europe/Copenhagen",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "sources": [
+        {
+          "label": "ESAIC官方摘要页",
+          "url": "https://euroanaesthesia.org/2027/abstracts/"
+        },
+        {
+          "label": "ESAIC官方指南",
+          "url": "https://euroanaesthesia.org/2027/wp-content/uploads/sites/7/2026/10/EA27_Abstract_Submission_Guidelines-2.0.pdf"
+        }
+      ],
+      "verifiedOn": "2026-11-27",
+      "verification_scope": "ESAIC官方摘要页与2027摘要指南",
+      "verificationNote": "2026-11-27回读ESAIC官方摘要页：仍于2026-12-10 23:59 CET截止；录用摘要发表于EJA电子增刊，并设Innovation Showcase。",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-27"
+      ]
+    }
+  ],
+  "verification_scope": "当天聊天简报完整可取但未完成外部检索；独立检索覆盖PubMed近14日重叠窗口、麻醉/精准麻醉/围术期/重症AI主题及4项官方机会来源。未发现达到每日精选门槛的新研究。",
+  "needs_review": [
+    "Publisher ToC coverage incomplete",
+    "PMID 43076004仅完成题录/摘要核验，因单数据库且无外部验证未入选精选"
+  ],
+  "merge_note": "2026-11-27聊天简报无已核验新增；独立检索核验1篇重症AI论文但不入选每日精选，官方复核4项临近截止机会。",
+  "referenced_paper_ids": [
+    "pubmed-43076004"
+  ]
+}
