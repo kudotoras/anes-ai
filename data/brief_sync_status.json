@@ -21,24 +21,24 @@
     "pending_items": []
   },
   "github": {
-    "status": "partial",
-    "verification": "数据提交准备中；须在写入并回读后改为success。",
-    "pending_items": [
-      "提交并回读2026-11-27数据"
-    ]
+    "status": "success",
+    "readback_commit": "094da9d17975c2853b6cf229ca29cf9c7da328b3",
+    "verification": "默认分支原子提交后回读：research 892条、opportunities 38条、当日交接0篇精选/1篇非精选参考/0项比赛/4项会议；人工精读摘要SHA保持不变。",
+    "pending_items": []
   },
   "frontend": {
-    "status": "not_checked",
-    "verification": "待GitHub数据提交后核对公开主站数据版本。"
+    "status": "partial",
+    "verification": "两条公开前端URL未能通过当前网页读取工具访问；已完成Site数据API与GitHub数据文件回读，但不宣称浏览器级前端已对齐。",
+    "pending_items": [
+      "后续运行重试公开前端回读"
+    ]
   },
   "brief_catchup": {
     "window_start": "2026-11-21",
     "window_end": "2026-11-27",
-    "status": "partial",
-    "verification": "已依据daily_briefs重建11月21日至27日历史索引；待提交回读。",
-    "pending_items": [
-      "GitHub提交回读"
-    ]
+    "status": "success",
+    "verification": "已依据daily_briefs重建并回读11月21日至27日连续历史索引；当日0篇精选、1篇非精选参考、0项比赛、4项会议。",
+    "pending_items": []
   },
   "counts": {
     "independent_new_bibliography": 0,
@@ -62,6 +62,10 @@
     {
       "id": "publisher-coverage",
       "reason": "完成PubMed近14日重叠与重点主题检索，未穷尽全部目标期刊逐刊Online First/ToC。"
+    },
+    {
+      "id": "frontend-readback",
+      "reason": "当前网页读取工具无法访问GitHub Pages和原站/explorer入口；数据层两端已成功回读，前端加载版本待后续重试。"
     }
   ],
   "previous_syncs": [
