@@ -190,6 +190,36 @@
     "ingested_date": "2026-11-26"
   },
   {
+    "id": "pubmed-43102777",
+    "pmid": "43102777",
+    "doi": "10.1186/s40635-026-01004-1",
+    "title": "Digital twin-based simulation of physiological responses to prone positioning in mechanically ventilated ICU patients.",
+    "title_zh": "",
+    "journal": "Intensive care medicine experimental",
+    "date": "2026-11-27",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43102777/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
+  },
+  {
+    "id": "pubmed-43099233",
+    "pmid": "43099233",
+    "doi": "10.1007/s00586-026-10514-1",
+    "title": "Degenerative cervical myelopathy: development and temporal validation of an interpretable machine-learning model for postoperative recovery.",
+    "title_zh": "",
+    "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+    "date": "2026-11-27",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43099233/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
+  },
+  {
     "id": "pubmed-43098584",
     "pmid": "43098584",
     "doi": "10.1136/bmjopen-2026-128986",
@@ -875,6 +905,21 @@
     "ingested_date": "2026-11-27"
   },
   {
+    "id": "pubmed-43102274",
+    "pmid": "43102274",
+    "doi": "10.3791/75581",
+    "title": "Artificial Intelligence-Assisted Surgical Planning in Orthopedics: From Preoperative Imaging to Intraoperative Decision Support.",
+    "title_zh": "",
+    "journal": "Journal of visualized experiments : JoVE",
+    "date": "2026-11-20",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43102274/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
+  },
+  {
     "id": "pubmed-43056268",
     "pmid": "43056268",
     "doi": "10.1109/TMI.2026.3755232",
@@ -1426,6 +1471,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-27"
+  },
+  {
+    "id": "pubmed-43101589",
+    "pmid": "43101589",
+    "doi": "10.31083/RCM52089",
+    "title": "A Peri-Procedural Interpretable Machine Learning Framework to Predict Contrast-Associated Acute Kidney Injury in Older Patients: Development, Temporal Internal Validation, and Exploratory Transportability Analysis.",
+    "title_zh": "",
+    "journal": "Reviews in cardiovascular medicine",
+    "date": "2026-11-18",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43101589/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
   },
   {
     "id": "pubmed-43033141",
@@ -2661,6 +2721,21 @@
     "ingested_date": "2026-11-26"
   },
   {
+    "id": "pubmed-43101198",
+    "pmid": "43101198",
+    "doi": "10.3389/fcell.2026.1988930",
+    "title": "Multi-omics analysis and experimental validation identify ARG2 as a potential metabolic regulator linking metabolic dysregulation to inflammatory cell death in sepsis-induced acute lung injury.",
+    "title_zh": "",
+    "journal": "Frontiers in cell and developmental biology",
+    "date": "2026-11-12",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43101198/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
+  },
+  {
     "id": "pubmed-43012937",
     "pmid": "43012937",
     "doi": "10.1007/s10557-026-07986-0",
@@ -3196,6 +3271,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-27"
+  },
+  {
+    "id": "pubmed-43099624",
+    "pmid": "43099624",
+    "doi": "10.1186/s12916-026-05407-5",
+    "title": "Circulating six-microRNA signature for diagnosis, prognosis, and surgical monitoring in extrahepatic cholangiocarcinoma: a multicenter, multi-cohort study.",
+    "title_zh": "",
+    "journal": "BMC medicine",
+    "date": "2026-11-10",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43099624/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
   },
   {
     "id": "pubmed-43001843",
@@ -5340,6 +5430,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-19"
+  },
+  {
+    "id": "pubmed-43101349",
+    "pmid": "43101349",
+    "doi": "10.6515/ACS.202611_42(6).20260331B",
+    "title": "Utilizing Artificial Intelligence-Enabled Electrocardiography for Mortality Risk Stratification in Patients with Heart Failure with Reduced Ejection Fraction: A Predischarge Treatment Optimization Strategy.",
+    "title_zh": "",
+    "journal": "Acta Cardiologica Sinica",
+    "date": "2026-11",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43101349/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
   },
   {
     "id": "pubmed-42966757",
@@ -14947,6 +15052,21 @@
     "ingested_date": "2026-11-13"
   },
   {
+    "id": "pubmed-43099114",
+    "pmid": "43099114",
+    "doi": "10.1038/s41746-026-03147-7",
+    "title": "A virtual trial framework for generating clinical evidence in orthopedics demonstrated with humeral stem evaluation.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-15",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43099114/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
+  },
+  {
     "id": "pubmed-43009790",
     "pmid": "43009790",
     "doi": "10.1186/s12871-026-04173-4",
@@ -15035,6 +15155,21 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-11-27"
+  },
+  {
+    "id": "pubmed-43099123",
+    "pmid": "43099123",
+    "doi": "10.1038/s41746-026-03143-x",
+    "title": "Causal inference framework for personalised b/tsDMARD selection in rheumatoid arthritis: ANSWER cohort validation.",
+    "title_zh": "",
+    "journal": "NPJ digital medicine",
+    "date": "2026-08-13",
+    "topic": "自动题录",
+    "study_type": "未人工精读",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/43099123/",
+    "status": "PubMed 自动收录·待人工精读",
+    "origin": "PubMed",
+    "ingested_date": "2026-11-28"
   },
   {
     "id": "pubmed-43086406",
@@ -16733,6 +16868,45 @@
     "status": "PubMed 自动收录·待人工精读",
     "origin": "PubMed",
     "ingested_date": "2026-10-27"
+  },
+  {
+    "id": "pubmed-42268736",
+    "pmid": "42268736",
+    "doi": "10.1213/ANE.0000000000008148",
+    "title": "Large-Scale Evaluation of Five Large Language Models in Anesthesia Decision-Making for Hip Fracture Surgery.",
+    "title_zh": "五种大语言模型在髋部骨折麻醉决策中的大规模评估",
+    "journal": "Anesthesia & Analgesia",
+    "date": "2026-06-10",
+    "topic": "精准麻醉；大模型与智能体；临床决策支持；患者安全",
+    "study_type": "析因临床情景模拟研究",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42268736/",
+    "status": "PubMed与出版商页面已核验·高价值补看",
+    "origin": "PubMed",
+    "description": "216个髋部骨折手术析因情景、5种通用大模型各重复采样50次，共54000个回答。模型选择椎管内麻醉的比例为76.1%–88.6%，部分理由所称获益与近期随机试验证据不一致。局限：纯情景模拟，无真实患者结局、外部临床验证或前瞻性部署。",
+    "verification_scope": "PubMed题录与摘要、Anesthesia & Analgesia DOI出版商页面",
+    "verifiedOn": "2026-11-28",
+    "selected": true,
+    "selection_source": "独立检索高价值补看",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-11-28"
+    ],
+    "selection_dates": [
+      "2026-11-28"
+    ],
+    "brief_date_sources": {
+      "2026-11-28": "独立检索高价值补看"
+    },
+    "sources": [
+      {
+        "label": "PubMed原始题录",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42268736/"
+      },
+      {
+        "label": "Anesthesia & Analgesia DOI页",
+        "url": "https://doi.org/10.1213/ANE.0000000000008148"
+      }
+    ]
   },
   {
     "id": "legacy-18",
@@ -18508,44 +18682,5 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
-  },
-  {
-    "id": "pubmed-42268736",
-    "pmid": "42268736",
-    "doi": "10.1213/ANE.0000000000008148",
-    "title": "Large-Scale Evaluation of Five Large Language Models in Anesthesia Decision-Making for Hip Fracture Surgery.",
-    "title_zh": "五种大语言模型在髋部骨折麻醉决策中的大规模评估",
-    "journal": "Anesthesia & Analgesia",
-    "date": "2026-06-10",
-    "topic": "精准麻醉；大模型与智能体；临床决策支持；患者安全",
-    "study_type": "析因临床情景模拟研究",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42268736/",
-    "status": "PubMed与出版商页面已核验·高价值补看",
-    "origin": "PubMed",
-    "description": "216个髋部骨折手术析因情景、5种通用大模型各重复采样50次，共54000个回答。模型选择椎管内麻醉的比例为76.1%–88.6%，部分理由所称获益与近期随机试验证据不一致。局限：纯情景模拟，无真实患者结局、外部临床验证或前瞻性部署。",
-    "verification_scope": "PubMed题录与摘要、Anesthesia & Analgesia DOI出版商页面",
-    "verifiedOn": "2026-11-28",
-    "selected": true,
-    "selection_source": "独立检索高价值补看",
-    "needs_review": false,
-    "brief_dates": [
-      "2026-11-28"
-    ],
-    "selection_dates": [
-      "2026-11-28"
-    ],
-    "brief_date_sources": {
-      "2026-11-28": "独立检索高价值补看"
-    },
-    "sources": [
-      {
-        "label": "PubMed原始题录",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42268736/"
-      },
-      {
-        "label": "Anesthesia & Analgesia DOI页",
-        "url": "https://doi.org/10.1213/ANE.0000000000008148"
-      }
-    ]
   }
 ]
