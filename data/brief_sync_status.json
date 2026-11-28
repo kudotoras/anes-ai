@@ -22,12 +22,10 @@
     "pending_items": []
   },
   "github": {
-    "status": "pending",
-    "readback_commit": null,
-    "verification": "等待原子提交与回读。",
-    "pending_items": [
-      "提交并回读5个数据文件"
-    ]
+    "status": "success",
+    "readback_commit": "61cabc5bd540b5b92a89360c14ab3ceaa66306fb",
+    "verification": "默认分支原子提交后逐文件回读：research 935条、opportunities 38条、当日交接2篇精选/0项比赛/4项会议；人工精读摘要SHA保持59c764c19d3c69d5db42781b974f72219e2b3907不变。",
+    "pending_items": []
   },
   "frontend": {
     "status": "partial",
@@ -39,11 +37,9 @@
   "brief_catchup": {
     "window_start": "2026-11-22",
     "window_end": "2026-11-28",
-    "status": "pending",
-    "verification": "已依据daily_briefs重建11月22日至28日历史索引，待提交回读。",
-    "pending_items": [
-      "提交并回读history_briefs"
-    ]
+    "status": "success",
+    "verification": "已依据daily_briefs重建并回读11月22日至28日连续历史索引；当日2篇精选、0项比赛、4项会议。",
+    "pending_items": []
   },
   "counts": {
     "independent_new_bibliography": 1,
