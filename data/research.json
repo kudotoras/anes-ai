@@ -3717,15 +3717,40 @@
     "pmid": "42987267",
     "doi": "10.2196/90724",
     "title": "American Society of Anesthesiologists Physical Status Classification: Hybrid Machine Learning-Large Language Model Ensemble Retrospective Validation Study.",
-    "title_zh": "",
-    "journal": "Journal of medical Internet research",
+    "title_zh": "混合机器学习—大语言模型集成用于ASA体格状态分级",
+    "journal": "Journal of Medical Internet Research",
     "date": "2026-11-05",
-    "topic": "自动题录",
-    "study_type": "未人工精读",
+    "topic": "精准麻醉；术前风险分层；临床大模型",
+    "study_type": "单中心回顾性开发与内部验证研究",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42987267/",
-    "status": "PubMed 自动收录·待人工精读",
+    "status": "PubMed与出版商全文页已核验·每日精选",
     "origin": "PubMed",
-    "ingested_date": "2026-11-06"
+    "ingested_date": "2026-11-06",
+    "description": "3000例成人手术就诊按2000/500/500例划分训练、验证与留出测试集。XGBoost与GPT-4o并行集成在留出集的宏平均F1为0.530、完全一致率0.630、±1级准确率0.980。局限：单中心、无外部或前瞻性验证，专家上限仅基于两名麻醉医师复核50份病历，少见ASA V类别不稳定。",
+    "verification_scope": "PubMed题录与摘要、JMIR出版商全文页",
+    "verifiedOn": "2026-11-28",
+    "selected": true,
+    "selection_source": "独立检索精选",
+    "needs_review": false,
+    "sources": [
+      {
+        "label": "PubMed原始题录",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42987267/"
+      },
+      {
+        "label": "JMIR正式全文页",
+        "url": "https://www.jmir.org/2026/1/e90724/"
+      }
+    ],
+    "brief_dates": [
+      "2026-11-28"
+    ],
+    "selection_dates": [
+      "2026-11-28"
+    ],
+    "brief_date_sources": {
+      "2026-11-28": "独立检索精选"
+    }
   },
   {
     "id": "pubmed-42986174",
@@ -18483,5 +18508,44 @@
     "metadata_checked_on": "2026-10-29",
     "verifiedOn": null,
     "needs_review": true
+  },
+  {
+    "id": "pubmed-42268736",
+    "pmid": "42268736",
+    "doi": "10.1213/ANE.0000000000008148",
+    "title": "Large-Scale Evaluation of Five Large Language Models in Anesthesia Decision-Making for Hip Fracture Surgery.",
+    "title_zh": "五种大语言模型在髋部骨折麻醉决策中的大规模评估",
+    "journal": "Anesthesia & Analgesia",
+    "date": "2026-06-10",
+    "topic": "精准麻醉；大模型与智能体；临床决策支持；患者安全",
+    "study_type": "析因临床情景模拟研究",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42268736/",
+    "status": "PubMed与出版商页面已核验·高价值补看",
+    "origin": "PubMed",
+    "description": "216个髋部骨折手术析因情景、5种通用大模型各重复采样50次，共54000个回答。模型选择椎管内麻醉的比例为76.1%–88.6%，部分理由所称获益与近期随机试验证据不一致。局限：纯情景模拟，无真实患者结局、外部临床验证或前瞻性部署。",
+    "verification_scope": "PubMed题录与摘要、Anesthesia & Analgesia DOI出版商页面",
+    "verifiedOn": "2026-11-28",
+    "selected": true,
+    "selection_source": "独立检索高价值补看",
+    "needs_review": false,
+    "brief_dates": [
+      "2026-11-28"
+    ],
+    "selection_dates": [
+      "2026-11-28"
+    ],
+    "brief_date_sources": {
+      "2026-11-28": "独立检索高价值补看"
+    },
+    "sources": [
+      {
+        "label": "PubMed原始题录",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42268736/"
+      },
+      {
+        "label": "Anesthesia & Analgesia DOI页",
+        "url": "https://doi.org/10.1213/ANE.0000000000008148"
+      }
+    ]
   }
 ]

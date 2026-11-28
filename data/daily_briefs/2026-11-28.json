@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "brief_date": "2026-11-28",
+  "source": "麻醉AI科研简报 ∪ 独立检索",
+  "papers": [
+    {
+      "id": "pubmed-42987267",
+      "pmid": "42987267",
+      "doi": "10.2196/90724",
+      "title": "American Society of Anesthesiologists Physical Status Classification: Hybrid Machine Learning-Large Language Model Ensemble Retrospective Validation Study.",
+      "title_zh": "混合机器学习—大语言模型集成用于ASA体格状态分级",
+      "journal": "Journal of Medical Internet Research",
+      "date": "2026-11-05",
+      "topic": "精准麻醉；术前风险分层；临床大模型",
+      "study_type": "单中心回顾性开发与内部验证研究",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42987267/",
+      "status": "PubMed与出版商全文页已核验·每日精选",
+      "description": "3000例成人手术就诊按2000/500/500例划分训练、验证与留出测试集。XGBoost与GPT-4o并行集成在留出集的宏平均F1为0.530、完全一致率0.630、±1级准确率0.980。局限：单中心、无外部或前瞻性验证，专家上限仅基于两名麻醉医师复核50份病历，少见ASA V类别不稳定。",
+      "verifiedOn": "2026-11-28",
+      "verification_scope": "PubMed题录与摘要、JMIR出版商全文页",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-28"
+      ],
+      "selection_dates": [
+        "2026-11-28"
+      ],
+      "sources": [
+        {
+          "label": "PubMed原始题录",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42987267/"
+        },
+        {
+          "label": "JMIR正式全文页",
+          "url": "https://www.jmir.org/2026/1/e90724/"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-42268736",
+      "pmid": "42268736",
+      "doi": "10.1213/ANE.0000000000008148",
+      "title": "Large-Scale Evaluation of Five Large Language Models in Anesthesia Decision-Making for Hip Fracture Surgery.",
+      "title_zh": "五种大语言模型在髋部骨折麻醉决策中的大规模评估",
+      "journal": "Anesthesia & Analgesia",
+      "date": "2026-06-10",
+      "topic": "精准麻醉；大模型与智能体；临床决策支持；患者安全",
+      "study_type": "析因临床情景模拟研究",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42268736/",
+      "status": "PubMed与出版商页面已核验·高价值补看",
+      "description": "216个髋部骨折手术析因情景、5种通用大模型各重复采样50次，共54000个回答。模型选择椎管内麻醉的比例为76.1%–88.6%，部分理由所称获益与近期随机试验证据不一致。局限：纯情景模拟，无真实患者结局、外部临床验证或前瞻性部署。",
+      "verifiedOn": "2026-11-28",
+      "verification_scope": "PubMed题录与摘要、Anesthesia & Analgesia DOI出版商页面",
+      "needs_review": false,
+      "brief_dates": [
+        "2026-11-28"
+      ],
+      "selection_dates": [
+        "2026-11-28"
+      ],
+      "sources": [
+        {
+          "label": "PubMed原始题录",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42268736/"
+        },
+        {
+          "label": "Anesthesia & Analgesia DOI页",
+          "url": "https://doi.org/10.1213/ANE.0000000000008148"
+        }
+      ]
+    }
+  ],
+  "competitions": [],
+  "conferences": [
+    {
+      "id": "esicm-project-endorsement2026-call2",
+      "title": "ESICM Research Second Call for Project Endorsement Applications",
+      "category": "conference",
+      "organizer": "ESICM",
+      "date": "2026-11-30",
+      "deadline": "2026-11-30T23:59:00+01:00",
+      "deadlineLabel": "2026-11-30 23:59 CET（北京时间12月1日06:59）",
+      "deadlineInstant": "2026-11-30T22:59:00Z",
+      "deadline_timezone": "Europe/Brussels",
+      "announcement_date": "2026-11-02",
+      "source_url": "https://www.esicm.org/esicm-research-second-call-for-project-endorsement-applications/",
+      "status": "open",
+      "description": "ESICM研究项目学会背书征集；申请前须取得相关Section Lead或委员会批准，并将英文申请表邮件提交至research@esicm.org。属于项目背书/成果征集，不是论文投稿、墙报或资金奖励。",
+      "verifiedOn": "2026-11-28",
+      "verificationNote": "2026-11-28回读ESICM官方征集页：Call 2仍于2026-11-30 23:59 CET截止；申请前须获相关Section Lead或委员会批准。",
+      "needs_review": false,
+      "site_catalog_id": "esicm-project-endorsement2026-call2",
+      "brief_dates": [
+        "2026-11-09",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28"
+      ],
+      "brief_date_sources": {
+        "2026-11-09": "麻醉AI科研简报",
+        "2026-11-20": "当日机会复核",
+        "2026-11-24": "独立检索（官方来源复核）",
+        "2026-11-25": "独立检索（官方来源复核）",
+        "2026-11-26": "独立检索（官方来源复核）",
+        "2026-11-27": "独立检索（官方来源复核）",
+        "2026-11-28": "独立检索（官方来源复核）"
+      },
+      "verification_attempted_on": "2026-11-28",
+      "verification_failure": null,
+      "verification_scope": "ESICM官方项目背书征集页"
+    },
+    {
+      "id": "conference_95688579fb",
+      "title": "SCA 2027心血管麻醉年会 · 科学摘要征集",
+      "organizer": "Society of Cardiovascular Anesthesiologists（SCA）",
+      "journal": "Society of Cardiovascular Anesthesiologists",
+      "date": "2026-12-01",
+      "deadline": "2026-12-01T23:59:00-05:00",
+      "category": "conference",
+      "topic": "心血管麻醉 / 围术期监测与技术",
+      "description": "官方摘要系统已开放；12月1日23:59 EST截止，1月下旬通知结果，ePoster PDF上传截止2027年3月8日。可提交科学摘要并申请相关评审；官方会议页未说明摘要是否进入正式期刊增刊或数据库检索。",
+      "source_url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-11-28",
+      "sources": [
+        {
+          "label": "SCA官方会议页",
+          "url": "https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/"
+        },
+        {
+          "label": "SCA官方摘要提交平台",
+          "url": "https://www.abstractscorecard.com/cfp/submit/login.asp?EventKey=IIFKVPGV"
+        }
+      ],
+      "deadlineLabel": "2026-12-01 23:59 EST（北京时间12月2日12:59）",
+      "deadlineInstant": "2026-12-02T04:59:00Z",
+      "event": "2027-04-08—11 · 美国拉斯维加斯",
+      "format": "科学摘要 / ePoster",
+      "brief_dates": [
+        "2026-10-25",
+        "2026-10-31",
+        "2026-11-17",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28"
+      ],
+      "site_catalog_id": "conference_95688579fb",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "verificationNote": "2026-11-28回读SCA官方会议页与摘要系统：科学摘要仍于2026-12-01 23:59 EST截止。",
+      "needs_review": false,
+      "verification_attempted_on": "2026-11-28",
+      "brief_date_sources": {
+        "2026-10-31": "麻醉AI科研简报",
+        "2026-11-17": "麻醉AI科研简报",
+        "2026-11-24": "独立检索（官方来源复核）",
+        "2026-11-25": "独立检索（官方来源复核）",
+        "2026-11-26": "独立检索（官方来源复核）",
+        "2026-11-27": "独立检索（官方来源复核）",
+        "2026-11-28": "独立检索（官方来源复核）"
+      },
+      "verification_failure": null,
+      "deadline_timezone": "America/New_York",
+      "verification_scope": "SCA官方会议页与摘要提交平台"
+    },
+    {
+      "id": "conference_ce9a2f54c2",
+      "title": "IARS & SOCCA 2027 · 摘要与墙报征集",
+      "organizer": "International Anesthesia Research Society（IARS） / Society of Critical Care Anesthesiologists（SOCCA）",
+      "journal": "IARS / SOCCA",
+      "date": "2026-12-06",
+      "deadline": "2026-12-06T23:59:00-08:00",
+      "category": "conference",
+      "topic": "麻醉 / 围术期 / 重症 / 监测与技术 / 脑健康",
+      "description": "英文科学摘要；Introduction、Methods、Results、Conclusions合计≤4500字符（含空格），每段≤2500字符。可申请Kosaka Best Abstract Award；录用后现场墙报或电子展示。实际展示的科学摘要在线发表于Anesthesia & Analgesia；属于会议摘要发表，不是完整论文。研究在2027年会前不得先发表于索引期刊。",
+      "source_url": "https://meetings.iars.org/abstracts/submissions/",
+      "status": "open",
+      "historical_status": "has_future_deadline_reported",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-11-28",
+      "sources": [
+        {
+          "label": "IARS官方摘要征集",
+          "url": "https://meetings.iars.org/abstracts/submissions/"
+        },
+        {
+          "label": "IARS官方摘要指南",
+          "url": "https://meetings.iars.org/wp-content/uploads/2023/03/AM27-Abstract-Submission-Guidelines-V2.pdf"
+        }
+      ],
+      "deadlineLabel": "2026-12-06 23:59 PST（北京时间12月7日15:59）",
+      "deadlineInstant": "2026-12-07T07:59:00Z",
+      "event": "2027-04-30—05-02 · 美国芝加哥",
+      "format": "摘要 / 墙报",
+      "brief_dates": [
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28"
+      ],
+      "verificationNote": "2026-11-28回读IARS官方摘要页：仍于2026-12-06 23:59 PST截止；录用科学摘要在线发表于Anesthesia & Analgesia。",
+      "site_catalog_id": "iars2027",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "needs_review": false,
+      "brief_date_sources": {
+        "2026-10-27": "麻醉AI科研简报",
+        "2026-10-26": "麻醉AI科研简报",
+        "2026-10-28": "麻醉AI科研简报",
+        "2026-11-01": "麻醉AI科研简报",
+        "2026-11-02": "麻醉AI科研简报",
+        "2026-11-03": "麻醉AI科研简报",
+        "2026-11-12": "麻醉AI科研简报",
+        "2026-11-13": "麻醉AI科研简报",
+        "2026-11-14": "麻醉AI科研简报",
+        "2026-11-15": "麻醉AI科研简报",
+        "2026-11-16": "麻醉AI科研简报",
+        "2026-11-17": "麻醉AI科研简报",
+        "2026-11-19": "麻醉AI科研简报",
+        "2026-11-22": "麻醉AI科研简报 ∪ 独立检索",
+        "2026-11-23": "麻醉AI科研简报 ∪ 独立检索",
+        "2026-11-24": "独立检索（官方来源复核）",
+        "2026-11-25": "独立检索（官方来源复核）",
+        "2026-11-26": "独立检索（官方来源复核）",
+        "2026-11-27": "独立检索（官方来源复核）",
+        "2026-11-28": "独立检索（官方来源复核）"
+      },
+      "verification_attempted_on": "2026-11-28",
+      "verification_failure": null,
+      "deadline_timezone": "America/Los_Angeles",
+      "verification_scope": "IARS官方摘要页与完整摘要指南"
+    },
+    {
+      "id": "conference_95a23edf4a",
+      "title": "Euroanaesthesia 2027 · 摘要征集与Innovation Showcase",
+      "organizer": "European Society of Anaesthesiology and Intensive Care（ESAIC）",
+      "journal": "ESAIC",
+      "date": "2026-12-10",
+      "deadline": "2026-12-10T23:59:00+01:00",
+      "category": "conference",
+      "topic": "麻醉 / 围术期 / 设备与技术 / 数字医疗",
+      "description": "英文摘要题目≤300字符、正文≤2500字符、最多6位作者；录用后需现场ePoster展示并作简短口头介绍，摘要全文发表于European Journal of Anaesthesiology（EJA）e-supplement。首次设Innovation Showcase，可展示原型、设备、数字解决方案和教育工具；已进入商业开发/商业化流程的方案不符合该展示项目条件。AI使用须披露。最佳摘要奖及20名培训阶段作者的注册与差旅资助。",
+      "source_url": "https://euroanaesthesia.org/2027/abstracts/",
+      "status": "open",
+      "historical_status": "deadline_corrected_2026-10-28",
+      "archive": false,
+      "announcement_date": null,
+      "archive_review_required": false,
+      "verifiedOn": "2026-11-28",
+      "sources": [
+        {
+          "label": "ESAIC官方摘要页",
+          "url": "https://euroanaesthesia.org/2027/abstracts/"
+        },
+        {
+          "label": "ESAIC官方指南",
+          "url": "https://euroanaesthesia.org/2027/wp-content/uploads/sites/7/2026/10/EA27_Abstract_Submission_Guidelines-2.0.pdf"
+        }
+      ],
+      "deadlineLabel": "2026-12-10 23:59 CET（北京时间12月11日06:59）",
+      "deadlineInstant": "2026-12-10T22:59:00Z",
+      "event": "2027-05-29—31 · 丹麦哥本哈根",
+      "format": "英文摘要/ePoster；可申请Innovation Showcase原型展示",
+      "brief_dates": [
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28"
+      ],
+      "site_catalog_id": "ea2027",
+      "provenance": [
+        "麻醉AI科研简报"
+      ],
+      "openingVerifiedOn": "2026-11-01",
+      "verificationNote": "2026-11-28回读ESAIC官方摘要页：仍于2026-12-10 23:59 CET截止；录用摘要发表于EJA电子增刊，并设Innovation Showcase。",
+      "verification_attempted_on": "2026-11-28",
+      "verification_failure": null,
+      "brief_date_sources": {
+        "2026-10-27": "麻醉AI科研简报",
+        "2026-10-26": "麻醉AI科研简报",
+        "2026-10-28": "麻醉AI科研简报",
+        "2026-10-29": "麻醉AI科研简报",
+        "2026-10-30": "麻醉AI科研简报",
+        "2026-10-31": "麻醉AI科研简报",
+        "2026-11-01": "麻醉AI科研简报",
+        "2026-11-02": "麻醉AI科研简报",
+        "2026-11-03": "麻醉AI科研简报",
+        "2026-11-05": "麻醉AI科研简报",
+        "2026-11-06": "麻醉AI科研简报",
+        "2026-11-07": "麻醉AI科研简报",
+        "2026-11-08": "麻醉AI科研简报",
+        "2026-11-09": "麻醉AI科研简报",
+        "2026-11-10": "麻醉AI科研简报",
+        "2026-11-11": "麻醉AI科研简报",
+        "2026-11-12": "麻醉AI科研简报",
+        "2026-11-13": "麻醉AI科研简报",
+        "2026-11-14": "麻醉AI科研简报",
+        "2026-11-15": "麻醉AI科研简报",
+        "2026-11-16": "麻醉AI科研简报",
+        "2026-11-17": "麻醉AI科研简报",
+        "2026-11-18": "麻醉AI科研简报",
+        "2026-11-19": "麻醉AI科研简报",
+        "2026-11-23": "麻醉AI科研简报 ∪ 独立检索",
+        "2026-11-24": "独立检索（官方来源复核）",
+        "2026-11-25": "独立检索（官方来源复核）",
+        "2026-11-26": "独立检索（官方来源复核）",
+        "2026-11-27": "独立检索（官方来源复核）",
+        "2026-11-28": "独立检索（官方来源复核）"
+      },
+      "needs_review": false,
+      "deadline_timezone": "Europe/Copenhagen",
+      "verification_scope": "ESAIC官方摘要页与2027摘要指南"
+    }
+  ],
+  "verification_scope": "当天聊天简报完成但未执行外部检索；独立检索覆盖PubMed近14日重叠窗口、麻醉/精准麻醉/围术期/重症AI主题、JMIR与Anesthesia & Analgesia出版商页面及4项官方机会来源。",
+  "needs_review": [
+    "Publisher ToC coverage incomplete",
+    "仅2篇达到精选门槛，少于目标3篇但不以旧文凑数"
+  ],
+  "merge_note": "聊天简报0篇；独立检索精选2篇（1篇严格近期、1篇高价值补看），官方复核4项临近截止机会；无比赛变化。"
+}

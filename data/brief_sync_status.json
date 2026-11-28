@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "brief_date": "2026-11-27",
+  "brief_date": "2026-11-28",
   "overall_status": "partial",
-  "brief_status": "聊天简报未完成外部检索；独立检索未发现达到精选门槛的新研究，核验1篇单数据库重症AI论文作为非精选参考，并复核4项临近截止机会。",
-  "selected_paper_ids": [],
-  "referenced_paper_ids": [
-    "pubmed-43076004"
+  "brief_status": "当天聊天简报完成但未完成外部检索；独立检索精选2篇（1篇严格近期、1篇高价值补看），少于3篇不凑数；复核4项临近截止机会。",
+  "selected_paper_ids": [
+    "pubmed-42987267",
+    "pubmed-42268736"
   ],
+  "referenced_paper_ids": [],
   "competition_ids": [],
   "conference_ids": [
     "esicm-project-endorsement2026-call2",
@@ -16,56 +17,60 @@
   ],
   "sites": {
     "status": "success",
-    "revision": "429d8b29-6bee-4344-9bce-5d2f78de0456",
-    "verification": "Site已通过数据接口写入并回读：论文变更0、机会更新4条、新增期刊目录1项；公开权限未改。",
+    "revision": "669efdf6-d385-4779-afd4-be0e93678840",
+    "verification": "Site数据接口写入并回读：新增论文2、机会更新4；目录为156篇/27项，公开只读权限未改。",
     "pending_items": []
   },
   "github": {
-    "status": "success",
-    "readback_commit": "094da9d17975c2853b6cf229ca29cf9c7da328b3",
-    "verification": "默认分支原子提交后回读：research 892条、opportunities 38条、当日交接0篇精选/1篇非精选参考/0项比赛/4项会议；人工精读摘要SHA保持不变。",
-    "pending_items": []
+    "status": "pending",
+    "readback_commit": null,
+    "verification": "等待原子提交与回读。",
+    "pending_items": [
+      "提交并回读5个数据文件"
+    ]
   },
   "frontend": {
     "status": "partial",
-    "verification": "两条公开前端URL未能通过当前网页读取工具访问；已完成Site数据API与GitHub数据文件回读，但不宣称浏览器级前端已对齐。",
+    "verification": "已完成Site数据API回读；浏览器级公开前端未在本次运行中确认。",
     "pending_items": [
       "后续运行重试公开前端回读"
     ]
   },
   "brief_catchup": {
-    "window_start": "2026-11-21",
-    "window_end": "2026-11-27",
-    "status": "success",
-    "verification": "已依据daily_briefs重建并回读11月21日至27日连续历史索引；当日0篇精选、1篇非精选参考、0项比赛、4项会议。",
-    "pending_items": []
+    "window_start": "2026-11-22",
+    "window_end": "2026-11-28",
+    "status": "pending",
+    "verification": "已依据daily_briefs重建11月22日至28日历史索引，待提交回读。",
+    "pending_items": [
+      "提交并回读history_briefs"
+    ]
   },
   "counts": {
-    "independent_new_bibliography": 0,
+    "independent_new_bibliography": 1,
     "independent_modified_papers": 1,
-    "daily_selected": 0,
+    "daily_selected": 2,
     "verified_competitions": 0,
     "verified_conferences": 4,
     "github_history_backfilled": 7,
-    "github_new_papers": 0,
+    "github_new_papers": 1,
     "github_modified_papers": 1,
     "github_modified_opportunities": 4,
-    "site_new_papers": 0,
+    "site_new_papers": 2,
     "site_modified_opportunities": 4,
-    "site_new_journals": 1
+    "site_new_journals": 0
   },
   "failures": [
     {
       "id": "daily-selection-threshold",
-      "reason": "仅发现1篇近期重症AI单数据库建模研究，因无外部验证且为常规AUC+SHAP框架未入选；今日精选0篇，未以旧文凑数。"
+      "reason": "仅2篇达到严格最新/高价值补看门槛，少于目标3篇；未以无实质更新旧文凑数。"
     },
     {
       "id": "publisher-coverage",
-      "reason": "完成PubMed近14日重叠与重点主题检索，未穷尽全部目标期刊逐刊Online First/ToC。"
+      "reason": "完成PubMed重叠检索与重点出版商定向复查，未穷尽全部目标期刊逐刊Online First/ToC。"
     },
     {
       "id": "frontend-readback",
-      "reason": "当前网页读取工具无法访问GitHub Pages和原站/explorer入口；数据层两端已成功回读，前端加载版本待后续重试。"
+      "reason": "已完成两端数据层回读流程；浏览器级公开前端仍待后续重试。"
     }
   ],
   "previous_syncs": [
@@ -455,7 +460,12 @@
       "sites": "success",
       "github": "success",
       "frontend": "not_checked"
+    },
+    {
+      "date": "2026-11-27",
+      "overall_status": "partial",
+      "sites": "success",
+      "github": "success"
     }
-  ],
-  "last_updated": "2026-11-27"
+  ]
 }
